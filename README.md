@@ -25,6 +25,11 @@ Because the page is regenerated from the repository rather than read back
 out of itself, history is lossless and unbounded. Delete a JSON file and it
 disappears from the site; restore it and it comes back.
 
+Once there are at least two editions on file, the page also grows a **By
+ticker** section: one row per ticker, one chip per day it appeared, coloured
+by direction and carrying that day's move. It is the fastest way to see how
+a single name has been treated over time without opening each day.
+
 ## Running it yourself
 
 No dependencies — Python 3 standard library only.

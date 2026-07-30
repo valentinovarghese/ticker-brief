@@ -47,13 +47,31 @@ def load_editions():
     return out
 
 
+MONTHS = ("Jan", "Feb", "Mar", "Apr", "May", "Jun",
+          "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
+DAYS = ("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")
+
+
 def pretty_date(iso):
     y, m, d = (int(p) for p in iso.split("-"))
     dt = date(y, m, d)
-    months = ("Jan", "Feb", "Mar", "Apr", "May", "Jun",
-              "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
-    days = ("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")
-    return f"{days[dt.weekday()]} {dt.day} {months[dt.month - 1]} {dt.year}"
+    return f"{DAYS[dt.weekday()]} {dt.day} {MONTHS[dt.month - 1]} {dt.year}"
+
+
+def short_date(iso):
+    y, m, d = (int(p) for p in iso.split("-"))
+    return f"{d} {MONTHS[m - 1]}"
+
+
+def short_move(move):
+    """Just the percentage, if there is one.
+
+    Entry moves range from '+16.6% &middot; best day since 2008' to
+    'reports after close'. The index is a price trail, so keep the number
+    and drop both the commentary and the non-numeric placeholders.
+    """
+    head = move.split("&middot;")[0]
+    return next((w for w in head.split() if "%" in w), "")
 
 
 # ---------------------------------------------------------------- sections
@@ -171,6 +189,39 @@ def render_body(ed):
     ])
 
 
+def render_ticker_index(editions):
+    """One row per ticker, one chip per day it appeared, newest first.
+
+    Pointless with a single edition on file, so it only appears once there
+    is something to compare against.
+    """
+    if len(editions) < 2:
+        return ""
+
+    trails = {}
+    for ed in editions:
+        for e in ed["entries"]:
+            trails.setdefault(e["ticker"], []).append(
+                (ed["date"], e.get("dir", "flat"), e.get("move", ""))
+            )
+
+    rows = []
+    for ticker in sorted(trails):
+        chips = []
+        for iso, direction, move in trails[ticker]:
+            mv = short_move(move)
+            chips.append(
+                f'<span class="chip {direction}">{short_date(iso)}'
+                + (f"<i>{mv}</i>" if mv else "")
+                + "</span>"
+            )
+        rows.append(f'<div class="trow"><span class="tname {trails[ticker][0][1]}">'
+                    f'{ticker}</span><span class="chips">{"".join(chips)}</span></div>')
+
+    return ('<section class="band"><h2>By ticker &middot; every day on file</h2>'
+            f'<div class="tindex">{"".join(rows)}</div></section>')
+
+
 def render_archive(older):
     if not older:
         return ('<section class="band"><h2>Previous days</h2>'
@@ -202,6 +253,7 @@ def render_page(editions):
         dateline=render_gauge(latest),
         headline=latest["headline"],
         body=render_body(latest),
+        tindex=render_ticker_index(editions),
         archive=render_archive(older),
         count=len(editions),
     )
@@ -329,6 +381,21 @@ CSS = """
   ul.dates .d { font-family:var(--mono); font-size:.8rem; color:var(--ink);
                 font-variant-numeric:tabular-nums; min-width:5.2rem; }
 
+  .tindex { display:flex; flex-direction:column; gap:.5rem; }
+  .trow { display:grid; grid-template-columns:4.2rem 1fr; gap:.6rem;
+          align-items:baseline; }
+  .tname { font-family:var(--sans); font-size:.82rem; font-weight:680;
+           letter-spacing:.03em; }
+  .tname.up{color:var(--bull);} .tname.down{color:var(--bear);}
+  .tname.flat{color:var(--ink);}
+  .chips { display:flex; flex-wrap:wrap; gap:.3rem; }
+  .chip { font-family:var(--mono); font-size:.7rem; font-variant-numeric:tabular-nums;
+          border:1px solid var(--rule); border-radius:2px; padding:.12rem .38rem;
+          color:var(--ink-mute); white-space:nowrap; }
+  .chip i { font-style:normal; margin-left:.35rem; }
+  .chip.up { color:var(--bull); border-color:currentColor; }
+  .chip.down { color:var(--bear); border-color:currentColor; }
+
   details.day { border-top:1px solid var(--rule); padding:.9rem 0; }
   details.day summary { cursor:pointer; font-family:var(--mono); font-size:.82rem;
                         color:var(--ink-soft); font-variant-numeric:tabular-nums;
@@ -369,6 +436,7 @@ PAGE = """<title>Ticker Brief</title>
     {dateline}
   </header>
   {body}
+  {tindex}
   {archive}
   <footer class="colophon">
     <dl>

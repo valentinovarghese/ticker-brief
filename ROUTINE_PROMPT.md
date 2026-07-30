@@ -8,13 +8,42 @@ dividend changes, contracts with dollar values, regulatory or legal actions,
 analyst-day hard numbers. Exclude opinion pieces, price targets, commentary.
 
 === WHEN THIS RUNS ===
-This fires at 12:00 UK time — 7am in New York, before the US market opens.
-The only price data you have is the previous session's close plus any
-after-hours and premarket trading. Always say which one you are using.
+This is scheduled for 12:00 UK time — 7am in New York, before the US market
+opens. Check the clock at the start of the run. Do not assume it fired on
+time.
+
+If it did, the only price data you have is the previous session's close plus
+any after-hours and premarket trading. Always say which one you are using.
 Treat a premarket move as provisional: volume is thin and it frequently
 reverses at the open. Never write about a premarket move as though it were
 a settled reaction, and never imply the market has "decided" anything
 before the bell.
+
+If it fired late and the market is open or already closed, say so in one
+line at the top and use the price data that genuinely exists. Never call a
+live intraday price a close. Never call a session settled while it is still
+trading.
+
+=== GETTING THE NUMBERS RIGHT ===
+This brief is only worth reading if I can trust the figures. Four rules.
+
+DATE EVERY ITEM BEFORE YOU WRITE IT UP. A fresh article about an old event
+is still an old event. Results reported last week and contracts signed a
+fortnight ago are not news from the past 24 hours, however recent the
+coverage looks. If you cannot establish when something happened, leave it
+out.
+
+CHECK EVERY HEADLINE FIGURE TWICE. Prefer the company's own release or SEC
+filing over press coverage. If two sources disagree, use the primary one and
+say in one clause that reports differ.
+
+SEPARATE THE MOVE BEFORE THE NEWS FROM THE MOVE AFTER IT. A stock that fell
+during the session before an after-hours report did not fall on that report.
+Name the window every time: prior close, after-hours, premarket, or live
+intraday.
+
+A BIG MOVE ON NO COMPANY NEWS IS THE SECTOR. Say so plainly and name the
+real driver. Never let a sector move pose as a company event.
 
 === WHAT THIS BRIEF IS FOR ===
 I can find the numbers myself. What I need is why a number changes what a
@@ -56,11 +85,13 @@ THEN ONE BLOCK PER TICKER:
     the business, which changes what the stock is worth because Y. Name what
     it moves: growth rate, margins, cash flow, backlog, or what investors
     will pay per dollar of earnings.
-  Already priced in? Compare the news to the previous session's close and to
-    any after-hours or premarket move, naming which you used. Moved in line
-    → "largely priced in." Hasn't moved or moved opposite → flag it and say
-    what the market seems to be weighting instead. If the only evidence is
-    premarket, mark the read provisional and say the open will settle it.
+  Already priced in? Name the price window you are using — prior close,
+    after-hours, premarket, or live intraday — then compare the news to it.
+    Moved in line → "largely priced in." Hasn't moved or moved opposite →
+    flag it and say what the market seems to be weighting instead. If the
+    only evidence is premarket, mark the read provisional and say the open
+    will settle it. If the move you are quoting happened before the news
+    landed, say that explicitly — it is not a reaction.
   Would flip if: one specific thing that would reverse the read.
   Next date: one concrete upcoming date or trigger.
 
