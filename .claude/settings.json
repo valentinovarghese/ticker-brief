@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "permissions": {
+    "allow": [
+      "Bash(git *)",
+      "Bash(python3 build.py*)",
+      "Bash(date*)",
+      "Bash(wc *)",
+      "Bash(ls *)",
+      "Bash(cat *)",
+      "Bash(head *)",
+      "Bash(tail *)",
+      "Bash(grep *)",
+      "Bash(sed *)",
+      "WebSearch",
+      "WebFetch",
+      "Artifact",
+      "PushNotification",
+      "Read",
+      "Edit(editions/**)",
+      "Write(editions/**)",
+      "Edit(site.html)",
+      "Write(site.html)",
+      "Edit(ROUTINE_PROMPT.md)",
+      "Edit(README.md)"
+    ],
+    "deny": [
+      "Bash(git push * --force*)",
+      "Bash(git push * -f *)",
+      "Bash(rm -rf *)"
+    ]
+  }
+}
