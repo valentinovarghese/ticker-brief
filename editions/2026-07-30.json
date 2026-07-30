@@ -1,0 +1,184 @@
+{
+  "date": "2026-07-30",
+  "weekday": "Thu",
+  "headline": "Microsoft added $100B of cloud revenue and a $65B spending increase on the same night — and rose 15% for it.",
+  "gauge": [
+    { "text": "QQQ +2.5–3%", "tone": "up" },
+    { "text": "SOXX +8%", "tone": "flat" },
+    { "text": "12 tickers · 7 with news", "tone": "flat" }
+  ],
+  "quick": [
+    "Two big earnings reports pulled in opposite directions. Microsoft's cloud growth sped up and the stock had its best day since 2008. Meta's profit missed and it fell 9%.",
+    "Both raised spending sharply. The market rewarded one and punished the other — the reason why is the most useful thing on this page.",
+    "The Fed held rates but three officials voted to <em>raise</em> them. Tech ignored it completely and traded on earnings instead."
+  ],
+  "macro": [
+    {
+      "dt": "The Fed held rates steady, with three officials dissenting in favour of a hike",
+      "lead": "How it reaches these stocks",
+      "dd": "Fast-growing tech is priced on profits expected years from now, and those distant profits are worth less when interest rates stay high. Three votes to hike is the hawkish tail nobody had priced — it means the next move might be up rather than down. That matters more to Nvidia or Palantir than to a mature, cash-rich business."
+    },
+    {
+      "dt": "Q2 GDP came in at 1.5%, below expectations, while annual PCE inflation held at 4%",
+      "lead": "How it reaches these stocks",
+      "dd": "Slow growth with sticky inflation is the combination that removes the Fed's room to cut. Treasury yields rose sharply on the release. Normally that is a direct headwind to growth valuations."
+    },
+    {
+      "dt": "The market ignored all of it",
+      "lead": "The gauge",
+      "dd": "QQQ rose roughly 2.5–3% and the semiconductor index gained 8%. When rate news this hawkish gets overridden inside a session, it means positioning is being driven by AI earnings, not by macro. Worth noting: that also means macro risk is still sitting there unpriced."
+    }
+  ],
+  "entries": [
+    {
+      "ticker": "MSFT",
+      "dir": "up",
+      "strength": "major",
+      "strength_label": "Major · bullish",
+      "move": "+15% · best day since 2008",
+      "move_tone": "up",
+      "happened": "Microsoft's cloud business grew faster than expected, and it raised next year's spending budget by about a third.",
+      "figures": [
+        "Revenue&nbsp; <b>$90.0B</b> vs $87.6B expected &nbsp;(+18% y/y)",
+        "EPS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>$4.74</b> vs $4.24 expected &nbsp;(+23% y/y)",
+        "Azure&nbsp;&nbsp;&nbsp; <b>+41%</b>, passed <b>$100B</b> for the year &mdash; a first",
+        "FY27 capex <b>$255&ndash;260B</b> vs ~$190B this year"
+      ],
+      "why": "Azure's growth rate is the single number investors price Microsoft on, because it stands in for how long AI demand lasts. That rate had been slowing; it is now speeding up, and management guided to about 45% next quarter. Re-acceleration extends how many years of fast growth investors are willing to assume — which moves the valuation more than the earnings beat itself does.",
+      "foot": [
+        { "k": "Already priced in?", "v": "Yes — a 15% move captures it. Largely priced in.", "flag": false },
+        { "k": "Would flip if", "v": "Next quarter's Azure growth lands below the 45% guided.", "flag": false },
+        { "k": "Next date", "v": "FQ1 results, late October.", "flag": false }
+      ]
+    },
+    {
+      "ticker": "META",
+      "dir": "down",
+      "strength": "major",
+      "strength_label": "Major · bearish",
+      "move": "−9% to ~$531",
+      "move_tone": "down",
+      "happened": "Revenue beat comfortably, but profit missed badly and nearly all the cash the business generated went out the door as spending.",
+      "figures": [
+        "Revenue&nbsp;&nbsp; <b>$60.8B</b> vs $59.5B expected &nbsp;(+28% y/y)",
+        "EPS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>$6.18</b> vs $7.13 expected &nbsp;(&minus;13.8%)",
+        "Free cash flow <b>$784M</b> &mdash; against <b>$31.1B</b> of quarterly capex",
+        "FY26 capex floor raised to <b>$130&ndash;145B</b>",
+        "Q3 guide <b>$62.5B</b> vs $63.2B expected"
+      ],
+      "why": "Free cash flow — the cash left after a company pays for its buildings and equipment — collapsed to $784M. For a business earning tens of billions, that is close to zero. It means Meta is now spending essentially everything it makes on AI infrastructure, which removes the buffer that funded buybacks and absorbed bad quarters. Raising the <em>floor</em> of the spending range matters more than the ceiling: a floor is a commitment, not an option.",
+      "foot": [
+        { "k": "Already priced in?", "v": "Yes — the 9% drop reflects it. Largely priced in.", "flag": false },
+        { "k": "Would flip if", "v": "Q3 shows the capex floor stabilising and free cash flow recovering.", "flag": false },
+        { "k": "Next date", "v": "Q3 results, late October.", "flag": false }
+      ],
+      "note_after": {
+        "title": "The asymmetry worth understanding",
+        "body": "Microsoft and Meta both raised spending sharply on the same night. One rose 15%, the other fell 9%. The difference is not the amount — it is what the spending buys. Microsoft's turns into cloud capacity it has already signed customers for, so the spend arrives attached to contracted revenue. Meta's turns into better ad targeting and AI research, with no signed revenue behind it. Investors treat the first as investment and the second as cost. Whenever you see a capex headline, that is the question to ask."
+      }
+    },
+    {
+      "ticker": "NBIS",
+      "dir": "up",
+      "strength": "notable",
+      "strength_label": "Notable · bullish",
+      "move": "~+4% premarket",
+      "move_tone": "flat",
+      "happened": "Nebius signed a compute deal with Reflection AI worth more than $1B, running through 2029.",
+      "figures": [
+        "New deal&nbsp;&nbsp; <b>&gt;$1B</b>, multi-year, through <b>2029</b>",
+        "Existing&nbsp;&nbsp; $27B Meta &middot; $20B Microsoft &middot; $2B Nvidia investment"
+      ],
+      "why": "Nebius rents out AI computing power, so its value rests on backlog — revenue already under contract. Backlog is what lets a company this capital-hungry borrow to build more, because lenders price the loan against contracts already signed. Another $1B extends visible revenue three years out, which lowers the risk that its buildout gets stranded.",
+      "foot": [
+        { "k": "Not priced in — flagging", "v": "The stock rose only ~4% on a day when chips broadly rose 8%. So it underperformed a sector move while carrying its own good news. The market may be discounting the deal, or reading the sector rally as the bigger force.", "flag": true },
+        { "k": "Would flip if", "v": "Revenue recognition detail shows the $1B lands mostly in 2029 rather than near-term.", "flag": false },
+        { "k": "Next date", "v": "Next quarterly results, for contract timing detail.", "flag": false }
+      ]
+    },
+    {
+      "ticker": "HOOD",
+      "dir": "down",
+      "strength": "notable",
+      "strength_label": "Notable · bearish",
+      "move": "−3.15% to $89.84",
+      "move_tone": "down",
+      "happened": "Robinhood beat earnings estimates by 51% and set a Q2 revenue record — and the stock fell anyway.",
+      "figures": [
+        "EPS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>$0.62</b> vs $0.41 expected &nbsp;(+51%)",
+        "Revenue&nbsp;&nbsp; <b>$1.31B</b> &mdash; record for a Q2",
+        "Transaction revenue <b>+44%</b>",
+        "Crypto revenue <b>$100M</b>, <b>&minus;38%</b> y/y"
+      ],
+      "why": "Robinhood's valuation assumes it keeps adding users and keeps crypto trading as a high-margin engine. Crypto revenue falling 38% attacks the second half of that, and a reported slowdown in new accounts during July attacks the first. A big earnings beat that comes from trading activity is worth less than one that comes from account growth, because trading activity swings with market conditions and account growth compounds.",
+      "foot": [
+        { "k": "Moved opposite — flagging", "v": "A 51% beat that the stock sold off. The market is weighting the growth slowdown over the quarter's profit, which usually signals it has stopped paying for the current quarter and started pricing the next one.", "flag": true },
+        { "k": "Would flip if", "v": "August account additions reaccelerate.", "flag": false },
+        { "k": "Next date", "v": "Monthly operating metrics release.", "flag": false }
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "dir": "flat",
+      "strength": "minor",
+      "strength_label": "Minor · neutral",
+      "move": "reports tonight",
+      "move_tone": "flat",
+      "happened": "Apple reports fiscal Q3 results after the close today.",
+      "figures": [
+        "Expected revenue <b>~$108.9B</b> &nbsp;(+16% y/y)",
+        "Expected EPS&nbsp;&nbsp;&nbsp;&nbsp; <b>~$1.89</b> &nbsp;(+20% y/y)"
+      ],
+      "why": "Nothing has happened yet — this is a scheduled event, not news. The one structural item: this is expected to be Tim Cook's final earnings call as CEO before John Ternus takes over on 1 September, so any succession or strategy commentary carries more weight than usual.",
+      "foot": [
+        { "k": "Next date", "v": "Tonight, 5:00pm ET.", "flag": false }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "dir": "flat",
+      "strength": "minor",
+      "strength_label": "Minor · neutral",
+      "move": "reports tonight",
+      "move_tone": "flat",
+      "happened": "Amazon reports Q2 results after the close today, with Prime Day pulled into the quarter.",
+      "figures": [
+        "Expected revenue <b>~$197.0B</b> &nbsp;(+18% y/y)",
+        "Expected EPS&nbsp;&nbsp;&nbsp;&nbsp; <b>~$1.82</b> &nbsp;(+8% y/y)"
+      ],
+      "why": "Scheduled event. Given how the market treated Microsoft and Meta tonight, the number that will drive the reaction is not revenue but AWS growth and the 2027 spending guide — and specifically whether Amazon can point to contracted demand behind the spend, the way Microsoft could.",
+      "foot": [
+        { "k": "Next date", "v": "Tonight, 5:00pm ET.", "flag": false }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "dir": "flat",
+      "strength": "minor",
+      "strength_label": "Minor · neutral",
+      "move": "+2%",
+      "move_tone": "up",
+      "happened": "Nvidia set 26 August as the date for its next quarterly results. That is the entire company-specific news.",
+      "figures": [],
+      "why": "It doesn't, on its own — scheduling a call is routine. Today's 2% rise came from the sector, not from Nvidia. The genuine read-through is indirect: Microsoft's $255–260B spending guide is future revenue for whoever supplies the chips, and Nvidia is the largest such supplier.",
+      "foot": [
+        { "k": "Next date", "v": "26 August, quarterly results.", "flag": false }
+      ]
+    }
+  ],
+  "readthrough": {
+    "title": "Where Microsoft's spending lands",
+    "body": "A cloud company raising its spending budget is not an isolated event — that money becomes revenue for the companies it buys from. Microsoft guiding to $255–260B is a direct positive for the chip suppliers (NVDA, MRVL, INTC) and for the smaller cloud builders competing for the same demand (NBIS). This is most of why chips rose 8% today on news that was technically about a software company."
+  },
+  "nothing_material": {
+    "tickers": ["TSLA", "GOOGL", "PLTR", "INTC", "MRVL"],
+    "note": {
+      "title": "But two of them moved hard",
+      "body": "INTC rose about 12% and MRVL about 10% today. Neither announced anything. Both moves came from the sector — Lam Research rose 20% on strong results, Microsoft lifted its spending guide, and Samsung warned the memory shortage could run into 2028. This distinction matters: a sector move can reverse just as fast, because nothing changed at the company itself."
+    }
+  },
+  "earnings_ahead": [
+    { "when": "30 Jul", "what": "<b>AAPL</b> and <b>AMZN</b> &mdash; tonight, after close" },
+    { "when": "3 Aug", "what": "<b>PLTR</b> &mdash; Monday, after close" }
+  ]
+}

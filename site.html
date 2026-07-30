@@ -1,0 +1,165 @@
+<title>Ticker Brief</title>
+<style>
+  :root {
+    --ground:#F6F6F4; --surface:#FFFFFF; --ink:#14181C; --ink-soft:#414C55;
+    --ink-mute:#6B767F; --rule:#DCDFDB; --rule-soft:#E8EAE6; --slate:#2F4858;
+    --bull:#146B4A; --bear:#A33227; --flag-bg:#F0EDE3; --flag-ink:#6E5A18;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+    --sans:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;
+    --col:44rem;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground:#12161A; --surface:#181D22; --ink:#E7EAE7; --ink-soft:#B4BEC4;
+      --ink-mute:#8B979F; --rule:#2B323A; --rule-soft:#222932; --slate:#9BBACD;
+      --bull:#4FBF8B; --bear:#E0796C; --flag-bg:#232019; --flag-ink:#CBB66E;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground:#12161A; --surface:#181D22; --ink:#E7EAE7; --ink-soft:#B4BEC4;
+    --ink-mute:#8B979F; --rule:#2B323A; --rule-soft:#222932; --slate:#9BBACD;
+    --bull:#4FBF8B; --bear:#E0796C; --flag-bg:#232019; --flag-ink:#CBB66E;
+  }
+  :root[data-theme="light"] {
+    --ground:#F6F6F4; --surface:#FFFFFF; --ink:#14181C; --ink-soft:#414C55;
+    --ink-mute:#6B767F; --rule:#DCDFDB; --rule-soft:#E8EAE6; --slate:#2F4858;
+    --bull:#146B4A; --bear:#A33227; --flag-bg:#F0EDE3; --flag-ink:#6E5A18;
+  }
+
+  body { background:var(--ground); color:var(--ink); font-family:var(--serif);
+         font-size:17px; line-height:1.6; -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:var(--col); margin:0 auto; padding:3rem 1.4rem 5rem;
+          display:flex; flex-direction:column; gap:2.75rem; }
+
+  .masthead { display:flex; flex-direction:column; gap:1rem; }
+  .wordmark { font-family:var(--sans); font-size:.72rem; font-weight:600;
+              letter-spacing:.22em; text-transform:uppercase; color:var(--slate); }
+  .masthead h1 { font-size:clamp(1.6rem,4.4vw,2.15rem); line-height:1.24;
+                 font-weight:600; text-wrap:balance; margin:0; }
+  .dateline { font-family:var(--mono); font-size:.76rem; color:var(--ink-mute);
+              display:flex; flex-wrap:wrap; gap:.5rem 1.1rem;
+              font-variant-numeric:tabular-nums; }
+  .dateline .gauge { color:var(--bull); }
+
+  .band { display:flex; flex-direction:column; gap:.9rem; }
+  .band > h2 { font-family:var(--sans); font-size:.7rem; font-weight:650;
+               letter-spacing:.18em; text-transform:uppercase; color:var(--ink-mute);
+               margin:0; padding-bottom:.55rem; border-bottom:1px solid var(--rule); }
+
+  ol.quick { list-style:none; margin:0; padding:0; display:flex;
+             flex-direction:column; gap:.7rem; counter-reset:q; }
+  ol.quick li { counter-increment:q; display:grid; grid-template-columns:1.6rem 1fr;
+                gap:.35rem; align-items:baseline; }
+  ol.quick li::before { content:counter(q); font-family:var(--mono); font-size:.72rem;
+                        color:var(--ink-mute); font-variant-numeric:tabular-nums; }
+
+  dl.macro { margin:0; display:flex; flex-direction:column; gap:1.1rem; }
+  dl.macro dt { font-family:var(--sans); font-size:.88rem; font-weight:600; }
+  dl.macro dd { margin:.2rem 0 0; color:var(--ink-soft); font-size:.97rem; }
+  .lead { font-family:var(--sans); font-size:.66rem; font-weight:650;
+          letter-spacing:.14em; text-transform:uppercase; color:var(--slate);
+          margin-right:.45rem; }
+
+  .entries { display:flex; flex-direction:column; }
+  article.entry { padding:1.6rem 0; border-bottom:1px solid var(--rule-soft);
+                  display:flex; flex-direction:column; gap:.85rem; }
+  article.entry:first-of-type { padding-top:.5rem; }
+  .entry-head { display:flex; flex-wrap:wrap; align-items:baseline; gap:.5rem .75rem; }
+  .tick { font-family:var(--sans); font-size:1.28rem; font-weight:680; letter-spacing:.03em; }
+  .tick.up{color:var(--bull);} .tick.down{color:var(--bear);} .tick.flat{color:var(--ink);}
+  .arrow { font-size:.85em; }
+  .strength { font-family:var(--sans); font-size:.63rem; font-weight:650;
+              letter-spacing:.15em; text-transform:uppercase; padding:.2rem .5rem;
+              border:1px solid var(--rule); color:var(--ink-mute); border-radius:2px; }
+  .strength.major { color:var(--ink); border-color:currentColor; }
+  .move { font-family:var(--mono); font-size:.82rem; font-variant-numeric:tabular-nums;
+          color:var(--ink-mute); margin-left:auto; }
+  .move.up{color:var(--bull);} .move.down{color:var(--bear);}
+
+  .happened { font-size:1.02rem; margin:0; }
+  .figures { font-family:var(--mono); font-size:.8rem; line-height:1.75;
+             font-variant-numeric:tabular-nums; color:var(--ink-soft);
+             background:var(--surface); border:1px solid var(--rule-soft);
+             border-radius:2px; padding:.7rem .85rem; margin:0; overflow-x:auto; }
+  .figures b { color:var(--ink); font-weight:600; }
+  .why { margin:0; color:var(--ink-soft); }
+
+  .footline { display:flex; flex-direction:column; gap:.4rem; font-size:.9rem;
+              color:var(--ink-mute); }
+  .footline span.k { font-family:var(--sans); font-size:.64rem; font-weight:650;
+                     letter-spacing:.13em; text-transform:uppercase; margin-right:.4rem; }
+  .flag { background:var(--flag-bg); color:var(--flag-ink); padding:.55rem .75rem;
+          border-radius:2px; font-size:.9rem; }
+  .flag span.k { color:var(--flag-ink); }
+
+  .note { background:var(--surface); border:1px solid var(--rule-soft);
+          border-radius:2px; padding:1rem 1.1rem; display:flex;
+          flex-direction:column; gap:.45rem; margin-top:.4rem; }
+  .note h3 { font-family:var(--sans); font-size:.68rem; font-weight:650;
+             letter-spacing:.15em; text-transform:uppercase; color:var(--slate); margin:0; }
+  .note p { margin:0; color:var(--ink-soft); font-size:.97rem; }
+
+  .quiet { font-size:.95rem; color:var(--ink-mute); margin:0; }
+  .quiet b { color:var(--ink); font-weight:600; }
+
+  ul.dates { list-style:none; margin:0; padding:0; display:flex;
+             flex-direction:column; gap:.5rem; }
+  ul.dates li { font-size:.95rem; color:var(--ink-soft); display:flex; gap:.7rem; }
+  ul.dates .d { font-family:var(--mono); font-size:.8rem; color:var(--ink);
+                font-variant-numeric:tabular-nums; min-width:5.2rem; }
+
+  details.day { border-top:1px solid var(--rule); padding:.9rem 0; }
+  details.day summary { cursor:pointer; font-family:var(--mono); font-size:.82rem;
+                        color:var(--ink-soft); font-variant-numeric:tabular-nums;
+                        list-style:none; display:flex; gap:.7rem; align-items:baseline; }
+  details.day summary::-webkit-details-marker { display:none; }
+  details.day summary::before { content:"+"; color:var(--ink-mute); font-size:.9rem; }
+  details.day[open] summary::before { content:"\2013"; }
+  details.day summary:focus-visible { outline:2px solid var(--slate); outline-offset:3px; }
+  details.day summary .sum { color:var(--ink-mute); }
+  details.day .archive-body { padding-top:1.4rem; display:flex;
+                              flex-direction:column; gap:2rem; }
+  details.day .archive-body .band > h2 { font-size:.64rem; }
+
+  .empty { font-size:.93rem; color:var(--ink-mute); font-style:italic; }
+
+  .colophon { border-top:1px solid var(--rule); padding-top:1.3rem; display:flex;
+              flex-direction:column; gap:.7rem; font-size:.85rem; color:var(--ink-mute); }
+  .colophon dl { margin:0; display:grid; grid-template-columns:auto 1fr; gap:.35rem .9rem; }
+  .colophon dt { font-family:var(--sans); font-size:.64rem; font-weight:650;
+                 letter-spacing:.13em; text-transform:uppercase; padding-top:.15rem; }
+  .colophon dd { margin:0; }
+  .colophon .disclaim { font-style:italic; }
+  a { color:var(--slate); }
+
+  @media (max-width:34rem) {
+    body { font-size:16px; }
+    .wrap { padding:2.2rem 1.1rem 3.5rem; gap:2.2rem; }
+    .move { margin-left:0; width:100%; }
+  }
+</style>
+<div class="wrap">
+  <header class="masthead">
+    <div class="wordmark">Ticker Brief</div>
+    <h1>Microsoft added $100B of cloud revenue and a $65B spending increase on the same night — and rose 15% for it.</h1>
+    <div class="dateline"><span>Thu 30 Jul 2026</span><span class="gauge">QQQ +2.5–3%</span><span>SOXX +8%</span><span>12 tickers · 7 with news</span></div>
+  </header>
+  <section class="band"><h2>The 30-second version</h2><ol class="quick"><li>Two big earnings reports pulled in opposite directions. Microsoft's cloud growth sped up and the stock had its best day since 2008. Meta's profit missed and it fell 9%.</li><li>Both raised spending sharply. The market rewarded one and punished the other — the reason why is the most useful thing on this page.</li><li>The Fed held rates but three officials voted to <em>raise</em> them. Tech ignored it completely and traded on earnings instead.</li></ol></section><section class="band"><h2>Market-wide</h2><dl class="macro"><dt>The Fed held rates steady, with three officials dissenting in favour of a hike</dt><dd><span class="lead">How it reaches these stocks</span>Fast-growing tech is priced on profits expected years from now, and those distant profits are worth less when interest rates stay high. Three votes to hike is the hawkish tail nobody had priced — it means the next move might be up rather than down. That matters more to Nvidia or Palantir than to a mature, cash-rich business.</dd><dt>Q2 GDP came in at 1.5%, below expectations, while annual PCE inflation held at 4%</dt><dd><span class="lead">How it reaches these stocks</span>Slow growth with sticky inflation is the combination that removes the Fed's room to cut. Treasury yields rose sharply on the release. Normally that is a direct headwind to growth valuations.</dd><dt>The market ignored all of it</dt><dd><span class="lead">The gauge</span>QQQ rose roughly 2.5–3% and the semiconductor index gained 8%. When rate news this hawkish gets overridden inside a session, it means positioning is being driven by AI earnings, not by macro. Worth noting: that also means macro risk is still sitting there unpriced.</dd></dl></section><section class="band"><h2>Items &middot; sorted by size</h2><div class="entries"><article class="entry"><div class="entry-head"><span class="tick up"><span class="arrow">&#9650;</span> MSFT</span><span class="strength major">Major · bullish</span><span class="move up">+15% · best day since 2008</span></div><p class="happened">Microsoft's cloud business grew faster than expected, and it raised next year's spending budget by about a third.</p><p class="figures">Revenue&nbsp; <b>$90.0B</b> vs $87.6B expected &nbsp;(+18% y/y)<br>EPS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>$4.74</b> vs $4.24 expected &nbsp;(+23% y/y)<br>Azure&nbsp;&nbsp;&nbsp; <b>+41%</b>, passed <b>$100B</b> for the year &mdash; a first<br>FY27 capex <b>$255&ndash;260B</b> vs ~$190B this year</p><p class="why"><span class="lead">Why it matters</span>Azure's growth rate is the single number investors price Microsoft on, because it stands in for how long AI demand lasts. That rate had been slowing; it is now speeding up, and management guided to about 45% next quarter. Re-acceleration extends how many years of fast growth investors are willing to assume — which moves the valuation more than the earnings beat itself does.</p><div class="footline"><div class=""><span class="k">Already priced in?</span>Yes — a 15% move captures it. Largely priced in.</div><div class=""><span class="k">Would flip if</span>Next quarter's Azure growth lands below the 45% guided.</div><div class=""><span class="k">Next date</span>FQ1 results, late October.</div></div></article><article class="entry"><div class="entry-head"><span class="tick down"><span class="arrow">&#9660;</span> META</span><span class="strength major">Major · bearish</span><span class="move down">−9% to ~$531</span></div><p class="happened">Revenue beat comfortably, but profit missed badly and nearly all the cash the business generated went out the door as spending.</p><p class="figures">Revenue&nbsp;&nbsp; <b>$60.8B</b> vs $59.5B expected &nbsp;(+28% y/y)<br>EPS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>$6.18</b> vs $7.13 expected &nbsp;(&minus;13.8%)<br>Free cash flow <b>$784M</b> &mdash; against <b>$31.1B</b> of quarterly capex<br>FY26 capex floor raised to <b>$130&ndash;145B</b><br>Q3 guide <b>$62.5B</b> vs $63.2B expected</p><p class="why"><span class="lead">Why it matters</span>Free cash flow — the cash left after a company pays for its buildings and equipment — collapsed to $784M. For a business earning tens of billions, that is close to zero. It means Meta is now spending essentially everything it makes on AI infrastructure, which removes the buffer that funded buybacks and absorbed bad quarters. Raising the <em>floor</em> of the spending range matters more than the ceiling: a floor is a commitment, not an option.</p><div class="footline"><div class=""><span class="k">Already priced in?</span>Yes — the 9% drop reflects it. Largely priced in.</div><div class=""><span class="k">Would flip if</span>Q3 shows the capex floor stabilising and free cash flow recovering.</div><div class=""><span class="k">Next date</span>Q3 results, late October.</div></div></article><div class="note"><h3>The asymmetry worth understanding</h3><p>Microsoft and Meta both raised spending sharply on the same night. One rose 15%, the other fell 9%. The difference is not the amount — it is what the spending buys. Microsoft's turns into cloud capacity it has already signed customers for, so the spend arrives attached to contracted revenue. Meta's turns into better ad targeting and AI research, with no signed revenue behind it. Investors treat the first as investment and the second as cost. Whenever you see a capex headline, that is the question to ask.</p></div><article class="entry"><div class="entry-head"><span class="tick up"><span class="arrow">&#9650;</span> NBIS</span><span class="strength notable">Notable · bullish</span><span class="move flat">~+4% premarket</span></div><p class="happened">Nebius signed a compute deal with Reflection AI worth more than $1B, running through 2029.</p><p class="figures">New deal&nbsp;&nbsp; <b>&gt;$1B</b>, multi-year, through <b>2029</b><br>Existing&nbsp;&nbsp; $27B Meta &middot; $20B Microsoft &middot; $2B Nvidia investment</p><p class="why"><span class="lead">Why it matters</span>Nebius rents out AI computing power, so its value rests on backlog — revenue already under contract. Backlog is what lets a company this capital-hungry borrow to build more, because lenders price the loan against contracts already signed. Another $1B extends visible revenue three years out, which lowers the risk that its buildout gets stranded.</p><div class="footline"><div class="flag"><span class="k">Not priced in — flagging</span>The stock rose only ~4% on a day when chips broadly rose 8%. So it underperformed a sector move while carrying its own good news. The market may be discounting the deal, or reading the sector rally as the bigger force.</div><div class=""><span class="k">Would flip if</span>Revenue recognition detail shows the $1B lands mostly in 2029 rather than near-term.</div><div class=""><span class="k">Next date</span>Next quarterly results, for contract timing detail.</div></div></article><article class="entry"><div class="entry-head"><span class="tick down"><span class="arrow">&#9660;</span> HOOD</span><span class="strength notable">Notable · bearish</span><span class="move down">−3.15% to $89.84</span></div><p class="happened">Robinhood beat earnings estimates by 51% and set a Q2 revenue record — and the stock fell anyway.</p><p class="figures">EPS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>$0.62</b> vs $0.41 expected &nbsp;(+51%)<br>Revenue&nbsp;&nbsp; <b>$1.31B</b> &mdash; record for a Q2<br>Transaction revenue <b>+44%</b><br>Crypto revenue <b>$100M</b>, <b>&minus;38%</b> y/y</p><p class="why"><span class="lead">Why it matters</span>Robinhood's valuation assumes it keeps adding users and keeps crypto trading as a high-margin engine. Crypto revenue falling 38% attacks the second half of that, and a reported slowdown in new accounts during July attacks the first. A big earnings beat that comes from trading activity is worth less than one that comes from account growth, because trading activity swings with market conditions and account growth compounds.</p><div class="footline"><div class="flag"><span class="k">Moved opposite — flagging</span>A 51% beat that the stock sold off. The market is weighting the growth slowdown over the quarter's profit, which usually signals it has stopped paying for the current quarter and started pricing the next one.</div><div class=""><span class="k">Would flip if</span>August account additions reaccelerate.</div><div class=""><span class="k">Next date</span>Monthly operating metrics release.</div></div></article><article class="entry"><div class="entry-head"><span class="tick flat"><span class="arrow">&#9679;</span> AAPL</span><span class="strength minor">Minor · neutral</span><span class="move flat">reports tonight</span></div><p class="happened">Apple reports fiscal Q3 results after the close today.</p><p class="figures">Expected revenue <b>~$108.9B</b> &nbsp;(+16% y/y)<br>Expected EPS&nbsp;&nbsp;&nbsp;&nbsp; <b>~$1.89</b> &nbsp;(+20% y/y)</p><p class="why"><span class="lead">Why it matters</span>Nothing has happened yet — this is a scheduled event, not news. The one structural item: this is expected to be Tim Cook's final earnings call as CEO before John Ternus takes over on 1 September, so any succession or strategy commentary carries more weight than usual.</p><div class="footline"><div class=""><span class="k">Next date</span>Tonight, 5:00pm ET.</div></div></article><article class="entry"><div class="entry-head"><span class="tick flat"><span class="arrow">&#9679;</span> AMZN</span><span class="strength minor">Minor · neutral</span><span class="move flat">reports tonight</span></div><p class="happened">Amazon reports Q2 results after the close today, with Prime Day pulled into the quarter.</p><p class="figures">Expected revenue <b>~$197.0B</b> &nbsp;(+18% y/y)<br>Expected EPS&nbsp;&nbsp;&nbsp;&nbsp; <b>~$1.82</b> &nbsp;(+8% y/y)</p><p class="why"><span class="lead">Why it matters</span>Scheduled event. Given how the market treated Microsoft and Meta tonight, the number that will drive the reaction is not revenue but AWS growth and the 2027 spending guide — and specifically whether Amazon can point to contracted demand behind the spend, the way Microsoft could.</p><div class="footline"><div class=""><span class="k">Next date</span>Tonight, 5:00pm ET.</div></div></article><article class="entry"><div class="entry-head"><span class="tick flat"><span class="arrow">&#9679;</span> NVDA</span><span class="strength minor">Minor · neutral</span><span class="move up">+2%</span></div><p class="happened">Nvidia set 26 August as the date for its next quarterly results. That is the entire company-specific news.</p><p class="why"><span class="lead">Why it matters</span>It doesn't, on its own — scheduling a call is routine. Today's 2% rise came from the sector, not from Nvidia. The genuine read-through is indirect: Microsoft's $255–260B spending guide is future revenue for whoever supplies the chips, and Nvidia is the largest such supplier.</p><div class="footline"><div class=""><span class="k">Next date</span>26 August, quarterly results.</div></div></article></div></section><section class="band"><h2>Read-through</h2><div class="note"><h3>Where Microsoft's spending lands</h3><p>A cloud company raising its spending budget is not an isolated event — that money becomes revenue for the companies it buys from. Microsoft guiding to $255–260B is a direct positive for the chip suppliers (NVDA, MRVL, INTC) and for the smaller cloud builders competing for the same demand (NBIS). This is most of why chips rose 8% today on news that was technically about a software company.</p></div></section><section class="band"><h2>Nothing material</h2><p class="quiet"><b>TSLA &middot; GOOGL &middot; PLTR &middot; INTC &middot; MRVL</b> &mdash; no company-specific events in the past 24 hours.</p><div class="note"><h3>But two of them moved hard</h3><p>INTC rose about 12% and MRVL about 10% today. Neither announced anything. Both moves came from the sector — Lam Research rose 20% on strong results, Microsoft lifted its spending guide, and Samsung warned the memory shortage could run into 2028. This distinction matters: a sector move can reverse just as fast, because nothing changed at the company itself.</p></div></section><section class="band"><h2>Earnings within 14 days</h2><ul class="dates"><li><span class="d">30 Jul</span><span><b>AAPL</b> and <b>AMZN</b> &mdash; tonight, after close</span></li><li><span class="d">3 Aug</span><span><b>PLTR</b> &mdash; Monday, after close</span></li></ul></section>
+  <section class="band"><h2>Previous days</h2><p class="empty">This is the first edition. Every future brief is kept here in full.</p></section>
+  <footer class="colophon">
+    <dl>
+      <dt>Direction</dt>
+      <dd>&#9650; bullish &middot; &#9660; bearish &middot; &#9679; neutral &mdash; describes what the data changes, not what the price will do.</dd>
+      <dt>Strength</dt>
+      <dd>Major = 3%+ &middot; Notable = 1&ndash;3% &middot; Minor = under 1%.</dd>
+      <dt>Flagged</dt>
+      <dd>Highlighted blocks mark items where the stock has <em>not</em> moved in line with the data &mdash; the cases worth a second look.</dd>
+      <dt>Archive</dt>
+      <dd>1 edition(s) on file. Every brief is kept permanently in the repository behind this page.</dd>
+      <dt>Sources</dt>
+      <dd>Company filings and results, and reported figures from the financial press. Opinion pieces and analyst price targets are excluded by design.</dd>
+    </dl>
+    <p class="disclaim">This is a record of what was reported and what it changes mechanically. It is not a prediction, and it is not investment advice.</p>
+  </footer>
+</div>
