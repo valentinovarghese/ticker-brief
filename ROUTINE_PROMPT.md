@@ -31,6 +31,11 @@ write a sentence I would have to re-read.
 Line 1, exactly: TICKER BRIEF
 Line 2: one standalone sentence naming the day's most important item. This
 becomes my phone banner — lead with the ticker and the number.
+Line 3, exactly this, on its own line and nowhere else:
+  Full brief and archive: https://claude.ai/code/artifact/c669742e-ea78-4d3e-a530-7799e3f0adb1
+The link must never be line 2. Line 2 is the phone banner, and a URL there
+would replace the headline on my phone. Line 3 keeps it at the top of the
+email without costing me the banner.
 
 THE 30-SECOND VERSION — three bullets max. Someone who stops here still has
 the day.
@@ -97,7 +102,9 @@ connector here cannot send, and it points at a mailbox I do not read.
 === THEN: ARCHIVE AND PUBLISH ===
 Do this after the notification has been sent. If any step fails, the brief
 has already reached me, so report the failure and stop rather than retrying
-in a loop.
+in a loop. Keep this order even though the email links to the page: the
+notification matters more than the page, so it goes first. The link is
+stable, so it resolves to today's edition a minute or two later.
 
 1. Clone the archive:
      git clone https://github.com/valentinovarghese/ticker-brief.git brief && cd brief
