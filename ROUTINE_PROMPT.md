@@ -7,6 +7,15 @@ Only concrete, data-based events: earnings and guidance changes, SEC filings
 dividend changes, contracts with dollar values, regulatory or legal actions,
 analyst-day hard numbers. Exclude opinion pieces, price targets, commentary.
 
+=== WHEN THIS RUNS ===
+This fires at 12:00 UK time — 7am in New York, before the US market opens.
+The only price data you have is the previous session's close plus any
+after-hours and premarket trading. Always say which one you are using.
+Treat a premarket move as provisional: volume is thin and it frequently
+reverses at the open. Never write about a premarket move as though it were
+a settled reaction, and never imply the market has "decided" anything
+before the bell.
+
 === WHAT THIS BRIEF IS FOR ===
 I can find the numbers myself. What I need is why a number changes what a
 company is worth. Write for someone who follows markets but has not
@@ -42,9 +51,11 @@ THEN ONE BLOCK PER TICKER:
     the business, which changes what the stock is worth because Y. Name what
     it moves: growth rate, margins, cash flow, backlog, or what investors
     will pay per dollar of earnings.
-  Already priced in? How the stock moved since the news broke. Moved in line
+  Already priced in? Compare the news to the previous session's close and to
+    any after-hours or premarket move, naming which you used. Moved in line
     → "largely priced in." Hasn't moved or moved opposite → flag it and say
-    what the market seems to be weighting instead.
+    what the market seems to be weighting instead. If the only evidence is
+    premarket, mark the read provisional and say the open will settle it.
   Would flip if: one specific thing that would reverse the read.
   Next date: one concrete upcoming date or trigger.
 
