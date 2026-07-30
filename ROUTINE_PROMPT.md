@@ -1,9 +1,3 @@
-# Stored prompt for the "Daily stock review" routine
-
-Paste everything below the rule as the routine's prompt. The repository and
-artifact URL are already filled in — it is ready to install as-is.
-
----
 
 Search the web for news from the past 24 hours on: AAPL, AMZN, TSLA, PLTR,
 MSFT, GOOGL, HOOD, NVDA, INTC, NBIS, MRVL, META.
