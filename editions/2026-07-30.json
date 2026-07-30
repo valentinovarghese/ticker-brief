@@ -1,33 +1,38 @@
 {
   "date": "2026-07-30",
   "weekday": "Thu",
-  "headline": "Microsoft rose 16.6% and added about $490B in market value — the largest one-day gain any stock has ever made.",
+  "headline": "Microsoft is up about 16% and has added roughly $490B in market value, on track for the biggest one-day gain any stock has ever made.",
   "gauge": [
-    { "text": "QQQ +3.5%", "tone": "up" },
-    { "text": "written 14:15 ET &middot; market open", "tone": "flat" },
-    { "text": "12 tickers &middot; 5 with news", "tone": "flat" }
+    { "text": "QQQ +3.1%", "tone": "up" },
+    { "text": "written 15:15 ET &middot; market open", "tone": "flat" },
+    { "text": "12 tickers &middot; 6 with news", "tone": "flat" }
   ],
   "quick": [
-    "Microsoft's cloud growth sped up instead of slowing. The stock set an all-time record for value created in one session.",
-    "Meta spent almost everything it earned and fell about 9%. Same spending story, opposite verdict &mdash; the reason is the most useful thing on this page.",
-    "Apple and Amazon both report after the close tonight. Nothing is settled until then.",
-    "<b>Timing note.</b> This edition was written at 2:15pm in New York, with the market <em>open</em>. Prices below are live intraday, not the previous close plus premarket. They can still move before the 4pm bell."
+    "Microsoft's cloud growth sped up instead of slowing. But its headline building budget went <em>down</em>, not up &mdash; and that is accounting rather than restraint.",
+    "Meta raised spending too and fell about 9%. The gap between the two reactions is the most useful thing on this page.",
+    "GDP came in weak and inflation ran hot this morning. Tech ignored it entirely.",
+    "<b>Timing note.</b> This run fired late. It was scheduled for 7am in New York, before the open. It ran at 3:15pm, with the market <em>trading</em>. Every price below is live intraday, not a close. The record above is not settled until the bell."
   ],
   "macro": [
     {
-      "dt": "The Fed held rates at 3.50&ndash;3.75% for a fifth straight meeting, with three officials dissenting in favour of a <em>rise</em>",
+      "dt": "Second-quarter growth slowed to <b>1.5%</b>, down from 2.1%, against forecasts near 2%",
       "lead": "How it reaches these stocks",
-      "dd": "Three regional presidents &mdash; Hammack, Kashkari and Logan &mdash; all wanted a quarter-point hike. That is the first three-way dissent in one direction since 2016. Rates staying high hurts fast-growing tech most. Their value sits in profits expected years out, and distant profits are worth less when money costs more."
+      "dd": "Weaker growth reaches shoppers and business budgets first. That puts more of the risk on Amazon and Apple, which sell to consumers, than on Microsoft, which sells to committed enterprise contracts."
     },
     {
-      "dt": "Core PCE inflation has climbed from 3.0% in December to 3.4% in May",
+      "dt": "Prices rose faster at the same time &mdash; the index for what Americans buy rose <b>5.7%</b>, up from 3.6%",
       "lead": "How it reaches these stocks",
-      "dd": "Core PCE is the measure the Fed actually steers by. Inflation drifting up rather than down removes the room to cut. That is normally a direct headwind to anything priced on far-off growth."
+      "dd": "Slower growth with faster inflation removes the Fed's room to cut. High rates hurt fast-growing tech most. Their value sits in profits expected years out, and distant profits are worth less when money costs more."
+    },
+    {
+      "dt": "The Fed held at <b>3.50&ndash;3.75%</b> yesterday, with three officials dissenting in favour of a <em>rise</em>",
+      "lead": "How it reaches these stocks",
+      "dd": "Three dissents in one direction is unusual. It signals that the next move is more likely up than down, which is the opposite of what a market priced on long-dated growth wants to hear."
     },
     {
       "dt": "The gauge contradicts all of it",
       "lead": "The gauge",
-      "dd": "QQQ is up about 3.5%, on track for its best day since May 2025. Earnings are overriding macro today. But ten stocks account for 88% of that index move, from about a third of its weight. The rally is narrow, so it rests on a handful of results rather than broad demand &mdash; and the macro risk is still sitting there unpriced."
+      "dd": "QQQ is up about 3.1%. Earnings are overriding macro today. But the rally is narrow and rests on a handful of results, so the macro risk is still sitting there unpriced."
     }
   ],
   "entries": [
@@ -36,22 +41,44 @@
       "dir": "up",
       "strength": "major",
       "strength_label": "Major &middot; bullish",
-      "move": "+16.6% &middot; best day since 2008",
+      "move": "about +16% &middot; live intraday",
       "move_tone": "up",
-      "happened": "Azure grew faster than last quarter, and Microsoft raised next year's building budget by about a third.",
+      "happened": "Azure grew faster than last quarter, reported Wednesday after the close.",
       "figures": [
         "Revenue&nbsp;&nbsp; <b>$90.0B</b> vs $87.6B expected &nbsp;(+18% y/y)",
-        "EPS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>$4.74</b> ex one-off, vs $4.24 expected",
-        "Azure&nbsp;&nbsp;&nbsp;&nbsp; <b>+43%</b> vs 40% expected &mdash; up from <b>40%</b> last quarter",
+        "EPS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>$4.74</b> vs $4.24 expected",
+        "Azure&nbsp;&nbsp;&nbsp;&nbsp; <b>+43%</b> &mdash; up from <b>40%</b> last quarter",
         "Contracted future revenue <b>$678B</b>, <b>+84%</b> y/y",
-        "FY27 capex <b>$255&ndash;260B</b> vs ~$190B this year",
-        "Market value added <b>~$490B</b> &mdash; a record for any stock"
+        "Calendar-2026 capex guide <b>fell</b> to ~$175B from ~$190B",
+        "Value added <b>~$490B</b> &mdash; would be a record <em>if it holds to the close</em>"
       ],
-      "why": "The $678B of signed but undelivered work is the number that changes the argument. It means the spending is backed by orders already placed, not by hope. That turns capital expenditure from a cost investors fear into capacity they can count on. It also extends how many years of fast growth they are willing to assume &mdash; which lifts what they will pay per dollar of earnings, and moves the valuation more than the earnings beat itself.",
+      "why": "The $678B of signed but undelivered work is what changes the argument. The spending is backed by orders already placed, not by hope. That extends how many years of fast growth investors will assume, which lifts what they pay per dollar of earnings. Two cautions sit underneath the headline. Capex fell because more leases now count as rent rather than purchases, not because Microsoft is building less. And Microsoft stretched the assumed life of its data centres from 15 to 25 years, which lowers the annual cost charged against profit and flatters future earnings with no change in the business.",
       "foot": [
-        { "k": "Already priced in?", "v": "Yes. A 16.6% move and $490B added is a full repricing. Largely priced in, on live intraday prices.", "flag": false },
-        { "k": "Would flip if", "v": "Next quarter's Azure growth lands below the roughly 45% management guided.", "flag": false },
+        { "k": "Already priced in?", "v": "Yes, on live intraday prices. A 16% move is a full repricing. The record itself is provisional until the bell.", "flag": false },
+        { "k": "Would flip if", "v": "Azure growth slips back toward 40% next quarter.", "flag": false },
         { "k": "Next date", "v": "FQ1 results, late October.", "flag": false }
+      ]
+    },
+    {
+      "ticker": "NBIS",
+      "dir": "up",
+      "strength": "major",
+      "strength_label": "Major &middot; flows, not company",
+      "move": "about +27% &middot; live intraday",
+      "move_tone": "up",
+      "happened": "A hedge fund holding a large Nebius stake was forced to sell out, and Citadel bought the book.",
+      "figures": [
+        "Situational Awareness sold its <b>entire</b> public equity portfolio",
+        "Triggered by margin calls from its three prime brokers",
+        "Fund ran leverage as high as <b>four times</b>; was +439% through 30 June",
+        "Its concentrated holdings fell <b>35&ndash;47%</b> during July",
+        "CoreWeave and IREN rose alongside it"
+      ],
+      "why": "This changes who owns the shares, not what the company earns. A forced seller pushes a price below what the business is worth, because the selling is driven by a margin call rather than by any view on value. Removing that seller lets the price snap back. Nothing about Nebius's contracts, costs or customers changed today.",
+      "foot": [
+        { "k": "Flows, not company &mdash; flagging", "v": "A 27% move with no company news. Its $1B Reflection AI deal was signed on <b>14 July</b>, and several sites are wrongly recycling it as today's driver.", "flag": true },
+        { "k": "Would flip if", "v": "Citadel resells the position into the open market.", "flag": false },
+        { "k": "Next date", "v": "Q2 results, expected in August.", "flag": false }
       ]
     },
     {
@@ -59,25 +86,25 @@
       "dir": "down",
       "strength": "major",
       "strength_label": "Major &middot; bearish",
-      "move": "&minus;9%",
+      "move": "about &minus;9% &middot; live intraday",
       "move_tone": "down",
-      "happened": "Sales beat, profit missed badly, and spending consumed nearly all the cash the business produced.",
+      "happened": "Sales beat, profit missed badly, and Meta raised the floor of its spending range.",
       "figures": [
-        "Revenue&nbsp;&nbsp; <b>$60.8B</b> vs $60.2B expected &nbsp;(+28% y/y)",
-        "EPS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>$6.18</b> vs $7.14 expected &mdash; and $7.14 a year ago",
+        "Revenue&nbsp;&nbsp; <b>$60.8B</b> vs $60.3B expected &nbsp;(+28% y/y)",
+        "EPS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>$6.18</b> vs <b>$7.23</b> expected &mdash; and $7.14 a year ago",
         "Operating margin <b>31%</b>, down from <b>43%</b>",
-        "Free cash flow <b>&minus;91%</b> y/y",
-        "2026 capex floor raised to <b>$130B</b> from $125B (range $130&ndash;145B)"
+        "2026 capex <em>floor</em> raised to <b>$130B</b> from $125B",
+        "Q3 sales guided <b>$61&ndash;64B</b> &mdash; midpoint below the $63.1B expected"
       ],
-      "why": "Raising the <em>floor</em> of a spending range is a commitment. Raising the ceiling is only an option. Meta removed its own escape route. Free cash flow &mdash; the cash left after paying for buildings and equipment &mdash; is now close to nothing, so the buffer that funded buybacks and absorbed weak quarters has gone. Margins falling 12 points in a year shows the spend hitting profits now, while any payoff sits years away.",
+      "why": "Raising the <em>floor</em> of a spending range is a commitment. Raising the ceiling is only an option. Meta removed its own escape route. Guiding next quarter's sales below expectations while locking in higher spending squeezes profit from both ends at once. Margins falling 12 points in a year shows the cost landing now, while any payoff sits years away.",
       "foot": [
-        { "k": "Already priced in?", "v": "Yes &mdash; the 9% fall reflects it. Largely priced in, on intraday prices.", "flag": false },
-        { "k": "Would flip if", "v": "Q3 shows margins stabilising and cash generation recovering.", "flag": false },
+        { "k": "Already priced in?", "v": "Yes &mdash; the 9% fall reflects it, on intraday prices.", "flag": false },
+        { "k": "Would flip if", "v": "Q3 shows margins stabilising.", "flag": false },
         { "k": "Next date", "v": "Q3 results, late October.", "flag": false }
       ],
       "note_after": {
         "title": "The asymmetry worth understanding",
-        "body": "Microsoft and Meta both raised spending sharply on the same night. One added $490B of value, the other lost about 9%. The difference is not the amount &mdash; it is what stands behind it. Microsoft can point to $678B of signed contracts. Meta cannot point to any. Investors call the first investment and the second cost. Ask that question of every capital-spending headline you read."
+        "body": "Microsoft and Meta both raised spending sharply on the same night, to opposite verdicts. The difference is not the amount &mdash; it is what stands behind it. Microsoft can point to $678B of signed contracts. Meta cannot point to any. Investors call the first investment and the second cost. Alphabet failed the same test on <b>22 July</b>, lifting capex to as much as $205B on its first negative free cash flow since listing, and fell about 7% the next day. Ask that question of every spending headline you read."
       }
     },
     {
@@ -85,20 +112,37 @@
       "dir": "up",
       "strength": "major",
       "strength_label": "Major &middot; sector, not company",
-      "move": "+12.5%",
+      "move": "about +12% &middot; live intraday",
       "move_tone": "up",
       "happened": "Intel announced nothing today. The move came entirely from the semiconductor sector.",
       "figures": [
-        "Results were <b>23 July</b>, not today: revenue <b>$16.1B</b> (+25% y/y), EPS <b>$0.42</b> vs $0.22 expected",
-        "Today's real drivers: Lam Research <b>+20%</b> &mdash; best day since 1999",
-        "Samsung: memory shortage worsens through 2027, lasts into <b>2028</b>",
-        "Micron <b>+14%</b> &middot; SanDisk <b>+21%</b>"
+        "Lam Research <b>+20%</b> on its own results",
+        "Samsung warned the memory shortage runs into <b>2028</b>",
+        "Micron <b>+13%</b> &middot; SanDisk <b>+21%</b> &middot; AMD <b>+13%</b>",
+        "Intel's own quarter was <b>23 July</b>: revenue $16.1B (+25%), adjusted EPS $0.42 vs $0.21 expected"
       ],
-      "why": "This distinction is the whole point. A sector move can reverse as fast as it arrived, because nothing changed at the company itself. Intel's own quarter was genuinely strong a week ago, but the foundry business still sells only about $293M to outside customers. Until that number grows, Intel's value rests on the same industry-wide demand that lifted it today &mdash; and that can be taken back just as quickly.",
+      "why": "This distinction is the whole point. A sector move can reverse as fast as it arrived, because nothing changed at the company itself. Intel's value still rests on industry-wide demand rather than on winning named foundry customers, and that demand can be taken back just as quickly as it was given.",
       "foot": [
-        { "k": "Sector, not company &mdash; flagging", "v": "A 12.5% one-day move with no company news. Read it as chip-sector beta, not as anything Intel did.", "flag": true },
-        { "k": "Would flip if", "v": "Memory and equipment demand cools, or a named 18A customer fails to appear.", "flag": false },
+        { "k": "Sector, not company &mdash; flagging", "v": "A 12% move with no company news. Read it as chip-sector beta, not as anything Intel did.", "flag": true },
+        { "k": "Would flip if", "v": "Memory and equipment demand cools.", "flag": false },
         { "k": "Next date", "v": "Q3 results, late October.", "flag": false }
+      ]
+    },
+    {
+      "ticker": "MRVL",
+      "dir": "up",
+      "strength": "major",
+      "strength_label": "Major &middot; sector, not company",
+      "move": "about +10% &middot; live intraday",
+      "move_tone": "up",
+      "happened": "Marvell rose with the chip sector on the same drivers. It released no company news.",
+      "figures": [
+        "Same drivers as Intel: Lam Research results, Samsung's memory warning, Microsoft's spending"
+      ],
+      "why": "Marvell sells custom silicon into exactly the data centres Microsoft is building, so it moves on hyperscaler spending news even when it says nothing itself. That makes the gain real but borrowed. It rests on someone else's capital budget rather than on any order Marvell has announced.",
+      "foot": [
+        { "k": "Sector, not company &mdash; flagging", "v": "No company-specific event today.", "flag": true },
+        { "k": "Next date", "v": "Q2 results, late August.", "flag": false }
       ]
     },
     {
@@ -106,21 +150,37 @@
       "dir": "flat",
       "strength": "notable",
       "strength_label": "Notable &middot; mixed",
-      "move": "+0.8% to ~$90.55",
+      "move": "about +1% &middot; live intraday",
       "move_tone": "flat",
-      "happened": "Record quarterly revenue and a large profit beat, with crypto revenue still shrinking fast.",
+      "happened": "A large profit beat, reported Wednesday after the close.",
       "figures": [
-        "EPS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>$0.62</b> vs $0.45 expected",
-        "Revenue&nbsp;&nbsp; <b>$1.31B</b> &nbsp;(+32% y/y) &mdash; a record",
-        "Prediction markets <b>$156M</b> &mdash; <b>10&times;</b> last year",
-        "Equities trading <b>+95%</b> &middot; options <b>+29%</b> &middot; crypto <b>&minus;38%</b> to $100M",
-        "Funded customers <b>+7.2%</b> y/y &middot; operating margin <b>54.2%</b> vs 44.4%"
+        "EPS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>$0.62</b> vs about $0.41 expected &mdash; and $0.42 a year ago",
+        "Revenue&nbsp;&nbsp; <b>$1.308B</b> (+32% y/y) &mdash; but in line with the $1.306B expected",
+        "Prediction markets <b>$156M</b> &mdash; roughly <b>10&times;</b> last year",
+        "Crypto <b>&minus;38%</b> &middot; funded customers <b>+7.2%</b> y/y"
       ],
-      "why": "Robinhood is swapping one volatile engine for another. Prediction markets growing tenfold more than covers the crypto decline, but both depend on trading appetite rather than on customers building balances. The real constraint is the 7.2% growth in funded accounts. Revenue per customer cannot rise forever, so slow customer growth eventually caps the whole model &mdash; and that is what sets the multiple investors pay.",
+      "why": "The beat came from costs and mix, not from selling more. Revenue landed almost exactly on expectations, so Robinhood is swapping one volatile engine for another rather than adding customers. Funded accounts growing 7.2% is the real constraint. Revenue per customer cannot rise forever, so slow customer growth eventually caps the model &mdash; and that is what sets the multiple investors pay.",
       "foot": [
-        { "k": "Partly priced &mdash; flagging", "v": "The 3.15% fall on Wednesday came <em>before</em> the results, not after. The actual reaction was &minus;1.4% after hours, and the stock has recovered about 0.8% today. Three banks cut targets this morning, citing a July slowdown in new accounts. The market is pricing the account trend, not the quarter.", "flag": true },
+        { "k": "Partly priced &mdash; flagging", "v": "Wednesday's fall came <em>before</em> the results, not after them. It was not a reaction to this quarter.", "flag": true },
         { "k": "Would flip if", "v": "August account additions reaccelerate.", "flag": false },
-        { "k": "Next date", "v": "Monthly operating metrics release.", "flag": false }
+        { "k": "Next date", "v": "4 November.", "flag": false }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "dir": "up",
+      "strength": "minor",
+      "strength_label": "Minor &middot; sector, not company",
+      "move": "about +2% &middot; live intraday",
+      "move_tone": "up",
+      "happened": "Nvidia drifted up with the chip sector. No company news.",
+      "figures": [
+        "Notably lagged the sector &mdash; Intel +12%, Marvell +10%, Micron +13%"
+      ],
+      "why": "The gap is the interesting part. Nvidia rose least among the large chip names on a day built around AI spending. That suggests investors already assume its demand, so hyperscaler capex news adds little to the case, while it still adds a lot to companies whose orders are less certain.",
+      "foot": [
+        { "k": "Sector, not company", "v": "No company-specific event today.", "flag": true },
+        { "k": "Next date", "v": "Q2 results, late August.", "flag": false }
       ]
     },
     {
@@ -128,17 +188,16 @@
       "dir": "flat",
       "strength": "minor",
       "strength_label": "Minor &middot; pending",
-      "move": "reports 5:00pm ET",
+      "move": "reports after close",
       "move_tone": "flat",
-      "happened": "Apple reports fiscal Q3 results after the close tonight.",
+      "happened": "Apple reports fiscal Q3 results after the close tonight, roughly 30 minutes after this brief goes out.",
       "figures": [
-        "Expected revenue <b>~$110.1B</b> &nbsp;(+17% y/y)",
-        "Expected EPS&nbsp;&nbsp;&nbsp;&nbsp; <b>~$1.88</b> vs $1.57 a year ago",
-        "iPhone revenue seen <b>+23%</b> to ~$54.8B"
+        "Expected revenue <b>~$110B</b>",
+        "Expected EPS <b>~$1.88</b> vs $1.57 a year ago"
       ],
-      "why": "Nothing has happened yet &mdash; this is a scheduled event, not news. The one structural item: this is Tim Cook's last results call before John Ternus becomes CEO on 1 September. Succession and strategy comments therefore carry more weight than the quarter's numbers do.",
+      "why": "Nothing has happened yet &mdash; this is a scheduled event, not news. The one structural item: this is Tim Cook's last results call before John Ternus becomes chief executive on 1 September. Succession and strategy comments therefore carry more weight than the quarter's numbers do.",
       "foot": [
-        { "k": "Next date", "v": "Tonight, 5:00pm ET.", "flag": false }
+        { "k": "Next date", "v": "Tonight, after the close.", "flag": false }
       ]
     },
     {
@@ -148,28 +207,31 @@
       "strength_label": "Minor &middot; pending",
       "move": "reports after close",
       "move_tone": "flat",
-      "happened": "Amazon reports Q2 results after the close tonight.",
+      "happened": "Amazon reports Q2 results after the close tonight, roughly 30 minutes after this brief goes out.",
       "figures": [
-        "Expected revenue <b>~$196.7B</b> &nbsp;(+17% y/y)",
-        "Expected EPS&nbsp;&nbsp;&nbsp;&nbsp; <b>~$1.82</b> vs $1.68 a year ago",
-        "AWS growth seen <b>~31%</b>, up from 28% last quarter",
-        "Q1 free cash flow had already fallen <b>95%</b> y/y to $1.2B"
+        "Expected revenue <b>~$196B</b>",
+        "Expected EPS <b>~$1.82</b> vs $1.68 a year ago",
+        "AWS growth seen near <b>31%</b>, up from 28% last quarter"
       ],
-      "why": "Scheduled event. After today, the reaction will not turn on revenue. It will turn on whether Amazon can show contracted demand sitting behind its spending, the way Microsoft could and Meta could not. Its free cash flow line matters for the same reason &mdash; it is the test the market applied to both companies last night.",
+      "why": "Scheduled event. The reaction will not turn on revenue. It will turn on whether Amazon can show contracted demand sitting behind its spending, the way Microsoft could and Meta could not. That is the test the market applied to both companies last night, and it is the one that matters tonight.",
       "foot": [
         { "k": "Next date", "v": "Tonight, after the close.", "flag": false }
-      ]
+      ],
+      "note_after": {
+        "title": "Correction to this morning's edition",
+        "body": "Today's earlier edition said Microsoft guided FY27 capex to $255&ndash;260B against about $190B this year. That is wrong. The headline guide actually <b>fell</b> to about $175B, on an accounting change that reclassifies more leases as rent rather than purchases &mdash; underlying spending plans are unchanged. It also gave Meta's expected EPS as $7.14, which was the year-ago figure; the estimate was <b>$7.23</b>. And it treated Microsoft's record one-day gain as settled, which it is not until the close."
+      }
     }
   ],
   "readthrough": {
     "title": "Where Microsoft's spending lands",
-    "body": "A cloud company raising its building budget is not an isolated event &mdash; that money becomes revenue for the companies it buys from. Microsoft guiding to $255&ndash;260B is a direct positive for the chip suppliers (NVDA, MRVL, INTC) and for the smaller cloud builders chasing the same demand (NBIS). Together with Lam Research's results and Samsung's shortage warning, that is most of why chips rallied today on news that was technically about a software company."
+    "body": "A cloud company's building programme is revenue for the companies it buys from, which is most of why chips rallied today on news that was technically about a software company. Read the lower headline capex figure carefully though. Underlying spending is unchanged and management guided next year higher, so the read-through to the chip suppliers (NVDA, MRVL, INTC) and to the smaller cloud builders (NBIS) still holds."
   },
   "nothing_material": {
-    "tickers": ["TSLA", "GOOGL", "PLTR", "NBIS", "MRVL", "NVDA"],
+    "tickers": ["TSLA", "GOOGL", "PLTR"],
     "note": {
-      "title": "Two clarifications",
-      "body": "MRVL and NVDA both rose with the chip sector on no company news of their own &mdash; sector beta, not events. And NBIS is genuinely quiet: its $1B compute contract with Reflection AI was signed on <b>14 July</b>, so it is not a story for today, whatever the stock does."
+      "title": "Three things that are not today's news",
+      "body": "Tesla and Alphabet both reported on <b>22 July</b>. Alphabet's capex rise to as much as $205B and its first negative free cash flow since listing are eight days old, and the 7% fall happened on 23 July. Palantir's sovereign-AI deal with Nvidia and its US Army win were <b>1&ndash;2 July</b>. Fresh coverage of an old event is still an old event."
     }
   },
   "earnings_ahead": [
