@@ -694,8 +694,14 @@ def main():
             # under three minutes, well within the routine's run.
             time.sleep(13)
         series = {"1D": demo_rows(i)} if demo else fetch_series(t)
-        if not series and not demo:
-            series = cached(t)        # fall back to the last good fetch
+        if not demo:
+            # Fall back per timeframe, not just when the whole fetch came up
+            # empty: a run that gets fresh intraday but fails to fetch 1D
+            # (source outage, rate limit) must not drop the daily series
+            # entirely, or the SVG below silently mislabels minute bars as
+            # daily candles.
+            for label, rows in (cached(t) or {}).items():
+                series.setdefault(label, rows)
         if not series:
             missing.append(t)
             continue
