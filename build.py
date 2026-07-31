@@ -436,11 +436,11 @@ CSS = """
   }
 """
 
-PAGE = """<title>Ticker Brief</title>
+PAGE = """<title>v2v.investing — Ticker Brief</title>
 <style>{css}</style>
 <div class="wrap">
   <header class="masthead">
-    <div class="wordmark">Ticker Brief</div>
+    <div class="wordmark">v2v.investing</div>
     <h1>{headline}</h1>
     {dateline}
   </header>
