@@ -18,7 +18,9 @@ Edition text may contain inline <b>/<em> markup and HTML entities; it is
 authored by the brief itself, not user input, so it is emitted verbatim.
 """
 
+import html
 import json
+import re
 import sys
 from datetime import date
 from pathlib import Path
@@ -54,10 +56,31 @@ def dedash(text):
     return text
 
 
+# Editions are drafted from web search results, so their text is not fully
+# trusted: a page the routine reads could carry markup that ends up copied
+# into an edition and rendered verbatim on a public site. Inline emphasis is
+# the only markup the brief ever needs, so everything else is escaped rather
+# than executed. Entities are left intact, since the editions rely on them.
+ALLOWED_TAG = r"</?(?:b|i|em|strong|u|br)\s*/?>"
+ENTITY = r"&(?:[a-zA-Z][a-zA-Z0-9]{1,31}|#\d{1,7}|#[xX][0-9a-fA-F]{1,6});"
+KEEP = re.compile(f"({ALLOWED_TAG}|{ENTITY})")
+
+
+def safe_html(text):
+    parts = KEEP.split(text)
+    out = []
+    for i, part in enumerate(parts):
+        if not part:
+            continue
+        # Odd indices are the captured tags and entities, kept as authored.
+        out.append(part if i % 2 else html.escape(part, quote=False))
+    return "".join(out)
+
+
 def scrub(node):
-    """Walk a decoded JSON tree and de-dash every string in it."""
+    """Walk a decoded JSON tree, de-dashing and sanitising every string."""
     if isinstance(node, str):
-        return dedash(node)
+        return safe_html(dedash(node))
     if isinstance(node, list):
         return [scrub(v) for v in node]
     if isinstance(node, dict):
