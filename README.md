@@ -8,18 +8,21 @@ Written by a scheduled Claude Code routine each weekday. The brief is
 delivered by push notification and email; this repository is the permanent
 archive behind it.
 
+**Read it here:** <https://valentinovarghese.github.io/ticker-brief/>
+
 ## How it works
 
 ```
 editions/YYYY-MM-DD.json   one file per day — the source of truth
 build.py                   renders every edition into site.html
-site.html                  generated; published to a claude.ai artifact
-ROUTINE_PROMPT.md          the stored prompt driving the whole thing
+index.html                 generated; served by GitHub Pages from main
+site.html                  generated; identical copy of index.html
 ```
 
 Each weekday the routine researches the day, writes one new JSON file,
-rebuilds `site.html` from **all** editions on file, republishes the page to
-the same URL, and pushes the commit.
+rebuilds the page from **all** editions on file, and pushes the commit.
+Pushing to `main` is what publishes — GitHub Pages rebuilds a minute or two
+later, so the page lags the email slightly.
 
 Because the page is regenerated from the repository rather than read back
 out of itself, history is lossless and unbounded. Delete a JSON file and it
