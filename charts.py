@@ -18,8 +18,10 @@ Usage:  python3 charts.py           # fetch and draw all tickers
 """
 
 import json
+import os
 import subprocess
 import sys
+import time
 from pathlib import Path
 
 ROOT = Path(__file__).parent
@@ -45,7 +47,7 @@ def fetch_ohlc(ticker):
     Sources are tried in order and every failure is silent by design: the
     caller treats None as "no chart today" and the page falls back.
     """
-    for source in (_from_stooq,):
+    for source in (_from_alphavantage, _from_stooq):
         try:
             rows = source(ticker)
             if rows and len(rows) >= 20:
@@ -60,6 +62,36 @@ def _curl(url):
                         "-H", "User-Agent: Mozilla/5.0", url],
                        capture_output=True, text=True, timeout=40)
     return r.stdout
+
+
+def parse_alphavantage(payload):
+    """Rows oldest-first from an Alpha Vantage TIME_SERIES_DAILY body.
+
+    Alpha Vantage answers HTTP 200 for throttling and bad keys alike,
+    putting the reason in a "Note", "Information" or "Error Message" key,
+    so the absence of the series is the only reliable failure signal.
+    """
+    data = json.loads(payload)
+    series = data.get("Time Series (Daily)")
+    if not isinstance(series, dict):
+        reason = (data.get("Note") or data.get("Information")
+                  or data.get("Error Message") or "unrecognised response")
+        raise ValueError(str(reason)[:120])
+    rows = []
+    for day in sorted(series):
+        bar = series[day]
+        rows.append((day, float(bar["1. open"]), float(bar["2. high"]),
+                     float(bar["3. low"]), float(bar["4. close"])))
+    return rows
+
+
+def _from_alphavantage(ticker):
+    key = os.environ.get("ALPHAVANTAGE_KEY")
+    if not key:
+        return None
+    return parse_alphavantage(_curl(
+        "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY"
+        f"&symbol={ticker}&outputsize=compact&apikey={key}"))
 
 
 def _from_stooq(ticker):
@@ -166,6 +198,11 @@ def main():
     OUT.mkdir(exist_ok=True)
     written, missing = [], []
     for i, t in enumerate(TICKERS):
+        if not demo and i:
+            # Alpha Vantage's free tier allows 5 calls a minute. Twelve
+            # tickers spaced 13s apart stay inside it and still finish in
+            # under three minutes, well within the routine's run.
+            time.sleep(13)
         rows = demo_rows(i) if demo else fetch_ohlc(t)
         if not rows:
             missing.append(t)

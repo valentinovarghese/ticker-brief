@@ -81,11 +81,20 @@ against synthetic data; `index.json` records `demo: true` for those runs
 and build.py refuses to link them, because a made-up price chart is
 indistinguishable from a real one to a reader.
 
-Right now no price source is reachable: stooq is allowlisted but serves a
-JavaScript bot challenge to datacenter traffic that re-issues on every
-request, so every ticker falls back to the finviz link. Add a working
-source to `fetch_ohlc` in charts.py and the local charts take over with
-no other change.
+Sources are tried in order: Alpha Vantage first when `ALPHAVANTAGE_KEY`
+is set in the environment, then stooq. Both are optional and every failure
+is silent, so charts.py degrades to drawing nothing rather than erroring.
+
+To turn the local charts on, allow `www.alphavantage.co` in the cloud
+environment's network policy and set `ALPHAVANTAGE_KEY` in its
+environment variables. Calls are spaced 13 seconds apart to stay inside
+the free tier's five-per-minute limit; twelve tickers take about
+two and a half minutes.
+
+stooq is allowlisted but serves datacenter traffic a JavaScript
+proof-of-work challenge that re-issues on every request, solved or not, so
+it yields nothing in practice. It is kept as a fallback in case that
+changes.
 
 ## House style
 
