@@ -184,6 +184,32 @@ def render_note(note):
 # ty=c candles, ta=0 no indicator overlays, p=d daily bars.
 CHART_URL = "https://finviz.com/chart.ashx?t={t}&ty=c&ta=0&p=d"
 
+CHARTS = ROOT / "charts"
+
+
+def local_charts():
+    """Tickers with a self-hosted candle chart drawn from real prices.
+
+    charts.py records demo:true when it drew from synthetic data. Those are
+    for checking the renderer, never for publishing, so a demo run is
+    treated as no charts at all: a made-up price chart on a public page
+    would be indistinguishable from a real one to a reader.
+    """
+    index = CHARTS / "index.json"
+    if not index.exists():
+        return set()
+    try:
+        data = json.loads(index.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return set()
+    if data.get("demo"):
+        return set()
+    return {t for t in data.get("available", [])
+            if (CHARTS / f"{t}.svg").exists()}
+
+
+LOCAL_CHARTS = local_charts()
+
 CANDLE_ICON = ('<svg viewBox="0 0 24 24" aria-hidden="true">'
                '<path d="M5 4v3H3.5v9H5v4h1.5v-4H8V7H6.5V4H5Zm6 0v6H9.5v7H11'
                'v3h1.5v-3H14v-7h-1.5V4H11Zm6 2v4h-1.5v8H17v2h1.5v-2H20v-8h-1.5'
@@ -191,9 +217,14 @@ CANDLE_ICON = ('<svg viewBox="0 0 24 24" aria-hidden="true">'
 
 
 def chart_link(ticker):
-    return (f'<a class="chartbtn" href="{CHART_URL.format(t=ticker)}" '
-            f'target="_blank" rel="noopener noreferrer" '
-            f'title="Daily candle chart for {ticker} (finviz)">'
+    if ticker in LOCAL_CHARTS:
+        href, title = (f"charts/{ticker}.svg",
+                       f"{ticker}: three months of daily candles")
+    else:
+        href, title = (CHART_URL.format(t=ticker),
+                       f"Daily candle chart for {ticker} (finviz)")
+    return (f'<a class="chartbtn" href="{href}" target="_blank" '
+            f'rel="noopener noreferrer" title="{title}">'
             f'{CANDLE_ICON}Chart</a>')
 
 

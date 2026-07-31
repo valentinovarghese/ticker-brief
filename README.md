@@ -74,9 +74,18 @@ Every ticker name carries a small Chart button, in the day's entries and in
 the by-ticker index. It links to finviz's daily-candle chart image for that
 symbol. The image is finviz's, fetched by the reader's browser on their
 site, not embedded here, so the page itself still loads no third-party
-resources and the CSP stays strict. Self-hosted chart rendering would need
-a price-data host allowed in this environment's network policy; if one is
-ever allowed, build.py can draw the candles itself.
+resources and the CSP stays strict. `charts.py` draws self-hosted 3-month daily candlestick SVGs into
+`charts/`, styled like the page, and `build.py` links a ticker to its
+local SVG whenever one exists. Run it with `--demo` to check the renderer
+against synthetic data; `index.json` records `demo: true` for those runs
+and build.py refuses to link them, because a made-up price chart is
+indistinguishable from a real one to a reader.
+
+Right now no price source is reachable: stooq is allowlisted but serves a
+JavaScript bot challenge to datacenter traffic that re-issues on every
+request, so every ticker falls back to the finviz link. Add a working
+source to `fetch_ohlc` in charts.py and the local charts take over with
+no other change.
 
 ## House style
 
