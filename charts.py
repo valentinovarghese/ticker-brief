@@ -22,6 +22,7 @@ import os
 import subprocess
 import sys
 import time
+from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).parent
@@ -49,12 +50,35 @@ def fetch_ohlc(ticker):
     """
     for source in (_from_alphavantage, _from_stooq):
         try:
-            rows = source(ticker)
+            rows = drop_incomplete(source(ticker))
             if rows and len(rows) >= 20:
                 return rows[-SESSIONS:]
         except Exception:
             continue
     return None
+
+
+def drop_incomplete(rows):
+    """Discard a final bar for a session that has not finished.
+
+    The routine runs before the opening bell, and the data source will
+    happily return a bar dated today built from premarket prints. Drawing
+    it as a candle would put a partial, thinly traded bar on the chart
+    looking exactly like a settled day. Only bars for sessions that have
+    actually closed belong here.
+    """
+    if not rows:
+        return rows
+    try:
+        from zoneinfo import ZoneInfo
+        now = datetime.now(ZoneInfo("America/New_York"))
+    except Exception:
+        return rows
+    closed = now.replace(hour=16, minute=5, second=0, microsecond=0)
+    today = now.strftime("%Y-%m-%d")
+    if rows[-1][0] == today and now < closed:
+        return rows[:-1]
+    return rows
 
 
 def _curl(url):
@@ -86,7 +110,9 @@ def parse_alphavantage(payload):
 
 
 def _from_alphavantage(ticker):
-    key = os.environ.get("ALPHAVANTAGE_KEY")
+    # Tolerate a key pasted with surrounding whitespace or a trailing full
+    # stop, which is easy to leave behind when copying it into a .env box.
+    key = os.environ.get("ALPHAVANTAGE_KEY", "").strip().strip(".")
     if not key:
         return None
     return parse_alphavantage(_curl(
@@ -193,6 +219,21 @@ v2v.investing &#183; last close {last_close:,.2f}</text>
 '''
 
 
+def cache_dir():
+    return OUT / "data"
+
+
+def cached(ticker):
+    """Last successful fetch, so a throttled day redraws instead of failing."""
+    f = cache_dir() / f"{ticker}.json"
+    if not f.exists():
+        return None
+    try:
+        return [tuple(r) for r in json.loads(f.read_text(encoding="utf-8"))]
+    except (json.JSONDecodeError, TypeError):
+        return None
+
+
 def main():
     demo = "--demo" in sys.argv
     OUT.mkdir(exist_ok=True)
@@ -204,9 +245,14 @@ def main():
             # under three minutes, well within the routine's run.
             time.sleep(13)
         rows = demo_rows(i) if demo else fetch_ohlc(t)
+        if not rows and not demo:
+            rows = cached(t)          # fall back to the last good fetch
         if not rows:
             missing.append(t)
             continue
+        if not demo:
+            cache_dir().mkdir(parents=True, exist_ok=True)
+            (cache_dir() / f"{t}.json").write_text(json.dumps(rows), encoding="utf-8")
         (OUT / f"{t}.svg").write_text(render(t, rows), encoding="utf-8")
         written.append(t)
 
