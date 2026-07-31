@@ -1,0 +1,5 @@
+# The daily routine clones this same repository into ./brief as a scratch
+# checkout, writes the edition there, and pushes from inside it. That nests
+# a copy of the repo inside itself and shows up as an untracked directory.
+# It is disposable — everything real is already on the remote.
+brief/
