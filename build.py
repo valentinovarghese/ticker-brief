@@ -7,8 +7,12 @@ full at the top; every older one is kept below in a collapsed block. Nothing
 is ever dropped — the repo is the archive, so history is lossless and the
 page is a pure function of the files on disk.
 
-Usage:  python3 build.py            # writes site.html
+Usage:  python3 build.py            # writes site.html and index.html
         python3 build.py --check    # validate editions, write nothing
+
+index.html is a byte-identical copy of site.html, written so GitHub Pages
+can serve the archive at a public URL. site.html remains the file the
+Artifact tool publishes.
 
 Edition text may contain inline <b>/<em> markup and HTML entities; it is
 authored by the brief itself, not user input, so it is emitted verbatim.
@@ -22,6 +26,9 @@ from pathlib import Path
 ROOT = Path(__file__).parent
 EDITIONS = ROOT / "editions"
 OUT = ROOT / "site.html"
+# GitHub Pages serves index.html; site.html is what the Artifact tool
+# publishes. Both hold identical bytes so the two stay in step.
+PAGES_OUT = ROOT / "index.html"
 
 REQUIRED = ("date", "headline", "quick", "entries")
 
@@ -264,8 +271,10 @@ def main():
     if "--check" in sys.argv:
         print(f"ok — {len(editions)} edition(s), newest {editions[0]['date']}")
         return
-    OUT.write_text(render_page(editions), encoding="utf-8")
-    print(f"wrote {OUT.name} — {len(editions)} edition(s), "
+    page = render_page(editions)
+    OUT.write_text(page, encoding="utf-8")
+    PAGES_OUT.write_text(page, encoding="utf-8")
+    print(f"wrote {OUT.name} and {PAGES_OUT.name} — {len(editions)} edition(s), "
           f"newest {editions[0]['date']}")
 
 
