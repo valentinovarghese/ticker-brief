@@ -41,6 +41,98 @@ W, H = 720, 320
 PAD_L, PAD_R, PAD_T, PAD_B = 8, 58, 44, 26
 SESSIONS = 63          # about three months of trading days
 
+# Timeframes offered in the chart's top bar. "src" is the provider's own
+# interval name; None means the series is built here by aggregating 1min
+# bars, because no free provider offers a 3-minute interval. "keep" caps
+# how many bars are embedded, so a page stays small enough to load fast.
+TIMEFRAMES = (
+    ("1m",  "1min",  390),
+    ("3m",  None,    440),
+    ("5m",  "5min",  470),
+    ("15m", "15min", 440),
+    ("30m", "30min", 400),
+    ("1h",  "1h",    420),
+    ("1D",  "1day",  SESSIONS),
+)
+INTRADAY = tuple(t for t, _, _ in TIMEFRAMES if t != "1D")
+
+
+def aggregate(rows, minutes):
+    """Roll 1-minute bars into N-minute bars.
+
+    Open is the first open in the bucket, close the last close, high and
+    low the extremes, volume the sum. Buckets are keyed off the wall clock
+    so they line up with what a broker would draw.
+    """
+    out, bucket = [], {}
+    order = []
+    for r in rows:
+        stamp = r[0]
+        try:
+            day, clock = stamp.split(" ")
+            hh, mm = clock.split(":")[:2]
+            slot = (int(hh) * 60 + int(mm)) // minutes
+            key = f"{day} {slot:04d}"
+        except (ValueError, IndexError):
+            continue
+        if key not in bucket:
+            bucket[key] = [stamp, r[1], r[2], r[3], r[4], r[5] if len(r) > 5 else 0]
+            order.append(key)
+        else:
+            b = bucket[key]
+            b[2] = max(b[2], r[2])
+            b[3] = min(b[3], r[3])
+            b[4] = r[4]
+            b[5] += r[5] if len(r) > 5 else 0
+    for key in order:
+        out.append(tuple(bucket[key]))
+    return out
+
+
+def _from_twelvedata(ticker, interval):
+    key = os.environ.get("TWELVEDATA_KEY", "").strip().strip(".")
+    if not key:
+        return None
+    payload = _curl("https://api.twelvedata.com/time_series"
+                    f"?symbol={ticker}&interval={interval}&outputsize=5000"
+                    f"&order=ASC&apikey={key}")
+    data = json.loads(payload)
+    values = data.get("values")
+    if not isinstance(values, list):
+        raise ValueError(str(data.get("message") or data)[:120])
+    rows = []
+    for v in values:
+        rows.append((v["datetime"], float(v["open"]), float(v["high"]),
+                     float(v["low"]), float(v["close"]),
+                     float(v.get("volume") or 0)))
+    return rows
+
+
+def fetch_series(ticker):
+    """Every timeframe we can get for one ticker, as {label: rows}.
+
+    Intraday needs a provider that serves it free; Alpha Vantage keeps it
+    behind a premium plan, so without one only the daily series exists and
+    the chart shows a single timeframe button.
+    """
+    series, minute_rows = {}, None
+    for label, src, keep in TIMEFRAMES:
+        rows = None
+        if label == "1D":
+            rows = fetch_ohlc(ticker)
+        elif src:
+            try:
+                rows = drop_incomplete(_from_twelvedata(ticker, src))
+            except Exception:
+                rows = None
+            if label == "1m" and rows:
+                minute_rows = rows
+        elif minute_rows:
+            rows = aggregate(minute_rows, int(label.rstrip("m")))
+        if rows and len(rows) >= 10:
+            series[label] = rows[-keep:]
+    return series
+
 
 # ------------------------------------------------------------------ data
 
@@ -239,16 +331,21 @@ def cached(ticker):
     if not f.exists():
         return None
     try:
-        return [tuple(r) for r in json.loads(f.read_text(encoding="utf-8"))]
-    except (json.JSONDecodeError, TypeError):
+        data = json.loads(f.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
         return None
+    if isinstance(data, list):            # pre-timeframe cache: daily only
+        return {"1D": [tuple(r) for r in data]}
+    return {k: [tuple(r) for r in v] for k, v in data.items()}
 
 
 # ------------------------------------------------------- interactive page
 
 CHART_JS = r"""
 (function () {
-  var D = window.__BARS__, TICKER = window.__TICKER__;
+  var SERIES = window.__SERIES__, TICKER = window.__TICKER__;
+  var TF = window.__ORDER__[window.__ORDER__.length - 1];   // daily by default
+  var D = SERIES[TF];
   var cv = document.getElementById('c'), ctx = cv.getContext('2d');
   var read = document.getElementById('read');
   var INK='#0C0D0E', MUTE='#6E747B', LINE='#EFEEEA', GRID='#F6F5F2',
@@ -260,6 +357,11 @@ CHART_JS = r"""
   function fmt(v, d) { return v.toLocaleString('en-US',
       { minimumFractionDigits: d === undefined ? 2 : d,
         maximumFractionDigits: d === undefined ? 2 : d }); }
+  function tick(stamp) {
+    // '2026-07-31 14:35:00' -> '14:35'; '2026-07-31' -> '07-31'
+    return stamp.length > 10 ? stamp.slice(11, 16) : stamp.slice(5);
+  }
+
   function fmtVol(v) {
     if (v >= 1e9) return (v / 1e9).toFixed(2) + 'B';
     if (v >= 1e6) return (v / 1e6).toFixed(1) + 'M';
@@ -335,7 +437,7 @@ CHART_JS = r"""
       ctx.moveTo(Math.round(x) + 0.5, PADT); ctx.lineTo(Math.round(x) + 0.5, PADT + g.priceH);
       ctx.stroke();
       ctx.fillStyle = MUTE;
-      ctx.fillText(g.bars[i][0].slice(5), x, H - PADB / 2);
+      ctx.fillText(tick(g.bars[i][0]), x, H - PADB / 2);
     }
 
     var body = Math.max(1, g.step * 0.66);
@@ -452,6 +554,22 @@ CHART_JS = r"""
     view = { from: 0, to: D.length }; hover = null; draw();
   });
 
+  function pick(tf) {
+    if (!SERIES[tf]) return;
+    TF = tf; D = SERIES[tf];
+    view = { from: 0, to: D.length }; hover = null;
+    Array.prototype.forEach.call(document.querySelectorAll('.tf'), function (b) {
+      var on = b.getAttribute('data-tf') === tf;
+      b.classList.toggle('on', on);
+      b.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
+    draw();
+  }
+  Array.prototype.forEach.call(document.querySelectorAll('.tf'), function (b) {
+    b.addEventListener('click', function () { pick(b.getAttribute('data-tf')); });
+  });
+  pick(TF);
+
   // The backing store must follow the element's real box, not a guess made
   // before layout settles. Sizing on load alone leaves the canvas short (a
   // dead band underneath) or tall (a clipped volume panel), depending on
@@ -486,6 +604,12 @@ CHART_CSS = """
   #read i { font-style:normal; color:#0C0D0E; }
   #read .d { color:#0C0D0E; }
   #hint { margin-left:auto; font-size:.68rem; color:#6E747B; white-space:nowrap; }
+  .tfbar { display:flex; gap:.2rem; }
+  .tf { font:inherit; font-size:.68rem; font-weight:600; color:#6E747B;
+        background:#FFFFFF; border:1px solid #E7E6E1; border-radius:6px;
+        padding:.26rem .5rem; cursor:pointer; font-variant-numeric:tabular-nums; }
+  .tf:hover { color:#0C0D0E; border-color:#0C0D0E; }
+  .tf.on { color:#FFFFFF; background:#0C0D0E; border-color:#0C0D0E; }
   #reset { font:inherit; font-size:.68rem; color:#6E747B; background:#FFFFFF;
            border:1px solid #E7E6E1; border-radius:6px; padding:.26rem .55rem;
            cursor:pointer; }
@@ -504,18 +628,30 @@ CHART_CSS = """
 """
 
 
-def render_html(ticker, rows, csp_hash_fn):
+def render_html(ticker, series, csp_hash_fn):
+    """One page per ticker, carrying every timeframe we managed to fetch.
+
+    series is {label: rows}. Only labels present get a button, so a run
+    with no intraday provider yields a chart with just "1D" rather than
+    dead controls that look broken when pressed.
+    """
     import json as _json
-    bars = _json.dumps([[r[0], r[1], r[2], r[3], r[4], r[5] if len(r) > 5 else 0]
-                        for r in rows], separators=(",", ":"))
+    labels = [t for t, _, _ in TIMEFRAMES if t in series]
+    payload = {t: [[r[0], r[1], r[2], r[3], r[4], r[5] if len(r) > 5 else 0]
+                   for r in series[t]] for t in labels}
     boot = (f'window.__TICKER__={_json.dumps(ticker)};'
-            f'window.__BARS__={bars};')
+            f'window.__ORDER__={_json.dumps(labels)};'
+            f'window.__SERIES__={_json.dumps(payload, separators=(",", ":"))};')
+    rows = series[labels[-1]]
     last, first = rows[-1][4], rows[0][4]
     pct = (last / first - 1) * 100 if first else 0
     csp = ("default-src 'none'; "
            f"script-src '{csp_hash_fn(boot)}' '{csp_hash_fn(CHART_JS)}'; "
            f"style-src '{csp_hash_fn(CHART_CSS)}'; "
            "img-src 'self'; base-uri 'none'; form-action 'none'")
+    buttons = "".join(
+        f'<button class="tf" type="button" data-tf="{t}" '
+        f'aria-pressed="false">{t}</button>' for t in labels)
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -529,13 +665,14 @@ def render_html(ticker, rows, csp_hash_fn):
 <body>
 <header>
   <a class="home" href="../index.html">v2v.investing</a>
+  <div class="tfbar" role="group" aria-label="Candle interval">{buttons}</div>
   <div id="read"></div>
   <span id="hint">drag to read &middot; scroll to zoom &middot; arrows to step</span>
   <button id="reset" type="button">Reset</button>
 </header>
 <div class="wrap">
-  <canvas id="c" aria-label="{ticker} daily candlestick chart, \
-{len(rows)} sessions, {rows[0][0]} to {rows[-1][0]}, \
+  <canvas id="c" aria-label="{ticker} candlestick chart, \
+{len(rows)} bars, {rows[0][0]} to {rows[-1][0]}, \
 {pct:+.1f} percent over the period"></canvas>
   <noscript><img src="{ticker}.svg" alt="{ticker} daily candles"></noscript>
 </div>
@@ -556,18 +693,20 @@ def main():
             # tickers spaced 13s apart stay inside it and still finish in
             # under three minutes, well within the routine's run.
             time.sleep(13)
-        rows = demo_rows(i) if demo else fetch_ohlc(t)
-        if not rows and not demo:
-            rows = cached(t)          # fall back to the last good fetch
-        if not rows:
+        series = {"1D": demo_rows(i)} if demo else fetch_series(t)
+        if not series and not demo:
+            series = cached(t)        # fall back to the last good fetch
+        if not series:
             missing.append(t)
             continue
         if not demo:
             cache_dir().mkdir(parents=True, exist_ok=True)
-            (cache_dir() / f"{t}.json").write_text(json.dumps(rows), encoding="utf-8")
-        (OUT / f"{t}.svg").write_text(render(t, rows), encoding="utf-8")
+            (cache_dir() / f"{t}.json").write_text(
+                json.dumps(series), encoding="utf-8")
+        (OUT / f"{t}.svg").write_text(
+            render(t, series[max(series, key=lambda k: k == "1D")]), encoding="utf-8")
         (OUT / f"{t}.html").write_text(
-            render_html(t, rows, sha256_src), encoding="utf-8")
+            render_html(t, series, sha256_src), encoding="utf-8")
         written.append(t)
 
     (OUT / "index.json").write_text(

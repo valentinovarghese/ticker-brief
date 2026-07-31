@@ -86,6 +86,20 @@ against synthetic data; `index.json` records `demo: true` for those runs
 and build.py refuses to link them, because a made-up price chart is
 indistinguishable from a real one to a reader.
 
+## Candle intervals
+
+The chart's top bar offers 1m, 3m, 5m, 15m, 30m, 1h and 1D, but only shows
+a button for an interval that actually has data, so a run without an
+intraday provider yields a chart with just `1D` rather than dead controls.
+
+Intraday needs a provider that serves it on a free tier. Alpha Vantage does
+not: `TIME_SERIES_INTRADAY` answers "This is a premium endpoint". Twelve
+Data does, and `_from_twelvedata` is wired for it: allow
+`api.twelvedata.com` in the environment's network policy and set
+`TWELVEDATA_KEY`. No provider offers a 3-minute interval, so `3m` is built
+here by rolling up 1-minute bars, open first, close last, high and low the
+extremes, volume summed.
+
 Sources are tried in order: Alpha Vantage first when `ALPHAVANTAGE_KEY`
 is set in the environment, then stooq. Both are optional and every failure
 is silent, so charts.py degrades to drawing nothing rather than erroring.
