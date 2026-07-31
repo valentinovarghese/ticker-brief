@@ -6,7 +6,7 @@
 <title>v2v.investing | Ticker Brief</title>
 <meta name="description" content="A daily pre-market brief on twelve tickers, written to explain why each number changes what a company is worth.">
 <meta name="color-scheme" content="light">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-qOhFsq0QMV2REqNwk5hGH5bZE9SkX6gt6yeyKdYPv+U=' 'sha256-KHYlR3e5bV71LRTmVJEqpOU47clquKD3RtKjG66hk0U='; style-src 'sha256-Jaj453dDT/Y+FcAp8Nuh3qSsUd3I+reh7CheXrAsSgc='; img-src 'self' data:; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-qOhFsq0QMV2REqNwk5hGH5bZE9SkX6gt6yeyKdYPv+U=' 'sha256-Q7DnybtxYrlef7jTsFfzKx9a7F97zhJMDZbf7fQD/nU='; style-src 'sha256-Jaj453dDT/Y+FcAp8Nuh3qSsUd3I+reh7CheXrAsSgc='; img-src 'self' data:; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <script>document.documentElement.classList.add("js")</script>
 <style>
@@ -362,13 +362,19 @@
     targets.forEach(function (el) { el.classList.add('in'); });
     return;
   }
+  // threshold must stay 0. A fractional threshold is a fraction OF THE
+  // TARGET, and the entries section is ~9000px tall on a phone: a whole
+  // viewport shows about 7% of it, so a 0.06 threshold plus the margin
+  // never fired and the section stayed invisible. Any visible pixel
+  // (with a small bottom margin for taste) is the only safe trigger for
+  // sections that can outgrow the screen.
   var io = new IntersectionObserver(function (entries) {
     entries.forEach(function (en) {
       if (!en.isIntersecting) return;
       en.target.classList.add('in');
       io.unobserve(en.target);
     });
-  }, { rootMargin: '0px 0px -8% 0px', threshold: 0.06 });
+  }, { rootMargin: '0px 0px -6% 0px', threshold: 0 });
 
   targets.forEach(function (el, i) {
     if (el.closest('details')) { el.classList.add('in'); return; }
@@ -376,12 +382,17 @@
     io.observe(el);
   });
 
-  setTimeout(function () {
+  // Safety net, not the mechanism: anything the observer has not caught
+  // after load, or within a scroll, is shown if it overlaps the viewport.
+  function sweep() {
     document.querySelectorAll('.reveal:not(.in)').forEach(function (el) {
       var r = el.getBoundingClientRect();
-      if (r.top < window.innerHeight) el.classList.add('in');
+      if (r.top < window.innerHeight && r.bottom > 0) el.classList.add('in');
     });
-  }, 1200);
+  }
+  setTimeout(sweep, 1200);
+  window.addEventListener('scroll', function () { setTimeout(sweep, 250); },
+                          { passive: true });
 
   document.querySelectorAll('details.day').forEach(function (d) {
     d.addEventListener('toggle', function () {

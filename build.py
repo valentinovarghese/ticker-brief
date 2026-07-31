@@ -737,13 +737,19 @@ JS = """
     targets.forEach(function (el) { el.classList.add('in'); });
     return;
   }
+  // threshold must stay 0. A fractional threshold is a fraction OF THE
+  // TARGET, and the entries section is ~9000px tall on a phone: a whole
+  // viewport shows about 7% of it, so a 0.06 threshold plus the margin
+  // never fired and the section stayed invisible. Any visible pixel
+  // (with a small bottom margin for taste) is the only safe trigger for
+  // sections that can outgrow the screen.
   var io = new IntersectionObserver(function (entries) {
     entries.forEach(function (en) {
       if (!en.isIntersecting) return;
       en.target.classList.add('in');
       io.unobserve(en.target);
     });
-  }, { rootMargin: '0px 0px -8% 0px', threshold: 0.06 });
+  }, { rootMargin: '0px 0px -6% 0px', threshold: 0 });
 
   targets.forEach(function (el, i) {
     if (el.closest('details')) { el.classList.add('in'); return; }
@@ -751,12 +757,17 @@ JS = """
     io.observe(el);
   });
 
-  setTimeout(function () {
+  // Safety net, not the mechanism: anything the observer has not caught
+  // after load, or within a scroll, is shown if it overlaps the viewport.
+  function sweep() {
     document.querySelectorAll('.reveal:not(.in)').forEach(function (el) {
       var r = el.getBoundingClientRect();
-      if (r.top < window.innerHeight) el.classList.add('in');
+      if (r.top < window.innerHeight && r.bottom > 0) el.classList.add('in');
     });
-  }, 1200);
+  }
+  setTimeout(sweep, 1200);
+  window.addEventListener('scroll', function () { setTimeout(sweep, 250); },
+                          { passive: true });
 
   document.querySelectorAll('details.day').forEach(function (d) {
     d.addEventListener('toggle', function () {
