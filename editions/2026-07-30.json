@@ -20,7 +20,7 @@
       "dd": "Weaker growth reaches shoppers and business budgets first. That puts more of the risk on Amazon and Apple, which sell to consumers, than on Microsoft, which sells to committed enterprise contracts."
     },
     {
-      "dt": "Prices rose faster at the same time &mdash; the index for what Americans buy rose <b>5.7%</b>, up from 3.6%",
+      "dt": "Prices rose faster at the same time: the index for what Americans buy rose <b>5.7%</b>, up from 3.6%",
       "lead": "How it reaches these stocks",
       "dd": "Slower growth with faster inflation removes the Fed's room to cut. High rates hurt fast-growing tech most. Their value sits in profits expected years out, and distant profits are worth less when money costs more."
     },
@@ -76,7 +76,7 @@
       ],
       "why": "This changes who owns the shares, not what the company earns. A forced seller pushes a price below what the business is worth, because the selling is driven by a margin call rather than by any view on value. Removing that seller lets the price snap back. Nothing about Nebius's contracts, costs or customers changed today.",
       "foot": [
-        { "k": "Flows, not company &mdash; flagging", "v": "A 27% move with no company news. Its $1B Reflection AI deal was signed on <b>14 July</b>, and several sites are wrongly recycling it as today's driver.", "flag": true },
+        { "k": "Flows, not company", "v": "A 27% move with no company news. Its $1B Reflection AI deal was signed on <b>14 July</b>, and several sites are wrongly recycling it as today's driver.", "flag": true },
         { "k": "Would flip if", "v": "Citadel resells the position into the open market.", "flag": false },
         { "k": "Next date", "v": "Q2 results, expected in August.", "flag": false }
       ]
@@ -98,13 +98,13 @@
       ],
       "why": "Raising the <em>floor</em> of a spending range is a commitment. Raising the ceiling is only an option. Meta removed its own escape route. Guiding next quarter's sales below expectations while locking in higher spending squeezes profit from both ends at once. Margins falling 12 points in a year shows the cost landing now, while any payoff sits years away.",
       "foot": [
-        { "k": "Already priced in?", "v": "Yes &mdash; the 9% fall reflects it, on intraday prices.", "flag": false },
+        { "k": "Already priced in?", "v": "Yes. The 9% fall reflects it, on intraday prices.", "flag": false },
         { "k": "Would flip if", "v": "Q3 shows margins stabilising.", "flag": false },
         { "k": "Next date", "v": "Q3 results, late October.", "flag": false }
       ],
       "note_after": {
         "title": "The asymmetry worth understanding",
-        "body": "Microsoft and Meta both raised spending sharply on the same night, to opposite verdicts. The difference is not the amount &mdash; it is what stands behind it. Microsoft can point to $678B of signed contracts. Meta cannot point to any. Investors call the first investment and the second cost. Alphabet failed the same test on <b>22 July</b>, lifting capex to as much as $205B on its first negative free cash flow since listing, and fell about 7% the next day. Ask that question of every spending headline you read."
+        "body": "Microsoft and Meta both raised spending sharply on the same night, to opposite verdicts. The difference is not the amount. It is what stands behind it. Microsoft can point to $678B of signed contracts. Meta cannot point to any. Investors call the first investment and the second cost. Alphabet failed the same test on <b>22 July</b>, lifting capex to as much as $205B on its first negative free cash flow since listing, and fell about 7% the next day. Ask that question of every spending headline you read."
       }
     },
     {
@@ -123,7 +123,7 @@
       ],
       "why": "This distinction is the whole point. A sector move can reverse as fast as it arrived, because nothing changed at the company itself. Intel's value still rests on industry-wide demand rather than on winning named foundry customers, and that demand can be taken back just as quickly as it was given.",
       "foot": [
-        { "k": "Sector, not company &mdash; flagging", "v": "A 12% move with no company news. Read it as chip-sector beta, not as anything Intel did.", "flag": true },
+        { "k": "Sector, not company", "v": "A 12% move with no company news. Read it as chip-sector beta, not as anything Intel did.", "flag": true },
         { "k": "Would flip if", "v": "Memory and equipment demand cools.", "flag": false },
         { "k": "Next date", "v": "Q3 results, late October.", "flag": false }
       ]
@@ -141,7 +141,7 @@
       ],
       "why": "Marvell sells custom silicon into exactly the data centres Microsoft is building, so it moves on hyperscaler spending news even when it says nothing itself. That makes the gain real but borrowed. It rests on someone else's capital budget rather than on any order Marvell has announced.",
       "foot": [
-        { "k": "Sector, not company &mdash; flagging", "v": "No company-specific event today.", "flag": true },
+        { "k": "Sector, not company", "v": "No company-specific event today.", "flag": true },
         { "k": "Next date", "v": "Q2 results, late August.", "flag": false }
       ]
     },
@@ -161,7 +161,7 @@
       ],
       "why": "The beat came from costs and mix, not from selling more. Revenue landed almost exactly on expectations, so Robinhood is swapping one volatile engine for another rather than adding customers. Funded accounts growing 7.2% is the real constraint. Revenue per customer cannot rise forever, so slow customer growth eventually caps the model &mdash; and that is what sets the multiple investors pay.",
       "foot": [
-        { "k": "Partly priced &mdash; flagging", "v": "Wednesday's fall came <em>before</em> the results, not after them. It was not a reaction to this quarter.", "flag": true },
+        { "k": "Partly priced", "v": "Wednesday's fall came <em>before</em> the results, not after them. It was not a reaction to this quarter.", "flag": true },
         { "k": "Would flip if", "v": "August account additions reaccelerate.", "flag": false },
         { "k": "Next date", "v": "4 November.", "flag": false }
       ]
@@ -195,7 +195,7 @@
         "Expected revenue <b>~$110B</b>",
         "Expected EPS <b>~$1.88</b> vs $1.57 a year ago"
       ],
-      "why": "Nothing has happened yet &mdash; this is a scheduled event, not news. The one structural item: this is Tim Cook's last results call before John Ternus becomes chief executive on 1 September. Succession and strategy comments therefore carry more weight than the quarter's numbers do.",
+      "why": "Nothing has happened yet. This is a scheduled event, not news. The one structural item: this is Tim Cook's last results call before John Ternus becomes chief executive on 1 September. Succession and strategy comments therefore carry more weight than the quarter's numbers do.",
       "foot": [
         { "k": "Next date", "v": "Tonight, after the close.", "flag": false }
       ]
@@ -219,7 +219,7 @@
       ],
       "note_after": {
         "title": "Correction to this morning's edition",
-        "body": "Today's earlier edition said Microsoft guided FY27 capex to $255&ndash;260B against about $190B this year. That is wrong. The headline guide actually <b>fell</b> to about $175B, on an accounting change that reclassifies more leases as rent rather than purchases &mdash; underlying spending plans are unchanged. It also gave Meta's expected EPS as $7.14, which was the year-ago figure; the estimate was <b>$7.23</b>. And it treated Microsoft's record one-day gain as settled, which it is not until the close."
+        "body": "Today's earlier edition said Microsoft guided FY27 capex to $255&ndash;260B against about $190B this year. That is wrong. The headline guide actually <b>fell</b> to about $175B, on an accounting change that reclassifies more leases as rent rather than purchases; underlying spending plans are unchanged. It also gave Meta's expected EPS as $7.14, which was the year-ago figure; the estimate was <b>$7.23</b>. And it treated Microsoft's record one-day gain as settled, which it is not until the close."
       }
     }
   ],
@@ -235,7 +235,7 @@
     }
   },
   "earnings_ahead": [
-    { "when": "30 Jul", "what": "<b>AAPL</b> and <b>AMZN</b> &mdash; tonight, after close" },
-    { "when": "3 Aug", "what": "<b>PLTR</b> &mdash; Monday, after close" }
+    { "when": "30 Jul", "what": "<b>AAPL</b> and <b>AMZN</b> report tonight, after the close" },
+    { "when": "3 Aug", "what": "<b>PLTR</b> reports Monday, after the close" }
   ]
 }

@@ -13,7 +13,8 @@ archive behind it.
 ## How it works
 
 ```
-editions/YYYY-MM-DD.json   one file per day — the source of truth
+editions/YYYY-MM-DD.json   one file per day, the source of truth
+about.json                 the About block at the foot of the page
 build.py                   renders every edition into site.html
 index.html                 generated; served by GitHub Pages from main
 site.html                  generated; identical copy of index.html
@@ -66,3 +67,23 @@ jq -r '.headline' editions/*.json     # every headline, oldest first
 - Opinion pieces and analyst price targets are excluded by design.
 
 Nothing here is a prediction or investment advice.
+
+## House style
+
+`build.py` strips every em dash from the rendered page at build time and puts
+a comma in its place, because editions are drafted by a language model and
+em dashes are its most obvious tic. Clause-joining dashes need a colon or a
+full stop rather than a comma, so those are fixed in the edition JSON itself;
+the build-time rule is the safety net, not the first line of defence. En
+dashes in numeric ranges are left alone, since those are simply correct.
+
+## Editing the About block
+
+`about.json` holds the name, role, monogram, paragraphs and links shown at
+the foot of the page. Change it and rebuild; no Python involved. Delete the
+file and the section disappears.
+
+## Publishing
+
+Pushing to `main` is the only publishing step. GitHub Pages serves
+`index.html`, which `build.py` regenerates from every edition on file.
