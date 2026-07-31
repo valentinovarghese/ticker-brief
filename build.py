@@ -177,6 +177,26 @@ def render_note(note):
             f'<p>{note["body"]}</p></div>')
 
 
+# Finviz serves each ticker's daily-candle chart as a plain image, no
+# account needed, so the button can land straight on the picture. The image
+# is theirs and loads in the reader's browser, not through this page, so
+# the strict CSP is unaffected: a link is a navigation, not a resource.
+# ty=c candles, ta=0 no indicator overlays, p=d daily bars.
+CHART_URL = "https://finviz.com/chart.ashx?t={t}&ty=c&ta=0&p=d"
+
+CANDLE_ICON = ('<svg viewBox="0 0 24 24" aria-hidden="true">'
+               '<path d="M5 4v3H3.5v9H5v4h1.5v-4H8V7H6.5V4H5Zm6 0v6H9.5v7H11'
+               'v3h1.5v-3H14v-7h-1.5V4H11Zm6 2v4h-1.5v8H17v2h1.5v-2H20v-8h-1.5'
+               'V6H17Z"/></svg>')
+
+
+def chart_link(ticker):
+    return (f'<a class="chartbtn" href="{CHART_URL.format(t=ticker)}" '
+            f'target="_blank" rel="noopener noreferrer" '
+            f'title="Daily candle chart for {ticker} (finviz)">'
+            f'{CANDLE_ICON}Chart</a>')
+
+
 def render_entry(e):
     # The strength label sits under the headline sentence, not as a badge
     # stacked above it: a chip over the first line of body text reads as
@@ -185,6 +205,7 @@ def render_entry(e):
         f'<span class="tick {e["dir"]}">'
         f'<span class="arrow">{ {"up": "&#9650;", "down": "&#9660;"}.get(e["dir"], "&#9679;") }</span> '
         f'{e["ticker"]}</span>',
+        chart_link(e["ticker"]),
     ]
     if e.get("move"):
         tone = e.get("move_tone", "flat")
@@ -287,8 +308,10 @@ def render_ticker_index(editions):
                 + (f"<i>{mv}</i>" if mv else "")
                 + "</span>"
             )
-        rows.append(f'<div class="trow"><span class="tname {trails[ticker][0][1]}">'
-                    f'{ticker}</span><span class="chips">{"".join(chips)}</span></div>')
+        rows.append(f'<div class="trow"><span class="tlab">'
+                    f'<span class="tname {trails[ticker][0][1]}">{ticker}</span>'
+                    f'{chart_link(ticker)}</span>'
+                    f'<span class="chips">{"".join(chips)}</span></div>')
 
     return ('<section class="band reveal"><h2>By ticker &middot; every day on file</h2>'
             f'<div class="tindex">{"".join(rows)}</div></section>')
@@ -553,6 +576,16 @@ CSS = """
           color:var(--ink-3); margin-left:auto; }
   .move.up{color:var(--up);} .move.down{color:var(--down);}
 
+  .chartbtn { font-family:var(--ui); font-size:.64rem; font-weight:640;
+              letter-spacing:.05em; text-transform:uppercase;
+              color:var(--ink-3); text-decoration:none;
+              display:inline-flex; align-items:center; gap:.32rem;
+              border:1px solid var(--line); border-radius:6px;
+              padding:.22rem .5rem; white-space:nowrap; background:var(--paper);
+              transition:color .2s var(--ease), border-color .2s var(--ease); }
+  .chartbtn:hover { color:var(--ink); border-color:var(--ink); }
+  .chartbtn svg { width:.85rem; height:.85rem; fill:currentColor; }
+
   .happened { font-size:1.08rem; margin:0; letter-spacing:-.004em; }
   .grade { font-family:var(--ui); font-size:.62rem; font-weight:680;
            letter-spacing:.1em; text-transform:uppercase; color:var(--ink-3);
@@ -599,8 +632,9 @@ CSS = """
 
   /* ---- ticker index ---- */
   .tindex { display:flex; flex-direction:column; gap:.6rem; }
-  .trow { display:grid; grid-template-columns:4.4rem 1fr; gap:.7rem;
+  .trow { display:grid; grid-template-columns:9.5rem 1fr; gap:.7rem;
           align-items:center; }
+  .tlab { display:inline-flex; align-items:center; gap:.45rem; }
   .tname { font-family:var(--ui); font-size:.82rem; font-weight:660;
            letter-spacing:-.01em; }
   .tname.up{color:var(--up);} .tname.down{color:var(--down);}

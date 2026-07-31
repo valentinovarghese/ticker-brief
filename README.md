@@ -68,6 +68,16 @@ jq -r '.headline' editions/*.json     # every headline, oldest first
 
 Nothing here is a prediction or investment advice.
 
+## Chart buttons
+
+Every ticker name carries a small Chart button, in the day's entries and in
+the by-ticker index. It links to finviz's daily-candle chart image for that
+symbol. The image is finviz's, fetched by the reader's browser on their
+site, not embedded here, so the page itself still loads no third-party
+resources and the CSP stays strict. Self-hosted chart rendering would need
+a price-data host allowed in this environment's network policy; if one is
+ever allowed, build.py can draw the candles itself.
+
 ## House style
 
 `build.py` strips every em dash from the rendered page at build time and puts
