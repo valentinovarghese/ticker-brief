@@ -316,8 +316,17 @@ CSS = """
           display:flex; flex-direction:column; gap:2.75rem; }
 
   .masthead { display:flex; flex-direction:column; gap:1rem; }
+  .brandrow { display:flex; align-items:center; justify-content:space-between;
+              gap:1rem; flex-wrap:wrap; }
   .wordmark { font-family:var(--sans); font-size:.72rem; font-weight:600;
               letter-spacing:.22em; text-transform:uppercase; color:var(--slate); }
+  .social { font-family:var(--sans); font-size:.72rem; font-weight:600;
+            letter-spacing:.08em; color:var(--ink-mute); text-decoration:none;
+            display:inline-flex; align-items:center; gap:.4rem;
+            border:1px solid var(--rule); border-radius:999px;
+            padding:.3rem .7rem; white-space:nowrap; }
+  .social:hover { color:var(--slate); border-color:var(--slate); }
+  .social svg { width:.85em; height:.85em; fill:currentColor; }
   .masthead h1 { font-size:clamp(1.6rem,4.4vw,2.15rem); line-height:1.24;
                  font-weight:600; text-wrap:balance; margin:0; }
   .dateline { font-family:var(--mono); font-size:.76rem; color:var(--ink-mute);
@@ -442,7 +451,14 @@ PAGE = """<title>v2v.investing — Ticker Brief</title>
 <style>{css}</style>
 <div class="wrap">
   <header class="masthead">
-    <div class="wordmark">v2v.investing</div>
+    <div class="brandrow">
+      <div class="wordmark">v2v.investing</div>
+      <a class="social" href="https://www.tiktok.com/@v2v.investing"
+         target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.6 5.82A4.28 4.28 0 0 1 15.54 3h-3.09v12.4a2.59 2.59 0 0 1-2.59 2.5 2.59 2.59 0 1 1 .77-5.06V9.7a5.68 5.68 0 0 0-.77-.05A5.67 5.67 0 1 0 15.54 15.4V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3a4.29 4.29 0 0 1-3.24-1.48Z"/></svg>
+        TikTok
+      </a>
+    </div>
     <h1>{headline}</h1>
     {dateline}
   </header>
