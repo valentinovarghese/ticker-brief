@@ -92,7 +92,9 @@ def render_gauge(ed):
 
 
 def render_quick(ed):
-    items = "".join(f"<li>{q}</li>" for q in ed["quick"])
+    # The <span> matters: the li is a grid, so every inline child (<b>, <em>)
+    # would otherwise become its own grid item and break across cells.
+    items = "".join(f"<li><span>{q}</span></li>" for q in ed["quick"])
     return ('<section class="band"><h2>The 30-second version</h2>'
             f'<ol class="quick">{items}</ol></section>')
 
