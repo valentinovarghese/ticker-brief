@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NVDA chart | v2v.investing</title>
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-WNGR2CGf5/QXQTix4M37q8cTxv2kk3IZH8EvGHS8Mho=' 'sha256-NJFvGPDmwG8WjOssxtC+d1dxsWsAFba3NdvM8xvY9Ig='; style-src 'sha256-EJL4SvVOeIhtbD9gFVUSPnbA0FifLxASzOynkz1rGak='; img-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="color-scheme" content="light">
+<style>
+  * { box-sizing:border-box; }
+  html,body { height:100%; }
+  body { margin:0; background:#FFFFFF; color:#0C0D0E;
+         font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+         display:flex; flex-direction:column; overflow:hidden; }
+  header { display:flex; align-items:center; gap:.9rem; flex-wrap:wrap;
+           padding:.7rem 1rem; border-bottom:1px solid #E7E6E1; flex:0 0 auto; }
+  .home { font-size:.7rem; font-weight:660; letter-spacing:.02em;
+          color:#FFFFFF; background:#0C0D0E; padding:.32rem .58rem;
+          border-radius:5px; text-decoration:none; }
+  #read { display:flex; align-items:baseline; gap:.85rem; flex-wrap:wrap;
+          font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+          font-size:.76rem; color:#6E747B; font-variant-numeric:tabular-nums; }
+  #read b { font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+            font-size:1rem; font-weight:660; color:#0C0D0E; letter-spacing:-.02em; }
+  #read i { font-style:normal; color:#0C0D0E; }
+  #read .d { color:#0C0D0E; }
+  #hint { margin-left:auto; font-size:.68rem; color:#6E747B; white-space:nowrap; }
+  #reset { font:inherit; font-size:.68rem; color:#6E747B; background:#FFFFFF;
+           border:1px solid #E7E6E1; border-radius:6px; padding:.26rem .55rem;
+           cursor:pointer; }
+  #reset:hover { color:#0C0D0E; border-color:#0C0D0E; }
+  .wrap { flex:1 1 auto; min-height:0; padding:.5rem .5rem .2rem; }
+  canvas { width:100%; height:100%; display:block; touch-action:pan-y; }
+  noscript img { max-width:100%; }
+  @media (max-width:36rem) {
+    header { padding:.5rem .7rem; gap:.5rem; }
+    #hint { display:none; }
+    #read { font-size:.7rem; gap:.15rem .55rem; }
+    #read b { font-size:.9rem; }
+    #read .v { display:none; }          /* volume is in the panel already */
+    .wrap { padding:.35rem .35rem .15rem; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <a class="home" href="../index.html">v2v.investing</a>
+  <div id="read"></div>
+  <span id="hint">drag to read &middot; scroll to zoom &middot; arrows to step</span>
+  <button id="reset" type="button">Reset</button>
+</header>
+<div class="wrap">
+  <canvas id="c" aria-label="NVDA daily candlestick chart, 63 sessions, 2026-05-01 to 2026-07-31, +1.2 percent over the period"></canvas>
+  <noscript><img src="NVDA.svg" alt="NVDA daily candles"></noscript>
+</div>
+<script>window.__TICKER__="NVDA";window.__BARS__=[["2026-05-01",201.28,203.0,197.12,198.45,128646996.0],["2026-05-04",199.5,201.73,194.74,198.48,125368092.0],["2026-05-05",199.3,200.24,196.03,196.5,113406620.0],["2026-05-06",199.89,208.265,198.61,207.83,188362812.0],["2026-05-07",208.34,214.2,206.5,211.5,168307873.0],["2026-05-08",213.03,217.8,212.89,215.2,136421361.0],["2026-05-11",214.035,222.3,213.89,219.44,160685774.0],["2026-05-12",218.545,223.75,214.92,220.78,159176619.0],["2026-05-13",224.93,227.84,221.5653,225.83,150405386.0],["2026-05-14",229.85,236.54,229.3,235.74,180782857.0],["2026-05-15",229.76,231.5,224.24,225.32,180977639.0],["2026-05-18",229.87,230.0,218.37,222.32,146280896.0],["2026-05-19",219.62,224.48,217.91,220.61,140948207.0],["2026-05-20",223.18,226.13,220.495,223.47,162279171.0],["2026-05-21",222.29,227.3999,217.93,219.51,203381760.0],["2026-05-22",220.904,221.01,214.8,215.33,169275710.0],["2026-05-26",216.54,218.18,212.0,214.86,187202576.0],["2026-05-27",214.12,214.15,208.78,212.6,167601172.0],["2026-05-28",211.275,215.5191,211.22,214.25,143996048.0],["2026-05-29",214.575,217.8599,211.13,211.14,289410623.0],["2026-06-01",215.73,224.87,215.7,224.36,212850685.0],["2026-06-02",227.18,232.28,221.35,222.82,193362903.0],["2026-06-03",221.72,222.82,214.51,214.75,160907001.0],["2026-06-04",213.905,221.6,210.97,218.66,169022152.0],["2026-06-05",214.53,214.87,204.33,205.1,219655531.0],["2026-06-08",210.18,210.47,206.0,208.64,138372837.0],["2026-06-09",210.615,211.4,199.34,208.19,180962450.0],["2026-06-10",204.43,207.22,199.92,200.42,161746587.0],["2026-06-11",201.49,205.66,199.54,204.87,158643204.0],["2026-06-12",204.86,207.07,203.4385,205.19,112345314.0],["2026-06-15",208.92,212.7107,208.34,212.45,149936688.0],["2026-06-16",211.18,211.49,207.29,207.41,125694100.0],["2026-06-17",208.53,209.21,203.08,204.65,128363473.0],["2026-06-18",207.33,211.39,206.5,210.69,241272013.0],["2026-06-22",211.44,213.99,207.72,208.65,122041419.0],["2026-06-23",202.17,203.77,200.0,200.04,153496196.0],["2026-06-24",200.12,201.67,196.58,199.0,151810704.0],["2026-06-25",200.08,200.8,192.13,195.74,150205647.0],["2026-06-26",193.12,195.55,191.22,192.53,179304147.0],["2026-06-29",193.85,196.18,189.8,194.97,148835724.0],["2026-06-30",197.24,200.63,195.11,200.09,166476665.0],["2026-07-01",196.2,199.85,193.45,197.58,146147597.0],["2026-07-02",197.14,200.055,192.35,194.83,142385548.0],["2026-07-06",194.42,197.55,193.99,195.55,108999015.0],["2026-07-07",192.37,198.41,191.14,196.93,124154574.0],["2026-07-08",195.18,205.16,195.06,204.12,147419133.0],["2026-07-09",204.46,204.585,198.96,202.78,132037359.0],["2026-07-10",202.0,211.0,201.92,210.96,148421001.0],["2026-07-13",208.54,210.57,203.0,203.53,121411018.0],["2026-07-14",208.2,212.55,203.8,211.8,124379646.0],["2026-07-15",211.96,213.81,206.04,212.5,124797151.0],["2026-07-16",210.17,211.08,205.845,207.4,122986074.0],["2026-07-17",202.64,206.645,197.97,202.81,144281910.0],["2026-07-20",205.87,207.74,202.28,203.28,88701540.0],["2026-07-21",207.54,208.65,204.01,207.29,108685563.0],["2026-07-22",205.805,214.39,204.95,212.06,137645596.0],["2026-07-23",209.455,210.8687,205.96,208.76,110505328.0],["2026-07-24",207.45,211.9099,204.81,206.84,114836805.0],["2026-07-27",208.2,208.75,195.44,196.51,154353698.0],["2026-07-28",195.0,198.7,192.74,197.01,134111494.0],["2026-07-29",195.845,197.074,190.01,190.01,147680809.0],["2026-07-30",193.45,197.25,191.52,195.04,129010151.0],["2026-07-31",198.4405,202.0,194.95,200.75,138812377.0]];</script>
+<script>
+(function () {
+  var D = window.__BARS__, TICKER = window.__TICKER__;
+  var cv = document.getElementById('c'), ctx = cv.getContext('2d');
+  var read = document.getElementById('read');
+  var INK='#0C0D0E', MUTE='#6E747B', LINE='#EFEEEA', GRID='#F6F5F2',
+      UP='#046A44', DOWN='#B33124', PAPER='#FFFFFF';
+  var PADR = 66, PADT = 8, PADB = 30, VOLH = 0.18, GAPV = 14;
+  var view = { from: 0, to: D.length };      // visible slice, for zooming
+  var hover = null, dpr = 1, W = 0, H = 0;
+
+  function fmt(v, d) { return v.toLocaleString('en-US',
+      { minimumFractionDigits: d === undefined ? 2 : d,
+        maximumFractionDigits: d === undefined ? 2 : d }); }
+  function fmtVol(v) {
+    if (v >= 1e9) return (v / 1e9).toFixed(2) + 'B';
+    if (v >= 1e6) return (v / 1e6).toFixed(1) + 'M';
+    if (v >= 1e3) return (v / 1e3).toFixed(0) + 'K';
+    return String(v);
+  }
+
+  function resize() {
+    dpr = window.devicePixelRatio || 1;
+    W = cv.clientWidth; H = cv.clientHeight;
+    cv.width = Math.round(W * dpr); cv.height = Math.round(H * dpr);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    draw();
+  }
+
+  function slice() { return D.slice(view.from, view.to); }
+
+  function geom() {
+    var bars = slice();
+    var priceH = (H - PADT - PADB) * (1 - VOLH) - GAPV;
+    var volTop = PADT + priceH + GAPV;
+    var volH = (H - PADT - PADB) - priceH - GAPV;
+    var lo = Infinity, hi = -Infinity, vmax = 0;
+    bars.forEach(function (b) {
+      if (b[3] < lo) lo = b[3];
+      if (b[2] > hi) hi = b[2];
+      if (b[5] > vmax) vmax = b[5];
+    });
+    var pad = (hi - lo) * 0.06 || 1;
+    lo -= pad; hi += pad;
+    var plotW = W - PADR;
+    return { bars: bars, lo: lo, hi: hi, vmax: vmax || 1, plotW: plotW,
+             priceH: priceH, volTop: volTop, volH: volH,
+             step: plotW / bars.length };
+  }
+
+  function yOf(g, v) { return PADT + g.priceH - (v - g.lo) / (g.hi - g.lo) * g.priceH; }
+
+  // A "nice" step keeps gridline prices on round numbers as you zoom.
+  function niceStep(range, target) {
+    var raw = range / target, mag = Math.pow(10, Math.floor(Math.log(raw) / Math.LN10));
+    var n = raw / mag;
+    var step = n >= 7.5 ? 10 : n >= 3.5 ? 5 : n >= 1.5 ? 2 : 1;
+    return step * mag;
+  }
+
+  function draw() {
+    var g = geom();
+    ctx.clearRect(0, 0, W, H);
+    ctx.fillStyle = PAPER; ctx.fillRect(0, 0, W, H);
+    ctx.font = '11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace';
+    ctx.textBaseline = 'middle';
+
+    // Price gridlines. Density follows height, so a tall window gets more
+    // levels rather than the same four stretched apart.
+    var target = Math.max(4, Math.min(14, Math.round(g.priceH / 46)));
+    var step = niceStep(g.hi - g.lo, target);
+    var start = Math.ceil(g.lo / step) * step;
+    ctx.textAlign = 'left';
+    for (var p = start; p <= g.hi; p += step) {
+      var y = Math.round(yOf(g, p)) + 0.5;
+      ctx.strokeStyle = GRID; ctx.beginPath();
+      ctx.moveTo(0, y); ctx.lineTo(g.plotW, y); ctx.stroke();
+      ctx.fillStyle = MUTE; ctx.fillText(fmt(p), g.plotW + 8, y);
+    }
+
+    // Date ticks, thinned to whatever fits.
+    var every = Math.max(1, Math.ceil(g.bars.length / Math.max(2, Math.floor(W / 92))));
+    ctx.textAlign = 'center';
+    for (var i = 0; i < g.bars.length; i += every) {
+      var x = g.step * (i + 0.5);
+      ctx.strokeStyle = GRID; ctx.beginPath();
+      ctx.moveTo(Math.round(x) + 0.5, PADT); ctx.lineTo(Math.round(x) + 0.5, PADT + g.priceH);
+      ctx.stroke();
+      ctx.fillStyle = MUTE;
+      ctx.fillText(g.bars[i][0].slice(5), x, H - PADB / 2);
+    }
+
+    var body = Math.max(1, g.step * 0.66);
+    for (var j = 0; j < g.bars.length; j++) {
+      var b = g.bars[j], cx = g.step * (j + 0.5);
+      var col = b[4] >= b[1] ? UP : DOWN;
+      ctx.strokeStyle = col; ctx.fillStyle = col;
+      ctx.beginPath();
+      ctx.moveTo(Math.round(cx) + 0.5, yOf(g, b[2]));
+      ctx.lineTo(Math.round(cx) + 0.5, yOf(g, b[3]));
+      ctx.stroke();
+      var top = yOf(g, Math.max(b[1], b[4])), bot = yOf(g, Math.min(b[1], b[4]));
+      ctx.fillRect(cx - body / 2, top, body, Math.max(1, bot - top));
+      if (g.vmax) {
+        var vh = (b[5] / g.vmax) * g.volH;
+        ctx.globalAlpha = 0.34;
+        ctx.fillRect(cx - body / 2, g.volTop + g.volH - vh, body, vh);
+        ctx.globalAlpha = 1;
+      }
+    }
+
+    ctx.strokeStyle = LINE; ctx.beginPath();
+    ctx.moveTo(0, Math.round(PADT + g.priceH) + 0.5);
+    ctx.lineTo(g.plotW, Math.round(PADT + g.priceH) + 0.5); ctx.stroke();
+
+    if (hover !== null && hover >= 0 && hover < g.bars.length) crosshair(g);
+    readout(g);
+  }
+
+  function crosshair(g) {
+    var b = g.bars[hover], cx = g.step * (hover + 0.5);
+    ctx.save();
+    ctx.setLineDash([3, 3]); ctx.strokeStyle = MUTE;
+    ctx.beginPath(); ctx.moveTo(Math.round(cx) + 0.5, PADT);
+    ctx.lineTo(Math.round(cx) + 0.5, PADT + g.priceH + GAPV + g.volH); ctx.stroke();
+    var y = yOf(g, b[4]);
+    ctx.beginPath(); ctx.moveTo(0, Math.round(y) + 0.5);
+    ctx.lineTo(g.plotW, Math.round(y) + 0.5); ctx.stroke();
+    ctx.restore();
+    // Price tag on the axis, so the crosshair reads like a real terminal.
+    var label = fmt(b[4]);
+    ctx.fillStyle = INK;
+    ctx.fillRect(g.plotW + 4, y - 9, PADR - 6, 18);
+    ctx.fillStyle = PAPER; ctx.textAlign = 'left';
+    ctx.fillText(label, g.plotW + 9, y);
+    var dl = b[0];
+    ctx.textAlign = 'center';
+    var w = ctx.measureText(dl).width + 12;
+    ctx.fillStyle = INK;
+    ctx.fillRect(cx - w / 2, H - PADB + 2, w, 17);
+    ctx.fillStyle = PAPER;
+    ctx.fillText(dl, cx, H - PADB / 2 + 1);
+  }
+
+  function readout(g) {
+    var i = (hover !== null && hover >= 0 && hover < g.bars.length)
+            ? hover : g.bars.length - 1;
+    var b = g.bars[i], prev = i > 0 ? g.bars[i - 1][4] : b[1];
+    var chg = b[4] - prev, pct = prev ? chg / prev * 100 : 0;
+    var col = chg >= 0 ? UP : DOWN;
+    read.innerHTML =
+      '<b>' + TICKER + '</b>' +
+      '<span class="d">' + b[0] + '</span>' +
+      '<span>O <i>' + fmt(b[1]) + '</i></span>' +
+      '<span>H <i>' + fmt(b[2]) + '</i></span>' +
+      '<span>L <i>' + fmt(b[3]) + '</i></span>' +
+      '<span>C <i>' + fmt(b[4]) + '</i></span>' +
+      '<span style="color:' + col + '">' + (chg >= 0 ? '+' : '') + fmt(chg) +
+      ' (' + (pct >= 0 ? '+' : '') + pct.toFixed(2) + '%)</span>' +
+      '<span class="v">Vol <i>' + fmtVol(b[5]) + '</i></span>';
+  }
+
+  function at(clientX) {
+    var g = geom(), r = cv.getBoundingClientRect();
+    var i = Math.floor((clientX - r.left) / g.step);
+    return i < 0 ? 0 : i >= g.bars.length ? g.bars.length - 1 : i;
+  }
+
+  cv.addEventListener('mousemove', function (e) { hover = at(e.clientX); draw(); });
+  cv.addEventListener('mouseleave', function () { hover = null; draw(); });
+  cv.addEventListener('touchstart', function (e) {
+    hover = at(e.touches[0].clientX); draw();
+  }, { passive: true });
+  cv.addEventListener('touchmove', function (e) {
+    hover = at(e.touches[0].clientX); draw();
+  }, { passive: true });
+
+  // Wheel and pinch zoom over the time axis, clamped to the data.
+  cv.addEventListener('wheel', function (e) {
+    e.preventDefault();
+    var n = view.to - view.from;
+    var k = e.deltaY > 0 ? 1.12 : 0.89;
+    var want = Math.round(n * k);
+    want = Math.max(12, Math.min(D.length, want));
+    var anchor = view.from + Math.round(n * ((e.clientX - cv.getBoundingClientRect().left) / W));
+    var from = Math.round(anchor - (anchor - view.from) * (want / n));
+    from = Math.max(0, Math.min(D.length - want, from));
+    view = { from: from, to: from + want };
+    draw();
+  }, { passive: false });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
+      e.preventDefault();
+      var g = geom();
+      if (hover === null) hover = g.bars.length - 1;
+      hover += e.key === 'ArrowRight' ? 1 : -1;
+      hover = Math.max(0, Math.min(g.bars.length - 1, hover));
+      draw();
+    } else if (e.key === '0') { view = { from: 0, to: D.length }; hover = null; draw(); }
+  });
+
+  document.getElementById('reset').addEventListener('click', function () {
+    view = { from: 0, to: D.length }; hover = null; draw();
+  });
+
+  // The backing store must follow the element's real box, not a guess made
+  // before layout settles. Sizing on load alone leaves the canvas short (a
+  // dead band underneath) or tall (a clipped volume panel), depending on
+  // which resolves first. Observing the container catches every change,
+  // including the flex layout resolving and the window being dragged.
+  if (window.ResizeObserver) {
+    new ResizeObserver(resize).observe(cv.parentNode);
+  } else {
+    window.addEventListener('resize', resize);
+    window.addEventListener('load', resize);
+  }
+  resize();
+})();
+</script>
+</body>
+</html>

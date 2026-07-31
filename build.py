@@ -205,7 +205,7 @@ def local_charts():
     if data.get("demo"):
         return set()
     return {t for t in data.get("available", [])
-            if (CHARTS / f"{t}.svg").exists()}
+            if (CHARTS / f"{t}.html").exists()}
 
 
 LOCAL_CHARTS = local_charts()
@@ -218,8 +218,8 @@ CANDLE_ICON = ('<svg viewBox="0 0 24 24" aria-hidden="true">'
 
 def chart_link(ticker):
     if ticker in LOCAL_CHARTS:
-        href, title = (f"charts/{ticker}.svg",
-                       f"{ticker}: three months of daily candles")
+        href, title = (f"charts/{ticker}.html",
+                       f"{ticker}: three months of daily candles, interactive")
     else:
         href, title = (CHART_URL.format(t=ticker),
                        f"Daily candle chart for {ticker} (finviz)")

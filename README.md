@@ -74,8 +74,13 @@ Every ticker name carries a small Chart button, in the day's entries and in
 the by-ticker index. It links to finviz's daily-candle chart image for that
 symbol. The image is finviz's, fetched by the reader's browser on their
 site, not embedded here, so the page itself still loads no third-party
-resources and the CSP stays strict. `charts.py` draws self-hosted 3-month daily candlestick SVGs into
-`charts/`, styled like the page, and `build.py` links a ticker to its
+resources and the CSP stays strict. `charts.py` writes two files per ticker into `charts/`: an interactive
+full-viewport page (`AAPL.html`) and a static SVG (`AAPL.svg`) used as the
+no-script fallback. The interactive page draws to a canvas with a crosshair,
+an OHLC and volume readout, a volume panel, price gridlines whose density
+follows the window height, and wheel zoom over the time axis. Raw bars are
+cached in `charts/data/` so pages can be redrawn without spending API calls.
+Both are styled like the site, and `build.py` links a ticker to its
 local SVG whenever one exists. Run it with `--demo` to check the renderer
 against synthetic data; `index.json` records `demo: true` for those runs
 and build.py refuses to link them, because a made-up price chart is
