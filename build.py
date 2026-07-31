@@ -18,6 +18,8 @@ Edition text may contain inline <b>/<em> markup and HTML entities; it is
 authored by the brief itself, not user input, so it is emitted verbatim.
 """
 
+import base64
+import hashlib
 import html
 import json
 import re
@@ -73,7 +75,10 @@ def safe_html(text):
         if not part:
             continue
         # Odd indices are the captured tags and entities, kept as authored.
-        out.append(part if i % 2 else html.escape(part, quote=False))
+        # quote=True so a string landing inside an attribute (an href, a
+        # class) cannot close the quote and smuggle in an attribute of its
+        # own; in text content &quot; still renders as a plain quote mark.
+        out.append(part if i % 2 else html.escape(part, quote=True))
     return "".join(out)
 
 
@@ -330,6 +335,12 @@ def render_about(about):
     if not about:
         return ""
     paras = "".join(f"<p>{p}</p>" for p in about.get("paragraphs", []))
+    # Only web URLs become links. Anything else (javascript:, data:, a bare
+    # path) is refused loudly at build time rather than published quietly.
+    for l in about.get("links", []):
+        if not l["href"].startswith(("https://", "http://")):
+            sys.exit(f'about.json link "{l.get("label", "?")}" is not an '
+                     f'http(s) URL: {l["href"]!r}')
     links = "".join(
         f'<a class="pill" href="{l["href"]}" target="_blank" '
         f'rel="noopener noreferrer">{l["label"]}</a>'
@@ -351,11 +362,42 @@ def render_about(about):
 
 # ---------------------------------------------------------------- page
 
+# The one line that must run before first paint: it marks that JS is alive,
+# which is what allows the reveal animations to hide anything at all.
+HEAD_JS = 'document.documentElement.classList.add("js")'
+
+
+def sha256_src(source):
+    digest = hashlib.sha256(source.encode("utf-8")).digest()
+    return "sha256-" + base64.b64encode(digest).decode("ascii")
+
+
+def csp():
+    """A strict page policy, enforced by the browser itself.
+
+    Escaping (safe_html) is the first line of defence; this is the second.
+    Scripts and styles are allowed by hash of their exact source, so even
+    if untrusted markup ever slipped past the sanitiser, an injected
+    <script> or external load would still refuse to run. The hashes are
+    computed from the same constants the page is rendered from, so they
+    can never drift out of step with the content they allow.
+    """
+    return (
+        "default-src 'none'; "
+        f"script-src '{sha256_src(HEAD_JS)}' '{sha256_src(JS)}'; "
+        f"style-src '{sha256_src(CSS)}'; "
+        "img-src 'self' data:; "
+        "base-uri 'none'; form-action 'none'"
+    )
+
+
 def render_page(editions):
     latest, older = editions[0], editions[1:]
     return PAGE.format(
         css=CSS,
         js=JS,
+        head_js=HEAD_JS,
+        csp=csp(),
         dateline=render_gauge(latest),
         headline=latest["headline"],
         body=render_body(latest),
@@ -733,7 +775,9 @@ PAGE = """<!doctype html>
 <title>v2v.investing | Ticker Brief</title>
 <meta name="description" content="A daily pre-market brief on twelve tickers, written to explain why each number changes what a company is worth.">
 <meta name="color-scheme" content="light">
-<script>document.documentElement.classList.add("js")</script>
+<meta http-equiv="Content-Security-Policy" content="{csp}">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<script>{head_js}</script>
 <style>{css}</style>
 </head>
 <body>
