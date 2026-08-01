@@ -1,52 +1,42 @@
 {
  "date": "2026-07-31",
  "weekday": "Fri",
- "headline": "AMZN is up about 12% premarket as AWS growth hit 37%, while AAPL is down about 7% on a supply-capped September forecast.",
+ "headline": "AMZN closed +15.3%, its biggest one-day gain in over a decade, while AAPL settled at -7.4%.",
  "gauge": [
   {
-   "text": "QQQ +3.4% Thursday",
+   "text": "QQQ +0.65% Friday close",
    "tone": "up"
   },
   {
-   "text": "updated 07:00 ET &middot; premarket",
+   "text": "updated 19:52 ET &middot; after the close",
    "tone": "flat"
   },
   {
-   "text": "12 tickers &middot; 8 with news",
+   "text": "12 tickers &middot; 3 with news",
    "tone": "flat"
   }
  ],
  "quick": [
-  "Apple and Amazon both reported Thursday after the close. Overnight has not changed the verdict: Amazon is bid up, Apple is marked down.",
-  "Amazon's headline EPS of $5.75 is not a real number. A $53.4B one-off gain, mostly its Anthropic stake, did most of it. Operating income up 43% is the actual beat.",
-  "Chips ripped Thursday on no company news: SOXX +8%, MRVL +13%, INTC +11%. That was Microsoft's spending plus a memory shortage. NBIS rose 27% on a separate story &mdash; a forced seller being cleared out.",
-  "<b>Timing note.</b> This edition replaces the one written at 20:27 Thursday evening. It fired <em>on time</em> at 07:00 New York, before Friday's open. Thursday's close is settled; the premarket moves below are thin, provisional, and the bell will settle them."
+  "Thursday night's verdicts held and grew. Amazon opened <b>+12.5%</b>, matching the premarket, then closed <b>+15.3%</b>. Apple closed <b>-7.4%</b>. The session extended both moves rather than fading them.",
+  "The chip rally died during the day. SOXX opened <b>+4.4%</b> and closed <b>+0.1%</b>. Intel opened <b>+6.1%</b> and closed <b>-1.0%</b>. Marvell gave back three quarters of an 8.8% gap.",
+  "The cause is bonds, not chips. The 30-year Treasury yield hit <b>5.25%</b>, a 19-year high, as oil rose again on Strait of Hormuz disruption.",
+  "<b>Timing note.</b> This edition replaces the one sent at 07:00 New York this morning. This run fired at <b>19:52 New York</b>, about 13 hours late, so the market has already closed. Every figure below is a settled Friday close, not a premarket guess. Where the morning edition could only offer provisional premarket reads, this one reports what actually happened."
  ],
  "macro": [
   {
-   "dt": "The Fed held at <b>3.5&ndash;3.75%</b> on Wednesday, <b>9&ndash;3</b>, with three members wanting a rise. Futures now put a <b>54%</b> chance on a <em>hike</em> on <b>16 September</b>",
+   "dt": "<b>Oil and yields, one chain.</b> WTI closed above <b>$85</b>, up about <b>3.8%</b> on the day and roughly <b>20%</b> across July. Brent sits near <b>$89.50</b>, up about 22% in the month. The cause is renewed US-Iran hostilities and tankers turning back in the <b>Strait of Hormuz</b>",
    "lead": "How it reaches these stocks",
-   "dd": "Note the direction. The market is pricing the next move as up, not down. Higher rates raise borrowing costs and cut what investors will pay per dollar of distant earnings. That hits fast-growing tech hardest, because most of its profit sits far in the future."
+   "dd": "Oil feeds headline inflation, inflation raises the odds of a rate rise, and those odds lift the rate used to discount future profits. Fast-growing tech holds most of its profit far in the future, so it loses the most value per point of yield."
   },
   {
-   "dt": "June core PCE, the Fed's preferred inflation gauge, came in Thursday at <b>3.3%</b> year-over-year, matching forecasts, with monthly prices up <b>0.1%</b> against 0.2% expected",
+   "dt": "The <b>30-year Treasury yield</b> reached <b>5.25%</b>, its highest in <b>19 years</b>. The 10-year sat near <b>4.7%</b>, with sources split between 4.71% and 4.75%. The officials who dissented in Wednesday's <b>9&ndash;3</b> hold said publicly on Friday that they favour raising rates",
    "lead": "How it reaches these stocks",
-   "dd": "The annual rate is uncomfortably high but the monthly number is the softer one, and it is what the Fed watches for turning points. A cooler month takes a little pressure off the rate-hike case above."
+   "dd": "This is a funding cost now, not only a discount rate. Amazon's <b>$220B</b> and Meta's <b>$130&ndash;145B</b> capex plans are increasingly debt-financed. Dearer long money raises the cost of every data centre in them, which is why the most capital-hungry names fell hardest."
   },
   {
-   "dt": "Second-quarter GDP grew <b>1.5%</b>, down from 2.1% and below the ~2% expected",
-   "lead": "How it reaches these stocks",
-   "dd": "Slower growth reaches consumer spending first. That lands on Apple and on Amazon's retail arm, rather than on cloud, where demand is contracted years ahead."
-  },
-  {
-   "dt": "Samsung warned the <b>memory shortage may run into 2028</b>. A new tariff schedule took effect <b>24 July</b> after the temporary 10% global tariff lapsed",
-   "lead": "How it reaches these stocks",
-   "dd": "Both are input costs, not sentiment. Memory now shows up in two places at once: Apple's gross margin and Amazon's building budget. It is the single thread running through both of Thursday's reports."
-  },
-  {
-   "dt": "<b>QQQ rose about 3.4%</b> Thursday; the Nasdaq Composite rose exactly <b>2.8%</b> to 25,122.18, ending a six-day slide. The S&amp;P 500 closed <b>+1.7%</b> at 7,437.64",
+   "dt": "<b>QQQ closed +0.65%</b> at <b>687.99</b>, after opening <b>+1.25%</b>. The S&amp;P 500 rose 0.7% to 7,489.72; the Nasdaq Composite rose 1% to 25,373.85; the Dow gained 0.53% to 52,485.03",
    "lead": "Where the gauge disagrees",
-   "dd": "This contradicts the weak GDP print and a Fed the market thinks may hike next. Tech ignored the macro entirely and traded on Microsoft's cloud numbers. Read the day as a single-stock event that spread, not as a verdict on the economy."
+   "dd": "Read this one carefully. Apple, Microsoft, Nvidia, Amazon, Alphabet and Meta alone should have added about <b>1.05 points</b> to QQQ. It delivered <b>0.65</b>. The other ninety-odd names were net negative. The index rose. The average Nasdaq stock did not."
   }
  ],
  "entries": [
@@ -54,26 +44,22 @@
    "ticker": "AMZN",
    "dir": "up",
    "strength": "major",
-   "strength_label": "Major &middot; bullish",
-   "move": "about +12% &middot; premarket",
+   "strength_label": "Major &middot; bullish &middot; settled",
+   "move": "+15.3% &middot; Friday close",
    "move_tone": "up",
-   "happened": "Amazon reported Q2 on Thursday after the close, and AWS growth accelerated to its fastest in about five years.",
+   "happened": "Friday's full session confirmed and then extended Thursday night's AWS beat.",
    "figures": [
-    "Revenue&nbsp;&nbsp;&nbsp;&nbsp; <b>$200.6B</b> vs $196.4B expected &nbsp;(+20% y/y)",
-    "AWS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>$42.2B</b> vs $40.5B expected &nbsp;<b>+37%</b> vs ~31% expected &mdash; fastest in 18 quarters",
-    "AWS profit <b>$16.6B</b> vs $10.2B a year ago &nbsp;(39% margin, up ~6.5 points)",
-    "Operating income <b>$27.5B</b>, <b>+43%</b> y/y",
-    "EPS <b>$5.75</b> &mdash; includes a <b>$53.4B</b> one-off gain, mostly the Anthropic stake; strip it and it sits near the ~$1.81 expected",
-    "Backlog (revenue already under contract) <b>$496B</b>",
-    "Advertising <b>$19.8B</b>, +26%",
-    "2026 capex guide raised to <b>~$220B</b> from ~$200B; twelve-month free cash flow swung to <b>-$7.6B</b> from +$18.2B",
-    "Q3 revenue guide <b>$197&ndash;202B</b> vs $204B expected &mdash; a miss"
+    "Closed <b>+15.32%</b> at <b>$271.58</b> from $235.50",
+    "Its largest one-day gain in over a decade",
+    "Opened <b>+12.5%</b>, matching Thursday's premarket, then added through the day",
+    "Volume <b>126M</b> shares against <b>45M</b> on Wednesday, about <b>2.8x</b> normal",
+    "The quarter behind it: AWS <b>$42.2B</b>, <b>+37%</b>, fastest in 18 quarters; backlog <b>$496B</b>; capex guide raised to <b>~$220B</b>"
    ],
-   "why": "AWS growth is the number Amazon's price is set on, and it sped up instead of fading. A $496B backlog turns guesswork about future growth into revenue already signed for, which is why investors tolerate the spending: it is filling orders, not placing a bet. Rising margin alongside rising growth is the rarest combination in large-cap tech, because it says Amazon can fill capacity without spending more per dollar earned. Treat the headline EPS as noise. A paper markup on a stake Amazon has not sold tells you nothing about the business.",
+   "why": "An after-hours move on thin volume often unwinds at the open. This one did the opposite. Near three times normal volume means long-only institutions repriced the business, rather than fast money trading a headline. That distinction usually decides whether a gap holds or fills over the following weeks. The morning edition could only call the premarket provisional; the session has now settled it upward.",
    "foot": [
     {
      "k": "Already priced in?",
-     "v": "Largely. Shares rose about 9&ndash;10% after hours Thursday and are near <b>+12%</b> in Friday premarket, so the overnight session has extended the move rather than faded it. Still provisional: premarket volume is thin and the open settles it. Note the market bought this <em>despite</em> a revenue guide below expectations.",
+     "v": "Yes, and settled rather than provisional now. Note what the market waved through: a Q3 revenue guide of <b>$197&ndash;202B</b> against $204B expected. It paid for AWS growth and the $496B backlog instead.",
      "flag": false
     },
     {
@@ -92,25 +78,22 @@
    "ticker": "AAPL",
    "dir": "down",
    "strength": "major",
-   "strength_label": "Major &middot; bearish",
-   "move": "about -7% &middot; premarket",
+   "strength_label": "Major &middot; bearish &middot; settled",
+   "move": "-7.4% &middot; Friday close",
    "move_tone": "down",
-   "happened": "Apple beat on every headline line on Thursday after the close, then guided the September quarter well below the pace it had just set.",
+   "happened": "The September-quarter guide, not the quarter itself, set Apple's price all day.",
    "figures": [
-    "Revenue&nbsp;&nbsp;&nbsp;&nbsp; <b>$109.4B</b> vs $108.65B expected &nbsp;(+16% y/y)",
-    "EPS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>$2.02</b> vs $1.89 expected &nbsp;(vs $1.57 a year ago), including $0.11 from tariff refunds",
-    "Gross margin <b>50.1%</b> vs 46.5% a year ago &mdash; about 2 points of that from tariff refunds",
-    "iPhone&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>$54.25B</b>, <b>+22%</b> &mdash; a June-quarter record",
-    "Services <b>$30.74B</b>, +12%, vs ~$31.2B expected &mdash; and <em>down sequentially</em> for the first time since 2022",
-    "Greater China <b>$18.82B</b>, +22%, vs ~$19.6B expected",
-    "September-quarter guide <b>+9&ndash;11%</b> y/y vs ~12% expected, down from +16%; gross margin guided to <b>47&ndash;48%</b>",
-    "Dividend <b>$0.27</b>, payable 13 August"
+    "Closed <b>-7.35%</b> at <b>$308.91</b> from $333.43",
+    "Gapped down <b>8.6%</b> at the open, then clawed back <b>1.4%</b> through the session",
+    "Volume <b>127M</b> against <b>56M</b> on Wednesday",
+    "Reports differ on the size, some citing 7.2% and some 9.5%; the close gives <b>7.4%</b>",
+    "The guide behind it: September quarter <b>+9&ndash;11%</b> y/y against ~12% expected, down from +16%; gross margin guided to <b>47&ndash;48%</b> from 50.1%"
    ],
-   "why": "Apple is short of parts, not demand. Cook said iPhone and Mac orders ran ahead of forecast. But a supply ceiling caps revenue in the quarter that carries the holiday, and that is the quarter the year is judged on. Cook called memory pricing a \"100-year flood\": each device costs more to build while the retail price stays fixed, so the extra cost lands entirely on the 50.1% gross margin that funds the buyback. Services slipping sequentially matters more than the iPhone beat, because Services is the high-margin, recurring line that earns Apple its premium multiple in the first place.",
+   "why": "The partial recovery from the open is the useful detail. Buyers turned up, which says the market reads this as a timing problem rather than a broken franchise. Cook said orders ran ahead of forecast, so a parts shortage is capping revenue while demand holds. A supply ceiling lifts when supply does. Failing demand does not.",
    "foot": [
     {
      "k": "Already priced in?",
-     "v": "Yes, and the overnight session confirmed it. Shares fell <b>6.65%</b> to $311.25 after hours from a $333.43 close, and sit near <b>-7%</b> in Friday premarket. Sources differ slightly on the after-hours print: some report -6.3% to $312.33. That fall is the <em>guidance</em>, not the quarter: shares rose with the market during Thursday's session, before the release landed.",
+     "v": "Yes. The morning edition's premarket read of about -7% proved almost exactly right, which is unusual for premarket. The fall is the <em>guidance</em>: shares rose with the market during Thursday's session, before the release landed.",
      "flag": false
     },
     {
@@ -120,74 +103,39 @@
     },
     {
      "k": "Next date",
-     "v": "September-quarter results, late October; iPhone launch event expected September. This was Tim Cook's last earnings call as CEO.",
+     "v": "September-quarter results, late October; iPhone launch event expected September.",
      "flag": false
     }
    ],
    "note_after": {
-    "title": "The asymmetry &mdash; same night, same excuse, opposite reactions",
-    "body": "Amazon guided revenue <em>below</em> expectations and rose. Apple beat and guided to 9&ndash;11% growth, and fell. Both blamed the same memory shortage. The difference is what the extra cost buys. Amazon's higher spending buys revenue-generating capacity against a $496B booked backlog, so its shortfall reads as revenue <em>deferred</em>. Apple's higher cost buys nothing. It just compresses margin on a product whose price is already set, so its shortfall reads as revenue <em>lost</em>. That distinction, not the size of either beat, is what set the two reactions."
+    "title": "The asymmetry, and how the session judged it",
+    "body": "Amazon guided revenue <em>below</em> expectations and rose 15%. Apple beat and guided to 9&ndash;11% growth, and fell 7%. Both blamed the same memory shortage. The difference is what the extra cost buys. Amazon's higher spending buys revenue-generating capacity against a $496B booked backlog, so its shortfall reads as revenue <em>deferred</em>. Apple's higher cost buys nothing. It compresses margin on a product whose price is already set, so its shortfall reads as revenue <em>lost</em>. A full session of heavy volume has now ratified that distinction rather than fading it."
    }
   },
   {
-   "ticker": "MSFT",
+   "ticker": "GOOGL",
    "dir": "up",
    "strength": "major",
-   "strength_label": "Major &middot; settled",
-   "move": "+16% &middot; Thursday close",
+   "strength_label": "Major &middot; bullish &middot; no hard number",
+   "move": "+6.7% &middot; Friday close",
    "move_tone": "up",
-   "happened": "Wednesday night's Azure numbers held all the way to Thursday's bell, producing the largest one-day value gain by any stock ever.",
+   "happened": "Google DeepMind released new robotics models, Gemini Robotics 2 among them. No dollar figure was attached.",
    "figures": [
-    "Closed <b>+16%</b>, adding roughly <b>$450B</b> &mdash; a record",
-    "Azure <b>+43%</b>, up from 40% last quarter, and guided to <b>45%</b> next quarter",
-    "Azure passed <b>$100B</b> of annual revenue for the first time",
-    "Revenue <b>$90B</b>, +18%; adjusted EPS <b>$4.74</b> vs $4.24 expected",
-    "Microsoft 365 Copilot passed <b>30 million</b> paid seats"
+    "Closed <b>+6.73%</b> at <b>$356.13</b> from $333.66",
+    "Opened only <b>+2.35%</b>, so most of the gain came during the session, not at the bell",
+    "<b>No contract value, no revenue guide, no filing</b>",
+    "Alphabet's quarter was reported <b>22 July</b>, nine days earlier, and is not today's news"
    ],
-   "why": "Azure's growth rate is the single number investors use to price Microsoft. Accelerating rather than decaying extends how many years of that growth they will assume, which lifts the multiple (what they pay per dollar of earnings) more than the profit beat itself. It also answers the year's central worry, that AI spending was going out with no revenue coming back. The second-order effect drives half this list: Microsoft's building programme is revenue for the companies it buys from, which is most of why chips and neoclouds rallied Thursday.",
+   "why": "Treat this one with care. Nothing was sold and no revenue was booked, so none of Alphabet's near-term numbers changed. What rose is what investors will pay per dollar of existing earnings. That rests on belief about Alphabet's place in AI compute, and belief re-rates in both directions. A move of this size with no hard number under it is the least durable kind.",
    "foot": [
     {
      "k": "Already priced in?",
-     "v": "Fully. A 16% close is a complete repricing, and it is now settled rather than provisional.",
-     "flag": false
-    },
-    {
-     "k": "Would flip if",
-     "v": "Next quarter's 45% Azure guide is missed, reframing this as a one-quarter capacity catch-up.",
-     "flag": false
-    },
-    {
-     "k": "Next date",
-     "v": "FQ1 results, late October.",
-     "flag": false
-    }
-   ]
-  },
-  {
-   "ticker": "META",
-   "dir": "down",
-   "strength": "major",
-   "strength_label": "Major &middot; bearish &middot; prior window",
-   "move": "about -9% &middot; Thursday close",
-   "move_tone": "down",
-   "happened": "Meta fell about 9% on Wednesday night's results, which sit just outside this window.",
-   "figures": [
-    "Revenue <b>$60.8B</b>, <b>+28%</b> y/y",
-    "EPS <b>$6.18</b>, missing by about <b>14%</b> on legal and severance charges",
-    "Free cash flow collapsed to <b>$784M</b> from ~$8.6B a year earlier; quarterly capex <b>$31.1B</b>",
-    "Full-year capex guide raised to <b>$130&ndash;145B</b>",
-    "Q3 revenue guide <b>$61&ndash;64B</b> vs $63.15B expected"
-   ],
-   "why": "This is the asymmetry of the week. Microsoft and Meta both raised AI spending enormously, and the market treated them oppositely. Microsoft could point at Azure accelerating, so the spending reads as capacity it can already sell. Meta's own revenue line is not accelerating, so the same spending reads as cost with no visible customer. Near-zero free cash flow also removes the buyback that has underpinned the shares. That test is what investors then applied to Amazon on Thursday night, and Amazon passed it.",
-   "foot": [
-    {
-     "k": "Already priced in?",
-     "v": "Yes, and it happened before this window opened. The move followed the news, so it is a genuine reaction &mdash; but it is not today's news.",
+     "v": "The move is settled, but there is no figure to compare it against. Read the size as sentiment, not as a repricing of known cash flows. Several outlets attributed Friday's gain to Alphabet's quarterly earnings; those landed on <b>22 July</b> and were priced then.",
      "flag": true
     },
     {
      "k": "Would flip if",
-     "v": "Meta puts a revenue number on its AI spending, or trims the capex range.",
+     "v": "A rival ships comparable robotics work, or the next quarter shows no revenue attached to it.",
      "flag": false
     },
     {
@@ -198,30 +146,115 @@
    ]
   },
   {
-   "ticker": "NBIS",
-   "dir": "up",
-   "strength": "major",
-   "strength_label": "Major &middot; sector, not company",
-   "move": "+26.7% &middot; Thursday close",
-   "move_tone": "up",
-   "happened": "Nebius posted its biggest one-day gain of 2026 on no company news in the window.",
+   "ticker": "INTC",
+   "dir": "down",
+   "strength": "notable",
+   "strength_label": "Notable &middot; sector, not company",
+   "move": "-1.0% &middot; Friday close",
+   "move_tone": "down",
+   "happened": "Intel gapped up hard on Amazon's raised capex, then sold off all day to close red. No company news.",
    "figures": [
-    "Closed <b>+26.7%</b> &mdash; largest single-day gain of 2026",
-    "Still well <b>down</b> on the month",
-    "Citadel bought most of hedge fund Situational Awareness's roughly <b>$16B</b> public book after margin calls",
-    "The <b>$1B+</b> Reflection AI contract several outlets recycled on Thursday was announced <b>14 July</b>"
+    "Opened <b>+6.1%</b> at $96.72, closed <b>-1.02%</b> at <b>$90.20</b>",
+    "A <b>6.7%</b> slide from the open, the largest reversal on the list",
+    "SOXX opened <b>+4.4%</b> and closed <b>+0.1%</b>",
+    "Intel last reported on <b>23 July</b>, a week ago, not Friday"
    ],
-   "why": "This is flows, not fundamentals. A leveraged fund was forced to liquidate its whole book on margin calls, and Citadel took the other side. A forced seller pushes a price below what the business is worth, because the selling answers a margin call rather than a view on value; clearing that seller lets the price snap back. Amazon's $220B capex guide added fuel, but nothing about Nebius's contracts, costs or customers changed on Thursday.",
+   "why": "This is the yield story landing in the most rate-sensitive corner of the list. Intel's foundry case rests on profit years out, so a jump in long rates cuts the present value of that profit hard. The market bought the Amazon read-through at the bell, then sold it as the 30-year climbed to a 19-year high. Nothing about Intel's customers or costs changed.",
    "foot": [
     {
      "k": "Already priced in?",
-     "v": "There was no company news to price. A 27% move driven by a forced seller clearing is a change in who owns the shares, not in what they are worth.",
+     "v": "No company news existed to price. Do not read this as an Intel event. The reversal is a rates event that happened to Intel.",
      "flag": true
     },
     {
      "k": "Would flip if",
-     "v": "A hyperscaler signals it will build in-house rather than rent third-party capacity.",
+     "v": "Long yields retreat, or a hyperscaler names Intel as a second source with a dollar value attached.",
      "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Q3 results, expected late October.",
+     "flag": false
+    }
+   ],
+   "note_after": {
+    "title": "Asymmetry of the day",
+    "body": "Alphabet rose 6.7% on a product release with no revenue attached. Intel handed back a 6.1% gap and closed red on no news at all. Both are AI stories. The difference is that Alphabet already sells compute, while Intel is still hoping to be asked. When funding costs jump, the market keeps paying for the story that has a business underneath it, and stops paying for the one that is still a hope."
+   }
+  },
+  {
+   "ticker": "META",
+   "dir": "up",
+   "strength": "major",
+   "strength_label": "Major &middot; rebound &middot; no news",
+   "move": "+3.3% &middot; Friday close",
+   "move_tone": "up",
+   "happened": "Meta rebounded 3.3% with no fresh company news, after Wednesday's 9% fall on results.",
+   "figures": [
+    "Closed <b>+3.28%</b> at <b>$556.71</b>",
+    "Recovers only a slice of Wednesday's <b>-9%</b>",
+    "Wednesday's quarter: revenue <b>$60.8B</b>, +28%; free cash flow <b>$784M</b> from ~$8.6B; capex guide <b>$130&ndash;145B</b>"
+   ],
+   "why": "A rebound of this size after a 9% fall recovers about a third of the damage and settles nothing. The question that sank Meta on Wednesday, whether its own revenue is accelerating enough to justify the spending, was not addressed by anything that happened on Friday. Note that rising long yields make that question harder, not easier, because the capex is increasingly debt-funded.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Nothing new to price. The move tracked the mega-cap tape.",
+     "flag": true
+    },
+    {
+     "k": "Next date",
+     "v": "Q3 results, late October.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "MSFT",
+   "dir": "up",
+   "strength": "major",
+   "strength_label": "Major &middot; continuation &middot; no news",
+   "move": "+3.0% &middot; Friday close",
+   "move_tone": "up",
+   "happened": "Microsoft added another 3% with no fresh news, extending Wednesday's Azure quarter.",
+   "figures": [
+    "Closed <b>+3.02%</b> at <b>$464.72</b>",
+    "Follows Thursday's <b>+16%</b>, the largest one-day value gain by any stock ever",
+    "Azure <b>+43%</b>, guided to <b>45%</b> next quarter"
+   ],
+   "why": "Two straight sessions of gains on one earnings report is unusual, and it tells you the repricing was too large for a single day to absorb. Microsoft's building programme is also the revenue line for much of the rest of this list, which is why its quarter keeps reaching other tickers days later.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Largely. No new information arrived on Friday.",
+     "flag": true
+    },
+    {
+     "k": "Next date",
+     "v": "FQ1 results, late October.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "NVDA",
+   "dir": "up",
+   "strength": "notable",
+   "strength_label": "Notable &middot; read-through, not company news",
+   "move": "+2.9% &middot; Friday close",
+   "move_tone": "up",
+   "happened": "Nvidia closed back above $200 with no company announcement.",
+   "figures": [
+    "Closed <b>+2.93%</b> at <b>$200.75</b>",
+    "Back above <b>$200</b>",
+    "Lagged the mega-cap winners despite the capex news"
+   ],
+   "why": "The genuine read-through is arithmetic, not sentiment. Amazon's $220B and Meta's $130&ndash;145B capex budgets are Nvidia's order book, and Friday was the first full session in which the market could price Amazon's raise. That Nvidia gained under 3% on it suggests investors already assumed those budgets, so the confirmation added less than the size of the number implies.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "No company news to price. The Amazon capex read-through is real but appears to have been largely expected.",
+     "flag": true
     },
     {
      "k": "Next date",
@@ -233,93 +266,81 @@
   {
    "ticker": "MRVL",
    "dir": "up",
-   "strength": "major",
-   "strength_label": "Major &middot; sector, not company",
-   "move": "+13% &middot; Thursday close",
+   "strength": "notable",
+   "strength_label": "Notable &middot; sector, not company",
+   "move": "+2.3% &middot; Friday close",
    "move_tone": "up",
-   "happened": "Marvell rose 13% with the semiconductor group. No company announcement in the window.",
+   "happened": "Marvell opened up 8.8% and gave back three quarters of it by the close. No company news.",
    "figures": [
-    "SOXX chip index <b>+8%</b> on the day",
-    "SOXX had fallen <b>27.4%</b> in July &mdash; its worst month since <b>September 2001</b>",
-    "Marvell had fallen 7% as recently as 28 July",
-    "Company news was small: a <b>$250M</b> India investment announced 29 July, and a routine <b>$0.06</b> dividend paid Thursday"
+    "Opened <b>+8.8%</b> at $199.38, closed <b>+2.32%</b> at <b>$187.56</b>",
+    "A <b>5.9%</b> slide from the open",
+    "Marvell has <b>not reported</b>; its next release is late August at the earliest"
    ],
-   "why": "Two things drove this and neither came from Marvell. Microsoft's cloud growth told the market that AI orders are real, and Samsung's warning that the memory shortage runs into 2028 told it that supply is tight. Custom-silicon names are geared to hyperscaler budgets, so they move hardest when those budgets are confirmed &mdash; and Amazon then confirmed $220B after the bell. After a 27% drawdown, a rebound of this size is as much positioning unwinding as new information.",
+   "why": "Custom-silicon names are geared to hyperscaler budgets, so they gap hardest when those budgets are confirmed and fade hardest when funding costs rise. Friday delivered both in the same session. The shape of the day, a big gap that leaks away, is what a rates-driven tape looks like in a long-duration name.",
    "foot": [
     {
      "k": "Already priced in?",
-     "v": "No company news existed to price. Do not read a 13% day as a Marvell event.",
+     "v": "No company news existed to price. Do not read this as a Marvell event.",
      "flag": true
     },
     {
-     "k": "Would flip if",
-     "v": "A hyperscaler shifts custom-silicon orders to a rival.",
-     "flag": false
-    },
-    {
      "k": "Next date",
-     "v": "Q2 results, expected late August or early September &mdash; sources differ.",
-     "flag": false
-    }
-   ],
-   "note_after": {
-    "title": "Beware one figure circulating this morning",
-    "body": "Some coverage this morning claims Marvell <b>fell 14% on results</b>, citing adjusted EPS of $0.67 on revenue of $2.01B. Marvell has not reported. Its next release is not due until late August at the earliest. That item is recycled from a report a year old. Fresh coverage of an old event is still an old event &mdash; and in this case, the wrong company's quarter entirely."
-   }
-  },
-  {
-   "ticker": "INTC",
-   "dir": "up",
-   "strength": "major",
-   "strength_label": "Major &middot; sector, not company",
-   "move": "+11% &middot; Thursday close",
-   "move_tone": "up",
-   "happened": "Intel rose 11% to $91.13 with the chip group. No company announcement in the window.",
-   "figures": [
-    "Closed <b>+11%</b> at <b>$91.13</b>, after falling 6% on 28 July",
-    "Moved with SOXX <b>+8%</b>",
-    "Intel last reported on <b>23 July</b> &mdash; a week ago, not Thursday"
-   ],
-   "why": "The memory-shortage story is the cleanest read-through here. When capacity is scarce across the industry, buyers widen their supplier list, and Intel is the obvious second source. That improves the odds its foundry business fills capacity, which is the swing factor for margins. Nothing was confirmed on Thursday, so this is the market pricing a possibility, not a contract.",
-   "foot": [
-    {
-     "k": "Already priced in?",
-     "v": "No company news to price. Sector move. The 23 July quarter (revenue $16.1B, +25%, and non-GAAP EPS of $0.42 against $0.21 expected) was priced a week ago.",
-     "flag": true
-    },
-    {
-     "k": "Would flip if",
-     "v": "The memory squeeze eases and second-source urgency fades.",
-     "flag": false
-    },
-    {
-     "k": "Next date",
-     "v": "Q3 results, expected late October.",
+     "v": "Q2 results, expected late August or early September; sources differ.",
      "flag": false
     }
    ]
   },
   {
-   "ticker": "TSLA",
+   "ticker": "NBIS",
    "dir": "up",
-   "strength": "major",
-   "strength_label": "Major &middot; sector, not company",
-   "move": "+3.5% &middot; Thursday close",
+   "strength": "notable",
+   "strength_label": "Notable &middot; sector, not company",
+   "move": "+1.1% &middot; Friday close",
    "move_tone": "up",
-   "happened": "Tesla closed at $308.82, up 3.5%, on no company news.",
+   "happened": "Nebius opened up 6.6% and closed up just 1.1%, giving back most of the gap.",
    "figures": [
-    "Closed <b>$308.82</b>, <b>+3.5%</b>",
-    "Follows <b>six straight down days</b> totalling <b>-21%</b>",
-    "That slide erased roughly <b>$261B</b> of market value",
-    "Last reported <b>22 July</b>"
+    "Opened <b>+6.6%</b> at $200.94, closed <b>+1.05%</b> at <b>$190.41</b>",
+    "A <b>5.2%</b> slide from the open",
+    "Follows Thursday's <b>+26.7%</b>, its biggest one-day gain of 2026",
+    "The <b>$1B+</b> Reflection AI contract recycled by several outlets was signed <b>14 July</b>"
    ],
-   "why": "This is a rebound inside a broad market rally, not a change in the Tesla story. The useful number is the one before it: a 21% fall over six sessions is a large de-rating, and a single 3.5% day recovers little of it. Nothing in the last 24 hours addressed why the stock fell in the first place.",
+   "why": "Nebius is the clearest case of the rates effect on this list, because it borrows to build. A rising 30-year yield raises both the discount applied to its future profits and the actual cost of financing the data centres that produce them. That double hit is why a 6.6% gap could not survive the session, even with Amazon's capex raise supporting the story.",
    "foot": [
     {
      "k": "Already priced in?",
-     "v": "Nothing to price. The move tracked the index.",
+     "v": "No company news in the window. Note that Thursday's 27% move was a forced seller being cleared out, not a change in what the business is worth.",
      "flag": true
     },
+    {
+     "k": "Would flip if",
+     "v": "Long yields retreat, or Nebius signs contracted revenue large enough to cover its build cost.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Q2 results, reported as 12 August, not company-confirmed.",
+     "flag": false
+    }
+   ],
+   "note_after": {
+    "title": "Worth keeping straight",
+    "body": "Several outlets ran Nebius's <b>$1B+ Reflection AI contract</b> again on Thursday and Friday as though it were fresh. It was signed on <b>14 July</b>. Fresh coverage of an old event is still an old event, and it did not drive either day's move."
+   }
+  },
+  {
+   "ticker": "TSLA",
+   "dir": "up",
+   "strength": "minor",
+   "strength_label": "Minor &middot; drift",
+   "move": "+0.8% &middot; Friday close",
+   "move_tone": "flat",
+   "happened": "Tesla drifted up 0.8% on no company news.",
+   "figures": [
+    "Closed <b>+0.76%</b> at <b>$311.21</b>",
+    "Last reported <b>22 July</b>"
+   ],
+   "why": "Index drift. Nothing in the window addressed the six-session, 21% slide that preceded Thursday's bounce.",
+   "foot": [
     {
      "k": "Next date",
      "v": "Q3 deliveries, early October.",
@@ -328,27 +349,22 @@
    ]
   },
   {
-   "ticker": "NVDA",
+   "ticker": "PLTR",
    "dir": "up",
-   "strength": "notable",
-   "strength_label": "Notable &middot; sector, not company",
-   "move": "about +2.9% &middot; Thursday close",
-   "move_tone": "up",
-   "happened": "Nvidia rose with the chip group to about $195. No company announcement.",
+   "strength": "minor",
+   "strength_label": "Minor &middot; drift &middot; reports Monday",
+   "move": "+0.7% &middot; Friday close",
+   "move_tone": "flat",
+   "happened": "Palantir drifted up 0.7% ahead of Monday's results.",
    "figures": [
-    "Closed up about <b>2.9%</b>, near <b>$195</b>",
-    "Lagged MRVL (+13%) and INTC (+11%) badly"
+    "Closed <b>+0.65%</b> at <b>$123.06</b>",
+    "Reports <b>Monday 3 August</b>, after the close, confirmed by the company"
    ],
-   "why": "The lag is the interesting part. On 28 July the market narrowed the AI chip trade <em>towards</em> Nvidia while peers sold off; on Thursday that reversed, and money went to the names that had been discarded. That is a rotation within the sector, not a judgement on Nvidia. The genuine read-through is positive and arrived after the bell: Amazon at $220B and Meta at $130&ndash;145B of 2026 capex are Nvidia's order book.",
+   "why": "A flat drift into a results date means the market has no strong prior. That raises the size of the move Monday's numbers can produce, in either direction.",
    "foot": [
     {
-     "k": "Already priced in?",
-     "v": "No company news to price. Amazon's raised capex guide landed after Nvidia's close, so Friday's session is the first chance to price it.",
-     "flag": true
-    },
-    {
      "k": "Next date",
-     "v": "Q2 results, expected late August.",
+     "v": "Q2 results, Monday 3 August, after the close.",
      "flag": false
     }
    ]
@@ -357,30 +373,17 @@
    "ticker": "HOOD",
    "dir": "flat",
    "strength": "minor",
-   "strength_label": "Minor &middot; mixed",
-   "move": "about +1% &middot; Thursday close",
+   "strength_label": "Minor &middot; flat",
+   "move": "-0.05% &middot; Friday close",
    "move_tone": "flat",
-   "happened": "Robinhood beat clearly on Wednesday after the close, and drifted up on Thursday.",
+   "happened": "Robinhood finished unchanged, two days after its Wednesday-night beat.",
    "figures": [
-    "Revenue <b>$1.308B</b>, <b>+32%</b> y/y &mdash; a record",
-    "Net income <b>$561M</b>, <b>+45%</b>",
-    "EPS <b>$0.62</b> vs ~$0.41 expected",
-    "Crypto revenue <b>-38%</b> y/y to <b>$100M</b>",
-    "Event contracts <b>$156M</b> &mdash; now bigger than equities at <b>$129M</b>",
-    "Fell <b>3.15%</b> to <b>$89.84</b> on <b>Wednesday</b> &mdash; <em>before</em> the results landed"
+    "Closed <b>-0.05%</b> at <b>$86.56</b>",
+    "Wednesday's quarter: revenue <b>$1.308B</b>, +32%, a record; EPS <b>$0.62</b> against ~$0.41 expected",
+    "Crypto revenue <b>-38%</b> y/y"
    ],
-   "why": "The mix, not the total, is what to watch. Growth came from event contracts, a young line with unproven durability and unsettled regulation, while crypto &mdash; the high-margin engine that carried prior quarters &mdash; nearly halved. Investors pay less per dollar of earnings when they cannot tell whether those earnings recur. A large beat that produced only a drift upwards says the market is discounting the quality of it, not its size.",
+   "why": "A record quarter that produces a flat tape two days later is the market telling you it doubts the mix. Growth came from event contracts, a young line with unsettled regulation, while the high-margin crypto engine nearly halved. Investors pay less per dollar of earnings when they cannot tell whether those earnings recur.",
    "foot": [
-    {
-     "k": "Already priced in?",
-     "v": "Partly. Note the sequence: the 3.15% fall to $89.84 happened in <em>Wednesday's</em> session, before the release. It was not a reaction to this quarter.",
-     "flag": true
-    },
-    {
-     "k": "Would flip if",
-     "v": "Event-contract revenue holds up for another two quarters and crypto stabilises.",
-     "flag": false
-    },
     {
      "k": "Next date",
      "v": "4 November.",
@@ -390,23 +393,34 @@
   }
  ],
  "readthrough": {
-  "title": "One shortage, showing up in three places",
-  "body": "The memory squeeze is the thread tying the week together. Samsung says it may run to 2028. Apple felt it as cost: Cook's \"100-year flood\" forced price rises and now presses on a 50.1% gross margin, with September margin guided down to 47&ndash;48%. Amazon felt it as capital &mdash; part of why the 2026 capex guide went to $220B from $200B. The chipmakers felt it as pricing power, which is why MRVL, INTC and the memory names rallied hardest. The same fact is a cost to whoever buys parts and revenue to whoever sells them. Separately, the hyperscaler budgets now on the table (Amazon at $220B, Meta at $130&ndash;145B) are a direct read-through to NVDA, MRVL and NBIS. A cloud company's building programme is its suppliers' order book."
+  "title": "One rate move, showing up in three places",
+  "body": "Friday had a single organising fact: the 30-year Treasury yield hit a 19-year high of 5.25%, driven by oil above $85 on Strait of Hormuz disruption. Follow it through the list. The most capital-hungry, longest-duration names gave back their gaps: Intel from +6.1% to -1.0%, Marvell from +8.8% to +2.3%, Nebius from +6.6% to +1.1%. The cash-generative mega caps kept theirs: Amazon +15.3%, Alphabet +6.7%, Meta +3.3%, Microsoft +3.0%. The dividing line is not chips against software. It is who funds their growth from cash and who funds it from borrowing. That is also why QQQ managed only +0.65% while six mega caps alone should have delivered about 1.05 points: beneath the winners, the average Nasdaq stock fell."
  },
  "nothing_material": {
   "tickers": [
-   "GOOGL",
-   "PLTR"
+   "TSLA",
+   "PLTR",
+   "HOOD",
+   "MSFT",
+   "META",
+   "NVDA",
+   "INTC",
+   "MRVL",
+   "NBIS"
   ],
   "note": {
    "title": "What is not today's news",
-   "body": "Alphabet reported on <b>22 July</b>; its capex rise to as much as $205B is nine days old. Palantir closed at <b>$122.05</b>, reports Monday, and had nothing in the window. Nebius's <b>$1B+</b> Reflection AI contract, republished by several outlets on Thursday, was signed on <b>14 July</b> and did not cause the 27% move. Intel's blowout quarter was <b>23 July</b>, not Thursday. And Marvell has not reported at all, whatever this morning's coverage says."
+   "body": "Only Amazon, Apple and Alphabet had anything company-specific in the window, and Alphabet's was a product release with no dollar figure attached. Everything else on this list moved on rates, oil and the tail of Wednesday and Thursday's earnings. Alphabet's quarter was <b>22 July</b>. Tesla's was <b>22 July</b>. Intel's was <b>23 July</b>. Nebius's $1B Reflection AI contract was <b>14 July</b>. Marvell has not reported at all. Several outlets recycled these as Friday news; they are not."
   }
  },
  "earnings_ahead": [
   {
    "when": "3 Aug",
-   "what": "<b>PLTR</b> reports Monday, after the close"
+   "what": "<b>PLTR</b> reports Monday, after the close, confirmed by the company"
+  },
+  {
+   "when": "12 Aug",
+   "what": "<b>NBIS</b> Q2, reported date, not company-confirmed"
   }
  ]
 }
