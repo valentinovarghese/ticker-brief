@@ -1,0 +1,382 @@
+{
+ "date": "2026-08-04",
+ "weekday": "Tue",
+ "headline": "PLTR grew revenue 93%, faster than last quarter's 85%, and lifted its full-year guide by half a billion dollars to $8.15B.",
+ "gauge": [
+  {
+   "text": "QQQ +1.76% Monday close",
+   "tone": "up"
+  },
+  {
+   "text": "updated 07:20 ET &middot; before the open",
+   "tone": "flat"
+  },
+  {
+   "text": "12 tickers &middot; 2 with hard news",
+   "tone": "flat"
+  }
+ ],
+ "quick": [
+  "<b>Palantir accelerated when it was supposed to slow.</b> Revenue <b>$1.935B</b>, <b>+93%</b> y/y, against consensus of <b>$1.80B</b> and <b>+81%</b>. Growth was <b>85%</b> last quarter. The full-year guide went from <b>$7.656B</b> to <b>$8.150&ndash;8.158B</b>. Premarket <b>+16%</b>, provisional.",
+  "<b>Monday was a macro session, not a company one.</b> QQQ closed <b>+1.76%</b> at <b>700.07</b> as the 10-year fell to <b>4.67%</b>. Yesterday's split reversed completely: the debt-funded names led, <b>NBIS +11.6%</b> and <b>MRVL +3.3%</b>. Ten of the twelve had no company news.",
+  "<b>Apple was the only one of the twelve to fall.</b> Down <b>1.78%</b> on a day the index rose <b>1.76%</b>, with nothing released since the <b>30 July</b> guidance. That gap is the second thing worth your time today."
+ ],
+ "macro": [
+  {
+   "dt": "<b>The Fed is the one that matters, and it is pointing the wrong way.</b> July's FOMC held at <b>3.50&ndash;3.75%</b> on a <b>9&ndash;3</b> vote, with all three dissents wanting an immediate <b>rise</b>. Futures and prediction markets put a September hike somewhere between <b>57%</b> and <b>68%</b>; reports differ because they quote different instruments",
+   "lead": "How it reaches these stocks",
+   "dd": "Almost every model here values profits that arrive years out, so the rate used to discount them does more damage than any single quarter's numbers. A hiking cycle, rather than a cutting one, caps how much investors will pay per dollar of distant earnings. It hurts the companies that must borrow to build before they earn, which is why the list splits the way it does."
+  },
+  {
+   "dt": "<b>Oil kept falling and the long end finally followed.</b> The <b>10-year</b> yield fell to about <b>4.67%</b>, down from <b>4.74%</b> last week, its highest since January 2025. Brent stayed near <b>$84</b> after the weekend's slide on the Iran talks",
+   "lead": "Why this is different from yesterday",
+   "dd": "On Monday morning crude had collapsed and yields had barely moved, so the borrowers were sold. By the close the yield had come down and the same names led the market. That is the clearest evidence you will get that this list trades on the cost of money, not on the oil price. Watch the 10-year, not the barrel."
+  },
+  {
+   "dt": "<b>QQQ</b> closed at <b>700.07</b>, <b>+1.76%</b>, its first close above 700. It remains <b>6.5%</b> below its 52-week high of <b>748.65</b>. Premarket it indicates near <b>704</b>, about <b>+0.6%</b>, though sources differ slightly",
+   "lead": "Does the gauge agree",
+   "dd": "It does, and that is the point. A near 2% index day with no earnings behind it means the whole move came from the discount rate easing. Do not read Monday's individual gainers as company stories. Only Palantir and Robinhood had anything of their own."
+  }
+ ],
+ "entries": [
+  {
+   "ticker": "PLTR",
+   "dir": "up",
+   "strength": "major",
+   "strength_label": "Major &middot; earnings &middot; after Monday's close",
+   "move": "+16% &middot; premarket, provisional",
+   "move_tone": "up",
+   "happened": "Palantir reported Q2 after Monday's close, beating on revenue and raising full-year guidance sharply.",
+   "figures": [
+    "Revenue <b>$1.935B</b>, <b>+93%</b> y/y, vs consensus <b>$1.80&ndash;1.81B</b> and <b>+81%</b>. Last quarter was <b>+85%</b>",
+    "US commercial <b>$764M</b>, <b>+149%</b>; US government <b>$809M</b>, <b>+90%</b>",
+    "Adjusted EPS <b>$0.41</b> vs consensus near <b>$0.35</b>; reports differ on the estimate, between $0.33 and $0.35",
+    "GAAP net income <b>$1.062B</b>, a <b>55%</b> margin; adjusted operating income <b>$1.194B</b>, <b>62%</b> margin",
+    "Full-year guide raised to <b>$8.150&ndash;8.158B</b> (<b>+82%</b>) from <b>$7.656B</b> (<b>+71%</b>). US commercial guide now above <b>$3.424B</b>, at least <b>+134%</b>",
+    "Adjusted free cash flow guide (cash left after spending) <b>$4.5&ndash;4.7B</b>. Q3 guide <b>$2.160&ndash;2.164B</b>. Rule of 40 score <b>155</b>. <b>220</b> deals of $1M or more"
+   ],
+   "why": "The direction of the growth rate was the whole question, and it went the wrong way for the sceptics. Investors had been discounting a business decelerating from a peak, which sets a limit on how many years of compounding they will pay for. An acceleration removes that ceiling and forces them to extend the runway instead, which lifts the valuation far more than the earnings beat does. The raise to the US commercial line matters most. That is the part with no government budget cycle attached, and the part that justifies the multiple.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "No. Monday's <b>+2.10%</b> close at <b>$125.65</b> happened <b>before</b> the report and is not a reaction to it. The premarket <b>+16%</b> is the reaction, and it is provisional. Options had priced a <b>12%</b> move either way. The open will settle whether this is a re-rating or a squeeze.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "The US commercial jump turns out to lean on a few very large deals rather than broad adoption. That would make 149% a one-off, not a run rate.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Q3 results, early November.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "AAPL",
+   "dir": "down",
+   "strength": "notable",
+   "strength_label": "Notable &middot; Monday close &middot; no new company news",
+   "move": "-1.78% &middot; Monday close, settled",
+   "move_tone": "down",
+   "happened": "Apple fell alone while the other eleven rose, with nothing released since its 30 July guidance.",
+   "figures": [
+    "Monday close <b>$303.42</b>, <b>-1.78%</b>, against QQQ <b>+1.76%</b>. A gap of about <b>3.5</b> points in one session",
+    "Now <b>11.9%</b> below its 52-week high of <b>$344.57</b>",
+    "The cause is still <b>30 July</b>: Q4 revenue guided to <b>+9&ndash;11%</b>, roughly <b>$113B</b>, against <b>$114.9B</b> expected, with memory costs and China named",
+    "Careful with the coverage this morning: the <b>-7.35%</b> day was <b>Friday 31 July</b>, not Monday",
+    "The <b>$0.27</b> dividend, declared 30 July, goes ex on <b>10 August</b>"
+   ],
+   "why": "Falling on a day when the discount rate eased tells you Apple's problem is not the cost of money. It is the cost of components, and that lands on gross margin rather than on the multiple. Rising memory prices are a direct consequence of everyone else's AI spending. So the same boom lifting this list squeezes the one company here that buys memory rather than sells it. That makes Apple the natural funding source when investors want to own the boom.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Flag this one. Three straight sessions of underperformance on a single guidance statement suggests holders are still repositioning, not that the news is fully absorbed. The window is Monday's close, which is settled.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "Memory contract prices roll over, which would take the margin pressure out of the December quarter before it is reported.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "10 August, dividend ex-date. Tim Cook hands over to John Ternus on 1 September.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "AMZN",
+   "dir": "up",
+   "strength": "major",
+   "strength_label": "Major &middot; Monday close &middot; milestone, not new information",
+   "move": "+4.58% &middot; Monday close, settled",
+   "move_tone": "up",
+   "happened": "Amazon closed above a $3 trillion market value for the first time, the fifth company ever to do so.",
+   "figures": [
+    "Monday close <b>$284.02</b>, <b>+4.58%</b>, after an intraday record of <b>$287.16</b>",
+    "Fifth company ever above <b>$3T</b>, after NVDA, GOOGL, MSFT and AAPL",
+    "The figures behind it are from <b>Thursday 30 July</b>, not from Monday: AWS <b>$42.2B</b>, <b>+37%</b> y/y, against <b>$40.54B</b> expected",
+    "Third straight session of gains since that report"
+   ],
+   "why": "The milestone itself is arithmetic and changes nothing. What it marks is worth noting: a third consecutive session of buying, on volume, after a 15% gap. Gaps that keep filling upward mean long-term holders have re-rated the business rather than traders chasing a headline. The market has decided AWS is an AI winner, not a cloud business with an AI problem. That judgement is what the extra trillion represents.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Largely, yes. Monday's close is settled and no new figure has been released since 30 July. Do not treat the $3T headline as an event; it is a consequence of one.",
+     "flag": false
+    },
+    {
+     "k": "Would flip if",
+     "v": "AWS growth slows next quarter while the <b>$220B</b> capex guide keeps running, turning the spend into a margin problem before the backlog converts.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Q3 results, late October.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "NBIS",
+   "dir": "up",
+   "strength": "major",
+   "strength_label": "Major &middot; Monday close &middot; sector, not company",
+   "move": "+11.64% &middot; Monday close, settled",
+   "move_tone": "up",
+   "happened": "Nebius rose 11.6% with no company announcement, alongside every other neocloud stock.",
+   "figures": [
+    "Monday close <b>$212.58</b>, <b>+11.64%</b>; still <b>29%</b> below its 52-week high of <b>$299.86</b>",
+    "CRWV and IREN rose with it. That is the tell",
+    "Its $1B Reflection AI contract was <b>14 July</b>, three weeks ago, and is being recycled in this morning's coverage",
+    "Q2 results are confirmed for <b>12 August</b>, before the open"
+   ],
+   "why": "Say this plainly: there was no Nebius news. This is the rate move reaching the most leveraged name on the list first. Nebius borrows to build data centres and bills the capacity out over years. So a seven basis point fall in the 10-year changes its economics more than anyone else's here. A double-digit move on a small yield change also shows how thin the equity cushion is under that debt.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "There is nothing company-specific to price. Flag it: an 11.6% move with no event is a positioning move, and those reverse faster than facts do.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "The 12 August results show contracted revenue converting to cash slower than the build-out consumes it.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "12 August, Q2 results, before the open.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "HOOD",
+   "dir": "up",
+   "strength": "major",
+   "strength_label": "Major &middot; Monday close &middot; regulatory, no dollar value",
+   "move": "+4.37% &middot; Monday close, settled",
+   "move_tone": "up",
+   "happened": "Robinhood's UK arm was added to the FCA's register of approved cryptoasset firms.",
+   "figures": [
+    "Monday close <b>$90.34</b>, <b>+4.37%</b>; still <b>41%</b> below its 52-week high of <b>$153.86</b>",
+    "The register entry is dated <b>31 July</b>. It was reported on <b>3 August</b>",
+    "Scope is narrow: it can arrange and transmit orders, but cannot hold customer crypto, take client money or run an exchange",
+    "The full UK regime starts <b>25 October 2027</b>. Applications open <b>30 September 2026</b> and this registration does not convert automatically"
+   ],
+   "why": "No revenue attaches to this yet, so treat it as an option rather than an earning asset. Its value is that it converts a closed market into an addressable one, and Robinhood's UK business currently earns nothing from crypto. The caveat matters as much as the approval. Without custody or an exchange, it captures only the thinnest part of the fee stack until it wins the 2027 authorisation.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Hard to separate. Monday's 4.37% came on a day the whole market rose 1.76%, so perhaps two-thirds of it is the tape. The window is Monday's close, settled.",
+     "flag": false
+    },
+    {
+     "k": "Would flip if",
+     "v": "The FCA application window opens on 30 September and Robinhood's filing reveals it cannot meet the custody requirements.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "30 September, applications open. Q3 results 4 November.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "META",
+   "dir": "up",
+   "strength": "major",
+   "strength_label": "Major &middot; Monday close &middot; no company news",
+   "move": "+6.02% &middot; Monday close, settled",
+   "move_tone": "up",
+   "happened": "Meta rose 6% on no company news, the biggest megacap gain of the session.",
+   "figures": [
+    "Monday close <b>$590.24</b>, <b>+6.02%</b>; still <b>25.9%</b> below its 52-week high of <b>$796.25</b>",
+    "Its <b>$130&ndash;145B</b> capex guide came with the <b>29 July</b> quarter"
+   ],
+   "why": "The size of the bounce is the information. Meta was punished hardest in July for its capex guide, so it gains most when the rate used to judge that spending falls. Nothing about the spending changed. Only the arithmetic applied to it did, which is why a 25.9% hole remains.",
+   "foot": [
+    {
+     "k": "Next date",
+     "v": "Q3 results, late October.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "MSFT",
+   "dir": "up",
+   "strength": "major",
+   "strength_label": "Major &middot; Monday close &middot; no company news",
+   "move": "+4.93% &middot; Monday close, settled",
+   "move_tone": "up",
+   "happened": "Microsoft rose 4.9% with nothing company-specific since its 28 July quarter.",
+   "figures": [
+    "Monday close <b>$487.65</b>, <b>+4.93%</b>; <b>11.9%</b> below its 52-week high of <b>$553.72</b>"
+   ],
+   "why": "Read this against Apple, which fell the same day. Both are megacaps with strong balance sheets, but Microsoft sells the AI capacity that is bidding up memory prices while Apple buys the memory. The tape separated the seller from the buyer.",
+   "foot": [
+    {
+     "k": "Next date",
+     "v": "Q1 FY27 results, late October.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "GOOGL",
+   "dir": "up",
+   "strength": "major",
+   "strength_label": "Major &middot; Monday close &middot; no company news",
+   "move": "+4.88% &middot; Monday close, settled",
+   "move_tone": "up",
+   "happened": "Alphabet rose 4.9% on no news, a third straight session of gains.",
+   "figures": [
+    "Monday close <b>$373.51</b>, <b>+4.88%</b>; <b>8.6%</b> below its 52-week high of <b>$408.61</b>, the smallest gap on this list after Amazon"
+   ],
+   "why": "Three sessions of buying with no event means flows, not facts. Alphabet has recovered nearest to its high because it funds its AI build from search cash. Investors treat that capex as self-financed rather than borrowed. That distinction is doing most of the work across this list right now.",
+   "foot": [
+    {
+     "k": "Next date",
+     "v": "Q3 results, late October.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "TSLA",
+   "dir": "up",
+   "strength": "major",
+   "strength_label": "Major &middot; Monday close &middot; no company news",
+   "move": "+3.49% &middot; Monday close, settled",
+   "move_tone": "up",
+   "happened": "Tesla rose 3.5% with nothing company-specific since its 2 July delivery figures.",
+   "figures": [
+    "Monday close <b>$322.08</b>, <b>+3.49%</b>; <b>35.4%</b> below its 52-week high of <b>$498.83</b>, the weakest recovery on the list"
+   ],
+   "why": "Worth one caution. Cheaper petrol shrinks the running-cost saving that sells an electric car, so the oil move is a mild negative for Tesla's demand. It rose anyway, which means it traded as a high-beta index proxy on Monday rather than on its own economics.",
+   "foot": [
+    {
+     "k": "Next date",
+     "v": "July China registrations, due in the coming days.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "MRVL",
+   "dir": "up",
+   "strength": "major",
+   "strength_label": "Major &middot; Monday close &middot; sector, not company",
+   "move": "+3.31% &middot; Monday close, settled",
+   "move_tone": "up",
+   "happened": "Marvell rose 3.3% with no company announcement, on the same funding-cost relief that lifted Nebius.",
+   "figures": [
+    "Monday close <b>$193.77</b>, <b>+3.31%</b>; <b>41.3%</b> below its 52-week high of <b>$329.88</b>",
+    "Marvell has announced nothing since June and has not yet reported this quarter"
+   ],
+   "why": "Marvell's custom silicon programmes are funded years before the revenue arrives, so it trades on the discount rate more than on orders. The 41% hole below its high measures what a year of rising yields did to a company whose products are still selling well.",
+   "foot": [
+    {
+     "k": "Next date",
+     "v": "Q2 FY27 results, expected around 27 August, not yet company-confirmed.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "NVDA",
+   "dir": "up",
+   "strength": "major",
+   "strength_label": "Major &middot; Monday close &middot; sector, not company",
+   "move": "+2.93% &middot; Monday close, settled",
+   "move_tone": "up",
+   "happened": "Nvidia rose 2.9% on no company news, lagging the software names it supplies.",
+   "figures": [
+    "Monday close <b>$206.64</b>, <b>+2.93%</b>; <b>12.6%</b> below its 52-week high of <b>$236.54</b>"
+   ],
+   "why": "Nvidia rising less than Meta or Microsoft on a pure rate day is mildly informative. It suggests investors are treating the AI trade as a question about who monetises, not about who supplies, since supply is no longer in doubt.",
+   "foot": [
+    {
+     "k": "Next date",
+     "v": "26 August, Q2 FY27 results.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "INTC",
+   "dir": "up",
+   "strength": "minor",
+   "strength_label": "Minor &middot; Monday close &middot; no company news",
+   "move": "+0.89% &middot; Monday close, settled",
+   "move_tone": "up",
+   "happened": "Intel rose 0.9%, the weakest gain of the eleven that rose, with no news since July.",
+   "figures": [
+    "Monday close <b>$91.00</b>, <b>+0.89%</b>, against QQQ <b>+1.76%</b>",
+    "Its Fortinet foundry deal was <b>21&ndash;22 July</b> and carried no disclosed dollar value"
+   ],
+   "why": "Underperforming a rate-relief rally is the opposite of what a heavily indebted rebuild story should do. It suggests the market doubts Intel converts cheaper money into returns, which is a company judgement rather than a sector one.",
+   "foot": [
+    {
+     "k": "Next date",
+     "v": "Q3 results, late October.",
+     "flag": false
+    }
+   ]
+  }
+ ],
+ "readthrough": {
+  "title": "Yesterday's split ran backwards, and that tells you what this list actually trades on",
+  "body": "Monday morning the borrowers were being sold: Nebius, Marvell and Intel were all down before the bell while Microsoft and Alphabet were up. By the close the order had flipped. Nebius finished <b>+11.6%</b> and Marvell <b>+3.3%</b>, both ahead of the index. What changed between the open and the close was not oil, which had already fallen over the weekend. It was the 10-year yield coming down to <b>4.67%</b> from <b>4.74%</b>. Seven basis points reversed the entire ranking. Hold on to that: the dividing line across these twelve is the cost of money, and the oil price only matters through it. The asymmetry worth your attention is Apple against Microsoft. Both are cash-rich megacaps, both moved on no news, and they finished <b>6.7</b> points apart. Microsoft sells the AI capacity driving memory prices up. Apple buys that memory and has already told the market it will cost margin. The same boom is a revenue line for one and an input cost for the other. Monday was the session where investors priced that difference, not the balance sheets. Palantir sits on the same side as Microsoft, and more purely. It sells enterprise AI software with almost no capital intensity. That is why <b>149%</b> US commercial growth arrives with a <b>62%</b> operating margin attached. If that print holds through today's open, it strengthens the case that the market now pays for AI monetisation, not for the machinery underneath it. Nvidia's <b>2.9%</b>, the smallest gain among the big AI names on a day made for them, is the quiet evidence for that."
+ },
+ "nothing_material": {
+  "tickers": [
+   "AAPL",
+   "AMZN",
+   "TSLA",
+   "MSFT",
+   "GOOGL",
+   "NVDA",
+   "INTC",
+   "NBIS",
+   "MRVL",
+   "META"
+  ],
+  "note": {
+   "title": "What is not today's news",
+   "body": "Only <b>PLTR</b> and <b>HOOD</b> had company-specific events in the window, and Robinhood's register entry is dated <b>31 July</b>. Everything else moved on the rate and the tape. Be careful with recycled coverage this morning. Several stories are being retold with fresh datelines. Apple's <b>-7.35%</b> session was <b>Friday 31 July</b>, and its guidance was <b>30 July</b>. Amazon's AWS figures were <b>30 July</b>. Meta's capex guide was <b>29 July</b>. Microsoft's quarter was <b>28 July</b>, Intel's was <b>23 July</b>, Alphabet's and Tesla's were <b>22 July</b>. Intel's Fortinet foundry deal was <b>21&ndash;22 July</b>. Nebius's $1B Reflection AI contract was <b>14 July</b>. Marvell has announced nothing since June. None of that is news from the past 24 hours. No 8-K, 13-D/G, M&amp;A, buyback or dividend change was announced across the twelve in the window."
+  }
+ },
+ "earnings_ahead": [
+  {
+   "when": "12 Aug",
+   "what": "<b>NBIS</b> Q2, before the open, company-confirmed. The only one of the twelve reporting within 14 days"
+  }
+ ]
+}
