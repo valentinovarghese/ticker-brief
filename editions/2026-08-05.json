@@ -1,0 +1,407 @@
+{
+ "date": "2026-08-05",
+ "weekday": "Wed",
+ "headline": "NVDA was named SpaceX's exclusive AI chip supplier by a customer that spent $15.8B on AI compute last quarter, up from $7.7B in Q1.",
+ "gauge": [
+  {
+   "text": "QQQ +3.40% Tuesday close",
+   "tone": "up"
+  },
+  {
+   "text": "updated 07:00 ET &middot; before the open",
+   "tone": "flat"
+  },
+  {
+   "text": "12 tickers &middot; 4 with hard news",
+   "tone": "flat"
+  }
+ ],
+ "quick": [
+  "<b>Nvidia was handed a multi-year customer, not an order.</b> On SpaceX's first public earnings call, Musk said its AI data centres will be built <b>exclusively</b> with Nvidia chips. SpaceX spent <b>$15.8B</b> on AI compute in Q2 against <b>$7.7B</b> in Q1, and targets over <b>2 GW</b> by end-2026 rising toward <b>10 GW</b> by end-2027.",
+  "<b>Palantir's verdict is now settled, and it is bigger than the premarket said.</b> PLTR closed <b>$162.66</b>, <b>+29.45%</b>, its largest day since 4 February 2025. It opened <b>+15.5%</b> and gained another <b>12%</b> through the session. Premarket <b>-0.65%</b>: the reaction is finished.",
+  "<b>Bezos filed to sell $4.07B of Amazon and the $3T milestone lasted one day.</b> A Form 144 covering <b>15 million</b> shares landed Tuesday. AMZN closed <b>-2.32%</b>, the worst on the list, on an index that rose <b>3.40%</b>."
+ ],
+ "macro": [
+  {
+   "dt": "<b>The driver was oil, and it came from Washington.</b> Treasury Secretary Scott Bessent said the US is \"in talks with the Iranians\" over reopening the Strait of Hormuz, and flagged relief across energy, fertilisers, refined products and industrial gases. Crude fell again. The S&amp;P 500 closed at a record <b>7,736.52</b>, <b>+1.79%</b>, and the Dow added <b>907</b> points to <b>54,085.88</b>",
+   "lead": "How it reaches these stocks",
+   "dd": "Cheaper energy is an input cost story for the industrial economy and barely touches software margins directly. It reaches this list through risk appetite instead. A credible de-escalation removes a tail risk that had been sitting on the discount rate, and anything valued on profits years out gains most when that risk premium comes off. That is why the tech index moved almost twice the broad market."
+  },
+  {
+   "dt": "<b>QQQ</b> closed <b>723.85</b>, <b>+3.40%</b>, against <b>SPY +1.80%</b>. A gap of <b>1.6</b> points in one session. QQQ is now only <b>3.3%</b> below its 52-week high of <b>748.65</b>, the smallest gap since the July drawdown began",
+   "lead": "Does the gauge agree",
+   "dd": "It agrees, and it overstates. The index gain did not come from the megacaps: Apple, Microsoft and Alphabet each added around 1%, Meta and Amazon fell. It came from the second tier, chips and Palantir. Do not read Tuesday as Big Tech recovering. Read it as the market paying up for the parts of AI that sell into the build-out."
+  },
+  {
+   "dt": "Premarket <b>QQQ 724.45</b>, <b>+0.08%</b>, essentially flat, while <b>SPY</b> indicates <b>+0.39%</b>. The reversal sits in chips: <b>AMD -8.58%</b>, <b>INTC -2.59%</b>, <b>MRVL -1.53%</b>, <b>NBIS -2.65%</b>. All provisional, thin volume",
+   "lead": "Where the macro read breaks",
+   "dd": "The Hormuz story is still positive this morning, yet the tech gauge is flat. That contradiction is company news, not macro: AMD reported after the close and fell. Tuesday's chip rally was built on sentiment about AI demand, and one set of margins was enough to unwind a fifth of it before the bell. The open will settle whether it holds."
+  }
+ ],
+ "entries": [
+  {
+   "ticker": "NVDA",
+   "dir": "up",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; major news &middot; after Tuesday's close",
+   "move": "+2.56% Tue close, then +2.01% premarket &middot; provisional",
+   "move_tone": "up",
+   "happened": "On SpaceX's first earnings call as a public company, Elon Musk said SpaceX will build its AI data centres exclusively with Nvidia chips.",
+   "figures": [
+    "SpaceX Q2 capex (spending on buildings, equipment and technology) <b>$18.37B</b> against <b>$18.58B</b> forecast, of which <b>$15.8B</b> went to AI compute, versus <b>$7.7B</b> in Q1",
+    "Musk guided to over <b>2 GW</b> of compute by end-2026 and \"closer to <b>10 GW</b>\" by end-2027. He also floated <b>15 GW</b> with a <b>20 GW</b> stretch. Accounts of the call differ, so treat 10 GW as the firm figure",
+    "Musk said SpaceX expects \"a very significant percent\" of Nvidia's GPU supply next year. <b>No dollar value and no contract term were disclosed</b>",
+    "SpaceX revenue <b>$7.8B</b> vs <b>$6.81B</b> consensus, <b>+92%</b> y/y from <b>$4.1B</b>. Adjusted EBITDA <b>$3.5B</b> vs <b>$2.0B</b> expected. SPCX fell about <b>11%</b> premarket",
+    "Separately this morning, Nvidia server assembler Hon Hai reported July sales <b>+54.2%</b> y/y",
+    "NVDA closed <b>$211.94</b>, <b>+2.56%</b>; <b>10.4%</b> below its 52-week high of <b>$236.54</b>"
+   ],
+   "why": "Nvidia's demand this quarter has not been in doubt for two years. The open question is how many years of it investors should pay for, and exclusivity is the rare piece of evidence that speaks to duration rather than to volume. Locking one buyer to a single supplier through a five-fold capacity build converts a repeat order into something closer to contracted revenue, which is what lengthens the runway the multiple rests on. The second-order point is sharper: this is demand taken from somebody, and it was announced on the same evening a rival's margins disappointed.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "No. Tuesday's <b>+2.56%</b> close happened <b>before</b> the call and is not a reaction to it. The premarket <b>+2.01%</b> at <b>$216.20</b> is the reaction and is provisional. It is rising while AMD falls <b>8.6%</b>, which suggests the market is reading this as share moving between suppliers rather than sector enthusiasm.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "SpaceX's own shares keep falling on the capex. SPCX is down about 11% premarket. A customer punished for spending is a customer that eventually spends less.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "26 August, Q2 FY27 results.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "PLTR",
+   "dir": "up",
+   "strength": "major",
+   "strength_label": "Major &middot; Tuesday close &middot; settled reaction to Monday's Q2",
+   "move": "+29.45% &middot; Tuesday close, settled",
+   "move_tone": "up",
+   "happened": "The market finished pricing Monday's Q2 report. Palantir closed up 29.45%, its largest single day since February 2025.",
+   "figures": [
+    "Close <b>$162.66</b> from <b>$125.65</b>, <b>+29.45%</b>. Opened <b>$145.15</b> (<b>+15.5%</b>) and added roughly another <b>12%</b> through the session. Intraday high <b>$164.52</b>",
+    "Coverage quotes anything from <b>20%</b> to <b>30%</b> because the pieces were written at different hours. The close-to-close figure is <b>+29.45%</b>",
+    "Largest one-day gain since <b>4 February 2025</b> (<b>+23.9%</b>). Still <b>21.6%</b> below its 52-week high of <b>$207.52</b>",
+    "Premarket <b>$161.60</b>, <b>-0.65%</b>"
+   ],
+   "why": "An opening gap can be short covering. A stock that gaps 15% and then adds another 12% over six hours is being bought by people who had the whole day to read the filing. That distinction decides whether a re-rating sticks, because it tells you the higher multiple has holders behind it rather than closed positions. The practical consequence is that this level is now the base from which November gets judged, and the guidance raise has to keep being beaten from here.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Yes, and Tuesday's close is settled, not provisional. The premarket <b>-0.65%</b> says the reaction is done. Yesterday's brief could only quote the premarket <b>+16%</b>; the session doubled it.",
+     "flag": false
+    },
+    {
+     "k": "Would flip if",
+     "v": "The 149% US commercial growth turns out to rest on a handful of very large deals rather than broad adoption.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Q3 results, early November.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "MRVL",
+   "dir": "up",
+   "strength": "major",
+   "strength_label": "Major &middot; Tuesday close &middot; product news, no dollar value",
+   "move": "+12.80% &middot; Tuesday close, settled",
+   "move_tone": "up",
+   "happened": "Marvell unveiled AI memory and storage products at the FMS 2026 conference. No customer and no dollar value were attached.",
+   "figures": [
+    "Close <b>$218.59</b> from <b>$193.78</b>, <b>+12.80%</b>. Reports quote <b>10%</b> to <b>13%</b>; the close-to-close figure is <b>12.80%</b>",
+    "Products: <b>Bravera SC6</b> PCIe 6.0 SSD controller, said to double the prior SC5; <b>Structera X</b> memory expansion; <b>Photonic Fabric</b> for shared memory across racks",
+    "Still <b>33.7%</b> below its 52-week high of <b>$329.88</b>. Premarket <b>$215.25</b>, <b>-1.53%</b>"
+   ],
+   "why": "A product preview with no customer and no price should not be worth <b>$20B</b> of market value. What moved the stock is where these products sit. Memory, not logic, is the binding constraint in AI inference right now, and it is the same shortage lifting Apple's component costs. Selling into a bottleneck changes which side of a shortage a company stands on, and the market repriced that position rather than any revenue. None of this touches the income statement for at least a year.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Overdone, most likely. Flag it. The close is settled but a 12.8% move on an unpriced preview is positioning, and the premarket <b>-1.53%</b> has begun handing it back.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "The August results show current custom silicon revenue slipping while these products remain unshipped.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Q2 FY27 results, expected around 27 August, not company-confirmed.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "INTC",
+   "dir": "flat",
+   "strength": "major",
+   "strength_label": "Major &middot; Tuesday close &middot; sector, not company",
+   "move": "+10.84% &middot; Tuesday close, settled",
+   "move_tone": "up",
+   "happened": "Intel rose 10.8% with no company announcement, the second largest move on the list.",
+   "figures": [
+    "Close <b>$100.86</b> from <b>$91.00</b>, <b>+10.84%</b>. Reports quote <b>8.5%</b> to <b>10%</b> because several were filed intraday",
+    "Chips rallied as a block: <b>AMD +7.00%</b>, Broadcom up around <b>6%</b>. July had taken Intel down roughly <b>24%</b>",
+    "Its Fortinet foundry deal was <b>21&ndash;22 July</b> and carried no disclosed dollar value. Nothing has been announced since",
+    "Still <b>29.1%</b> below its 52-week high of <b>$142.35</b>. Premarket <b>$98.25</b>, <b>-2.59%</b>"
+   ],
+   "why": "Say it plainly: there was no Intel news. This was a sector rally plus short positions being closed after a heavy July. A stock that rises on other companies' results has not changed its own ability to earn, and the premarket give-back is the evidence. Watch the direction of the give-back too: Intel is falling this morning on AMD's margins, which is the market treating it as a chip proxy rather than as a foundry rebuild.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "There is nothing company-specific to price. Flag it: a double-digit move with no event is positioning, and positioning unwinds faster than facts.",
+     "flag": true
+    },
+    {
+     "k": "Next date",
+     "v": "Q3 results, late October.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "AMZN",
+   "dir": "down",
+   "strength": "notable",
+   "strength_label": "Notable &middot; Tuesday close &middot; SEC filing",
+   "move": "-2.32% &middot; Tuesday close, settled",
+   "move_tone": "down",
+   "happened": "Jeff Bezos filed a Form 144 disclosing the sale of 15 million Amazon shares, worth about $4.07 billion.",
+   "figures": [
+    "<b>15,000,000</b> shares, aggregate market value about <b>$4.07B</b> at Monday's close. Sold Monday through Morgan Stanley",
+    "Executed under a Rule <b>10b5-1</b> plan <b>adopted 14 November 2025</b>, which permits up to 15 million shares through <b>26 February 2027</b>. The plan predates this price by nine months",
+    "Close <b>$277.42</b>, <b>-2.32%</b>. The <b>$3 trillion</b> market value reached Monday lasted one session",
+    "Only <b>3.4%</b> below its 52-week high of <b>$287.20</b>, the smallest gap on this list. Premarket <b>$280.00</b>, <b>+0.93%</b>"
+   ],
+   "why": "The plan was adopted long before the run, so this is not a founder judging his shares expensive, and reading it as a signal is the most common way to misread a filing. What it does do is add real supply at the moment a stock has risen 15% in four sessions with no new figures behind it. Amazon's vulnerability on Tuesday was not information, it was that the marginal buyer had already bought. A $4B seller is the first to discover that.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Yes. The close is settled and the fall was the reaction. Premarket <b>+0.93%</b> suggests holders have accepted the mechanical read, though that is provisional.",
+     "flag": false
+    },
+    {
+     "k": "Would flip if",
+     "v": "A further filing extends selling beyond the 15 million shares this plan covers.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Q3 results, late October.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "NBIS",
+   "dir": "flat",
+   "strength": "major",
+   "strength_label": "Major &middot; Tuesday close &middot; sector, not company",
+   "move": "+6.19% &middot; Tuesday close, settled",
+   "move_tone": "up",
+   "happened": "Nebius rose 6.2% with no company announcement, a second straight session driven by the sector.",
+   "figures": [
+    "Close <b>$225.74</b>, <b>+6.19%</b>. Up <b>18.6%</b> across two sessions with nothing company-specific in either",
+    "Intraday range was wide, roughly <b>$215</b> to <b>$229</b>. Still <b>24.7%</b> below its 52-week high of <b>$299.86</b>",
+    "Premarket <b>$219.75</b>, <b>-2.65%</b>. Q2 results confirmed for <b>12 August</b>, before the open"
+   ],
+   "why": "Two sessions, no news, up almost a fifth. This is the AI infrastructure trade repricing, and Nebius is the highest-beta way to hold it. The consequence lands on 12 August: the stock has moved ahead of the numbers, so the numbers now have to justify a level the market set on sentiment. That raises the downside if contracted revenue converts to cash more slowly than the build consumes it.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Nothing company-specific exists to price. Flag it, and note the premarket is already reversing.",
+     "flag": true
+    },
+    {
+     "k": "Next date",
+     "v": "12 August, Q2 results, before the open.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "TSLA",
+   "dir": "up",
+   "strength": "notable",
+   "strength_label": "Notable &middot; Tuesday close &middot; monthly volume data",
+   "move": "+1.64% &middot; Tuesday close, settled",
+   "move_tone": "up",
+   "happened": "Tesla's Shanghai plant reported July wholesale sales of 93,579 vehicles, its ninth straight month of annual growth.",
+   "figures": [
+    "<b>93,579</b> units, <b>+37.85%</b> y/y. Highest July on record and the best month since December 2025's <b>97,171</b>",
+    "Year to date <b>561,528</b> units, <b>+29.88%</b> on the same period of 2025",
+    "The mix is the catch: Q2 exports from Shanghai were <b>128,394</b> against <b>126,157</b> domestic deliveries, the first quarter exports have exceeded home sales",
+    "China deliveries fell <b>2.05%</b> y/y in Q2, a fifth straight quarterly decline. China is now <b>26.28%</b> of global volume, under 30% for the first time since Q4 2020",
+    "Close <b>$327.35</b>, <b>+1.64%</b>; <b>34.4%</b> below its 52-week high of <b>$498.83</b>. Premarket <b>$324.00</b>, <b>-1.02%</b>"
+   ],
+   "why": "The growth is real but it is leaving through the export door, not the Chinese one. That changes the risk attached to the number rather than its size: export volume depends on tariffs, shipping and foreign demand, all decided outside Tesla, while domestic volume depends on the product. A plant at record output serving foreign markets is a manufacturing win and a demand warning in the same figure. Investors set Tesla's price on volume growth, so which door it comes through decides how durable that growth looks.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Only partly. The <b>+1.64%</b> close is settled but arrived on a <b>+3.40%</b> index day, so Tesla underperformed while holding good headline numbers. The market is weighting the domestic decline. Premarket <b>-1.02%</b> is provisional and probably the Musk-complex read from SpaceX's capex.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "August export volumes fall while domestic deliveries stay negative, removing the one leg still growing.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Q3 delivery figures, early October.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "HOOD",
+   "dir": "flat",
+   "strength": "major",
+   "strength_label": "Major move &middot; Tuesday close &middot; no company news in the window",
+   "move": "+3.51% &middot; Tuesday close, settled",
+   "move_tone": "up",
+   "happened": "Robinhood rose 3.5%, almost exactly in line with the index, with nothing announced in the window.",
+   "figures": [
+    "Close <b>$93.51</b>, <b>+3.51%</b>, against QQQ <b>+3.40%</b>. Still <b>39.2%</b> below its 52-week high of <b>$153.86</b>",
+    "The Robinhood Ventures Fund II roadshow began <b>3 August</b>, outside this window. The listing is <b>13 August</b> on the NYSE as <b>RVII</b>, up to <b>8 million</b> shares at <b>$25</b>, about <b>$200M</b>, of which Robinhood itself sells <b>400,000</b>"
+   ],
+   "why": "Matching the index to within a tenth of a point is the tell that nothing company-specific happened here.",
+   "foot": [
+    {
+     "k": "Next date",
+     "v": "13 August, RVII lists. Q3 results 4 November.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "AAPL",
+   "dir": "up",
+   "strength": "notable",
+   "strength_label": "Notable &middot; Tuesday close &middot; no company news",
+   "move": "+1.96% &middot; Tuesday close, settled",
+   "move_tone": "up",
+   "happened": "Apple rose 2.0% and ended three sessions of underperformance, with nothing released since 30 July.",
+   "figures": [
+    "Close <b>$309.38</b>, <b>+1.96%</b>, against QQQ <b>+3.40%</b>. It still lagged the index by <b>1.4</b> points",
+    "<b>10.2%</b> below its 52-week high of <b>$344.57</b>. Premarket <b>$310.54</b>, <b>+0.37%</b>"
+   ],
+   "why": "A bounce that lags the index by 1.4 points on a risk-on day is not a change of view, it is the selling stopping. The memory cost problem from the 30 July guidance is untouched, and Marvell's 12.8% day is a reminder of who is on the other side of that shortage.",
+   "foot": [
+    {
+     "k": "Next date",
+     "v": "10 August, <b>$0.27</b> dividend ex-date. Tim Cook hands over to John Ternus on 1 September.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "GOOGL",
+   "dir": "up",
+   "strength": "notable",
+   "strength_label": "Notable &middot; Tuesday close &middot; no company news",
+   "move": "+1.11% &middot; Tuesday close, settled",
+   "move_tone": "up",
+   "happened": "Alphabet rose 1.1%, well behind the index, with nothing announced.",
+   "figures": [
+    "Close <b>$377.65</b>, <b>+1.11%</b>; <b>7.6%</b> below its 52-week high of <b>$408.61</b>, the second smallest gap here",
+    "Premarket <b>$383.11</b>, <b>+1.45%</b>, the strongest megacap indication this morning"
+   ],
+   "why": "Lagging a 3.4% index day after three sessions of gains is what a stock does when it has already re-rated. The premarket lead this morning is the more interesting number, and there is no news behind it to explain.",
+   "foot": [
+    {
+     "k": "Next date",
+     "v": "Q3 results, late October.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "MSFT",
+   "dir": "up",
+   "strength": "notable",
+   "strength_label": "Notable &middot; Tuesday close &middot; no company news",
+   "move": "+1.06% &middot; Tuesday close, settled",
+   "move_tone": "up",
+   "happened": "Microsoft rose 1.1% with nothing company-specific since its 28 July quarter.",
+   "figures": [
+    "Close <b>$492.81</b>, <b>+1.06%</b>; <b>11.0%</b> below its 52-week high of <b>$553.72</b>. Premarket <b>$496.00</b>, <b>+0.65%</b>"
+   ],
+   "why": "Monday it led on a rate move; Tuesday it lagged on a risk move. The money that bought megacap balance sheets when yields fell went to chips and Palantir when the appetite returned.",
+   "foot": [
+    {
+     "k": "Next date",
+     "v": "Q1 FY27 results, late October.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "META",
+   "dir": "down",
+   "strength": "minor",
+   "strength_label": "Minor &middot; Tuesday close &middot; no company news",
+   "move": "-0.39% &middot; Tuesday close, settled",
+   "move_tone": "down",
+   "happened": "Meta fell 0.4%, one of only two on the list to decline, with nothing announced.",
+   "figures": [
+    "Close <b>$587.94</b>, <b>-0.39%</b>, having risen <b>6.02%</b> the day before. Still <b>26.2%</b> below its 52-week high of <b>$796.25</b>, the largest gap here after Robinhood and Tesla",
+    "Premarket <b>$596.06</b>, <b>+1.38%</b>"
+   ],
+   "why": "Meta is the purest test of the day's logic. It spends heavily on AI and sells none of the equipment, so on a session that paid for suppliers it had nothing to offer. The 26% hole below its high has not closed on any of this.",
+   "foot": [
+    {
+     "k": "Next date",
+     "v": "Q3 results, late October.",
+     "flag": false
+    }
+   ]
+  }
+ ],
+ "readthrough": {
+  "title": "Two beats, two opposite reactions, and the test that separates them",
+  "body": "AMD is not on this list but it decided the morning. It closed <b>+7.00%</b> at <b>$518.58</b>, then reported after the bell and fell <b>8.58%</b> to about <b>$474</b> premarket. The quarter beat: revenue <b>$11.536B</b>, <b>+52%</b> y/y against <b>$11.28B</b> expected, adjusted EPS <b>$1.66</b> vs <b>$1.62</b>, data centre <b>$6.7B</b>, <b>+107%</b>, and Q3 guided to roughly <b>$12.7&ndash;13.3B</b>, above consensus. Reports differ on the margin line: some quote a Q2 gross margin of <b>54%</b> against <b>56%</b> expected, others a flat <b>56%</b> Q3 guide. Note first that AMD's <b>+7%</b> happened <b>before</b> the report. It was not a reaction to it. Now the asymmetry. Palantir beat and rose <b>29%</b>. AMD beat and fell <b>9%</b>. The difference is what the beat was made of. Palantir's acceleration arrived with a <b>62%</b> operating margin attached and almost no capital behind it. AMD's growth is being bought with gross margin and with a costly ramp. Investors are paying a high price for AI revenue that comes without a bill and discounting AI revenue that comes with one. That same test explains why Nvidia rose <b>2%</b> premarket on the SpaceX news while AMD fell: an exclusivity commitment is revenue at no incremental cost, and it is taken from a competitor. The read-through that matters most for this list is the size of SpaceX's cheque. <b>$15.8B</b> of AI compute spending in a single quarter, doubling from <b>$7.7B</b>, is a cost line for SpaceX and a revenue line for Nvidia, and by extension for Marvell and the neoclouds that build alongside it. Hon Hai's <b>+54.2%</b> July sales say the same thing from the assembly side. But note what the market did with the messenger: SpaceX itself fell <b>11%</b> premarket for spending the money. That is the third time in two weeks a company has been punished for AI capex while its suppliers were rewarded. Alphabet, Meta and Amazon all took that treatment in late July. The buyers of AI capacity and the sellers of it are being valued by opposite rules, and this list contains both.",
+  "note": null
+ },
+ "nothing_material": {
+  "tickers": [
+   "AAPL",
+   "MSFT",
+   "GOOGL",
+   "META",
+   "HOOD",
+   "INTC",
+   "NBIS"
+  ],
+  "note": {
+   "title": "What is not today's news",
+   "body": "Four of the twelve had company-specific events in the window: <b>NVDA</b> through SpaceX's call, <b>AMZN</b>'s Form 144, <b>MRVL</b>'s product launch and <b>TSLA</b>'s July China volumes. <b>PLTR</b>'s move is the settled reaction to Monday's report, already covered yesterday. Everything else moved on the tape. Be careful with recycled coverage this morning. Robinhood's RVII roadshow began <b>3 August</b> and its FCA crypto registration is dated <b>31 July</b>. Marvell's <b>$540M</b> XConn acquisition was announced <b>6 January</b> and completed <b>10 February</b>, not now. Intel's Fortinet foundry deal was <b>21&ndash;22 July</b>. Apple's guidance was <b>30 July</b>, Amazon's AWS figures <b>30 July</b>, Meta's capex guide <b>29 July</b>, Robinhood's Q2 <b>29 July</b>, Microsoft's quarter <b>28 July</b>, Intel's <b>23 July</b>, Alphabet's and Tesla's <b>22 July</b>. Nebius's Reflection AI contract was <b>14 July</b>. None of that is news from the past 24 hours. Across the twelve, no M&amp;A, buyback, dividend change, debt or equity issuance or new regulatory action was announced in the window. The only SEC filing was Bezos's Form 144. Note also that <b>sec.gov was unreachable from this run</b>, so filing details here come from press coverage of the filing rather than from the document itself."
+  }
+ },
+ "earnings_ahead": [
+  {
+   "when": "12 Aug",
+   "what": "<b>NBIS</b> Q2, before the open, company-confirmed. The only one of the twelve reporting within 14 days"
+  },
+  {
+   "when": "13 Aug",
+   "what": "<b>HOOD</b>: Robinhood Ventures Fund II lists on the NYSE as RVII at <b>$25</b>, about <b>$200M</b>. Not an earnings event, but a dated one"
+  },
+  {
+   "when": "~27 Aug",
+   "what": "<b>MRVL</b> Q2 FY27, expected but not company-confirmed"
+  },
+  {
+   "when": "26 Aug",
+   "what": "<b>NVDA</b> Q2 FY27, the first test of the SpaceX commitment"
+  }
+ ]
+}
