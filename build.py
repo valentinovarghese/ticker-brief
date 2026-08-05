@@ -372,6 +372,286 @@ def render_archive(older):
 
 # ---------------------------------------------------------------- about
 
+RESEARCH = ROOT / "research.json"
+
+
+def load_research():
+    """Optional. research.json holds the earnings study; absent, the section
+    is simply not rendered and the rest of the page is unaffected."""
+    if not RESEARCH.exists():
+        return None
+    try:
+        return json.loads(RESEARCH.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as e:
+        sys.exit(f"research.json is not valid JSON: {e}")
+
+
+def pct(v, dp=2):
+    """A signed percentage, always with its sign, for tables that compare."""
+    return f"{v:+.{dp}f}%"
+
+
+def sign_class(v):
+    return "up" if v > 0 else ("down" if v < 0 else "flat")
+
+
+def render_strip(ev, first, last):
+    """One bar per quarter, oldest to newest, above/below a centre line.
+    Sign is carried by which side of the line a bar sits on, so the colour
+    is reinforcement rather than the only cue."""
+    if not ev:
+        return ""
+    W, H, PB = 300.0, 52.0, 11.0
+    mid = (H - PB) / 2
+    top = max(abs(x) for x in ev) * 1.05 or 1.0
+    slot = W / len(ev)
+    bw = min(slot * 0.62, 13.0)
+    bars = []
+    for i, v in enumerate(ev):
+        h = max(abs(v) / top * mid, 1.2)
+        x = i * slot + (slot - bw) / 2
+        y = mid - h if v >= 0 else mid
+        cl = "b-up" if v >= 0 else "b-dn"
+        bars.append(f'<rect class="{cl}" x="{x:.1f}" y="{y:.1f}" '
+                    f'width="{bw:.1f}" height="{h:.1f}" rx="1.5"><title>'
+                    f'{pct(v)}</title></rect>')
+    return (
+        f'<svg class="strip" viewBox="0 0 {W:.0f} {H:.0f}" role="img" '
+        f'aria-label="{sum(1 for v in ev if v > 0)} of {len(ev)} quarters rose '
+        f'into the report, {first} to {last}">'
+        f'<line class="mid" x1="0" y1="{mid:.1f}" x2="{W:.0f}" y2="{mid:.1f}"/>'
+        f'{"".join(bars)}'
+        f'<text class="sx" x="0" y="{H - 1:.0f}">{first}</text>'
+        f'<text class="sx" x="{W:.0f}" y="{H - 1:.0f}" text-anchor="end">{last}</text>'
+        "</svg>"
+    )
+
+
+def render_before(w, label):
+    """The run-up table for one holding window."""
+    rows = sorted(w.items(), key=lambda kv: -kv[1]["median"])
+    out = []
+    for tk, d in rows:
+        if d["p"] < 0.05:
+            verdict = f'<span class="vt strong">p&nbsp;{d["p"]:.3f}</span>'
+        elif d["p"] < 0.10:
+            verdict = f'<span class="vt weak">p&nbsp;{d["p"]:.3f}</span>'
+        elif d["hit"] < d["baseHit"]:
+            verdict = '<span class="vt bad">below base</span>'
+        else:
+            verdict = f'<span class="vt">p&nbsp;{d["p"]:.2f}</span>'
+        out.append(
+            f'<tr><th scope="row">{tk}</th>'
+            f'<td class="{sign_class(d["median"])}">{pct(d["median"])}</td>'
+            f'<td class="{sign_class(d["edge"])}">{pct(d["edge"])}</td>'
+            f'<td>{d["hit"]:.0f}%<span class="vs">/{d["baseHit"]:.0f}%</span></td>'
+            f'<td>{d["streak"]}</td>'
+            f'<td class="down">{pct(d["mdd"])}</td>'
+            f'<td class="tv">{verdict}</td></tr>'
+        )
+    return (
+        f'<div class="tw"><table class="rs">'
+        f'<caption>{label}</caption>'
+        "<thead><tr><th scope=\"col\">Stock</th><th scope=\"col\">Median</th>"
+        '<th scope="col">Edge</th><th scope="col">Rose / usual</th>'
+        '<th scope="col">Best run</th><th scope="col">Typical dip</th>'
+        '<th scope="col">Repeats?</th></tr></thead>'
+        f'<tbody>{"".join(out)}</tbody></table></div>'
+    )
+
+
+def render_research(r):
+    if not r:
+        return ""
+    w20, w10 = r["before"]["w20"], r["before"]["w10"]
+    a = r["after"]
+
+    # ---- strips, ordered by how often the stock rose ----
+    strips = "".join(
+        f'<div class="sc"><div class="sh"><b>{tk}</b>'
+        f'<span>{sum(1 for v in d["ev"] if v > 0)}/{len(d["ev"])} up '
+        f'&middot; <i class="{sign_class(d["median"])}">{pct(d["median"])}</i></span></div>'
+        f'{render_strip(d["ev"], d["first"], d["last"])}'
+        f'<div class="sm">usually {d["baseHit"]:.0f}% &middot; '
+        f'worst {pct(d["worst"])}</div></div>'
+        for tk, d in sorted(w20.items(), key=lambda kv: -kv[1]["hit"])
+    )
+
+    # ---- the eve of the report ----
+    eve = "".join(
+        f'<tr><th scope="row">{tk}</th>'
+        f'<td class="{sign_class(d["lastdayMed"])}">{pct(d["lastdayMed"])}</td>'
+        f'<td>{d["lastdayNeg"]:.0f}%<span class="vs">/{d["lastdayBase"]:.0f}%</span></td></tr>'
+        for tk, d in sorted(w20.items(), key=lambda kv: kv[1]["lastdayMed"])[:5]
+    )
+
+    seg = {s["label"]: s for s in a["segments"]}
+    beat = seg["EPS beats"]
+
+    buckets = "".join(
+        f'<tr><th scope="row">{b["label"]}</th>'
+        f'<td class="{sign_class(b["median"])}">{pct(b["median"])}</td>'
+        f'<td>{b["n"]}</td></tr>'
+        for b in a["beatBuckets"]
+    )
+    mbuckets = "".join(
+        f'<tr><th scope="row">{b["label"]}</th>'
+        f'<td class="{sign_class(b["median"])}">{pct(b["median"])}</td>'
+        f'<td>{b["n"]}</td></tr>'
+        for b in a["missBuckets"]
+    )
+
+    fade = "".join(
+        f'<tr><th scope="row">{tk}</th>'
+        f'<td class="{sign_class(d["median"])}">{pct(d["median"])}</td>'
+        f'<td>{d["hit"]:.0f}%<span class="vs">/{d["baseHit"]:.0f}%</span></td>'
+        f'<td>{d["t"]:+.2f}</td></tr>'
+        for tk, d in sorted(a["perTickerBeat"].items(),
+                            key=lambda kv: kv[1]["median"])[:6]
+    )
+
+    return f"""<section class="band research reveal" id="earnings">
+<h2>Earnings</h2>
+
+<p class="lede">Two questions, asked of every quarterly report these twelve
+companies have filed since 2020. Does a stock drift up in the weeks
+<em>before</em> it reports, and what does the price actually do in the hours
+<em>after</em>? Both are measured the same way throughout: against what that
+same stock does on an ordinary stretch of trading, because most of these names
+drift upward anyway and a number that ignores that flatters every one of them.</p>
+
+<h3>Before the report</h3>
+
+<p>Buy at the close four weeks before the report, sell at the last close before
+the news reaches the tape. The gains run from <b>{w20['NVDA']['median']:+.2f}%</b>
+on NVDA down to <b class="down">{w20['TSLA']['median']:+.2f}%</b> on TSLA, and the
+ordering is not what the headlines would suggest. Ignore the top row: NBIS shows
+the largest number in the table on six reports, from a stock that has only traded
+since October 2024 and gains almost as much over any four weeks you care to
+pick.</p>
+
+{render_before(w20, "Four weeks before the report: 20 trading sessions")}
+
+<p><b>Edge</b> is the part that matters: the median gain minus what the same
+stock returns over any random stretch of the same length. <b>Repeats?</b> asks
+whether the stock rose into earnings more often than it usually rises, tested
+against its own record. Two clear it. <b>NVDA</b> rose into 22 of its last 26
+reports against a 64% norm, and <b>GOOGL</b> 21 of 26 against 61%. NVDA's run of
+fifteen consecutive positive quarters is the single most striking number in this
+study.</p>
+
+<p class="caution"><b>Read that with one hand on the brake.</b> Two window
+lengths were tested across twelve stocks, which is twenty-four looks at the
+data; at that many, roughly one result crossing the 5% line is what chance alone
+produces. Neither NVDA nor GOOGL survives a correction for having looked that
+many times. Treat them as the best candidates found, not as established facts.</p>
+
+{render_before(w10, "Two weeks before the report: 10 trading sessions, for comparison")}
+
+<p>Halving the window roughly halves the gain and dissolves the significance:
+nothing reaches the 5% line at ten sessions, NVDA's best being 0.11. Whatever
+this effect is, it needs the longer runway. It also costs less to hold, since
+the typical dip along the way is about half as deep.</p>
+
+<h4>Every quarter, oldest to newest</h4>
+<p>A median hides the shape. These are the individual quarters at four weeks,
+so a steady record can be told apart from one good run carrying an average.</p>
+<div class="strips">{strips}</div>
+
+<h4>The eve of the report</h4>
+<p>A common worry is that a stock sells off the day before it reports. Across
+all 291 events it does not: the final session is <b>+0.16%</b> at the median and
+falls only <b>46%</b> of the time, marginally <em>better</em> than an ordinary
+day. It is real for two names, and one of them barely has the record to say so.</p>
+<div class="tw"><table class="rs narrow">
+<caption>The five weakest final sessions before a report</caption>
+<thead><tr><th scope="col">Stock</th><th scope="col">Median move</th>
+<th scope="col">Fell / usual</th></tr></thead>
+<tbody>{eve}</tbody></table></div>
+
+<h3>After the report</h3>
+
+<p>The second question, and the more surprising answer. Measured from the
+opening bell of the first session after a report to four hours later, a stock
+that <em>beat</em> expectations has a median move of
+<b class="down">{beat['median']:+.2f}%</b> and is higher only
+<b>{beat['hit']:.1f}%</b> of the time. A stock that <em>missed</em> does the
+opposite: <b class="up">{a['missPooled']['median']:+.2f}%</b>, higher
+<b>{a['missPooled']['hit']:.1f}%</b> of the time.</p>
+
+<p>Good news reliably going down is not a paradox, it is a question of where the
+clock starts. The news is already in the price by the opening bell. A beat gaps
+the stock up {a['beatGapMed']:+.2f}% overnight, a miss gaps it down
+{a['missPooled']['gapMed']:+.2f}%, and the hours that follow lean back against
+whichever way the opening auction overshot. Anyone measuring the reaction from
+the open is measuring the correction, not the news.</p>
+
+<h4>What actually decides it</h4>
+<p>Neither the direction of the surprise nor its size. The size of the overnight
+gap does, and it does so identically in both directions: <b>large gaps carry on,
+small ones give it back.</b></p>
+<div class="pair">
+<div class="tw"><table class="rs narrow">
+<caption>After a beat, by size of the gap</caption>
+<thead><tr><th scope="col">Opening gap</th><th scope="col">Next four hours</th>
+<th scope="col">n</th></tr></thead><tbody>{buckets}</tbody></table></div>
+<div class="tw"><table class="rs narrow">
+<caption>After a miss, by size of the gap</caption>
+<thead><tr><th scope="col">Opening gap</th><th scope="col">Next four hours</th>
+<th scope="col">n</th></tr></thead><tbody>{mbuckets}</tbody></table></div>
+</div>
+
+<h4>The stocks that fade hardest on good news</h4>
+<div class="tw"><table class="rs narrow">
+<caption>Open to four hours later, after a beat</caption>
+<thead><tr><th scope="col">Stock</th><th scope="col">Median</th>
+<th scope="col">Higher / usual</th><th scope="col">t</th></tr></thead>
+<tbody>{fade}</tbody></table></div>
+<p>Only <b>INTC</b> and <b>META</b> separate from their own base rate here, and
+both do so downward. TSLA has the largest median drop but too much scatter
+across too few reports to call it established. Note that no stock in the set
+shows a reliable <em>upward</em> move after a beat.</p>
+
+<h4>One number worth distrusting</h4>
+<p>The {a['inline']['n']} occasions where earnings landed exactly on the estimate
+have a median of <b class="down">{a['inline']['median']:+.2f}%</b> and are higher
+only {a['inline']['hit']:.1f}% of the time, worse than the misses. That is
+almost certainly an artefact: landing exactly on an estimate is usually a
+rounding coincidence on a low forecast rather than a real category of event. It
+is reported here because omitting an inconvenient number is how a study starts
+misleading.</p>
+
+<h3>Sources and limits</h3>
+<dl class="src">
+<dt>Prices</dt>
+<dd>Thirty-minute bars for all twelve tickers, January 2020 to date, from
+<b>Twelve Data</b>. Roughly 1,650 trading sessions per stock; 17,956 in total.</dd>
+<dt>Earnings dates and figures</dt>
+<dd>Reported date, release timing, reported and estimated earnings per share,
+from <b>Alpha Vantage</b>. 292 reports in total.</dd>
+<dt>What counts as the reaction</dt>
+<dd>The first regular session that <em>opens</em> after the release: the next
+trading day for an after-hours release, the same day for a pre-market one.</dd>
+<dt>Not included</dt>
+<dd>Guidance and revenue, which routinely move these stocks more than the
+earnings line itself. No options data of any kind: no implied volatility, no
+premiums. A move in the share price is not the return on a contract.</dd>
+<dt>Sample</dt>
+<dd>Twenty to twenty-seven reports per stock is enough to rank and not enough to
+confirm. NBIS has six and has only traded since October 2024; HOOD has twenty,
+from August 2021. Every window length reported here was fixed before testing,
+and both are shown rather than only the flattering one.</dd>
+</dl>
+
+<p class="disclaim">Nothing on this page is financial advice, a recommendation,
+or a solicitation to buy or sell anything. It is a description of what a set of
+past prices did, published for interest. Past patterns do not predict future
+returns, and a pattern that survives a statistical test can still be a
+coincidence. Anyone acting on this does so entirely at their own risk and should
+take professional advice first.</p>
+</section>"""
+
+
 ABOUT = ROOT / "about.json"
 
 
@@ -455,6 +735,7 @@ def render_page(editions):
         dateline=render_gauge(latest),
         headline=latest["headline"],
         body=render_body(latest),
+        research=render_research(load_research()),
         tindex=render_ticker_index(editions),
         archive=render_archive(older),
         about=render_about(load_about()),
@@ -727,6 +1008,94 @@ CSS = """
                      transform .22s var(--ease); }
   .pill:hover { color:var(--ink); border-color:var(--ink); transform:translateY(-1px); }
 
+  /* ---- earnings research ----
+     A study section, not a daily brief: denser than the prose above it and
+     built on tables, so it takes the sans and mono faces almost throughout
+     and keeps the serif only for the paragraphs that argue. */
+  .research { gap:1.4rem; }
+  .research h3 { font-family:var(--ui); font-size:1.05rem; font-weight:640;
+                 letter-spacing:-.015em; margin:1.1rem 0 0;
+                 padding-bottom:.5rem; border-bottom:1px solid var(--line); }
+  .research h4 { font-family:var(--ui); font-size:.82rem; font-weight:640;
+                 letter-spacing:.01em; margin:.9rem 0 -.5rem; color:var(--ink); }
+  .research p { margin:0; }
+  .research .lede { font-size:1.06rem; color:var(--ink-2); }
+  .research b { font-weight:660; }
+  .research .up { color:var(--up); }
+  .research .down { color:var(--down); }
+  .research .flat { color:var(--ink-3); }
+
+  .caution { border-left:2px solid var(--amber); background:var(--amber-wash);
+             padding:.75rem .95rem; font-size:.95rem; color:var(--ink-2); }
+
+  /* tables: the wrapper scrolls, never the page */
+  .research .tw { overflow-x:auto; border:1px solid var(--line);
+                  border-radius:8px; background:var(--paper); }
+  table.rs { border-collapse:collapse; width:100%; min-width:34rem;
+             font-family:var(--mono); font-size:.78rem;
+             font-variant-numeric:tabular-nums; }
+  table.rs.narrow { min-width:17rem; }
+  table.rs caption { font-family:var(--ui); font-size:.66rem; font-weight:620;
+                     letter-spacing:.05em; text-transform:uppercase;
+                     color:var(--ink-3); text-align:left;
+                     padding:.7rem .8rem .55rem; }
+  table.rs th, table.rs td { padding:.34rem .8rem; text-align:right;
+                             white-space:nowrap;
+                             border-top:1px solid var(--line-2); }
+  table.rs thead th { font-family:var(--ui); font-size:.62rem; font-weight:620;
+                      color:var(--ink-3); letter-spacing:.04em;
+                      text-transform:uppercase; border-top:1px solid var(--line);
+                      border-bottom:1px solid var(--line); }
+  table.rs tbody th[scope="row"] { font-family:var(--ui); font-weight:620;
+                                   font-size:.8rem; text-align:left;
+                                   color:var(--ink); }
+  table.rs thead th:first-child { text-align:left; }
+  table.rs .vs { color:var(--ink-3); }
+  table.rs .vs::before { content:" "; }
+  table.rs td.tv { text-align:center; }
+  .vt { font-family:var(--ui); font-size:.6rem; font-weight:620;
+        letter-spacing:.03em; text-transform:uppercase; white-space:nowrap;
+        border:1px solid var(--line); border-radius:3px; padding:.08rem .34rem;
+        color:var(--ink-3); }
+  .vt.strong { color:var(--up); border-color:var(--up); }
+  .vt.weak { color:var(--amber); border-color:var(--amber);
+             background:var(--amber-wash); }
+  .vt.bad { color:var(--down); border-color:var(--down); }
+
+  .pair { display:grid; grid-template-columns:repeat(auto-fit,minmax(19rem,1fr));
+          gap:.9rem; }
+
+  /* per-quarter strips */
+  .strips { display:grid; grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));
+            gap:1px; background:var(--line); border:1px solid var(--line);
+            border-radius:8px; overflow:hidden; }
+  .sc { background:var(--paper); padding:.7rem .8rem .55rem;
+        display:flex; flex-direction:column; gap:.4rem; }
+  .sh { display:flex; align-items:baseline; justify-content:space-between;
+        gap:.5rem; font-family:var(--ui); font-size:.72rem; color:var(--ink-3); }
+  .sh b { font-size:.82rem; font-weight:640; color:var(--ink); }
+  .sh i { font-family:var(--mono); font-style:normal;
+          font-variant-numeric:tabular-nums; }
+  .sm { font-family:var(--ui); font-size:.65rem; color:var(--ink-3); }
+  svg.strip { display:block; width:100%; height:auto; }
+  svg.strip .mid { stroke:var(--line); stroke-width:1; stroke-dasharray:3 3; }
+  svg.strip .b-up { fill:var(--up); }
+  svg.strip .b-dn { fill:var(--down); }
+  svg.strip .sx { font-family:var(--ui); font-size:8px; fill:var(--ink-3); }
+
+  dl.src { margin:0; display:grid; grid-template-columns:auto 1fr;
+           gap:.4rem 1.1rem; font-size:.9rem; }
+  dl.src dt { font-family:var(--ui); font-size:.66rem; font-weight:620;
+              letter-spacing:.04em; text-transform:uppercase;
+              color:var(--ink-3); padding-top:.22rem; white-space:nowrap; }
+  dl.src dd { margin:0; color:var(--ink-2); }
+  @media (max-width:34rem) {
+    dl.src { grid-template-columns:1fr; gap:.15rem; }
+    dl.src dd { margin-bottom:.6rem; }
+  }
+  .research .disclaim { font-size:.86rem; color:var(--ink-3);
+                        border-top:1px solid var(--line); padding-top:1rem; }
+
   /* ---- colophon ---- */
   .colophon { border-top:1px solid var(--line); padding-top:1.8rem; display:flex;
               flex-direction:column; gap:1rem; font-size:.88rem; color:var(--ink-3); }
@@ -876,6 +1245,7 @@ PAGE = """<!doctype html>
     {dateline}
   </header>
   {body}
+  {research}
   {tindex}
   {archive}
   {about}
