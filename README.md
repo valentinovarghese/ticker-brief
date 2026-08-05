@@ -122,6 +122,20 @@ proof-of-work challenge that re-issues on every request, solved or not, so
 it yields nothing in practice. It is kept as a fallback in case that
 changes.
 
+## Tabs
+
+The page is four things, so it is four panels behind a tab strip: **Brief**
+(today, plus the archive of previous days), **Earnings**, **By ticker**, and
+**About**. `render_tabs` only offers a tab when there is something behind it,
+so a repository with one edition and no `research.json` does not grow dead
+links.
+
+The tabs are plain fragment links and the hash is the state, so
+`.../#earnings` opens the Earnings panel, the back button steps between
+panels, and a link to an anchor inside a panel opens that panel first. Without
+JavaScript nothing is hidden: the page is one long document and the tabs jump
+to the sections, exactly as it behaved before they existed.
+
 ## The Earnings section
 
 `research.py` regenerates `research.json`, which is the only thing the

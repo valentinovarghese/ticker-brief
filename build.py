@@ -627,7 +627,7 @@ def render_research(r):
                             key=lambda kv: kv[1]["median"])[:6]
     )
 
-    return f"""<section class="band research reveal" id="earnings">
+    return f"""<section class="band research reveal" id="earnings-study">
 <h2>Earnings</h2>
 
 <p class="lede">Two questions, asked of every quarterly report these
@@ -866,6 +866,8 @@ def csp():
 
 def render_page(editions):
     latest, older = editions[0], editions[1:]
+    research = render_research(load_research())
+    about = render_about(load_about())
     return PAGE.format(
         css=CSS,
         js=JS,
@@ -873,13 +875,40 @@ def render_page(editions):
         csp=csp(),
         dateline=render_gauge(latest),
         headline=latest["headline"],
+        tabs=render_tabs(editions, research, about),
         body=render_body(latest),
-        research=render_research(load_research()),
+        research=research,
         tindex=render_ticker_index(editions),
         archive=render_archive(older),
-        about=render_about(load_about()),
+        about=about,
         count=len(editions),
     )
+
+
+def render_tabs(editions, research, about):
+    """The nav that splits the page into panels.
+
+    A tab is only offered when there is something behind it, so a fresh
+    archive with one edition and no research does not grow dead links. The
+    links are real fragment links: without JavaScript every panel is visible
+    and the tabs jump to the section, which is the same page it has always
+    been. With it, they switch.
+    """
+    tabs = [("brief", "Brief", True),
+            ("earnings", "Earnings", bool(research)),
+            ("tickers", "By ticker", len(editions) > 1),
+            ("about", "About", bool(about))]
+    live = [t for t in tabs if t[2]]
+    if len(live) < 2:
+        return ""
+    items = "".join(
+        f'<a class="tab{" on" if i == 0 else ""}" id="tab-{key}" role="tab" '
+        f'href="#{key}" data-panel="panel-{key}" '
+        f'aria-controls="panel-{key}" aria-selected="{"true" if i == 0 else "false"}">'
+        f'{label}</a>'
+        for i, (key, label, _) in enumerate(live))
+    return (f'<nav class="tabs" role="tablist" aria-label="Sections">'
+            f'<div class="tabstrip">{items}</div></nav>')
 
 
 def refresh_research():
@@ -937,6 +966,7 @@ CSS = """
     --ink:#0C0D0E;
     --ink-2:#4C5157;
     --ink-3:#6E747B;
+    --topbar-h:2.62rem;
     --line:#E7E6E1;
     --line-2:#F0EFEB;
     --up:#046A44;
@@ -986,6 +1016,41 @@ CSS = """
 
   .wrap { max-width:var(--col); margin:0 auto; padding:5rem 1.5rem 7rem;
           display:flex; flex-direction:column; gap:3.5rem; }
+
+  /* ---- section tabs ----
+     The page is four things, and only one of them is today's news. Splitting
+     them means the brief is not a scroll past a research paper to reach the
+     archive. Without JavaScript every panel stays visible and these are plain
+     fragment links to the sections, which is the page as it was before. */
+  /* The sticky bar clears the fixed topbar rather than sliding under it.
+     By the time the tabs reach the top the masthead is long past, so the
+     topbar is always showing when this offset matters. */
+  .tabs { position:sticky; top:var(--topbar-h); z-index:40;
+          margin:-1.4rem 0 -1.6rem;
+          padding:.2rem 0; background:var(--paper);
+          border-bottom:1px solid var(--line); }
+  @supports (backdrop-filter: blur(1px)) {
+    .tabs { background:rgba(255,255,255,.9);
+            backdrop-filter:saturate(1.4) blur(14px); }
+  }
+  .tabstrip { display:flex; gap:.35rem; overflow-x:auto; scrollbar-width:none;
+              -webkit-overflow-scrolling:touch; }
+  .tabstrip::-webkit-scrollbar { display:none; }
+  .tab { font-family:var(--ui); font-size:.82rem; font-weight:560;
+         color:var(--ink-3); text-decoration:none; white-space:nowrap;
+         padding:.72rem .85rem .62rem; border-bottom:2px solid transparent;
+         transition:color .2s var(--ease), border-color .2s var(--ease); }
+  .tab:hover { color:var(--ink); }
+  .tab.on { color:var(--ink); font-weight:640; border-bottom-color:var(--ink); }
+  .tab:focus-visible { outline:2px solid var(--ink); outline-offset:-3px;
+                       border-radius:4px; }
+  .panel { display:flex; flex-direction:column; gap:3.5rem; }
+  /* Only a scripted page hides anything. If the script never runs, the page
+     is one long document and nothing is unreachable. */
+  html.js .panel[hidden] { display:none; }
+  @media (max-width:34rem) {
+    .tab { font-size:.78rem; padding:.6rem .65rem .5rem; }
+  }
 
   /* ---- masthead: the one loud thing on the page ---- */
   .masthead { display:flex; flex-direction:column; gap:1.5rem;
@@ -1316,6 +1381,86 @@ CSS = """
 JS = """
 (function () {
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // ---- section tabs ----
+  // The hash is the state, so a tab is shareable, survives a reload and
+  // answers the back button. Anything that is not a known tab is left alone:
+  // a link to #earnings-sources still has to reach the right panel.
+  var tabs = [].slice.call(document.querySelectorAll('.tab'));
+  if (tabs.length > 1) {
+    var panels = tabs.map(function (t) {
+      return document.getElementById(t.getAttribute('href').replace('#', ''));
+    });
+
+    function show(name, focus) {
+      var found = false;
+      tabs.forEach(function (t, i) {
+        var on = t.getAttribute('href') === '#' + name;
+        if (on) found = true;
+        t.classList.toggle('on', on);
+        t.setAttribute('aria-selected', on ? 'true' : 'false');
+        t.setAttribute('tabindex', on ? '0' : '-1');
+        if (panels[i]) {
+          panels[i].hidden = !on;
+          if (on) {
+            // A panel revealed below the fold was never observed, so its
+            // sections would animate in only on the next scroll.
+            panels[i].querySelectorAll('.reveal').forEach(function (el) {
+              el.classList.add('in');
+            });
+          }
+        }
+      });
+      if (!found) return false;
+      if (focus) {
+        var el = document.getElementById('tab-' + name);
+        if (el) el.focus();
+      }
+      return true;
+    }
+
+    function fromHash() {
+      var h = (location.hash || '').replace('#', '');
+      if (show(h)) return;
+      // An unknown fragment belongs to something inside a panel. Open the
+      // panel that contains it, then let the browser scroll to it.
+      var target = h && document.getElementById(h);
+      var owner = target && target.closest('.panel');
+      if (owner) {
+        show(owner.id);
+        target.scrollIntoView();
+      } else {
+        show(tabs[0].getAttribute('href').replace('#', ''));
+      }
+    }
+
+    tabs.forEach(function (t, i) {
+      t.addEventListener('click', function (e) {
+        e.preventDefault();
+        var name = t.getAttribute('href').replace('#', '');
+        if (location.hash !== '#' + name) {
+          history.pushState(null, '', '#' + name);
+        }
+        show(name);
+        // Back to the top of the panel, not to wherever the last one was
+        // scrolled. Jumping into the middle of a section reads as a bug.
+        window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' });
+      });
+      t.addEventListener('keydown', function (e) {
+        var step = e.key === 'ArrowRight' ? 1 : (e.key === 'ArrowLeft' ? -1 : 0);
+        if (!step) return;
+        e.preventDefault();
+        var next = tabs[(i + step + tabs.length) % tabs.length];
+        var name = next.getAttribute('href').replace('#', '');
+        history.replaceState(null, '', '#' + name);
+        show(name, true);
+      });
+    });
+
+    window.addEventListener('hashchange', fromHash);
+    fromHash();
+  }
+
   var bar = document.querySelector('.progress');
   var top = document.querySelector('.topbar');
   var mast = document.querySelector('.masthead');
@@ -1419,11 +1564,20 @@ PAGE = """<!doctype html>
     <h1>{headline}</h1>
     {dateline}
   </header>
-  {body}
-  {research}
-  {tindex}
-  {archive}
-  {about}
+  {tabs}
+  <div class="panel" id="brief" role="tabpanel" aria-labelledby="tab-brief">
+    {body}
+    {archive}
+  </div>
+  <div class="panel" id="earnings" role="tabpanel" aria-labelledby="tab-earnings">
+    {research}
+  </div>
+  <div class="panel" id="tickers" role="tabpanel" aria-labelledby="tab-tickers">
+    {tindex}
+  </div>
+  <div class="panel" id="about" role="tabpanel" aria-labelledby="tab-about">
+    {about}
+  </div>
   <footer class="colophon">
     <dl>
       <dt>Direction</dt>
