@@ -24,6 +24,7 @@ import html
 import json
 import re
 import statistics as st
+import subprocess
 import sys
 from datetime import date
 from pathlib import Path
@@ -881,11 +882,39 @@ def render_page(editions):
     )
 
 
+def refresh_research():
+    """Bring research.json up to date before rendering from it.
+
+    The Earnings section is derived data, so it goes stale the moment a new
+    session closes. Refreshing here rather than in the daily routine means the
+    section stays current wherever the site is built from, with no second step
+    for anyone to forget. It is skipped when today's numbers are already in
+    hand, and a failure is never allowed to stop the build: the previous
+    research.json stands and the section keeps yesterday's figures.
+    """
+    script = ROOT / "research.py"
+    if not script.exists() or "--no-research" in sys.argv:
+        return
+    current = load_research() or {}
+    if current.get("generated") == date.today().isoformat():
+        return
+    print("refreshing research.json (pass --no-research to skip)")
+    try:
+        r = subprocess.run([sys.executable, str(script)], cwd=str(ROOT),
+                           timeout=900, capture_output=True, text=True)
+        tail = (r.stdout or r.stderr or "").strip().splitlines()
+        for line in tail[-3:]:
+            print(f"  {line}")
+    except Exception as e:
+        print(f"  research refresh skipped: {str(e)[:90]}")
+
+
 def main():
     editions = load_editions()
     if "--check" in sys.argv:
         print(f"ok — {len(editions)} edition(s), newest {editions[0]['date']}")
         return
+    refresh_research()
     page = render_page(editions)
     OUT.write_text(page, encoding="utf-8")
     PAGES_OUT.write_text(page, encoding="utf-8")

@@ -15,6 +15,9 @@ archive behind it.
 ```
 editions/YYYY-MM-DD.json   one file per day, the source of truth
 about.json                 the About block at the foot of the page
+research.py                rebuilds the Earnings study from live market data
+research/                  its cache: one row per session, plus the calendars
+research.json              generated; everything the Earnings section reads
 build.py                   renders every edition into site.html
 index.html                 generated; served by GitHub Pages from main
 site.html                  generated; identical copy of index.html
@@ -43,6 +46,10 @@ python3 build.py --check   # validate every edition, write nothing
 python3 build.py           # write site.html
 open site.html             # or: python3 -m http.server
 ```
+
+`build.py` refreshes `research.json` first whenever it is not from today,
+by running `research.py` itself. Pass `--no-research` to skip that and
+render whatever is already on file.
 
 `--check` fails loudly on malformed JSON or a missing required key
 (`date`, `headline`, `quick`, `entries`), so a bad edition never reaches
@@ -114,6 +121,35 @@ stooq is allowlisted but serves datacenter traffic a JavaScript
 proof-of-work challenge that re-issues on every request, solved or not, so
 it yields nothing in practice. It is kept as a fallback in case that
 changes.
+
+## The Earnings section
+
+`research.py` regenerates `research.json`, which is the only thing the
+Earnings section of the page reads. Nothing in that section is typed in by
+hand: the figures, the stocks named in the prose, the significance verdicts
+and the counts in the sources block are all derived at render time. Editing
+the wording to say something the tables do not is how the two start
+contradicting each other.
+
+```bash
+python3 research.py            # top up the cache, recompute, rewrite research.json
+python3 research.py --offline  # recompute from the cache only, no network
+python3 research.py --backfill # refetch every ticker's history from 2020
+```
+
+The expensive part is price history: thirty-minute bars back to 2020,
+reduced to the three prices per session the study actually reads and kept
+in `research/sessions/`. A daily run tops up the tail of that with one
+request per ticker instead of refetching six years. Earnings calendars in
+`research/earnings/` are refreshed only when a report is actually due,
+which keeps the AlphaVantage allowance free for `charts.py`. Upcoming dates
+come from the published calendar where a company has confirmed one and are
+projected from the year-ago quarter where it has not, and the page labels
+which is which.
+
+Both keys are optional. Without them the study recomputes from the cache in
+the repository, and a provider outage leaves the previous `research.json`
+standing rather than publishing a half-finished rebuild.
 
 ## House style
 
