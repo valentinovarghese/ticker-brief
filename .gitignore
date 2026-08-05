@@ -3,3 +3,7 @@
 # a copy of the repo inside itself and shows up as an untracked directory.
 # It is disposable — everything real is already on the remote.
 brief/
+
+# Byte-compiled modules from running the build scripts in place.
+__pycache__/
+*.pyc

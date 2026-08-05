@@ -23,6 +23,7 @@ import hashlib
 import html
 import json
 import re
+import statistics as st
 import sys
 from datetime import date
 from pathlib import Path
@@ -460,6 +461,84 @@ def render_before(w, label):
     )
 
 
+THIN = 12          # fewer reports than this and a ranking is not worth reading
+STRONG = 2.0       # |t| at which a stock separates from its own base rate
+
+
+def plural(n, one, many=None):
+    return one if n == 1 else (many or one + "s")
+
+
+def names(items, joiner="and"):
+    """A, B and C. Written out because these lists are generated, not typed."""
+    items = list(items)
+    if not items:
+        return ""
+    if len(items) == 1:
+        return items[0]
+    return f"{', '.join(items[:-1])} {joiner} {items[-1]}"
+
+
+def counted(n):
+    """Small counts read better as words in a sentence than as digits."""
+    words = ["none", "one", "two", "three", "four", "five", "six", "seven",
+             "eight", "nine", "ten", "eleven", "twelve"]
+    return words[n] if n < len(words) else str(n)
+
+
+def render_upcoming(up, window, stamp):
+    """What is actually near, which is the part that changes between visits.
+
+    The table is the reason to come back to this page: everything below it is
+    a fixed study, and this is where it touches a date on the calendar.
+    """
+    if not up:
+        return ""
+    inside = [u for u in up if u["open"]]
+    rows = []
+    for u in inside or up[:4]:
+        est = ' <span class="est">est</span>' if u["est"] else ""
+        when = f' <span class="est">{u["when"]}</span>' if u.get("when") else ""
+        if u["median"] is None:
+            hist = '<td colspan="2" class="flat">not enough history</td>'
+        else:
+            thin = ' <span class="est">n={}</span>'.format(u["n"]) if u["n"] < THIN else ""
+            hist = (f'<td class="{sign_class(u["median"])}">{pct(u["median"])}{thin}</td>'
+                    f'<td>{u["hit"]:.0f}%<span class="vs">/{u["baseHit"]:.0f}%</span></td>')
+        state = ("in the window" if u["open"]
+                 else f'{u["sessions"] - window} to go')
+        rows.append(
+            f'<tr><th scope="row">{u["ticker"]}</th>'
+            f'<td class="dt">{u["date"]}{est}{when}</td>'
+            f'<td>{u["sessions"]}</td>'
+            f'<td class="tv"><span class="vt{" strong" if u["open"] else ""}">'
+            f'{state}</span></td>{hist}</tr>')
+
+    if inside:
+        lead = (f'<b>{counted(len(inside)).capitalize()}</b> of the twelve '
+                f'{plural(len(inside), "is", "are")} inside the four-week window '
+                f'the study describes: {names(u["ticker"] for u in inside)}.')
+    else:
+        nxt = up[0]
+        lead = (f'None of the twelve is inside the four-week window. '
+                f'The next to enter it is <b>{nxt["ticker"]}</b>, reporting '
+                f'{nxt["date"]}, {nxt["sessions"] - window} sessions away.')
+
+    return f"""<h3>Coming up</h3>
+<p>{lead} Sessions counted are trading days, not calendar days, and the last
+two columns are that stock's own record in the tables below, not a forecast
+of this one.</p>
+<div class="tw"><table class="rs">
+<caption>Reports ahead, nearest first</caption>
+<thead><tr><th scope="col">Stock</th><th scope="col">Reports</th>
+<th scope="col">Sessions away</th><th scope="col">Window</th>
+<th scope="col">Past median</th><th scope="col">Rose / usual</th></tr></thead>
+<tbody>{"".join(rows)}</tbody></table></div>
+<p class="stamp">Dates marked <span class="est">est</span> are projected from
+the same quarter last year because the company has not confirmed one yet.
+Everything on this page was recalculated on {stamp}.</p>"""
+
+
 def render_research(r):
     if not r:
         return ""
@@ -488,6 +567,43 @@ def render_research(r):
     seg = {s["label"]: s for s in a["segments"]}
     beat = seg["EPS beats"]
 
+    # ---- the claims the prose makes, read off the data rather than typed ----
+    # Everything below regenerates nightly, so a sentence naming a stock has
+    # to find that stock itself. A hand-written name goes stale the first time
+    # the ranking moves and then quietly misleads.
+    solid = {t: d for t, d in w20.items() if d["n"] >= THIN}
+    ranked = sorted(solid.items(), key=lambda kv: -kv[1]["median"])
+    lead, tail = ranked[0], ranked[-1]
+    thin = sorted((t for t, d in w20.items() if d["n"] < THIN),
+                  key=lambda t: -w20[t]["median"])
+    thin_note = ""
+    if thin:
+        counts = names("{} has {}".format(t, w20[t]["n"]) for t in thin)
+        thin_note = f"{counts}, which is why the thin rows are called out above. "
+
+    sig = sorted(((t, d) for t, d in w20.items() if d["p"] < 0.05),
+                 key=lambda kv: kv[1]["p"])
+    sig_note = " ".join(
+        f'<b>{t}</b> rose into {round(d["hit"] * d["n"] / 100)} of its last '
+        f'{d["n"]} reports against a {d["baseHit"]:.0f}% norm.'
+        for t, d in sig) or "None clears it."
+    verb = "clears" if len(sig) == 1 else "clear"
+    streaker = max(w20.items(), key=lambda kv: kv[1]["streak"])
+
+    best10 = min(w10.items(), key=lambda kv: kv[1]["p"])
+    tests = len(r["before"]) * len(w20)
+    dip20 = st.median([d["mdd"] for d in w20.values()])
+    dip10 = st.median([d["mdd"] for d in w10.values()])
+
+    # After a beat: which stocks genuinely part company with their own norm.
+    parted = sorted(((t, d) for t, d in a["perTickerBeat"].items()
+                     if abs(d["t"]) >= STRONG), key=lambda kv: kv[1]["t"])
+    down = [t for t, d in parted if d["t"] < 0]
+    up_after = [t for t, d in parted if d["t"] > 0]
+    worst_beat = min(a["perTickerBeat"].items(), key=lambda kv: kv[1]["median"])
+    eve_pool = r.get("eve") or {}
+    meta = r.get("meta") or {}
+
     buckets = "".join(
         f'<tr><th scope="row">{b["label"]}</th>'
         f'<td class="{sign_class(b["median"])}">{pct(b["median"])}</td>'
@@ -513,45 +629,51 @@ def render_research(r):
     return f"""<section class="band research reveal" id="earnings">
 <h2>Earnings</h2>
 
-<p class="lede">Two questions, asked of every quarterly report these twelve
-companies have filed since 2020. Does a stock drift up in the weeks
-<em>before</em> it reports, and what does the price actually do in the hours
-<em>after</em>? Both are measured the same way throughout: against what that
-same stock does on an ordinary stretch of trading, because most of these names
-drift upward anyway and a number that ignores that flatters every one of them.</p>
+<p class="lede">Two questions, asked of every quarterly report these
+{counted(meta.get('tickers', 12))} companies have filed since 2020. Does a stock
+drift up in the weeks <em>before</em> it reports, and what does the price
+actually do in the hours <em>after</em>? Both are measured the same way
+throughout: against what that same stock does on an ordinary stretch of trading,
+because most of these names drift upward anyway and a number that ignores that
+flatters every one of them. The tables rebuild every day, so a stock that stops
+behaving this way will stop showing it here.</p>
+
+{render_upcoming(r.get("upcoming"), meta.get("windows", [20])[0], r["generated"])}
 
 <h3>Before the report</h3>
 
 <p>Buy at the close four weeks before the report, sell at the last close before
-the news reaches the tape. The gains run from <b>{w20['NVDA']['median']:+.2f}%</b>
-on NVDA down to <b class="down">{w20['TSLA']['median']:+.2f}%</b> on TSLA, and the
-ordering is not what the headlines would suggest. Ignore the top row: NBIS shows
-the largest number in the table on six reports, from a stock that has only traded
-since October 2024 and gains almost as much over any four weeks you care to
-pick.</p>
+the news reaches the tape. Among the stocks with a full record the gains run
+from <b class="{sign_class(lead[1]['median'])}">{pct(lead[1]['median'])}</b> on
+{lead[0]} down to <b class="{sign_class(tail[1]['median'])}">{pct(tail[1]['median'])}</b>
+on {tail[0]}, and the ordering is not what the headlines would suggest.
+{f'Ignore {names(thin)} near the top: {counted(len(thin))} of the '
+ f'{counted(len(w20))} {plural(len(thin), "has", "have")} fewer than {THIN} '
+ f'reports on file, too short a record to mean much.' if thin else ''}</p>
 
 {render_before(w20, "Four weeks before the report: 20 trading sessions")}
 
 <p><b>Edge</b> is the part that matters: the median gain minus what the same
 stock returns over any random stretch of the same length. <b>Repeats?</b> asks
 whether the stock rose into earnings more often than it usually rises, tested
-against its own record. Two clear it. <b>NVDA</b> rose into 22 of its last 26
-reports against a 64% norm, and <b>GOOGL</b> 21 of 26 against 61%. NVDA's run of
-fifteen consecutive positive quarters is the single most striking number in this
-study.</p>
+against its own record. {counted(len(sig)).capitalize()} {verb} it. {sig_note}
+{streaker[0]}'s run of {counted(streaker[1]['streak'])} consecutive positive
+quarters is the longest in the study.</p>
 
 <p class="caution"><b>Read that with one hand on the brake.</b> Two window
-lengths were tested across twelve stocks, which is twenty-four looks at the
-data; at that many, roughly one result crossing the 5% line is what chance alone
-produces. Neither NVDA nor GOOGL survives a correction for having looked that
-many times. Treat them as the best candidates found, not as established facts.</p>
+lengths were tested across {counted(len(w20))} stocks, which is {tests} looks at
+the data; at that many, roughly one result crossing the 5% line is what chance
+alone produces. {f'{names(t for t, _ in sig)} {"does" if len(sig) == 1 else "do"} not survive a correction for having looked that many times. Treat them as the best candidates found, not as established facts.' if sig else 'Nothing crossing that line here would survive a correction for having looked that many times.'}</p>
 
 {render_before(w10, "Two weeks before the report: 10 trading sessions, for comparison")}
 
 <p>Halving the window roughly halves the gain and dissolves the significance:
-nothing reaches the 5% line at ten sessions, NVDA's best being 0.11. Whatever
-this effect is, it needs the longer runway. It also costs less to hold, since
-the typical dip along the way is about half as deep.</p>
+the best ten-session result is {best10[0]} at
+{"p&nbsp;" + f"{best10[1]['p']:.2f}" if best10[1]['p'] >= 0.05 else f"p&nbsp;{best10[1]['p']:.3f}"},
+{'nothing reaching the 5% line' if best10[1]['p'] >= 0.05 else 'which does reach the 5% line'}.
+Whatever this effect is, it needs the longer runway. It also costs less to hold,
+since the typical dip along the way is {pct(dip10)} against {pct(dip20)} over the
+longer window.</p>
 
 <h4>Every quarter, oldest to newest</h4>
 <p>A median hides the shape. These are the individual quarters at four weeks,
@@ -560,9 +682,11 @@ so a steady record can be told apart from one good run carrying an average.</p>
 
 <h4>The eve of the report</h4>
 <p>A common worry is that a stock sells off the day before it reports. Across
-all 291 events it does not: the final session is <b>+0.16%</b> at the median and
-falls only <b>46%</b> of the time, marginally <em>better</em> than an ordinary
-day. It is real for two names, and one of them barely has the record to say so.</p>
+all {eve_pool.get('n', 0)} events it does not: the final session is
+<b class="{sign_class(eve_pool.get('median', 0))}">{pct(eve_pool.get('median', 0))}</b>
+at the median and falls only <b>{eve_pool.get('neg', 0):.0f}%</b> of the time,
+against <b>{eve_pool.get('baseNeg', 0):.0f}%</b> on an ordinary day. Where it shows up at all
+it is a matter of one or two names, not a habit of the group.</p>
 <div class="tw"><table class="rs narrow">
 <caption>The five weakest final sessions before a report</caption>
 <thead><tr><th scope="col">Stock</th><th scope="col">Median move</th>
@@ -607,10 +731,14 @@ small ones give it back.</b></p>
 <thead><tr><th scope="col">Stock</th><th scope="col">Median</th>
 <th scope="col">Higher / usual</th><th scope="col">t</th></tr></thead>
 <tbody>{fade}</tbody></table></div>
-<p>Only <b>INTC</b> and <b>META</b> separate from their own base rate here, and
-both do so downward. TSLA has the largest median drop but too much scatter
-across too few reports to call it established. Note that no stock in the set
-shows a reliable <em>upward</em> move after a beat.</p>
+<p>{f'Only <b>{names(down)}</b> separate from their own base rate here, and '
+     f'{"both" if len(down) == 2 else "all"} do so downward.' if len(down) > 1
+   else (f'Only <b>{down[0]}</b> separates from its own base rate here, and it does so downward.'
+         if down else 'No stock separates from its own base rate here.')}
+{worst_beat[0]} has the largest median drop at {pct(worst_beat[1]['median'])},
+on {worst_beat[1]['n']} reports.
+{'Note that no stock in the set shows a reliable <em>upward</em> move after a beat.'
+ if not up_after else f'{names(up_after)} {plural(len(up_after), "is", "are")} the only name{"" if len(up_after) == 1 else "s"} that separates upward.'}</p>
 
 <h4>One number worth distrusting</h4>
 <p>The {a['inline']['n']} occasions where earnings landed exactly on the estimate
@@ -624,11 +752,20 @@ misleading.</p>
 <h3>Sources and limits</h3>
 <dl class="src">
 <dt>Prices</dt>
-<dd>Thirty-minute bars for all twelve tickers, January 2020 to date, from
-<b>Twelve Data</b>. Roughly 1,650 trading sessions per stock; 17,956 in total.</dd>
+<dd>Thirty-minute bars for all {meta.get('tickers', 12)} tickers,
+{meta.get('firstDate', '2020')} to {meta.get('lastDate', 'date')}, from
+<b>Twelve Data</b>. Around {meta.get('sessionsEach', 0):,} trading sessions per
+stock, {meta.get('sessions', 0):,} in total.</dd>
 <dt>Earnings dates and figures</dt>
 <dd>Reported date, release timing, reported and estimated earnings per share,
-from <b>Alpha Vantage</b>. 292 reports in total.</dd>
+from <b>Alpha Vantage</b>. {meta.get('events', 0)} reports in total. Upcoming
+dates come from the same source where the company has confirmed one, and are
+projected from the year-ago quarter where it has not.</dd>
+<dt>How current</dt>
+<dd>Rebuilt every weekday morning from the same two sources. Prices are topped
+up to the last completed session, so a report that lands overnight is in these
+numbers the following morning. A day when the data providers cannot be reached
+leaves the previous numbers standing rather than publishing a partial rebuild.</dd>
 <dt>What counts as the reaction</dt>
 <dd>The first regular session that <em>opens</em> after the release: the next
 trading day for an after-hours release, the same day for a pre-market one.</dd>
@@ -637,10 +774,11 @@ trading day for an after-hours release, the same day for a pre-market one.</dd>
 earnings line itself. No options data of any kind: no implied volatility, no
 premiums. A move in the share price is not the return on a contract.</dd>
 <dt>Sample</dt>
-<dd>Twenty to twenty-seven reports per stock is enough to rank and not enough to
-confirm. NBIS has six and has only traded since October 2024; HOOD has twenty,
-from August 2021. Every window length reported here was fixed before testing,
-and both are shown rather than only the flattering one.</dd>
+<dd>{min(d['n'] for d in w20.values())} to {max(d['n'] for d in w20.values())}
+reports per stock is enough to rank and not enough to confirm.
+{thin_note}Every
+window length reported here was fixed before testing, and both are shown rather
+than only the flattering one.</dd>
 </dl>
 
 <p class="disclaim">Nothing on this page is financial advice, a recommendation,
@@ -1064,6 +1202,14 @@ CSS = """
 
   .pair { display:grid; grid-template-columns:repeat(auto-fit,minmax(19rem,1fr));
           gap:.9rem; }
+
+  /* the coming-up table: the one part of this section that moves */
+  table.rs td.dt { font-family:var(--ui); font-size:.74rem; text-align:left; }
+  .est { font-family:var(--ui); font-size:.58rem; font-weight:620;
+         letter-spacing:.04em; text-transform:uppercase; color:var(--ink-3);
+         border:1px solid var(--line); border-radius:3px; padding:0 .26rem;
+         white-space:nowrap; }
+  .research .stamp { font-family:var(--ui); font-size:.76rem; color:var(--ink-3); }
 
   /* per-quarter strips */
   .strips { display:grid; grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));

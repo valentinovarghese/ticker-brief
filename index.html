@@ -6,7 +6,7 @@
 <title>v2v.investing | Ticker Brief</title>
 <meta name="description" content="A daily pre-market brief on twelve tickers, written to explain why each number changes what a company is worth.">
 <meta name="color-scheme" content="light">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-qOhFsq0QMV2REqNwk5hGH5bZE9SkX6gt6yeyKdYPv+U=' 'sha256-Q7DnybtxYrlef7jTsFfzKx9a7F97zhJMDZbf7fQD/nU='; style-src 'sha256-OkCeXe7ZfI4LAi/yk6YQKCIzPRLMfrjD++BrJnlQWZ4='; img-src 'self' data:; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-qOhFsq0QMV2REqNwk5hGH5bZE9SkX6gt6yeyKdYPv+U=' 'sha256-Q7DnybtxYrlef7jTsFfzKx9a7F97zhJMDZbf7fQD/nU='; style-src 'sha256-H1gWnNhWcBxSJrpFUVBOG2bCXRa8ImBhdOqIE9ONm8U='; img-src 'self' data:; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <script>document.documentElement.classList.add("js")</script>
 <style>
@@ -316,6 +316,14 @@
   .pair { display:grid; grid-template-columns:repeat(auto-fit,minmax(19rem,1fr));
           gap:.9rem; }
 
+  /* the coming-up table: the one part of this section that moves */
+  table.rs td.dt { font-family:var(--ui); font-size:.74rem; text-align:left; }
+  .est { font-family:var(--ui); font-size:.58rem; font-weight:620;
+         letter-spacing:.04em; text-transform:uppercase; color:var(--ink-3);
+         border:1px solid var(--line); border-radius:3px; padding:0 .26rem;
+         white-space:nowrap; }
+  .research .stamp { font-family:var(--ui); font-size:.76rem; color:var(--ink-3); }
+
   /* per-quarter strips */
   .strips { display:grid; grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));
             gap:1px; background:var(--line); border:1px solid var(--line);
@@ -412,45 +420,61 @@
   <section class="band research reveal" id="earnings">
 <h2>Earnings</h2>
 
-<p class="lede">Two questions, asked of every quarterly report these twelve
-companies have filed since 2020. Does a stock drift up in the weeks
-<em>before</em> it reports, and what does the price actually do in the hours
-<em>after</em>? Both are measured the same way throughout: against what that
-same stock does on an ordinary stretch of trading, because most of these names
-drift upward anyway and a number that ignores that flatters every one of them.</p>
+<p class="lede">Two questions, asked of every quarterly report these
+twelve companies have filed since 2020. Does a stock
+drift up in the weeks <em>before</em> it reports, and what does the price
+actually do in the hours <em>after</em>? Both are measured the same way
+throughout: against what that same stock does on an ordinary stretch of trading,
+because most of these names drift upward anyway and a number that ignores that
+flatters every one of them. The tables rebuild every day, so a stock that stops
+behaving this way will stop showing it here.</p>
+
+<h3>Coming up</h3>
+<p><b>Three</b> of the twelve are inside the four-week window the study describes: NBIS, NVDA and MRVL. Sessions counted are trading days, not calendar days, and the last
+two columns are that stock's own record in the tables below, not a forecast
+of this one.</p>
+<div class="tw"><table class="rs">
+<caption>Reports ahead, nearest first</caption>
+<thead><tr><th scope="col">Stock</th><th scope="col">Reports</th>
+<th scope="col">Sessions away</th><th scope="col">Window</th>
+<th scope="col">Past median</th><th scope="col">Rose / usual</th></tr></thead>
+<tbody><tr><th scope="row">NBIS</th><td class="dt">2026-08-12 <span class="est">pre-market</span></td><td>5</td><td class="tv"><span class="vt strong">in the window</span></td><td class="up">+14.96% <span class="est">n=6</span></td><td>67%<span class="vs">/68%</span></td></tr><tr><th scope="row">NVDA</th><td class="dt">2026-08-26 <span class="est">post-market</span></td><td>15</td><td class="tv"><span class="vt strong">in the window</span></td><td class="up">+7.52%</td><td>85%<span class="vs">/64%</span></td></tr><tr><th scope="row">MRVL</th><td class="dt">2026-08-27</td><td>16</td><td class="tv"><span class="vt strong">in the window</span></td><td class="up">+3.76%</td><td>69%<span class="vs">/58%</span></td></tr></tbody></table></div>
+<p class="stamp">Dates marked <span class="est">est</span> are projected from
+the same quarter last year because the company has not confirmed one yet.
+Everything on this page was recalculated on 2026-08-05.</p>
 
 <h3>Before the report</h3>
 
 <p>Buy at the close four weeks before the report, sell at the last close before
-the news reaches the tape. The gains run from <b>+7.52%</b>
-on NVDA down to <b class="down">-1.85%</b> on TSLA, and the
-ordering is not what the headlines would suggest. Ignore the top row: NBIS shows
-the largest number in the table on six reports, from a stock that has only traded
-since October 2024 and gains almost as much over any four weeks you care to
-pick.</p>
+the news reaches the tape. Among the stocks with a full record the gains run
+from <b class="up">+7.52%</b> on
+NVDA down to <b class="down">-1.85%</b>
+on TSLA, and the ordering is not what the headlines would suggest.
+Ignore NBIS near the top: one of the twelve has fewer than 12 reports on file, too short a record to mean much.</p>
 
-<div class="tw"><table class="rs"><caption>Four weeks before the report: 20 trading sessions</caption><thead><tr><th scope="col">Stock</th><th scope="col">Median</th><th scope="col">Edge</th><th scope="col">Rose / usual</th><th scope="col">Best run</th><th scope="col">Typical dip</th><th scope="col">Repeats?</th></tr></thead><tbody><tr><th scope="row">NBIS</th><td class="up">+14.96%</td><td class="up">+1.81%</td><td>67%<span class="vs">/68%</span></td><td>3</td><td class="down">-22.98%</td><td class="tv"><span class="vt bad">below base</span></td></tr><tr><th scope="row">NVDA</th><td class="up">+7.52%</td><td class="up">+3.51%</td><td>85%<span class="vs">/64%</span></td><td>15</td><td class="down">-8.19%</td><td class="tv"><span class="vt strong">p&nbsp;0.020</span></td></tr><tr><th scope="row">GOOGL</th><td class="up">+6.56%</td><td class="up">+3.89%</td><td>81%<span class="vs">/61%</span></td><td>10</td><td class="down">-4.54%</td><td class="tv"><span class="vt strong">p&nbsp;0.028</span></td></tr><tr><th scope="row">PLTR</th><td class="up">+4.63%</td><td class="up">+2.43%</td><td>56%<span class="vs">/54%</span></td><td>5</td><td class="down">-12.49%</td><td class="tv"><span class="vt">p&nbsp;0.50</span></td></tr><tr><th scope="row">MRVL</th><td class="up">+3.76%</td><td class="up">+1.27%</td><td>69%<span class="vs">/58%</span></td><td>5</td><td class="down">-10.16%</td><td class="tv"><span class="vt">p&nbsp;0.16</span></td></tr><tr><th scope="row">META</th><td class="up">+3.70%</td><td class="up">+1.09%</td><td>62%<span class="vs">/58%</span></td><td>5</td><td class="down">-7.63%</td><td class="tv"><span class="vt">p&nbsp;0.44</span></td></tr><tr><th scope="row">MSFT</th><td class="up">+3.69%</td><td class="up">+2.29%</td><td>73%<span class="vs">/56%</span></td><td>7</td><td class="down">-5.43%</td><td class="tv"><span class="vt weak">p&nbsp;0.062</span></td></tr><tr><th scope="row">AMZN</th><td class="up">+3.01%</td><td class="up">+0.61%</td><td>62%<span class="vs">/60%</span></td><td>4</td><td class="down">-6.16%</td><td class="tv"><span class="vt">p&nbsp;0.54</span></td></tr><tr><th scope="row">HOOD</th><td class="up">+1.75%</td><td class="up">+0.52%</td><td>50%<span class="vs">/52%</span></td><td>4</td><td class="down">-12.28%</td><td class="tv"><span class="vt bad">below base</span></td></tr><tr><th scope="row">AAPL</th><td class="up">+1.61%</td><td class="down">-0.61%</td><td>62%<span class="vs">/62%</span></td><td>4</td><td class="down">-5.54%</td><td class="tv"><span class="vt bad">below base</span></td></tr><tr><th scope="row">INTC</th><td class="up">+1.08%</td><td class="up">+0.74%</td><td>58%<span class="vs">/52%</span></td><td>7</td><td class="down">-8.50%</td><td class="tv"><span class="vt">p&nbsp;0.35</span></td></tr><tr><th scope="row">TSLA</th><td class="down">-1.85%</td><td class="down">-3.94%</td><td>42%<span class="vs">/55%</span></td><td>5</td><td class="down">-12.19%</td><td class="tv"><span class="vt bad">below base</span></td></tr></tbody></table></div>
+<div class="tw"><table class="rs"><caption>Four weeks before the report: 20 trading sessions</caption><thead><tr><th scope="col">Stock</th><th scope="col">Median</th><th scope="col">Edge</th><th scope="col">Rose / usual</th><th scope="col">Best run</th><th scope="col">Typical dip</th><th scope="col">Repeats?</th></tr></thead><tbody><tr><th scope="row">NBIS</th><td class="up">+14.96%</td><td class="up">+1.81%</td><td>67%<span class="vs">/68%</span></td><td>3</td><td class="down">-22.98%</td><td class="tv"><span class="vt bad">below base</span></td></tr><tr><th scope="row">NVDA</th><td class="up">+7.52%</td><td class="up">+3.51%</td><td>85%<span class="vs">/64%</span></td><td>15</td><td class="down">-8.19%</td><td class="tv"><span class="vt strong">p&nbsp;0.020</span></td></tr><tr><th scope="row">GOOGL</th><td class="up">+6.56%</td><td class="up">+3.89%</td><td>81%<span class="vs">/61%</span></td><td>10</td><td class="down">-4.54%</td><td class="tv"><span class="vt strong">p&nbsp;0.029</span></td></tr><tr><th scope="row">PLTR</th><td class="up">+4.63%</td><td class="up">+2.43%</td><td>56%<span class="vs">/54%</span></td><td>5</td><td class="down">-12.49%</td><td class="tv"><span class="vt">p&nbsp;0.51</span></td></tr><tr><th scope="row">MRVL</th><td class="up">+3.76%</td><td class="up">+1.27%</td><td>69%<span class="vs">/58%</span></td><td>5</td><td class="down">-10.16%</td><td class="tv"><span class="vt">p&nbsp;0.16</span></td></tr><tr><th scope="row">META</th><td class="up">+3.70%</td><td class="up">+1.09%</td><td>62%<span class="vs">/58%</span></td><td>5</td><td class="down">-7.63%</td><td class="tv"><span class="vt">p&nbsp;0.44</span></td></tr><tr><th scope="row">MSFT</th><td class="up">+3.69%</td><td class="up">+2.29%</td><td>73%<span class="vs">/56%</span></td><td>7</td><td class="down">-5.43%</td><td class="tv"><span class="vt weak">p&nbsp;0.063</span></td></tr><tr><th scope="row">AMZN</th><td class="up">+3.01%</td><td class="up">+0.61%</td><td>62%<span class="vs">/60%</span></td><td>4</td><td class="down">-6.16%</td><td class="tv"><span class="vt">p&nbsp;0.54</span></td></tr><tr><th scope="row">HOOD</th><td class="up">+1.75%</td><td class="up">+0.52%</td><td>50%<span class="vs">/52%</span></td><td>4</td><td class="down">-12.28%</td><td class="tv"><span class="vt bad">below base</span></td></tr><tr><th scope="row">AAPL</th><td class="up">+1.61%</td><td class="down">-0.61%</td><td>62%<span class="vs">/62%</span></td><td>4</td><td class="down">-5.54%</td><td class="tv"><span class="vt bad">below base</span></td></tr><tr><th scope="row">INTC</th><td class="up">+1.08%</td><td class="up">+0.74%</td><td>58%<span class="vs">/52%</span></td><td>7</td><td class="down">-8.50%</td><td class="tv"><span class="vt">p&nbsp;0.35</span></td></tr><tr><th scope="row">TSLA</th><td class="down">-1.85%</td><td class="down">-3.94%</td><td>42%<span class="vs">/55%</span></td><td>5</td><td class="down">-12.19%</td><td class="tv"><span class="vt bad">below base</span></td></tr></tbody></table></div>
 
 <p><b>Edge</b> is the part that matters: the median gain minus what the same
 stock returns over any random stretch of the same length. <b>Repeats?</b> asks
 whether the stock rose into earnings more often than it usually rises, tested
-against its own record. Two clear it. <b>NVDA</b> rose into 22 of its last 26
-reports against a 64% norm, and <b>GOOGL</b> 21 of 26 against 61%. NVDA's run of
-fifteen consecutive positive quarters is the single most striking number in this
-study.</p>
+against its own record. Two clear it. <b>NVDA</b> rose into 22 of its last 26 reports against a 64% norm. <b>GOOGL</b> rose into 21 of its last 26 reports against a 61% norm.
+NVDA's run of 15 consecutive positive
+quarters is the longest in the study.</p>
 
 <p class="caution"><b>Read that with one hand on the brake.</b> Two window
-lengths were tested across twelve stocks, which is twenty-four looks at the
-data; at that many, roughly one result crossing the 5% line is what chance alone
-produces. Neither NVDA nor GOOGL survives a correction for having looked that
-many times. Treat them as the best candidates found, not as established facts.</p>
+lengths were tested across twelve stocks, which is 24 looks at
+the data; at that many, roughly one result crossing the 5% line is what chance
+alone produces. NVDA and GOOGL do not survive a correction for having looked that many times. Treat them as the best candidates found, not as established facts.</p>
 
 <div class="tw"><table class="rs"><caption>Two weeks before the report: 10 trading sessions, for comparison</caption><thead><tr><th scope="col">Stock</th><th scope="col">Median</th><th scope="col">Edge</th><th scope="col">Rose / usual</th><th scope="col">Best run</th><th scope="col">Typical dip</th><th scope="col">Repeats?</th></tr></thead><tbody><tr><th scope="row">NBIS</th><td class="up">+18.08%</td><td class="up">+13.60%</td><td>67%<span class="vs">/60%</span></td><td>3</td><td class="down">-7.96%</td><td class="tv"><span class="vt">p&nbsp;0.54</span></td></tr><tr><th scope="row">NVDA</th><td class="up">+4.43%</td><td class="up">+2.16%</td><td>73%<span class="vs">/59%</span></td><td>3</td><td class="down">-5.32%</td><td class="tv"><span class="vt">p&nbsp;0.11</span></td></tr><tr><th scope="row">HOOD</th><td class="up">+3.04%</td><td class="up">+2.22%</td><td>65%<span class="vs">/52%</span></td><td>5</td><td class="down">-7.09%</td><td class="tv"><span class="vt">p&nbsp;0.17</span></td></tr><tr><th scope="row">MSFT</th><td class="up">+2.34%</td><td class="up">+1.49%</td><td>67%<span class="vs">/57%</span></td><td>7</td><td class="down">-3.91%</td><td class="tv"><span class="vt">p&nbsp;0.21</span></td></tr><tr><th scope="row">MRVL</th><td class="up">+2.01%</td><td class="up">+1.10%</td><td>58%<span class="vs">/54%</span></td><td>4</td><td class="down">-6.95%</td><td class="tv"><span class="vt">p&nbsp;0.43</span></td></tr><tr><th scope="row">META</th><td class="up">+1.89%</td><td class="up">+0.67%</td><td>67%<span class="vs">/57%</span></td><td>6</td><td class="down">-5.06%</td><td class="tv"><span class="vt">p&nbsp;0.20</span></td></tr><tr><th scope="row">GOOGL</th><td class="up">+1.51%</td><td class="up">+0.38%</td><td>70%<span class="vs">/59%</span></td><td>7</td><td class="down">-3.98%</td><td class="tv"><span class="vt">p&nbsp;0.17</span></td></tr><tr><th scope="row">INTC</th><td class="up">+0.80%</td><td class="up">+0.80%</td><td>56%<span class="vs">/50%</span></td><td>5</td><td class="down">-5.69%</td><td class="tv"><span class="vt">p&nbsp;0.35</span></td></tr><tr><th scope="row">AMZN</th><td class="up">+0.47%</td><td class="down">-0.52%</td><td>59%<span class="vs">/57%</span></td><td>4</td><td class="down">-3.99%</td><td class="tv"><span class="vt">p&nbsp;0.47</span></td></tr><tr><th scope="row">AAPL</th><td class="up">+0.23%</td><td class="down">-1.00%</td><td>56%<span class="vs">/59%</span></td><td>4</td><td class="down">-3.34%</td><td class="tv"><span class="vt bad">below base</span></td></tr><tr><th scope="row">PLTR</th><td class="down">-0.34%</td><td class="down">-1.48%</td><td>50%<span class="vs">/54%</span></td><td>4</td><td class="down">-8.76%</td><td class="tv"><span class="vt bad">below base</span></td></tr><tr><th scope="row">TSLA</th><td class="down">-0.62%</td><td class="down">-1.91%</td><td>48%<span class="vs">/54%</span></td><td>3</td><td class="down">-7.06%</td><td class="tv"><span class="vt bad">below base</span></td></tr></tbody></table></div>
 
 <p>Halving the window roughly halves the gain and dissolves the significance:
-nothing reaches the 5% line at ten sessions, NVDA's best being 0.11. Whatever
-this effect is, it needs the longer runway. It also costs less to hold, since
-the typical dip along the way is about half as deep.</p>
+the best ten-session result is NVDA at
+p&nbsp;0.11,
+nothing reaching the 5% line.
+Whatever this effect is, it needs the longer runway. It also costs less to hold,
+since the typical dip along the way is -5.51% against -8.34% over the
+longer window.</p>
 
 <h4>Every quarter, oldest to newest</h4>
 <p>A median hides the shape. These are the individual quarters at four weeks,
@@ -459,9 +483,11 @@ so a steady record can be told apart from one good run carrying an average.</p>
 
 <h4>The eve of the report</h4>
 <p>A common worry is that a stock sells off the day before it reports. Across
-all 291 events it does not: the final session is <b>+0.16%</b> at the median and
-falls only <b>46%</b> of the time, marginally <em>better</em> than an ordinary
-day. It is real for two names, and one of them barely has the record to say so.</p>
+all 292 events it does not: the final session is
+<b class="up">+0.16%</b>
+at the median and falls only <b>46%</b> of the time,
+against <b>48%</b> on an ordinary day. Where it shows up at all
+it is a matter of one or two names, not a habit of the group.</p>
 <div class="tw"><table class="rs narrow">
 <caption>The five weakest final sessions before a report</caption>
 <thead><tr><th scope="col">Stock</th><th scope="col">Median move</th>
@@ -505,11 +531,11 @@ small ones give it back.</b></p>
 <caption>Open to four hours later, after a beat</caption>
 <thead><tr><th scope="col">Stock</th><th scope="col">Median</th>
 <th scope="col">Higher / usual</th><th scope="col">t</th></tr></thead>
-<tbody><tr><th scope="row">TSLA</th><td class="down">-2.08%</td><td>29%<span class="vs">/49%</span></td><td>-1.92</td></tr><tr><th scope="row">HOOD</th><td class="down">-1.81%</td><td>29%<span class="vs">/50%</span></td><td>-1.11</td></tr><tr><th scope="row">INTC</th><td class="down">-1.56%</td><td>33%<span class="vs">/50%</span></td><td>-2.40</td></tr><tr><th scope="row">META</th><td class="down">-1.34%</td><td>32%<span class="vs">/52%</span></td><td>-2.20</td></tr><tr><th scope="row">GOOGL</th><td class="down">-1.29%</td><td>18%<span class="vs">/54%</span></td><td>-1.18</td></tr><tr><th scope="row">MSFT</th><td class="down">-0.90%</td><td>24%<span class="vs">/50%</span></td><td>-1.80</td></tr></tbody></table></div>
-<p>Only <b>INTC</b> and <b>META</b> separate from their own base rate here, and
-both do so downward. TSLA has the largest median drop but too much scatter
-across too few reports to call it established. Note that no stock in the set
-shows a reliable <em>upward</em> move after a beat.</p>
+<tbody><tr><th scope="row">TSLA</th><td class="down">-2.08%</td><td>29%<span class="vs">/50%</span></td><td>-1.89</td></tr><tr><th scope="row">HOOD</th><td class="down">-1.81%</td><td>29%<span class="vs">/50%</span></td><td>-1.07</td></tr><tr><th scope="row">INTC</th><td class="down">-1.56%</td><td>33%<span class="vs">/50%</span></td><td>-2.37</td></tr><tr><th scope="row">META</th><td class="down">-1.34%</td><td>32%<span class="vs">/52%</span></td><td>-2.17</td></tr><tr><th scope="row">GOOGL</th><td class="down">-1.29%</td><td>18%<span class="vs">/54%</span></td><td>-1.16</td></tr><tr><th scope="row">MSFT</th><td class="down">-0.90%</td><td>24%<span class="vs">/51%</span></td><td>-1.79</td></tr></tbody></table></div>
+<p>Only <b>INTC and META</b> separate from their own base rate here, and both do so downward.
+TSLA has the largest median drop at -2.08%,
+on 17 reports.
+Note that no stock in the set shows a reliable <em>upward</em> move after a beat.</p>
 
 <h4>One number worth distrusting</h4>
 <p>The 17 occasions where earnings landed exactly on the estimate
@@ -523,11 +549,20 @@ misleading.</p>
 <h3>Sources and limits</h3>
 <dl class="src">
 <dt>Prices</dt>
-<dd>Thirty-minute bars for all twelve tickers, January 2020 to date, from
-<b>Twelve Data</b>. Roughly 1,650 trading sessions per stock; 17,956 in total.</dd>
+<dd>Thirty-minute bars for all 12 tickers,
+2020-01-03 to 2026-08-04, from
+<b>Twelve Data</b>. Around 1,496 trading sessions per
+stock, 17,956 in total.</dd>
 <dt>Earnings dates and figures</dt>
 <dd>Reported date, release timing, reported and estimated earnings per share,
-from <b>Alpha Vantage</b>. 292 reports in total.</dd>
+from <b>Alpha Vantage</b>. 292 reports in total. Upcoming
+dates come from the same source where the company has confirmed one, and are
+projected from the year-ago quarter where it has not.</dd>
+<dt>How current</dt>
+<dd>Rebuilt every weekday morning from the same two sources. Prices are topped
+up to the last completed session, so a report that lands overnight is in these
+numbers the following morning. A day when the data providers cannot be reached
+leaves the previous numbers standing rather than publishing a partial rebuild.</dd>
 <dt>What counts as the reaction</dt>
 <dd>The first regular session that <em>opens</em> after the release: the next
 trading day for an after-hours release, the same day for a pre-market one.</dd>
@@ -536,10 +571,11 @@ trading day for an after-hours release, the same day for a pre-market one.</dd>
 earnings line itself. No options data of any kind: no implied volatility, no
 premiums. A move in the share price is not the return on a contract.</dd>
 <dt>Sample</dt>
-<dd>Twenty to twenty-seven reports per stock is enough to rank and not enough to
-confirm. NBIS has six and has only traded since October 2024; HOOD has twenty,
-from August 2021. Every window length reported here was fixed before testing,
-and both are shown rather than only the flattering one.</dd>
+<dd>6 to 26
+reports per stock is enough to rank and not enough to confirm.
+NBIS has 6, which is why the thin rows are called out above. Every
+window length reported here was fixed before testing, and both are shown rather
+than only the flattering one.</dd>
 </dl>
 
 <p class="disclaim">Nothing on this page is financial advice, a recommendation,

@@ -1,0 +1,56 @@
+{
+ "NBIS": {
+  "date": "2026-08-12",
+  "est": false,
+  "when": "pre-market"
+ },
+ "NVDA": {
+  "date": "2026-08-26",
+  "est": false,
+  "when": "post-market"
+ },
+ "MRVL": {
+  "date": "2026-08-27",
+  "est": false,
+  "when": ""
+ },
+ "TSLA": {
+  "date": "2026-10-21",
+  "est": false,
+  "when": ""
+ },
+ "INTC": {
+  "date": "2026-10-22",
+  "est": false,
+  "when": ""
+ },
+ "MSFT": {
+  "date": "2026-10-28",
+  "est": true
+ },
+ "GOOGL": {
+  "date": "2026-10-28",
+  "est": false,
+  "when": ""
+ },
+ "META": {
+  "date": "2026-10-28",
+  "est": true
+ },
+ "AAPL": {
+  "date": "2026-10-29",
+  "est": true
+ },
+ "AMZN": {
+  "date": "2026-10-29",
+  "est": true
+ },
+ "PLTR": {
+  "date": "2026-11-02",
+  "est": true
+ },
+ "HOOD": {
+  "date": "2026-11-04",
+  "est": true
+ }
+}
