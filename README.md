@@ -107,8 +107,16 @@ Data does, and `_from_twelvedata` is wired for it: allow
 here by rolling up 1-minute bars, open first, close last, high and low the
 extremes, volume summed.
 
-Sources are tried in order: Alpha Vantage first when `ALPHAVANTAGE_KEY`
-is set in the environment, then stooq. Both are optional and every failure
+Daily bars are tried in order: Twelve Data first, then Alpha Vantage when
+`ALPHAVANTAGE_KEY` is set, then stooq. Twelve Data leads because it is the
+only one that answers reliably: Alpha Vantage's free tier allows 25 calls a
+day, which twelve tickers exhaust in a couple of runs, after which it
+returns an `Information` notice instead of a series. The daily series is
+also fetched *before* the intraday ones, because every provider meters by
+the minute and a 1D request queued behind five intraday calls is the one
+that gets refused. A missing daily bar is the worst failure mode here: a
+chart that silently omits yesterday looks like a flat day rather than an
+error. Each daily fetch retries twice, pausing 20s then 40s. Both are optional and every failure
 is silent, so charts.py degrades to drawing nothing rather than erroring.
 
 To turn the local charts on, allow `www.alphavantage.co` in the cloud

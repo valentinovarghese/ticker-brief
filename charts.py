@@ -116,10 +116,15 @@ def fetch_series(ticker):
     the chart shows a single timeframe button.
     """
     series, minute_rows = {}, None
+    # Daily first. Every provider here meters by the minute, and the five
+    # intraday calls below spend that budget, so a 1D request made after
+    # them is the one most likely to be refused. It is also the series the
+    # brief quotes, so it is the one that must not go stale.
+    daily = fetch_ohlc(ticker)
     for label, src, keep in TIMEFRAMES:
         rows = None
         if label == "1D":
-            rows = fetch_ohlc(ticker)
+            rows = daily
         elif src:
             try:
                 rows = drop_incomplete(_from_twelvedata(ticker, src))
@@ -139,16 +144,28 @@ def fetch_series(ticker):
 def fetch_ohlc(ticker):
     """Daily OHLC, newest last, as [(date, o, h, l, c)]. None if unavailable.
 
-    Sources are tried in order and every failure is silent by design: the
+    Twelve Data goes first because it is the only one of the three that
+    reliably answers here: Alpha Vantage's free daily allowance is 25 calls
+    and twelve tickers exhaust it inside a couple of runs, after which it
+    returns an "Information" notice rather than a series, and stooq serves
+    datacenter traffic a challenge page. Failure is silent by design: the
     caller treats None as "no chart today" and the page falls back.
     """
-    for source in (_from_alphavantage, _from_stooq):
-        try:
-            rows = drop_incomplete(source(ticker))
-            if rows and len(rows) >= 20:
-                return rows[-SESSIONS:]
-        except Exception:
-            continue
+    # Providers meter by the minute, so a refusal here is usually "not yet"
+    # rather than "never". Retry with a widening pause before giving up and
+    # letting the caller redraw a stale bar, which is the one failure a
+    # reader cannot see: a chart missing yesterday looks like a flat day.
+    for attempt, pause in enumerate((0, 20, 40)):
+        if pause:
+            time.sleep(pause)
+        for source in (_from_twelvedata_daily, _from_alphavantage,
+                       _from_stooq):
+            try:
+                rows = drop_incomplete(source(ticker))
+                if rows and len(rows) >= 20:
+                    return rows[-SESSIONS:]
+            except Exception:
+                continue
     return None
 
 
@@ -202,6 +219,10 @@ def parse_alphavantage(payload):
                      float(bar["3. low"]), float(bar["4. close"]),
                      float(bar.get("5. volume", 0))))
     return rows
+
+
+def _from_twelvedata_daily(ticker):
+    return _from_twelvedata(ticker, "1day")
 
 
 def _from_alphavantage(ticker):
