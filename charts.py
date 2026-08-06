@@ -707,7 +707,7 @@ def render_html(ticker, series, csp_hash_fn):
 def main():
     demo = "--demo" in sys.argv
     OUT.mkdir(exist_ok=True)
-    written, missing = [], []
+    written, missing, from_cache = [], [], {}
     for i, t in enumerate(TICKERS):
         if not demo and i:
             # Alpha Vantage's free tier allows 5 calls a minute. Twelve
@@ -722,7 +722,9 @@ def main():
             # entirely, or the SVG below silently mislabels minute bars as
             # daily candles.
             for label, rows in (cached(t) or {}).items():
-                series.setdefault(label, rows)
+                if label not in series:
+                    series[label] = rows
+                    from_cache.setdefault(t, []).append(label)
         if not series:
             missing.append(t)
             continue
@@ -743,7 +745,49 @@ def main():
           + (f", no data for {', '.join(missing)}" if missing else ""))
     if missing and not written:
         print("no source reachable; build.py will fall back to external charts")
+    return report_freshness(written, from_cache, demo)
+
+
+def report_freshness(written, from_cache, demo):
+    """Say out loud which daily series are behind the others.
+
+    "wrote 12" only ever meant twelve files exist. A ticker whose fetch was
+    refused keeps its cached bars and is indistinguishable from a fresh one
+    on the page, so a chart can quietly omit yesterday and simply look like
+    a flat day. There is no external truth to check against here, but the
+    twelve check each other: they trade the same sessions, so the newest
+    date any of them reached is the session all of them should show.
+
+    Returns 1 when something is behind, so a caller that cares can see it
+    in the exit code. The routine runs this as `charts.py || true`, which
+    is deliberate: a stale chart must be loud, but it must never be a
+    reason to withhold the brief.
+    """
+    if demo or not written:
+        return 0
+    latest = {}
+    for t in written:
+        rows = (cached(t) or {}).get("1D") or []
+        if rows:
+            latest[t] = str(rows[-1][0])[:10]
+    if not latest:
+        return 0
+    newest = max(latest.values())
+    behind = sorted(t for t, d in latest.items() if d < newest)
+    if behind:
+        print(f"charts: STALE daily bars, newest session on file is {newest}")
+        for t in behind:
+            print(f"  {t}: last daily bar {latest[t]}, drawn from cache")
+        print("  these charts omit the latest session and will read as a "
+              "flat day, not as an error")
+    else:
+        print(f"charts: all {len(latest)} daily series current to {newest}")
+    if from_cache:
+        detail = ", ".join(f"{t}({'/'.join(v)})"
+                           for t, v in sorted(from_cache.items()))
+        print(f"charts: fell back to cache for {detail}")
+    return 1 if behind else 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main() or 0)
