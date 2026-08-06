@@ -19,7 +19,7 @@
  "quick": [
   "<b>Alphabet lost four researchers and 4% of its value, and it was up before the news.</b> GOOGL opened at <b>$382.94</b>, reached <b>$384.47</b>, then fell to <b>$356.82</b> and closed <b>$362.43</b>, <b>-4.03%</b>. That is a <b>7.2%</b> peak-to-trough swing on the announcement, on volume <b>21%</b> above average.",
   "<b>Nvidia's premarket read was too cautious, and the close proved it.</b> Yesterday's brief quoted <b>+2.01%</b> premarket and called it provisional. NVDA closed <b>$219.22</b>, <b>+3.43%</b>, on volume <b>16%</b> above average. The SpaceX exclusivity is now priced, not pending.",
-  "<b>Ten of the twelve traded on below-average volume.</b> Only GOOGL, NVDA and PLTR beat their averages. The rest ran <b>25</b> to <b>42%</b> light. Wednesday was a rotation on thin participation, not a verdict on these companies."
+  "<b>Nine of the twelve traded on below-average volume.</b> Only GOOGL, NVDA and PLTR beat their averages. The rest ran <b>25</b> to <b>42%</b> light. Wednesday was a rotation on thin participation, not a verdict on these companies."
  ],
  "macro": [
   {
@@ -30,7 +30,7 @@
   {
    "dt": "<b>QQQ</b> closed <b>717.30</b>, <b>-0.90%</b>, against <b>SPY -0.20%</b>. QQQ is now <b>4.19%</b> below its 52-week high of <b>748.65</b>, having been <b>3.3%</b> below it a day earlier. QQQ volume ran <b>34%</b> under its average",
    "lead": "Does the gauge agree",
-   "dd": "It agrees on direction and warns on conviction. A 0.7 point gap to the broad market is a genuine rotation signal. But the volume behind it was light across the index and light in ten of these twelve names. Thin selling reverses more easily than heavy selling. Treat Wednesday as positioning, and wait for volume to confirm it."
+   "dd": "It agrees on direction and warns on conviction. A 0.7 point gap to the broad market is a genuine rotation signal. But the volume behind it was light across the index and light in nine of these twelve names. Thin selling reverses more easily than heavy selling. Treat Wednesday as positioning, and wait for volume to confirm it."
   },
   {
    "dt": "Premarket <b>QQQ 712.13</b>, <b>-0.72%</b>, while <b>SPY</b> indicates <b>+0.16%</b>. The split is widening. Hardware leads down again: <b>NBIS -3.80%</b>, <b>MRVL -2.38%</b>, <b>INTC -2.14%</b>, <b>PLTR -2.16%</b>. Reports have Micron off about <b>3.4%</b> and SK hynix about <b>6.1%</b>. All provisional on thin volume",
@@ -117,12 +117,13 @@
    "move_tone": "down",
    "happened": "Marvell fell 3.46% with nothing announced, giving back part of Tuesday's product-launch rally.",
    "figures": [
-    "Closed <b>$211.02</b>, <b>-3.46%</b>, after rising about <b>10%</b> Tuesday on its FMS 2026 storage and memory launch. Intraday range <b>$210.29</b> to <b>$222.38</b>",
+    "Closed <b>$211.02</b>, <b>-3.46%</b>, after rising <b>12.80%</b> Tuesday close to close, on its FMS 2026 storage and memory launch. Intraday range <b>$210.29</b> to <b>$222.38</b>",
     "Volume <b>16.4M</b> against a <b>24.1M</b> average, <b>-32%</b>. The selling was light",
+    "Wednesday erased <b>$7.57</b> of Tuesday's <b>$24.81</b> gain, <b>31%</b> of it. Premarket at <b>$206.00</b> takes the giveback past <b>half</b>",
     "Still <b>36.03%</b> below its 52-week high of <b>$329.88</b>, the second-largest gap here after Robinhood",
     "Premarket <b>$206.00</b>, <b>-2.38%</b>, provisional"
    ],
-   "why": "Tuesday's announcement carried products and no revenue. A launch with no order behind it prices in on the day, then decays. Nothing in it changes the backlog, meaning revenue already under contract. Two sessions of giveback on below-average volume is that decay, not a reassessment. The real number arrives on 27 August.",
+   "why": "Tuesday's announcement carried products and no revenue. A launch with no order behind it prices in on the day, then decays. Nothing in it changes the backlog, meaning revenue already under contract. One session plus the premarket has erased more than half the gain, all on below-average volume. That is decay, not reassessment. The real number arrives on 27 August.",
    "foot": [
     {
      "k": "Already priced in?",
@@ -150,7 +151,7 @@
    "move_tone": "down",
    "happened": "Nebius fell 2.99% with nothing announced, and premarket extends the fall.",
    "figures": [
-    "Closed <b>$218.99</b>, <b>-2.99%</b>, on volume <b>15.1M</b> against a <b>25.9M</b> average, <b>-42%</b>, the lightest participation of the twelve",
+    "Closed <b>$218.99</b>, <b>-2.99%</b>, on volume <b>15.1M</b> against a <b>25.9M</b> average, <b>-41.6%</b>, the second-lightest participation of the twelve behind Tesla at <b>-42.3%</b>",
     "Now <b>26.97%</b> below its 52-week high of <b>$299.86</b>",
     "Premarket <b>$210.66</b>, <b>-3.80%</b>, the weakest of the twelve, provisional",
     "<b>Not news:</b> the Reflection AI contract worth over <b>$1B</b> through 2029 dates to <b>14 July</b>, and Nvidia's <b>9.3%</b> stake disclosure is also older. Neither is from this window"
@@ -159,7 +160,7 @@
    "foot": [
     {
      "k": "Already priced in?",
-     "v": "No news to price. Flagged: a 6.8% fall across two windows on the lightest volume here is thin selling, which reverses easily.",
+     "v": "No news to price. Flagged: a 6.7% fall across two windows on some of the lightest volume here is thin selling, which reverses easily.",
      "flag": true
     },
     {
@@ -184,10 +185,10 @@
    "happened": "Palantir fell 2.60%, a second-day giveback after Tuesday's 29.45% earnings surge.",
    "figures": [
     "Closed <b>$158.43</b>, <b>-2.60%</b>, from <b>$162.66</b>. Volume <b>61.3M</b> against a <b>52.9M</b> average, <b>+16%</b>",
-    "It has now surrendered <b>2.6</b> of the <b>29.45</b> points gained Tuesday. Still <b>23.66%</b> below its 52-week high of <b>$207.52</b>",
+    "Tuesday's surge added <b>$37.01</b>, from <b>$125.65</b> to <b>$162.66</b>. Wednesday gave back <b>$4.23</b> of it, <b>11%</b> of the gain. Still <b>23.66%</b> below its 52-week high of <b>$207.52</b>",
     "Premarket <b>$155.00</b>, <b>-2.16%</b>, provisional"
    ],
-   "why": "A 29% single-day repricing almost always leaks back as the fast money leaves. Losing under a tenth of the gain over two windows is a mild giveback, and above-average volume says buyers are meeting the sellers. The Q2 numbers themselves have not been challenged.",
+   "why": "A 29% single-day repricing almost always leaks back as the fast money leaves. Handing back roughly a ninth of it by the close is mild, and above-average volume says buyers are meeting sellers. Premarket takes the giveback closer to a fifth, which is worth watching rather than acting on. The Q2 numbers themselves have not been challenged.",
    "foot": [
     {
      "k": "Already priced in?",
@@ -213,7 +214,7 @@
     "Closed <b>$321.55</b>, <b>-1.77%</b>, on volume <b>27.5M</b> against a <b>47.6M</b> average, <b>-42%</b>",
     "Still <b>35.54%</b> below its 52-week high of <b>$498.83</b>. Premarket <b>$321.12</b>, <b>-0.13%</b>, flat"
    ],
-   "why": "Tesla has the largest gap to its high on this list after Robinhood, and it closed that gap on none of this week's AI enthusiasm. It is being traded as a car company again while the rest of the list is traded on compute.",
+   "why": "Tesla is the one name here with no AI hardware to sell, so this week's enthusiasm passed it by. Its discount to the high is among the widest on the list, and none of it closed. It is being traded as a car company again while the rest are traded on compute.",
    "foot": [
     {
      "k": "Next date",
@@ -386,7 +387,7 @@
   ],
   "note": {
    "title": "What is not today's news",
-   "body": "One of the twelve had a company-specific event in the window: <b>GOOGL</b>. Nvidia's <b>+3.43%</b> is Wednesday's settled reaction to Tuesday night's SpaceX call, already covered here yesterday, not a fresh event. Everything else moved without a company cause. Several stories in Wednesday and Thursday coverage are older than this window and were excluded. Nvidia's reported <b>$250B</b> OpenAI backstop is a WSJ report from <b>27 July</b>. Berkshire's exit from Amazon completed in <b>Q1 2026</b>. Bezos's <b>$4.07B</b> Form 144 was filed <b>3 August</b>. Apple's PlasmaSolve purchase was disclosed <b>3 August</b> and completed in April. Nebius's <b>$1B</b> Reflection AI contract dates to <b>14 July</b>. Marvell's FMS product launch was <b>4 August</b>. Apple's and Amazon's guidance, Microsoft's Azure figures and Meta's quarter are all from <b>late July</b>. Across the twelve, nothing was announced in the past 24 hours: no earnings, M&amp;A, buyback, dividend change, debt or equity issuance, dollar-value contract or regulatory action. Note that <b>sec.gov was unreachable from this run</b>, so no filing could be checked against the document itself. All prices and volumes here come from a market data API, not from press coverage."
+   "body": "One of the twelve had a company-specific event in the window: <b>GOOGL</b>. Nvidia's <b>+3.43%</b> is Wednesday's settled reaction to Tuesday night's SpaceX call, already covered here yesterday, not a fresh event. Everything else moved without a company cause. Several stories in Wednesday and Thursday coverage are older than this window and were excluded. Nvidia's reported <b>$250B</b> OpenAI backstop is a WSJ report from <b>27 July</b>. Berkshire's exit from Amazon completed in <b>Q1 2026</b>. Bezos's <b>$4.07B</b> Form 144 was filed <b>3 August</b>. Apple's PlasmaSolve purchase was disclosed <b>3 August</b> and completed in April. Nebius's <b>$1B</b> Reflection AI contract dates to <b>14 July</b>. Marvell's FMS product launch was <b>4 August</b>. Apple's and Amazon's guidance, Microsoft's Azure figures and Meta's quarter are all from <b>late July</b>. Across the twelve, nothing was announced in the past 24 hours. That covers earnings, M&amp;A, buybacks, dividend changes, debt and equity issuance, dollar-value contracts and regulatory action. Note that <b>sec.gov was unreachable from this run</b>, so no filing could be checked against the document itself. All prices and volumes here come from a market data API, not from press coverage."
   }
  },
  "earnings_ahead": [
