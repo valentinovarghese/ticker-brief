@@ -411,5 +411,144 @@
    "when": "today, 08:30 ET",
    "what": "Weekly initial jobless claims, after this brief and before the bell. The one scheduled number that can reset the rotation"
   }
- ]
+ ],
+ "data": {
+  "session": "2026-08-05",
+  "source": "twelvedata quote endpoint",
+  "fetched": "2026-08-06T11:00Z",
+  "tickers": {
+   "AAPL": {
+    "close": 311.0,
+    "pct": 0.52,
+    "open": 309.36,
+    "high": 311.71,
+    "low": 305.67,
+    "volume": 44330978,
+    "avg_volume": 64057518,
+    "high_52w": 344.57,
+    "premarket_pct": 1.0
+   },
+   "AMZN": {
+    "close": 272.65,
+    "pct": -1.72,
+    "open": 281.59,
+    "high": 282.79,
+    "low": 270.74,
+    "volume": 42366662,
+    "avg_volume": 64080086,
+    "high_52w": 287.2,
+    "premarket_pct": 0.9
+   },
+   "TSLA": {
+    "close": 321.55,
+    "pct": -1.77,
+    "open": 323.65,
+    "high": 327.14,
+    "low": 320.28,
+    "volume": 27506311,
+    "avg_volume": 47630821,
+    "high_52w": 498.83,
+    "premarket_pct": -0.13
+   },
+   "PLTR": {
+    "close": 158.43,
+    "pct": -2.6,
+    "open": 162.05,
+    "high": 166.06,
+    "low": 158.25,
+    "volume": 61261948,
+    "avg_volume": 52891455,
+    "high_52w": 207.52,
+    "premarket_pct": -2.16
+   },
+   "MSFT": {
+    "close": 487.46,
+    "pct": -1.09,
+    "open": 496.36,
+    "high": 498.21,
+    "low": 485.68,
+    "volume": 30476807,
+    "avg_volume": 48414501,
+    "high_52w": 553.72,
+    "premarket_pct": -0.51
+   },
+   "GOOGL": {
+    "close": 362.43,
+    "pct": -4.03,
+    "open": 382.94,
+    "high": 384.47,
+    "low": 356.82,
+    "volume": 46331184,
+    "avg_volume": 38408398,
+    "high_52w": 408.61,
+    "premarket_pct": 0.49
+   },
+   "HOOD": {
+    "close": 92.8,
+    "pct": -0.76,
+    "open": 94.01,
+    "high": 95.55,
+    "low": 92.32,
+    "volume": 13036018,
+    "avg_volume": 21033632,
+    "high_52w": 153.86,
+    "premarket_pct": -0.27
+   },
+   "NVDA": {
+    "close": 219.22,
+    "pct": 3.43,
+    "open": 216.86,
+    "high": 222.22,
+    "low": 216.4,
+    "volume": 156378175,
+    "avg_volume": 135016658,
+    "high_52w": 236.54,
+    "premarket_pct": -0.12
+   },
+   "INTC": {
+    "close": 101.06,
+    "pct": 0.2,
+    "open": 99.58,
+    "high": 102.83,
+    "low": 97.9,
+    "volume": 84200472,
+    "avg_volume": 131647967,
+    "high_52w": 142.35,
+    "premarket_pct": -2.14
+   },
+   "NBIS": {
+    "close": 218.99,
+    "pct": -2.99,
+    "open": 220.02,
+    "high": 228.02,
+    "low": 214.74,
+    "volume": 15143776,
+    "avg_volume": 25938908,
+    "high_52w": 299.86,
+    "premarket_pct": -3.8
+   },
+   "MRVL": {
+    "close": 211.02,
+    "pct": -3.46,
+    "open": 216.0,
+    "high": 222.38,
+    "low": 210.29,
+    "volume": 16405454,
+    "avg_volume": 24077395,
+    "high_52w": 329.88,
+    "premarket_pct": -2.38
+   },
+   "META": {
+    "close": 588.77,
+    "pct": 0.14,
+    "open": 600.53,
+    "high": 601.0,
+    "low": 580.12,
+    "volume": 14756774,
+    "avg_volume": 19776107,
+    "high_52w": 796.25,
+    "premarket_pct": 0.57
+   }
+  }
+ }
 }

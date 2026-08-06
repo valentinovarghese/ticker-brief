@@ -938,9 +938,41 @@ def refresh_research():
         print(f"  research refresh skipped: {str(e)[:90]}")
 
 
+def check_claims(editions):
+    """Hold every comparative claim to the day's own figures.
+
+    Runs inside --check, which the routine runs before it publishes, so a
+    superlative the data contradicts cannot reach the page. Only editions
+    carrying a `data` snapshot can be checked; older ones predate it and
+    are reported rather than failed, because rewriting history to satisfy
+    a check added later would be the wrong way round.
+    """
+    import claims
+    failed = False
+    for ed in editions:
+        errors, unverified = claims.verify(ed)
+        if not ed.get("data"):
+            if ed is editions[0]:
+                print(f"{ed['date']}: no `data` snapshot, so no comparative "
+                      f"claim in it was checked. Add one.")
+            continue
+        for e in errors:
+            print(f"CLAIM FAILED — {e}")
+            failed = True
+        if unverified:
+            print(f"{ed['date']}: {len(unverified)} comparative claim(s) the "
+                  f"checker could not map to a metric. Confirm by hand:")
+            for path, sentence in unverified:
+                print(f"    {path}: {sentence[:110]}")
+    return failed
+
+
 def main():
     editions = load_editions()
     if "--check" in sys.argv:
+        if check_claims(editions):
+            sys.exit("check failed: a comparative claim contradicts the "
+                     "edition's own data. Fix the prose or the snapshot.")
         print(f"ok — {len(editions)} edition(s), newest {editions[0]['date']}")
         return
     refresh_research()
