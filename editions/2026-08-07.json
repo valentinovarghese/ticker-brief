@@ -1,0 +1,516 @@
+{
+ "date": "2026-08-07",
+ "weekday": "Fri",
+ "headline": "NBIS fell 13.29% with nothing announced, the largest fall of the twelve, six days before its 12 August results.",
+ "gauge": [
+  {
+   "text": "QQQ -0.37% Thursday close",
+   "tone": "down"
+  },
+  {
+   "text": "updated 07:00 ET &middot; before the open",
+   "tone": "flat"
+  },
+  {
+   "text": "12 tickers &middot; 0 with hard news",
+   "tone": "flat"
+  }
+ ],
+ "quick": [
+  "<b>Nebius lost an eighth of its value and no company event explains it.</b> NBIS closed <b>$189.88</b>, <b>-13.29%</b>, after opening <b>$205.84</b> and touching <b>$215.51</b>. That is a <b>13.87%</b> high-to-low range, the widest of the twelve. No filing, no guidance, no contract. Its results are still six days away.",
+  "<b>Twelve of the twelve traded on below-average volume.</b> Not one exception. Nebius came closest at <b>4.9%</b> under its average, and Amazon ran <b>55.3%</b> light. A tape where nothing trades heavy is positioning, not conviction, and it tells you how little to read into Thursday.",
+  "<b>Microsoft rose 2.54%, the largest gain of the twelve.</b> It was the only gain above 1%, and nothing was announced. This is the <b>29 July</b> Azure quarter still being repriced, nine days on."
+ ],
+ "macro": [
+  {
+   "dt": "<b>Oil and yields did the work, not the companies.</b> The Dow fell <b>0.9%</b>, the S&amp;P 500 <b>0.2%</b> and the Nasdaq Composite <b>0.1%</b>. Brent traded near <b>$80.34</b> and WTI near <b>$75.93</b> as Strait of Hormuz shipping risk persisted. The 10-year Treasury yield rose more than <b>4</b> basis points to <b>4.664%</b>, and the 30-year rose more than <b>3</b> to <b>5.208%</b>",
+   "lead": "How it reaches these stocks",
+   "dd": "A long-dated yield is the rate used to discount profits arriving years from now. Raise it and the companies whose value sits furthest in the future lose the most, mechanically, before anyone revises a forecast. That is most of this list, and it explains why Nebius and not Apple took the worst of it."
+  },
+  {
+   "dt": "<b>QQQ</b> closed <b>714.65</b>, <b>-0.37%</b>, and sits <b>4.54%</b> below its 52-week high of <b>748.65</b>. QQQ volume ran <b>36%</b> under its average",
+   "lead": "Does the gauge agree",
+   "dd": "It agrees, faintly, then undercuts itself. A 0.37% fall is not a repricing of growth, and the index traded light while all twelve of these names traded lighter still. The yield story is real but small. Anyone reading Thursday as a verdict on AI capex is reading a volume vacuum."
+  },
+  {
+   "dt": "The July employment report lands <b>today at 08:30 ET</b>, after this brief and before the bell. Consensus is roughly <b>83,000</b> to <b>100,000</b> payrolls with unemployment near <b>4.2%</b>. June was <b>57,000</b>",
+   "lead": "What today still has to clear",
+   "dd": "This is the one number that can move the discount rate that hurt these stocks yesterday. A soft print revives rate-cut expectations, which lowers that rate and helps long-duration growth most. A hot print does the reverse. Nothing in this brief survives contact with it, so treat every premarket figure above as provisional."
+  }
+ ],
+ "entries": [
+  {
+   "ticker": "NBIS",
+   "dir": "down",
+   "strength": "major",
+   "strength_label": "Major move &middot; no company news &middot; Thursday's session",
+   "move": "-13.29% &middot; Thursday close, settled",
+   "move_tone": "down",
+   "happened": "Nebius fell 13.29% with no announcement, no filing and no guidance change in the window.",
+   "figures": [
+    "Closed <b>$189.88</b>, <b>-13.29%</b>, from <b>$219.02</b>. Opened <b>$205.84</b>, peaked <b>$215.51</b>, bottomed <b>$189.17</b>",
+    "The <b>13.87%</b> high-to-low range was the widest of the twelve, and the fall the largest of the twelve",
+    "Volume <b>25.7M</b> against a <b>27.0M</b> average: heavy for this list, still <b>4.9%</b> under its own average",
+    "<b>Nothing was announced.</b> Coverage cites capex plans of <b>$20B</b> to <b>$25B</b> and neocloud sentiment, neither a dated event from this window"
+   ],
+   "why": "Nebius sells compute it has not finished building, paid for with money already committed. That makes the stock a bet on timing rather than on demand: much of the capacity being funded now does not bill a customer until 2027. What moved was the rate at which investors discount that wait, not anything Nebius did. Which is why the fall needed no news, and can reverse just as fast.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Nothing to price. The window is Thursday's close, settled, and no company event landed in it. Premarket today is <b>$197.00</b>, <b>+3.75%</b>, the largest premarket gain of the twelve, which recovers under 30% of Thursday's fall. Thin and provisional: the open settles it.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "The 12 August report shows contracted revenue converting on schedule. A dated backlog figure answers the timing question that sentiment cannot.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "<b>12 August</b>, Q2 results before the open, company-confirmed.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "MSFT",
+   "dir": "up",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; no fresh news &middot; Thursday's session",
+   "move": "+2.54% &middot; Thursday close, settled",
+   "move_tone": "up",
+   "happened": "Microsoft rose 2.54% with nothing announced, extending the response to its 29 July quarter.",
+   "figures": [
+    "Closed <b>$499.86</b>, <b>+2.54%</b>, from <b>$487.46</b>. That is the largest gain of the twelve, and the only one above <b>1%</b>. Volume ran <b>33%</b> light",
+    "The underlying quarter is <b>29 July</b>: Azure growth <b>43%</b> against about <b>40%</b> expected, guided to <b>45%</b>; capex <b>$41B</b> against about <b>$42B</b> anticipated",
+    "Premarket <b>$497.40</b>, <b>-0.49%</b>, giving a fifth of it back. Provisional"
+   ],
+   "why": "Azure's growth rate is the number that sets Microsoft's price, and an acceleration takes weeks to work through, not one session. Each analyst who raises the growth rate they assume holds also lengthens how many years they project it, and that is what lifts the price paid per dollar of earnings. Spending also came in under what was feared, so faster growth is not being bought with worse cash flow.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Being priced in, still. The window is Thursday's close, settled. A stock climbing nine days after a print is not reacting to the print, it is being re-rated. The light volume says this is a slow institutional move rather than a crowd.",
+     "flag": false
+    },
+    {
+     "k": "Would flip if",
+     "v": "Azure's guided <b>45%</b> is missed next quarter. The re-rating rests entirely on that number holding.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Q1 FY27 results, late October. No company-confirmed date yet.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "HOOD",
+   "dir": "down",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; no company news &middot; Thursday's session",
+   "move": "-2.25% &middot; Thursday close, settled",
+   "move_tone": "down",
+   "happened": "Robinhood fell 2.25% with nothing announced, the second-largest fall of the twelve.",
+   "figures": [
+    "Closed <b>$90.71</b>, <b>-2.25%</b>, the second-largest fall of the twelve. Volume ran <b>44%</b> light",
+    "Now <b>41.04%</b> below its 52-week high of <b>$153.86</b>, the largest gap to its own high of the twelve. The <b>Q2</b> beat was late July, not this window. Premarket <b>+0.20%</b>, provisional"
+   ],
+   "why": "Robinhood earns from customer trading activity, so its revenue moves with retail risk appetite rather than a contracted book. That leaves it exposed to exactly what Thursday's tape lacked, which is people trading.",
+   "foot": [
+    {
+     "k": "Would flip if",
+     "v": "July monthly metrics show trading volumes holding. That is the direct evidence the price move is guessing at.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "July monthly metrics, expected mid-August. Not company-confirmed at time of writing.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "PLTR",
+   "dir": "down",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; no fresh news &middot; Thursday's session",
+   "move": "-2.60% Wed, then -1.58% Thu close, settled",
+   "move_tone": "down",
+   "happened": "Palantir fell 1.58%, a second day of giving back its post-earnings jump, with nothing new announced.",
+   "figures": [
+    "Closed <b>$155.92</b>, <b>-1.58%</b>, on volume <b>29%</b> light, a second session of giving back the <b>3 August</b> jump",
+    "That report beat at EPS <b>$0.41</b> against <b>$0.33</b> expected, and the stock rose <b>29%</b> on it. Premarket <b>+1.11%</b>, provisional"
+   ],
+   "why": "A stock that jumps 29% on a beat has moved further than the earnings alone justify, and the days after are when that closes. What is being repriced is not the quarter but how many future quarters investors will extrapolate from it.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "The 3 August report is priced. Thursday is the fade, not a reaction. The window is Thursday's close, settled.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Q3 results, early November.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "GOOGL",
+   "dir": "down",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; Wednesday's news, second day",
+   "move": "-1.29% &middot; Thursday close, settled",
+   "move_tone": "down",
+   "happened": "Alphabet fell a further 1.29%, extending Wednesday's 4.03% fall on the DeepMind departures. No new event landed.",
+   "figures": [
+    "Closed <b>$357.75</b>, <b>-1.29%</b>, after Wednesday's <b>-4.03%</b>, about <b>-5.3%</b> over two days",
+    "Volume <b>27%</b> below average, against Wednesday's <b>21%</b> above it. Premarket <b>+0.04%</b>, provisional"
+   ],
+   "why": "The volume shift is the whole story of the second day. Wednesday's fall came on heavy trading, which is institutions repricing the research bench. Thursday's came on light trading, which is drift after the sellers are done.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Mostly. The window is Thursday's close, settled. The collapse in volume between the two days is the evidence.",
+     "flag": false
+    },
+    {
+     "k": "Would flip if",
+     "v": "Further senior departures are confirmed. The market priced a bounded loss, not an exodus.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "INTC",
+   "dir": "down",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; no company news &middot; sector",
+   "move": "-1.24% &middot; Thursday close, settled",
+   "move_tone": "down",
+   "happened": "Intel fell 1.24% in a chip-sector session, with nothing company-specific announced.",
+   "figures": [
+    "Closed <b>$99.81</b>, <b>-1.24%</b>, after ranging <b>$95.60</b> to <b>$103.38</b>, a <b>7.79%</b> swing on volume <b>39%</b> light. Premarket <b>+0.85%</b>, provisional"
+   ],
+   "why": "An 8% intraday range resolving to a 1% fall means buyers and sellers disagreed all day and neither won. For Intel that disagreement is structural: the foundry business consumes cash now against customer wins not yet announced. Only disclosure settles it.",
+   "foot": [
+    {
+     "k": "Would flip if",
+     "v": "A named external foundry customer is disclosed with a dollar value.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Q3 results, late October. No company-confirmed date yet.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "TSLA",
+   "dir": "down",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; no company news",
+   "move": "-0.63% &middot; Thursday close, settled",
+   "move_tone": "down",
+   "happened": "Tesla fell 0.63% with nothing announced.",
+   "figures": [
+    "Closed <b>$319.53</b>, <b>-0.63%</b>, on volume <b>35%</b> light. Premarket <b>$321.50</b>, <b>+0.62%</b>, provisional"
+   ],
+   "why": "Worth noting only that Tesla trades <b>35.94%</b> below its own high, behind Robinhood, Nebius and Marvell on that measure, so it has room to recover and no recent evidence that it will.",
+   "foot": [
+    {
+     "k": "Next date",
+     "v": "Q3 deliveries, early October.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "AAPL",
+   "dir": "up",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; no company news",
+   "move": "+0.45% &middot; Thursday close, settled",
+   "move_tone": "up",
+   "happened": "Apple rose 0.45% with nothing announced in the window.",
+   "figures": [
+    "Closed <b>$312.41</b>, <b>+0.45%</b>, on volume <b>30%</b> light. The <b>$0.27</b> dividend was declared with the <b>30 July</b> results, ex-date <b>10 August</b>: not a change and not new. Premarket <b>-0.13%</b>, provisional"
+   ],
+   "why": "Apple is one of three of the twelve that rose, and it did so while long yields climbed. Profits that arrive now are worth more when the discount rate rises, and Apple's arrive now.",
+   "foot": [
+    {
+     "k": "Next date",
+     "v": "<b>1 September</b>, John Ternus becomes CEO.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "MRVL",
+   "dir": "down",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; no company news &middot; sector",
+   "move": "-0.23% &middot; Thursday close, settled",
+   "move_tone": "down",
+   "happened": "Marvell closed almost flat after an 8.42% intraday swing, the second widest of the twelve.",
+   "figures": [
+    "Ranged <b>$201.74</b> to <b>$219.46</b>, closing <b>$210.54</b>, <b>-0.23%</b>, an <b>8.42%</b> swing on volume <b>32%</b> light. Premarket <b>$216.40</b>, <b>+2.78%</b>, provisional"
+   ],
+   "why": "A stock that falls hard and recovers inside the session has found buyers at the lower price, which matters more than the flat close suggests. Nothing about the business changed.",
+   "foot": [
+    {
+     "k": "Next date",
+     "v": "<b>27 August</b>, Q2 FY27, after the close.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "META",
+   "dir": "up",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; no company news",
+   "move": "+0.19% &middot; Thursday close, settled",
+   "move_tone": "up",
+   "happened": "Meta rose 0.19% with nothing announced.",
+   "figures": [
+    "Closed <b>$589.90</b>, <b>+0.19%</b>, on volume <b>40%</b> light, <b>25.92%</b> below its 52-week high. Premarket <b>-0.46%</b>, provisional"
+   ],
+   "why": "Flat is the news after a 9% earnings fall in late July. A stock that stops falling has finished repricing the miss, and further moves need fresh information.",
+   "foot": [
+    {
+     "k": "Next date",
+     "v": "Q3 results, late October.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "AMZN",
+   "dir": "down",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; no company news",
+   "move": "-0.14% &middot; Thursday close, settled",
+   "move_tone": "down",
+   "happened": "Amazon fell 0.14% on the lightest volume of the twelve.",
+   "figures": [
+    "Closed <b>$272.26</b>, <b>-0.14%</b>, on volume <b>55.3%</b> below average, the lightest of the twelve, and sits <b>5.20%</b> below its own high, the smallest such gap of the twelve. Premarket <b>+0.71%</b>, provisional"
+   ],
+   "why": "The Zoox robotaxi exemption was granted between <b>30 July</b> and <b>4 August</b>, so it is not from this window. Amazon closest to its own high on the least trading is a stock nobody is arguing about.",
+   "foot": [
+    {
+     "k": "Next date",
+     "v": "Q3 results, late October.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "NVDA",
+   "dir": "down",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; no company news",
+   "move": "-0.10% &middot; Thursday close, settled",
+   "move_tone": "down",
+   "happened": "Nvidia was flat, down 0.10%, with no dated company event in the window.",
+   "figures": [
+    "Closed <b>$218.99</b>, <b>-0.10%</b>. <b>Not news:</b> the <b>$5B</b> Safe Superintelligence investment was announced <b>27 July</b> and recirculated in Thursday coverage. Premarket <b>+0.19%</b>, provisional"
+   ],
+   "why": "Wednesday's 3.43% gain on the SpaceX commitment settled and held. Holding a gain matters more than making one, because it says the repricing was accepted rather than traded against.",
+   "foot": [
+    {
+     "k": "Next date",
+     "v": "<b>26 August</b>, Q2 FY27 results.",
+     "flag": false
+    }
+   ]
+  }
+ ],
+ "readthrough": {
+  "title": "A day with no news is still a measurement, and the volume is what it measured",
+  "body": "Take the two ends of Thursday together. Nebius fell <b>13.29%</b> and Microsoft rose <b>2.54%</b>, and neither company announced anything. Microsoft's move traces to a dated disclosure nine days old: Azure at <b>43%</b> against about <b>40%</b> expected, capex <b>$41B</b> under the <b>$42B</b> feared. Nebius traces to nothing dated at all. Both stocks are priced on AI compute demand. One has revenue arriving against that demand today, one has capacity arriving in 2027, and on a day when the 10-year yield rose to <b>4.664%</b> the market paid for the first and charged for the second. Rising long yields do not hit AI names evenly. They sort them by when the cash shows up. Now the correction to all of it. <b>Twelve of the twelve traded on below-average volume</b>, Amazon <b>55.3%</b> light and even Nebius, the day's only violent mover, <b>4.9%</b> under its own average. There was no capitulation anywhere on this list. A <b>13%</b> fall on below-average volume is not a verdict, it is an absence of buyers, and those two look identical on a chart and behave nothing alike afterwards. Nebius indicating <b>+3.75%</b> premarket, the largest premarket gain of the twelve, is consistent with reading Thursday as an absence of buyers. Provisional until the bell."
+ },
+ "nothing_material": {
+  "tickers": [
+   "AAPL",
+   "AMZN",
+   "TSLA",
+   "PLTR",
+   "MSFT",
+   "GOOGL",
+   "HOOD",
+   "NVDA",
+   "INTC",
+   "NBIS",
+   "MRVL",
+   "META"
+  ],
+  "note": {
+   "title": "What is not today's news",
+   "body": "<b>None of the twelve announced anything in the past 24 hours.</b> That covers earnings, guidance, SEC filings, M&amp;A, spin-offs, debt or equity issuance, buybacks, dividend changes, dollar-value contracts and regulatory or legal action. Every move above is either the sector, the discount rate, or a continuation of an older event. Several items in Thursday and Friday coverage look new and are not, and were excluded on date: Nvidia's <b>$5B</b> investment in Safe Superintelligence was announced <b>27 July</b>. Amazon's Zoox exemption from NHTSA for steering-wheel-free robotaxis, capped at <b>2,500</b> vehicles a year, was granted between <b>30 July</b> and <b>4 August</b>, with sources differing on the exact date. Palantir's Q2 was <b>3 August</b>. Microsoft's Azure quarter was <b>29 July</b>. Apple's results and its <b>$0.27</b> dividend declaration were <b>30 July</b>. Alphabet's DeepMind departures were <b>Wednesday 5 August</b> and are covered above as a second-day move. Robinhood's Q2 was late July. Marvell's weakness is the chip sector, not the company. Note that <b>sec.gov is unreachable from this run</b>, so no filing was read against the document itself. All prices and volumes here come from the Twelve Data API, not from press coverage."
+  }
+ },
+ "earnings_ahead": [
+  {
+   "when": "today, 08:30 ET",
+   "what": "July employment report, after this brief and before the bell. Consensus roughly <b>83,000</b> to <b>100,000</b> payrolls, unemployment near <b>4.2%</b>, against June's <b>57,000</b>. The one number that can reset everything above"
+  },
+  {
+   "when": "12 Aug",
+   "what": "<b>NBIS</b> Q2, before the open, company-confirmed. The only one of the twelve reporting within 14 days"
+  },
+  {
+   "when": "mid-Aug",
+   "what": "<b>HOOD</b> July monthly metrics, expected but not company-confirmed"
+  },
+  {
+   "when": "26 Aug",
+   "what": "<b>NVDA</b> Q2 FY27. Outside the 14-day window"
+  },
+  {
+   "when": "27 Aug",
+   "what": "<b>MRVL</b> Q2 FY27, after the close. Outside the 14-day window"
+  }
+ ],
+ "data": {
+  "tickers": {
+   "AAPL": {
+    "close": 312.41,
+    "pct": 0.45,
+    "open": 314.34,
+    "high": 316.29,
+    "low": 309.23,
+    "volume": 45392526,
+    "avg_volume": 65023473,
+    "high_52w": 344.57,
+    "premarket_pct": -0.13
+   },
+   "AMZN": {
+    "close": 272.26,
+    "pct": -0.14,
+    "open": 272.77,
+    "high": 275.48,
+    "low": 271.08,
+    "volume": 27906615,
+    "avg_volume": 62399532,
+    "high_52w": 287.2,
+    "premarket_pct": 0.71
+   },
+   "TSLA": {
+    "close": 319.53,
+    "pct": -0.63,
+    "open": 317.05,
+    "high": 323.0,
+    "low": 315.52,
+    "volume": 25143733,
+    "avg_volume": 38616003,
+    "high_52w": 498.83,
+    "premarket_pct": 0.62
+   },
+   "PLTR": {
+    "close": 155.92,
+    "pct": -1.58,
+    "open": 155.81,
+    "high": 158.0,
+    "low": 152.7,
+    "volume": 38397107,
+    "avg_volume": 53980771,
+    "high_52w": 207.52,
+    "premarket_pct": 1.11
+   },
+   "MSFT": {
+    "close": 499.86,
+    "pct": 2.54,
+    "open": 488.89,
+    "high": 501.55,
+    "low": 488.52,
+    "volume": 32788866,
+    "avg_volume": 48949417,
+    "high_52w": 553.72,
+    "premarket_pct": -0.49
+   },
+   "GOOGL": {
+    "close": 357.75,
+    "pct": -1.29,
+    "open": 360.77,
+    "high": 364.13,
+    "low": 356.88,
+    "volume": 24988687,
+    "avg_volume": 34024809,
+    "high_52w": 408.61,
+    "premarket_pct": 0.04
+   },
+   "HOOD": {
+    "close": 90.71,
+    "pct": -2.25,
+    "open": 90.72,
+    "high": 92.6,
+    "low": 90.25,
+    "volume": 11540585,
+    "avg_volume": 20753548,
+    "high_52w": 153.86,
+    "premarket_pct": 0.2
+   },
+   "NVDA": {
+    "close": 218.99,
+    "pct": -0.1,
+    "open": 221.53,
+    "high": 223.63,
+    "low": 217.27,
+    "volume": 113051990,
+    "avg_volume": 135452249,
+    "high_52w": 236.54,
+    "premarket_pct": 0.19
+   },
+   "INTC": {
+    "close": 99.81,
+    "pct": -1.24,
+    "open": 98.22,
+    "high": 103.38,
+    "low": 95.6,
+    "volume": 77177595,
+    "avg_volume": 125403830,
+    "high_52w": 142.35,
+    "premarket_pct": 0.85
+   },
+   "NBIS": {
+    "close": 189.88,
+    "pct": -13.29,
+    "open": 205.84,
+    "high": 215.51,
+    "low": 189.17,
+    "volume": 25731633,
+    "avg_volume": 27043613,
+    "high_52w": 299.86,
+    "premarket_pct": 3.75
+   },
+   "MRVL": {
+    "close": 210.54,
+    "pct": -0.23,
+    "open": 205.56,
+    "high": 219.46,
+    "low": 201.74,
+    "volume": 16456195,
+    "avg_volume": 24134940,
+    "high_52w": 329.88,
+    "premarket_pct": 2.78
+   },
+   "META": {
+    "close": 589.9,
+    "pct": 0.19,
+    "open": 586.34,
+    "high": 595.31,
+    "low": 586.0,
+    "volume": 11663468,
+    "avg_volume": 19407017,
+    "high_52w": 796.25,
+    "premarket_pct": -0.46
+   }
+  },
+  "session": "2026-08-06",
+  "source": "twelvedata quote endpoint",
+  "fetched": "2026-08-07T11:00Z"
+ }
+}
