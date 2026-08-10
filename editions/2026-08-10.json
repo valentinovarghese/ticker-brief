@@ -1,0 +1,543 @@
+{
+ "date": "2026-08-10",
+ "weekday": "Mon",
+ "headline": "PLTR rose 10.32%, the largest gain of the twelve, after July payrolls fell 23,000 and turned a weak economy into a rate-cut rally.",
+ "gauge": [
+  {
+   "text": "QQQ +1.17% Friday close",
+   "tone": "up"
+  },
+  {
+   "text": "updated 07:00 ET &middot; before the open",
+   "tone": "flat"
+  },
+  {
+   "text": "12 tickers &middot; 3 with hard news",
+   "tone": "flat"
+  }
+ ],
+ "quick": [
+  "<b>The US economy shed jobs in July and these stocks rose on it.</b> Payrolls fell <b>23,000</b> against the <b>83,000</b> to <b>95,000</b> gain expected, and May and June were revised down by a combined <b>103,000</b>. Ten of these twelve rose. A weakening labour market means cheaper money sooner, and cheaper money is worth more to this list than a strong economy is.",
+  "<b>Palantir rose 10.32% to $172.01, the largest gain of the twelve, and no company event explains it.</b> It traded <b>29.1%</b> above its own average volume, the heaviest participation of the twelve. That took it past its post-earnings peak of <b>$162.66</b>, so this is no longer a recovery.",
+  "<b>Meta was ordered to pay $567M and the stock still rose.</b> A New Mexico court issued the largest child-safety penalty against the company on <b>7 August</b>, taking its total liability in that state to <b>$942M</b>. Meta closed <b>+0.37%</b> against QQQ's <b>+1.17%</b>. The fine is affordable. The legal theory behind it may not be."
+ ],
+ "macro": [
+  {
+   "dt": "<b>July payrolls fell 23,000</b>, the first decline of this cycle, against consensus of <b>83,000</b> to <b>95,000</b>. The BLS cut the prior two months by a combined <b>103,000</b>: May down <b>66,000</b> to <b>129,000</b>, June down <b>37,000</b> to <b>57,000</b>. Unemployment fell to <b>4.1%</b> from <b>4.2%</b>, and the 10-year Treasury yield fell to <b>4.639%</b>",
+   "lead": "How it reaches these stocks",
+   "dd": "Read the unemployment rate carefully. It fell while jobs were being lost, because the share of adults working or looking for work dropped to <b>61.4%</b>, the lowest in over five years. People left the workforce rather than found jobs. What matters here is the yield: it is the rate used to discount profits arriving years from now, and lowering it raises the present value of distant earnings most. That is the whole of this list."
+  },
+  {
+   "dt": "<b>QQQ</b> closed <b>723.03</b>, <b>+1.17%</b>, and sits <b>3.42%</b> below its 52-week high of <b>748.65</b>. The S&amp;P 500 rose <b>0.62%</b> to a record <b>7,757.64</b> and the Nasdaq Composite rose <b>1.3%</b> to <b>26,690.62</b>",
+   "lead": "Does the gauge agree",
+   "dd": "It agrees. Six of the twelve beat QQQ and only two fell. But the participation undercuts the conviction: ten of the twelve traded below their own average volume, and the two exceptions were Palantir and Tesla. A rate-cut rally that most holders sat out is a repricing by a few buyers, not a change of mind by many."
+  },
+  {
+   "dt": "<b>July CPI lands Wednesday 12 August at 08:30 ET.</b> It arrives the same morning as Nebius results, and hours before Robinhood's July metrics",
+   "lead": "What this rally still has to clear",
+   "dd": "Friday's move assumed the Federal Reserve reads a shrinking workforce as a reason to cut. Hot inflation removes that option and leaves only the weak economy, which is the bad half of the trade on its own. Wednesday is the single date that can undo everything below."
+  }
+ ],
+ "entries": [
+  {
+   "ticker": "PLTR",
+   "dir": "up",
+   "strength": "major",
+   "strength_label": "Major move &middot; no company news &middot; Friday's session",
+   "move": "+10.32% &middot; Friday close, settled",
+   "move_tone": "up",
+   "happened": "Palantir rose 10.32% to $172.01 with nothing announced, on the heaviest participation of the twelve.",
+   "figures": [
+    "Closed <b>$172.01</b>, <b>+10.32%</b>, from <b>$155.92</b>. That is the largest gain of the twelve and the only double-digit move",
+    "Volume <b>77.4M</b> against a <b>59.9M</b> average, <b>29.1%</b> above it. That is the heaviest volume of the twelve, and one of only two above average",
+    "This clears the post-earnings peak. The <b>3 August</b> quarter drove a <b>29.45%</b> jump on 4 August to <b>$162.66</b>, then two down days. Friday closed <b>5.7%</b> above that peak",
+    "<b>No company announcement.</b> Coverage attributes it to a broker raising its target to <b>$255</b>, which this brief excludes, plus short covering"
+   ],
+   "why": "Almost none of Palantir's value sits in profits it earns this year. The price rests on investors extrapolating roughly 90% revenue growth years into the future, so the rate used to discount that far-off cash decides the stock more than any quarter does. A jobs report that lowers that rate therefore moves Palantir further than it moves anything else here. The heavy volume matters because it separates a real repricing from drift: buyers showed up at the higher price.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Not priced in, this is the pricing. The window is Friday's close, settled. Premarket today is <b>-1.17%</b>, giving back roughly a tenth. Thin and provisional: the open settles it.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "Wednesday's CPI runs hot. The entire move rests on a rate cut the inflation data has not yet permitted.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "<b>12 August</b> CPI. Q3 results early November.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "TSLA",
+   "dir": "up",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; $16.8B commitment dated 6 August",
+   "move": "+2.83% &middot; Friday close, settled",
+   "move_tone": "up",
+   "happened": "Tesla rose 2.83% in its first full session after committing, with SpaceX, to a $16.8B chip factory in Texas.",
+   "figures": [
+    "Closed <b>$328.58</b>, <b>+2.83%</b>. Volume <b>39.4M</b> against a <b>36.4M</b> average, <b>8.3%</b> above it, one of only two above average",
+    "<b>Terafab</b>, announced <b>Thursday 6 August</b> around midday ET: an initial <b>$16.8B</b> from Tesla and SpaceX jointly, a <b>100M</b> square foot site in Grimes County, Texas, at least <b>3,000</b> jobs. Coverage cites a longer build-out of <b>$55B</b> to <b>$119B</b>",
+    "It is to make logic and memory chips for Optimus, Cybercab and SpaceX data centres. The Tesla and SpaceX split of the <b>$16.8B</b> has not been disclosed",
+    "<b>Correction:</b> Friday's edition recorded Tesla as having nothing announced on Thursday. Terafab was announced during Thursday's session, which closed <b>-0.63%</b>"
+   ],
+   "why": "Tesla currently buys the chips its robots and vehicles depend on, at prices set by a market in shortage. Owning the fab converts a purchase into an asset, which trades a cost it cannot control for capital it must now fund. The catch is what that does to the accounts. Money spent on a factory is money not returned to shareholders, and a car company that becomes a chipmaker has to be valued on two sets of margins instead of one.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Only partly, and slowly. The news landed inside Thursday's session and Tesla fell that day. Friday's gain is a delayed reaction tangled up with the jobs rally, so the two cannot be separated cleanly. Premarket today <b>+1.04%</b>, provisional.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "The disclosed split shows Tesla funding most of the <b>$16.8B</b> while SpaceX takes most of the capacity.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Q3 deliveries, early October. No date set for the funding split.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "META",
+   "dir": "down",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; $567M penalty &middot; 7 August",
+   "move": "+0.37% &middot; Friday close, settled, and it lagged",
+   "move_tone": "flat",
+   "happened": "A New Mexico court ordered Meta to pay $567M over child-safety failures and mandated platform reforms.",
+   "figures": [
+    "Ruling dated <b>7 August</b>. The <b>$567M</b> penalty follows <b>$375M</b> in jury damages awarded in March, taking total liability in that state to <b>$942M</b>",
+    "The judge found the company a public nuisance and ordered reforms across Facebook, Instagram and Meta's AI chatbots",
+    "Closed <b>$592.10</b>, <b>+0.37%</b>, against QQQ's <b>+1.17%</b>. Volume ran <b>42.1%</b> light. Premarket <b>+0.45%</b>, provisional",
+    "<b>Filings not read:</b> sec.gov is unreachable from this environment, so the detail above is attributed to coverage, not to a document"
+   ],
+   "why": "The money is close to irrelevant: <b>$942M</b> is a rounding error against Meta's earnings. The public nuisance finding is not. That is the legal theory that broke the tobacco and opioid industries, because it lets a state sue over harm caused by a product working exactly as designed. If other states copy it, what is at stake is the engagement model that generates the advertising revenue, not the fine. The ordered reforms are the early version of that cost.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Barely, and that is the interesting part. The window is Friday's close, settled. Meta rose on a day when almost everything rose, but trailed the index by <b>0.8</b> points. The market docked it a little and moved on, which prices the fine and ignores the precedent.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "A second state files on the same nuisance theory. One ruling is a cost, a pattern is a business model problem.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Q3 results, late October. No appeal date confirmed.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "AAPL",
+   "dir": "down",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; Sunday report &middot; premarket only",
+   "move": "+0.29% Friday close, then -1.27% premarket",
+   "move_tone": "down",
+   "happened": "The Wall Street Journal reported on Sunday that Apple is testing memory chips from China's CXMT to ease a shortage.",
+   "figures": [
+    "Report dated <b>Sunday 9 August</b>. Apple held early talks with CXMT about supplying components for iPhones and MacBooks, aimed at devices sold in China",
+    "CXMT cannot solve it: coverage says its capacity is maxed out this year. The Pentagon lists the company as having ties to China's military",
+    "The cost backdrop: DRAM prices rose up to <b>89%</b> in Q2 2026, Gartner sees combined DRAM and SSD prices up <b>130%</b> by year end, and forecasts global smartphone shipments down <b>8.4%</b> in 2026",
+    "Friday close <b>$313.33</b>, <b>+0.29%</b>, on volume <b>46.1%</b> below average, the lightest of the twelve. Premarket <b>-1.27%</b>, the weakest premarket of the twelve",
+    "Today is the ex-dividend date for the <b>$0.27</b> dividend declared <b>30 July</b>. That is about <b>0.09%</b> of the price, so it explains almost none of the premarket fall"
+   ],
+   "why": "Memory is one of the most expensive bought-in parts of a phone, and Apple's gross margin is the number the whole valuation is built on. A doubling in memory cost has to land somewhere: on the margin, on the retail price, or on unit sales. Shopping for a supplier the Pentagon has flagged, whose capacity is already full, is what a company with no good options looks like. It also puts a number on the vaguest line in Apple's guidance, the supply constraints it cited for a September quarter growing <b>9%</b> to <b>11%</b> after <b>16%</b> in the June quarter.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "No. Friday's close predates the report entirely, so it is not a reaction to it. The only evidence is premarket, it is provisional, and the open will settle it.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "Apple confirms memory supply locked at fixed prices through the iPhone cycle.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "<b>1 September</b>, John Ternus becomes CEO. September quarter results, late October.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "MRVL",
+   "dir": "up",
+   "strength": "major",
+   "strength_label": "Major move &middot; no fresh news &middot; Friday's session",
+   "move": "+3.89% &middot; Friday close, settled",
+   "move_tone": "up",
+   "happened": "Marvell rose 3.89% with nothing new announced, still working through its 4 August product launch.",
+   "figures": [
+    "Closed <b>$218.72</b>, <b>+3.89%</b>, after ranging <b>$205.52</b> to <b>$221.87</b>. Volume ran <b>18.8%</b> light",
+    "The launch was <b>4 August</b> at FMS 2026, not Friday: the Bravera SC6 PCIe 6.0 SSD controller, sampling Q4 2026, plus Structera X memory expansion and Photonic Fabric. That day the stock rose <b>12.80%</b>",
+    "Premarket <b>+1.50%</b>, provisional"
+   ],
+   "why": "Marvell sells the parts that let data centres shift AI memory off high-bandwidth chips onto cheaper storage. The same shortage that raises Apple's costs is what creates that demand, so the memory squeeze reads as a bill for one and an order book for the other.",
+   "foot": [
+    {
+     "k": "Next date",
+     "v": "<b>27 August</b>, Q2 FY27, after the close.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "HOOD",
+   "dir": "up",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; no company news &middot; rate trade",
+   "move": "+2.84% &middot; Friday close, settled",
+   "move_tone": "up",
+   "happened": "Robinhood rose 2.84% with nothing announced, moving with the rate-cut trade.",
+   "figures": [
+    "Closed <b>$93.29</b>, <b>+2.84%</b>, on volume <b>25.5%</b> light. Still <b>39.37%</b> below its 52-week high of <b>$153.86</b>, the largest gap to its own high of the twelve",
+    "Premarket <b>+1.40%</b>, provisional"
+   ],
+   "why": "Robinhood makes money when customers trade, so its revenue tracks how willing retail investors feel about risk rather than any contracted book. Cheaper money raises that willingness directly, which is why it moves on a jobs number that says nothing about Robinhood.",
+   "foot": [
+    {
+     "k": "Next date",
+     "v": "<b>12 August, 16:05 ET</b>, July monthly metrics, company-confirmed.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "NVDA",
+   "dir": "up",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; no company news &middot; Friday's session",
+   "move": "+2.27% &middot; Friday close, settled",
+   "move_tone": "up",
+   "happened": "Nvidia rose 2.27% with no dated company event in the window.",
+   "figures": [
+    "Closed <b>$223.96</b>, <b>+2.27%</b>, on volume <b>21.6%</b> light. It sits <b>5.32%</b> below its 52-week high",
+    "Premarket <b>+0.46%</b>, provisional"
+   ],
+   "why": "Read Terafab as a distant threat, not a near one. Tesla and SpaceX building their own fab removes two future buyers from Nvidia's queue, but nothing ships from an empty Texas field for years. Meanwhile the memory shortage that fab is meant to fix exists because Nvidia's systems are consuming the supply.",
+   "foot": [
+    {
+     "k": "Next date",
+     "v": "<b>26 August</b>, Q2 FY27 results.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "INTC",
+   "dir": "up",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; no company news &middot; sector",
+   "move": "+1.84% &middot; Friday close, settled",
+   "move_tone": "up",
+   "happened": "Intel rose 1.84% with nothing company-specific announced.",
+   "figures": [
+    "Closed <b>$101.65</b>, <b>+1.84%</b>, after ranging <b>$98.03</b> to <b>$103.66</b>, on volume <b>33.4%</b> light. Premarket <b>-0.36%</b>, provisional",
+    "<b>Not news:</b> the US government's <b>9.9%</b> stake at <b>$20.47</b> a share dates to August 2025, and the Fortinet foundry win to <b>21 July</b>. Both recirculated in weekend coverage"
+   ],
+   "why": "Terafab is the read-through that matters. Intel's case for its foundry rests on American customers needing an American fab, and two of the most visible candidates just decided to build their own instead. That is a small dent in a large argument, and it is years from showing up in revenue.",
+   "foot": [
+    {
+     "k": "Would flip if",
+     "v": "A named external foundry customer is disclosed with a dollar value.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Q3 results, late October. No company-confirmed date yet.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "NBIS",
+   "dir": "down",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; no company news &middot; two days out",
+   "move": "-1.01% &middot; Friday close, settled",
+   "move_tone": "down",
+   "happened": "Nebius fell 1.01%, the largest fall of the twelve, with nothing announced two days before results.",
+   "figures": [
+    "Closed <b>$187.97</b>, <b>-1.01%</b>, after ranging <b>$180.63</b> to <b>$197.42</b>, a <b>9.29%</b> high-to-low range on volume <b>15.9%</b> light",
+    "<b>Not news:</b> the <b>$1B</b> Reflection AI compute agreement running to 2029 was announced <b>14 July</b> and recirculated in Friday coverage",
+    "Premarket <b>-0.52%</b>, provisional"
+   ],
+   "why": "Falling on a day built for long-duration assets is the tell. Nebius bills the bulk of its contracted capacity from 2027, so a lower discount rate should have lifted it further than anything here. It did not, which says the market is waiting for Wednesday rather than repricing the rate.",
+   "foot": [
+    {
+     "k": "Would flip if",
+     "v": "Wednesday's report puts a dated backlog figure against the capacity already funded.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "<b>12 August</b>, Q2 results before the open, company-confirmed.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "GOOGL",
+   "dir": "down",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; third day &middot; no new event",
+   "move": "-0.96% &middot; Friday close, settled",
+   "move_tone": "down",
+   "happened": "Alphabet fell 0.96%, a third session of drift from the 5 August DeepMind departures, with nothing new landing.",
+   "figures": [
+    "Closed <b>$354.30</b>, <b>-0.96%</b>, on volume <b>39.7%</b> light, after <b>-4.03%</b> Wednesday and <b>-1.29%</b> Thursday",
+    "The event was <b>5 August</b>: chief scientist Jeff Dean and senior researchers Sanjay Ghemawat, Oriol Vinyals and Quoc Le left to found Discovery Loop, which Alphabet funds. Demis Hassabis became chief scientist, Koray Kavukcuoglu took DeepMind and Gemini",
+    "Premarket <b>+0.74%</b>, provisional"
+   ],
+   "why": "Falling while everything else rallied is the point. Three sessions of decline on light volume, against an index up 1.17%, is a stock being quietly marked down rather than dumped. The market is charging Alphabet for uncertainty about who now decides its AI direction.",
+   "foot": [
+    {
+     "k": "Would flip if",
+     "v": "Further senior departures are confirmed, or Discovery Loop recruits from DeepMind.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Q3 results, late October.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "AMZN",
+   "dir": "up",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; no company news",
+   "move": "+0.82% &middot; Friday close, settled",
+   "move_tone": "up",
+   "happened": "Amazon rose 0.82% with nothing announced.",
+   "figures": [
+    "Closed <b>$274.48</b>, <b>+0.82%</b>, on volume <b>45.9%</b> light. It sits <b>4.43%</b> below its 52-week high, the smallest such gap of the twelve. Premarket <b>+0.31%</b>, provisional"
+   ],
+   "why": "Closest to its own high and barely traded. Amazon keeps behaving like the position on this list nobody feels a need to argue about.",
+   "foot": [
+    {
+     "k": "Next date",
+     "v": "Q3 results, late October.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "MSFT",
+   "dir": "flat",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; no company news",
+   "move": "+0.03% &middot; Friday close, settled",
+   "move_tone": "flat",
+   "happened": "Microsoft was unchanged, up 0.03%, stalling just under $500.",
+   "figures": [
+    "Closed <b>$499.99</b>, <b>+0.03%</b>, on volume <b>41.7%</b> light, after Thursday's <b>+2.54%</b>. Premarket <b>+0.04%</b>, provisional"
+   ],
+   "why": "The nine-day re-rating of the 29 July Azure quarter has stopped. Microsoft sat out a rally that lifted almost everything else, which suggests the repricing is finished and the next move needs new information.",
+   "foot": [
+    {
+     "k": "Next date",
+     "v": "Q1 FY27 results, late October. No company-confirmed date yet.",
+     "flag": false
+    }
+   ]
+  }
+ ],
+ "readthrough": {
+  "title": "The memory shortage is a bill for one company on this list and an order book for another",
+  "body": "Two items three days apart describe the same physical fact from opposite ends. On <b>4 August</b> Marvell launched hardware whose purpose is to move AI memory off expensive chips onto cheaper storage, and rose <b>12.80%</b>. On <b>Sunday 9 August</b> the Wall Street Journal reported Apple in early talks with a Chinese supplier the Pentagon has flagged, because it cannot get enough memory. DRAM prices rose up to <b>89%</b> in the second quarter. That shortage exists because AI data centres are absorbing the supply, which is Nvidia's demand doing it. So one shortage sets Marvell's addressable market, raises Apple's cost of goods, and is a symptom of Nvidia's success. Apple indicates <b>-1.27%</b> premarket, the weakest of the twelve, while Marvell indicates <b>+1.50%</b>. Provisional, but pointing the right way. Now the asymmetry worth sitting with. Meta was ordered to pay <b>$567M</b> on Friday and rose <b>0.37%</b>. Palantir announced nothing at all and rose <b>10.32%</b>. The market treated a real cash penalty as smaller than a change in the interest rate used to value profits nobody has earned yet, and on the arithmetic it was right: <b>$942M</b> against Meta's earnings is nothing, while a lower discount rate compounds through every year of Palantir's forecast. The risk is that this arithmetic only holds while the rate keeps falling. Wednesday's CPI is the test, and Palantir has far more riding on it than Meta does.",
+  "note": null
+ },
+ "nothing_material": {
+  "tickers": [
+   "AMZN",
+   "PLTR",
+   "MSFT",
+   "GOOGL",
+   "HOOD",
+   "NVDA",
+   "INTC",
+   "NBIS",
+   "MRVL"
+  ],
+  "note": {
+   "title": "What is not news, and what could not be checked",
+   "body": "<b>Three of the twelve carried a dated event: Meta, Apple and Tesla.</b> The other nine announced nothing qualifying in the window, so their moves are the jobs report, the sector, or a continuation. Several items in weekend coverage look new and are not, and were excluded on date: Nebius's <b>$1B</b> Reflection AI compute deal was announced <b>14 July</b>, not Friday, despite several sites carrying it as fresh on 7 August. Marvell's AI memory launch was <b>4 August</b> at FMS 2026. Palantir's Q2 was <b>3 August</b>, its <b>29.45%</b> jump 4 August. The US government's Intel stake dates to August 2025 and the Fortinet foundry win to <b>21 July</b>. Alphabet's DeepMind departures were <b>5 August</b>. Apple's <b>$0.27</b> dividend was declared <b>30 July</b>; only its ex-date falls today. Broker target changes on Palantir, Robinhood and Apple are excluded as commentary. <b>sec.gov is blocked by this environment's proxy</b>, so no filing was read against the document itself, including the Tesla Form S-8 registering <b>303,960,630</b> shares under the 2018 CEO award, which is dated to coverage only and is not treated as news here. All prices and volumes come from the Twelve Data API, not from press coverage: press reports of Friday's moves disagreed with the exchange data in several places."
+  }
+ },
+ "earnings_ahead": [
+  {
+   "when": "12 Aug, 08:30 ET",
+   "what": "<b>July CPI.</b> The number Friday's rally is borrowing against"
+  },
+  {
+   "when": "12 Aug",
+   "what": "<b>NBIS</b> Q2, before the open, company-confirmed. The only one of the twelve reporting within 14 days"
+  },
+  {
+   "when": "12 Aug, 16:05 ET",
+   "what": "<b>HOOD</b> July monthly metrics, company-confirmed"
+  },
+  {
+   "when": "26 Aug",
+   "what": "<b>NVDA</b> Q2 FY27. Outside the 14-day window"
+  },
+  {
+   "when": "27 Aug",
+   "what": "<b>MRVL</b> Q2 FY27, after the close. Outside the 14-day window"
+  }
+ ],
+ "data": {
+  "tickers": {
+   "AAPL": {
+    "close": 313.33,
+    "pct": 0.29,
+    "open": 311.45,
+    "high": 314.81,
+    "low": 310.74,
+    "volume": 34407100,
+    "avg_volume": 63789980,
+    "high_52w": 344.57,
+    "premarket_pct": -1.27
+   },
+   "AMZN": {
+    "close": 274.48,
+    "pct": 0.82,
+    "open": 272.87,
+    "high": 278.31,
+    "low": 272.75,
+    "volume": 33833300,
+    "avg_volume": 62557750,
+    "high_52w": 287.2,
+    "premarket_pct": 0.31
+   },
+   "TSLA": {
+    "close": 328.58,
+    "pct": 2.83,
+    "open": 322.34,
+    "high": 333.73,
+    "low": 321.25,
+    "volume": 39370100,
+    "avg_volume": 36366020,
+    "high_52w": 498.83,
+    "premarket_pct": 1.04
+   },
+   "PLTR": {
+    "close": 172.01,
+    "pct": 10.32,
+    "open": 160.07,
+    "high": 172.41,
+    "low": 159.96,
+    "volume": 77382900,
+    "avg_volume": 59936790,
+    "high_52w": 207.52,
+    "premarket_pct": -1.17
+   },
+   "MSFT": {
+    "close": 499.99,
+    "pct": 0.03,
+    "open": 499.21,
+    "high": 505.18,
+    "low": 498.73,
+    "volume": 28818000,
+    "avg_volume": 49430540,
+    "high_52w": 553.72,
+    "premarket_pct": 0.04
+   },
+   "GOOGL": {
+    "close": 354.3,
+    "pct": -0.96,
+    "open": 356.72,
+    "high": 358.9,
+    "low": 353.78,
+    "volume": 19805200,
+    "avg_volume": 32849390,
+    "high_52w": 408.61,
+    "premarket_pct": 0.74
+   },
+   "HOOD": {
+    "close": 93.29,
+    "pct": 2.84,
+    "open": 92.91,
+    "high": 95.75,
+    "low": 92.52,
+    "volume": 14823500,
+    "avg_volume": 19885700,
+    "high_52w": 153.86,
+    "premarket_pct": 1.4
+   },
+   "NVDA": {
+    "close": 223.96,
+    "pct": 2.27,
+    "open": 221.54,
+    "high": 224.76,
+    "low": 220.66,
+    "volume": 105473700,
+    "avg_volume": 134604800,
+    "high_52w": 236.54,
+    "premarket_pct": 0.46
+   },
+   "INTC": {
+    "close": 101.65,
+    "pct": 1.84,
+    "open": 102.33,
+    "high": 103.66,
+    "low": 98.03,
+    "volume": 76609900,
+    "avg_volume": 115042580,
+    "high_52w": 142.35,
+    "premarket_pct": -0.36
+   },
+   "NBIS": {
+    "close": 187.97,
+    "pct": -1.01,
+    "open": 197.37,
+    "high": 197.42,
+    "low": 180.63,
+    "volume": 22697800,
+    "avg_volume": 27003080,
+    "high_52w": 299.86,
+    "premarket_pct": -0.52
+   },
+   "MRVL": {
+    "close": 218.72,
+    "pct": 3.89,
+    "open": 219.05,
+    "high": 221.87,
+    "low": 205.52,
+    "volume": 19619600,
+    "avg_volume": 24147990,
+    "high_52w": 329.88,
+    "premarket_pct": 1.5
+   },
+   "META": {
+    "close": 592.1,
+    "pct": 0.37,
+    "open": 585.64,
+    "high": 598.74,
+    "low": 585.62,
+    "volume": 11226700,
+    "avg_volume": 19394140,
+    "high_52w": 796.25,
+    "premarket_pct": 0.45
+   }
+  },
+  "session": "2026-08-07",
+  "source": "twelvedata quote endpoint",
+  "fetched": "2026-08-10T11:02Z"
+ }
+}
