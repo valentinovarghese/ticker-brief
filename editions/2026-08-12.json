@@ -1,0 +1,555 @@
+{
+ "date": "2026-08-12",
+ "weekday": "Wed",
+ "headline": "INTC priced a $20bn share sale at $95, upsized from $15bn on roughly $100bn of orders, and closed 2.9% above the offer.",
+ "gauge": [
+  {
+   "text": "QQQ -0.34% Tuesday close",
+   "tone": "down"
+  },
+  {
+   "text": "updated 07:00 ET &middot; before the open",
+   "tone": "flat"
+  },
+  {
+   "text": "12 tickers &middot; 4 with dated events",
+   "tone": "flat"
+  }
+ ],
+ "quick": [
+  "<b>Intel sold $20bn of new stock, its first public share sale since it listed in 1971.</b> It announced a <b>$15bn</b> offering on Monday and fell <b>4.06%</b> that day. It then upsized and priced <b>210,526,315</b> shares at <b>$95</b>, and closed Tuesday at <b>$97.71</b>, <b>2.9%</b> above the offer. Intel was the only one of the twelve to trade above its own average volume, at <b>45.1%</b> above it.",
+  "<b>Alphabet fell 3.84%, the largest fall of the twelve, two days after closing a $25bn bond sale.</b> The notes run to 2066 and cost up to <b>6.500%</b>. On the same day, about <b>300</b> French newspapers filed an antitrust complaint over AI Overviews. Alphabet rose <b>0.91%</b> when the bond sale closed, so Tuesday is not a reaction to the debt alone.",
+  "<b>Nebius indicates +10.23% premarket on another company's results.</b> CoreWeave reported after Tuesday's close with contracted backlog of <b>$129.2bn</b> as of 11 August, up about <b>$25bn</b> in under six weeks. Nebius reports its own Q2 before today's open. The premarket move is thin, provisional and borrowed."
+ ],
+ "macro": [
+  {
+   "dt": "<b>The Strait of Hormuz stayed shut.</b> Iran said the United States must meet several demands before it reopens. Brent crude rose <b>3%</b> to <b>$86.05</b> and US West Texas Intermediate rose <b>3.1%</b> to <b>$80.62</b>. The energy sector ETF <b>XLE</b> rose <b>4.6%</b>, the technology sector ETF <b>XLK</b> fell <b>1.1%</b>",
+   "lead": "How it reaches these stocks",
+   "dd": "Oil is not a cost line for any of these twelve. It reaches them through inflation. Last Friday's rally here was a bet that a weak jobs market forces the Federal Reserve to cut. A cut lowers the rate used to value profits arriving years from now. That is worth more to fast-growing tech than to the market overall, because more of its value sits in distant years. A closed shipping lane pushing crude up threatens exactly that bet: it puts inflation back into the arithmetic the Fed is doing."
+  },
+  {
+   "dt": "<b>QQQ</b> closed <b>718.45</b>, <b>-0.34%</b>, and sits <b>4.03%</b> below its 52-week high of <b>748.65</b>. The Nasdaq Composite fell <b>0.67%</b> to <b>26,428.19</b>, the S&amp;P 500 fell <b>0.1%</b> to <b>7,753.11</b> and the Dow fell <b>0.1%</b> to <b>53,975.98</b>",
+   "lead": "Does the gauge agree",
+   "dd": "It agrees, but only just, and the composition matters more than the level. Five of the twelve rose and seven fell, yet eight of the twelve beat QQQ. That is an index dragged down by a few large falls rather than a broad retreat. Participation was almost absent. Eleven of the twelve traded below their own average volume, and the one exception was Intel, inflated by its own share sale. A market this quiet has not decided anything."
+  },
+  {
+   "dt": "<b>July CPI lands today, 12 August, at 08:30 ET.</b> Consensus is <b>3.4%</b> year on year, down from <b>3.5%</b> in June, and <b>+0.1%</b> on the month after <b>-0.4%</b> in June. Core is expected at <b>+0.1%</b> on the month and <b>2.5%</b> year on year, down from <b>2.6%</b>",
+   "lead": "What today still has to clear",
+   "dd": "Read the timing carefully. July's gasoline prices fell early in the month, when the conflict looked like ending, so this report largely predates the crude move now underway. A soft number today would therefore be describing a world that has already changed. That is the trap here. It can permit the rate cut these stocks are priced for while crude quietly removes the permission again."
+  }
+ ],
+ "entries": [
+  {
+   "ticker": "INTC",
+   "dir": "up",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; $20bn equity raise &middot; 10-11 August",
+   "move": "+0.19% &middot; Tuesday close, settled",
+   "move_tone": "flat",
+   "happened": "Intel sold $20bn of new stock at $95 a share, upsized from the $15bn offering it announced the day before.",
+   "figures": [
+    "Announced <b>Monday 10 August</b> as a <b>$15bn</b> underwritten public offering. It was upsized and priced at <b>$20bn</b>: <b>210,526,315</b> shares at <b>$95</b>, for net proceeds of about <b>$19.7bn</b>. Underwriters hold a 30-day option on a further <b>31,578,947</b> shares. Reports date the pricing release to 10 or 11 August; the offering closes today",
+    "Bloomberg reports this is Intel's first public share sale since it listed in <b>1971</b>. The institutional order book is reported at about <b>$100bn</b> against a <b>$20bn</b> deal",
+    "The share price around it: Intel fell <b>4.06%</b> on Monday, from <b>$101.65</b> to <b>$97.52</b>, on the <b>$15bn</b> announcement. Tuesday it closed <b>$97.71</b>, <b>+0.19%</b>, having traded as low as <b>$95.35</b>, and finished <b>2.9%</b> above the <b>$95</b> offer price",
+    "Volume <b>163.6M</b> against a <b>112.8M</b> average, <b>45.1%</b> above it. Intel was the only one of the twelve to trade above its own average volume on Tuesday",
+    "<b>Dilution:</b> coverage puts it between roughly <b>4%</b> and <b>5%</b>, depending on the share count used, rising to about <b>5.6%</b> if the underwriters' option is exercised. Stated use of proceeds is general corporate purposes, which may include capital expenditure and working capital"
+   ],
+   "why": "Equity is the most expensive money a company can raise. It is never repaid, and every future dollar of profit is split more ways forever. Choosing it over debt shows what Intel is protecting: its investment-grade rating and its room to borrow later. A fab programme this size needs both. What the cash actually buys is capacity built before customers have signed for it, which is the bet Intel's foundry case has always rested on. The order book is the part worth keeping. Roughly $100bn of demand at $95 is a lot of investors pricing in foundry customers Intel has not yet named.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "The dilution is, the rest is not. Monday's <b>-4.06%</b> is the market taking the new shares. Tuesday's close <b>2.9%</b> above the offer says the buyers who took the paper are not underwater. That is the first test any deal this size must pass. Premarket <b>+1.73%</b>, provisional.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "The stock breaks back below <b>$95</b>. The offer price is now a public floor, and a deal that trades through it makes the next raise harder.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "<b>Today, 12 August</b>, the offering closes. Q3 results late October, no company-confirmed date.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "GOOGL",
+   "dir": "down",
+   "strength": "major",
+   "strength_label": "Major move &middot; $25bn notes closed 10 Aug &middot; French complaint 11 Aug",
+   "move": "-3.84% &middot; Tuesday close, settled",
+   "move_tone": "down",
+   "happened": "Alphabet fell 3.84%, the largest fall of the twelve, on the day French publishers filed against it and two days after its bond sale closed.",
+   "figures": [
+    "Closed <b>$343.80</b>, <b>-3.84%</b>, from <b>$357.52</b>. That is the largest fall of the twelve. It ranged <b>$343.39</b> to <b>$356.81</b>, a <b>3.91%</b> range, the second widest of the twelve after Nebius",
+    "Volume <b>28.7M</b> against a <b>31.8M</b> average, <b>9.9%</b> light. That is the second heaviest of the twelve relative to its own average, behind Intel",
+    "<b>10 August:</b> Alphabet closed a <b>$25bn</b> senior notes offering, maturities from 2028 to 2066. Coupons run from <b>4.500%</b> on the 2028s to <b>6.500%</b> on <b>$2.5bn</b> due 2066. The long end includes <b>$4.5bn</b> of <b>6.375%</b> notes due 2056",
+    "<b>11 August:</b> APIG, representing about <b>300</b> French daily newspapers, filed a complaint with France's Autorit&eacute; de la concurrence over AI Overviews. It says referral traffic to member sites has fallen <b>33%</b> to <b>38%</b>, and argues this breaches commitments Google gave in 2022",
+    "<b>Context, not news:</b> the late-July Q2 report put quarterly capital spending at <b>$44.9bn</b>, about double a year earlier, and 2026 capex guidance at <b>$195bn</b> to <b>$205bn</b>. Free cash flow (cash left after spending) was <b>-$5.855bn</b>, the first negative quarter",
+    "<b>Filings not read:</b> sec.gov is blocked by this environment's proxy, so the notes terms are attributed to coverage, not to the 8-K itself. Premarket <b>+0.58%</b>, provisional"
+   ],
+   "why": "A 6.500% coupon on forty-year money is Alphabet agreeing to rent capital it used to generate. For most of its life it funded everything from operating cash, with enough left to buy back stock. Capital spending was a choice it could dial down in a bad year. Twenty-five billion of bonds converts that choice into a fixed obligation that does not care how advertising revenue is doing. The French complaint pushes on the other end of the same problem. AI Overviews is the product all that spending is buying. A regulator forcing payment for the content it summarises raises the cost of running it, on top of building it.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Partly, and the sequence rules out the obvious explanation. The window is Tuesday's close, settled. Alphabet rose <b>0.91%</b> on Monday, the day the bond sale actually closed, so the debt is not what Tuesday sold. Premarket <b>+0.58%</b> takes back about a sixth of it, thin and provisional.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "The Autorit&eacute; declines to open a case, or Alphabet settles on the payment template France applied to Meta in July.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Q3 results, late October. No date set for the French authority's decision.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "NBIS",
+   "dir": "up",
+   "strength": "major",
+   "strength_label": "Major move &middot; peer results 11 Aug &middot; own results today",
+   "move": "+4.95% Tuesday close, then +10.23% premarket",
+   "move_tone": "up",
+   "happened": "Nebius rose 4.95%, the largest gain of the twelve, then jumped in premarket on CoreWeave's results, hours before its own.",
+   "figures": [
+    "Closed <b>$193.23</b>, <b>+4.95%</b>, the largest gain of the twelve. It ranged <b>$187.31</b> to <b>$195.60</b>, a <b>4.43%</b> range, the widest of the twelve. Volume ran <b>23.8%</b> light",
+    "<b>CoreWeave reported after Tuesday's close.</b> Q2 revenue <b>$2.575bn</b>, up <b>112%</b> year on year, against about <b>$2.56bn</b> expected. Adjusted EBITDA <b>$1.5bn</b>, from <b>$753m</b> a year earlier",
+    "Its backlog (revenue already under contract) was <b>$104.2bn</b> at quarter end and <b>$129.2bn</b> as of <b>11 August</b>, about <b>$25bn</b> added in under six weeks. Full-year 2026 revenue guidance was raised to <b>$12.4bn</b> to <b>$13.2bn</b>, capital spending to <b>$35bn</b> to <b>$39bn</b>",
+    "The warning in the same report: net loss widened to <b>$626m</b> from <b>$290m</b>, on net interest expense of <b>$640m</b>, up from <b>$267m</b>",
+    "Nebius premarket <b>$213.00</b>, <b>+10.23%</b> at 07:00 ET, the largest premarket move of the twelve by a wide margin",
+    "<b>Nebius reports Q2 before today's open</b>, call at 08:00 ET. Consensus revenue is about <b>$570m</b> to <b>$580m</b>. Q1 2026 was <b>$399m</b>, up <b>684%</b> year on year. Full-year guidance is <b>$3.0bn</b> to <b>$3.4bn</b> revenue and <b>$7bn</b> to <b>$9bn</b> annualised run rate by year end. The release had not appeared as of 07:15 ET"
+   ],
+   "why": "CoreWeave is the closest listed comparison to Nebius, so its backlog is a read that Nebius holders get for free. Twenty-five billion of new commitments in six weeks says demand is arriving faster than the capacity. That single assumption holds up every valuation in this corner of the market. The interest line is the counterweight, and it is in the same report. Net interest of <b>$640m</b> in one quarter, more than double a year ago, is what it costs to finance data centres with borrowed money. Nebius is running the same trade, so the number that decides today is not revenue. It is what Nebius is paying for the capital standing behind it.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "No, and this read is provisional twice over. Tuesday's <b>+4.95%</b> close came before CoreWeave reported, so it is not a reaction to it. The <b>+10.23%</b> premarket is a reaction to a different company's results, on thin volume, ahead of Nebius's own numbers. Two events settle it today: the release, then the open.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "Nebius's own run rate falls short of the pace implied by <b>$7bn</b> to <b>$9bn</b> by year end, or its interest cost has risen like CoreWeave's.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "<b>Today, 12 August</b>, Q2 before the open, call 08:00 ET, company-confirmed.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "NVDA",
+   "dir": "flat",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; $500bn financing coalition &middot; 10 August",
+   "move": "-0.02% &middot; Tuesday close, settled",
+   "move_tone": "flat",
+   "happened": "Nvidia finished Tuesday unchanged, two days after lining up more than $500bn of outside money to finance AI data centres.",
+   "figures": [
+    "Closed <b>$217.50</b>, <b>-0.02%</b>, effectively unchanged, on volume <b>24.6%</b> light. It sits <b>8.05%</b> below its 52-week high",
+    "<b>Monday 10 August:</b> six firms signed memoranda of understanding to mobilise more than <b>$500bn</b> for AI data centres, using GPUs as collateral. They are Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR. Jensen Huang said Nvidia could backstop up to <b>$125bn</b>, a quarter of the target",
+    "These are memoranda, not funded commitments. Each firm judges individual deals and its own participation",
+    "The reaction: Nvidia fell <b>2.86%</b> on Monday, the day it was announced, then closed flat on Tuesday. Premarket <b>+0.92%</b>, provisional"
+   ],
+   "why": "The objection to Nvidia's earlier arrangements was circularity. The company selling the chips also underwrote its customers' ability to keep buying them, so revenue and credit risk sat on one balance sheet. Handing the funding to six outside firms breaks part of that loop, because someone independent now decides whether a borrower is good. What it does not break is the collateral. These loans are secured on GPUs. If AI demand cools, the security loses value at the same moment the borrower loses the means to pay. That is one risk wearing two hats, and it is why a number this large did not move the stock up.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Read Monday, not Tuesday. Nvidia fell <b>2.86%</b> on the day it announced <b>$500bn</b>, which is not a market treating the number as free money. Tuesday's flat close on light volume adds nothing either way.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "A memorandum converts into a funded, priced facility with a named borrower and a stated rate.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "<b>26 August</b>, Q2 FY27 results.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "AMZN",
+   "dir": "down",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; no company news",
+   "move": "-2.09% &middot; Tuesday close, settled",
+   "move_tone": "down",
+   "happened": "Amazon fell 2.09% with nothing announced, giving back part of the run that carried it through $3trn.",
+   "figures": [
+    "Closed <b>$272.27</b>, <b>-2.09%</b>, on volume <b>51.7%</b> below average, the second lightest of the twelve after Microsoft",
+    "It sits <b>5.20%</b> below its 52-week high of <b>$287.20</b>, the smallest such gap of the twelve",
+    "<b>No company announcement in the window.</b> Coverage attributes the fall to profit taking after the post-earnings run through a <b>$3trn</b> market value. Premarket <b>+0.27%</b>, provisional"
+   ],
+   "why": "This is a sector move, and the sector is the one Alphabet defined on the same day. Every hyperscaler is now judged on one question: how much cash it is burying in data centres, and what comes back. Amazon carries the smallest discount to its own high of the twelve. That is another way of saying it has the least room to absorb a rethink.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Nothing to price in, there was no event. The window is Tuesday's close, settled.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Q3 results, late October.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "MRVL",
+   "dir": "up",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; no company news &middot; peer read",
+   "move": "+1.80% &middot; Tuesday close, settled",
+   "move_tone": "up",
+   "happened": "Marvell rose 1.80% with nothing announced, recovering part of Monday's fall.",
+   "figures": [
+    "Closed <b>$212.31</b>, <b>+1.80%</b>, on volume <b>46.4%</b> below average. On Monday it fell <b>4.65%</b>. No other ticker of the twelve fell further that day: Intel fell <b>4.06%</b> and Nvidia <b>2.86%</b>",
+    "It sits <b>35.64%</b> below its 52-week high, the second largest gap of the twelve after Robinhood",
+    "Premarket <b>+3.43%</b>, the second largest of the twelve after Nebius, provisional",
+    "<b>Not news:</b> the AI memory and storage launch at FMS 2026 was <b>4 August</b> and drove a <b>12.80%</b> gain that day. Coverage recirculated it on 11 August as though it were fresh"
+   ],
+   "why": "Marvell's premarket move is CoreWeave's backlog arriving by proxy. It sells the connective parts inside AI data centres. What sets its market is how much capacity gets built, not how many chips Nvidia designs. Twenty-five billion of new CoreWeave commitments in six weeks is that number moving, and Marvell has no news of its own to compete with it.",
+   "foot": [
+    {
+     "k": "Next date",
+     "v": "<b>27 August</b>, Q2 FY27, after the close.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "AAPL",
+   "dir": "down",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; second down day &middot; no company news",
+   "move": "-1.09% &middot; Tuesday close, settled",
+   "move_tone": "down",
+   "happened": "Apple fell 1.09%, a second consecutive down day, with nothing announced by the company.",
+   "figures": [
+    "Closed <b>$304.91</b>, <b>-1.09%</b>, after <b>-1.62%</b> on Monday. Volume ran <b>44.5%</b> light",
+    "Monday's fall followed a broker downgrade citing supply checks that an all-glass iPhone planned for 2027 had been cancelled. <b>This brief excludes broker actions</b>, and Apple has confirmed nothing either way. It is recorded here only because it dates Monday's move",
+    "Premarket <b>-0.14%</b>. Only three of the twelve indicate lower, and Apple is one of them. Provisional"
+   ],
+   "why": "The memory cost problem is now the frame every Apple item gets read through. Memory prices roughly doubling has to land somewhere: on the margin, on the retail price, or on unit sales. A higher-priced phone was the obvious place to put it. If that phone does not exist, the bill lands on gross margin instead, and gross margin is the number Apple's entire valuation is built on.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Two days of falling on light volume is a stock being marked down quietly rather than sold. The window is Tuesday's close, settled. Nothing from Apple has landed to confirm or deny the reason.",
+     "flag": true
+    },
+    {
+     "k": "Next date",
+     "v": "<b>1 September</b>, John Ternus becomes CEO. September quarter results, late October.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "TSLA",
+   "dir": "up",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; NHTSA recall &middot; 11 August",
+   "move": "+0.58% &middot; Tuesday close, settled",
+   "move_tone": "up",
+   "happened": "US regulators published a Tesla recall of 20,349 vehicles for headlights that are too bright, and the stock rose anyway.",
+   "figures": [
+    "Closed <b>$332.81</b>, <b>+0.58%</b>, on volume <b>29.2%</b> light. Premarket <b>+0.29%</b>, provisional",
+    "<b>NHTSA published the recall on 11 August</b>, number <b>26V507</b>: <b>18,735</b> pre-refresh Model Y and <b>1,614</b> Model 3, <b>20,349</b> in total. Low beams can be bright enough to impair oncoming drivers. Tesla filed the recall report on <b>4 August</b>. Owner letters are due <b>15 September</b>. The remedy is not yet determined",
+    "<b>Not news:</b> the report that Tesla is weighing a separation of its China business dates to <b>31 July</b> and recirculated on 11 August. The <b>$16.8bn</b> Terafab commitment with SpaceX was <b>6 August</b>"
+   ],
+   "why": "Twenty thousand cars is a rounding error against a quarter of deliveries, and a beam pattern is fixable in software. The cost is not the repair. Much of the value investors put on Tesla sits in robotaxis, which require a regulator willing to approve software that makes driving decisions. Every recall filed against a system the car controls automatically goes into the file that regulator reads.",
+   "foot": [
+    {
+     "k": "Next date",
+     "v": "<b>15 September</b>, owner notification letters. Q3 deliveries, early October.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "PLTR",
+   "dir": "down",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; Pentagon memo surfaced 11 Aug, dated 4 Aug",
+   "move": "-0.17% &middot; Tuesday close, settled",
+   "move_tone": "flat",
+   "happened": "A Pentagon memo directing up to $243.9m of no-bid purchases from Palantir became public, and the stock did not move.",
+   "figures": [
+    "Closed <b>$174.94</b>, <b>-0.17%</b>, on volume <b>32.3%</b> light. Premarket <b>-1.68%</b>, the weakest of the twelve, provisional",
+    "The memo is <b>dated 4 August</b> and became public on <b>11 August</b>. It directs Defense Department components to buy up to <b>$243.9m</b> of Palantir services through <b>31 March 2027</b> without competitive bidding",
+    "<b>It is not a signed contract.</b> Coverage says it is unclear whether the purchase has been finalised, and sec.gov is blocked from this environment, so no filing was read against it",
+    "<b>Not news:</b> Q2 results were <b>3 August</b>, and the <b>29.45%</b> jump that followed was 4 August"
+   ],
+   "why": "The money is not the point: $243.9m is small against Palantir's revenue. Sole-sourcing is the point. Palantir's government business is valued on an assumption that once the software is embedded in a workflow, nobody bids against the renewal. A deputy secretary putting that in writing is direct evidence for the assumption, which is worth considerably more than the contract it authorises.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "It moved nothing. The window is Tuesday's close, settled, and Palantir finished flat on light volume. The market is treating a memo without a signed contract as not yet news, which is defensible.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Q3 results, early November.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "META",
+   "dir": "up",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; no financial event",
+   "move": "+0.71% &middot; Tuesday close, settled",
+   "move_tone": "up",
+   "happened": "Meta rose 0.71% on a day it released an open-weight version of its top AI model, with no financial figures attached.",
+   "figures": [
+    "Closed <b>$599.12</b>, <b>+0.71%</b>, on volume <b>38.0%</b> light. It sits <b>24.76%</b> below its 52-week high",
+    "Coverage reports Meta released <b>Muse Glimmer</b>, an open-weight version of its Muse Spark 1.2 model, alongside an essay from Mark Zuckerberg. <b>No dollar figures were attached</b>, so this brief records it without one and attributes it to coverage",
+    "Premarket <b>+0.69%</b>, provisional"
+   ],
+   "why": "Publishing model weights is a pricing decision, not a research one. Giving away something competitors charge for removes the margin from that layer of the industry and pushes the money to whoever owns the distribution instead. Meta owns distribution and does not sell model access, so it gives up little and takes a revenue line off rivals who do. Whether that is worth the training cost is the open question, and this release does not answer it.",
+   "foot": [
+    {
+     "k": "Next date",
+     "v": "Q3 results, late October.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "MSFT",
+   "dir": "down",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; no company news",
+   "move": "-0.44% &middot; Tuesday close, settled",
+   "move_tone": "flat",
+   "happened": "Microsoft slipped 0.44% with nothing announced, on the lightest volume of the twelve.",
+   "figures": [
+    "Closed <b>$503.81</b>, <b>-0.44%</b>, on volume <b>52.9%</b> below average, the lightest of the twelve. Premarket <b>-0.86%</b>, provisional"
+   ],
+   "why": "Microsoft is the only large cloud name here that neither borrowed nor sold shares this week. Alphabet raised $25bn of debt and Intel sold $20bn of stock. Both fund the same kind of build-out Microsoft pays for out of operating cash. That difference costs nothing today and is the whole argument for owning it if capital gets more expensive.",
+   "foot": [
+    {
+     "k": "Next date",
+     "v": "Q1 FY27 results, late October. No company-confirmed date yet.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "HOOD",
+   "dir": "down",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; no company news &middot; metrics today",
+   "move": "-0.15% &middot; Tuesday close, settled",
+   "move_tone": "flat",
+   "happened": "Robinhood was flat, down 0.15%, with nothing announced the day before its July metrics.",
+   "figures": [
+    "Closed <b>$94.38</b>, <b>-0.15%</b>, on volume <b>36.7%</b> light. It sits <b>38.66%</b> below its 52-week high of <b>$153.86</b>, the largest gap to its own high of the twelve",
+    "Premarket <b>+0.56%</b>, provisional. July monthly metrics are due today at <b>16:05 ET</b>"
+   ],
+   "why": "Robinhood earns when customers trade, so its revenue tracks how willing retail investors feel about risk rather than any contracted book. Oil rising on a closed shipping lane suppresses that willingness without touching the business at all. Today's metrics are the first hard measurement of whether it survived July.",
+   "foot": [
+    {
+     "k": "Next date",
+     "v": "<b>Today, 12 August, 16:05 ET</b>, July monthly metrics, company-confirmed.",
+     "flag": false
+    }
+   ]
+  }
+ ],
+ "readthrough": {
+  "title": "Three ways to pay for a data centre, all three marked down on arrival",
+  "body": "Inside 48 hours, three companies on this list solved the same problem three different ways, and the market charged each of them for it. Alphabet closed a <b>$25bn</b> bond sale on <b>10 August</b>, paying up to <b>6.500%</b> for money it need not repay until 2066. It fell <b>3.84%</b> the next day. Intel sold <b>$20bn</b> of new stock at <b>$95</b>, fell <b>4.06%</b> on the announcement, then closed <b>2.9%</b> above its own offer price. Nvidia arranged for six outside firms to mobilise more than <b>$500bn</b> against GPU collateral, and fell <b>2.86%</b> on the day it said so. Debt, equity and other people's money: all three were marked down on arrival. That is the same verdict returned three times. The market has stopped reading AI capital raising as evidence of demand and started reading it as a bill. Now the asymmetry, because only one of the three recovered. Intel fell on Monday and closed above its offer price on Tuesday. It did so on volume <b>45.1%</b> above its own average, the only one of the twelve above average at all. Alphabet did not recover: it fell hardest two days after the money landed. The difference is what the money buys. Intel is selling equity to build capacity it can lease to anyone. Roughly <b>$100bn</b> of orders at <b>$95</b> is a large bet on customers it has not named. Alphabet is borrowing to build capacity for itself, at the exact moment its own free cash flow has turned negative for the first time. One raise widens the seller's options. The other narrows the borrower's. A separate read-through lands this morning. CoreWeave reported after Tuesday's close with contracted backlog of <b>$129.2bn</b> as of <b>11 August</b>, up about <b>$25bn</b> in under six weeks. Nebius indicates <b>+10.23%</b> premarket on it and Marvell <b>+3.43%</b>, the two largest premarket moves of the twelve. Both are borrowed: neither company reported anything. Nebius reports its own numbers before today's open, which is where the borrowing stops.",
+  "note": null
+ },
+ "nothing_material": {
+  "tickers": [
+   "AAPL",
+   "AMZN",
+   "MSFT",
+   "MRVL",
+   "META",
+   "HOOD",
+   "NBIS"
+  ],
+  "note": {
+   "title": "What is not news, what is missing, and what could not be checked",
+   "body": "<b>Four of the twelve carried a dated event in the window: Intel, Alphabet, Tesla and Palantir.</b> Nvidia's <b>$500bn</b> financing coalition was announced on <b>10 August</b>, just outside a strict 24-hour window. It is included because no edition was published on 11 August. <b>There is no edition for 11 August: that run did not fire</b>, so Monday's session was never written up. Monday's closes are used here to date Tuesday's moves. Monday's own moves ran from Marvell <b>-4.65%</b>, Intel <b>-4.06%</b> and Nvidia <b>-2.86%</b> at one end to Palantir <b>+1.87%</b> at the other, with QQQ <b>-0.30%</b>. Several items looked new on 11 August and are not. Excluded on date: the report that Tesla is weighing a separation of its China business (<b>31 July</b>); Marvell's FMS 2026 launch (<b>4 August</b>); Palantir's Q2 (<b>3 August</b>) and the Pentagon memo covering it (<b>4 August</b>); Alphabet's capex guidance and negative free cash flow (late-July Q2); Tesla's Terafab commitment (<b>6 August</b>). Broker rating and target changes on Apple, Nebius and Alphabet are excluded as commentary. The Apple downgrade is named only because it dates Monday's fall. <b>sec.gov and Yahoo Finance are blocked by this environment's proxy</b>, so no filing was read against the document itself. Intel's offering terms, Alphabet's notes and the Palantir memo are all attributed to coverage. Nebius's own Q2 release had not appeared by 07:15 ET, so nothing is written here about its results. All prices, volumes and 52-week highs come from the Twelve Data API rather than press coverage. Press figures disagreed in places: one outlet put Meta's Tuesday close at <b>$599.64</b> against the exchange <b>$599.12</b>."
+  }
+ },
+ "earnings_ahead": [
+  {
+   "when": "12 Aug, 08:30 ET",
+   "what": "<b>July CPI.</b> Consensus <b>3.4%</b> year on year, <b>+0.1%</b> on the month"
+  },
+  {
+   "when": "12 Aug, pre-open",
+   "what": "<b>NBIS</b> Q2, before the open, call 08:00 ET, company-confirmed"
+  },
+  {
+   "when": "12 Aug",
+   "what": "<b>INTC</b> $20bn share offering closes"
+  },
+  {
+   "when": "12 Aug, 16:05 ET",
+   "what": "<b>HOOD</b> July monthly metrics, company-confirmed"
+  },
+  {
+   "when": "26 Aug",
+   "what": "<b>NVDA</b> Q2 FY27, 10 sessions out. The only one of the twelve inside 14 days"
+  },
+  {
+   "when": "27 Aug",
+   "what": "<b>MRVL</b> Q2 FY27, after the close. 11 sessions out, just past 14 calendar days"
+  }
+ ],
+ "data": {
+  "tickers": {
+   "AAPL": {
+    "close": 304.91,
+    "pct": -1.09,
+    "open": 307.75,
+    "high": 309.97,
+    "low": 302.79,
+    "volume": 34168163,
+    "avg_volume": 61544726,
+    "high_52w": 344.57,
+    "premarket_pct": -0.14
+   },
+   "AMZN": {
+    "close": 272.27,
+    "pct": -2.09,
+    "open": 278.4,
+    "high": 278.84,
+    "low": 271.36,
+    "volume": 29512425,
+    "avg_volume": 61132882,
+    "high_52w": 287.2,
+    "premarket_pct": 0.27
+   },
+   "TSLA": {
+    "close": 332.81,
+    "pct": 0.58,
+    "open": 332.99,
+    "high": 336.2,
+    "low": 329.53,
+    "volume": 23158961,
+    "avg_volume": 32722336,
+    "high_52w": 498.83,
+    "premarket_pct": 0.29
+   },
+   "PLTR": {
+    "close": 174.94,
+    "pct": -0.17,
+    "open": 174.52,
+    "high": 177.94,
+    "low": 172.72,
+    "volume": 41866512,
+    "avg_volume": 61852861,
+    "high_52w": 207.52,
+    "premarket_pct": -1.68
+   },
+   "MSFT": {
+    "close": 503.81,
+    "pct": -0.44,
+    "open": 504.01,
+    "high": 505.33,
+    "low": 499.55,
+    "volume": 22984523,
+    "avg_volume": 48830052,
+    "high_52w": 553.72,
+    "premarket_pct": -0.86
+   },
+   "GOOGL": {
+    "close": 343.8,
+    "pct": -3.84,
+    "open": 355.9,
+    "high": 356.81,
+    "low": 343.39,
+    "volume": 28664272,
+    "avg_volume": 31822077,
+    "high_52w": 408.61,
+    "premarket_pct": 0.58
+   },
+   "HOOD": {
+    "close": 94.38,
+    "pct": -0.15,
+    "open": 94.97,
+    "high": 95.13,
+    "low": 92.75,
+    "volume": 11666500,
+    "avg_volume": 18424930,
+    "high_52w": 153.86,
+    "premarket_pct": 0.56
+   },
+   "NVDA": {
+    "close": 217.5,
+    "pct": -0.02,
+    "open": 222.15,
+    "high": 222.2,
+    "low": 216.3,
+    "volume": 95707655,
+    "avg_volume": 126933276,
+    "high_52w": 236.54,
+    "premarket_pct": 0.92
+   },
+   "INTC": {
+    "close": 97.71,
+    "pct": 0.19,
+    "open": 96.75,
+    "high": 98.35,
+    "low": 95.35,
+    "volume": 163634859,
+    "avg_volume": 112777076,
+    "high_52w": 142.35,
+    "premarket_pct": 1.73
+   },
+   "NBIS": {
+    "close": 193.23,
+    "pct": 4.95,
+    "open": 187.31,
+    "high": 195.6,
+    "low": 187.31,
+    "volume": 19739205,
+    "avg_volume": 25898880,
+    "high_52w": 299.86,
+    "premarket_pct": 10.23
+   },
+   "MRVL": {
+    "close": 212.31,
+    "pct": 1.8,
+    "open": 212.12,
+    "high": 212.66,
+    "low": 206.43,
+    "volume": 11992312,
+    "avg_volume": 22363831,
+    "high_52w": 329.88,
+    "premarket_pct": 3.43
+   },
+   "META": {
+    "close": 599.12,
+    "pct": 0.71,
+    "open": 597.73,
+    "high": 612.42,
+    "low": 593.4,
+    "volume": 12274440,
+    "avg_volume": 19800214,
+    "high_52w": 796.25,
+    "premarket_pct": 0.69
+   }
+  },
+  "session": "2026-08-11",
+  "source": "twelvedata quote endpoint",
+  "fetched": "2026-08-12T11:03Z"
+ }
+}
