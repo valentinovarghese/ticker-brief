@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-14T22:14:43+00:00",
- "changed": "2026-08-14T22:14:43+00:00",
+ "checked": "2026-08-14T22:36:09+00:00",
+ "changed": "2026-08-14T22:36:09+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -63,12 +63,25 @@
     "title": "Rocket Lab, Amazon Win Space Force Contracts. SpaceX Closes Cursor Deal.",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNS0NkdWdjSDhvd2MwUzUyenJUb3BBMTZSUml1U2Zrb0hBTFAtVEFOcWktdDA3N0tfRG90RHVSN195LU5fYnZxUHJqbHY4aWJxRDRXQmYyQnBla2lHcmlqR01PVmgtZ3ctV1FsajBkallCY1BSbzE2UTNiMWFWc3I2bllsNEI4akgyenhDNVZ4RzlBS2lPeHo1WjltWVJDZTZoTGlvX0d1MA?oc=5",
     "source": "Investor's Business Daily",
-    "published": "2026-08-14T16:22+00:00",
+    "published": "2026-08-14T20:57+00:00",
     "score": 5,
     "tags": [
      "contract"
     ],
     "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "67fb6af84a6289e6",
+    "title": "Amazon and Alphabet Both Cost More on Next Year's Earnings Than on Last Year's",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOY0VxaGpLOWZCbHZyV0tzbTluWmNWeG5nSm1RczFfY1BodWQyQWd1NWxGbG1wWlJIRUdoRE4zRi10aHdqaXMxeTdKWTVzVXpvYkdOMWNoRVQ5ZDYwQkxwNURDOTVSM2FHUW95bm91U1hGa3RGYklWRE83YkpsbHlnUTRKRGJvb1ZTMEJub200eGtzWHZWU29FZ1p4TQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-14T14:58+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
     "primary": false
    },
    {
@@ -152,6 +165,19 @@
   ],
   "TSLA": [
    {
+    "id": "6ac5ab2cb22ce879",
+    "title": "Tesla Shares Climb as Long-Delayed Roadster Readies for Texas 'Hovering' Stunt",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9iQlNuUGlTLVpRMkltUkNEVWJGUW5JeHYzNWlqN2ZRaTFqYlNnQm1MalBPMHJmbUQzc0NfbG56eGdST3docXAzanVkYWc4VmVIaVl2U0EwQWREdHNQQW9EblBFZ01tOGpydkczU1dTQjl6Uk1rblE?oc=5",
+    "source": "finance.biggo.com",
+    "published": "2026-08-14T18:15+00:00",
+    "score": 5,
+    "tags": [
+     "operations"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "f353e19df9924883",
     "title": "From ‘Math Won’t Pass Muster’ To Full Expectation: Fund Manager’s Dramatic Pivot On TSLA-SPCX Deal",
     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPc243M2M3M0VpbUlGMXE3Mk9FVk1sV3MtVS1jVW13SVA2eWsxZl95UVpFN2JieldFZWhxV3pqVzlEQ0g0TEh4WlB3dm5lWEFVeUtZeGdBZXJadG5KMUJyc3hhMDRZN0UxOUJfaDBxN2hIejZsRVhmeThZTE1XLXh5SmZjSzV5RnhnaDZNSXlkNVRxVUVMa2l2QnJuc29DUWtZckdpTHo2X3VBaGhkV3NxcVVub2puYmotWFN2NVk1RHg4c29LU2Nnd1lDMVloRm45ckM5UTZuRjdQU3g1cTdHMlBnRnNHNkpRYVVldA?oc=5",
@@ -178,16 +204,16 @@
     "primary": false
    },
    {
-    "id": "ae19033b1b2404b6",
-    "title": "Tesla Stock's Fragile Recovery Continues After Earnings Sell-Off",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTXBlRThDNUYxNDducG5iTHpVTXZGUkRVUEVuRDlsVWFJMm5FaWVHQTN6QWFuZW56LXpuQjRnRG9jY1RxdWl2ZmVtU2FQWUVsODZUWWpDM1JNcXBjUlNsX2pfdl8yVF81aFdnVW1ONzljZG5vYkF4ekkycWhGb3RYM2VOUW85VmVxM2c?oc=5",
+    "id": "5391e3453c87e199",
+    "title": "Tesla Stock's Fragile Recovery Continues After Diving On Robotaxis, Optimus Delays",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZjlBT0daZEhBNEt5YnVVaG9kV2J6Y1kxbUdKcFROMVA3ajJpbTgtNGpZVWZLdG1BX1ZCR0ZJQ0d1WkVlQUdCM2picVRKa3MxSFZBd0JKTGNQZER1aVVVV0VxSDNlWXFKSnd6alJJS1hobFE4ZTlzd2JUN01WcXhTeXpVVmRkZDljeUJGSnRQbw?oc=5",
     "source": "Investor's Business Daily",
     "published": "2026-08-14T13:01+00:00",
-    "score": 6,
+    "score": 5,
     "tags": [
-     "earnings"
+     "operations"
     ],
-    "direction": "neutral",
+    "direction": "negative",
     "primary": false
    },
    {
@@ -448,6 +474,19 @@
   ],
   "GOOGL": [
    {
+    "id": "199430990180b585",
+    "title": "Berkshire Boosts Delta, Alphabet Stakes as Abel Taps Cash Pile",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYVpGbU5tanN1MHUyQUdkWF9meWlWTi1WdWFaeHd5cFRNUldOanRobUFMQkFWVkNKcC1HN0s3OU5MZjA5dlo3Y2ZpSTM4a09EWTFWTV9EenpaYmRjSmdrOU1sYU1JXzNBam9VRzZuMXptbUwxNk9MWVRuclI3cC1MTVRyS3l5QXRCMDVaRU16V2FnLVI5eGhYc3poaC15UWkwVXhmLTJYanpXZWhYLUJTZWZ3?oc=5",
+    "source": "Bloomberg",
+    "published": "2026-08-14T21:26+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "20f880b0a78c04c2",
     "title": "Berkshire Adds to Alphabet Stake, Buys Homebuilders and Exits Constellation",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOTM0S3RnSVR5MnNmSk5NVWpoVVphSlA4ZkFRNFNwY1dJVFZULWkwSGJmeDZrcG5qNm1VM3I1SlNjQTVQamp5Sy1QNW13TkhtdXVTRVVtVk10YWdHNWZKaXZDRlM1NGNUMG9YemhfTG43REtfVFhIUXRGV28weVJIU2FhaG1kTUtHaWJkWGFzek9qTzc0ZkZqT2JEbjhXSWk2U2EzdV9KMGdISUh2NEVRR3hZQ0FqelNPVkE?oc=5",
@@ -462,24 +501,24 @@
     "primary": false
    },
    {
-    "id": "199430990180b585",
-    "title": "Berkshire Boosts Delta, Alphabet Stakes as Abel Taps Cash Pile",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYVpGbU5tanN1MHUyQUdkWF9meWlWTi1WdWFaeHd5cFRNUldOanRobUFMQkFWVkNKcC1HN0s3OU5MZjA5dlo3Y2ZpSTM4a09EWTFWTV9EenpaYmRjSmdrOU1sYU1JXzNBam9VRzZuMXptbUwxNk9MWVRuclI3cC1MTVRyS3l5QXRCMDVaRU16V2FnLVI5eGhYc3poaC15UWkwVXhmLTJYanpXZWhYLUJTZWZ3?oc=5",
-    "source": "Bloomberg.com",
-    "published": "2026-08-14T20:37+00:00",
-    "score": 5,
-    "tags": [
-     "capital"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "ee3fbd73c2bdf6dc",
     "title": "Alphabet Inc. (SPCX) group reports 551M SpaceX Class A shares under beneficial ownership",
     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTGVUazhwdnpxV0FyVnhoZVFFalRGa1RTTUVtYUdiVXY1V1FmLURjTElZMXMxZy1ld1hGckttcmZZQlo1UGhneVFFckJiY0NZWlo0QnpvZ1piZnE1ellKR1JlMDc0MmVYQXNUZlBaU1hheldLREtjTG4zWUwydnBsWkowTDhsb09ibGdmQzBYVWFCdmphSDhaX0hsNXd5YzB0VmNzbnJQQWloT0t2Q3VnRFNUbHZiVFl4bUphVE1OVXR5dEZ5SVVFd0duQQ?oc=5",
     "source": "Stock Titan",
     "published": "2026-08-14T20:20+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "b4710d0ed93aa647",
+    "title": "Amazon, Alphabet Look Expensive on Forward Earnings After One-Time Gains Fade",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9PM1VLNC1fU0QwZjVaT1JmekpaTXp5VEVxVk94ZlRVQWZlTHRTOWJuQzBrdkp1R0pvNS11X1prcGZQaVU4NzJtbS03UkZZMGkzVEVKTkRMQk9NMmxTSXBjMWJOTGR1RFJYbjlRaTBHN0NGZGpDLUE?oc=5",
+    "source": "finance.biggo.com",
+    "published": "2026-08-14T18:39+00:00",
     "score": 6,
     "tags": [
      "earnings"
@@ -737,7 +776,7 @@
     "id": "15e466031a6c9202",
     "title": "Nvidia Has $21 Billion SpaceX Stake, $30 Billion in Intel Shares",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUGFQNGVsS0M0dU5jYzU1TjJLMGhRY3ZyOG51X0FNdTcxNnIxbkVjNWJmR3dJMUNMelZRS0l0M1JZSkJFTzdWZDNPb0N3X1FadkN0WGZaT3hSTzJITUtvRWZKQUszRHUzWHc3T0RIRi1LRTZBUDcyVjZoQ1pGVzRKN0NldUp5TDVHWUZaNUhyRk9BZ3NIalIxM1JCTUZSdHZRVkhYX0RQSnVqelZGTVNUTTFn?oc=5",
-    "source": "Bloomberg.com",
+    "source": "Bloomberg",
     "published": "2026-08-14T21:17+00:00",
     "score": 8,
     "tags": [
@@ -1015,6 +1054,19 @@
     "primary": false
    },
    {
+    "id": "91a3493ec7755626",
+    "title": "Marvell Technology (MRVL) Q1 2027 Earnings Call Transcript",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1OZURuRlNaelBGZXpMUFZkMjBld28tai15NE9QUWdhdm9EaDJkLTV0dzFBQWRRMXlZZDZvcTFmcUVJY0hRb0JSNTJBM1p4VXprMVRrd2NjS0VwZUZaLU5IdUR1Q005LXM5T05hTFlhRTNOdw?oc=5",
+    "source": "Fortune",
+    "published": "2026-08-13T20:50+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "1b13b1a9ff444535",
     "title": "Marvell's Flash Memory Summit Gambit: A Trade-Show Bounce Meets a Split Analyst Verdict",
     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWWFLNl9uZVZjUjdVMmlXS1Fsam9yWlIyTnAwSm10NkRPSThpRVFrWU1lOWN5V1JlZnBqcDhZQWhqZzlhRElEQmpKNFc3b2paOWI4WW1nSkllVHZvaUIxSHg3aG5BeldjS2ZQbUlQLWpCdjdndDBUOHFqcms0dE1vWUtJdlhiVF9ZVHMyX0M0ejFTcmVDSzlPdW1FSmtRS3dYV0pLbmpiS2J4M1lnMmlaZmdhTGZkRkNSMFR4WXVKTE51U3M0dDlPU3VEd1A2b3dpaXdMZzIyamlDUQ?oc=5",
@@ -1096,5 +1148,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 78
+ "count": 82
 }
