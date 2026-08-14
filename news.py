@@ -74,13 +74,15 @@ CIK = {
     "NBIS": "0001513845", "MRVL": "0001835632", "META": "0001326801",
 }
 
-# SEC's fair-access policy requires a User-Agent naming the requester with a
-# working contact, and answers a generic one with 403. The address is the
-# owner's GitHub noreply, which is already public, rather than a personal
-# mailbox published in a public repository.
-UA = ("ticker-brief/1.0 "
-      "(valentinovarghese@users.noreply.github.com) "
-      "+https://github.com/valentinovarghese/ticker-brief")
+# SEC's fair-access policy wants exactly "Name contact@domain", and its edge
+# answers anything fancier with 403. A version string, parentheses and a
+# trailing URL were enough to be refused, so this is the documented shape and
+# nothing else. The address is the owner's GitHub noreply, already public,
+# rather than a personal mailbox published in a public repository.
+SEC_UA = "TickerBrief valentinovarghese@users.noreply.github.com"
+
+# Google News has no such requirement and is happy with an ordinary agent.
+UA = "Mozilla/5.0 (compatible; ticker-brief/1.0; +https://github.com/valentinovarghese/ticker-brief)"
 
 # How far back an item may be and still count as current.
 NEWS_WINDOW = timedelta(hours=48)
@@ -306,12 +308,12 @@ def score(title):
 # Fetching
 # ---------------------------------------------------------------------------
 
-def get(url, timeout=25):
-    # Accept must not be XML-only: data.sec.gov serves JSON and answers an
-    # XML-only Accept with a refusal, which is what silently emptied the
-    # filings for every ticker on the first two live runs.
+def get(url, timeout=25, agent=None):
+    # Accept must not be XML-only: data.sec.gov serves JSON, and its edge is
+    # strict about both this header and the User-Agent, so the SEC calls pass
+    # their own agent rather than sharing the browser-ish default.
     req = urllib.request.Request(url, headers={
-        "User-Agent": UA,
+        "User-Agent": agent or UA,
         "Accept": "application/json, application/atom+xml, application/xml, */*",
         "Accept-Encoding": "identity",
     })
@@ -446,7 +448,8 @@ def sec_filings(ticker):
     cik = CIK.get(ticker)
     if not cik:
         return []
-    data = json.loads(get(f"https://data.sec.gov/submissions/CIK{cik}.json"))
+    data = json.loads(get(f"https://data.sec.gov/submissions/CIK{cik}.json",
+                          agent=SEC_UA))
     recent = (data.get("filings") or {}).get("recent") or {}
     forms = recent.get("form") or []
     dates = recent.get("filingDate") or []

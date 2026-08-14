@@ -6,7 +6,7 @@
 <title>v2v.investing | Ticker Brief</title>
 <meta name="description" content="A daily pre-market brief on twelve tickers, written to explain why each number changes what a company is worth.">
 <meta name="color-scheme" content="light">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-qOhFsq0QMV2REqNwk5hGH5bZE9SkX6gt6yeyKdYPv+U=' 'sha256-WnuIvWIcbet1WNFwaE5C/E0jhiDd7yWNuvmmKMYvOcs='; style-src 'sha256-IkWokvNGwt/DuLhONQx4PHb4ylyhv/JsR0TM1GrYwp4='; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-qOhFsq0QMV2REqNwk5hGH5bZE9SkX6gt6yeyKdYPv+U=' 'sha256-sdW2WdJkUezSjGJcq8N0VbZl5paaM1ha3T0f8psfuCg='; style-src 'sha256-2Y1ImMXGKeM5aa4yGQ8iNKnXQ/v6baZKRwFwo2G4YdM='; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <script>document.documentElement.classList.add("js")</script>
 <style>
@@ -445,6 +445,9 @@
   ol.nlist { list-style:none; margin:0; padding:.7rem 0 0;
              display:flex; flex-direction:column; gap:.85rem; }
   .nempty { font-size:.88rem; color:var(--ink-3); font-style:italic; }
+  .nwarn { font-size:.78rem; color:var(--amber); font-family:var(--mono);
+           background:var(--amber-wash); border:1px solid #F0EAD6;
+           border-radius:6px; padding:.4rem .55rem; }
   .nitem { padding-left:.65rem; border-left:2px solid var(--line); }
   .nitem.negative { border-left-color:var(--down); }
   .nitem.positive { border-left-color:var(--up); }
@@ -939,17 +942,28 @@ take professional advice first.</p>
         list.textContent = '';
         count.textContent = recs.length ? String(recs.length) : 'nothing new';
         b.classList.toggle('quiet', recs.length === 0);
+        var err = data.errors && data.errors[t];
         if (!recs.length) {
           var none = document.createElement('li');
           none.className = 'nempty';
           // An empty list is a real answer, not a failure to load.
-          none.textContent = (data.errors && data.errors[t])
+          none.textContent = err
             ? 'No items. The source could not be reached on the last run.'
             : 'No material items in the window.';
           list.appendChild(none);
           return;
         }
         recs.forEach(function (r) { list.appendChild(item(r)); });
+        // A source can fail while another still returns items, and that is
+        // the dangerous case: the block looks healthy while the filings are
+        // missing. Say which source is down, next to the items that remain.
+        if (err) {
+          var warn = document.createElement('li');
+          warn.className = 'nwarn';
+          warn.textContent = 'Some sources unavailable on the last run: '
+            + (Array.isArray(err) ? err.join('; ') : String(err));
+          list.appendChild(warn);
+        }
       });
     }
 
