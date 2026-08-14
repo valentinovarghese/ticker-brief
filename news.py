@@ -343,11 +343,26 @@ def collect(ticker, now):
     return unique[:KEEP_PER_TICKER], errors
 
 
+# How long the file may go untouched before a run rewrites it purely to
+# prove the job is alive. Without this the file would only change when the
+# news changed, and a quiet overnight stretch would be indistinguishable
+# from a workflow that had stopped running.
+HEARTBEAT = timedelta(minutes=55)
+
+
+def previous():
+    try:
+        return json.loads(OUT.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
 def main():
     now = datetime.now(timezone.utc)
     dry = "--dry-run" in sys.argv
 
-    payload = {"fetched": now.isoformat(timespec="seconds"),
+    payload = {"checked": now.isoformat(timespec="seconds"),
+               "changed": now.isoformat(timespec="seconds"),
                "window_hours": int(NEWS_WINDOW.total_seconds() // 3600),
                "tickers": {}, "errors": {}}
 
@@ -376,17 +391,51 @@ def main():
         print(json.dumps(payload, indent=1)[:2000])
         return 0
 
+    # Every source failing usually means egress is blocked, not that the news
+    # stopped. Never overwrite a good file with an empty one on a bad run.
+    old = previous()
+    if failed == len(TICKERS) and old.get("tickers"):
+        print("news: NO SOURCE REACHABLE for any ticker, "
+              "keeping the previous file")
+        emit_changed(False)
+        return 1
+
+    # The run happens every five minutes; the news does not. Rewriting the
+    # file each time would commit ~288 times a day and bury the archive's
+    # real history. So the file is only rewritten when the items actually
+    # differ, plus an hourly heartbeat that proves the job is still alive.
+    same = old.get("tickers") == payload["tickers"]
+    last = parse_dt(old.get("checked") or "") if old else None
+    due = last is None or (now - last) >= HEARTBEAT
+
+    if same and not due:
+        print("news: unchanged, nothing to commit")
+        emit_changed(False)
+        return 0
+
+    # A heartbeat must not claim the content changed when it did not.
+    if same:
+        payload["changed"] = old.get("changed") or payload["changed"]
+
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, indent=1, ensure_ascii=False) + "\n",
                    encoding="utf-8")
-    print(f"wrote {OUT.relative_to(ROOT)}")
+    print(f"wrote {OUT.relative_to(ROOT)}"
+          + (" (heartbeat, items unchanged)" if same else " (items changed)"))
+    emit_changed(True)
 
-    # Every source failing usually means egress is blocked, not that the news
-    # stopped. Say so loudly and leave the previous file to stand.
     if failed == len(TICKERS):
         print("news: NO SOURCE REACHABLE for any ticker")
         return 1
     return 0
+
+
+def emit_changed(changed):
+    """Tell the workflow whether there is anything worth committing."""
+    out = os.environ.get("GITHUB_OUTPUT")
+    if out:
+        with open(out, "a", encoding="utf-8") as fh:
+            fh.write(f"changed={'true' if changed else 'false'}\n")
 
 
 # ---------------------------------------------------------------------------

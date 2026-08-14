@@ -6,7 +6,7 @@
 <title>v2v.investing | Ticker Brief</title>
 <meta name="description" content="A daily pre-market brief on twelve tickers, written to explain why each number changes what a company is worth.">
 <meta name="color-scheme" content="light">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-qOhFsq0QMV2REqNwk5hGH5bZE9SkX6gt6yeyKdYPv+U=' 'sha256-he6KfQNatoQV3ZfO87xTtxo1fqPPfK0tPcaig6hoM7s='; style-src 'sha256-IkWokvNGwt/DuLhONQx4PHb4ylyhv/JsR0TM1GrYwp4='; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-qOhFsq0QMV2REqNwk5hGH5bZE9SkX6gt6yeyKdYPv+U=' 'sha256-WnuIvWIcbet1WNFwaE5C/E0jhiDd7yWNuvmmKMYvOcs='; style-src 'sha256-IkWokvNGwt/DuLhONQx4PHb4ylyhv/JsR0TM1GrYwp4='; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <script>document.documentElement.classList.add("js")</script>
 <style>
@@ -853,11 +853,15 @@ take professional advice first.</p>
   var newsRoot = document.querySelector('[data-news-status]');
   if (newsRoot) {
     var POLL = 5 * 60 * 1000;     // match the workflow's cron
-    var STALE = 25 * 60 * 1000;   // a 5-minute cron that has missed ~5 turns
+    // The file is only rewritten when the news changes, plus an hourly
+    // heartbeat. So a gap of up to an hour is normal and means "nothing
+    // happened", not "nothing is running". Only past the heartbeat does
+    // silence actually indicate a stopped job.
+    var STALE = 95 * 60 * 1000;
     var stampEl = newsRoot.querySelector('[data-stamp]');
     var dotEl = newsRoot.querySelector('[data-dot]');
     var blocks = [].slice.call(document.querySelectorAll('.nblock'));
-    var lastFetched = null;
+    var lastFetched = null, lastChanged = null;
 
     function ago(ms) {
       var m = Math.max(0, Math.round(ms / 60000));
@@ -953,8 +957,14 @@ take professional advice first.</p>
       if (!lastFetched) return;
       var age = Date.now() - lastFetched;
       var stale = age > STALE;
-      stampEl.textContent = 'Feed updated ' + ago(age)
-        + (stale ? ' · overdue, the refresh job may not be running' : '');
+      var txt = 'Checked ' + ago(age);
+      if (lastChanged && lastChanged !== lastFetched) {
+        txt += ' · newest item ' + ago(Date.now() - lastChanged);
+      }
+      // Only claim the job is broken once the heartbeat itself is missing.
+      // A quiet hour is a quiet hour, not a failure.
+      if (stale) txt += ' · overdue, the refresh job may not be running';
+      stampEl.textContent = txt;
       newsRoot.classList.toggle('stale', stale);
       dotEl.classList.toggle('on', !stale);
     }
@@ -966,8 +976,10 @@ take professional advice first.</p>
           return r.json();
         })
         .then(function (data) {
-          var t = Date.parse(data.fetched);
+          var t = Date.parse(data.checked || data.fetched);
           lastFetched = isNaN(t) ? Date.now() : t;
+          var c = Date.parse(data.changed || '');
+          lastChanged = isNaN(c) ? null : c;
           paint(data);
           stamp();
         })
@@ -977,7 +989,7 @@ take professional advice first.</p>
           newsRoot.classList.add('stale');
           dotEl.classList.remove('on');
           stampEl.textContent = lastFetched
-            ? 'Feed updated ' + ago(Date.now() - lastFetched)
+            ? 'Checked ' + ago(Date.now() - lastFetched)
               + ' · last refresh failed'
             : 'Could not load the feed (' + e.message + ')';
           // Nothing has ever loaded, so "Loading..." would sit there for

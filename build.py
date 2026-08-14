@@ -1687,11 +1687,15 @@ JS = """
   var newsRoot = document.querySelector('[data-news-status]');
   if (newsRoot) {
     var POLL = 5 * 60 * 1000;     // match the workflow's cron
-    var STALE = 25 * 60 * 1000;   // a 5-minute cron that has missed ~5 turns
+    // The file is only rewritten when the news changes, plus an hourly
+    // heartbeat. So a gap of up to an hour is normal and means "nothing
+    // happened", not "nothing is running". Only past the heartbeat does
+    // silence actually indicate a stopped job.
+    var STALE = 95 * 60 * 1000;
     var stampEl = newsRoot.querySelector('[data-stamp]');
     var dotEl = newsRoot.querySelector('[data-dot]');
     var blocks = [].slice.call(document.querySelectorAll('.nblock'));
-    var lastFetched = null;
+    var lastFetched = null, lastChanged = null;
 
     function ago(ms) {
       var m = Math.max(0, Math.round(ms / 60000));
@@ -1787,8 +1791,14 @@ JS = """
       if (!lastFetched) return;
       var age = Date.now() - lastFetched;
       var stale = age > STALE;
-      stampEl.textContent = 'Feed updated ' + ago(age)
-        + (stale ? ' · overdue, the refresh job may not be running' : '');
+      var txt = 'Checked ' + ago(age);
+      if (lastChanged && lastChanged !== lastFetched) {
+        txt += ' · newest item ' + ago(Date.now() - lastChanged);
+      }
+      // Only claim the job is broken once the heartbeat itself is missing.
+      // A quiet hour is a quiet hour, not a failure.
+      if (stale) txt += ' · overdue, the refresh job may not be running';
+      stampEl.textContent = txt;
       newsRoot.classList.toggle('stale', stale);
       dotEl.classList.toggle('on', !stale);
     }
@@ -1800,8 +1810,10 @@ JS = """
           return r.json();
         })
         .then(function (data) {
-          var t = Date.parse(data.fetched);
+          var t = Date.parse(data.checked || data.fetched);
           lastFetched = isNaN(t) ? Date.now() : t;
+          var c = Date.parse(data.changed || '');
+          lastChanged = isNaN(c) ? null : c;
           paint(data);
           stamp();
         })
@@ -1811,7 +1823,7 @@ JS = """
           newsRoot.classList.add('stale');
           dotEl.classList.remove('on');
           stampEl.textContent = lastFetched
-            ? 'Feed updated ' + ago(Date.now() - lastFetched)
+            ? 'Checked ' + ago(Date.now() - lastFetched)
               + ' · last refresh failed'
             : 'Could not load the feed (' + e.message + ')';
           // Nothing has ever loaded, so "Loading..." would sit there for

@@ -44,7 +44,11 @@ jobs:
         id: fetch
         run: python3 news.py
 
+      # news.py decides this, not git. The file carries a "checked"
+      # timestamp that moves every run, so a plain git diff would report a
+      # change every five minutes and commit ~288 times a day.
       - name: Commit if the feed changed
+        if: steps.fetch.outputs.changed == 'true'
         run: |
           set -euo pipefail
           if git diff --quiet -- news/index.json; then
