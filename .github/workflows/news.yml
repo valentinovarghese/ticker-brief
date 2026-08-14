@@ -1,0 +1,74 @@
+name: news
+
+# Refresh the per-ticker live news feed.
+#
+# GitHub Pages serves static files, so the published page cannot poll a news
+# source itself. This job is the poll: it fetches, scores and commits
+# news/index.json, and the page re-reads that file every few minutes.
+#
+# A note on "every 5 minutes". Five minutes is the shortest interval GitHub
+# accepts, and it is best-effort rather than guaranteed: scheduled workflows
+# are queued and are routinely delayed when the shared runner pool is busy.
+# Expect most refreshes inside 5-15 minutes and occasional longer gaps. The
+# page shows the true age of the data and marks itself stale rather than
+# implying a freshness it does not have.
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:        # lets a run be triggered by hand for testing
+
+# Two overlapping runs would race on the same commit. Let the newer one win:
+# a refresh that is already superseded has nothing worth finishing.
+concurrency:
+  group: news
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # news.py is standard library only, so there is nothing to install and
+      # no secret to configure. Both sources are keyless.
+      - name: Fetch and score
+        id: fetch
+        run: python3 news.py
+
+      # news.py decides this, not git. The file carries a "checked"
+      # timestamp that moves every run, so a plain git diff would report a
+      # change every five minutes and commit ~288 times a day.
+      - name: Commit if the feed changed
+        if: steps.fetch.outputs.changed == 'true'
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- news/index.json; then
+            echo "no change to news/index.json, nothing to commit"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add news/index.json
+          git commit -m "news: refresh $(date -u +'%Y-%m-%dT%H:%MZ')"
+          # Always return to the branch this run started on. Hard-coding
+          # main would mean a test run on a feature branch pushed that
+          # branch's whole tree over main.
+          BRANCH="${{ github.ref_name }}"
+          # The daily brief pushes here too. Rebase rather than fail, so a
+          # refresh landing mid-publish does not drop either one.
+          for i in 1 2 3 4; do
+            git pull --rebase --autostash origin "$BRANCH" \
+              && git push origin "HEAD:$BRANCH" && exit 0
+            echo "push attempt $i failed, retrying"
+            sleep $((2 ** i))
+          done
+          exit 1
