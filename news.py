@@ -121,9 +121,16 @@ CATEGORIES = [
                       r"divest\w*|sells? (?:its|unit|division))\b"),
     ("contract",   5, r"\b(contracts?|deals?|agreements?|award(?:ed|s)?|"
                       r"orders?|partnerships?|supply|wins?|won)\b"),
+    # Includes the verbs a company uses when it stops doing something.
+    # "Microsoft slashes carbon removal purchases by 80%" scored zero
+    # without them, and cutting a programme is exactly the kind of
+    # operational decision this feed exists to surface.
     ("operations", 5, r"\b(recalls?|recalled|halts?|halted|outages?|breach(?:es)?|"
-                      r"hacks?|layoffs?|cuts? \d+|shutdowns?|delays?|delayed|"
-                      r"plants?|factory|factories|fabs?|production)\b"),
+                      r"hacks?|layoffs?|cuts?|shutdowns?|delays?|delayed|"
+                      r"plants?|factory|factories|fabs?|production|"
+                      r"slashe?s?|slashed|scraps?|scrapped|suspends?|suspended|"
+                      r"pauses?|paused|curbs?|reduces?|scales? back|"
+                      r"winds? down|strikes?|walkouts?|unions?|buyouts?)\b"),
     # A job title alone is not news. Only an actual change of who holds it is,
     # which is why "Nvidia CEO spotted in Taipei" must not score here.
     ("leadership", 5, r"\b(resign\w*|steps? down|stepping down|departs?|"
@@ -152,6 +159,11 @@ NOISE = re.compile(
     r"dropped|climbed|sank|is (?:up|down|moving|rising|falling))|"
     r"what'?s (?:going on|driving)|moved? (?:up|down) by \d|"
     r"\bopinions?\b|analyst (?:downgrade|upgrade|rating)|"
+    # Verdict pieces. A columnist's conclusion is not an event.
+    r"buy or sell|final verdict|table-?pounding|is .{0,25}stock a buy|"
+    r"a buy on the dip|history says|valuation test|undervalued|overvalued|"
+    r"moment of truth|reiterates? (?:buy|sell|hold|neutral)|"
+    r"poised for|sees? strong|could be \d+% |premium meets|"
     # Auto-generated 13F ownership stubs. Every large holder files one every
     # quarter, so these arrive by the hundred and say nothing about the
     # company itself.
@@ -222,25 +234,44 @@ def blocked_source(source):
     return any(b in s for b in SOURCE_BLOCK)
 
 
+# Market vocabulary that appears in almost every headline. Left in, it
+# inflates the overlap between unrelated stories: "Intel prices $20bn stock
+# offering" and "Intel stock climbs as Q2 revenue reaches $16.13 billion"
+# share only "intel", but also "stock" and "billion", which was enough to
+# merge two genuinely different events.
+STOPWORDS = {
+    "stock", "stocks", "share", "shares", "billion", "million", "trillion",
+    "company", "companies", "corp", "corporation", "group", "says", "said",
+    "after", "before", "more", "than", "that", "this", "with", "from",
+    "into", "over", "under", "amid", "ahead", "week", "weeks", "quarter",
+    "year", "years", "price", "prices", "market", "markets", "investors",
+    "report", "reports", "could", "would", "will", "just", "about",
+}
+
+
 def signature(title):
-    """The significant words of a headline, for near-duplicate detection."""
+    """The distinctive words of a headline, for near-duplicate detection."""
     words = re.findall(r"[a-z0-9$%.]+", title.lower())
-    return {w for w in words if len(w) > 3}
+    return {w for w in words if len(w) > 3 and w not in STOPWORDS}
 
 
-def near_duplicate(sig, seen_sigs, threshold=0.45):
-    """Wire copy repeats. One Berkshire headline is news, four is a pile.
+def near_duplicate(sig, seen_sigs, threshold=0.35, min_overlap=3):
+    """Wire copy repeats. One Berkshire headline is news, five is a pile.
 
-    Containment rather than Jaccard: four outlets rewriting one story share
-    the entities and little else, so overlap against the *shorter* headline
-    is the signal. Jaccard scored that cluster at 0.25 and collapsed none of
-    it. The trade is that two genuinely different stories sharing most of
-    their short headline can merge; capping items per ticker and exempting
-    filings keeps that cost small.
+    Containment rather than Jaccard: outlets rewriting one story share the
+    entities and little else, so overlap against the *shorter* headline is
+    the signal. Jaccard scored the observed Berkshire/Alphabet cluster at
+    0.25 and collapsed none of it.
+
+    The two thresholds do different jobs. The ratio catches the rewrite;
+    min_overlap stops two short unrelated headlines merging on one shared
+    word, which is how a naive ratio would fold "Intel prices $20bn
+    offering" into "Intel CEO acquires 105,263 shares".
     """
     for other in seen_sigs:
+        shared = len(sig & other)
         smaller = min(len(sig), len(other))
-        if smaller and len(sig & other) / smaller >= threshold:
+        if shared >= min_overlap and smaller and shared / smaller >= threshold:
             return True
     return False
 
@@ -276,12 +307,30 @@ def score(title):
 # ---------------------------------------------------------------------------
 
 def get(url, timeout=25):
+    # Accept must not be XML-only: data.sec.gov serves JSON and answers an
+    # XML-only Accept with a refusal, which is what silently emptied the
+    # filings for every ticker on the first two live runs.
     req = urllib.request.Request(url, headers={
         "User-Agent": UA,
-        "Accept": "application/atom+xml, application/rss+xml, application/xml, text/xml",
+        "Accept": "application/json, application/atom+xml, application/xml, */*",
+        "Accept-Encoding": "identity",
     })
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read()
+
+
+def describe(exc):
+    """An error a future run can actually act on.
+
+    "HTTPError" says nothing. The status code is the difference between
+    "fix the User-Agent" and "fix the URL", and this only runs where the
+    logs are the only diagnostic available.
+    """
+    if isinstance(exc, urllib.error.HTTPError):
+        return f"HTTP {exc.code}"
+    if isinstance(exc, urllib.error.URLError):
+        return f"URL {getattr(exc, 'reason', '')}"[:60]
+    return type(exc).__name__
 
 
 def parse_dt(raw):
@@ -441,7 +490,7 @@ def collect(ticker, now):
         try:
             fetched = fn(ticker)
         except Exception as e:
-            errors.append(f"{label}: {type(e).__name__}")
+            errors.append(f"{label}: {describe(e)}")
             continue
 
         for rec in fetched:
@@ -524,7 +573,7 @@ def main():
         try:
             items, errors = collect(ticker, now)
         except Exception as e:                       # never let one name stop the run
-            items, errors = [], [f"collect: {type(e).__name__}"]
+            items, errors = [], [f"collect: {describe(e)}"]
         if errors and not items:
             failed += 1
         payload["tickers"][ticker] = items
@@ -691,10 +740,12 @@ def dedupe_selftest():
     """One story told four ways collapses; two real stories do not."""
     bad = 0
 
-    cluster = ["Berkshire Adds to Alphabet Stake, Buys Homebuilders",
-               "Berkshire ups Alphabet stake under Greg Abel, making it a top-3 holding",
-               "Berkshire buys more Alphabet, which becomes its third-largest stock",
-               "Berkshire boosted Alphabet stake by 83% in biggest buying quarter"]
+    # The exact five headlines that reached the page on run 2, unedited.
+    cluster = ["Berkshire ups Alphabet stake under Greg Abel, making it a top-3 holding",
+               "Berkshire Adds to Alphabet Stake, Buys Homebuilders and Exits Constellation",
+               "Berkshire boosted Alphabet stake by 83% in biggest stock-buying quarter",
+               "Berkshire Hathaway expands Alphabet stake and trims bank exposure",
+               "Berkshire Hathaway Inc Raises Share Stake In Alphabet Inc To 27.4M"]
     kept = collapse(cluster)
     ok = len(kept) == 1
     bad += not ok
