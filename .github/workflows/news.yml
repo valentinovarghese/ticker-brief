@@ -55,10 +55,15 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add news/index.json
           git commit -m "news: refresh $(date -u +'%Y-%m-%dT%H:%MZ')"
-          # The daily brief pushes to this branch too. Rebase rather than
-          # fail, so a refresh landing mid-publish does not drop either one.
+          # Always return to the branch this run started on. Hard-coding
+          # main would mean a test run on a feature branch pushed that
+          # branch's whole tree over main.
+          BRANCH="${{ github.ref_name }}"
+          # The daily brief pushes here too. Rebase rather than fail, so a
+          # refresh landing mid-publish does not drop either one.
           for i in 1 2 3 4; do
-            git pull --rebase --autostash origin main && git push origin main && exit 0
+            git pull --rebase --autostash origin "$BRANCH" \
+              && git push origin "HEAD:$BRANCH" && exit 0
             echo "push attempt $i failed, retrying"
             sleep $((2 ** i))
           done
