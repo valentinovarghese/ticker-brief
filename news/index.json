@@ -1,22 +1,1630 @@
 {
- "checked": "2026-08-14T20:58:13+00:00",
- "changed": "2026-08-14T20:58:13+00:00",
+ "checked": "2026-08-14T22:04:23+00:00",
+ "changed": "2026-08-14T22:04:23+00:00",
  "window_hours": 48,
- "seed": true,
- "count": 0,
  "tickers": {
-  "AAPL": [],
-  "AMZN": [],
-  "TSLA": [],
-  "PLTR": [],
-  "MSFT": [],
-  "GOOGL": [],
-  "HOOD": [],
-  "NVDA": [],
-  "INTC": [],
-  "NBIS": [],
-  "MRVL": [],
-  "META": []
+  "AAPL": [
+   {
+    "id": "73e75de917a17707",
+    "title": "Apple Stock (AAPL) Opinions on Recent Earnings and Analyst Downgrades",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcklzbDJOSGJNeXFuWXV2eXBRRFByNURtS291M2QtUU9kYkdiRjc5OEJuTlRSMmlaY0tvM1ZZM0tjcVNMTGs3MGItMHhMTjgta2tZQUw3YWszakdoLXhicmJSTlg0RkNrdWl2MHFxaGFuaU1TZlhYbDBYZFBtZUcyQ2NvYWdtWTlKSHlIOHk3dmRMOW51dDh0ekZhMFQ0di1xb00xX1ZuNDNWdw?oc=5",
+    "source": "quiverquant.com",
+    "published": "2026-08-14T14:06+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "007c103be061f025",
+    "title": "Apple's CEO Tim Cook Visits Houston Foxconn Plant Amid Manufactu",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOa3prcHRQRC1HSXdtLXFTMXNyS1pyM2xSQWNMYnk2NG1uZGtrYlU0WFIybGJXQ2t4ejFvNDVCM29hUkM2UlFOOU1fOXJBTXRaWXZtbDdWOVlGa3l3akp2MkhFR3E0OTZ5aXZiXzFVcW1mUmpRNk5SMFFqWTZQNUNZYllmZjhGYXI4NlBaM1VyakRfT0NBWXlGTmlCUVFhWkVqcDNOOU1RazlDYURGWktHUzdSelpWNmc?oc=5",
+    "source": "GuruFocus",
+    "published": "2026-08-14T11:54+00:00",
+    "score": 5,
+    "tags": [
+     "operations"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "0b5b7e59f2e800fa",
+    "title": "Apple Develops China-Specific AI Model With Alibaba Support, Reuters Reports",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRm5TTFhzbl9hMmJfVUJ4V0ZVOG1wcHFBWnAwTTU5cERUX3NhWlgwMUxiYnVxYzNXQ2RLelFFRWlmbGc5YkhaUXptbmJ3bFlqVUpIZ3VmcjlSejFMMHB1OUVBbDZqQzh2bm1BM3YxVXZIYzhZQ2JoS0FES092cEtJeUgzOXRfcW1lOWl0WUlrUkZyZ1hPTVpROUlibVI?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-14T10:14+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "0b0d3fafbbcc98b5",
+    "title": "Norris Financial Group LLC Acquires Shares of 31,633 Apple Inc. $AAPL",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTGl3bUVqMFZKeUNwdHhJUi05S3Y0R0duQVlpeVBGekJOUHB2cGRDUU9vRVB5V0wtbVRTY1ktcFhhYWI3bXNucUl2MkdoaDdLamdKeHZ1RkRBME8tLUV1UUFzVFJUWF9FNzVnMUJnWmN3Z0dTX1hjQlRlNGFoaDltR2FlbnZtSFdobkw0NnBYbDUzejdiOXVQS2RNOXFEbHl1RGlDeXpyVEt3dTNqb1BaM084VzFBVlk4cTlwS3g3ODZhNHpoQmc?oc=5",
+    "source": "MarketBeat",
+    "published": "2026-08-14T09:11+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "3d7dd71c6faf79fb",
+    "title": "The Best \"Magnificent Seven\" Stocks to Buy in August",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaGRuQUlPeDBUbGx0OHdDbGRLZGxGWjBZUy1DdDhXb0p3RENEVGFIN2RzazVIc1NRdmhFZ1V2S3pDTG9pUnc4UHJZM0FTRUNVU2ZZd0VEblYzYTJYWjJGaE9QU1BVdWJac0doV2hrUS1WWWVKNGtHb2VBc0dVZUpTcUlRZEtkSjc5dU9ySWlkYV92NVducnFwUA?oc=5",
+    "source": "fool.com",
+    "published": "2026-08-14T08:30+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "1a1a207f1da24aa8",
+    "title": "LG Innotek Reports Record Revenue from Apple (AAPL)",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYndnUzMwbXhBeUtxSnlBOXRwa3JwTmlpUGpRMlROaXBOSFU1SjRpYUdFbi1sWlRKWXpVbVVwcVUwZ0d0aGQ4YWdnOEpuTW5VYXFOQnJfRjdpNGFwTmNOZTFCVFNqMjJrTlh2b2xjRDJUOWJGMEYxMS12cVF6NjhnWjUwY3l1S08wMVJucEJTbzdyZw?oc=5",
+    "source": "GuruFocus",
+    "published": "2026-08-14T06:59+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "f8eca794659bc6f0",
+    "title": "Trump Wanted Advanced Tech Made in America, Tim Cook Brought Mac Mini Production to Texas: 'Thank You' for the $600 Billion Commitment, Says Howard Lutnick",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBuNExpYkxWSGk0Q1RJQ2NwTndGMVMzcDZPMERwbXM2VnRjMkJkT1kza3pHaWh4eHF0cEtNbXhsV3AxYXVPZnVjV29zQndkT01kM1p3NU1ibDJfX0xyU3dQTzBkWXlZS2h3?oc=5",
+    "source": "TradingView",
+    "published": "2026-08-14T02:07+00:00",
+    "score": 8,
+    "tags": [
+     "operations"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "ff1b0f75734e20fc",
+    "title": "Apple (AAPL) Faces A Valuation Test Following Earnings And Product Roadmap Questions",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSlg0ckc5aDNSVjg0WFludkxRT0NVZWJnbjJxZG43b2UyRVR0M1NnS2RNZDNMZDJ4R0ZfYTNyZjFsdEIxYWloejdwcjRqS3lyODNvaEJfTjFSc2JpVDZVMWhSUlhDdE9YQkVkR1BTU0t0QVZBVkRPNmFhTWs0eWgtYVV2TVM1Q2tTNXYxckV5bXdSLXM2Qzl5X243OEhsR081QWNjS2oyVF9YZk91NUtyUklCSEhlcHBPSjR1ZdIBwgFBVV95cUxPaVVtZUV2cmNwQV9pclNWWlFqWTA2cnhzS3R4Y1JPODlINVJZcVYzcGdXS0ExbzRiQ3hOREhOVWVKYWpWLW9vb2NWeWwtR3MtMTJFV2FPNmQ4MlhQVzg3TzVDbzBabllRWm9RLU5iMXpSZGZPZFd2ZGkzQTNmSGJmZ2htY0hyNVJtVDJKa3JRa05VM1dRdmt",
+    "source": "simplywall.st",
+    "published": "2026-08-13T13:46+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "afeb47b33333e7c0",
+    "title": "Apple Dropped by 5% After Earnings. History Says This May Happen Next",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZDRxaHhrbmxyRU9nNEZjaDM2LVU2NGFpb1RyT2dGN200aWc1V00zaG4waUdEUUNaQzUxMzF1OV9hTFM4OUl0QUo2angyVktCcFhxd2JUdFZiY1ZuNFZQalpVS05nOVZ6SmtlMWs0bGVmb0ZsNXA5QzlPMVp3cmRCb2tLMERXMUpKM1E1Yld6YWRfV3RJTmZLUWJvZ055dw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-13T10:50+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "e7a1858566c6c46d",
+    "title": "Leaks Reveal Internal Debate Surrounding Apple’s Reported “iPhone Ultra” Branding",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNV0dzRHNIWVV1eEpZMXZHVWhodnE1TTRaX2tGVTlxU2R5bDBBY3JlV0RPZ1Fna21IeU5jZ3pHY3NxbEV6MlNWVU5CQ3J4T3M4M2MwUXdGY21pczFCUmJUQkhOS3BTRW1oZVc3cUUwaHBFd2I1UEZlZEphOGJ0OWZZTU1HOXo?oc=5",
+    "source": "hypebeast.com",
+    "published": "2026-08-13T10:30+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   }
+  ],
+  "AMZN": [
+   {
+    "id": "e730e84da06ae84a",
+    "title": "How Big Tech’s Earnings Are Inflated by Other Tech Companies",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNN1lvQVNDelc5YXJQYjBQVkVaRmVtdFlvVExLejM5YklKenRiTUFsVkR4UFI0SWV4dkJJczFvN0F6aTBUY3pGa3pqVzVBRjhQWG83alQxNEdfSXpFVE54WTUzLVB1TUFNZUpxaXJvaDdxU01GN0xJck51Y2EtY2h3akQyUDhRdFlmRUZmNlZGYlRROUU0amJiM0Z6NFpSbHA2U2NaSEU5VQ?oc=5",
+    "source": "WSJ",
+    "published": "2026-08-14T22:00+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "a9aa4e8a95fe6d81",
+    "title": "Joshua Kushner's Thrive Capital discloses $215 million Amazon stake",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPc0FCdTI1SGh5eDRUY3I3MVF3amRXWU1aV3RrWC1kM01zR0Z6WWl0cGs4Rmk0U3lfeVpOU2FkM081ZUNHN0hFa3c3U0FuR21nWVJ5MzZyMWlxRWUyVG1mTzVSMjc4VWM5ZlFtbTFCbjM0dFdvbXlLeDFXOEJQbDU3MUhGSm9WZlpBTTFnY3FPNDRDRXBxbjFCT2pZWVZKM0VkMTd2dVloQ19SdGpCamJn?oc=5",
+    "source": "Reuters",
+    "published": "2026-08-14T18:29+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "298d0115c749cf6e",
+    "title": "Q2 Earnings Season Enters Final Stretch: Walmart Headlines Upcoming Retail Earnings",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOVlZHbG9zRkhaS2Zydy1BVEVxajBrOVlLbEJKaW9iaVlMUFV5d2Q5Yi0xSzZNd3F3SWktOTlnU2ZNazE3dmw5QjFrNzZfeTNTYjJGRjF6aU1RVU5Fc1IwVjlIbFlhVzJrWTVzLUhrMEFENnJiRjZUc0tmeWZLMXNWamF1Y2w0Nm5QTWxENWI4dUhTY1lqcjBScnQ5RU4xR21zcXlXQkdiaEh4dGdUYm9Cai12Q2hsSy1TX3pYV2JBUGw5OFAwLUp4aVZncFBIcVdjRXVMZg?oc=5",
+    "source": "TradingView",
+    "published": "2026-08-14T17:38+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "fcef7b614ffdb5df",
+    "title": "Rocket Lab, Amazon Win Space Force Contracts. SpaceX Closes Cursor Deal.",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNS0NkdWdjSDhvd2MwUzUyenJUb3BBMTZSUml1U2Zrb0hBTFAtVEFOcWktdDA3N0tfRG90RHVSN195LU5fYnZxUHJqbHY4aWJxRDRXQmYyQnBla2lHcmlqR01PVmgtZ3ctV1FsajBkallCY1BSbzE2UTNiMWFWc3I2bllsNEI4akgyenhDNVZ4RzlBS2lPeHo1WjltWVJDZTZoTGlvX0d1MA?oc=5",
+    "source": "Investor's Business Daily",
+    "published": "2026-08-14T16:22+00:00",
+    "score": 5,
+    "tags": [
+     "contract"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "0fac5289606c4710",
+    "title": "24Q3 Earnings Preview & Key US Stock Market Events: $META $AMZN $NVDA $NFLX $GOOGL $MSFT $TSLA Gatineau (lJBOkmCoqD)",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IOU9jYnNPdnVUb2JYR1M3VXZzSGt6R1FVRy1neXVQcmZ4a19qcUJ2YnRjOGpZcklpaERtQmtUZDR2QzYyazYxWkVPVFdncDF3Z29aUjNaWmFTQQ?oc=5",
+    "source": "mshale.com",
+    "published": "2026-08-14T16:00+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "67fb6af84a6289e6",
+    "title": "Amazon and Alphabet Both Cost More on Next Year's Earnings Than on Last Year's",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOY0VxaGpLOWZCbHZyV0tzbTluWmNWeG5nSm1RczFfY1BodWQyQWd1NWxGbG1wWlJIRUdoRE4zRi10aHdqaXMxeTdKWTVzVXpvYkdOMWNoRVQ5ZDYwQkxwNURDOTVSM2FHUW95bm91U1hGa3RGYklWRE83YkpsbHlnUTRKRGJvb1ZTMEJub200eGtzWHZWU29FZ1p4TQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-14T14:58+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "fc6e2f86d0a7ea6d",
+    "title": "Amazon Earnings: AWS Growth Eases AI Spending Concerns",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZlpOSExSZHdOa250V1B6bTlTWFVRS19sUXlCc0MzWG9ud1BhdkYwTmRYdW9BZExGNWRwR0drNWZ3dGJQQTBpbWZKbS1OaDlTN1ZYWG1tcThTcFhUTG1kVWZ3TG9EbEZqQ1c0NWVIZHBDNURicnVGeWZCQlF0WFBxNjlCaU8xbHhOenk0SnBCMUYya2RZQzJGSmFaMA?oc=5",
+    "source": "equiti.com",
+    "published": "2026-08-14T10:57+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "13959498d42a0aa5",
+    "title": "Amazon Grew Revenue 20%. Here's the Only Reason I Can Think Of for Why Amazon Trades at Just 22 Times Forward Earnings.",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE93RlliMVc1dDZ5Qk42QjR1YVJfRXIzM0pMMHhDQl93NmtBUTVmMXpycWpQS1lPQ3RxQnZ4TGlTdkt0Nm5FZzNmUnpUWURsNGxydnVwaGVxOTFucmxkNy1LdDNMaDhmMTN2cFpGMDVfUWhuRDNRaXZOMWxBaTc?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-14T10:36+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "d7a857ed962101fc",
+    "title": "Groupama Asset Managment Has $202.47 Million Stake in Amazon.com, Inc. $AMZN",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcVZHTlpmREtUaHBxa2VNN19raDh4MXh2ZGNiZUc2TnlDMUFRU2lUa3Y4T1ROVzk1ZHdVRkx3dVVTUHJjUGJfN2w1M21YdzlYcEhoT0tRX1pJVHpoVndlYlpyWUxBS0RBRGpfSldQOEhJRkl0aHZNOXM2Q19lM3hjdFdvV3BWU192RzJDR1k5ZjlZUXF3aGszNF9ZRFVKWlM2UDByZGVKUFBaRE5CTWJTSlVvRWVVUjdiSXMyX3JfYUJnZElGQThPSGtnMA?oc=5",
+    "source": "MarketBeat",
+    "published": "2026-08-14T09:14+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "3d7dd71c6faf79fb",
+    "title": "The Best \"Magnificent Seven\" Stocks to Buy in August",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaGRuQUlPeDBUbGx0OHdDbGRLZGxGWjBZUy1DdDhXb0p3RENEVGFIN2RzazVIc1NRdmhFZ1V2S3pDTG9pUnc4UHJZM0FTRUNVU2ZZd0VEblYzYTJYWjJGaE9QU1BVdWJac0doV2hrUS1WWWVKNGtHb2VBc0dVZUpTcUlRZEtkSjc5dU9ySWlkYV92NVducnFwUA?oc=5",
+    "source": "fool.com",
+    "published": "2026-08-14T08:30+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   }
+  ],
+  "TSLA": [
+   {
+    "id": "7c9e18acde9933f1",
+    "title": "Stock Market Today, Aug. 14: Tesla Gains on TD Cowen Buy Reiteration and $460 Target",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOS1RDOTYwQnF5WVdKRTYyMkt2LXQ5dndCMDZFSFVxcHdCREd6VUVXTWtlY2NISWpzV1IzVjdaRFJkRkgtTnI4azQtR1k2NWhYWUZuNWlSajZzU2plWUwyQVFkSWp6ckU0S3lFNG9kSW1JRVN2eDBtOE0wQ1UtMUlhMHdtQ0NyazlQSllZU2ZDVkM5U25BU1JBaU5OVTRleXNVbGRfQjNjRll2aVVUOU03RXBDckZXd29DdmxHZi1PS29tNjhFajBMMzhUMlpyWVNUdk8wcUtWSF8?oc=5",
+    "source": "fool.com",
+    "published": "2026-08-14T21:19+00:00",
+    "score": 8,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "f353e19df9924883",
+    "title": "From ‘Math Won’t Pass Muster’ To Full Expectation: Fund Manager’s Dramatic Pivot On TSLA-SPCX Deal",
+    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPc243M2M3M0VpbUlGMXE3Mk9FVk1sV3MtVS1jVW13SVA2eWsxZl95UVpFN2JieldFZWhxV3pqVzlEQ0g0TEh4WlB3dm5lWEFVeUtZeGdBZXJadG5KMUJyc3hhMDRZN0UxOUJfaDBxN2hIejZsRVhmeThZTE1XLXh5SmZjSzV5RnhnaDZNSXlkNVRxVUVMa2l2QnJuc29DUWtZckdpTHo2X3VBaGhkV3NxcVVub2puYmotWFN2NVk1RHg4c29LU2Nnd1lDMVloRm45ckM5UTZuRjdQU3g1cTdHMlBnRnNHNkpRYVVldA?oc=5",
+    "source": "TradingView",
+    "published": "2026-08-14T17:08+00:00",
+    "score": 5,
+    "tags": [
+     "contract"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "ce6e185dc43dbcf0",
+    "title": "Tesla’s (TSLA Stock) $10.1 Billion Solar Factory in Texas Signals a New U.S. Manufacturing Push",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUFdJbTRLWEZrajVmcjNRS0Q5NEZTUTFhbks4UTM4RHVUYW1jR2dSMXhmLTFWb05xT3dPVHhuTU0tb3FDX1J0bEh6Q1JpSkRIRy1CODVWZFpZNXR3NHFWMkZRcVFKNXBJTkJ1SXU1M3lQdXdOLVF0NUJodTJQLUhsa19B?oc=5",
+    "source": "CarbonCredits.com",
+    "published": "2026-08-14T14:15+00:00",
+    "score": 8,
+    "tags": [
+     "operations"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "85bc849d955c0821",
+    "title": "TD Cowen reiterates Buy on Tesla stock, cites AV market positioning",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZGxFajljaWpESnZld1ZqYkFGRTFESElmeWt0WFJrZnVDR25iVGhQOGh4S1F1RGgzbFR1Qlptd3B0ZTV2WVRsS21TQTdBdjNHUENvNmxrc21ZaWczZmktRE1Kb0JYS2VTVjBGcHhNN1ZsWTE3T1RJMGRlcXZsRWdWNi1ZUUNlRHNOYjJ6cXpGUjY1ZXM2RjBaMGExS1lJNERSUE5XVlFMSXJoWW5WN1BneVlXOXIxeERtdzh1UFNGZ2R2b2tU?oc=5",
+    "source": "Investing.com",
+    "published": "2026-08-14T14:06+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "f9392505ab2e9e97",
+    "title": "SRS Investment Management adds bullish Tesla call options in Q2 2026",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPUkR0SXZsWTd0YkJJLVVWQTBRUDVVQXVhMjlKbkV4a3dWbmdtRVhvblFXeG5uV3BWUGJNcUlsamdRRXNLQTJJamh5QmNPR2pEWFFjRjdEdG1fMmxadC1WSlAtdnZ0X1ZZdS1PRkFFTE1VR29JeTdOVC13dmZpYjk0ZFdCY2dYWE5wM2tsRzRjQlNnbU1NMjZSV3l3bk1YU09TbjlicDhKc3JLUnR5ZXU1ZlZ3cUdWMEo2ZnhwRTNhNjlQMVA0ZTZmUm42SWhxYkZYbll4VEQ2b3Q?oc=5",
+    "source": "24/7 Wall St.",
+    "published": "2026-08-14T13:24+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "ae19033b1b2404b6",
+    "title": "Tesla Stock's Fragile Recovery Continues After Earnings Sell-Off",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTXBlRThDNUYxNDducG5iTHpVTXZGUkRVUEVuRDlsVWFJMm5FaWVHQTN6QWFuZW56LXpuQjRnRG9jY1RxdWl2ZmVtU2FQWUVsODZUWWpDM1JNcXBjUlNsX2pfdl8yVF81aFdnVW1ONzljZG5vYkF4ekkycWhGb3RYM2VOUW85VmVxM2c?oc=5",
+    "source": "Investor's Business Daily",
+    "published": "2026-08-14T13:01+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "b978634bc782cae1",
+    "title": "Tesla's Swedish labor strike 'no longer has any effect' after company buys out striking workers (TSLA:NASDAQ)",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQT1FxaHN3QWl4MzNMUDRDLXQ4R1F5cVhoQnVDc2FMVURIVDdaRDlZRDd4QzFuQ1VrWkVTek1iX2NscWt2VEhkYldsSHVWcFlwNWdnSXdlbkpWOXR4MWNfa212YlFRNDhETXJBV0pLeVZoX0lGQ2V5YjROSWZlbnZoY0RaUWVxbEZZazRnQzRDaDV2bzNVVzJIOE5rOU5PeDlOSmZHc3lXMzlpR3BNVEVhRy0yd1RTc1J4N2xael9HbDVWREoyTkdsUlp3?oc=5",
+    "source": "Seeking Alpha",
+    "published": "2026-08-14T12:58+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "6a514630956f0472",
+    "title": "SpaceX May Buy Tesla, But Its Own Stock Has Fallen 50% Since June",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB5X0czNl94TWRXcVpGVDJrUC1EUkxEa0pUVDNQdklFcXhNQVFOY3BlNGRVYWRYNnNnREE1dXF6bDdXY3JBaHZhbTNXcEJ5ZFRFNlZNekk2eDY2ZTllOUZVNHRBa1VuMEM0RS1TZ1Ewel9FZWhSUk9N?oc=5",
+    "source": "Yellow.com",
+    "published": "2026-08-14T11:59+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "92bab1ff5285ebe6",
+    "title": "Tesla, Inc. $TSLA Stake Boosted by Howland Capital Management LLC",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdUkyeFhmZGJJQzlLc3E1OE03enl6NlBNRVdBbTZZcWdCa2hsVzVVX1R6S2JRUW1CRTlqejV6X1dDODU3d3VNQkwtSGx1bFJRUHRaWExZeFY3SURibDVXVDVJZmZQbkRTRWhBcm55bkk1b1dOLWFpbjNxTFRTbzNId2hObnlra29CR09TUGt6VzBVNFg2QzFqRWgtRUgtdjhncjh0N0JjLUhCTXNxNkp5S05yNUw4eE4tS1AwVy0zcE0?oc=5",
+    "source": "MarketBeat",
+    "published": "2026-08-14T09:23+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "3d7dd71c6faf79fb",
+    "title": "The Best \"Magnificent Seven\" Stocks to Buy in August",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaGRuQUlPeDBUbGx0OHdDbGRLZGxGWjBZUy1DdDhXb0p3RENEVGFIN2RzazVIc1NRdmhFZ1V2S3pDTG9pUnc4UHJZM0FTRUNVU2ZZd0VEblYzYTJYWjJGaE9QU1BVdWJac0doV2hrUS1WWWVKNGtHb2VBc0dVZUpTcUlRZEtkSjc5dU9ySWlkYV92NVducnFwUA?oc=5",
+    "source": "fool.com",
+    "published": "2026-08-14T08:30+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   }
+  ],
+  "PLTR": [
+   {
+    "id": "f7599cde8f547c8f",
+    "title": "Palantir Just Crushed Earnings Again. These 2 Legacy Defense Stocks Are the Cheaper Way to Play the Same Budget.",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU3dkVEI3bGtCdW5MTVpGQVpIT3dSTlhVVk80aG1CMjdlbjBQR2ZCeXdCUGpZYzNnbGpfTlJndGhTNjI4SXdtd0N6OE5CcTgtSFdIbDZGQ1BWb3JHM19QVXlmdTJqS1dGeVRqMnE1NUxoc2ttOWRXVklhWk9TQ0JHWlFZZS1xMEk?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-14T18:12+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "7f059893f9c39da7",
+    "title": "Cathie Wood's ARK buys $28M in Cerebras, trims Palantir and Shopify",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNTI2N3RZa2RhY2tsYWw0a3Y5dFU4aWJPeHNUejg2NnN5MklRUVdzMEdhZ2ZMSUoteERRRlN4bGVEaHdtZFdIeHZWYWNRTHREREd0TlNjZTNWUDVwa0F3bnVZT25ueF9mRFA1eVRQNTBIUlhjTkdpbnRITXZIV19fVHZIaVl4TzhEa21CMXhtMkhvTWVaZnR6Tml3SlJxQnZk?oc=5",
+    "source": "Dealroom",
+    "published": "2026-08-14T14:33+00:00",
+    "score": 8,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "6ae4fec568d4036c",
+    "title": "Palantir posts 93% revenue growth but shares re...",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRUVWUE5vTkdxSUlYYXAxVHluMDFCTmFlMFhJbEg1WHFKVDZmekNEVmk3dEkxUGl1dVA5OXVfbk1zV01RcC1rZFNSUlpMN3o1Q0g2eE9hMERkTEJmWW41QkJEOVdhdUFOUW9wRlhTQUhXSlNtTERZRThqTmxTYnVNbFE2OXFDMEVnU1FJ?oc=5",
+    "source": "Pluang",
+    "published": "2026-08-14T14:28+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "e4244ae289eb3c40",
+    "title": "Palantir stock holds near record highs as AI-fueled Q2 surge lifts outlook",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPai1EcHlpUnZ3YUZLeW9hSHF1ZXcycGpnYmI2bUxFbmJOYm1nOUpISndTMWUwb2tWOGhVNkU1RzBlb3otWTgzaVhBVkRhSkZPRUZtWkFTWXl0R085aThVMTJwaUJ1VkRRSEhYdzl1V2NGdG9OU2d1N1RUcXlaYjhmX0o2OWV3aVBuS1pPSnpMczUxcVA0VUJPVXlqd1VxQUc0UVdoSkUzbUt5S3paVkRFVzJ1T3QtSm10TVJ3SEZwUl9kX2pEdm1YRVg2dExNV19sUGVV?oc=5",
+    "source": "AD HOC NEWS",
+    "published": "2026-08-14T14:26+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "9eb8c910e89745a7",
+    "title": "Y Intercept Hong Kong Ltd Grows Stake in Palantir Technologies Inc. $PLTR",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZ1VyUkxLcFpLSFc1c2JuMERHay1yejJGeVFQdkNGN3FSVXZHSnQ2cWVEdE5tWWk4UFRCa2k4LTZnWG1HR01NNnluOGRxOElPaWVrTmVXcTRKYWZNd09USzlsbEhOWDVnb1FhVzNwUjBTQ0NoTWtTZ3RLMWJCaGZEaURXTTRrekhRV21mc1ZsVzZmN3VOcEMwWTcxcl9CakxPVENhRG9NcU0ySDloNkkwRmdQbnhWaVpqUUdSSVNBa0hHNjZsdXowQVFjNFc?oc=5",
+    "source": "MarketBeat",
+    "published": "2026-08-14T11:10+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "a560c3fef346f734",
+    "title": "QRG Capital Management Inc. Buys 19,925 Shares of Palantir Technologies Inc. $PLTR",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNVVA4eWgxVzMtbkd6MGVMNHd6T0hDUGcxc0JyTXNxcHhTanNNeWF2YzdLMTlRZnJXNXJNYW1FTU5RczBJSkE0cDNMRVc3MFdhS3ctZ1UxSzF6RXg1bHFHREJIUWh6Y195YzlVTHBBRERlemE0eTIyYVV6OEk4NG1HaWdHSUdDY19YTGRwaVRnQ2tmTVVMYlNVTWdWTkNWdC1kM0lnaXNIeHZoUWEwckJGZjNCM0ZSSVB1MElnMjJhb2xPdTh4UjlrSTJCeE5hcVNucmNFRW9R?oc=5",
+    "source": "MarketBeat",
+    "published": "2026-08-14T09:49+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "14ca11883c6f46d6",
+    "title": "Can Palantir Stock Keep Climbing After Its \"Otherworldly\" Earnings?",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQTkzMTNaa0tNX1BmZXNxaS00WjRjQWRQdG1ZRXYta25Pd3AxeklOWUxENjlaeDg5R290b0JHZGNGMnBlR21OTElTQmVDbmhnRi1aT3N2QjJ1aE1VZThKak5yVTlwa1d1dkJzNndnd3hLN0ZqNE9sMVB3YVEyTGtWSUw4YUFmTXJ3c2JoVndB?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-14T06:41+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "14cd059a0aabcd28",
+    "title": "Cathie Wood Sells Palantir Stock After Blowout Earnings, Ark Invest Doubles Down on Cerebras Systems",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9WQnk4djZhdEpFV0diOF9laFAyOXhFYUhqdTBJSHkzQ0c1UHQ5bjZCc1AwMFh2TldrRHNJRDRPYV9BX2RYek5NdU5QTjA4WUhHSjZVQjJfTFU5MTQtNU1jLVBQSWQ0UnJv?oc=5",
+    "source": "TradingView",
+    "published": "2026-08-14T02:30+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "d71e2599ce532dd6",
+    "title": "Revenue at Palantir-Backed Ondas Rises 1,236%. Stock Falls as Losses Widen.",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWE9iZG93RlFUVFktczQxNFkzV2dnZEV5cGlYRHJTSDd2NVJqaU9WUDZWVkpUMGNndkp0bmY2OHFHMk1kUDRwcmx0UlV4TXl6eVNvcWJzbUM2dHdiQVlDLTJvMUZXVHhnT2NMcmZPNHlXdGF4TWNScmJXcE10QzVRSFdHdw?oc=5",
+    "source": "Barron's",
+    "published": "2026-08-13T18:33+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "d8e98b6d69a8e0b0",
+    "title": "If You Invested $10,000 in Palantir Before It Released Its AIP Platform, Here's What Your Stake Would Be Worth Today",
+    "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNQ1dWV0FOdlJ4ZlZ4cUl0QnNBeTktSXpuaW1FMzI5bFJwZ1lUa0gtZmlpdVVYY2dMNjlrLWhHZXZfcVFPa21USHp0QzVfcGNGT3JqNU5rRnBPenBVRXVjNlRxVWJENDJsSnlaSXRiNjNFZW10MWJkY2N6ZElDY2xpOERHamdGMTdFaXByV3EzSndMbjZ4MmY5ajcyVmM3Vk9LdmtSdkdYRE9KRkpsbGRoTXdRY010T2gxWXd1bGpmVzIyQXh6bHplcnl2dFkxM1ZPcTlBRTlxdmpfVmx0MG5RX05pdDdZeWhINW9QR1EwalRsUUpub19PcE9qWTRTTWVraDBuSnpIRmVELU5IU1AzdTJtbG1zc1BUVGxzSHVNdG0xQUE?oc=5",
+    "source": "The Globe and Mail",
+    "published": "2026-08-13T14:30+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   }
+  ],
+  "MSFT": [
+   {
+    "id": "6a4064ae5312e959",
+    "title": "Sunbelt Securities Inc. Has $29.07 Million Stake in Microsoft Corporation $MSFT",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOdms0VTh4bExtM2lGVk1KdVphZUQ3c0hSbHhnSHdRUTFqci1WcHNYamRwd1JqdHJvZWs3MVkxczUyU1lMNmtLNlEtZUpaV19hZ0E0YmdObkpaWXpQNlM3SmtEeFREUENmVU40UnZiRTQxTWdTQVE3VmcwcUVCSDJhNWZiWUtTUi1mNjZVZzU4T0drQUpOLW15ZWdIaURCRXlvaDFtWTJTN1Y3SmJGWTN0QkhNQk1uVUtpMGpmN09qdFdiQzY5bVZidVpWU0JwdGxYU2c?oc=5",
+    "source": "MarketBeat",
+    "published": "2026-08-14T09:27+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "f40dff8728b076fe",
+    "title": "Guardian Partners Inc. Buys 2,824 Shares of Microsoft Corporation $MSFT",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdXJYb3lWaXJsYzRUTXJyQXRsYUFLOWtKWE5mT012cUpzU19Sdm03V1VSb3FlYjd4cmZpbkhIbDN5RHpUVXNzcXlyeXpnaExtYklDam9PMmhWNklKVGlUNmNLdWtnUmpNMDNhd3NnZ0dnRzg2aVlOeG5LYlo4am1obkhWdm9lVE9PM01mOTNWaXA2Z05mbUNYd3k1QUxpOTJJUFF6VUFGczFCVWJ5bkFuN3o0dlQ0QUJzY1RheHNHenVrSk5RTWY4MQ?oc=5",
+    "source": "MarketBeat",
+    "published": "2026-08-14T09:27+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "6064522061316b12",
+    "title": "Strategic Investment Advisors MI Buys 8,813 Shares of Microsoft Corporation $MSFT",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPeHljUGo5YlVCWkZiZENhU3NGZzJaNEZ3RjBjeFdxX2g2THJDV0NVSVZ5R1VnNlh1eThvZDRwQTB1TGJ5ZXhhcmxFLW1wWHA4aEJvaEZLUzIzcFZlY0VyMWNweXVTVzBZaERvYW4yYXRMTjJpTE1HaDhWM0x3M2JjMGpmMk5uLTFCZXBNcFpLSkp4WEdabmRTUVdJU3RqVjM5dTB2MkhWMnpGSWRUY2R6LUZrWFdEMnlGNzZfMEM3YzBLeHc1NU1ZN1ZNYUxYZjQxVVlnejNPUQ?oc=5",
+    "source": "MarketBeat",
+    "published": "2026-08-14T09:27+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "96a2650d0706b8d7",
+    "title": "Encore Global Management LP Buys New Shares in Microsoft Corporation $MSFT",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZUx5RXBnRG5MeDhDZThZZEpQV1BTc0lHbmZVZThhWWQ3QmRYenVJWmJVRmNmSThjZ0FpME9zbFdKUWdsbHNYNW5kVnI4YkI1dkZZYmQyeWpOVERYWVdpejNXVjRibXFEMnRWcHpsRUNPWVUwR2xmcFNqOUpFQ1ZYSDJjaU92c2hBb3lmUEMteWhjeWoxb2ZlQ1NpUVZoQTJxOUlfeGhtMDAxWVYtQ183b2JGWm5TMkJqd3Nub3cxNEtyWGJqaXVOTEJHTmtxLW8?oc=5",
+    "source": "MarketBeat",
+    "published": "2026-08-14T07:43+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "63defb743e8c126f",
+    "title": "Constant Guidance Financial LLC Sells 4,240 Shares of Microsoft Corporation $MSFT",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMm4ycV9OcW5tMDFfMW5ndDRJMjJheFAxU09zdVRhZ3I3YnFHZHBNLVFacVZJQXNCX0xUVVBuaW5faW8tM1FnMG5ZdGtvRUdRUE8tank3VjlBNVdjRWZFZDh5eWNteW0tMUZ1cjUwaVVXR2t1Sm90Z1lMZFZJWUJWbFhQakYxMGRnSEEyMTIxSHhob2xKcm1QUFZPNDRPcnJCdnZQY3QyUVJpVDVTMmNiZlotcWc5X3RrLTc4d1hRNXRaOWNxZVRxU1F1dHFXUDd1Y3owTHBtOA?oc=5",
+    "source": "MarketBeat",
+    "published": "2026-08-14T07:42+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "cb4d0daf333391ef",
+    "title": "EverSource Wealth Advisors LLC Buys 26,285 Shares of Microsoft Corporation $MSFT",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSnAzNGZGVWREZk9NSzRkMS13YjRiOXR6Rk8tXzlYcjRHdFJuR3pqNlVlRzBRTkktRllCTDdibnFlNW1TcXZyY1RyU3dxZ3NoRTBNbzVZTHJVWERnZmphaFhLYllHcnZqM28yeHVoVUJPYmd1eHNycUZaSDNRNHl5MVk4WVBvQ21qT3ZKTXlQUWNpTFdja2xLbHVCZWI1YVdoSUVWWVRXb0JMTFJJOTluZjZsZGRjSmU2RzI5R1J6OGJPZGcwbnZIU0VJaFU4dm54ZmRjVkJ3?oc=5",
+    "source": "MarketBeat",
+    "published": "2026-08-14T07:40+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "5cf79de0c8f2f20f",
+    "title": "Weitz Investment Management trims Microsoft stake by 16,250 shares",
+    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQU3JMRE5wTFJKZjFWWElxcDdRb29TRk1XMDEzLVY4bkotMThFUi1HVWVPUTBIekpfY2xyTXhETXQ5SFR3RFVDbmNiWVNod1pMZDRpUDVCeFNyTDJ6ZnhfNGNWWkZXckVxTUQ3dHlILUg0bVB2b3p2NVI0Q0ozUHlvVmlJb3gxT1cyWmpHaXJ5OC1FNmlFOGNldmk5V3NSS1VYZTBZamxGRjhmczJPanFpMzhaYVQxcl92Z0oycUxJWV9kRFc4SXVUeWdGMHNNU1B3MHBVYU5lYnRjdU1vbklxMDg1M0NHR2cx?oc=5",
+    "source": "The Globe and Mail",
+    "published": "2026-08-14T03:45+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "6aa633937e1549b6",
+    "title": "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYVpzSGhCeERZSFhpZXZ4N1p4eVdHYVZJY0dSQ2V4WUJpaE55MGFuT1Q5ZVY3VEk4SGExYTlaWVZWUUZQYkdKR0tFeGRUNi0yblZyRW1COXVzTjREZGNKMDJfY0hTcENYb2x4UnhGODMydDI2aUtCTlpJSmJ6QkpMbGcwbXNYNXVoaHpKTEZwbF80SXNEeHVOR29ROVFLOWZCSVhYQVY3QXFNZw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-13T17:58+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "10dbcf7d007e1dad",
+    "title": "What Dip? Why Microsoft Stock's Post-Earnings Momentum Is Set To Continue.",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeGxUalhndlFpRVBIQ3JyUFphcm5kcXhnNUZHMUdzMkltYTMxTlQ4ZWR2ZlJxSnJyRXBpNUFraVZ6aWpUOUhBb1paX1FQelJkN2tQa1lqMEhfZUliSVJ5UkhpenNrWllpZjdTZll2akZuN0k0YzFwUTNSeHIxNk45eVNUeWZnR21HMmdvMmZkSGVWWkZs?oc=5",
+    "source": "Investor's Business Daily",
+    "published": "2026-08-13T16:53+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "8ffbce592552503b",
+    "title": "IREN Jumps 10% as Microsoft Accepts First AI Data Center Under $9.7 Billion Deal IREN Stock Jumps As Micr",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQN2E0U0pod2tCcDc5aEgtdnBpWkNWc0hlNGdMdFdKdkdEQWxYNVoxX2xOalhraHRjSEJWY2Jmekd5cEZ0NmhOOTdRSGpENkJuU1hrWXc1Y2JIeXVXY19XcEJXRUZLY1JtY0RQX0hndnJvV2tpdXViZVNwdTctNGFRY3JyY1owdF8tZVppbkV5YjlnOVFiT09XNDg5UmpzNnlTQ0lhVXRGYU1NWFY2enVxejN2NA?oc=5",
+    "source": "Benzinga",
+    "published": "2026-08-13T14:16+00:00",
+    "score": 8,
+    "tags": [
+     "contract"
+    ],
+    "direction": "positive",
+    "primary": false
+   }
+  ],
+  "GOOGL": [
+   {
+    "id": "22c7fa12607ecadc",
+    "title": "Berkshire buys more Alphabet, which becomes its third-largest stock investment By Reuters",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQLTdUOUdXZURvLW45TTFGdnU3WF9ReEVvX2R6WUlub2ZsRC1pQ3Q2Qnk2Vlc5ZDFORmFQTW5nUU9IQnNPZi16TWx4VVUtMjJvT1VTV2poOGRCbTlyZC01TGM2MkpVVmhRcHRtam5jdDlpQTc1OVRVcXg0T3E2ZHV1UlR4b1ZzMHg0RkRmVF9zTGc0ZUpNWm11MFFPeVhGNGQ5OHYtdHNDWWJ0cFdqdXBJTndjWTBUOEVsb2ZnckFpUWtMbWNGOHVMSnFaWWw?oc=5",
+    "source": "Investing.com Canada",
+    "published": "2026-08-14T21:49+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "0dd092ca56ac67c6",
+    "title": "Berkshire ups Alphabet stake under Greg Abel, making it a top-3 holding",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORVZyWVg2dXptZHpYcjZ2clVEYXhIOTU2b29iVkdMTVh0cWxrbnJPSmo5bXoxMVZLbDZrQ0huVlAya0xBeEZUdFZwOXU0UmVaV1ZFZ1dNdTJTMTR3NWxmNzJuSDhzRzNHSzB0TjJ2bVFPcHE1Rlo0aHpiN2RsMDN1dHJCT3ZQN2NU?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-14T21:29+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "20f880b0a78c04c2",
+    "title": "Berkshire Adds to Alphabet Stake, Buys Homebuilders and Exits Constellation",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOTM0S3RnSVR5MnNmSk5NVWpoVVphSlA4ZkFRNFNwY1dJVFZULWkwSGJmeDZrcG5qNm1VM3I1SlNjQTVQamp5Sy1QNW13TkhtdXVTRVVtVk10YWdHNWZKaXZDRlM1NGNUMG9YemhfTG43REtfVFhIUXRGV28weVJIU2FhaG1kTUtHaWJkWGFzek9qTzc0ZkZqT2JEbjhXSWk2U2EzdV9KMGdISUh2NEVRR3hZQ0FqelNPVkE?oc=5",
+    "source": "WSJ",
+    "published": "2026-08-14T21:14+00:00",
+    "score": 10,
+    "tags": [
+     "capital",
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "0bcd6b4512167208",
+    "title": "Berkshire boosted Alphabet stake by 83% in biggest stock-buying quarter in years",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdDA2LXNVSi01cG5mbEcxc29nMFdzTVIzYVpYcmkxcHhaTzZiYW9iSC1KWFpsdjFyWXFhSnd0aWZ2ekFFN0o4SF9rTk4xWDJMSUZNMTh5b2NJeDJucVFwMVhQb29CcUtOcVhJYmFFY01IaS1NZU90V191LWs0R3dwT0c1SDZ3NXpxenlCWFViaVNpeU9BNHc2MC1ZWlhVZnlOSGthcW54UFllMmhrNkFHUjhB?oc=5",
+    "source": "Business Insider",
+    "published": "2026-08-14T21:08+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "2da9fd33690893ef",
+    "title": "Berkshire Hathaway expands Alphabet stake and trims bank exposure in Q2 By Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPQWNDS0NwNmI0TG94QWszVm4zQ2ZEd0FraGhmeXVKNXJTS0ZxN2ZVdkFwYlh3UkZLR1ZMaDJXQTV3SHNiY3AzdzdHQWthc2Zwa2ZMR291RFVNRFIwbmNpZzd3WmswMVBBVkZVQWtyWmVmRzRCSUVjVmZMZmREd3RpZHV1U0FFWUU4YzFydl9zVWwtRUY1dnd4R3ZpelVtamZJanpxcW9wbXpjWXQxV3pBTS1rY05SblFhZ0lYelpfb1c3ZURkakNsWklONnVvRE04dEtIRlF3?oc=5",
+    "source": "Investing.com Australia",
+    "published": "2026-08-14T21:03+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "d30eb2b4558fe1a9",
+    "title": "Berkshire Hathaway expands Alphabet stake and trims bank exposure in Q2",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdWs4aUpYUFRlNnhOOTlBWFJQWUlla1FrQnhUYTFjbUtCR21sTFZrVnItLVk5UUpobTAzNG9McFdsZk9ibWxGOTdoT2cyRzhJakg5WDZPSHdMQnBTSmJranZMbU9KNDNlX2FjYzFPOHAzSldUY0xiRG0wZmlDbURISXpNNTFtMU05VzY5NjNVb00yUVp1U08teW1hRTgwVGwycEtocUlPZF9XTHVtM2tDYnNTZHhraHNSOXdnMmhtOEo0V1QtdTZxUGp3?oc=5",
+    "source": "Investing.com",
+    "published": "2026-08-14T20:53+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "81a5bdeced5d48d8",
+    "title": "Berkshire Hathaway raises its stake in Alphabet",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUWhZRWNUMXpoa3VVVmhsVVRoMnM3RERhVVZYQnZiUkhwOUFkMjc4TzRYcElEQ0gyZ1VHNkU3LUxkZWR3Y0FoQVVPaHdsaXZaNExvNThCaFhOTzF4aHZjNzRLV25FcDhiS0V1MEhFTW8yX1Z1YVYyekszNFBHNTJtMkxrZklXbjdWNVNZd3dFdC1UQkdxcllJ?oc=5",
+    "source": "Breakingthenews.net",
+    "published": "2026-08-14T20:48+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "0a6b1b8683425233",
+    "title": "Berkshire Hathaway Inc Raises Share Stake In Alphabet Inc To 27.2 Million Class C Capital Stock",
+    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNcmtDZlotMVQ2eEJoRjZzVDhIYzl6NGVNT0RvMFBnaFlPdnQ4dEJBcVdDUk5QTWZ3ZTdrVGpJcWlZMHFKS3dCNGRtdFJZUnd3cmViMGl6Tm9OcW81S0ZRZXZrdG51a1ZISGt6UjBETjV3dUV6LTJmUGFzU090RDBYVkpnMlNkYUZPNzNvanN1ZkhaaFNLNElVQzZpOUZDVkFabnZMNDNBLW40eXFRZTF0cV9mR3h5MDhPZkdrTnhYME1BSndhUkYwaXprdVpNOUdjVkZKWWlGQk91UFgtSXJTRm92aFdjc2U2THpzS21oRWhnamtJcUVYTQ?oc=5",
+    "source": "TradingView",
+    "published": "2026-08-14T20:46+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "20c999521f1fbe83",
+    "title": "Berkshire buys more Alphabet, which becomes its third-largest stock investment",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPTERjbHBXeUxvR0JSMUpreTA0SnpXOFVpUUtXLXZCdnhaemtsTjFBeWNfU01Xa0pWMDJUZUt6M0RuMVdLMmdpNTJhSERFZzNYclV3TDdGc1l6OWsyRGF2ejR1aHFmWUlIQWNzb1Q2SXBKWlZHWnljQ2pmdk9GdDB5a3haeFRUcWFfNGJCdVRQWjIyUy0tS0tKek51OVc5aV9nUWhuWWFENm1BLXdJYXNjWVRfaVEyTkdyNG5iQXhCVFBfaHRDLTFBdEtn?oc=5",
+    "source": "Reuters",
+    "published": "2026-08-14T20:45+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "ee3fbd73c2bdf6dc",
+    "title": "Alphabet Inc. (SPCX) group reports 551M SpaceX Class A shares under beneficial ownership",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTGVUazhwdnpxV0FyVnhoZVFFalRGa1RTTUVtYUdiVXY1V1FmLURjTElZMXMxZy1ld1hGckttcmZZQlo1UGhneVFFckJiY0NZWlo0QnpvZ1piZnE1ellKR1JlMDc0MmVYQXNUZlBaU1hheldLREtjTG4zWUwydnBsWkowTDhsb09ibGdmQzBYVWFCdmphSDhaX0hsNXd5YzB0VmNzbnJQQWloT0t2Q3VnRFNUbHZiVFl4bUphVE1OVXR5dEZ5SVVFd0duQQ?oc=5",
+    "source": "Stock Titan",
+    "published": "2026-08-14T20:20+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   }
+  ],
+  "HOOD": [
+   {
+    "id": "b8e26c0620235d5a",
+    "title": "Why HOOD Stock Is A MUST BUY Right Now (Huge Upside) Peter Simpson (VyBZ3VDUyb)",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5iSGY2b1JXdldXRHdyVl9BMjhORk0yRW5kbjRDRm9LaHZieEcwb21mZ29MUUVFQTV4SVpIWUsxdHdxeDh3bDREdzk4a3dUcXJxS2NfeFVneVpKOFE?oc=5",
+    "source": "mshale.com",
+    "published": "2026-08-14T16:42+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "8790ab9341afcfaf",
+    "title": "HOOD Stock Plunges 6.15%! Is Robinhood A Buy After The Crash? Dp World Tour (vZIcZ3SZKK)",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBM0N4TUNuQjZPQktBRDRqUjNTbk5qX1A5SFpqXzgwcmVCYjdHeGFSTUpmaGY3TFpWNXdNY2hXV1dMVmtsbklWRERadGZqY0s1bWxQYktaMVBtVFU?oc=5",
+    "source": "mshale.com",
+    "published": "2026-08-14T13:19+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "bccf0df29b513adf",
+    "title": "Hood River Capital exits Camping World (CWH) with reported 0% ownership",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaF9MYzUwZ0xPWnZoVWZTcnRnZHc5R04wOUQ0NjhNckpnUEpxaDJ1UDdPcGFtRW02QXVNelgzeUZSSFY0eEc5YWU0OUpyTkNELWZXTVpoXy1sLW9Sam9nZGZ2b0VwckdKQ09ZTjQ3T2dmbjNiVHoxRXBCbkpQTG9kVVNwQjJKenJRSzdzLWtJVjN1ZXBQUHNjTktyZ3phYlQtLV82dzl3WVdUVXhWYnFyVUZMWmdBdzgzOU5SMW9kby00aVVMWHJwbENn?oc=5",
+    "source": "Stock Titan",
+    "published": "2026-08-14T12:06+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "2c4ce9ec67a50689",
+    "title": "Hood River Capital (KRUS) reports 0% ownership of Kura Sushi USA common stock",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRTFWbG9QTEZLU2ZlSzhTWURsdzJXOXB6WVZGcHU0aGFFVnB4cVE1V255TzR4TkJneHZCQTItWkdXeFJmZEZDdTNXNENKOXcwUWlmdFB3MnItVVFpM2pWU0NNNHU1MWJURG5TMnpZbXRxVTZveHlheUJKa0VUOERrLVVQZnJuZHdYZWZiY00tNHhJYk5RNVhodVFyczFROWMyLUxicU1CNXZ3QzlTRWs2dXFJdUtBQzluTTNLSEN2NHZRMTdNR3R6Y3N3Zw?oc=5",
+    "source": "Stock Titan",
+    "published": "2026-08-14T12:06+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "8944f7b7ebf5a7d1",
+    "title": "Hood River Capital (RCAT holder) reports 10.6M-share position in Red Cat",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQ3lEY0drQzg4VnJDY3k3akE2OFdoNGN0ZVRsblc1TWtNVEF6cjNFQlptNjN2T0RxSVIxZGZBZzVhQkNEOS1FYVhhUWpSSWYyY0xYeGlfWm9ZTl84ZkRfT28xN2pXeDNrZTNVUHRJV2JwRE9DR1lzNGVmcjdKQzl1VVdKUmJBcFJfZmxmalVNaUJkUDhIUHVlYWN1R1dEN0dkMTVJMHdRdXZvYXQ3R0M2T3hWNW1HX2JLR0VQbmxyVkplVE8tN3c?oc=5",
+    "source": "Stock Titan",
+    "published": "2026-08-14T12:06+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "62e2462b4a420173",
+    "title": "Hood River Capital discloses 7.64% Bandwidth Inc. (BAND) position in Schedule 13G",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUy1EckNyVzdCdXdWOTdfR0xxQkU4ZGdPVUZnMVVwV01fVzJnUzlnOXh2Vno3WC1SUzdmd3ZTLVhSSW5VenY5bWQtQldjQnlmWjgycVhtTkROWnM5LXFIeEQ1eUk1OWNVRXE0c0VxdlRpVVRjX0ZDeTZTQ1k1ekV0eWtYcUM2TXREWm5lRTJtSU1jV29qczVTRHFMOHNLX1h4M0FJdm1TUU1Ca2JMWVNzTEZPQ3Ezd2QyWk1ITQ?oc=5",
+    "source": "Stock Titan",
+    "published": "2026-08-14T12:06+00:00",
+    "score": 6,
+    "tags": [
+     "filing"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "175c520d489cbcbe",
+    "title": "Hood River Capital discloses 8.49% NUAI stake in New Era Energy & Digital (NUAI)",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNW9MMHdOWmhSWFNuazFqM2FRSl9fZVpMZDBjS0pSZzRNcm5NRmZXZ285TmhCaWtXLV9aYkxqdm9VUUN4dXBEWWlLcnVPbnRfUHZKWlZJTVkxbTRfXzBLNXUxYWhhc2ZLM2NLQk5sTm9DUGVKQUhKVkpjeVQyQVFmVTF6UEtRMFNMZHhUWjdnZWZ3M00tZ2liVXhsUnJPR19YNGc5NmhSWE1LOHFKVnpWazhEdURlRjBUTzNZaDVHWDVvSDFiZ0NnS2tNUQ?oc=5",
+    "source": "Stock Titan",
+    "published": "2026-08-14T12:06+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "0b298e03c77955b3",
+    "title": "Hood River Capital (BFLY) discloses 5.61% beneficial stake in Butterfly Network",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORmRWeHF0UmRlTjJsRGxzVHctNmpRMWlpOEtuQmFfNk81WE81V2RHdUQxd3FMSEp4U09jY3pGa2xiZ3Z2b1BsTm1mNGhKd3U5OFVRN1dnWS16YmJwajluM2ZMdEhzTEszLUtpeDNQWEU2QlFSZzl6R2hlTnB1TWhGSXNwN25xMGxSQUVyWWJ1NzRWZnVfTzMybUZGQTdady1QM29HNzJkbFZYZlc5b0plLVplRTJnWTF3dUFOM0NBVW4xX2xUSDhZ?oc=5",
+    "source": "Stock Titan",
+    "published": "2026-08-14T12:06+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "d845ca340ba7e6fc",
+    "title": "Robinhood Markets Stock (HOOD) Opinions on July Assets Report and Chain Performance",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNS1l0UzV4cHU0VHRlZTBIaGxKd01OMll0LUhiNTk4TlExSkhXTG1nczR3TGhmSUtndFJLV04wVkl6eEdGVVQybUR6NWk3Tmc4MzVKRFZVejZwWnMxcGExOUphSWlMakxXcUtpRVJvU1k0R3pGeUE2azRkcDNUZ3hReUhXYkg2cGREX080N0J2SGZ4aElSdXltU1RzUXBrX3pvY1pOMTFvQXQwT3dEQUdjZ180eHJReHBVanNKaQ?oc=5",
+    "source": "quiverquant.com",
+    "published": "2026-08-13T17:37+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "70564ec77e5ced74",
+    "title": "Robinhood plans to boost frequency of closed-fund debuts - report (HOOD:NASDAQ)",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZmd6aHAybG5JX2N1c3lvVzQzQlR0S2plazM2SHNob3RpNGZjSGZuZkdmZTE5Z2poYVhjemR1MlNGSktLUFJVRk12N3h4bVpWZHdQYkk5X0IxRFVJTEFXZVBUb3FOa0RyMVN1ZlpTNC14TDloZlUtV2VSNE5UNVh1R2I1aUV6ZzB0Qnpyc3RRU215SWVWNkN2Slg4V05TQ0tRWE45TDBpdGttbF9xUlpSY1JOX3ctNWRmeUxKRmtIOA?oc=5",
+    "source": "Seeking Alpha",
+    "published": "2026-08-13T15:20+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   }
+  ],
+  "NVDA": [
+   {
+    "id": "2f96c0224f6ef31b",
+    "title": "Stock Market Falls To End Bullish Week; AI Titans Nvidia, SK Hynix Eye Buy Points",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeUJmdVdNUkhuZk5YeUtiLUdjR0RoS2dqVWpaeE02TngzankzejNBRHVrSmczM29KVmtPRVA3Znpfa25Va0tJVTJEcEdDYzBoc0xZS0pacVliX1BXdVNXWXo5M1drc2VrZ2x0N1dsMEJwR29RT3VHdWVNc2N3UGYwaGhsSXRjOGNqb2xwTWp0Y3ZHX2FiOUd5emhoU3lLZEVONnZNeEJWeEU3UQ?oc=5",
+    "source": "Investor's Business Daily",
+    "published": "2026-08-14T21:46+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "0d32ac8bdbb52274",
+    "title": "Nvidia discloses big stake in SpaceX in Q2 moves (NVDA:NASDAQ)",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcFpDN3lSS0RQNW4zSW9FeHhoZXNkM1otWXJwY0k4aGxxZUNQa1hwSmlJVUZaejd0TGRxQ0ZLQkZzTU1KaWdqRlRyc3FadTNrUzJvbGFCTncxWnZ5Rl9WNlJtZVV1a2p0bkRQbTJISUVTaXFaYURjaUpTX1RSODYxbW5ST1ZJTXdsTXJueXNJTQ?oc=5",
+    "source": "Seeking Alpha",
+    "published": "2026-08-14T21:04+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "e1edcaa29dd3b5e9",
+    "title": "NVIDIA (NVDA) details 8 institutional holdings in latest Form 13F report",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNnhfS2VhWmpIbUhLS0h4dVE2Q3NtRlZickZfVE11ZG0xX3Y1UEpUTmdlQzJIdU9vLVZPVjBqYjE0VU9rM2tpQ005SHRSYU5oR1M4dUU0aTFoSjVtTmJqcU9EYWpmbTU5VnZVWUw2MFV6V1gtNDhVREFJNWw4elltTlRkcWlBdEQ4SG5jTUFYLVZiM3VSclE?oc=5",
+    "source": "Stock Titan",
+    "published": "2026-08-14T20:27+00:00",
+    "score": 12,
+    "tags": [
+     "earnings",
+     "filing"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "31fa885e1c13bfcf",
+    "title": "5 AI Stocks with Strong Growth to Buy on the Rebound",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaDBXZDNEZ0dBcEhrei1sVktDYnZLNDJjanMtVXFjd0Z2Qi1DdWRqTzBkQW14UnZmbFZVYjVBeWx5WU1pMG1tcEljNVVjalg4UHAtaDhGSk43clRjaFlTbFl6bmlDVjc5MVN3YTRkMEJleU9TcnotWnQtQWtEWDhWUzdYU1gyT0dlV3NlcXVkb0JRTXJsMWhTOWlxdlZ4d0E2Q0E?oc=5",
+    "source": "Benzinga",
+    "published": "2026-08-14T18:49+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "fd9104e45563b98b",
+    "title": "Nvidia Poised for Strong Quarterly Results, Outlook, UBS Says",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOamt4cFNCYWFnY0tUZE5IMEgzVVo0WHhsMGwwOXVuYXVjbEM5c2ZYaVJUeVBvVVRqbHVCaDNsUVRWYmNkWDZmdUcyanN5cng5cER0azlTbjJ6ZEVKYkdWN2Rlb3llektXSmNYMXZPLXVkUDRNdkhVWFhORk5lX0JfUkJNaXltbFVPQjRrRUxqbE1TbWs4ZmZLOHpwbFg0R205dWMwRA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-14T18:06+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "6dbd6ae810a0f01b",
+    "title": "Nvidia earnings preview: What’s next for Nvidia stock",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQU2FTeUdJNFFOUWFvLTllX3M4aGlfTjByUktJOFVCYlltUHZKcm5nNTBmQnhGd0Z0RDl6UlNkR2hJTl9fR3hkQTJ5aFZraWVhSHpVLXlEWVdHMVFnTXgtbDdaNlAxTWJFbFV2S2tXWGRXcnFlSHZyMXJiV3hLWk5DbGJKZk9PZm1VQmc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-14T15:39+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "6251a3934e735df6",
+    "title": "NVIDIA's $500 Billion GPU Financing Deal Fuels Path Toward $270",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRDNiSFhOZnpKZXNoN1Y3cHl5WWpKZURJak90cTNEU3VPODdQbG16SnpEY2ZvYk0yLXhLQ1lkNlU3Q24tV3hqSkdsWUlpWHBJM3JCUW1GckRzVFFXVmxXR1Y3RVNrS3ppSWFDSUJ0SDMwNEJpV2lhSXozUkNFajlOQUt1QmM3V3VFMHpxejlkdFhQWk8zc3pLTWw1bFBOdw?oc=5",
+    "source": "MarketBeat",
+    "published": "2026-08-14T15:37+00:00",
+    "score": 8,
+    "tags": [
+     "contract"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "a790b2d74819e338",
+    "title": "UBS reiterates Buy on Nvidia stock, sees strong revenue beat By Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMWJlNV9tTU8xbnZ2NkJPSnZUeW9jOEJWSWlKVTk2V05JMkwzS0VxV3BXNlpaclRwUGVQekozX0lLTGFub0Jzd0ktSDB3anl4eXpHUVdqNkxkMUZDWmxFdmdxaXJMSk9yWXl0R0lod1hKVVVOOEtMVGt2NDZJZWxhSEVReGE0UWg2UHdSSkpyUjlOMHI5XzNKdzN5bWhWWjUzVWxDNGc3ZDNYUkpvMDNTZWhJYjNrN2wxb0tSWDhTR09RQ2RlbmlMUENEckY?oc=5",
+    "source": "Investing.com South Africa",
+    "published": "2026-08-14T15:01+00:00",
+    "score": 11,
+    "tags": [
+     "earnings",
+     "ma"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "f93a2ff65ca486e9",
+    "title": "UBS reiterates Buy on Nvidia stock, sees strong revenue beat",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdUZMdEJpRVFUa3lLSnp1YTlhTDlHdUhmbDlxbnhmNElzeEFkZEUtR0tmZmNSMjRCSjNEdDF1cmlTNXpzTXVBMWczQzNfcjdPX21rZml6SEJNQUs4Q0hSeFNfT0w1WUtrQU5adUM1NXdJRm4xNk9lc1VQejZWRDJ2V1pTdmVGOG5mSTFMRTA5N0lxRktHUkJHRjBMeEtSTzZ0TVlnbzVYUGFwZGhROThiUTZqTjlaM0JuYTVV?oc=5",
+    "source": "Investing.com",
+    "published": "2026-08-14T14:49+00:00",
+    "score": 11,
+    "tags": [
+     "earnings",
+     "ma"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "9c9c603de0584c68",
+    "title": "Cathie Wood's ARK Invest Buys $28M Of Nvidia Rival Cerebras Amid Earnings Selloff",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTHJGVTU5SWpINElheUdDbG8yM2VVRVZFVTdUQTQxMGpfM2VMSmRGTzk0NFFvLUJKZXZTOC1BN0JEM1VIV0ZKT25kUUpVUjV2RFhZV0d4RmVNRmtZUFIxQnNjQWpvWlp3UkdESmJTMEVLU2daNUdySlVFS3ZCcDMxNTBnc0szRm84dURnSFpVVHIwU2FETEg4N2tSZ2hoMnVxSjNnOTljbE1BbjNOYVRMb3VuOWZzczZ0NF83bXAwaXlzTTVnNG1SZGZNZlRzQ1c3enc3UUVhcFk?oc=5",
+    "source": "TradingView",
+    "published": "2026-08-14T14:02+00:00",
+    "score": 14,
+    "tags": [
+     "earnings",
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   }
+  ],
+  "INTC": [
+   {
+    "id": "15e466031a6c9202",
+    "title": "Nvidia Has $21 Billion SpaceX Stake, $30 Billion in Intel Shares",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUGFQNGVsS0M0dU5jYzU1TjJLMGhRY3ZyOG51X0FNdTcxNnIxbkVjNWJmR3dJMUNMelZRS0l0M1JZSkJFTzdWZDNPb0N3X1FadkN0WGZaT3hSTzJITUtvRWZKQUszRHUzWHc3T0RIRi1LRTZBUDcyVjZoQ1pGVzRKN0NldUp5TDVHWUZaNUhyRk9BZ3NIalIxM1JCTUZSdHZRVkhYX0RQSnVqelZGTVNUTTFn?oc=5",
+    "source": "Bloomberg.com",
+    "published": "2026-08-14T21:17+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "6ecee3fe7201353c",
+    "title": "Intel Corp (INTC) CEO Tan Lip Bu acquires 105,263 shares in Family Trust",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRG9vUnJtVEVKZ2ZKaFUyNXNzcE85R0syeVJPbHYwX1EtUG9GQkNTcDNOZk96VGhLclRtVDRLMEZqby00Zi02OEZ0eHNaUEhtdUZlWXcxTExibVJ0U09xaWRsRDNoeFB3RFU5YmZxNER2WHlvR1RtLTZDdjNnMFhwSkswWXZIaE4xTmJDbDhXNG05bHlUcVhpRGczMEF5WEg5TTZpcmJ0SQ?oc=5",
+    "source": "Stock Titan",
+    "published": "2026-08-14T20:31+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "c0078c6258bff794",
+    "title": "Intel Shares Decline After $22.6 Billion Equity Offering Increases Share Count by 4.8%",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWUZtR3B4SVZNU1dXLW1lZnVqWVpiVTBiVWhkbUxsNGlCcnk3MFlCOTFyTGFicXExMGIzUlRkLWNldVIyRE9fV0swZmgya0o1bHFEUVlkaUVpNTdYbnM3TXJCOU1JZGdMak9zN1Q3MFFnZGxPOFJNUXZWOERiZW1TTTF0MjRQWGh5clIxRXdtSVJ2NWs?oc=5",
+    "source": "TechStock²",
+    "published": "2026-08-14T19:10+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "2dacbd142567ada0",
+    "title": "Tiger Global adds Cerebras, exits Webull, boosts Intel stake, among top Q2 trades (CBRS:NASDAQ)",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONUtJQmd1S1VvYTZsY2JHTUROaDR3cGo2SHB5X3llSkhNUV9RZEZxMjQzdXdhY2tBOTZCdFhOcWRwRFZvQWhQVDd6YXMyTU9aejhrenVwbTdNV0dTdG56a2NsYWlpSzdpcWdOM3lhNEh3UUNhUUEyaFQ1SG81ZEZXWVFadDdidFpNdjZjY1VjSFJ5dC10aU9UMThvdVJ3U2lOZS1uOTk3cE14d2d6aDJ1QzdHMC1Wb2ZP?oc=5",
+    "source": "Seeking Alpha",
+    "published": "2026-08-14T18:39+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "e8e2d053d0d9c312",
+    "title": "Intel stock climbs as Q2 revenue reaches $16.13 billion",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOczZIazFUOHFHT2lrb19WWW5Ha1daZV9ORTI5dFZLNnROX01IT24wN0xxdXZzOXF2dnVOcDJLU2tIbFp6VnQzT19rUEl5YWNqU2VzYWFkcjZGR0cxZWF4MV9nV1hFR095ME5pMTRlQXUwZUVXYV9CSG1KcEF6U1JMTkZRNXplSERFeENQOWQ4bVBnUngtdm1OazRBeE04RHRhNHExVDdfTDlEcGZHS2xmbDJwYVlIZjFO?oc=5",
+    "source": "AD HOC NEWS",
+    "published": "2026-08-14T15:03+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "2dbcf412037ba76d",
+    "title": "Intel Corporation $INTC Stake Lowered by Krilogy Financial LLC",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNblduWWI2UkFBZVRMVk05MUZ3ZXN2VjdOVnRUdDAtU3B3Ujh3LVU2MHJ0YmEyUUFmYlo2cnN0N2NjN081Z3Z0ZWNoVUI1NHd3TGxMX1pZYUg0eWJIZWd0Y281LWRjMU1fd2hSSFg4UVJ6TFRpb3QtMkU1V0dhQldIZkJmZGJVc3RZaThiLVlzRVFGZlEwbTNFbHFjcnZ0REdRMUt2T1Q5TW9XRGdYX1l4M2hSdHl5RU1uR0Iwc0hlTQ?oc=5",
+    "source": "MarketBeat",
+    "published": "2026-08-14T11:19+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "bb0638fc42488fd1",
+    "title": "Intel stock extends rally as AI-driven Q2 2026 surge meets $20 billion equity offering",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcHZ0aG9fTlBZSTJMTmxYa0Vqblc5ZWdYa2JUSVp0ZjVzSGRnSVJBMVJZbnF3cDlOTGtDNXh5YjNpdlM5X2g2M3VkOWFEUWhSbndMWUhIWk85UTAwbzRBMlJCSXhVRWtQZ3lpbVMtY185dV9ZUW1tcFB6WlJjNVVISDBWX0lDdmVILUx2cUl2eGxuNjZRUFRaRUNXcWpHQzZ0U19wY2ZoYVk2S3pRaFJkM0MwNW4zaGVCS3lPZEgwM2puY0xlOHV0c3lKSzE?oc=5",
+    "source": "AD HOC NEWS",
+    "published": "2026-08-14T05:31+00:00",
+    "score": 14,
+    "tags": [
+     "earnings",
+     "capital"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "ba98ed5cf962b679",
+    "title": "Intel Stock Forecast: $20 Billion Offering, AI Growth and Foundry Risks",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUmhMdmthODlUYVdDY0FsamxBS2N6MlVxR3MyZjIxX0Z1QWxLUnY3dFU3OEVuT1FZV3l6ZUlCdlllUVUwaHRmQ19laUFIeUhISnJ2d1VkWEZLenQzYlBlWWY4aVd0R19sbG5xWUhvVlJ3bTF6WFZZVGQzQUIyZ1FtNVN1ZnctNTZwa1ktM0tfZThaVWhpcERva19SMUFUUjZ1WGYtLVVWbHo?oc=5",
+    "source": "TradingKey",
+    "published": "2026-08-14T02:05+00:00",
+    "score": 14,
+    "tags": [
+     "earnings",
+     "capital"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "3c201fec2d27df90",
+    "title": "Intel Shares Gain 3.6% in After-Hours as $20 Billion Offering Brings 4.2% Dilution Challenge",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQa0lIZlg4MGpkbGZzWWdyYnB0eUNNWkVzZWc4bmVjMjJjNkxmQzF4YTZHb1NLQUtZWUpFbGQxSTZuVk1DMVZ1UDV3RDJzWTNKcGJrbzRhOGNDbEl1N0VwOXQ4NjdqU29wYTlmRFBJb3FqSTNzOWFfVmVERjNIaTBkalF2QU5CQzBYNEt3eHFYN0M0TFBrd2lZ?oc=5",
+    "source": "TechStock²",
+    "published": "2026-08-13T23:28+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "52b31640573f6d8e",
+    "title": "Mobileye director resigns following Intel governance changes",
+    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWXN3S1NSQmo4ZXBid2o4MnhQd1p1UHRsUGJVLWJpNFR2WUE0OWh1aUI4SVZ5NzR3YTlSUm83aXhITVAzZ3k3RnhrRUVJeXJUMHYyTzl6VHpGSi0xZWVCZEYtQnQ2NmF3T3ZEUm14Nlh3VDVwMjdTcTJWNzUzSHl5SzFnV296RjNnQU5zRWJNV05XcjRXenc4c0x1cm9nU0s1UTBmOS0tYURYUENUTHBXUkpoMXhabVNHMXBsUXZUSEJ5QmdZS3c5bEl0eVY1T2p0MXA0WVFVVXJVbkwzbXc?oc=5",
+    "source": "The Globe and Mail",
+    "published": "2026-08-13T21:08+00:00",
+    "score": 5,
+    "tags": [
+     "leadership"
+    ],
+    "direction": "negative",
+    "primary": false
+   }
+  ],
+  "NBIS": [
+   {
+    "id": "e6d638de1547b076",
+    "title": "Nebius Group (NASDAQ:NBIS) Trading 8.9% Higher Following Better-Than-Expected Earnings",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxONmpqWFpPcGNENGdpaUpkcnUzSmJDNW5TS1hWdUVJNl9BdVpjMVRGX1BFNHNkLVlyYWdVTHl0Zi1ac3JORFgwTzlhRkNJUldiLWdqLUFWRDRoalpQSkFhcm82WnJScGlUTXZiZG5KS21vUGpfT3BjNE05NldKdFp5MVl5Y09IVFA3b2lqM2pQenNhYlVmdi1kM21ucC1la2ZPOFFlRmhLRFlMYmJud2didXdJLU9GWV9WTVRCX2J1S29DVmhvWncxSjlwVmktNjVR?oc=5",
+    "source": "MarketBeat",
+    "published": "2026-08-14T21:07+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "f0cf0dd4dffbec33",
+    "title": "Dan Ives Says Hyperscaler Earnings, Neoclouds Like CRWV, NBIS Show AI Has Entered Monetization Phase: 'That Was The Validation Sign Investors Needed'",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOX3lnRFBUZ0VKWnQzLVJQandaNm9BWHF3dTlDNlZuM2Q5QzRQd25IYjIxMFBLc2hnSzhNQ25TbURXZFpNZ19NbFBqN0hneFRwSC0xcEVTR0dWLWczMFJQWHhMY1lhVEZBQlgzaGVoS25tZzJfVEVuTmZEMk54bmFCYnFFSFduUlVzSThWRDhKRmIxeHR5NWY2QWZabDFFVHM?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-14T11:26+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "94a28a3aa88729e1",
+    "title": "Bloom Energy Shares Rise as Nebius AI Data Centre Partnership Boosts Power Demand Outlook",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNW9wLXFWRVozQXVSbTlkR0thY3Y3eTdScldaZXVhM1NqME5DWTkya3pPR29SektyazdTam1kc3RtYXdHWmE2bUROOUNQYkRrQ1d1dU92Tks4MklMYWlrNHRHTkp0QmFIWlUzTnNmcDlMSzVGR1o5R2dBdkFrMmNic29oR1VnZFRIMDhvdE81cWk4TEk4cXp0WFNUZw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-14T10:54+00:00",
+    "score": 11,
+    "tags": [
+     "earnings",
+     "contract"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "5895ecee982b9294",
+    "title": "Top U.S. Stock Performers This Week | NEBIUS surged nearly 36% for the week, driven by earnings that exceeded expectations and a $40 billion order backlog; SanDisk rose over 26%, bolstered by positive commentary at its Investor Day; Super Micro Compu",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUVFKbFM3S3BweVJhcW9URGhvVERIOWc0aHBYV3ZiNlVsN0Z1aTN1ZFdtR1AxZzk4N2lUTTdES3Q1Q1Q5b3E0M2psbTdTRENUVERaX1gwekF4ZVNibmROcHlteGo5U3dodHZEdkpjYlg4MnZkaDZ0cDVfZkJrWGZPSFl6QUZlUjVtVU0zbk9GQnZYMkRzT0lTNElJTGtUeDg?oc=5",
+    "source": "富途牛牛",
+    "published": "2026-08-14T10:04+00:00",
+    "score": 14,
+    "tags": [
+     "earnings",
+     "contract"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "f3ddbbe06f78a0e8",
+    "title": "Nebius Group (NASDAQ:NBIS) Stock Price Down 1.6% After Earnings Miss",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPd3VnWEF6R2FQZnFKSm9tcFIwWWEyVFpEbVp0N3dGMGJDWjlnb2ViWG5SSkh6cVJvOWpXRU1NMWVwTEdKcDU0b3k4V0F5NUJJRGJMNnRtaWxuOG1oTmc4eGVramV3THZSdmcxRUJ2dHM3UFVwS29BUUhsUEMycExCcnQ5QnJIX2tHbV9JUHN2VEUtMkhtVXUyZ1JoMkFsdzJTR09GOWtxaGdGUEZTeU80V2M5Q2dvRDFC?oc=5",
+    "source": "MarketBeat",
+    "published": "2026-08-13T21:09+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "f0ae05e0d8e5b3b1",
+    "title": "CoreWeave’s Record Q2 Supercharges Nebius Stock Ahead Of Earnings — What Does Wall Street Expect Amid Cloud Boom?",
+    "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOT3JBdWtHd1NmOVdvV2UxSW91WmVzMThkb3NLUlk5MWRmbnhiLWNlcDdVSjEwUUVBNVU5V1owUjB3b0pNWXZRUlNVY29mcUJlMTRuR0dCTHd0emJSb2tBZlRJN2tCNUY2elVad0Y5LUc2MGQzZTM4WW4zR1ZIalJqeW9idnZUZVlsR2J2MWlFb1hBSFdzTTQ2SE1XNEk3ajRBUWpZTThaU1NENlJGQzlmQTlROUh1LVFkVGwzNlJhczNQZHF3dHdLUlk4elhMYU5HcHROZjMxSVNwSkI1cGswUGdyVXZYT1BKRU1rZUlvclppeEc3TnM2aThEMW53Y202SUtHUG5B?oc=5",
+    "source": "Stocktwits",
+    "published": "2026-08-13T18:24+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "6187dc780aecec6a",
+    "title": "Nebius Just Exploded 34% on Blowout Earnings—Is It Time to Buy?",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNb1Y2azdhM2dZYVNSOWZCVDE1bm1nSlJHbzVIa1FFWEJ4TkJ4TXozWlhFTnJ3SUFfeHBOcDZmeUpXd2REM29TMDJKYll1ZURjcXhvSFdTMFhxQkM0UWF3SmRTSW1SdlIyaDNpUUt0UlpOcTB0TmMwQjdRb1ZXbXRuVy1MeUNDVkdnUy0yTXhWdVQxRi1wdi1DTjZHQmpSdw?oc=5",
+    "source": "MarketBeat",
+    "published": "2026-08-13T17:26+00:00",
+    "score": 11,
+    "tags": [
+     "earnings",
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "8b12025b567c18f7",
+    "title": "Nebius Posts 454% Revenue Growth, FY Guidance Reflects Controversial Vineland Project",
+    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPVDBNV1N1TDhhVGpJLUotZ0VFcUpEbGJSNnVEcWt6ODVBRnMtOVVVMTBFcXNYRVlUamFYZE5nRzJ3RDdJTFJXSnRHRUZ1YTIxdTJJS2VmTmJaUk5YeWFhQkhNSjJmU0VQNDBDUUNRcWFJQ1I0cE5mVDNhMmk2dWhjeGo0dGsyZHp1WG1xWExBaHJRUWZiOG1JY1JWZ1NGaWktb1RTN3lfRmRhcHE1XzBBdmpFTi1FaTlOMl93Z1I2TGxaeUVua1g2c2Y4czdNWE9SS0VuSlp4OXlaam9sejctWndPYXF5dnZDbDV6ZUlEOEM?oc=5",
+    "source": "Benzinga",
+    "published": "2026-08-13T17:02+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "0fbff3badfe70c9c",
+    "title": "Nebius stock jumps 34% after strong earnings, s...",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVHFjVGNsZENSYW1QZFRaUkh4Zll5TEIteWhFNXhXMjhlZS1aVUhyc1ZsMTdmeEtranFndGNLNGF2cVE2LU5FOFJVU0wyenZHa2VNaV9ORmt3OE1OcEpUNkl4SlB2WjdIVVJJclo2TXZwQzFlemxycWF4MzB4TGxmcUxlVkRWTFhOcnlaRDNFMG9SSTVkd3c?oc=5",
+    "source": "Pluang",
+    "published": "2026-08-13T14:56+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "c44badd777b84eda",
+    "title": "NBIS Q2 Earnings Call Puts 2027 Capacity and Pricing in Focus",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYVRxODB3THU0dEgxS1FXTEx3VWxSbUtZQnAwNU5yd09OTTg4VE1IWHZTV2xnR3R4aXQxNl9qMU5GaXN1U0FIUkRrSVU5QWE3R25zTDhDLWFUSEh1THpGSlR1NVZ1aUdGbm5SVTl6UXZ6WHBsUUNyeTVOb1RfZHctNlByZG1HVjEtMUxDb1JOMXM5M2FzQ212eHd6cVNtbUZBTUo3V3VrMU9HQm1lMlhhNDRlWEJza3k0?oc=5",
+    "source": "TradingView",
+    "published": "2026-08-13T14:00+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   }
+  ],
+  "MRVL": [
+   {
+    "id": "9b43580a09dff0df",
+    "title": "Marvell's Earnings Test: A 76x Premium Meets the Hard Numbers",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOM2s1cHhvSHFCMy1QNkE4cjZsblpad212Rlk0UmY4Tl9ueDdNZEFIalEwRkxLUzA3ZFpfZU1CVURkV1RCY0hFZlNhcXFfbHdDSF91VnUtUGQ0QVhvbThBN1dzcTRCVGI5cV8wTHBsZ0ppbkZzckYtd3pmNFdXS2VjMGNfWEtEbmprdUl5LUhBNlVSbVVkZ1ZOMDVpbGVrckVDRkpwQk44VlZoYi00TjAwUXFreWdGN1M0MU1hMUMtclZLeVBaMTBaeGxySTU?oc=5",
+    "source": "AD HOC NEWS",
+    "published": "2026-08-14T15:41+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "3f25fcbf2e1facfd",
+    "title": "Marvell or Nvidia: Which AI Chip Stock Does Goldman Sachs Prefer Ahead of Earnings?",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORDJWbzM1Tjh2cHhySjRxOVpqeDd5bG9BcFlWbWdpY2JDdVdncnhUX0s0dXU2cFFzUUFtbDB0eXkzYTA0Mi1ELWV4X2plb05yY096SXlGLTdGeDN0US01ZmpsSGVPMldBOHBoM0dzQ3ZOYXIycmNxcjlQOGd3alRJeFRSZ1NnSl9VUlVEUzh1WjhTNHNGNU0yY0c1MG42aUJJQTdCd2JwNm93T251T3ItRQ?oc=5",
+    "source": "TipRanks",
+    "published": "2026-08-14T13:30+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "e5f0cadb83c7c70e",
+    "title": "NVDA, MRVL, AVGO — 3 Semiconductor Stocks to Buy Ahead of Earnings, According to Analysts",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQc3p6TUFwNzZZejluREYyRG9panNQSlVPc1g0TFQ0T19KVkVkMmhiOVFYNzk0VnRqWU9WbWZlbnBMSm5tS3hnSnFFNDZKQkFJaDZYUG9oTzRMcE1LWHJrdndmMTlpV3BzMlI5dGlrS1lYNVdONUY4X29kQ00ydmtud0RRV2VZV0I5STJUSFF5YnZ6ZlBFU2VrTGVxRjBzZDlFRnJkUG1IemtSXzhHVTB0MjhDRE8?oc=5",
+    "source": "TipRanks",
+    "published": "2026-08-14T13:24+00:00",
+    "score": 11,
+    "tags": [
+     "earnings",
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "b86bf20727b1d14b",
+    "title": "Marvell's AI Premium Faces Its Moment of Truth as Earnings Approach",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPOV80aHI5VVNDZ2hYVWtJRGw1VkFUS1ZiMWlDSkpnYVB3OFNkdVllbFZ6QzhiaE82MHZORnN3dmRHdWNJMlF0TWlDSmlCR1J4czBNT1VZdnFJTmpGRVZMcnZWRkFlSEpPRWpOWEtUN0c5TG5hNU9aR1pRai1xVlJQRDJFWi1CX0FPVUFqSWFhSUhnVlhXNWVMREZtN0xDd3FVWnVPSEpOZFFqZEN2YjZMWHpfeGp1WWlpaUFIVzZQREFtTTllVDZNQ0MwRWxVcnJnRjl4S2l3?oc=5",
+    "source": "AD HOC NEWS",
+    "published": "2026-08-14T12:31+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "e2af90386f38fe79",
+    "title": "Marvell's Analyst Split Widens as AI Networking Bets Collide With Valuation Caution",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcF9ETDFTand4ZVpHb1NDbjFSaUtmcGZZU20tc1hrMExlU0E5c3N2UlhadFotRWFvVHVmT1F5RVA5by1SUGg2eDMtZTQyMGZfdzlnMHhVZ1duejZSWDdkWjRoZUtfVVZmSl92a3JwNW5jWWJ1a2hKUXUxb3RiRWc1b1A4QW1ldnlET3BJSm8zSm9aTnFoRjFxTmlnRjZ0TER6RW9QR3dwV1FrZE1HUTdHcGx3NVo5US11czRoS0VkUUoyNUFVeVNVb05UMzB6NzFaRm5r?oc=5",
+    "source": "AD HOC NEWS",
+    "published": "2026-08-14T01:05+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "3a5032ca96a7a3f1",
+    "title": "Down 37% From Its Highs, Is Marvell Technology Stock a Buy on the Dip?",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOak1abkhxdHEzbUJVT3poeTlOTTVvRWJsNDJ6VFR1N2pBMzZnRjlsdzA0cHduZnZILWdZeEp3Z1k4NXRvaWstU3FxelJlN3IxNHI4QUt3UFdRRk43X1lmMlkzaXJCUWo0ZU1URU4wa1diSUlNYUFObkRtQzZkUkowTDRHN0NvWVV2UkxmYjNUSWxnc2xkNTR2d2lxUWpNUQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-13T16:47+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "1b13b1a9ff444535",
+    "title": "Marvell's Flash Memory Summit Gambit: A Trade-Show Bounce Meets a Split Analyst Verdict",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWWFLNl9uZVZjUjdVMmlXS1Fsam9yWlIyTnAwSm10NkRPSThpRVFrWU1lOWN5V1JlZnBqcDhZQWhqZzlhRElEQmpKNFc3b2paOWI4WW1nSkllVHZvaUIxSHg3aG5BeldjS2ZQbUlQLWpCdjdndDBUOHFqcms0dE1vWUtJdlhiVF9ZVHMyX0M0ejFTcmVDSzlPdW1FSmtRS3dYV0pLbmpiS2J4M1lnMmlaZmdhTGZkRkNSMFR4WXVKTE51U3M0dDlPU3VEd1A2b3dpaXdMZzIyamlDUQ?oc=5",
+    "source": "AD HOC NEWS",
+    "published": "2026-08-13T10:31+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "e4ccf778e84997da",
+    "title": "DAVENPORT & Co LLC Has $192.20 Million Stake in Marvell Technology, Inc. $MRVL",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaWdTQWRNbnYzRWQ3d1JaWXBjaEpOb3lWc0NPTW9SUzhiZVA3NkNhUkk1VC1rZ19KX0xMSklRRkxFTTZkTVc3Z0VxVkdQdWk3SUJ2dnNZdXV4N2R4Q2FmNmE4QWpvUmt3eVFOay1zNXlqNURzdEZhbzN0Wnl4bkpmcjdXT1ZBRWM3WTJEZTlzOF9ISjB6TmtpV01oNUhqTzRfZGlDMzk0Q0NYRGowNWl0V3hIU09BQzVGaEg5VlpPNTZDR3hlSGhOWmdhTXI?oc=5",
+    "source": "MarketBeat",
+    "published": "2026-08-13T08:11+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "71087b21841b0367",
+    "title": "POET Stock Rally Not Over Yet? Retail Traders Turn Ecstatic After CFO Signals Big Order Roadmap",
+    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNUEt0b2RzMklGRGZqM3NmT0hnLTlYUmJqUnVzMGJweWlFRmRPaHE2NmNRREVKVFl1WWIwUjFWc29XYkRhZ1FId1owUnlOMkxnS2x3WlAyQ0RQTkpYX21uRzVaRS1QQ3ZlaGY5RXducDRPNDVHSzBudEhHS0hzM3hUMTJsTVZ3SDRqaktQUWZrZ2M5eENENzE2dzVUSDRtdHRSYU00bEt0MEF0U0FKaWk2b3k3Y3J1aHpiQ2pPZWpmSkJ6bDJUdFFFOFI2MzNQN25EMHMwd3QwQkhaSmQ2ZUpheGs1RGV2d25wWjRsTUFuQQ?oc=5",
+    "source": "Stocktwits",
+    "published": "2026-08-13T03:56+00:00",
+    "score": 5,
+    "tags": [
+     "contract"
+    ],
+    "direction": "positive",
+    "primary": false
+   }
+  ],
+  "META": [
+   {
+    "id": "0fac5289606c4710",
+    "title": "24Q3 Earnings Preview & Key US Stock Market Events: $META $AMZN $NVDA $NFLX $GOOGL $MSFT $TSLA Gatineau (lJBOkmCoqD)",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IOU9jYnNPdnVUb2JYR1M3VXZzSGt6R1FVRy1neXVQcmZ4a19qcUJ2YnRjOGpZcklpaERtQmtUZDR2QzYyazYxWkVPVFdncDF3Z29aUjNaWmFTQQ?oc=5",
+    "source": "mshale.com",
+    "published": "2026-08-14T16:00+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "13463895b4e7d2ca",
+    "title": "Why Meta Stock Slid After Earnings While Microsoft Soared",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBHbms5MkM1TmdOa09HRzJlbEJsSDJvWS1tdWFhTkJnLUFpTkRCVy1EZDlEYWUyRkxUN2RKNjFSVGIwUmVuLUJVZXlPWFFaY29oLWh6bHJBUnFjWlpXaUE3bFFoa2tZUXE0ZC1xd3EzTGNqUjc0MWl0RTdaYjE?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-14T15:25+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "276f845bf1300590",
+    "title": "Stock Market Forecast | BTC TSLA NVDA AAPL AMZN META MSFT Fast And Furious (m4cSNSGigK)",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE01YzcwX05MMWlIVGg0OU9sTEJuN1ZLeEtyaGFtRXFWYnZkc0xqdGFOUjZpamFvQVdxRkxadE1BVE1fblJpelcxUi1qQUpPT1UzTHgtVEJmelA2UQ?oc=5",
+    "source": "mshale.com",
+    "published": "2026-08-14T13:32+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "3d012d1b29279168",
+    "title": "Meta Platforms, Inc. $META Shares Acquired by Roffman Miller Associates Inc. PA",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVC1MZjZYZ3YzaVJPdW13X0JVeTcyNk5qdEtCV0Y0YnhkLThmUl95V1lKQnV6S3MzLTFjY0g0RmoteHpEdGg0LU1hYTB3SjFZNTIwVUUxQktxZzdDNVNjUXVGd2lWU1duTDJGUzBJaVZoTDRpVW83RmhCS1lFX0ZRNEJNT2VfUWtUVVB6ZnZxdW41VGc5dzZwTEF1bUJELWdlSHFuVDlDNjZ2UGU5ZjlqWVMtQ1pySVIwanhFZXhkM0VseTU2SkRxeXdWOUxLOHhSVVE?oc=5",
+    "source": "MarketBeat",
+    "published": "2026-08-14T09:23+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "a6c0a510732f85e8",
+    "title": "HHM Wealth Advisors LLC Acquires 1,739 Shares of Meta Platforms, Inc. $META",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOR2NfV1BXaGM5Y2g2VlhZNjBuMlloMzd1Tm90SGxaSFR3MnRUb2p6Z2l1aVVtQTkzVjFCZ2tYVjlnVE9lY3B5SmRvbmRpYlZUZDVRbjhDempyeUFKSnBMSm5UTTZ1RzJPaDhFb3NScHJmbEMxejJqRnoxTWNaeEZUYWY4Z01ONUJMa1RfYm5HcFBFWlZfZlI2eV9hTENmNU00MGRjVU80dlpTWUs4N2xRZVRWWHFJb1FsZWh0eWRQLUhVRWxfVmhzZDVybkg?oc=5",
+    "source": "MarketBeat",
+    "published": "2026-08-14T09:23+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "2abeb48f10d5665c",
+    "title": "United Asset Strategies Inc. Acquires 1,558 Shares of Meta Platforms, Inc. $META",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbXN2dnJnNkhQVGFoa1ZTWGNsVXNNbENDREZid2hVVGU0ZEstcWUyejlQSUpvN1g2UkhNUnN1amdrMXFLaG9GTUVaQm1xR2MwaW1vVUxtVFdmY2RPS2ZDZmFPcXl3RUt0bXZvNktWSnpFNzBHTjBQZzFka2dVaDBCT3FVY2JSMEtoRk9yYUs1aUJBa0FINmZKYXJDalBkYlVpZklqOHV5N0ljcFVVc1BiWVVSOE1EdzFUS2VwSWtLc212VFBfVzhoenlMa0xRNUZGMUE?oc=5",
+    "source": "MarketBeat",
+    "published": "2026-08-14T09:23+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "3d7dd71c6faf79fb",
+    "title": "The Best \"Magnificent Seven\" Stocks to Buy in August",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaGRuQUlPeDBUbGx0OHdDbGRLZGxGWjBZUy1DdDhXb0p3RENEVGFIN2RzazVIc1NRdmhFZ1V2S3pDTG9pUnc4UHJZM0FTRUNVU2ZZd0VEblYzYTJYWjJGaE9QU1BVdWJac0doV2hrUS1WWWVKNGtHb2VBc0dVZUpTcUlRZEtkSjc5dU9ySWlkYV92NVducnFwUA?oc=5",
+    "source": "fool.com",
+    "published": "2026-08-14T08:30+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "34579f16740f6648",
+    "title": "Meta (META) Stock Could Be 37% Undervalued On Teen Safety Ruling",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNa25zY3VXc3JnRjA3eldwTVBGVFFFUk1fdnZOdExmOHlubjVjcnAzWGRfRDlUdzhpWVNxaU5NcW5ERUltcmlJS2l3QWVPN3BUYUxkMFY2dEhwcXVkMV9mQzA2UWNaWnY0RURMNzZyaDlLMTRVeHhXdENwTVRUSHhQU2hieHd1cVhHSGVzTWI2NXlCYTA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-14T07:12+00:00",
+    "score": 5,
+    "tags": [
+     "legal"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "8fcb9f183d30aed2",
+    "title": "Buy The DIP In META? | Chase AMZN Stock? | Earnings Recaps | FAANG STOCK RECAP SHOW Crime (iKtFiV8LL6)",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5NWXllWVl1RmptMFBDeXk0WkNodXNxMUdMQ0tCMGgyaVJTOFVocW1kZGJaaHhCYzE4cm1sc0h5ZDdvNEJXYjJ2dHRteEdNazNsXzJUWl9HMWIycjA?oc=5",
+    "source": "mshale.com",
+    "published": "2026-08-14T04:41+00:00",
+    "score": 11,
+    "tags": [
+     "earnings",
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "a8d61f677d0ee478",
+    "title": "MORNING BUSINESS REPORT: Mortgage rates fall, Meta lawsuit",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQlVMYmJuMFhyY0VZMG9UdU1xMGNNZjFLa1JOcVVsNGQ0aHNTa0dNdEZwRy1NNi1UcGEzSVVaZmZPUVd2V3dGN1ZxdzNoalc4cnFvaVcxNWFocFRZbU9NZUlvZFRfSVYxYVJBMmxDYTc5VGZzNmZJTHN1LTE5eEh0QXE1OE55WVFROTk5bmd2SkVGR0hoT2NBc1dobw?oc=5",
+    "source": "WFSB",
+    "published": "2026-08-14T02:38+00:00",
+    "score": 11,
+    "tags": [
+     "earnings",
+     "legal"
+    ],
+    "direction": "negative",
+    "primary": false
+   }
+  ]
  },
- "errors": {}
+ "errors": {
+  "AAPL": [
+   "sec: HTTPError"
+  ],
+  "AMZN": [
+   "sec: HTTPError"
+  ],
+  "TSLA": [
+   "sec: HTTPError"
+  ],
+  "PLTR": [
+   "sec: HTTPError"
+  ],
+  "MSFT": [
+   "sec: HTTPError"
+  ],
+  "GOOGL": [
+   "sec: HTTPError"
+  ],
+  "HOOD": [
+   "sec: HTTPError"
+  ],
+  "NVDA": [
+   "sec: HTTPError"
+  ],
+  "INTC": [
+   "sec: HTTPError"
+  ],
+  "NBIS": [
+   "sec: HTTPError"
+  ],
+  "MRVL": [
+   "sec: HTTPError"
+  ],
+  "META": [
+   "sec: HTTPError"
+  ]
+ },
+ "count": 119
 }
