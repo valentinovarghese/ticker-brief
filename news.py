@@ -74,7 +74,13 @@ CIK = {
     "NBIS": "0001513845", "MRVL": "0001835632", "META": "0001326801",
 }
 
-UA = "ticker-brief/1.0 (+https://github.com/valentinovarghese/ticker-brief)"
+# SEC's fair-access policy requires a User-Agent naming the requester with a
+# working contact, and answers a generic one with 403. The address is the
+# owner's GitHub noreply, which is already public, rather than a personal
+# mailbox published in a public repository.
+UA = ("ticker-brief/1.0 "
+      "(valentinovarghese@users.noreply.github.com) "
+      "+https://github.com/valentinovarghese/ticker-brief")
 
 # How far back an item may be and still count as current.
 NEWS_WINDOW = timedelta(hours=48)
@@ -88,35 +94,43 @@ KEEP_PER_TICKER = 10
 # and a feature above a listicle, not to grade twenty shades of relevance.
 # ---------------------------------------------------------------------------
 
+# Every noun here carries an explicit optional plural. "contract" without it
+# does not match "Contracts", which silently dropped a real Space Force
+# contract award on the first live run. A missing plural loses news without
+# leaving a trace, so the plurals are spelled out rather than assumed.
 CATEGORIES = [
     # "reports"/"operating data" matter: Robinhood's monthly metrics release
     # is exactly the kind of scheduled, numeric disclosure this feed is for.
-    ("earnings",   6, r"\b(earnings|results|revenue|eps|guidance|forecast|outlook|"
-                      r"quarterly|q[1-4]\s*(?:20\d\d|fy)|beats?|misses?|"
-                      r"reports?|reported|operating data|monthly metrics|"
-                      r"deliveries|shipments|pre-?announce)\b"),
-    ("filing",     6, r"\b(8-k|10-k|10-q|13-?[dgf]|form 4|s-1|6-k|proxy|"
-                      r"prospectus|sec filing)\b"),
-    ("legal",      5, r"\b(lawsuit|sues?|sued|settle(?:s|d|ment)?|antitrust|doj|"
-                      r"ftc|sec (?:probe|investigat|charge)|subpoena|injunction|"
-                      r"contempt|appeal|court|judge|ruling|fine[ds]?|penalty|"
-                      r"regulator|investigation)\b"),
-    ("capital",    5, r"\b(buyback|repurchase|dividend|offering|issuance|notes|"
-                      r"debt|convertible|stake|spin-?off|split)\b"),
-    ("ma",         5, r"\b(acquir\w+|acquisition|merger|takeover|buys?|"
+    ("earnings",   6, r"\b(earnings|results?|revenues?|eps|guidance|forecasts?|"
+                      r"outlooks?|quarterly|q[1-4]\s*(?:20\d\d|fy)|beats?|"
+                      r"misses?|reports?|reported|operating data|"
+                      r"monthly metrics|deliveries|shipments|"
+                      r"pre-?announces?)\b"),
+    ("filing",     6, r"\b(8-ks?|10-ks?|10-qs?|13-?[dgf]|form [345]|s-1|6-k|"
+                      r"proxy|proxies|prospectus(?:es)?|sec filings?|"
+                      r"files? with the sec)\b"),
+    ("legal",      5, r"\b(lawsuits?|sues?|sued|settle(?:s|d|ment|ments)?|"
+                      r"antitrust|doj|ftc|sec (?:probe|investigat|charge)|"
+                      r"subpoenas?|injunctions?|contempt|appeals?|courts?|"
+                      r"judges?|rulings?|fine[ds]?|penalties|penalty|"
+                      r"regulators?|investigations?|probes?)\b"),
+    ("capital",    5, r"\b(buybacks?|repurchases?|dividends?|offerings?|"
+                      r"issuances?|notes|debt|convertibles?|stakes?|"
+                      r"spin-?offs?|splits?)\b"),
+    ("ma",         5, r"\b(acquir\w+|acquisitions?|mergers?|takeovers?|buys?|"
                       r"divest\w*|sells? (?:its|unit|division))\b"),
-    ("contract",   5, r"\b(contract|deal|agreement|award(?:ed|s)?|order|"
-                      r"partnership|supply)\b"),
-    ("operations", 5, r"\b(recalls?|recalled|halts?|halted|outage|breach|hack|"
-                      r"layoffs?|cuts? \d+|shutdown|delays?|delayed|"
-                      r"plant|factory|fab|production)\b"),
+    ("contract",   5, r"\b(contracts?|deals?|agreements?|award(?:ed|s)?|"
+                      r"orders?|partnerships?|supply|wins?|won)\b"),
+    ("operations", 5, r"\b(recalls?|recalled|halts?|halted|outages?|breach(?:es)?|"
+                      r"hacks?|layoffs?|cuts? \d+|shutdowns?|delays?|delayed|"
+                      r"plants?|factory|factories|fabs?|production)\b"),
     # A job title alone is not news. Only an actual change of who holds it is,
     # which is why "Nvidia CEO spotted in Taipei" must not score here.
     ("leadership", 5, r"\b(resign\w*|steps? down|stepping down|departs?|"
-                      r"departure|ousted|fired|appoints?|appointed|"
+                      r"departures?|ousted|fired|appoints?|appointed|"
                       r"succeeds?|named (?:ceo|cfo|chair))\b"),
-    ("policy",     4, r"\b(tariff|sanction|export (?:ban|control|licen)|"
-                      r"ban(?:s|ned)?|approval|approves?|antitrust|"
+    ("policy",     4, r"\b(tariffs?|sanctions?|export (?:ban|control|licen)|"
+                      r"bans?|banned|approvals?|approves?|antitrust|"
                       r"national security)\b"),
 ]
 
@@ -127,8 +141,36 @@ NOISE = re.compile(
     r"\b\d+ (?:reasons?|things|stocks?)\b|motley fool|zacks|prediction|"
     r"here'?s why you|could (?:double|soar|explode)|millionaire|"
     r"better buy|vs\.?\s|analyst[s]? say|rated? (?:buy|sell|hold)|"
-    r"my top|i'?m buying|dividend king|if you'?d invested|stock split soon)",
+    r"my top|i'?m buying|dividend king|if you'?d invested|stock split soon|"
+    # Promotional and message-board register.
+    r"must buy|huge upside|is a buy|\bbuy right now|after the crash|"
+    r"time to buy|worth buying|screaming buy|\bbuy the dip|"
+    # Retrospective explainers and previews, not events.
+    r"stock market forecast|earnings preview|week ahead|what to expect|"
+    r"stocks? to (?:buy|watch)|ahead of earnings|things to know|"
+    r"here'?s what|why .{0,30}\bstock (?:slid|soared|rose|fell|jumped|"
+    r"dropped|climbed|sank|is (?:up|down|moving|rising|falling))|"
+    r"what'?s (?:going on|driving)|moved? (?:up|down) by \d|"
+    r"\bopinions?\b|analyst (?:downgrade|upgrade|rating)|"
+    # Auto-generated 13F ownership stubs. Every large holder files one every
+    # quarter, so these arrive by the hundred and say nothing about the
+    # company itself.
+    r"shares (?:acquired|sold|purchased) by|has \$[\d.,]+ (?:million|billion) "
+    r"(?:stake|position)|(?:buys|sells|acquires|purchases) "
+    r"(?:new )?(?:\d[\d,]* )?shares of|position (?:raised|lowered|boosted|"
+    r"trimmed|increased|decreased) by|(?:stake|holdings|position) in .{0,40} "
+    r"(?:raised|lowered|boosted|trimmed)|takes? position in|"
+    r"reports \d+% ownership|invests \$[\d.,]+ (?:million|billion) in)",
     re.I)
+
+# Outlets that publish only ranking pieces, promotional copy or
+# machine-written ownership stubs. Blocking the source is blunt, but these
+# produce nothing this feed is for and they crowd out everything else.
+SOURCE_BLOCK = {
+    "marketbeat", "mshale.com", "zacks", "the motley fool", "fool.com",
+    "tipranks", "24/7 wall st.", "247wallst", "pluang", "insider monkey",
+    "stocktwits", "benzinga", "simply wall st", "gurufocus",
+}
 
 NEGATIVE = re.compile(
     r"\b(fall\w*|drop\w*|plunge\w*|slump\w*|sink\w*|tumbl\w*|slide\w*|"
@@ -148,6 +190,59 @@ POSITIVE = re.compile(
 MONEY = re.compile(r"\$\s?\d[\d,.]*\s?(?:billion|bn|million|m\b|trillion|tn)?", re.I)
 
 MIN_SCORE = 5
+
+# A headline naming three or more of the twelve is a round-up, not a story
+# about any one of them.
+MAX_TICKERS = 2
+
+
+def about(ticker, title):
+    """Is this headline actually about this company?
+
+    Google's query matches loosely, and short names are the trap. "Hood
+    River Capital exits Camping World" matched HOOD and has nothing to do
+    with Robinhood. So the ticker must appear in capitals as a whole word,
+    or the full company name must appear as a phrase. "Hood" alone is
+    neither, which is exactly the point.
+    """
+    if re.search(r"(?<![A-Za-z])" + re.escape(ticker) + r"(?![A-Za-z])", title):
+        return True
+    return re.search(r"\b" + re.escape(NAMES[ticker]) + r"\b", title, re.I) is not None
+
+
+def round_up(title):
+    """Does the headline name enough tickers to be a list rather than a story?"""
+    hits = sum(1 for t in TICKERS
+               if re.search(r"(?<![A-Za-z])" + t + r"(?![A-Za-z])", title))
+    return hits >= MAX_TICKERS + 1
+
+
+def blocked_source(source):
+    s = (source or "").lower()
+    return any(b in s for b in SOURCE_BLOCK)
+
+
+def signature(title):
+    """The significant words of a headline, for near-duplicate detection."""
+    words = re.findall(r"[a-z0-9$%.]+", title.lower())
+    return {w for w in words if len(w) > 3}
+
+
+def near_duplicate(sig, seen_sigs, threshold=0.45):
+    """Wire copy repeats. One Berkshire headline is news, four is a pile.
+
+    Containment rather than Jaccard: four outlets rewriting one story share
+    the entities and little else, so overlap against the *shorter* headline
+    is the signal. Jaccard scored that cluster at 0.25 and collapsed none of
+    it. The trade is that two genuinely different stories sharing most of
+    their short headline can merge; capping items per ticker and exempting
+    filings keeps that cost small.
+    """
+    for other in seen_sigs:
+        smaller = min(len(sig), len(other))
+        if smaller and len(sig & other) / smaller >= threshold:
+            return True
+    return False
 
 
 def score(title):
@@ -267,22 +362,64 @@ def google_news(ticker):
     return out
 
 
+# What each form actually tells a reader, so the page says something more
+# useful than a form number.
+FORMS = {
+    "8-K": "current report, a disclosable event",
+    "10-Q": "quarterly report",
+    "10-K": "annual report",
+    "4": "insider share transaction",
+    "3": "initial insider holding",
+    "5": "annual insider holding",
+    "SC 13D": "activist stake, over 5%",
+    "SC 13G": "passive stake, over 5%",
+    "13F-HR": "quarterly institutional holdings",
+    "S-1": "registration of new securities",
+    "S-3": "shelf registration",
+    "S-8": "employee share plan",
+    "424B5": "prospectus for a securities offering",
+    "6-K": "foreign issuer report",
+    "20-F": "foreign issuer annual report",
+    "DEF 14A": "proxy statement",
+}
+
+# Routine plumbing that would bury the material filings.
+FORM_NOISE = {"S-8", "3", "5", "SD", "ARS", "CERT", "8-A12B", "25-NSE", "144"}
+
+
 def sec_filings(ticker):
-    """Every filing this company has made recently, newest first."""
+    """Recent filings from EDGAR's submissions API, newest first.
+
+    Uses data.sec.gov rather than the old browse-edgar Atom feed: it is the
+    documented, stable interface and returns clean JSON instead of titles
+    that have to be split apart.
+    """
     cik = CIK.get(ticker)
     if not cik:
         return []
-    url = ("https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany"
-           f"&CIK={cik}&type=&dateb=&owner=include&count=20&output=atom")
+    data = json.loads(get(f"https://data.sec.gov/submissions/CIK{cik}.json"))
+    recent = (data.get("filings") or {}).get("recent") or {}
+    forms = recent.get("form") or []
+    dates = recent.get("filingDate") or []
+    accs = recent.get("accessionNumber") or []
+    docs = recent.get("primaryDocument") or []
+
     out = []
-    for rec in parse_feed(get(url)):
-        title = rec["title"]
-        # EDGAR titles read "8-K - Current report ... (Filer)".
-        form = title.split(" - ")[0].strip()
-        out.append({"title": f"{form} filed with the SEC",
-                    "detail": title,
-                    "link": rec["link"],
-                    "published": rec["published"],
+    for i, form in enumerate(forms[:40]):
+        if form in FORM_NOISE:
+            continue
+        when = parse_dt(dates[i]) if i < len(dates) else None
+        acc = accs[i].replace("-", "") if i < len(accs) else ""
+        doc = docs[i] if i < len(docs) else ""
+        link = (f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc}/{doc}"
+                if acc and doc else
+                f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany"
+                f"&CIK={cik}&type={urllib.parse.quote(form)}")
+        gloss = FORMS.get(form)
+        out.append({"title": f"Form {form} filed" + (f": {gloss}" if gloss else ""),
+                    "detail": form,
+                    "link": link,
+                    "published": when,
                     "source": "SEC EDGAR",
                     "primary": True})
     return out
@@ -312,13 +449,22 @@ def collect(ticker, now):
             if when and now - when > window:
                 continue
             s, cats, direction = score(rec["title"] + " " + rec.get("detail", ""))
-            # A filing is material by construction, whatever its title says.
+            # A filing is material by construction, whatever its title says,
+            # and it comes from EDGAR so none of the coverage filters apply.
             if rec["primary"]:
                 s = max(s, MIN_SCORE + 3)
                 if "filing" not in cats:
                     cats.append("filing")
-            elif s < MIN_SCORE:
-                continue
+            else:
+                if s < MIN_SCORE:
+                    continue
+                if blocked_source(rec["source"]):
+                    continue
+                # Must be about this company, and about this company alone.
+                if not about(ticker, rec["title"]):
+                    continue
+                if round_up(rec["title"]):
+                    continue
             items.append({
                 "id": key(rec),
                 "title": rec["title"][:260],
@@ -332,11 +478,18 @@ def collect(ticker, now):
                 "primary": rec["primary"],
             })
 
-    seen, unique = set(), []
+    # Highest-scoring first, so when a cluster of wire copy collapses it is
+    # the most material phrasing that survives.
+    seen, sigs, unique = set(), [], []
     for it in sorted(items, key=lambda i: (-i["score"], i["published"] or "")):
         if it["id"] in seen:
             continue
+        sig = signature(it["title"])
+        # Filings are never collapsed: two 8-Ks on one day are two events.
+        if not it["primary"] and near_duplicate(sig, sigs):
+            continue
         seen.add(it["id"])
+        sigs.append(sig)
         unique.append(it)
 
     unique.sort(key=lambda i: (i["published"] or "", i["score"]), reverse=True)
@@ -464,19 +617,103 @@ FIXTURES = [
 ]
 
 
+# Real headlines the first live run let through that it should not have,
+# plus the ones it correctly kept. Every one of these came off the wire on
+# 2026-08-14, so this is a regression test against observed behaviour rather
+# than against imagined behaviour.
+LIVE_FIXTURES = [
+    # (ticker, headline, source, should_publish)
+    ("HOOD", "Why HOOD Stock Is A MUST BUY Right Now (Huge Upside)", "mshale.com", False),
+    ("HOOD", "HOOD Stock Plunges 6.15%! Is Robinhood A Buy After The Crash?", "mshale.com", False),
+    ("HOOD", "Hood River Capital exits Camping World (CWH) with reported 0% ownership", "Stock Titan", False),
+    ("MSFT", "Sunbelt Securities Inc. Has $29.07 Million Stake in Microsoft Corporation", "MarketBeat", False),
+    ("MSFT", "Guardian Partners Inc. Buys 2,824 Shares of Microsoft Corporation $MSFT", "MarketBeat", False),
+    ("NVDA", "NVDA, MRVL, AVGO - 3 Semiconductor Stocks to Buy Ahead of Earnings", "TipRanks", False),
+    ("NVDA", "5 AI Stocks with Strong Growth to Buy on the Rebound", "Benzinga", False),
+    ("META", "Stock Market Forecast | BTC TSLA NVDA AAPL AMZN META MSFT", "mshale.com", False),
+    ("META", "Why Meta Stock Slid After Earnings While Microsoft Soared", "AOL.com", False),
+    ("MRVL", "Marvell or Nvidia: Which AI Chip Stock Does Goldman Sachs Prefer", "TipRanks", False),
+    ("AAPL", "Apple Stock (AAPL) Opinions on Recent Earnings and Analyst Downgrades", "quiverquant.com", False),
+    # These are real events and must survive.
+    ("GOOGL", "Berkshire Adds to Alphabet Stake, Buys Homebuilders", "WSJ", True),
+    ("AMZN", "Joshua Kushner's Thrive Capital discloses $215 million Amazon stake", "Reuters", True),
+    ("INTC", "Intel Corp (INTC) CEO Tan Lip Bu acquires 105,263 shares in Family Trust", "Stock Titan", True),
+    ("AMZN", "Rocket Lab, Amazon Win Space Force Contracts", "Investor's Business Daily", True),
+    ("NVDA", "Nvidia discloses big stake in SpaceX in Q2 moves", "Seeking Alpha", True),
+]
+
+
+def publishable(ticker, title, source):
+    """The full coverage gate, exactly as collect() applies it."""
+    s, _, _ = score(title)
+    return (s >= MIN_SCORE
+            and not blocked_source(source)
+            and about(ticker, title)
+            and not round_up(title))
+
+
 def selftest():
     bad = 0
+    print("-- scoring --")
     for title, want, direction in FIXTURES:
         s, cats, got = score(title)
         published = s >= MIN_SCORE
         ok = published == want and (direction is None or got == direction)
-        if not ok:
-            bad += 1
+        bad += not ok
         print(f"  {'ok  ' if ok else 'FAIL'} score={s:2d} {got:8} "
               f"{','.join(cats) or '-':22} {title[:56]}")
-    print(f"selftest: {len(FIXTURES) - bad}/{len(FIXTURES)} passed")
+
+    print("-- live wire, observed 2026-08-14 --")
+    for ticker, title, source, want in LIVE_FIXTURES:
+        got = publishable(ticker, title, source)
+        ok = got == want
+        bad += not ok
+        verdict = "keep" if got else "drop"
+        print(f"  {'ok  ' if ok else 'FAIL'} {verdict:5} {ticker:6} {title[:60]}")
+
+    total = len(FIXTURES) + len(LIVE_FIXTURES)
+    print(f"selftest: {total - bad}/{total} passed")
+    return 1 if bad else 0
+
+
+def collapse(titles):
+    sigs, kept = [], []
+    for title in titles:
+        sig = signature(title)
+        if near_duplicate(sig, sigs):
+            continue
+        sigs.append(sig)
+        kept.append(title)
+    return kept
+
+
+def dedupe_selftest():
+    """One story told four ways collapses; two real stories do not."""
+    bad = 0
+
+    cluster = ["Berkshire Adds to Alphabet Stake, Buys Homebuilders",
+               "Berkshire ups Alphabet stake under Greg Abel, making it a top-3 holding",
+               "Berkshire buys more Alphabet, which becomes its third-largest stock",
+               "Berkshire boosted Alphabet stake by 83% in biggest buying quarter"]
+    kept = collapse(cluster)
+    ok = len(kept) == 1
+    bad += not ok
+    print(f"  {'ok  ' if ok else 'FAIL'} wire cluster: {len(cluster)} -> {len(kept)} "
+          f"(want 1)")
+
+    # Negative control: two distinct Intel events must both survive.
+    distinct = ["Intel prices $20 billion stock offering at $95 per share",
+                "Intel CEO Tan Lip Bu acquires 105,263 shares in Family Trust"]
+    kept2 = collapse(distinct)
+    ok2 = len(kept2) == 2
+    bad += not ok2
+    print(f"  {'ok  ' if ok2 else 'FAIL'} distinct events: {len(distinct)} -> "
+          f"{len(kept2)} (want 2)")
+
     return 1 if bad else 0
 
 
 if __name__ == "__main__":
-    sys.exit(selftest() if "--selftest" in sys.argv else main())
+    if "--selftest" in sys.argv:
+        sys.exit(selftest() or dedupe_selftest())
+    sys.exit(main())
