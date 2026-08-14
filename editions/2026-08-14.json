@@ -1,0 +1,607 @@
+{
+ "date": "2026-08-14",
+ "weekday": "Fri",
+ "headline": "Robinhood rose 4.70% to $99.37, the largest gain of the twelve, as July data showed event contracts up twentyfold and crypto trading down 62%.",
+ "gauge": [
+  {
+   "text": "QQQ +1.16% Thursday close",
+   "tone": "up"
+  },
+  {
+   "text": "updated 07:00 ET &middot; before the open",
+   "tone": "flat"
+  },
+  {
+   "text": "12 tickers &middot; 2 with events dated 13 August",
+   "tone": "flat"
+  }
+ ],
+ "quick": [
+  "<b>Robinhood rose 4.70% to $99.37, the largest gain of the twelve.</b> July operating data, published after Wednesday's close, showed event contracts of <b>6.1bn</b>, up <b>20x</b> on the year. Options contracts were <b>324m</b>, up <b>66%</b>. Crypto notional volume was <b>$10.9bn</b>, down <b>62%</b> on the year and <b>33%</b> on the month. Thursday was the first full session to price it.",
+  "<b>A soft producer price print lifted ten of the twelve.</b> July PPI was <b>flat</b> on the month against <b>+0.2%</b> expected, and the annual rate fell to <b>4.7%</b> from <b>5.5%</b>. Only <b>AMZN -0.80%</b> and <b>NBIS -1.60%</b> fell. Six beat QQQ's <b>+1.16%</b>. This was a macro day, not a company day.",
+  "<b>Apple lost its Supreme Court stay after Thursday's close, and the market has not priced it.</b> Justice Kagan denied the pause at <b>17:00 ET</b>. The district court can now proceed to set what Apple may charge on purchases made outside the App Store. AAPL closed <b>+1.00%</b> before the order landed. Premarket <b>-0.09%</b>."
+ ],
+ "macro": [
+  {
+   "dt": "<b>July producer prices landed at 08:30 ET on 13 August and came in soft.</b> The index was <b>flat</b> on the month against <b>+0.2%</b> expected. The annual rate fell to <b>4.7%</b> from <b>5.5%</b>, its lowest since March. Core producer prices, which strip out food and energy, rose <b>0.2%</b>. Initial jobless claims were <b>209,000</b> and continuing claims <b>1,777,000</b>",
+   "lead": "How it reaches these stocks",
+   "dd": "Producer prices are what firms receive rather than what shoppers pay, so they lead consumer prices by a few months. A flat month says the oil spike sitting in headline inflation has not yet worked into the pipeline. That takes a rate rise off the table and puts a cut back on it. These twelve are priced on profits arriving years out. The rate used to discount those profits therefore matters more to them than to the market overall. That is why a macro print moved them further than the index."
+  },
+  {
+   "dt": "<b>QQQ</b> closed <b>732.07</b>, <b>+1.16%</b>, and sits <b>2.21%</b> below its 52-week high of <b>748.65</b>",
+   "lead": "Does the gauge agree",
+   "dd": "It agrees, and the contrast with Wednesday is the useful part. On Wednesday QQQ rose while seven of these twelve fell, carried by its largest members. On Thursday ten of the twelve rose and six beat the index. Breadth like that is the signature of a macro print rather than a company event. When one company drives a day, the index and its members disagree. When a rate expectation moves, they line up."
+  }
+ ],
+ "entries": [
+  {
+   "ticker": "HOOD",
+   "dir": "up",
+   "strength": "major",
+   "strength_label": "Major move &middot; July operating data priced a day late &middot; 13 August",
+   "move": "+4.70% &middot; Thursday close, settled",
+   "move_tone": "up",
+   "happened": "Robinhood rose 4.70% as Thursday's session priced the July operating data it published after Wednesday's close.",
+   "figures": [
+    "Event contracts traded <b>6.1bn</b> in July, up <b>20x</b> on the year and down <b>5%</b> on the month",
+    "Options contracts traded <b>324m</b>, up <b>66%</b> on the year and <b>2%</b> on the month",
+    "Crypto notional volume <b>$10.9bn</b>, down <b>62%</b> on the year and <b>33%</b> on the month. The Robinhood app's own share of that was <b>$4.3bn</b>, down <b>74%</b> on the year",
+    "Funded customers <b>28.5m</b>, up <b>1.77m</b> on the year. Total platform assets <b>$355bn</b>, up <b>19%</b> on the year and down <b>4%</b> on the month. Net deposits <b>$5.6bn</b>",
+    "Closed <b>$99.37</b>, <b>+4.70%</b>, the largest gain of the twelve. Volume <b>16.1m</b> against a <b>16.2m</b> average, almost exactly in line"
+   ],
+   "why": "Robinhood is swapping one revenue line for another, and the two are not worth the same multiple. Crypto trading arrives in bursts tied to a cycle nobody at the company controls, so investors discount it heavily. Event contracts and options are habitual, and habitual order flow can be forecast. Trading a shrinking cyclical line for a growing recurring one raises the quality of the earnings, not just the level. Quality is what sets the multiple.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Now it is. The data landed after Wednesday's close, so Wednesday's <b>+0.56%</b> was not a reaction to it. Thursday was the first full session with the numbers and <b>4.70%</b> is a real response. The last extended-hours print was <b>+0.23%</b>, from Thursday evening rather than this morning, so there is no fresh premarket read.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "August metrics show event contracts falling again on the month. July was already down <b>5%</b> from June. A second monthly decline turns a growth line into a fad and takes the multiple back down with it.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Early September, August operating metrics, on a monthly cadence the company has confirmed.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "PLTR",
+   "dir": "up",
+   "strength": "major",
+   "strength_label": "Major move &middot; no company news &middot; sector reversal",
+   "move": "+4.66% &middot; Thursday close, settled",
+   "move_tone": "up",
+   "happened": "Palantir rose 4.66% with nothing announced, reversing Wednesday's move out of AI software.",
+   "figures": [
+    "No dated company event on <b>13 August</b>. Q2 results were <b>3 August</b> and the Pentagon sole-source memo was dated <b>4 August</b>. Neither is new",
+    "Closed <b>$179.01</b>, <b>+4.66%</b>, the second largest gain of the twelve",
+    "That reversed Wednesday's <b>2.23%</b> fall and then some, with no company event on either day",
+    "Volume <b>36.3m</b> against a <b>63.6m</b> average, <b>43%</b> below it. That was the lightest participation of the twelve",
+    "Premarket <b>-0.84%</b>, the weakest premarket of the twelve, provisional"
+   ],
+   "why": "This is the sector, and it is worth naming plainly. Palantir earns nowhere near enough today to justify its price, so almost all of that price is profit assumed to arrive years from now. Move the rate those future profits are discounted at and the whole valuation moves, without a single thing changing inside the business. Thursday's producer price print moved that rate. The below-average volume says the same thing: a rise this size on the lightest turnover of the twelve is repricing, not accumulation.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "There is nothing company-specific to price. The move is macro, and the premarket giving back <b>0.84%</b> is consistent with that: rate-driven moves do not stick the way news-driven ones do. Provisional, and the open will settle it.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "The August jobs or CPI print comes in hot. The same mechanism that lifted Palantir on Thursday works identically in reverse, and faster.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Q3 results, early November. Nothing scheduled before then.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "TSLA",
+   "dir": "up",
+   "strength": "major",
+   "strength_label": "Major move &middot; Swedish strike called off &middot; 13 August",
+   "move": "+3.80% &middot; Thursday close, settled",
+   "move_tone": "up",
+   "happened": "Sweden's IF Metall called off a 1,021-day strike against Tesla, and the stock rose 3.80%.",
+   "figures": [
+    "IF Metall announced on <b>13 August</b> that it will suspend industrial action from <b>19 August</b>. Roughly <b>80</b> union members were bought out rather than covered by an agreement",
+    "The dispute began in <b>October 2023</b> and is the longest strike in Swedish history",
+    "Closed <b>$339.96</b>, <b>+3.80%</b>, the third largest gain of the twelve. Volume <b>33.3m</b> against a <b>31.2m</b> average, one of only three of the twelve above its own average",
+    "Tesla sits <b>31.85%</b> below its 52-week high of <b>$498.83</b>, the third widest gap of the twelve",
+    "The <b>$16.8bn</b> Terafab commitment with SpaceX was announced <b>6 August</b> and is not news in this window"
+   ],
+   "why": "Eighty people is nothing against Tesla's payroll, so read this as precedent rather than cost. What ended was a three-year test of whether a company can operate at scale in a collective-bargaining country without ever signing an agreement. Tesla passed it by paying people to leave. Other European unions were using Sweden as the template, and that template just failed. It changes the expected cost of scaling sales and service across Europe, which is a multi-year revenue question, not a this-quarter margin one.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Only partly, and be careful here. An <b>80</b>-person settlement cannot be worth <b>3.80%</b> of Tesla. The bulk of the move is the producer price print, because rate expectations reach Tesla's end customer directly, through the car loan. Premarket <b>+0.60%</b>, provisional.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "Sympathy actions from Swedish dockworkers, postal and electrical unions continue anyway. The strike's real bite was always the blockades on registration plates and deliveries, not the eighty mechanics.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "<b>19 August</b>, when the industrial action formally lapses. Then Q3 deliveries in early October.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "INTC",
+   "dir": "up",
+   "strength": "major",
+   "strength_label": "Major move &middot; no company news &middot; offering still being absorbed",
+   "move": "+3.58% &middot; Thursday close, settled",
+   "move_tone": "up",
+   "happened": "Intel rose 3.58% to $104.56 with nothing announced, as the shares it sold this week kept finding buyers.",
+   "figures": [
+    "Closed <b>$104.56</b>, <b>+3.58%</b>. That is <b>10.06%</b> above the <b>$95</b> offer price, up from <b>6.3%</b> above it on Wednesday",
+    "Volume <b>112.0m</b> against a <b>111.0m</b> average, one of only three of the twelve to trade above its own average",
+    "The <b>$20bn</b> offering closed on <b>12 August</b> and raised roughly <b>$19.7bn</b> net. There was no new company announcement on <b>13 August</b>",
+    "Premarket <b>+1.97%</b>, the largest premarket gain of the twelve, provisional"
+   ],
+   "why": "A company that sells $20bn of new stock normally trades below its offer price for weeks. Everyone who wanted the shares now has them, and the marginal buyer has gone. Intel is doing the opposite two days out, and on above-average volume. That says the buyers were long-term holders rather than traders flipping an allocation. It matters beyond the price. It lowers the cost of the next raise, and a foundry build of this size will need more than one.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "The offering itself is priced. What is not priced is whether the money produces a foundry customer. Nothing on Thursday spoke to that. The premarket gain is the largest of the twelve but is thin and provisional.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "A named external customer fails to appear for the 18A process by the autumn. The equity raise buys roughly a year of capital spending, not a customer list.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Q3 results in late October, the first to show the cash on the balance sheet and the share count that came with it.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "META",
+   "dir": "up",
+   "strength": "major",
+   "strength_label": "Major move &middot; national labour agreement for data centre construction &middot; 12 August",
+   "move": "+2.78% &middot; Thursday close, settled",
+   "move_tone": "up",
+   "happened": "Meta signed a national partnership with North America's Building Trades Unions covering AI data centre construction.",
+   "figures": [
+    "Announced <b>12 August</b>. It is Meta's first formal national agreement with organised labour",
+    "It folds the unions' apprenticeship network into Meta's America's Workforce Academy, a <b>$115m</b> first-year programme launched in <b>June 2026</b> with non-union contractors. The combined programme now covers both labour markets at once",
+    "Training is aimed at high-voltage systems, cooling, fire suppression and secure fibre, the trades that gate a data centre opening",
+    "Closed <b>$594.97</b>, <b>+2.78%</b>. Volume <b>10.9m</b> against a <b>16.1m</b> average, <b>32%</b> below it",
+    "Meta guided to <b>$135bn</b> of 2026 capital spending at its Q2 results. This agreement concerns who builds that, not how much it costs"
+   ],
+   "why": "The binding constraint on Meta's buildout is not money, it is electricians. A data centre earns nothing until it is energised, so every month of schedule slip is a month of depreciation against no revenue. Securing a trained pipeline converts an open-ended schedule risk into a known cost line. On a $135bn annual programme, pulling openings forward by even a quarter matters. It changes when the return on that spending shows up in the numbers investors watch.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Partly. The <b>2.78%</b> came on volume <b>32%</b> below average, so this was not a crowd reacting to a labour agreement. Most of the day was the macro print. Premarket <b>-0.12%</b>, effectively flat and provisional.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "Meta trims its capital spending guidance. A workforce pipeline is only worth something if the campuses it staffs are still being built.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "<b>24 August</b>, when Manus deletes user data as its separation from Meta completes.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "AAPL",
+   "dir": "up",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; Supreme Court denied Apple's stay, after the close &middot; 13 August",
+   "move": "+1.00% &middot; Thursday close, before the order",
+   "move_tone": "up",
+   "happened": "Justice Kagan denied Apple's request to pause the App Store commission proceedings, after Thursday's close.",
+   "figures": [
+    "Kagan granted a one-day administrative stay on <b>12 August</b>, then denied the longer stay on <b>13 August</b> at <b>17:00 ET</b>, after the close",
+    "The district court may now proceed to decide what Apple can charge on purchases made outside the App Store. Apple's <b>27%</b> commission on those purchases is what the contempt finding was about",
+    "The Supreme Court has agreed to hear the underlying contempt appeal. This order decides timing only",
+    "Closed <b>$305.26</b>, <b>+1.00%</b>, before the order landed. Premarket <b>-0.09%</b>, effectively flat",
+    "Volume <b>38.5m</b> against a <b>56.8m</b> average, <b>32%</b> below it"
+   ],
+   "why": "Services is the part of Apple that investors pay the highest multiple for, because it recurs and carries software margins. The link-out commission sits inside that line, and a judge rather than Apple will now set its rate. A rate set by a court is one Apple cannot raise later, so the line stops compounding at Apple's discretion. That caps something investors had been extrapolating, which matters more to the multiple than to this year's revenue.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "No, and this is the clearest unpriced item on the list. The order came after the close, so Thursday's <b>+1.00%</b> is not a reaction to it. Premarket <b>-0.09%</b> says the market is treating a procedural denial as procedural. The open will settle it.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "The Supreme Court rules for Apple on the contempt appeal it has agreed to hear. Thursday's order decided the timetable, not the merits.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "The district court's rate proceeding resumes. No date has been set publicly.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "MRVL",
+   "dir": "up",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; no company news &middot; semiconductor rally",
+   "move": "+2.35% &middot; Thursday close, settled",
+   "move_tone": "up",
+   "happened": "Marvell rose 2.35% with nothing announced, thirteen days before its results.",
+   "figures": [
+    "No dated company event on <b>13 August</b>. The AI memory product launch was <b>12 August</b> and is not new",
+    "Closed <b>$222.18</b>, <b>+2.35%</b>. Volume <b>18.6m</b> against a <b>21.5m</b> average, <b>14%</b> below it",
+    "Marvell sits <b>32.65%</b> below its 52-week high of <b>$329.88</b>, the second widest gap of the twelve",
+    "Premarket <b>+1.58%</b>, provisional"
+   ],
+   "why": "Marvell sells custom silicon to a handful of very large customers, so its value tracks their capital budgets rather than any end market. Applied Materials reported after Thursday's close that orders for leading-edge logic and advanced packaging are accelerating. That is the equipment which makes exactly what Marvell designs, and it is the earliest evidence in the chain that the volumes are still coming.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Nothing company-specific to price. The move is the semiconductor complex plus the macro print. Premarket <b>+1.58%</b>, thin and provisional.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "A hyperscaler brings a custom chip programme in-house. Marvell's revenue is concentrated enough that one lost design changes the growth rate.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "<b>27 August</b>, Q2 FY27, exactly thirteen days out and one day after Nvidia.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "NBIS",
+   "dir": "down",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; no company news &middot; giving back Wednesday",
+   "move": "-1.60% &middot; Thursday close, settled",
+   "move_tone": "down",
+   "happened": "Nebius fell 1.60%, the largest fall of the twelve, giving back part of Wednesday's 34.14% rise.",
+   "figures": [
+    "No dated company event on <b>13 August</b>. Coverage recirculated the Reflection AI compute contract, which was announced <b>14 July</b>, and the Meta infrastructure agreement, announced <b>16 March</b>. Neither is new",
+    "Closed <b>$255.04</b>, <b>-1.60%</b>. Traded as high as <b>$275.96</b> and as low as <b>$247.38</b>, a range of <b>11.6%</b> in one session",
+    "Volume <b>36.0m</b> against a <b>27.9m</b> average, <b>1.29x</b>, the heaviest participation relative to its own average of the twelve",
+    "Premarket <b>+1.94%</b>, provisional"
+   ],
+   "why": "A stock that rises 34% in a day has no settled price the morning after. The eleven per cent range is the market arguing with itself. The question is what a 454% growth rate is worth once the spending needed to produce it reaches $20-25bn a year. Nothing inside the business changed on Thursday. What is unresolved is how much of that growth is bought rather than earned, and buyers and sellers put the answer eleven per cent apart.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Unsettled rather than priced. A <b>1.60%</b> give-back after <b>34.14%</b> is noise on the heaviest relative volume here. Premarket <b>+1.94%</b>, provisional and not a verdict.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "Nebius announces how it will fund the raised <b>$20-25bn</b> capital plan. Debt, equity or customer prepayments are three very different answers for existing holders.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Q3 results in November. No scheduled event before then.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "AMZN",
+   "dir": "down",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; no company news &middot; one of only two fallers",
+   "move": "-0.80% &middot; Thursday close, settled",
+   "move_tone": "down",
+   "happened": "Amazon fell 0.80% with nothing dated announced, one of only two of the twelve to fall.",
+   "figures": [
+    "No dated company event on <b>13 August</b>. The New Jersey antitrust suit was filed <b>4 August</b> and the Bezos Rule 10b5-1 filing was <b>6 August</b>. Neither is new",
+    "Closed <b>$265.13</b>, <b>-0.80%</b>. Volume <b>30.4m</b> against a <b>52.7m</b> average, <b>42%</b> below it",
+    "Amazon sits <b>7.68%</b> below its 52-week high of <b>$287.20</b>, the second smallest gap of the twelve"
+   ],
+   "why": "Falling on a day when a soft inflation print lifted ten of the twelve is the notable part, not the size. Amazon carries the largest consumer business here, so a print that cuts rate expectations should help it more than most. It did not. On volume 42% below average, that is more likely drift than a decision.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Nothing to price. Premarket <b>+0.14%</b>, provisional.",
+     "flag": false
+    },
+    {
+     "k": "Would flip if",
+     "v": "AWS capacity commitments are updated. The cloud line, not retail, sets Amazon's multiple now.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Q3 results in late October.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "MSFT",
+   "dir": "up",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; no company news &middot; lagged the index",
+   "move": "+0.90% &middot; Thursday close, settled",
+   "move_tone": "up",
+   "happened": "Microsoft rose 0.90% with nothing announced, below QQQ's 1.16%.",
+   "figures": [
+    "No dated company event on <b>13 August</b>",
+    "Closed <b>$496.88</b>, <b>+0.90%</b>. Volume <b>22.6m</b> against a <b>38.3m</b> average, <b>41%</b> below it",
+    "Premarket <b>-0.18%</b>, provisional"
+   ],
+   "why": "Microsoft is the clearest example of the day's split. It funds AI capacity out of profits it already earns. So a lower discount rate helps it less than it helps a company whose profits are entirely in the future. That is why it trailed the index while Palantir and Tesla beat it.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Nothing to price. The move is macro and partial.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Q1 FY27 results in late October.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "GOOGL",
+   "dir": "up",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; no company news &middot; lagged the index",
+   "move": "+0.82% &middot; Thursday close, settled",
+   "move_tone": "up",
+   "happened": "Alphabet rose 0.82% with nothing announced on the day.",
+   "figures": [
+    "No dated company event on <b>13 August</b>. The <b>$25bn</b> senior notes offering closed <b>10 August</b> and is not new",
+    "Closed <b>$346.36</b>, <b>+0.82%</b>. Volume <b>17.6m</b> against a <b>30.4m</b> average, <b>42%</b> below it",
+    "Premarket <b>+0.13%</b>, provisional"
+   ],
+   "why": "Same mechanism as Microsoft. Alphabet's profits are earned now rather than assumed later. A move in rate expectations therefore does less to its valuation than to the speculative end of this list.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Nothing to price.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Q3 results in late October.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "NVDA",
+   "dir": "up",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; no company news &middot; twelve days to results",
+   "move": "+0.54% &middot; Thursday close, settled",
+   "move_tone": "up",
+   "happened": "Nvidia rose 0.54% with nothing announced, less than half QQQ's move.",
+   "figures": [
+    "No dated company event on <b>13 August</b>. Commerce testimony calling H200 shipments to China trivial was given <b>14 July</b> and is not new",
+    "Closed <b>$225.30</b>, <b>+0.54%</b>. Volume <b>93.6m</b> against a <b>120.1m</b> average, <b>22%</b> below it",
+    "Nvidia sits <b>4.75%</b> below its 52-week high of <b>$236.54</b>, the smallest gap of the twelve",
+    "Premarket <b>+0.47%</b>, provisional"
+   ],
+   "why": "Nvidia barely moved on a day that lifted almost everything else, and the reason is the calendar. Twelve days before results, positions get set rather than changed. It also sits nearer its 52-week high than any of the other eleven. That leaves it less room to absorb a disappointment.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Nothing company-specific to price. The near-flat close on below-average volume is a stock waiting.",
+     "flag": false
+    },
+    {
+     "k": "Would flip if",
+     "v": "Applied Materials' margin guidance proves to be an industry signal rather than a company one. See the read-through below.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "<b>26 August</b>, Q2 FY27, twelve days out and the nearest results date of the twelve.",
+     "flag": false
+    }
+   ]
+  }
+ ],
+ "readthrough": {
+  "title": "The machines say volume, the margin says price",
+  "body": "Applied Materials reported after Thursday's close and it is the most useful thing that happened all day for the three chip names here. It sells the equipment that makes the chips, so its order book is the earliest read on whether the AI buildout is still accelerating. Revenue was <b>$9.115bn</b>, up <b>25%</b> on the year and <b>15%</b> on the quarter, a record. It guided Q4 revenue to <b>$10.25bn</b>, another <b>12%</b> step up. Orders for memory, leading-edge logic and advanced packaging accelerated. That is precisely the mix <b>NVDA</b> and <b>MRVL</b> depend on, and the capacity <b>INTC</b>'s foundry case rests on.<br><br>And the stock fell. Applied Materials closed <b>-2.48%</b> on Thursday, before its own report, then fell a further <b>5.15%</b> in extended trade after it, on margin guidance. That is the asymmetry worth carrying into <b>26 August</b>. Nebius beat and rose <b>34.14%</b> on Wednesday because nobody had priced its growth. Applied Materials beat, guided up, and fell, because everybody had. The volumes in this chain are not in doubt. What is in doubt is what anyone gets paid for them. Nvidia reports into exactly that question, while sitting closer to its high than any other name here."
+ },
+ "nothing_material": {
+  "tickers": [
+   "PLTR",
+   "INTC",
+   "MRVL",
+   "NBIS",
+   "AMZN",
+   "MSFT",
+   "GOOGL",
+   "NVDA"
+  ],
+  "note": {
+   "title": "What is not news, what is missing, and what could not be checked",
+   "body": "<b>Only two of the twelve carried an event dated 13 August: Tesla and Apple.</b> Meta's labour agreement and Robinhood's operating data are both dated <b>12 August</b>, and Thursday was the reaction session for the latter. The other eight moved on the producer price print, not on anything they announced. <b>PLTR +4.66%</b> and <b>INTC +3.58%</b> were both major moves with no company event behind them.<br><br>Several items surfaced in Thursday's coverage that are not from this window and are excluded. Nebius's <b>$1bn</b>-plus Reflection AI compute contract was announced <b>14 July</b>. Its Meta infrastructure agreement, worth up to <b>$27bn</b>, was announced <b>16 March</b>. Tesla and SpaceX committed <b>$16.8bn</b> to the Terafab plant on <b>6 August</b>. Commerce Department testimony describing H200 shipments to China as trivial was given on <b>14 July</b>. Coverage of a Terafab groundbreaking appeared on <b>13 August</b>. The ceremony date could not be established from an accessible source, so it is left out rather than dated by guess.<br><br>Press figures for Thursday's closes were wrong often enough to be worth noting. Coverage variously put <b>PLTR</b> at <b>+3.14%</b>, <b>MRVL</b> at <b>+5.36%</b> and <b>META</b> at <b>+1.67%</b>. The settled closes from this morning's own fetch are <b>+4.66%</b>, <b>+2.35%</b> and <b>+2.78%</b>. Every figure in this edition comes from that fetch, not from coverage. Robinhood's primary release, Nebius's newsroom and the SEC are all on hosts the environment proxy blocks. The July operating metrics are therefore taken from consistent reporting of that release, not the release itself.<br><br>One price note. <b>HOOD</b>'s last extended-hours print is timestamped Thursday evening rather than Friday morning, so its <b>+0.23%</b> is after-hours and not a premarket read. Every other premarket figure here is timestamped this morning."
+  }
+ },
+ "earnings_ahead": [
+  {
+   "when": "19 Aug",
+   "what": "<b>TSLA</b> IF Metall's industrial action formally lapses in Sweden"
+  },
+  {
+   "when": "24 Aug",
+   "what": "<b>META</b> Manus deletes user data as its separation from Meta completes"
+  },
+  {
+   "when": "26 Aug",
+   "what": "<b>NVDA</b> Q2 FY27, twelve days out and the nearest results date of the twelve"
+  },
+  {
+   "when": "27 Aug",
+   "what": "<b>MRVL</b> Q2 FY27, one day after Nvidia and thirteen days out"
+  },
+  {
+   "when": "early Sep",
+   "what": "<b>HOOD</b> August operating metrics, monthly, company-confirmed cadence"
+  }
+ ],
+ "data": {
+  "session": "2026-08-13",
+  "source": "twelvedata quote endpoint",
+  "fetched": "2026-08-14T11:05Z",
+  "tickers": {
+   "AAPL": {
+    "close": 305.26,
+    "pct": 1.0,
+    "open": 304.26,
+    "high": 306.0,
+    "low": 302.05,
+    "volume": 38492546,
+    "avg_volume": 56799755,
+    "high_52w": 344.57,
+    "premarket_pct": -0.09
+   },
+   "AMZN": {
+    "close": 265.13,
+    "pct": -0.8,
+    "open": 267.23,
+    "high": 269.58,
+    "low": 264.7,
+    "volume": 30364977,
+    "avg_volume": 52722088,
+    "high_52w": 287.2,
+    "premarket_pct": 0.14
+   },
+   "TSLA": {
+    "close": 339.96,
+    "pct": 3.8,
+    "open": 327.33,
+    "high": 341.64,
+    "low": 325.24,
+    "volume": 33336616,
+    "avg_volume": 31196172,
+    "high_52w": 498.83,
+    "premarket_pct": 0.6
+   },
+   "PLTR": {
+    "close": 179.01,
+    "pct": 4.66,
+    "open": 173.68,
+    "high": 179.91,
+    "low": 172.33,
+    "volume": 36295380,
+    "avg_volume": 63633078,
+    "high_52w": 207.52,
+    "premarket_pct": -0.84
+   },
+   "MSFT": {
+    "close": 496.88,
+    "pct": 0.9,
+    "open": 493.27,
+    "high": 501.34,
+    "low": 493.01,
+    "volume": 22600346,
+    "avg_volume": 38259795,
+    "high_52w": 553.72,
+    "premarket_pct": -0.18
+   },
+   "GOOGL": {
+    "close": 346.36,
+    "pct": 0.82,
+    "open": 345.62,
+    "high": 347.93,
+    "low": 343.76,
+    "volume": 17607761,
+    "avg_volume": 30358846,
+    "high_52w": 408.61,
+    "premarket_pct": 0.13
+   },
+   "HOOD": {
+    "close": 99.37,
+    "pct": 4.7,
+    "open": 96.51,
+    "high": 100.35,
+    "low": 96.42,
+    "volume": 16089560,
+    "avg_volume": 16151736,
+    "high_52w": 153.86,
+    "premarket_pct": 0.23
+   },
+   "NVDA": {
+    "close": 225.3,
+    "pct": 0.54,
+    "open": 225.05,
+    "high": 227.23,
+    "low": 223.71,
+    "volume": 93629467,
+    "avg_volume": 120062027,
+    "high_52w": 236.54,
+    "premarket_pct": 0.47
+   },
+   "INTC": {
+    "close": 104.56,
+    "pct": 3.58,
+    "open": 101.49,
+    "high": 107.57,
+    "low": 100.33,
+    "volume": 111979671,
+    "avg_volume": 110990867,
+    "high_52w": 142.35,
+    "premarket_pct": 1.97
+   },
+   "NBIS": {
+    "close": 255.04,
+    "pct": -1.6,
+    "open": 255.96,
+    "high": 275.96,
+    "low": 247.38,
+    "volume": 36012698,
+    "avg_volume": 27925090,
+    "high_52w": 299.86,
+    "premarket_pct": 1.94
+   },
+   "MRVL": {
+    "close": 222.18,
+    "pct": 2.35,
+    "open": 217.75,
+    "high": 231.38,
+    "low": 217.18,
+    "volume": 18574045,
+    "avg_volume": 21521294,
+    "high_52w": 329.88,
+    "premarket_pct": 1.58
+   },
+   "META": {
+    "close": 594.97,
+    "pct": 2.78,
+    "open": 580.38,
+    "high": 595.85,
+    "low": 579.43,
+    "volume": 10913215,
+    "avg_volume": 16133212,
+    "high_52w": 796.25,
+    "premarket_pct": -0.12
+   }
+  }
+ }
+}
