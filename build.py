@@ -350,6 +350,72 @@ def render_ticker_index(editions):
             f'<div class="tindex">{"".join(rows)}</div></section>')
 
 
+NEWS_FILE = ROOT / "news" / "index.json"
+
+
+def news_tickers(editions):
+    """Which tickers get a live section, and in what order.
+
+    The twelve the brief covers, ordered by the latest edition so the names
+    that mattered this morning sit at the top. Anything in the news file the
+    brief has never covered is appended rather than dropped.
+    """
+    order = [e["ticker"] for e in editions[0]["entries"]] if editions else []
+    try:
+        known = list(json.loads(
+            NEWS_FILE.read_text(encoding="utf-8")).get("tickers", {}))
+    except (OSError, json.JSONDecodeError):
+        known = []
+    for t in known:
+        if t not in order:
+            order.append(t)
+    return order or known
+
+
+def render_live(editions):
+    """The shell of the live news panel. The content arrives at runtime.
+
+    Nothing here is baked in at build time on purpose. The page is rebuilt
+    once a day; the feed refreshes every few minutes, so any headline
+    rendered into the HTML would be older than the file sitting next to it.
+    The markup is the frame and the empty state, and the script fills it.
+
+    Without JavaScript the panel still explains itself and links straight to
+    the JSON, so the page degrades to something honest rather than blank.
+    """
+    tickers = news_tickers(editions)
+    if not tickers:
+        return ""
+
+    blocks = []
+    for t in tickers:
+        blocks.append(
+            f'<section class="nblock reveal" data-ticker="{t}">'
+            f'<div class="nhead"><span class="ntick">{t}</span>'
+            f'<span class="ncount" data-count>&mdash;</span></div>'
+            f'<ol class="nlist" data-items>'
+            f'<li class="nempty">Loading&hellip;</li></ol></section>')
+
+    return (
+        '<section class="band reveal">'
+        '<h2>Live news &middot; refreshed every few minutes</h2>'
+        '<div class="nstatus" data-news-status>'
+        '<span class="ndot" data-dot></span>'
+        '<span data-stamp>Loading the feed&hellip;</span>'
+        '</div>'
+        '<p class="nnote">Only concrete, dated items: results and guidance, '
+        'SEC filings, M&amp;A, issuance, buybacks, dividends, contracts, and '
+        'regulatory or legal action. Price targets, ratings and opinion '
+        'pieces are filtered out. Selection is a keyword rule applied to '
+        'headlines, not a judgement, so read it as a wire to check rather '
+        'than a verdict. Filings come straight from SEC EDGAR.</p>'
+        f'<div class="nwrap">{"".join(blocks)}</div>'
+        '<noscript><p class="nnote">This panel updates in the browser. '
+        'With JavaScript off, the same data is readable at '
+        '<a href="news/index.json">news/index.json</a>.</p></noscript>'
+        '</section>')
+
+
 def render_archive(older):
     if not older:
         return ('<section class="band reveal"><h2>Previous days</h2>'
@@ -854,12 +920,19 @@ def csp():
     <script> or external load would still refuse to run. The hashes are
     computed from the same constants the page is rendered from, so they
     can never drift out of step with the content they allow.
+
+    connect-src is 'self' and nothing more. The live news panel polls
+    news/index.json on this origin; it has no reason to reach any other
+    host, and this says so in a way the browser enforces. Headlines from
+    that file are written into the page with textContent, never innerHTML,
+    so the policy is a backstop rather than the only defence.
     """
     return (
         "default-src 'none'; "
         f"script-src '{sha256_src(HEAD_JS)}' '{sha256_src(JS)}'; "
         f"style-src '{sha256_src(CSS)}'; "
         "img-src 'self' data:; "
+        "connect-src 'self'; "
         "base-uri 'none'; form-action 'none'"
     )
 
@@ -868,6 +941,7 @@ def render_page(editions):
     latest, older = editions[0], editions[1:]
     research = render_research(load_research())
     about = render_about(load_about())
+    live = render_live(editions)
     return PAGE.format(
         css=CSS,
         js=JS,
@@ -875,9 +949,10 @@ def render_page(editions):
         csp=csp(),
         dateline=render_gauge(latest),
         headline=latest["headline"],
-        tabs=render_tabs(editions, research, about),
+        tabs=render_tabs(editions, research, about, live),
         body=render_body(latest),
         research=research,
+        live=live,
         tindex=render_ticker_index(editions),
         archive=render_archive(older),
         about=about,
@@ -885,7 +960,7 @@ def render_page(editions):
     )
 
 
-def render_tabs(editions, research, about):
+def render_tabs(editions, research, about, live_news):
     """The nav that splits the page into panels.
 
     A tab is only offered when there is something behind it, so a fresh
@@ -895,6 +970,7 @@ def render_tabs(editions, research, about):
     been. With it, they switch.
     """
     tabs = [("brief", "Brief", True),
+            ("live", "Live news", bool(live_news)),
             ("earnings", "Earnings", bool(research)),
             ("tickers", "By ticker", len(editions) > 1),
             ("about", "About", bool(about))]
@@ -1397,6 +1473,46 @@ CSS = """
     .js .reveal { opacity:1; transform:none; }
   }
 
+  /* ---- live news ---- */
+  .nstatus { display:flex; align-items:center; gap:.5rem;
+             font-family:var(--mono); font-size:.72rem; color:var(--ink-3);
+             letter-spacing:.02em; }
+  .ndot { width:.5rem; height:.5rem; border-radius:50%;
+          background:var(--line); flex:none; }
+  .ndot.on { background:var(--up); }
+  .nstatus.stale { color:var(--amber); }
+  .nstatus.stale .ndot { background:var(--amber); }
+  .nnote { margin:.9rem 0 0; font-size:.9rem; color:var(--ink-3);
+           max-width:52rem; }
+  .nwrap { display:grid; gap:1.1rem; margin-top:1.5rem;
+           grid-template-columns:repeat(auto-fill,minmax(20rem,1fr)); }
+  .nblock { background:var(--paper); border:1px solid var(--line);
+            border-radius:14px; padding:1.1rem 1.15rem; }
+  .nblock.quiet { background:var(--wash); }
+  .nhead { display:flex; align-items:baseline; gap:.6rem;
+           padding-bottom:.6rem; border-bottom:1px solid var(--line-2); }
+  .ntick { font-family:var(--mono); font-weight:600; font-size:.95rem;
+           letter-spacing:.04em; }
+  .ncount { font-family:var(--mono); font-size:.68rem; color:var(--ink-3);
+            margin-left:auto; }
+  ol.nlist { list-style:none; margin:0; padding:.7rem 0 0;
+             display:flex; flex-direction:column; gap:.85rem; }
+  .nempty { font-size:.88rem; color:var(--ink-3); font-style:italic; }
+  .nitem { padding-left:.65rem; border-left:2px solid var(--line); }
+  .nitem.negative { border-left-color:var(--down); }
+  .nitem.positive { border-left-color:var(--up); }
+  .nitem.primary { border-left-color:var(--ink); }
+  .ntitle { font-size:.94rem; line-height:1.4; color:var(--ink);
+            text-decoration:none; }
+  a.ntitle:hover { text-decoration:underline; }
+  .nmeta { display:flex; flex-wrap:wrap; align-items:center; gap:.4rem;
+           margin-top:.3rem; font-family:var(--mono); font-size:.66rem;
+           color:var(--ink-3); letter-spacing:.02em; }
+  .nbadge { background:var(--ink); color:var(--paper); border-radius:3px;
+            padding:.08rem .3rem; font-size:.6rem; letter-spacing:.08em; }
+  .ntag { border:1px solid var(--line); border-radius:3px;
+          padding:.08rem .3rem; }
+
   @media (max-width:36rem) {
     body { font-size:17px; }
     .wrap { padding:3.6rem 1.15rem 4.5rem; gap:2.6rem; }
@@ -1407,6 +1523,7 @@ CSS = """
     .topbar { padding:.6rem 1.15rem; }
     .tb-date { display:none; }
     .trow { grid-template-columns:1fr; gap:.3rem; }
+    .nwrap { grid-template-columns:1fr; }
   }
 """
 
@@ -1561,6 +1678,165 @@ JS = """
       d.querySelectorAll('.reveal').forEach(function (el) { el.classList.add('in'); });
     });
   });
+
+  // ---- live news ----
+  // The page is static. A workflow refreshes news/index.json every few
+  // minutes and this re-reads it, so "live" is only ever as fresh as the
+  // last committed fetch. That is why the age is shown rather than implied:
+  // a feed that has stopped updating must look stopped, not look calm.
+  var newsRoot = document.querySelector('[data-news-status]');
+  if (newsRoot) {
+    var POLL = 5 * 60 * 1000;     // match the workflow's cron
+    var STALE = 25 * 60 * 1000;   // a 5-minute cron that has missed ~5 turns
+    var stampEl = newsRoot.querySelector('[data-stamp]');
+    var dotEl = newsRoot.querySelector('[data-dot]');
+    var blocks = [].slice.call(document.querySelectorAll('.nblock'));
+    var lastFetched = null;
+
+    function ago(ms) {
+      var m = Math.max(0, Math.round(ms / 60000));
+      if (m < 1) return 'just now';
+      if (m === 1) return '1 minute ago';
+      if (m < 60) return m + ' minutes ago';
+      var h = Math.floor(m / 60);
+      return h + (h === 1 ? ' hour ' : ' hours ') + (m % 60) + 'm ago';
+    }
+
+    // Headlines come from outside this repository, so nothing from the feed
+    // is ever written as markup. Text goes in with textContent and a link is
+    // only honoured when it is a plain http(s) URL.
+    function safeHref(url) {
+      if (typeof url !== 'string') return null;
+      if (!/^https?:\/\//i.test(url)) return null;
+      return url;
+    }
+
+    function item(rec) {
+      var li = document.createElement('li');
+      li.className = 'nitem ' + (rec.direction || 'neutral')
+                   + (rec.primary ? ' primary' : '');
+
+      var head = document.createElement('div');
+      head.className = 'nline';
+      var href = safeHref(rec.link);
+      var title = document.createElement(href ? 'a' : 'span');
+      title.className = 'ntitle';
+      title.textContent = rec.title || '(untitled)';
+      if (href) {
+        title.href = href;
+        title.target = '_blank';
+        title.rel = 'noopener noreferrer';
+      }
+      head.appendChild(title);
+      li.appendChild(head);
+
+      var meta = document.createElement('div');
+      meta.className = 'nmeta';
+      if (rec.primary) {
+        var badge = document.createElement('span');
+        badge.className = 'nbadge';
+        badge.textContent = 'FILING';
+        meta.appendChild(badge);
+      }
+      var src = document.createElement('span');
+      src.textContent = rec.source || 'unknown source';
+      meta.appendChild(src);
+      if (rec.published) {
+        var t = Date.parse(rec.published);
+        if (!isNaN(t)) {
+          var when = document.createElement('time');
+          when.dateTime = rec.published;
+          when.textContent = ago(Date.now() - t);
+          meta.appendChild(when);
+        }
+      }
+      (rec.tags || []).forEach(function (tg) {
+        var el = document.createElement('span');
+        el.className = 'ntag';
+        el.textContent = tg;
+        meta.appendChild(el);
+      });
+      li.appendChild(meta);
+      return li;
+    }
+
+    function paint(data) {
+      blocks.forEach(function (b) {
+        var t = b.getAttribute('data-ticker');
+        var recs = (data.tickers && data.tickers[t]) || [];
+        var list = b.querySelector('[data-items]');
+        var count = b.querySelector('[data-count]');
+        list.textContent = '';
+        count.textContent = recs.length ? String(recs.length) : 'nothing new';
+        b.classList.toggle('quiet', recs.length === 0);
+        if (!recs.length) {
+          var none = document.createElement('li');
+          none.className = 'nempty';
+          // An empty list is a real answer, not a failure to load.
+          none.textContent = (data.errors && data.errors[t])
+            ? 'No items. The source could not be reached on the last run.'
+            : 'No material items in the window.';
+          list.appendChild(none);
+          return;
+        }
+        recs.forEach(function (r) { list.appendChild(item(r)); });
+      });
+    }
+
+    function stamp() {
+      if (!lastFetched) return;
+      var age = Date.now() - lastFetched;
+      var stale = age > STALE;
+      stampEl.textContent = 'Feed updated ' + ago(age)
+        + (stale ? ' · overdue, the refresh job may not be running' : '');
+      newsRoot.classList.toggle('stale', stale);
+      dotEl.classList.toggle('on', !stale);
+    }
+
+    function load() {
+      fetch('news/index.json', { cache: 'no-store' })
+        .then(function (r) {
+          if (!r.ok) throw new Error('HTTP ' + r.status);
+          return r.json();
+        })
+        .then(function (data) {
+          var t = Date.parse(data.fetched);
+          lastFetched = isNaN(t) ? Date.now() : t;
+          paint(data);
+          stamp();
+        })
+        .catch(function (e) {
+          // Keep whatever is already on screen. Replacing a real feed with
+          // an error wipes information the reader can still use.
+          newsRoot.classList.add('stale');
+          dotEl.classList.remove('on');
+          stampEl.textContent = lastFetched
+            ? 'Feed updated ' + ago(Date.now() - lastFetched)
+              + ' · last refresh failed'
+            : 'Could not load the feed (' + e.message + ')';
+          // Nothing has ever loaded, so "Loading..." would sit there for
+          // good. Say what actually happened instead.
+          if (!lastFetched) {
+            blocks.forEach(function (b) {
+              var list = b.querySelector('[data-items]');
+              list.textContent = '';
+              var li = document.createElement('li');
+              li.className = 'nempty';
+              li.textContent = 'Feed unavailable.';
+              list.appendChild(li);
+            });
+          }
+        });
+    }
+
+    load();
+    setInterval(load, POLL);
+    setInterval(stamp, 30000);   // keep the age honest between polls
+    // Coming back to a parked tab should not show a ten-minute-old age.
+    document.addEventListener('visibilitychange', function () {
+      if (!document.hidden) load();
+    });
+  }
 })();
 """
 
@@ -1600,6 +1876,9 @@ PAGE = """<!doctype html>
   <div class="panel" id="brief" role="tabpanel" aria-labelledby="tab-brief">
     {body}
     {archive}
+  </div>
+  <div class="panel" id="live" role="tabpanel" aria-labelledby="tab-live">
+    {live}
   </div>
   <div class="panel" id="earnings" role="tabpanel" aria-labelledby="tab-earnings">
     {research}
