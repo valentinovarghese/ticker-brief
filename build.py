@@ -403,12 +403,14 @@ def render_live(editions):
         '<span class="ndot" data-dot></span>'
         '<span data-stamp>Loading the feed&hellip;</span>'
         '</div>'
+        '<p class="nwarn nbanner" data-news-warn hidden></p>'
         '<p class="nnote">Only concrete, dated items: results and guidance, '
-        'SEC filings, M&amp;A, issuance, buybacks, dividends, contracts, and '
-        'regulatory or legal action. Price targets, ratings and opinion '
-        'pieces are filtered out. Selection is a keyword rule applied to '
-        'headlines, not a judgement, so read it as a wire to check rather '
-        'than a verdict. Filings come straight from SEC EDGAR.</p>'
+        'M&amp;A, issuance, buybacks, dividends, contracts, and regulatory or '
+        'legal action. Price targets, ratings and opinion pieces are filtered '
+        'out. Selection is a keyword rule applied to headlines, not a '
+        'judgement, so read it as a wire to check rather than a verdict, and '
+        'date anything before relying on it: recycled coverage of an old '
+        'event is an old event.</p>'
         f'<div class="nwrap">{"".join(blocks)}</div>'
         '<noscript><p class="nnote">This panel updates in the browser. '
         'With JavaScript off, the same data is readable at '
@@ -1498,6 +1500,7 @@ CSS = """
   ol.nlist { list-style:none; margin:0; padding:.7rem 0 0;
              display:flex; flex-direction:column; gap:.85rem; }
   .nempty { font-size:.88rem; color:var(--ink-3); font-style:italic; }
+  .nbanner { display:block; margin:.9rem 0 0; max-width:52rem; }
   .nwarn { font-size:.78rem; color:var(--amber); font-family:var(--mono);
            background:var(--amber-wash); border:1px solid #F0EAD6;
            border-radius:6px; padding:.4rem .55rem; }
@@ -1768,6 +1771,27 @@ JS = """
     }
 
     function paint(data) {
+      // A source that failed for every ticker is one fact, not twelve. Say it
+      // once at the top; only per-ticker failures belong in a ticker's block.
+      var errs = data.errors || {};
+      var names = Object.keys(errs);
+      var universal = names.length >= blocks.length;
+      var banner = document.querySelector('[data-news-warn]');
+      if (banner) {
+        var reasons = {};
+        names.forEach(function (t) {
+          [].concat(errs[t]).forEach(function (e) {
+            reasons[String(e).split(':')[0]] = true;
+          });
+        });
+        var which = Object.keys(reasons);
+        banner.hidden = !(universal && which.length);
+        if (!banner.hidden) {
+          banner.textContent = 'Source unavailable for every ticker on the '
+            + 'last run: ' + which.join(', ') + '. The items below come from '
+            + 'the remaining sources only.';
+        }
+      }
       blocks.forEach(function (b) {
         var t = b.getAttribute('data-ticker');
         var recs = (data.tickers && data.tickers[t]) || [];
@@ -1776,7 +1800,7 @@ JS = """
         list.textContent = '';
         count.textContent = recs.length ? String(recs.length) : 'nothing new';
         b.classList.toggle('quiet', recs.length === 0);
-        var err = data.errors && data.errors[t];
+        var err = !universal && data.errors && data.errors[t];
         if (!recs.length) {
           var none = document.createElement('li');
           none.className = 'nempty';
