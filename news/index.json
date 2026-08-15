@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-15T20:37:09+00:00",
- "changed": "2026-08-15T20:37:09+00:00",
+ "checked": "2026-08-15T20:57:04+00:00",
+ "changed": "2026-08-15T20:57:04+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -13,19 +13,6 @@
     "score": 5,
     "tags": [
      "ma"
-    ],
-    "direction": "negative",
-    "primary": false
-   },
-   {
-    "id": "6a4b5354497eeafe",
-    "title": "Closing Bell: Apple Closes Higher, Cleveland-Cliffs Rises On Earnings, AppLovin Sinks | Stock Movers Mike Vrabel News (YdUJk7s1cL)",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SdndMS1VEV2hSNjZRNk9tanVyd1QxbW5VM2dQa0hkWlJacGtzYmFYX1VRcXR1a2Q3Rm1IQm9BSEFmODBOVnVIOHJXYmxSeGdSX2VEcEp5LTlCajQ?oc=5",
-    "source": "Mshale",
-    "published": "2026-08-15T12:17+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
     ],
     "direction": "negative",
     "primary": false
@@ -568,7 +555,7 @@
     "id": "77520706f8eda2b9",
     "title": "Berkshire Adds to Alphabet Stake, Buys Home Builders and Exits Constellation",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOTM0S3RnSVR5MnNmSk5NVWpoVVphSlA4ZkFRNFNwY1dJVFZULWkwSGJmeDZrcG5qNm1VM3I1SlNjQTVQamp5Sy1QNW13TkhtdXVTRVVtVk10YWdHNWZKaXZDRlM1NGNUMG9YemhfTG43REtfVFhIUXRGV28weVJIU2FhaG1kTUtHaWJkWGFzek9qTzc0ZkZqT2JEbjhXSWk2U2EzdV9KMGdISUh2NEVRR3hZQ0FqelNPVkE?oc=5",
-    "source": "wsj.com",
+    "source": "WSJ",
     "published": "2026-08-14T21:54+00:00",
     "score": 10,
     "tags": [
@@ -633,17 +620,16 @@
     "primary": false
    },
    {
-    "id": "f8f49b68f050b732",
-    "title": "ARK Invest Buys $13M in Robinhood After Trump Accounts Deal",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd1B6cnViSm04TzFGbUVRRXZuSkxGeENVdXVsSmFDVmU1bndoemVaMVNGcktOTHlJTVRyNXRBTDdqRWFDSURUeDA0U096SWlVcXh3a0s2dHdvTmpXRnRHZ2o3dHNXLU9UNE1Kc3hDQmpBYTJmX2xwOU9oZThZdXRDWUEtbEhyOHY2SXUyOGZxQm40SldsYWxYMTlYanQwUHphbkdYSDNCTWoxQQ?oc=5",
+    "id": "d19a62c26db92cc2",
+    "title": "Ark Invest Buys $39.4M in Robinhood as HOOD Drops 13.2%",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObk1QV2lJTmUwbTFDaEdidHNiYzM5Zk9WOVVGNFNZMkxoLVdhTkUxTW0xY0JIU0JhT01qQTc0QW80VllrT0psdDhrcVg1TUgtaGdQRkdBLVNxRTM1OVc4U1BiVEc4RG5UenpiTmd6anI0blpWbGRSNUVPVzF5RVZpeWV1Wm5oU1RxdXc?oc=5",
     "source": "CoinMarketCap",
-    "published": "2026-08-15T00:25+00:00",
-    "score": 13,
+    "published": "2026-08-15T01:59+00:00",
+    "score": 8,
     "tags": [
-     "ma",
-     "contract"
+     "ma"
     ],
-    "direction": "neutral",
+    "direction": "negative",
     "primary": false
    },
    {
@@ -685,6 +671,19 @@
      "ma"
     ],
     "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "8849d7b4e4aa8901",
+    "title": "Nvidia’s Secret $21 Billion SpaceX Windfall — How One Chip Deal Turned Into a Rocket Fortune",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdkstcnl4aEQ3ZjFma3lwSzRDWXRoTy1ISDdTdU5FaW0xSmoyQjIweUw1aHNKZEJCcm1YNXlRYWJjZ2ZhVzc1RmdZTHYtVHJGdDNOUzhrOVFtMXVzV0pwc3doakRkaUNsUEdRWjMtbDNWWFRsOU5xRDg3YWdqYTJhUW16NDRUSENEcU02QmgzYkY2OWtDYm5BNUFyVDY?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-15T13:41+00:00",
+    "score": 8,
+    "tags": [
+     "contract"
+    ],
+    "direction": "neutral",
     "primary": false
    },
    {
@@ -788,19 +787,6 @@
     "score": 8,
     "tags": [
      "capital"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "6251a3934e735df6",
-    "title": "NVIDIA's $500 Billion GPU Financing Deal Fuels Path Toward $270",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSGtoOUZXWnZOSVpQWGxKbDBYdjNNZHo3dFlibVB0bEROczRjOXh3OHRGV1FiTGdCMXpmUTRDcmxWWVJRNzZnMlFab0FXQ1VpTDZJVk9TM0p4eDBhOXF0dXE2aTdQQ1pvMGFfd2dha0NPTnNvR3BIRGt0WE42anNwY0gzanY3dW9qOTZmbU5OQ1hBaExRX21lSDIxOGY2SHV5Y25JM0NQbllWdFhmcWUxZ0tzNEtEUzRqZnM4b1NB?oc=5",
-    "source": "TradingView",
-    "published": "2026-08-14T15:35+00:00",
-    "score": 8,
-    "tags": [
-     "contract"
     ],
     "direction": "neutral",
     "primary": false
@@ -1011,7 +997,7 @@
     "id": "f0582cfbeb76e4da",
     "title": "Michael Burry shorts Nebius stock as a risky doji emerges after strong earnings",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWk9rQ1JEOV8zUjNuenp0bC1CQVU5Y3V3eDBwUTVhaHFfZWMwUGlldWVraGpwd1hLSC03alNtMkcxeWoyVVBJcU5QRm44bUNuNWZhTVVEMzVGQ0F5X3VSVG9KMEpwY0lnaGk4TFJPeVRYN29XbTlEWHc2Rkg5S0lTZlcxYjRwak9wSzhKanNRbnp3Mm9oUmoxLW9HNHl4MUdmWkNQOFJzQ1h0UHlyVkRGWUVXOVlsQQ?oc=5",
-    "source": "Invezz",
+    "source": "invezz.com",
     "published": "2026-08-14T15:03+00:00",
     "score": 6,
     "tags": [
@@ -1038,7 +1024,7 @@
     "id": "5895ecee982b9294",
     "title": "Top U.S. Stock Performers This Week | NEBIUS surged nearly 36% for the week, driven by earnings that exceeded expectations and a $40 billion order backlog; SanDisk rose over 26%, bolstered by positive commentary at its Investor Day; Super Micro Compu",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUVFKbFM3S3BweVJhcW9URGhvVERIOWc0aHBYV3ZiNlVsN0Z1aTN1ZFdtR1AxZzk4N2lUTTdES3Q1Q1Q5b3E0M2psbTdTRENUVERaX1gwekF4ZVNibmROcHlteGo5U3dodHZEdkpjYlg4MnZkaDZ0cDVfZkJrWGZPSFl6QUZlUjVtVU0zbk9GQnZYMkRzT0lTNElJTGtUeDg?oc=5",
-    "source": "富途牛牛",
+    "source": "news.futunn.com",
     "published": "2026-08-14T10:04+00:00",
     "score": 14,
     "tags": [
@@ -1111,19 +1097,6 @@
     "score": 5,
     "tags": [
      "capital"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "91a3493ec7755626",
-    "title": "Marvell Technology (MRVL) Q1 2027 Earnings Call Transcript",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1OZURuRlNaelBGZXpMUFZkMjBld28tai15NE9QUWdhdm9EaDJkLTV0dzFBQWRRMXlZZDZvcTFmcUVJY0hRb0JSNTJBM1p4VXprMVRrd2NjS0VwZUZaLU5IdUR1Q005LXM5T05hTFlhRTNOdw?oc=5",
-    "source": "Fortune",
-    "published": "2026-08-13T20:50+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -1209,5 +1182,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 87
+ "count": 85
 }
