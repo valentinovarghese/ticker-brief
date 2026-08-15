@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-15T22:26:30+00:00",
- "changed": "2026-08-15T22:26:30+00:00",
+ "checked": "2026-08-15T22:47:56+00:00",
+ "changed": "2026-08-15T22:47:56+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -13,6 +13,19 @@
     "score": 5,
     "tags": [
      "ma"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "6a4b5354497eeafe",
+    "title": "Closing Bell: Apple Closes Higher, Cleveland-Cliffs Rises On Earnings, AppLovin Sinks | Stock Movers Mike Vrabel News (YdUJk7s1cL)",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SdndMS1VEV2hSNjZRNk9tanVyd1QxbW5VM2dQa0hkWlJacGtzYmFYX1VRcXR1a2Q3Rm1IQm9BSEFmODBOVnVIOHJXYmxSeGdSX2VEcEp5LTlCajQ?oc=5",
+    "source": "Mshale",
+    "published": "2026-08-15T12:17+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
     ],
     "direction": "negative",
     "primary": false
@@ -168,7 +181,7 @@
     "id": "6a514630956f0472",
     "title": "SpaceX May Buy Tesla, But Its Own Stock Has Fallen 50% Since June",
     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5pRWxERmNHdTFBV083ckhaRHUyb1pWcDVLN3gwbHFGYmJLdkFOeXBCdGliSDJHQjM5ZUhMV2d0aHRlSy1fLTZUZUZwOXlRaHcxRUE5SXlqanFkSUtveks1NE5nc0wwN3dXTVFSaGVMOWZnVkU?oc=5",
-    "source": "Yellow.com",
+    "source": "yellow.com",
     "published": "2026-08-15T04:28+00:00",
     "score": 5,
     "tags": [
@@ -241,6 +254,19 @@
      "contract"
     ],
     "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "6560f6aba16de633",
+    "title": "SHOCKING SpaceX Merger Price For Tesla Stock? Bergamo News (VlplVy0rP7)",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5VRG1GSGtTb2dNc21HWHkwbVZnZ2ZhWnFvaTJzNTVCZHJSbGJBRmlSYl91NVdaTE1kY21FekRFRmRhY3piUGlrcmhIOUpDdVhrb3U4VVpYdHBoXzA?oc=5",
+    "source": "Mshale",
+    "published": "2026-08-14T08:46+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
     "primary": false
    },
    {
@@ -633,16 +659,17 @@
     "primary": false
    },
    {
-    "id": "d19a62c26db92cc2",
-    "title": "Ark Invest Buys $39.4M in Robinhood as HOOD Drops 13.2%",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObk1QV2lJTmUwbTFDaEdidHNiYzM5Zk9WOVVGNFNZMkxoLVdhTkUxTW0xY0JIU0JhT01qQTc0QW80VllrT0psdDhrcVg1TUgtaGdQRkdBLVNxRTM1OVc4U1BiVEc4RG5UenpiTmd6anI0blpWbGRSNUVPVzF5RVZpeWV1Wm5oU1RxdXc?oc=5",
+    "id": "f8f49b68f050b732",
+    "title": "ARK Invest Buys $13M in Robinhood After Trump Accounts Deal",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd1B6cnViSm04TzFGbUVRRXZuSkxGeENVdXVsSmFDVmU1bndoemVaMVNGcktOTHlJTVRyNXRBTDdqRWFDSURUeDA0U096SWlVcXh3a0s2dHdvTmpXRnRHZ2o3dHNXLU9UNE1Kc3hDQmpBYTJmX2xwOU9oZThZdXRDWUEtbEhyOHY2SXUyOGZxQm40SldsYWxYMTlYanQwUHphbkdYSDNCTWoxQQ?oc=5",
     "source": "CoinMarketCap",
-    "published": "2026-08-15T01:59+00:00",
-    "score": 8,
+    "published": "2026-08-15T00:25+00:00",
+    "score": 13,
     "tags": [
-     "ma"
+     "ma",
+     "contract"
     ],
-    "direction": "negative",
+    "direction": "neutral",
     "primary": false
    },
    {
@@ -943,7 +970,7 @@
     "id": "3c201fec2d27df90",
     "title": "Intel Shares Gain 3.6% in After-Hours as $20 Billion Offering Brings 4.2% Dilution Challenge",
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQa0lIZlg4MGpkbGZzWWdyYnB0eUNNWkVzZWc4bmVjMjJjNkxmQzF4YTZHb1NLQUtZWUpFbGQxSTZuVk1DMVZ1UDV3RDJzWTNKcGJrbzRhOGNDbEl1N0VwOXQ4NjdqU29wYTlmRFBJb3FqSTNzOWFfVmVERjNIaTBkalF2QU5CQzBYNEt3eHFYN0M0TFBrd2lZ?oc=5",
-    "source": "ts2.tech",
+    "source": "TechStock²",
     "published": "2026-08-13T23:28+00:00",
     "score": 8,
     "tags": [
@@ -1059,19 +1086,6 @@
     ],
     "direction": "positive",
     "primary": false
-   },
-   {
-    "id": "564c2f0bcd696dee",
-    "title": "Nebius Stock (NBIS) Maintains 32% Earnings Rise; $5.7 Billion Capex Poses Challenge to Rally",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcUZiYUtBWE8zRFAyTDVpT25HdVJfTXkydHpDUXB1S1VEcWFkNXdQU1lHQ0hlU2ZGcnlDMXlRNXFPa3JkODBTNktWazBvbXpoaUpaR2tLQWRSaHFSaklCdW5XX3hkeHBFV2xqelhBa0RVeTdxTGEzOGdqQWpaTjV2dEpPOEc3a25OemNBMlJMVGFyR2NJeUF3NFdn?oc=5",
-    "source": "ts2.tech",
-    "published": "2026-08-13T22:28+00:00",
-    "score": 9,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
    }
   ],
   "MRVL": [
@@ -1158,7 +1172,7 @@
    {
     "id": "db599b9c1f58a8aa",
     "title": "Escalating Youth Safety Lawsuits And Global Age Checks Could Be A Game Changer For Meta Platforms (META)",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcWhGbWJYQVpWTlJyS3VpdmVuZm81ajZRNzRxaHRMNWZzYVV0bjRUNDFLRzdHNGFuWldGMG1WUlhzMUhkN2F6ZGJyV0xqaXlYT2hyZ3k5ZDc2RmJUYk9VSXJSajJjcTFxb2RRQmdhU3gzWWRsaUVXR0pXa0psbGFjNFlYYUpFb1NiTURGMXQySTg3TGtGM0lhcnZfTzlRTzdDWlFsUVhXS2VhTFFYcDdiN0dTOGpwdERIY3NlUWFHdFd2eEZYZGNuTHRiYTVqM2_SAc8BQVVfeXFMUHFoRm1iWEFaVk5Sckt1aXZlbmZvNWo2UTc0cWh0TDVmc2FVdG40VDQxS0c3RzRhblpXRjBtVlJYczFIZDdhemRicldMaml5WE9ocmd5OWQ3NkZiVGJPVUlyUmoyY3ExcW9kUUJnYVN4M1lkbGlFV0dKV2tKbGxhYzRZWGF",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOb1l0eFdQbkowLUZyTENwN2U0cEVGU1gwS0plUjJNUzRNM3ptdHhLZklJNVMtazNZdzBaZVJpcDgxYnpHdWNOWTdPZVBIWnFfRGhYUm5wM3VyeXpMY0x4czd0NFFpZTlNM0tVWElRY2I5YzE3MVRjOVdOVE1yZkFSVlBEZlNoWjB6NlVRb2JYLU5UZmhqLW4xRkRPZ010dDI2ZURaekJkUzdQcGtjOGdDZ3lmTXJkeEhMdTd1TjRRRElDcVoxYlh3bHRR0gHPAUFVX3lxTFBxaEZtYlhBWlZOUnJLdWl2ZW5mbzVqNlE3NHFodEw1ZnNhVXRuNFQ0MUtHN0c0YW5aV0YwbVZSWHMxSGQ3YXpkYnJXTGppeVhPaHJneTlkNzZGYlRiT1VJclJqMmNxMXFvZFFCZ2FTeDNZZGxpRVdHSldrSmxsYWM0WVhhSkVvU2J",
     "source": "simplywall.st",
     "published": "2026-08-14T04:55+00:00",
     "score": 5,
@@ -1208,5 +1222,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 87
+ "count": 88
 }
