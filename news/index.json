@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-15T20:57:04+00:00",
- "changed": "2026-08-15T20:57:04+00:00",
+ "checked": "2026-08-15T21:23:10+00:00",
+ "changed": "2026-08-15T21:23:10+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -13,6 +13,19 @@
     "score": 5,
     "tags": [
      "ma"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "6a4b5354497eeafe",
+    "title": "Closing Bell: Apple Closes Higher, Cleveland-Cliffs Rises On Earnings, AppLovin Sinks | Stock Movers Mike Vrabel News (YdUJk7s1cL)",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SdndMS1VEV2hSNjZRNk9tanVyd1QxbW5VM2dQa0hkWlJacGtzYmFYX1VRcXR1a2Q3Rm1IQm9BSEFmODBOVnVIOHJXYmxSeGdSX2VEcEp5LTlCajQ?oc=5",
+    "source": "Mshale",
+    "published": "2026-08-15T12:17+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
     ],
     "direction": "negative",
     "primary": false
@@ -239,6 +252,19 @@
     "score": 5,
     "tags": [
      "contract"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "14c3dec4db8413c3",
+    "title": "Tesla stock climbs on report of a ‘flying’ Roadster reveal",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBNLXNYQTBFZVdrdF9rNTJ1OUt5N0J6bGhSODZKV2FKeTNhZV9tYkZEUzl0VktOeTZFZUJDYkFXNklFbmZUT2ZLRnZPNm1oMHd2S1JGNUg3SzNvRkRnWHNnU0VfeEFZYUdRQ09ndGpSSjh0WHptUExxUXg0b1A?oc=5",
+    "source": "CryptoRank",
+    "published": "2026-08-14T07:00+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
     ],
     "direction": "positive",
     "primary": false
@@ -620,16 +646,17 @@
     "primary": false
    },
    {
-    "id": "d19a62c26db92cc2",
-    "title": "Ark Invest Buys $39.4M in Robinhood as HOOD Drops 13.2%",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObk1QV2lJTmUwbTFDaEdidHNiYzM5Zk9WOVVGNFNZMkxoLVdhTkUxTW0xY0JIU0JhT01qQTc0QW80VllrT0psdDhrcVg1TUgtaGdQRkdBLVNxRTM1OVc4U1BiVEc4RG5UenpiTmd6anI0blpWbGRSNUVPVzF5RVZpeWV1Wm5oU1RxdXc?oc=5",
+    "id": "f8f49b68f050b732",
+    "title": "ARK Invest Buys $13M in Robinhood After Trump Accounts Deal",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd1B6cnViSm04TzFGbUVRRXZuSkxGeENVdXVsSmFDVmU1bndoemVaMVNGcktOTHlJTVRyNXRBTDdqRWFDSURUeDA0U096SWlVcXh3a0s2dHdvTmpXRnRHZ2o3dHNXLU9UNE1Kc3hDQmpBYTJmX2xwOU9oZThZdXRDWUEtbEhyOHY2SXUyOGZxQm40SldsYWxYMTlYanQwUHphbkdYSDNCTWoxQQ?oc=5",
     "source": "CoinMarketCap",
-    "published": "2026-08-15T01:59+00:00",
-    "score": 8,
+    "published": "2026-08-15T00:25+00:00",
+    "score": 13,
     "tags": [
-     "ma"
+     "ma",
+     "contract"
     ],
-    "direction": "negative",
+    "direction": "neutral",
     "primary": false
    },
    {
@@ -994,19 +1021,6 @@
     "primary": false
    },
    {
-    "id": "f0582cfbeb76e4da",
-    "title": "Michael Burry shorts Nebius stock as a risky doji emerges after strong earnings",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWk9rQ1JEOV8zUjNuenp0bC1CQVU5Y3V3eDBwUTVhaHFfZWMwUGlldWVraGpwd1hLSC03alNtMkcxeWoyVVBJcU5QRm44bUNuNWZhTVVEMzVGQ0F5X3VSVG9KMEpwY0lnaGk4TFJPeVRYN29XbTlEWHc2Rkg5S0lTZlcxYjRwak9wSzhKanNRbnp3Mm9oUmoxLW9HNHl4MUdmWkNQOFJzQ1h0UHlyVkRGWUVXOVlsQQ?oc=5",
-    "source": "invezz.com",
-    "published": "2026-08-14T15:03+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
     "id": "94a28a3aa88729e1",
     "title": "Bloom Energy Shares Rise as Nebius AI Data Centre Partnership Boosts Power Demand Outlook",
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNW9wLXFWRVozQXVSbTlkR0thY3Y3eTdScldaZXVhM1NqME5DWTkya3pPR29SektyazdTam1kc3RtYXdHWmE2bUROOUNQYkRrQ1d1dU92Tks4MklMYWlrNHRHTkp0QmFIWlUzTnNmcDlMSzVGR1o5R2dBdkFrMmNic29oR1VnZFRIMDhvdE81cWk4TEk4cXp0WFNUZw?oc=5",
@@ -1024,7 +1038,7 @@
     "id": "5895ecee982b9294",
     "title": "Top U.S. Stock Performers This Week | NEBIUS surged nearly 36% for the week, driven by earnings that exceeded expectations and a $40 billion order backlog; SanDisk rose over 26%, bolstered by positive commentary at its Investor Day; Super Micro Compu",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUVFKbFM3S3BweVJhcW9URGhvVERIOWc0aHBYV3ZiNlVsN0Z1aTN1ZFdtR1AxZzk4N2lUTTdES3Q1Q1Q5b3E0M2psbTdTRENUVERaX1gwekF4ZVNibmROcHlteGo5U3dodHZEdkpjYlg4MnZkaDZ0cDVfZkJrWGZPSFl6QUZlUjVtVU0zbk9GQnZYMkRzT0lTNElJTGtUeDg?oc=5",
-    "source": "news.futunn.com",
+    "source": "富途牛牛",
     "published": "2026-08-14T10:04+00:00",
     "score": 14,
     "tags": [
@@ -1041,6 +1055,19 @@
     "source": "TechStock²",
     "published": "2026-08-13T22:28+00:00",
     "score": 9,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "94f09690ac2a8260",
+    "title": "Nebius Group and CoreWeave Shares Surge Following Strong Q2 Earnings",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1SaUlMcVBFM29BRloxQkRoRUtkNDVROUZweFN4Rm10blBrT05ZazRnWlVtNk16dnVSZDZ3WDJ0ZUlYSzRyd1BwVVRKYTRhWkIzQV92TENlSG1ud1JBVFRyUnR3TS1MQzl6cFJ2YV93?oc=5",
+    "source": "sekbernews.id",
+    "published": "2026-08-13T21:31+00:00",
+    "score": 6,
     "tags": [
      "earnings"
     ],
@@ -1182,5 +1209,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 85
+ "count": 87
 }
