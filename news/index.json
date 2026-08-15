@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-15T06:40:52+00:00",
- "changed": "2026-08-15T06:40:52+00:00",
+ "checked": "2026-08-15T07:16:38+00:00",
+ "changed": "2026-08-15T07:16:38+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -31,6 +31,19 @@
     "primary": false
    },
    {
+    "id": "5ff8f27cbaae55bf",
+    "title": "Apple opens new manufacturing plant in the US; Financials deliver robust growth",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNRDdodXJqXzVQVHU5Ti1sbzY4UkxyZkZKQ184YXIzbENkWndlaFFGekJCdlRHWFdndFJ2RThzTnp1VXEtYldOYldIemlWVlZhWlRfMzRKQ3NxZ1VMYnEyT0dKZ3Zmc0x5NEwydzFxWkwzNG50VkpKQnJhUmE4YlpaTXk3aWMyOHgyWHlrT2dYeW1UOV9PeTFHdlExQzdYc29ERGZ4X0ZPNHAzSFlFQ1VGamdzdHpLUXRiM1E5R2R3VldDakZr?oc=5",
+    "source": "equiti.com",
+    "published": "2026-08-14T05:07+00:00",
+    "score": 5,
+    "tags": [
+     "operations"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
     "id": "410f8bf5d30395b1",
     "title": "Apple in talks to pay publishers to provide Siri with current news: report",
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORFlIVGtILWFSdndMeWNqWHI0R2VKWldua1BtbGlGbThKU2hvcGxoLTFrX1RaVHdwdElmTzhGcWh3d2NmX19BdHNPc0JQTmo2MHU0OElJT2pOc2ZVZnJYdk1oRkdsUmFjWTdtUURSMkM1TkZoTUllUktfSXBxVk5OakZCbEMyel9IcUtOLVd2YzRSOUlXdVUweEVMRQ?oc=5",
@@ -41,19 +54,6 @@
      "earnings"
     ],
     "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "06232cbacf7046c6",
-    "title": "Apple’s 5% post-earnings slide looks familiar; history points to a rebound",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWHpkUVpjUWtWLVBtZlNNN1RRUXU4VFZ0VFFJUW80VWlpemRNaDBJV0tTWHVWYTNGdkwyT2lESHpEdVpxdUR2ZnJkNmc2ZUhjd1VvVDZ5TTFUTk40aFdmcnpUa2liYU91ZWJ4eXdEUlNxc0c0MmxJdER0ZFpRVkFZd3c3REdkN1dnRnc2TloxN3lHaVMtbDBFZE1vdWh0ZnVTYUE0MlkzZFFnSzRC0gGyAUFVX3lxTE9yOUJySmhnSXA1Ml9XbVVEYm12cFFYbl80VXV5OXBfMEVhbFZUaEJ5bWtGVENESHpMeGlNNWZmTnRRLVYtQkkzOVV0S29RU09pVFZJYjU3UEhXOVM4Qk1wRWJlaE5zUFJDZmtfcWo2MFZLZlJrZlNQYnYxU2JSNEVhVjRnR2tKaTF0VDB1T1ZxTmVGdjJ5M2tSVXJ1QXM2SUc5RThsWmN",
-    "source": "macdailynews.com",
-    "published": "2026-08-13T14:15+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "negative",
     "primary": false
    },
    {
@@ -127,7 +127,7 @@
     "id": "d657228384cbd25a",
     "title": "Weitz Investment Trims Amazon.com Stake, Sells 5,000 Shares",
     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOTGo2a3hiVjdTblhSbm83ZjNvSmpCWFdnMG5TY3dwX0J2UWpKYnZaSXRHNXlrV0UwQmRkSUVRNVJwd1BKenZjREdHOXc1bEFtZlFmS296Mm5HT0xXN0VQbzdGVEd6NHJGVGhSUFR2YldXYUZObDYwZTdRbHhieDZVRUhidWhYTEZkQll2UWtGZVktbmNibFU3NFR1YkstWjVNa3RxcFJTU0tGUTYtVmhUaWFzVzRvWkFpLWxSMldibzIyNU1qRXVBeElpRkhHWkxiYXd2ZWFYLWI0YVI0blE?oc=5",
-    "source": "theglobeandmail.com",
+    "source": "The Globe and Mail",
     "published": "2026-08-14T03:21+00:00",
     "score": 5,
     "tags": [
@@ -153,7 +153,7 @@
     "id": "7d91a03f0d96edc2",
     "title": "Jeff Bezos Remains Amazon's Largest Individual Shareholder With Roughly 900 Million Shares. Here's Why That Stake Still Anchors the Stock.",
     "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxQenFEWTRGMnZnQ0VldFlQRWRxb2lsblVVX21NTVJyNk5LRVZ3aFgzeTRjQjZIMmpPb0g2eTlWQ3ZIQ1dSU0NQMVplbnp0MEh6ZG1jM2MtaVdEUGpNeGpCY0txVUxqck9mM096SUxvMVh4TlhESTBpTVhHQ3l5U29RbXNGQWwxUFBSczZ0Wk9VMk1KMGpsMVpsMVVOWlpzUTQ5aFh0c1BqNFZZWC0xQzZMbWk4eXA2QTVoT2gzNjJsWXpycGt3WU9Za01pSGdnX2xhcE1NLVhEY0ZMenByY090c0pmRnF3cUE0Snl3SEo5SEhMdUdlY0xDZ2ljaTRKdl9zbWVBeVR2S21kNlFpYTMxLTVtMzhGWTdEdEx3ay1rSjJMSjJBdE1Sc0NMd2hReDl5S1pnWXlzOElyam5EeF85aw?oc=5",
-    "source": "theglobeandmail.com",
+    "source": "The Globe and Mail",
     "published": "2026-08-13T10:35+00:00",
     "score": 5,
     "tags": [
@@ -244,10 +244,23 @@
     "primary": false
    },
    {
+    "id": "f0d6dc6fcbdde17a",
+    "title": "Tesla Stock (TSLA) Extends Recovery as Energy Plans, Strike End and China Sales Lift Sentiment",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMUw4YWtHR1UtOWMycGlnaldYS283LXR3QlVrOTFqOUhneDlmckk2blJycE51bWduWXh5NTZNeTJ3Rl9KMzRnazJBNjNPUVhGRXUyNFA4QThaZnFwMU1YbUF4Yk9POUxxazhBV3dZbjZzUTFnSmEtZ3lRcWlpeGFKVlJMYndCX0tyNHEyMkNRNXJaYkNwNzVVdXF6RUhMZk9ZaXF0UjB2ekpqdXFEdDIxSXM3WTEwNDdORG9KWFdwYU1PeG9Qa2hNdDVMNDBVc2c?oc=5",
+    "source": "fxleaders.com",
+    "published": "2026-08-14T00:00+00:00",
+    "score": 5,
+    "tags": [
+     "operations"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "0d08c61c30a3485f",
     "title": "Tesla-SpaceX Merger: Here’s How Elon Musk’s Big Potential Payday Could Lead to an Overpay for Investors",
     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1Qa3JPWUtBcEpLUEtXbGFTbVo5Z3k0ZGRCNkhvWUZlZUpfVkRaMVZCaWtJM3BpelFLZTBNRTlHeC1TcnNYYUVxWlUwbHBTeGJoTUlkRUIwbWhtTzREZUFaNERhRQ?oc=5",
-    "source": "MarketWise",
+    "source": "marketwise.com",
     "published": "2026-08-13T18:08+00:00",
     "score": 5,
     "tags": [
@@ -408,7 +421,7 @@
     "id": "5cf79de0c8f2f20f",
     "title": "Weitz Investment Management trims Microsoft stake by 16,250 shares",
     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQU3JMRE5wTFJKZjFWWElxcDdRb29TRk1XMDEzLVY4bkotMThFUi1HVWVPUTBIekpfY2xyTXhETXQ5SFR3RFVDbmNiWVNod1pMZDRpUDVCeFNyTDJ6ZnhfNGNWWkZXckVxTUQ3dHlILUg0bVB2b3p2NVI0Q0ozUHlvVmlJb3gxT1cyWmpHaXJ5OC1FNmlFOGNldmk5V3NSS1VYZTBZamxGRjhmczJPanFpMzhaYVQxcl92Z0oycUxJWV9kRFc4SXVUeWdGMHNNU1B3MHBVYU5lYnRjdU1vbklxMDg1M0NHR2cx?oc=5",
-    "source": "theglobeandmail.com",
+    "source": "The Globe and Mail",
     "published": "2026-08-14T03:45+00:00",
     "score": 5,
     "tags": [
@@ -542,7 +555,7 @@
     "id": "07661c933f199c4b",
     "title": "Alphabet’s SpaceX stake hit $94-billion, a more than 100-fold jump since 2015",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSjRvalhSMEZqY0ZiVFFDa01mMW9uZHNZZnptVWJmMUVRZ3F6eWl1M1VuTm9wcWNvd0FYdmY1cWZ4d2NwWUYza21kM2p1NnBicTVMRUJVWWtMaDYybTlxZTBvYklpeDVsQ1hEME9OM2pub1RsTDBXTG5TRVJBMzdoRW1WaVpfTjV5ZmhQalB1MEJoX2tuczdRaV91aXdfMlNqcWhoUXpySlFGWElIYk9QQjVHS0Nadw?oc=5",
-    "source": "theglobeandmail.com",
+    "source": "The Globe and Mail",
     "published": "2026-08-14T11:29+00:00",
     "score": 8,
     "tags": [
@@ -703,7 +716,7 @@
     "id": "1c120fa2aa545920",
     "title": "Nvidia discloses $21 billion stake in SpaceX at end of second quarter",
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOczZFNXoxeDBQS1Y4T3ZvdW96QzNlUlBGOWZ3WEtqbDZXaTc5MTZESDJyRTNha1F3WWhwdHNfYXd5RDhqR2psbjFYRWZsR2tJNmVBc1J6THl2cWt0TFduRHRySG5YR250N1hQUkdKLUNHd1hZM2wxbkNRWlJWZ25UVHpFa0Q5bmUteGJ4bjh6c1IyY1lHZlBwMUMzLW5YS09sQ21oN1F3aGTSAa4BQVVfeXFMT2ZZMHJZWGxvZ1FCZTQ4SVFmUVJqck5xTGdLNzNOYjRSYjRIU1V1OHNvM2lqQnpKQWYzWGVIbGpsNTFpWE1mTHcyNmZfWDBHUnVhMm11NzBjbGF3Wk1WZ0FnVjhmVjBOZXk3a09aZ1R4eFJqUHhwUmY2VXg5ckdzOGR4YTF6X1BLY1hSd2hsbWd1NnJfZ093cXY0MkpMeFEzbUFFRXByVlRzNnp",
-    "source": "CNBC",
+    "source": "cnbc.com",
     "published": "2026-08-14T21:45+00:00",
     "score": 8,
     "tags": [
@@ -879,7 +892,7 @@
     "id": "52b31640573f6d8e",
     "title": "Mobileye director resigns following Intel governance changes",
     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWXN3S1NSQmo4ZXBid2o4MnhQd1p1UHRsUGJVLWJpNFR2WUE0OWh1aUI4SVZ5NzR3YTlSUm83aXhITVAzZ3k3RnhrRUVJeXJUMHYyTzl6VHpGSi0xZWVCZEYtQnQ2NmF3T3ZEUm14Nlh3VDVwMjdTcTJWNzUzSHl5SzFnV296RjNnQU5zRWJNV05XcjRXenc4c0x1cm9nU0s1UTBmOS0tYURYUENUTHBXUkpoMXhabVNHMXBsUXZUSEJ5QmdZS3c5bEl0eVY1T2p0MXA0WVFVVXJVbkwzbXc?oc=5",
-    "source": "theglobeandmail.com",
+    "source": "The Globe and Mail",
     "published": "2026-08-13T21:08+00:00",
     "score": 5,
     "tags": [
@@ -1092,6 +1105,19 @@
     "primary": false
    },
    {
+    "id": "096bf01569b715a1",
+    "title": "Massive Day For AI Stocks | MSFT & META Earnings & AI Outlook | Latest IREN & SLNH Stock News Now Adunata Alpini 2027 (5WpSjp7Myf)",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFRkJCTGFjZmxQZXp1TEJKRFU1cXZNOHVVckVJeVBnOWhPN2h1Qk9PV1Nxc2V6ZUVudjdWQkpXSldkbHo0LWRKZkUyR3FELU1HbGtscmFIc0hPTTA?oc=5",
+    "source": "Mshale",
+    "published": "2026-08-14T06:24+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "db599b9c1f58a8aa",
     "title": "Escalating Youth Safety Lawsuits And Global Age Checks Could Be A Game Changer For Meta Platforms (META)",
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcWhGbWJYQVpWTlJyS3VpdmVuZm81ajZRNzRxaHRMNWZzYVV0bjRUNDFLRzdHNGFuWldGMG1WUlhzMUhkN2F6ZGJyV0xqaXlYT2hyZ3k5ZDc2RmJUYk9VSXJSajJjcTFxb2RRQmdhU3gzWWRsaUVXR0pXa0psbGFjNFlYYUpFb1NiTURGMXQySTg3TGtGM0lhcnZfTzlRTzdDWlFsUVhXS2VhTFFYcDdiN0dTOGpwdERIY3NlUWFHdFd2eEZYZGNuTHRiYTVqM2_SAc8BQVVfeXFMUHFoRm1iWEFaVk5Sckt1aXZlbmZvNWo2UTc0cWh0TDVmc2FVdG40VDQxS0c3RzRhblpXRjBtVlJYczFIZDdhemRicldMaml5WE9ocmd5OWQ3NkZiVGJPVUlyUmoyY3ExcW9kUUJnYVN4M1lkbGlFV0dKV2tKbGxhYzRZWGF",
@@ -1102,6 +1128,19 @@
      "legal"
     ],
     "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "98137e10b1590dc4",
+    "title": "Meta Platforms Stock Hit My Exact Target — 7.44% In 2 Days | META 4 Trades 4 Wins | 2026 Patrick Bruel (c2FPAQdl6j)",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1oWFJ2emR1TjhNcXZCY3owdnduN2g0Q1dLRW40ZWdFUHd5dXA4N1B4NzhBcnI3QWhLWXpJd1pGX3ZkeDN5dG5iTUd1YmxkLXh6Yl9vc2p5c2l4dWs?oc=5",
+    "source": "Mshale",
+    "published": "2026-08-13T09:35+00:00",
+    "score": 5,
+    "tags": [
+     "contract"
+    ],
+    "direction": "positive",
     "primary": false
    }
   ]
@@ -1144,5 +1183,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 82
+ "count": 85
 }
