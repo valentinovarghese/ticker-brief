@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-15T08:04:19+00:00",
- "changed": "2026-08-15T08:04:19+00:00",
+ "checked": "2026-08-15T08:41:17+00:00",
+ "changed": "2026-08-15T08:41:17+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -127,7 +127,7 @@
     "id": "cdf4de94f7979958",
     "title": "Amazon Is the Only $3 Trillion Company That Has Never Paid a Dividend",
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWG50T3dYZjlYaEZUbGNrRjFGU3dTV1VsTE10WHc4SDY3NGEyVEdNVmI1SjJyYmRSMmlJUGlWSVdMQ0IwUV8xdUE0UHU2dUJ4LTN2TktoLXplTHE1cmlZWDRHUVdDLTNKWVpYNkZXbF81NUpPdW80ODZ1b3FmRXRETGl2eHVHb1c5?oc=5",
-    "source": "Currently.com",
+    "source": "currently.att.yahoo.com",
     "published": "2026-08-13T19:46+00:00",
     "score": 8,
     "tags": [
@@ -162,19 +162,6 @@
      "ma"
     ],
     "direction": "negative",
-    "primary": false
-   },
-   {
-    "id": "7c9e18acde9933f1",
-    "title": "Stock Market Today, Aug. 14: Tesla Gains on TD Cowen Buy Reiteration and $460 Target",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPazd5azcwQWJMNnRJeGY3YURNeVZWSDNFNG51LTNtQzR6RU5uWFk4X0JHemdoMW82MVoyNF81Rm5LdlM0ZVQxNkNFQXpZcW9mZGt3RjlrUGRYUUVtMVQtT0NLbXhTQU9hZW9iOXFGVnhIWVMwRDRFWndaTmxNbDhwQUZNX0J1V3BsbVZEVTNCR004ZFR2?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-14T21:16+00:00",
-    "score": 8,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
     "primary": false
    },
    {
@@ -324,6 +311,20 @@
     "primary": false
    },
    {
+    "id": "55b8bd367a56444a",
+    "title": "Palantir stock jumps after blockbuster Q2 earnings as defense deal and ARK selling sharpen the debat",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQcmtReTlWX2dVWkMzbjJTOXpZdll6QXBpTDk3aDJXQm1Dd1JYSUpTQlJPNXduTk04YTVZSHhiTFZiZnpFMENENUthQUdOUEkzZVdvQlFXWjBlMVptdGl1QlJ3c05TZEp4Nk9yQWJDR0VuTy01R1Y4RjRvV1R5R3RVcm1GZkFqWGJ4dEkxX0Ntal8tNGFNd2R5NU9kZTh2aHNaeEdsbzl4S3R0VDZiTmx1blJock5PTTJmMGJKdzNMdWxLM2sxZzVvdTJLMEw5aEhScmtN?oc=5",
+    "source": "ad-hoc-news.de",
+    "published": "2026-08-14T06:28+00:00",
+    "score": 11,
+    "tags": [
+     "earnings",
+     "contract"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
     "id": "d71e2599ce532dd6",
     "title": "Revenue at Palantir-Backed Ondas Rises 1,236%. Stock Falls as Losses Widen.",
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWE9iZG93RlFUVFktczQxNFkzV2dnZEV5cGlYRHJTSDd2NVJqaU9WUDZWVkpUMGNndkp0bmY2OHFHMk1kUDRwcmx0UlV4TXl6eVNvcWJzbUM2dHdiQVlDLTJvMUZXVHhnT2NMcmZPNHlXdGF4TWNScmJXcE10QzVRSFdHdw?oc=5",
@@ -387,36 +388,9 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "142f19fbf633b8e5",
-    "title": "After Earnings, Is Palantir a Buy, a Sell, or Fairly Valued?",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZU1neUZIckpPMUxudWZjaVF3VlhqZlJfNjd0V0wzRFF3dlBESjJYNGNaS1VUUUo5UjJzN2pUaDdZc2dKLUtkRVhxYi12cXJCYmVLeGI3akhfTVlaWlR1R0VBSjFOSVRVdnJnLVJITF8zdmFmaUlEMEZrSEVTUjRhdE9XUUVYZUp0Nk1ybWZ6Q2hzNkpQQ0tlWG0yUzg?oc=5",
-    "source": "Morningstar",
-    "published": "2026-08-13T09:43+00:00",
-    "score": 11,
-    "tags": [
-     "earnings",
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "MSFT": [
-   {
-    "id": "b58593303979b659",
-    "title": "Microsoft stock holds near $497 as Q4 2026 AI cloud boom and China exit shape outlook",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPR0lFc0d6cnVlSDFVZ2dBWG9waUdJOE1YblBTcG1pbGZyZ1NTbnVyVmx1cU5mMTZwN3BuSXlzZlJEc3VxZDlzYl80eDh5Q2JndG5ieVJnSm54TndMbHREMmlKeW9IQlJyRkhyS1ZRX3ctMFRVZ1ZyOWhpcEZKaWVKNTZBREg2VWJ4RTRVRExab2hVNXVlZ3JOYm1RRExNaVhYZmNMeW9hbWlSbUE2SjNoVmNDNmZWQnVUN1NiM0EzZ0I2VDV0S2d3Z240bjFGUQ?oc=5",
-    "source": "ad-hoc-news.de",
-    "published": "2026-08-14T13:34+00:00",
-    "score": 9,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
    {
     "id": "5cf79de0c8f2f20f",
     "title": "Weitz Investment Management trims Microsoft stake by 16,250 shares",
@@ -426,19 +400,6 @@
     "score": 5,
     "tags": [
      "capital"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "b12e64cef5a84ad7",
-    "title": "AI-Driven Software Sector Divergence, Microsoft and Shopify Speak Through Earnings",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOd2dzRW52amFBMndyQ1JMWFF1M0U1WHFzYWtRZDJNbkNvMkNCYkRQVlNIR1hsUGItUS16UVNqeE5YQ2hkTkVXWnppVkZIZlVtaW5vZHdtdmFCNFRNeHp3UnE2T1JhLW1qQmVFWU40ci1RYzhuSjdIV29zdmVZX1R5dXZoSVVqWmVvQTdyU2JSOXJ0RjJQQmFvb2hWMDhXUlJudDlJNV95UGhDa252VGFKRkktTTY?oc=5",
-    "source": "NAI500",
-    "published": "2026-08-13T23:38+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -466,19 +427,6 @@
     "score": 6,
     "tags": [
      "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "04309cffb659b9b7",
-    "title": "Microsoft (NASDAQ: MSFT) And Palantir (NASDAQ: PLTR) Stock Break Out To New Buy Points As Datadog (NASDAQ: DDOG) Triggers Sell Signals",
-    "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOaXNubUxoVnI5TVZxMGY2WnRqZ2RFVEtOZG9JSEtIZjViRHhwVHR5UExoaGVfM1V4UHY3UWFqNE5IVC1NLUNSbm5UOThPQjlyUHV4a2JFUGlwWTgwelVCMTBhZnVFbWU5Z0g1TEdBdVpOQlpCZUFRWmhIQkJ3Q1ozS2VLVW1ENG80bnpSTEg2OWpXRDBlMXlURGlreFROcU4tSU9Wa0VzS1pTTjVSZXp4czFhbm90SkFZZjd1Q3FMLUVtSW9DMEJOWk9ocklqQmYxME4yUEZ3Znd5bC0wX3RBOU1EWTl0TnJzSDF5MEFybl82alUtd3hYcWphNmw?oc=5",
-    "source": "foreignpolicyjournal.com",
-    "published": "2026-08-13T13:39+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
     ],
     "direction": "neutral",
     "primary": false
@@ -542,7 +490,7 @@
     "id": "18c37fce679edd90",
     "title": "Berkshire Pads Delta, Alphabet Stakes as Abel Taps Cash Pile",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYVpGbU5tanN1MHUyQUdkWF9meWlWTi1WdWFaeHd5cFRNUldOanRobUFMQkFWVkNKcC1HN0s3OU5MZjA5dlo3Y2ZpSTM4a09EWTFWTV9EenpaYmRjSmdrOU1sYU1JXzNBam9VRzZuMXptbUwxNk9MWVRuclI3cC1MTVRyS3l5QXRCMDVaRU16V2FnLVI5eGhYc3poaC15UWkwVXhmLTJYanpXZWhYLUJTZWZ3?oc=5",
-    "source": "Bloomberg.com",
+    "source": "bloomberg.com",
     "published": "2026-08-14T21:26+00:00",
     "score": 5,
     "tags": [
@@ -606,19 +554,6 @@
   ],
   "HOOD": [
    {
-    "id": "31080685e5bbcd28",
-    "title": "NVIDIA Tokenized Stock (Robinhood) Exchanges NVDA Markets | Buy & Sell & Trade",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9VY1QxczktS2hNLVYzSW9fQlNQQXBsRjIzUHF4V3FmbjY5ak9HdE1LdkI0TWc4VDNNd3ZJVTFmZFc5NExSSHVENjJOSC15T2VzVkZnSHNYdUstSFRRVWNWWjRENUdvVHEyblB6eG5fbVR2UkRxZGtfMnhn?oc=5",
-    "source": "CryptoRank",
-    "published": "2026-08-15T04:05+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "d19a62c26db92cc2",
     "title": "Ark Invest Buys $39.4M in Robinhood as HOOD Drops 13.2%",
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObk1QV2lJTmUwbTFDaEdidHNiYzM5Zk9WOVVGNFNZMkxoLVdhTkUxTW0xY0JIU0JhT01qQTc0QW80VllrT0psdDhrcVg1TUgtaGdQRkdBLVNxRTM1OVc4U1BiVEc4RG5UenpiTmd6anI0blpWbGRSNUVPVzF5RVZpeWV1Wm5oU1RxdXc?oc=5",
@@ -629,6 +564,20 @@
      "ma"
     ],
     "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "089b1c58fdb29be4",
+    "title": "Is Robinhood A Buy After This Earnings Report? | $HOOD Luck Mervil (pHTJKjrhhZ)",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0MTJISFQ0LTA1VFNsQ1d1WWtrR2hmLWQ5LXlwenJHU01PaFFzZUViLXkwQ2UzLXRwemtGM2tzejVIbTVTVzk4QkNZWVZCa3ctcFBrUS12SGpOX00?oc=5",
+    "source": "Mshale",
+    "published": "2026-08-14T14:10+00:00",
+    "score": 11,
+    "tags": [
+     "earnings",
+     "ma"
+    ],
+    "direction": "neutral",
     "primary": false
    },
    {
@@ -742,7 +691,7 @@
     "id": "1c120fa2aa545920",
     "title": "Nvidia discloses $21 billion stake in SpaceX at end of second quarter",
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOczZFNXoxeDBQS1Y4T3ZvdW96QzNlUlBGOWZ3WEtqbDZXaTc5MTZESDJyRTNha1F3WWhwdHNfYXd5RDhqR2psbjFYRWZsR2tJNmVBc1J6THl2cWt0TFduRHRySG5YR250N1hQUkdKLUNHd1hZM2wxbkNRWlJWZ25UVHpFa0Q5bmUteGJ4bjh6c1IyY1lHZlBwMUMzLW5YS09sQ21oN1F3aGTSAa4BQVVfeXFMT2ZZMHJZWGxvZ1FCZTQ4SVFmUVJqck5xTGdLNzNOYjRSYjRIU1V1OHNvM2lqQnpKQWYzWGVIbGpsNTFpWE1mTHcyNmZfWDBHUnVhMm11NzBjbGF3Wk1WZ0FnVjhmVjBOZXk3a09aZ1R4eFJqUHhwUmY2VXg5ckdzOGR4YTF6X1BLY1hSd2hsbWd1NnJfZ093cXY0MkpMeFEzbUFFRXByVlRzNnp",
-    "source": "cnbc.com",
+    "source": "CNBC",
     "published": "2026-08-14T21:45+00:00",
     "score": 8,
     "tags": [
@@ -825,7 +774,7 @@
     "id": "15e466031a6c9202",
     "title": "Nvidia Has $21 Billion SpaceX Stake, $30 Billion in Intel Shares",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUGFQNGVsS0M0dU5jYzU1TjJLMGhRY3ZyOG51X0FNdTcxNnIxbkVjNWJmR3dJMUNMelZRS0l0M1JZSkJFTzdWZDNPb0N3X1FadkN0WGZaT3hSTzJITUtvRWZKQUszRHUzWHc3T0RIRi1LRTZBUDcyVjZoQ1pGVzRKN0NldUp5TDVHWUZaNUhyRk9BZ3NIalIxM1JCTUZSdHZRVkhYX0RQSnVqelZGTVNUTTFn?oc=5",
-    "source": "Bloomberg.com",
+    "source": "bloomberg.com",
     "published": "2026-08-14T21:17+00:00",
     "score": 8,
     "tags": [
@@ -943,6 +892,19 @@
     "primary": false
    },
    {
+    "id": "63b31a014b02293c",
+    "title": "Nebius Has More Power, More Contracts, And More Upside Potential (NASDAQ:NBIS)",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUmVSN3FXZVJTRWxfR05saGZzNzlkQjdkd25rREE1MHpWYlMxTmUyNjdMWkQ2U1BKbEJCYTFzNFFGMVdhSFhkX2RudW1taU85SThjRXZsRlhZUGY1OWxhMklDUnZaekQ2cG5vTGxaeDBIbk5VUHN2RlAzTjctZ2JHY2JGakVONTUxZzJ2M0NSTW9USm1ZVmlweTJoT3NIRlhsMDAxV2ln?oc=5",
+    "source": "Seeking Alpha",
+    "published": "2026-08-14T15:27+00:00",
+    "score": 5,
+    "tags": [
+     "contract"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "94a28a3aa88729e1",
     "title": "Bloom Energy Shares Rise as Nebius AI Data Centre Partnership Boosts Power Demand Outlook",
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNW9wLXFWRVozQXVSbTlkR0thY3Y3eTdScldaZXVhM1NqME5DWTkya3pPR29SektyazdTam1kc3RtYXdHWmE2bUROOUNQYkRrQ1d1dU92Tks4MklMYWlrNHRHTkp0QmFIWlUzTnNmcDlMSzVGR1o5R2dBdkFrMmNic29oR1VnZFRIMDhvdE81cWk4TEk4cXp0WFNUZw?oc=5",
@@ -1044,19 +1006,6 @@
     "score": 6,
     "tags": [
      "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "38ea98cddf869a74",
-    "title": "What Is Driving Nebius Group (NBIS) After A Record Quarter And New Contracts?",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdE96ZC1ZTnphTzJkVUpJSFVBNDBjcFZhTkdRRVNMaEMwQ3hDenJoX2dFUEQ4bldTcmlGWWZ6TVU3Uy1NZWdXV2dkelpfY2NrUkZHb2xVTG1OODkxVGVHX1Zmb2lTa2g4aGZqTG15blNLQ1IyMVV1Y3hKWEdrUXVIajFLV1VtMFhHaURIZVBJZnI2WTRGX3E2ZHVkcG8zU045dm5CbHZZYU1TMmplSER5VXpGQlFsOE96dXJ1V3pVdklDTEEwRVBVWEZLTdIB0AFBVV95cUxPRjh2SFV2dDYxaHlMT2U4Qk9OUC1MUWpadkpuQ1dfM1JnVmYyVzdOdmtjVnNQSFlFSHBBLUJkenpxX1JLTDRwVzhlbjkwb1ROc0RjemNaRnpTWmJQbnFNZFhqR3RtQzVZY09fYTBFYzhnVE5HYmdJTHdtR1EwWUVJNkE2QjR4UG5",
-    "source": "simplywall.st",
-    "published": "2026-08-13T08:39+00:00",
-    "score": 5,
-    "tags": [
-     "contract"
     ],
     "direction": "positive",
     "primary": false
@@ -1209,5 +1158,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 87
+ "count": 83
 }
