@@ -1,9 +1,23 @@
 {
- "checked": "2026-08-16T09:37:34+00:00",
- "changed": "2026-08-16T09:37:34+00:00",
+ "checked": "2026-08-16T09:57:17+00:00",
+ "changed": "2026-08-16T09:57:17+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
+   {
+    "id": "31295de0946fdb1d",
+    "title": "Intel Stock Outlook: Can the Apple Foundry Deal Justify INTC’s 250% Rally?",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUW1Cai1mU1FWR2h6WDBlMVpaQ3owUEpETXV6dGp5Y0FGdmJxQktrb1ZORUZmSWIyUVo2Q1g1cU1QX0dmZGw3cnFfT1FyVUhkVWtNUkx4dE9rcHFadC1tUXo4X19COVBXZmNkTVFJbm1JUGNERjN6cF9GWnlNREpSN1VTMXFzc01sSmpkNndONkp2MG5Kc3VjTzNZTlZGdk1DSUxvTGlQNUJXVGxpQ2l6SzljWm1VaE5a?oc=5",
+    "source": "TradingKey",
+    "published": "2026-08-15T21:21+00:00",
+    "score": 11,
+    "tags": [
+     "earnings",
+     "contract"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
    {
     "id": "902c2a046501c383",
     "title": "Apple gets U.S. warning not to buy memory chips from China: WSJ",
@@ -230,20 +244,6 @@
     ],
     "direction": "negative",
     "primary": false
-   },
-   {
-    "id": "b978634bc782cae1",
-    "title": "Tesla's Swedish labor strike 'no longer has any effect' after company buys out striking workers (TSLA:NASDAQ)",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQT1FxaHN3QWl4MzNMUDRDLXQ4R1F5cVhoQnVDc2FMVURIVDdaRDlZRDd4QzFuQ1VrWkVTek1iX2NscWt2VEhkYldsSHVWcFlwNWdnSXdlbkpWOXR4MWNfa212YlFRNDhETXJBV0pLeVZoX0lGQ2V5YjROSWZlbnZoY0RaUWVxbEZZazRnQzRDaDV2bzNVVzJIOE5rOU5PeDlOSmZHc3lXMzlpR3BNVEVhRy0yd1RTc1J4N2xael9HbDVWREoyTkdsUlp3?oc=5",
-    "source": "Seeking Alpha",
-    "published": "2026-08-14T12:58+00:00",
-    "score": 10,
-    "tags": [
-     "ma",
-     "operations"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "PLTR": [
@@ -310,19 +310,6 @@
      "earnings"
     ],
     "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "20594d688dda421f",
-    "title": "Palantir Stock Critical Support Level Signals Major Move Ahead! Uk Charity Shop Shutdowns (E7doDVLHF3)",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE12cmRuazE0UzJMZlZwVVFKcHJUS29YaDZJNjNvV0hmX0ZTX1FBcTJWLVhERTZ4ZXhxaUVBYmYxRGpxZzkzLVA5TV8xOHoxR1MtU0F1dzZFOHNuVkRrQnJjMg?oc=5",
-    "source": "Mshale",
-    "published": "2026-08-14T17:38+00:00",
-    "score": 5,
-    "tags": [
-     "operations"
-    ],
-    "direction": "neutral",
     "primary": false
    },
    {
@@ -436,6 +423,19 @@
   ],
   "GOOGL": [
    {
+    "id": "eafdec30bbe909c4",
+    "title": "Alphabet's $85 Billion Reckoning: When the House Keeps Raising the Stakes",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOaVNjdHFxUXRyVktWWlBMb09pWmwwZ0poLUh2RUxITGQ2eEJudXZLR2lURGlueW02bUFJZDlPemtfLUYzTzZuRDhWdXFpLXlQX3g0Wi0zdHNFSDV0Y1dMR3k1YjRtRlJQNzF0anlDVThiNW0tSGdWa19hbWstRE0teVIzUW9QcEFCQzVGTG52d0IxcWgxa0U2TkVVdGRZYUJVNzc1RkFiazhRMi1PZU02dlhQUXRvUmZaVGtRY0Y1aEtsQVlIbDJvUUdkTG1zRWRnU3JQczBoeWcxb1U?oc=5",
+    "source": "ad-hoc-news.de",
+    "published": "2026-08-16T05:32+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
     "id": "45f069ef12367c14",
     "title": "Alphabet (NASDAQ: GOOGL) Beats Oracle (NYSE: ORCL) As The Superior AI Stock For The Next Five Years",
     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOaDI0NHdxZUpyNmRWQkNXMExJY1g3UE5Jbmp3eElXdWMzcUFpRFEtYV9Yb2xEY0hkdWxhMUxNYzdGWXZRcmVYa3liZEQ4UXBvUVo2Y2pEU2dIYjctTFBJMkJNTlp0Sl8wZmozc2Z1UUd4MkkwN1JLMWZlMjYzN1cxOVZSQXVLNVZabU9VUnBEdFhaWmZaTV91ZzJEeXhoYzZVaFV2cFZfdEs5RWd3S3FVR2p4RHU4YXpBTWFFV0JNX3BwbHVXLTc3NUFidDlWUTZqWXNUTjU2c3pzQQ?oc=5",
@@ -504,7 +504,7 @@
     "id": "1af65191a191eb19",
     "title": "Warren Buffett’s Berkshire Hathaway boosts stake in Google parent Alphabet by whopping 83%",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcTJjNVZwQUpUd2RoSGo4SUduendJa2dITE10STFhRGFvcU5jVWgybF94YUVRRXF4RFZYeEFOTWRSWkJXemlTeU00eGhEV0doUlIwRDdCVldPM01Mc1hkVU5idVh0d0ZnY3g5UjNWalBMR0E4bFJ2RGo1QUxUVXp5M3N2VkRDMmZ4Rk1GYjk1UkxNdmRkVGxLd09CV0tqZTZ2UVIwOGlVM2FacnB5Q1Z2VHRaVQ?oc=5",
-    "source": "nypost.com",
+    "source": "New York Post",
     "published": "2026-08-14T22:17+00:00",
     "score": 5,
     "tags": [
@@ -552,19 +552,6 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "ee3fbd73c2bdf6dc",
-    "title": "Alphabet Inc. (SPCX) group reports 551M SpaceX Class A shares under beneficial ownership",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTGVUazhwdnpxV0FyVnhoZVFFalRGa1RTTUVtYUdiVXY1V1FmLURjTElZMXMxZy1ld1hGckttcmZZQlo1UGhneVFFckJiY0NZWlo0QnpvZ1piZnE1ellKR1JlMDc0MmVYQXNUZlBaU1hheldLREtjTG4zWUwydnBsWkowTDhsb09ibGdmQzBYVWFCdmphSDhaX0hsNXd5YzB0VmNzbnJQQWloT0t2Q3VnRFNUbHZiVFl4bUphVE1OVXR5dEZ5SVVFd0duQQ?oc=5",
-    "source": "Stock Titan",
-    "published": "2026-08-14T20:20+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "HOOD": [
@@ -582,40 +569,15 @@
     "primary": false
    },
    {
-    "id": "d19a62c26db92cc2",
-    "title": "Ark Invest Buys $39.4M in Robinhood as HOOD Drops 13.2%",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObk1QV2lJTmUwbTFDaEdidHNiYzM5Zk9WOVVGNFNZMkxoLVdhTkUxTW0xY0JIU0JhT01qQTc0QW80VllrT0psdDhrcVg1TUgtaGdQRkdBLVNxRTM1OVc4U1BiVEc4RG5UenpiTmd6anI0blpWbGRSNUVPVzF5RVZpeWV1Wm5oU1RxdXc?oc=5",
+    "id": "f8f49b68f050b732",
+    "title": "ARK Invest Buys $13M in Robinhood After Trump Accounts Deal",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd1B6cnViSm04TzFGbUVRRXZuSkxGeENVdXVsSmFDVmU1bndoemVaMVNGcktOTHlJTVRyNXRBTDdqRWFDSURUeDA0U096SWlVcXh3a0s2dHdvTmpXRnRHZ2o3dHNXLU9UNE1Kc3hDQmpBYTJmX2xwOU9oZThZdXRDWUEtbEhyOHY2SXUyOGZxQm40SldsYWxYMTlYanQwUHphbkdYSDNCTWoxQQ?oc=5",
     "source": "CoinMarketCap",
-    "published": "2026-08-15T01:59+00:00",
-    "score": 8,
+    "published": "2026-08-15T00:25+00:00",
+    "score": 13,
     "tags": [
-     "ma"
-    ],
-    "direction": "negative",
-    "primary": false
-   },
-   {
-    "id": "e810f74b8ede4946",
-    "title": "3 MASSIVE Reasons To Buy Robinhood Stock | $HOOD Robert Lewandowski (XyVUvL8HrO)",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5nczJKcTQwRjBIWEw4U1psVXIyUFd4ck5sSzV3VEVLeXV2TkdjWkZnaERVVktJSzFQUlZYakNteHoxZ0Mza1Vkcm41VmlBYUxYOVBVSWJ6OUlidWc?oc=5",
-    "source": "Mshale",
-    "published": "2026-08-14T14:28+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "33db1044dcdbc813",
-    "title": "HOOD Stock Midweek Analysis | Robinhood (HOOD) Stock Forecast Mark Kelly (bfvRkQhM8n)",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5VRjNMU0pPVHZMQ0UyQm9MREZHTmdhMG1yUlZsbmJJXy1MUFZTT1Z2QXU1YmxEakItWlZ5WllHdnBoLWEtOEdpdTZkRDBYd0tlUkRoTmpPY1c2Mzg?oc=5",
-    "source": "Mshale",
-    "published": "2026-08-14T13:27+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
+     "ma",
+     "contract"
     ],
     "direction": "neutral",
     "primary": false
@@ -769,13 +731,14 @@
     "primary": false
    },
    {
-    "id": "c3b62cd6944130ef",
-    "title": "Pau Cubarsi | FIFA Best Young Player Award, Presented By Aramco Intel Stock (UkUKGhOhKQ)",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9iQXd0U1NxNUtvT0hTTTBsMjMzb0lJTnpwQVRrS2RrNjhBZzRCSDh3aTdtejdxbjVXVVltd3NaUkE4NTFtMHNFalF2T1piWEh1aFlOSl9FRXBLNlE?oc=5",
-    "source": "Mshale",
-    "published": "2026-08-15T21:34+00:00",
-    "score": 5,
+    "id": "31295de0946fdb1d",
+    "title": "Intel Stock Outlook: Can the Apple Foundry Deal Justify INTC’s 250% Rally?",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUW1Cai1mU1FWR2h6WDBlMVpaQ3owUEpETXV6dGp5Y0FGdmJxQktrb1ZORUZmSWIyUVo2Q1g1cU1QX0dmZGw3cnFfT1FyVUhkVWtNUkx4dE9rcHFadC1tUXo4X19COVBXZmNkTVFJbm1JUGNERjN6cF9GWnlNREpSN1VTMXFzc01sSmpkNndONkp2MG5Kc3VjTzNZTlZGdk1DSUxvTGlQNUJXVGxpQ2l6SzljWm1VaE5a?oc=5",
+    "source": "TradingKey",
+    "published": "2026-08-15T21:21+00:00",
+    "score": 11,
     "tags": [
+     "earnings",
      "contract"
     ],
     "direction": "positive",
@@ -791,19 +754,6 @@
     "tags": [
      "earnings",
      "contract"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "ae984f547c3174e8",
-    "title": "Intel’s stock buybacks: History & investor impact explained",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQa2k0eUdxb2V6R0ROenY5X18tU3RZSTFVQnYzNkFQY2dNZ2hKYUNpWGRMNTNqZW9Ydjl3WkZtUkZXWFEtNXJlS0tOajY0UDFGZWVSNFAycjZyb0stWHBYNE05QmZSLUhyaWdKS2lWU2FCUE5Gd0FGb1JuY28zV0VsRURyT1BPc1FNeEdGcENwTEVLdXZEa3VlSTgxUkxwRFVXZU5VNg?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-14T22:50+00:00",
-    "score": 5,
-    "tags": [
-     "capital"
     ],
     "direction": "neutral",
     "primary": false
@@ -830,6 +780,19 @@
     "score": 5,
     "tags": [
      "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "ae984f547c3174e8",
+    "title": "Intel’s stock buybacks: History & investor impact explained",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5XVTZoa1RiakVLM3M1NHR2Y19wQmJocWZOZnM2QjE1WlB0aEJyTml5cTBWcW9mekZxdDlaMVVlTU5jTjY0cWtXaEd3SHFtYkYyRDBGcFA1Q0gtTEtDcmdXdjE0Ym9CcHV0d3ItZTk0RGc?oc=5",
+    "source": "thestreet.com",
+    "published": "2026-08-14T19:50+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
     ],
     "direction": "neutral",
     "primary": false
@@ -1090,5 +1053,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 78
+ "count": 75
 }
