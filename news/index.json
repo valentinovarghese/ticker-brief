@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-16T21:11:23+00:00",
- "changed": "2026-08-16T21:11:23+00:00",
+ "checked": "2026-08-16T21:34:16+00:00",
+ "changed": "2026-08-16T21:34:16+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -42,6 +42,19 @@
      "contract"
     ],
     "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "87b86f8dd66851bb",
+    "title": "AAPL Stock Quote Price and Forecast",
+    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE00U3JoRzhkckt5aVFxb1NVNnBndWhrcDM5N0NqUzZGUk8xQk04OF9jVWRULXh2RmlJaGpTS1FJWEREaUlNUnhfSHk2cm53NllX?oc=5",
+    "source": "CNN",
+    "published": "2026-08-15T20:44+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
     "primary": false
    },
    {
@@ -89,7 +102,7 @@
     "id": "e03f7d7024b4fa88",
     "title": "Amazon Stock Rebounds From Slump: AI Ambitions and $2.5B FTC Deal Ignite $3 Trillion Hopes",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQU1ZoNi1QRmswZjFEXzBXcGxCOU9aTTh2UllSSHFoYzVHc3d3cDZIZXVKMDNJdnh3TFh1Ul9wYXZIb1dsWkNNbUUzWkdGaHQxdUtrZk1sNWxoYzhPWWt1dE04ZWtyM0FlUkc2dmJDOGNoLWVObmdGZ1FkSEgxVzJFd2NpVEJWZXhGNG1uWWhObzBoRnFIYUowSHpvYUhkR3NlSDh4X01aSlNXTFY2?oc=5",
-    "source": "ts2.tech",
+    "source": "TechStock²",
     "published": "2026-08-16T02:59+00:00",
     "score": 13,
     "tags": [
@@ -100,14 +113,14 @@
     "primary": false
    },
    {
-    "id": "e83d4b25e5493f59",
-    "title": "Thrive Capital Took A $215 Million Amazon Stake",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPN2NTcE1qUTRrb094akd2SGZLNF9fLVNVakdfT3ZIVEpzRWZRR0tsY3R4RW5SVHAwUDNkZnphRUZJRG9UWmZTZWVoSFdYRHcwUk9lcHlId3JJYjBfX0d4cFE5bzFUTnNaWFZkamhuOXZkUlZJek9SSlhiQ3ZaRHA2RQ?oc=5",
-    "source": "Finimize",
-    "published": "2026-08-14T22:00+00:00",
+    "id": "02e08f32e64f81d7",
+    "title": "Thrive Capital Buys $215M Amazon Shares",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSFR5S19nYkpnWnUweFF0ZlEzczN1ZGhfMFBSblFXZFhBRE5QbEkwUlAzVDhPdjBkdGNkTW5sWWNRTXdfbnRrVEJwVER1MXhYa204WFdxOWxWYi0zODN2RUZ6NU5QTXg1MHpfM0ZJdTRvRXZwMDFWNUZfUXk4a24tY1NFbDF0MFNibWZmYnZR?oc=5",
+    "source": "Briefs Finance",
+    "published": "2026-08-14T22:25+00:00",
     "score": 8,
     "tags": [
-     "capital"
+     "ma"
     ],
     "direction": "neutral",
     "primary": false
@@ -149,19 +162,6 @@
     "score": 8,
     "tags": [
      "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "d580f94088257115",
-    "title": "TSLA Stock Quote Price and Forecast",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9qejEtbzhHOHJnMXJRWUVEbUxyUFF0RnJuNEtEN0U4Mk4wTlIycHNTejNyYTJYQlRDMFRCMllMcGJtNV81S0RNME9IZFBSZkRJ?oc=5",
-    "source": "CNN",
-    "published": "2026-08-15T16:23+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -302,19 +302,6 @@
     "primary": false
    },
    {
-    "id": "38c1c61fec874af0",
-    "title": "MASSIVE BUY ALERTS?! APPLE STOCK! TESLA STOCK! AMAZON STOCK! MICROSOFT STOCK! GOOGLE! NVIDIA! META! Thurrock Council (BKwnIs0TKz)",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VbzloTjNWSmdHbDFqV1hydkIzeEFnLWZxXzNIMmNJc0xKVGVQVHc4eWl6cXJRbnVzTVZOMmNBWkNpMF9QX25NU2l0OVRkSnYyZ1JkcmVULWpaNzg?oc=5",
-    "source": "Mshale",
-    "published": "2026-08-15T20:34+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "d72afe3c87f54d1f",
     "title": "Microsoft: Buy For The Value, Enjoy A Dividend Snack (NASDAQ:MSFT)",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeUtzSm9NSEg1TUV3R0Zqa09VTkcwMnRrdjBwQXdmYjMzZDJGREJzeDhsOXhVZXNIWlYyOVg0RFEydjVBYVdkdmU1eHNNeF9aYlZySEkwcDNfcjJxbHFGdTBtWXRsYlkwdXZJeksyMWhtYXpIVHhSUjBLeE16WDBKZTZ1ZENGODg4eDBENEpPNE5HWE03X1E?oc=5",
@@ -383,6 +370,19 @@
     "primary": false
    },
    {
+    "id": "518d21ee69a9626d",
+    "title": "Warren Buffett's Berkshire Hathaway nearly doubles its Alphabet stake with $17 billion Q2 buying spree",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAwLWdpcjZtNlhkcExGdXZJNTVxaXdsVEU4ZmV5VWFGd3ZTMXAwWkhIRmtFVFJOVENXQkJWd3ZhaDFWN1JHUE12TmwySnpYYTh4cWtkRmZ6a0FicFRUcUwxdmV5WUJRbUl1dDZ6MzJCU3ZqeUZKNmRF?oc=5",
+    "source": "Crypto Briefing",
+    "published": "2026-08-15T16:59+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "c66c82fcc33c548f",
     "title": "Sundar Pichai's Alphabet Reported Negative Free Cash Flow for the First Time Ever. Here's Why That Milestone Matters for Shareholders.",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdXRHZkprc3JvckswNFc5TW9Ib2x0UUUzX2V5cDAwTDdjOF80alAxS09hRDhlNWpib1otNWIzQmU4Z2c5d1ljd3drU29kVWhSUXBMVHFlVDRHckxxRFJGWHJLMVhER1BxZWxnaXBoQWFqeklPTXNtTWp0MW9HU3l2RWJfYWdWVlVWc2NUcGlfNEhVOVFzVG1HTlpwaFM4eG5zbHZZcFFkangtZw?oc=5",
@@ -409,24 +409,11 @@
     "primary": false
    },
    {
-    "id": "1af65191a191eb19",
-    "title": "Warren Buffett’s Berkshire Hathaway boosts stake in Google parent Alphabet by whopping 83%",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcTJjNVZwQUpUd2RoSGo4SUduendJa2dITE10STFhRGFvcU5jVWgybF94YUVRRXF4RFZYeEFOTWRSWkJXemlTeU00eGhEV0doUlIwRDdCVldPM01Mc1hkVU5idVh0d0ZnY3g5UjNWalBMR0E4bFJ2RGo1QUxUVXp5M3N2VkRDMmZ4Rk1GYjk1UkxNdmRkVGxLd09CV0tqZTZ2UVIwOGlVM2FacnB5Q1Z2VHRaVQ?oc=5",
-    "source": "New York Post",
-    "published": "2026-08-14T22:17+00:00",
-    "score": 5,
-    "tags": [
-     "capital"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "77520706f8eda2b9",
     "title": "Berkshire Adds to Alphabet Stake, Buys Home Builders and Exits Constellation",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOTM0S3RnSVR5MnNmSk5NVWpoVVphSlA4ZkFRNFNwY1dJVFZULWkwSGJmeDZrcG5qNm1VM3I1SlNjQTVQamp5Sy1QNW13TkhtdXVTRVVtVk10YWdHNWZKaXZDRlM1NGNUMG9YemhfTG43REtfVFhIUXRGV28weVJIU2FhaG1kTUtHaWJkWGFzek9qTzc0ZkZqT2JEbjhXSWk2U2EzdV9KMGdISUh2NEVRR3hZQ0FqelNPVkE?oc=5",
     "source": "WSJ",
-    "published": "2026-08-14T21:54+00:00",
+    "published": "2026-08-14T22:44+00:00",
     "score": 10,
     "tags": [
      "capital",
@@ -436,16 +423,16 @@
     "primary": false
    },
    {
-    "id": "18c37fce679edd90",
-    "title": "Berkshire Pads Delta, Alphabet Stakes as Abel Taps Cash Pile",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYVpGbU5tanN1MHUyQUdkWF9meWlWTi1WdWFaeHd5cFRNUldOanRobUFMQkFWVkNKcC1HN0s3OU5MZjA5dlo3Y2ZpSTM4a09EWTFWTV9EenpaYmRjSmdrOU1sYU1JXzNBam9VRzZuMXptbUwxNk9MWVRuclI3cC1MTVRyS3l5QXRCMDVaRU16V2FnLVI5eGhYc3poaC15UWkwVXhmLTJYanpXZWhYLUJTZWZ3?oc=5",
-    "source": "Bloomberg.com",
-    "published": "2026-08-14T21:26+00:00",
+    "id": "b93450b40e39f300",
+    "title": "Berkshire Hathaway Boosted Alphabet, Delta Stakes, Sold Bank of America",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTF8wY0xtY3BjWXdXc05sci1mOTdkYUk1MnFCeTdrVzlVdTU4TVd3VGhlZGJrTURYdS1IMzhhakN0Wm1VMTJOakgwSERPUHVqd05YaXVFU25GdjExY2VPcThMeGpxd3NKQllNSE1GRktwX0hxdFJHcFVTaUJPX3ptbA?oc=5",
+    "source": "Barron's",
+    "published": "2026-08-14T21:46+00:00",
     "score": 5,
     "tags": [
      "capital"
     ],
-    "direction": "neutral",
+    "direction": "negative",
     "primary": false
    }
   ],
@@ -480,6 +467,32 @@
   ],
   "NVDA": [
    {
+    "id": "7dd3977768d3ba30",
+    "title": "This Nvidia-Backed Cloud Company’s Stock Is Soaring on Stronger-Than-Expected Earnings",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbHcwUU9sRzVFWnJMcnd6eHdKamxQR0Rmc1ZkeTM2NGgtcTNhNVhiOUsxWXlMRVgyTXkzNE5UYmd4UHFEd2VFLVR6U09FemFkcUFKXzhseUZNX3pPalRQUGdWNW5OcjVEVDVqNzdaQUdpVUl0Rk13b1Y1ejJsOE53U1EtYw?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-16T20:30+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "6342303e9b431e6c",
+    "title": "NVIDIA Employee Count Statistics 2026: Headcount, R&D, and Revenue",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5IbnowM09TQkRvai1KRWg4UnE2VVBzOXlnZXNYRHNRVG51VC11Snk5U0d6QWFORzZ5Z21OUDZpZENMRzhZVTNfaW8wRFB2X2JRSlBRTnI5VFkzUkJkY2JucnY2eXllbnhGUWc?oc=5",
+    "source": "SQ Magazine",
+    "published": "2026-08-16T16:20+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "54482bac105cef83",
     "title": "Nvidia Earnings August 2026: AI Chip Leader Investment Outlook & Analysis",
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1OZjEzc19iT0dnTG4tSlpwTy1mc1VpcmJWeUE2RjFONEVYWDJoaFRJRjhuN0Q1RG5JNzM5TmFUSGlWemE4Y0oyY3E4ajRjVjgxOWYySWNlQmlEZnpmakNiX0JtYU9aZjZlRE9aenM5bEhyaHFXWmVhQXB2TQ?oc=5",
@@ -506,19 +519,6 @@
     "primary": false
    },
    {
-    "id": "fe62b31c4f23985c",
-    "title": "NVIDIA STOCK EARNINGS MASSIVE MOVE? (NVDA STOCK) | TECHNICAL ANALYSIS Greys Anatomy (XqMYJOm5Hb)",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5WOXZndkZYdzR6QmdQVndwT241NTQ4eEFMUmRMWktQTVF5c3J6Ynd2YnFXelVULV9UU1JNLVo2djh6a3ZvRUpBZmZuc0ROUlhGOWtKQkMyUlE2TlE?oc=5",
-    "source": "Mshale",
-    "published": "2026-08-16T05:22+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "8483be9226ef1ede",
     "title": "Clough Capital Partners boosts Nvidia stake with 4,975 shares",
     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPU1JmeW5MTFp3cVpIaXFMS1FZaTY4OFQ1cDhyS0k4VjlPS05ObGdBN3YzNXpXcW84VmNLczZUMW5qbTFCMUlBVWZ4RHBlUGF0dHBlZUNiVEQwNXVQZmcxV0gtOG9vVW1LcHVudm5Qb0R1NEFvN1p6dk1IMGZjTzZ6TjF4ejREbTNON0F6Uy1OM1ZkX190MHhJYWRtemxMQXdjWDQ1WGpxSEFxVzd5UWpNbmI5WmdWekVhRlVRRHBjTWc1ZFZsdk5wSFNpd042OUN0MmYtV3NYXzZaWXF1RFlCVE53?oc=5",
@@ -527,6 +527,19 @@
     "score": 5,
     "tags": [
      "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "2e6b6ff094672ddc",
+    "title": "Intel Price Forecast: Nvidia Picked Xeon 6, Invested $5B, Yet Analysts Still Trail INTC",
+    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPUTJ0M002eEJBWW5ocUl6ai1nTkJ1WjFMMktJRWtzekFRcktQd1d1MTFOd1RwbVFQWk9hU25UUC16RzBnbXBXdWZwcE5pS2ROeVN1YXhFZlNjVVctMWg4SWI1Y2FJazZTOTg2OVd0OWpmMGFKczk0ejdZX090Mkg2TU1Tc2Z4b2EwaUJ5MkxITm1NLWxic2JFdDVJRGZjdTBwbVNETDFURk1jMHBQN0ZQV3BhYVcyT2JDYWR2S1hLMERJNWc1bmVwODBxcUN1YUdxMlNQemdJbktvdzQxV0pmZXVIX1Zfam5N?oc=5",
+    "source": "TradingKey",
+    "published": "2026-08-16T01:55+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -583,32 +596,6 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "3bc0ea0b48a8e26c",
-    "title": "Nvidia, ASML Lead Five Stocks Near Buy Points With Roaring Growth",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQN2tSZzVYT0d5cEJ3TEZGcW1VSm43NGxOSnBtVTlhOVliaDhKSzRoRzBuckY1RGN0YmowUHpFUUoxOGp4ZTNFYUpZcXNiOEctVGNHMm82UzQtMmhYdXlmVG15azhySmtGQVpHelpBVktlaUJ5NjBmQUY5WDRFT2MyOU1xLWg4SnNiWDA2Wi0tQUV6RmNnd3o4?oc=5",
-    "source": "Investor's Business Daily",
-    "published": "2026-08-15T12:00+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "f067e9ebf401208c",
-    "title": "NVIDIA Tokenized Stock (Robinhood) Analytics: Price Dynamics, Quarterly Returns, and Annual Price Changes in USD",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1QX3NrYkdCT095NlFORTFLVjhONFE0SVZ5S2t6ZGxRSDVDLVRjWG90M2t1UjB1S2tnNFBiQ2I5TTdEWjhGUlVMWTFPczd4cGpTenI3UFBuVThBUFVheDkzalVRcktNeWlDU0hwV3o2cGMtY1NBQS1HYTFn?oc=5",
-    "source": "CryptoRank",
-    "published": "2026-08-15T04:05+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "INTC": [
@@ -616,7 +603,7 @@
     "id": "f39c9994a18f3c57",
     "title": "Intel Prices $20 Billion Stock Offering at $95 per Share",
     "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBEVDM2VEhiNzc2UkJzM2JoM194QmQ1djUxNl9wRW5SenBvT2JMczBYNndGUjg2N0RGQWRoUmRBaTRhSGRU?oc=5",
-    "source": "بوابة التكنولوجيا المالية",
+    "source": "fintechgate.net",
     "published": "2026-08-16T16:44+00:00",
     "score": 8,
     "tags": [
@@ -629,7 +616,7 @@
     "id": "1d4f99ef25338ce4",
     "title": "Intel (NASDAQ:INTC) stock in focus today as upsized stock offering funds AI push",
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeTJmNi1BakJLRkVtelJnbHpsekpYZTVtdjRNc180ZnFlWWZNQVdqTnR5X182WExyUTJadlRHY0JTaTVJa3c3RGdackZNMlQxOEpwcm1WWmRnalhEZXBHVnVyeXBsdlBPSWN2V2p3S2hFUkVFU0M2cXl2M1l6eG92M1R1Rm83bnREbVNGZFZ6Q2FRTlVVdlhzaERhaHVWcFlqMTZZUDRSajFkcjdkZGxYRVRsbUZzYk96ZHdjZ2puRjI?oc=5",
-    "source": "kalkinemedia.com",
+    "source": "Kalkine Media",
     "published": "2026-08-16T06:23+00:00",
     "score": 5,
     "tags": [
@@ -695,8 +682,8 @@
    {
     "id": "ae984f547c3174e8",
     "title": "Intel’s stock buybacks: History & investor impact explained",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQUhkUnp0UDhkalFZMmllZ1hsVnl0TEZlZFY4WXdzb2dLTFFGWnZGaUNNU0Zhc3RwMzB2bl82NHlZclYyOTJaV0piZGtCVHZzMGp6YXVINk9QV0tJMXV3UHBrcnZtSWZFeXpZcUdfYVBTZm5hdjVMOF91cFEtZ2NGX29na1RGa3JKQURfVVdJWQ?oc=5",
-    "source": "sg.finance.yahoo.com",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQa2k0eUdxb2V6R0ROenY5X18tU3RZSTFVQnYzNkFQY2dNZ2hKYUNpWGRMNTNqZW9Ydjl3WkZtUkZXWFEtNXJlS0tOajY0UDFGZWVSNFAycjZyb0stWHBYNE05QmZSLUhyaWdKS2lWU2FCUE5Gd0FGb1JuY28zV0VsRURyT1BPc1FNeEdGcENwTEVLdXZEa3VlSTgxUkxwRFVXZU5VNg?oc=5",
+    "source": "Yahoo Finance",
     "published": "2026-08-14T22:50+00:00",
     "score": 5,
     "tags": [
@@ -961,5 +948,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 68
+ "count": 67
 }
