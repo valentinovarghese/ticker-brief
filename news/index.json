@@ -1,9 +1,22 @@
 {
- "checked": "2026-08-16T11:05:20+00:00",
- "changed": "2026-08-16T11:05:20+00:00",
+ "checked": "2026-08-16T11:31:31+00:00",
+ "changed": "2026-08-16T11:31:31+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
+   {
+    "id": "19a4b932903a6575",
+    "title": "Apple Stock Forecast: Apple Posted $111.2B Revenue, So Why Did AAPL Fall After WWDC?",
+    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOMXV4XzlFSkVPUTRmVEdHSWd2UW0zQlVWMTc1a3JPRHU0eFZqMkxjcTBZS3NtekYwcUxYb0hjTG5PWDZRVjNnWVUzY2pqSVlEMEtCUTBBMmtBU18wUGQ3UnMtTkFsMDBPYy1ueUxmZFhMdWRyenJiV21XUS1XS09zaWI3cktiXzl1N3RPbFJNdElfeTZPQ0s5WUhIUmtUX3VJYVNBV1ZiRXhoc2YwbjRrdXRyeS1wMUFDU1FPM1FiaHF3SGw2MWt0NE9YM21zM0pJWV9rTjJ3aUtNMENwMTBqZnJnQ243eUk0R3c?oc=5",
+    "source": "TradingKey",
+    "published": "2026-08-15T23:31+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
    {
     "id": "31295de0946fdb1d",
     "title": "Intel Stock Outlook: Can the Apple Foundry Deal Justify INTC’s 250% Rally?",
@@ -16,19 +29,6 @@
      "contract"
     ],
     "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "38c1c61fec874af0",
-    "title": "MASSIVE BUY ALERTS?! APPLE STOCK! TESLA STOCK! AMAZON STOCK! MICROSOFT STOCK! GOOGLE! NVIDIA! META! Thurrock Council (BKwnIs0TKz)",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VbzloTjNWSmdHbDFqV1hydkIzeEFnLWZxXzNIMmNJc0xKVGVQVHc4eWl6cXJRbnVzTVZOMmNBWkNpMF9QX25NU2l0OVRkSnYyZ1JkcmVULWpaNzg?oc=5",
-    "source": "Mshale",
-    "published": "2026-08-15T20:34+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
     "primary": false
    },
    {
@@ -47,9 +47,9 @@
    {
     "id": "44007843c83be7f9",
     "title": "Apple's Latest Earnings Report Surprised Wall Street, But Not the Way You'd Think",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9oSDRBdW1Gd3JoVUFOcFlZU2xpV2lhM3g4UDVxN083U3RHUnlEVXVLcUtoU1RuRkRiTzdFdDZNRUZOTElTVmtEQUF5Ry1YNmFISlUyTGVQWmlZcTZJSW9Fekg5SUg?oc=5",
-    "source": "FinanceBuzz",
-    "published": "2026-08-15T09:35+00:00",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQ2FjR08yd0VvV0VDdFNVMDJXOW1VQnZ4WHNKV1FhMEtlc0RoQjdtckh3aW5BaTZwTzZRLVdSSmplMndLZjV2bUZFdzRpbFN6cnlKVk8zVnVlbXFaUFRtWGp1dXZUWWNtWmJ5SUhWdzRTVFJqcEpHeHpMRFZnZ0hrWVY0NndDYmVfVlZj?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-15T11:11+00:00",
     "score": 6,
     "tags": [
      "earnings"
@@ -157,7 +157,7 @@
     "id": "09b642447eb61437",
     "title": "Tesla Ends Sweden's Longest Strike Without Agreement",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPT2REbERsN3EzTGptSHFoT0EyZUpZUUF3STNfUlM5MkxwdEMySE1JeUwzeWM0WDlrdU1BYk9KQVJqWHZEN1kwbnJVWjBEMFd3THBNUkhOQ2QyUFZHdUtubU9BT014czR0OVRfYWxEN09FZXUzT0tVcG9KNkZNSHVsOE0xS1dHcnlaLVNuNHVB?oc=5",
-    "source": "Intellectia AI",
+    "source": "intellectia.ai",
     "published": "2026-08-15T22:25+00:00",
     "score": 10,
     "tags": [
@@ -380,6 +380,19 @@
     "primary": false
    },
    {
+    "id": "38c1c61fec874af0",
+    "title": "MASSIVE BUY ALERTS?! APPLE STOCK! TESLA STOCK! AMAZON STOCK! MICROSOFT STOCK! GOOGLE! NVIDIA! META! Thurrock Council (BKwnIs0TKz)",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VbzloTjNWSmdHbDFqV1hydkIzeEFnLWZxXzNIMmNJc0xKVGVQVHc4eWl6cXJRbnVzTVZOMmNBWkNpMF9QX25NU2l0OVRkSnYyZ1JkcmVULWpaNzg?oc=5",
+    "source": "Mshale",
+    "published": "2026-08-15T20:34+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "4153e746b1982520",
     "title": "Intel Stock Forecast: Why Microsoft's 18A Order Could Be a Turning Point for INTC: Could Apple Be Next?",
     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWXZIX2pvNjVlUk9ScDdHRmxORHhQVkZhcEJNWVgyMG5QeWZkUjFGcjFIWTZrckhqV1VCTjRuZ083NDJhRDhjUDdhNkVqN3ZxS2xoeDNMMFhQaWx4eEF3R3dTM3pZellINGdDRG5KbEUxQmRBdTlFd19EeU9HMno5b1djLW5FMFN4NkZjdVkzRFl1dFY3LWVKMUVGYm1VR0VMb2JCTW9fVUcwa1lZZm9abHZHdjk3ZVBSOFltN0M4V2ZiX0F6ek5uY3pLMlBsc2g2Y2dPMFRSbWUtZlNf?oc=5",
@@ -504,7 +517,7 @@
     "id": "1af65191a191eb19",
     "title": "Warren Buffett’s Berkshire Hathaway boosts stake in Google parent Alphabet by whopping 83%",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcTJjNVZwQUpUd2RoSGo4SUduendJa2dITE10STFhRGFvcU5jVWgybF94YUVRRXF4RFZYeEFOTWRSWkJXemlTeU00eGhEV0doUlIwRDdCVldPM01Mc1hkVU5idVh0d0ZnY3g5UjNWalBMR0E4bFJ2RGo1QUxUVXp5M3N2VkRDMmZ4Rk1GYjk1UkxNdmRkVGxLd09CV0tqZTZ2UVIwOGlVM2FacnB5Q1Z2VHRaVQ?oc=5",
-    "source": "nypost.com",
+    "source": "New York Post",
     "published": "2026-08-14T22:17+00:00",
     "score": 5,
     "tags": [
@@ -582,16 +595,17 @@
     "primary": false
    },
    {
-    "id": "d19a62c26db92cc2",
-    "title": "Ark Invest Buys $39.4M in Robinhood as HOOD Drops 13.2%",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObk1QV2lJTmUwbTFDaEdidHNiYzM5Zk9WOVVGNFNZMkxoLVdhTkUxTW0xY0JIU0JhT01qQTc0QW80VllrT0psdDhrcVg1TUgtaGdQRkdBLVNxRTM1OVc4U1BiVEc4RG5UenpiTmd6anI0blpWbGRSNUVPVzF5RVZpeWV1Wm5oU1RxdXc?oc=5",
+    "id": "f8f49b68f050b732",
+    "title": "ARK Invest Buys $13M in Robinhood After Trump Accounts Deal",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd1B6cnViSm04TzFGbUVRRXZuSkxGeENVdXVsSmFDVmU1bndoemVaMVNGcktOTHlJTVRyNXRBTDdqRWFDSURUeDA0U096SWlVcXh3a0s2dHdvTmpXRnRHZ2o3dHNXLU9UNE1Kc3hDQmpBYTJmX2xwOU9oZThZdXRDWUEtbEhyOHY2SXUyOGZxQm40SldsYWxYMTlYanQwUHphbkdYSDNCTWoxQQ?oc=5",
     "source": "CoinMarketCap",
-    "published": "2026-08-15T01:59+00:00",
-    "score": 8,
+    "published": "2026-08-15T00:25+00:00",
+    "score": 13,
     "tags": [
-     "ma"
+     "ma",
+     "contract"
     ],
-    "direction": "negative",
+    "direction": "neutral",
     "primary": false
    },
    {
@@ -646,19 +660,6 @@
      "capital"
     ],
     "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "059867820b1ae7f3",
-    "title": "Dow Jones Futures: Market Ready To Run? Sandisk Soars, Nvidia In Buy Area; Walmart, Target Due",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMTZsSXI3TWI0OGpoa0V0TFRNRFh0M3g2dGJlQTM5a1E3V0Z5QTNWeGRUMVBzQmZOYVA5eXp6Y2RTUHNyMFVGQm5iX2phNktBd1lUcU5tTEdoYlFXM25WVk8yXzRRZWFxbmltTVhSWEFhTXV3TTQzNXQ0SzNDelEwVzk3cml2M2tQWXJocVhGVE9oRWZEaWNGRUw4SldXdlU5MlR6R1J2ZDJLaVNWWlBOUGE2SDFYSHJ4NVd3VElzYkJiQy1TQkE?oc=5",
-    "source": "Investor's Business Daily",
-    "published": "2026-08-16T02:50+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "positive",
     "primary": false
    },
    {
@@ -752,6 +753,19 @@
     ],
     "direction": "negative",
     "primary": false
+   },
+   {
+    "id": "1c120fa2aa545920",
+    "title": "Nvidia discloses $21 billion stake in SpaceX at end of second quarter",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOczZFNXoxeDBQS1Y4T3ZvdW96QzNlUlBGOWZ3WEtqbDZXaTc5MTZESDJyRTNha1F3WWhwdHNfYXd5RDhqR2psbjFYRWZsR2tJNmVBc1J6THl2cWt0TFduRHRySG5YR250N1hQUkdKLUNHd1hZM2wxbkNRWlJWZ25UVHpFa0Q5bmUteGJ4bjh6c1IyY1lHZlBwMUMzLW5YS09sQ21oN1F3aGTSAa4BQVVfeXFMT2ZZMHJZWGxvZ1FCZTQ4SVFmUVJqck5xTGdLNzNOYjRSYjRIU1V1OHNvM2lqQnpKQWYzWGVIbGpsNTFpWE1mTHcyNmZfWDBHUnVhMm11NzBjbGF3Wk1WZ0FnVjhmVjBOZXk3a09aZ1R4eFJqUHhwUmY2VXg5ckdzOGR4YTF6X1BLY1hSd2hsbWd1NnJfZ093cXY0MkpMeFEzbUFFRXByVlRzNnp",
+    "source": "CNBC",
+    "published": "2026-08-14T21:45+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
    }
   ],
   "INTC": [
@@ -766,6 +780,19 @@
      "capital"
     ],
     "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "c3b62cd6944130ef",
+    "title": "Pau Cubarsi | FIFA Best Young Player Award, Presented By Aramco Intel Stock (UkUKGhOhKQ)",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9iQXd0U1NxNUtvT0hTTTBsMjMzb0lJTnpwQVRrS2RrNjhBZzRCSDh3aTdtejdxbjVXVVltd3NaUkE4NTFtMHNFalF2T1piWEh1aFlOSl9FRXBLNlE?oc=5",
+    "source": "Mshale",
+    "published": "2026-08-15T21:34+00:00",
+    "score": 5,
+    "tags": [
+     "contract"
+    ],
+    "direction": "positive",
     "primary": false
    },
    {
@@ -797,16 +824,30 @@
     "primary": false
    },
    {
-    "id": "15e466031a6c9202",
-    "title": "Nvidia Has $21 Billion SpaceX Stake, $30 Billion in Intel Shares",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUGFQNGVsS0M0dU5jYzU1TjJLMGhRY3ZyOG51X0FNdTcxNnIxbkVjNWJmR3dJMUNMelZRS0l0M1JZSkJFTzdWZDNPb0N3X1FadkN0WGZaT3hSTzJITUtvRWZKQUszRHUzWHc3T0RIRi1LRTZBUDcyVjZoQ1pGVzRKN0NldUp5TDVHWUZaNUhyRk9BZ3NIalIxM1JCTUZSdHZRVkhYX0RQSnVqelZGTVNUTTFn?oc=5",
-    "source": "Bloomberg.com",
-    "published": "2026-08-14T21:17+00:00",
+    "id": "5e6d601982dfbb81",
+    "title": "Nvidia turns $5B Intel stock bet into $30B windfall — filing reveals new $21B SpaceX stake and complete exit from Arm stock",
+    "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQSGFqNXdqempLcmlwSU1WNVY3MUxUa09HMmV5d1hLaEhzSG9MLWxVNURVOWxzTXJadVNpWVA1RnZUcnd0ZFZBU2V1TWNqVUZYaEhMbWk5TEdLNjZCMUxzUVRHc09DZkxHeFJENGIzOUR0UnNyT2FEcHN0eS1lbjRnTzU4dzJ0M1VHV1ZhSktCdk1vTmIxZ0F6VkhjUDc3ZG1mVVA1T042RDhfampndGdpNy0zX1NON3RrVXB3b0cwZ0hocTdJbjdpbzcxZ3YyTHFDZVlJRnhHU1pBMHFnV3ZKZUQyM0xnemFMbVYxRUw4OGZaeVRXYmYzOFRjVWhMVFk?oc=5",
+    "source": "Tom's Hardware",
+    "published": "2026-08-15T14:16+00:00",
     "score": 8,
     "tags": [
      "capital"
     ],
     "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "07f010e24c809edc",
+    "title": "[13F] NVIDIA Discloses Q2 Holdings! Intel Position Cut by About Half; New Concentrated Investment of Over $20 Billion in SpaceX",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUFgyUGVqdEp2LV9uWEtqcHZGUjRGaFhxY2VuNTNUOGptcG1OQm5PRUk3X2JPNDJpLThQenZGQzAyYUNBY1hBSERFaHRpQlhLUWg2TS10VGpZdndlWlJYTWlGNndmUTZQYmhFbW1aeGEtM09RaGtoMGRyUTM2ZERRNFpUUDlBOEQ0cUFpSW1UN2ZDTXh6VWo2OEJNb1RWMXN4RlNUbEZqUGIxSTFJWFhnUjV3?oc=5",
+    "source": "Moomoo",
+    "published": "2026-08-15T03:08+00:00",
+    "score": 14,
+    "tags": [
+     "filing",
+     "operations"
+    ],
+    "direction": "negative",
     "primary": false
    },
    {
@@ -954,35 +995,9 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "f0cf0dd4dffbec33",
-    "title": "Dan Ives Says Hyperscaler Earnings, Neoclouds Like CRWV, NBIS Show AI Has Entered Monetization Phase: 'That Was The Validation Sign Investors Needed'",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOX3lnRFBUZ0VKWnQzLVJQandaNm9BWHF3dTlDNlZuM2Q5QzRQd25IYjIxMFBLc2hnSzhNQ25TbURXZFpNZ19NbFBqN0hneFRwSC0xcEVTR0dWLWczMFJQWHhMY1lhVEZBQlgzaGVoS25tZzJfVEVuTmZEMk54bmFCYnFFSFduUlVzSThWRDhKRmIxeHR5NWY2QWZabDFFVHM?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-14T11:26+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
    }
   ],
   "MRVL": [
-   {
-    "id": "42d60226658dedf6",
-    "title": "Marvell (MRVL) at $297 — Four Straight Guidance Raises and a $1B AI Capacity Bet",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZWhIZlhqNHVZSWItcTFFbVVWeUFBam9BY2x3Q2tSQUUxandJZEtEOGVEVVhQTWk5R0trVWJpWUE0c2lWX2o0S1l5elN4UE9FS05VU2Jmdnk4ZzQ4azNBbmdfSEVkcDgyUnZ6ZlNWTHpSdGhuOXRJTTM0X2dlZzNSMVFpRmZHMmJHNEZxbGVSdlJpazBBVHVDbUpudmtPVVFoV0xRY1g1a3hxU3FXUFJXQ0wwRzBFb2NSZTZNbg?oc=5",
-    "source": "TradingKey",
-    "published": "2026-08-15T22:20+00:00",
-    "score": 9,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
    {
     "id": "18a0924aa278dd78",
     "title": "Marvell's High-Stakes Balancing Act: A $2 Billion Nvidia Endorsement Meets a Wall of Valuation Skept",
@@ -1000,7 +1015,7 @@
     "id": "0c9ceb9c3c3b2b67",
     "title": "Marvell (MRVL) Stock Ahead of Q2 Results: What Investors Need to Know",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNN2xZcjFMWEFCQ3EySTljalV5aVl1NW4yQmhZU2U3OV9GX2M3cXRVb0prM2M4UHQ1YjJ4dVhMTE1WSHdvVzRNODZ4WmdobjRqOVJBLUptVHI4ZGkycjhkTnc2ZE5menhEMzJ6RnNPUHY4R2FXd2dUTlhRc09vWnJlSUpGMXFVRDhKOHpKOGxhWS0wSUZV?oc=5",
-    "source": "blockonomi.com",
+    "source": "Blockonomi",
     "published": "2026-08-15T08:49+00:00",
     "score": 6,
     "tags": [
@@ -1103,5 +1118,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 79
+ "count": 80
 }
