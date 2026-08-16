@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-16T07:45:12+00:00",
- "changed": "2026-08-16T07:45:12+00:00",
+ "checked": "2026-08-16T08:03:05+00:00",
+ "changed": "2026-08-16T08:03:05+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -139,6 +139,19 @@
    }
   ],
   "TSLA": [
+   {
+    "id": "7c9e18acde9933f1",
+    "title": "Stock Market Today, Aug. 14: Tesla Gains on TD Cowen Buy Reiteration and $460 Target",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBZUG5fWmFjQWplV0cxa2huZUJVQ25LazlGcE8xWTNMTFBBbkplRmNoSlVwYy02TU1LaEF0OHU0SXdDR2FmX2tydzJRQmpkYXl1OTRPUEZQdUl4dElfLTdhVFlicEhBSFdBaHFvSmJVMzZESmR5UGw0dA?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-16T07:10+00:00",
+    "score": 8,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "09b642447eb61437",
     "title": "Tesla Ends Sweden's Longest Strike Without Agreement",
@@ -416,6 +429,19 @@
     "tags": [
      "capital",
      "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "b58593303979b659",
+    "title": "Microsoft stock holds near $497 as Q4 2026 AI cloud boom and China exit shape outlook",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPR0lFc0d6cnVlSDFVZ2dBWG9waUdJOE1YblBTcG1pbGZyZ1NTbnVyVmx1cU5mMTZwN3BuSXlzZlJEc3VxZDlzYl80eDh5Q2JndG5ieVJnSm54TndMbHREMmlKeW9IQlJyRkhyS1ZRX3ctMFRVZ1ZyOWhpcEZKaWVKNTZBREg2VWJ4RTRVRExab2hVNXVlZ3JOYm1RRExNaVhYZmNMeW9hbWlSbUE2SjNoVmNDNmZWQnVUN1NiM0EzZ0I2VDV0S2d3Z240bjFGUQ?oc=5",
+    "source": "ad-hoc-news.de",
+    "published": "2026-08-14T13:34+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -1052,5 +1078,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 75
+ "count": 77
 }
