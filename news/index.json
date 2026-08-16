@@ -1,25 +1,12 @@
 {
- "checked": "2026-08-16T03:39:11+00:00",
- "changed": "2026-08-16T03:39:11+00:00",
+ "checked": "2026-08-16T04:20:09+00:00",
+ "changed": "2026-08-16T04:20:09+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
    {
-    "id": "38c1c61fec874af0",
-    "title": "MASSIVE BUY ALERTS?! APPLE STOCK! TESLA STOCK! AMAZON STOCK! MICROSOFT STOCK! GOOGLE! NVIDIA! META! Thurrock Council (BKwnIs0TKz)",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VbzloTjNWSmdHbDFqV1hydkIzeEFnLWZxXzNIMmNJc0xKVGVQVHc4eWl6cXJRbnVzTVZOMmNBWkNpMF9QX25NU2l0OVRkSnYyZ1JkcmVULWpaNzg?oc=5",
-    "source": "Mshale",
-    "published": "2026-08-15T20:34+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "902c2a046501c383",
-    "title": "Apple gets U.S. warning not to buy memory chips from China: WSJ",
+    "id": "f10ed34d8db76bf9",
+    "title": "Apple gets U.S. warning not to buy Chinese memory chips (AAPL)",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWVdxeENVYVhiLUJxdUd4WlI3Vm9ubHROQTlSSER2M3NiU1M3MGZxT1hvN1pLQUlmRHVyM240TDhvdVZLSkFGZnM4WnJ4S3VSaXRaNWJici1qU1lJNW9Qck81T20zZHN6bjVoY3MyS2NhS3ZReXNxUUg0dlFPOEh4MWpudUNtUFZOT0p4MTgxODAwVVJLNEtOVXIwdm5GVzA?oc=5",
     "source": "Seeking Alpha",
     "published": "2026-08-15T16:26+00:00",
@@ -97,6 +84,20 @@
    }
   ],
   "AMZN": [
+   {
+    "id": "e03f7d7024b4fa88",
+    "title": "Amazon Stock Rebounds From Slump: AI Ambitions and $2.5B FTC Deal Ignite $3 Trillion Hopes",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQU1ZoNi1QRmswZjFEXzBXcGxCOU9aTTh2UllSSHFoYzVHc3d3cDZIZXVKMDNJdnh3TFh1Ul9wYXZIb1dsWkNNbUUzWkdGaHQxdUtrZk1sNWxoYzhPWWt1dE04ZWtyM0FlUkc2dmJDOGNoLWVObmdGZ1FkSEgxVzJFd2NpVEJWZXhGNG1uWWhObzBoRnFIYUowSHpvYUhkR3NlSDh4X01aSlNXTFY2?oc=5",
+    "source": "TechStock²",
+    "published": "2026-08-16T02:59+00:00",
+    "score": 13,
+    "tags": [
+     "legal",
+     "contract"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
    {
     "id": "cdf4de94f7979958",
     "title": "Amazon Is the Only $3 Trillion Company That Has Never Paid a Dividend",
@@ -431,19 +432,6 @@
     "primary": false
    },
    {
-    "id": "38c1c61fec874af0",
-    "title": "MASSIVE BUY ALERTS?! APPLE STOCK! TESLA STOCK! AMAZON STOCK! MICROSOFT STOCK! GOOGLE! NVIDIA! META! Thurrock Council (BKwnIs0TKz)",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VbzloTjNWSmdHbDFqV1hydkIzeEFnLWZxXzNIMmNJc0xKVGVQVHc4eWl6cXJRbnVzTVZOMmNBWkNpMF9QX25NU2l0OVRkSnYyZ1JkcmVULWpaNzg?oc=5",
-    "source": "Mshale",
-    "published": "2026-08-15T20:34+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "d72afe3c87f54d1f",
     "title": "Microsoft: Buy For The Value, Enjoy A Dividend Snack (NASDAQ:MSFT)",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeUtzSm9NSEg1TUV3R0Zqa09VTkcwMnRrdjBwQXdmYjMzZDJGREJzeDhsOXhVZXNIWlYyOVg0RFEydjVBYVdkdmU1eHNNeF9aYlZySEkwcDNfcjJxbHFGdTBtWXRsYlkwdXZJeksyMWhtYXpIVHhSUjBLeE16WDBKZTZ1ZENGODg4eDBENEpPNE5HWE03X1E?oc=5",
@@ -495,19 +483,6 @@
     ],
     "direction": "positive",
     "primary": false
-   },
-   {
-    "id": "5cf79de0c8f2f20f",
-    "title": "Weitz Investment Management trims Microsoft stake by 16,250 shares",
-    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQU3JMRE5wTFJKZjFWWElxcDdRb29TRk1XMDEzLVY4bkotMThFUi1HVWVPUTBIekpfY2xyTXhETXQ5SFR3RFVDbmNiWVNod1pMZDRpUDVCeFNyTDJ6ZnhfNGNWWkZXckVxTUQ3dHlILUg0bVB2b3p2NVI0Q0ozUHlvVmlJb3gxT1cyWmpHaXJ5OC1FNmlFOGNldmk5V3NSS1VYZTBZamxGRjhmczJPanFpMzhaYVQxcl92Z0oycUxJWV9kRFc4SXVUeWdGMHNNU1B3MHBVYU5lYnRjdU1vbklxMDg1M0NHR2cx?oc=5",
-    "source": "The Globe and Mail",
-    "published": "2026-08-14T03:45+00:00",
-    "score": 5,
-    "tags": [
-     "capital"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "GOOGL": [
@@ -525,17 +500,16 @@
     "primary": false
    },
    {
-    "id": "3174e62c243aa79a",
-    "title": "Alphabet Stock Forecast: GOOGL Faces AI Spending, Debt and Regulatory Pressure",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTllyblVxejNmYjI2akJaa1R6LV9BM0o2cDBfTWVocW9WOVhRXzZvYlRZUDNFN1dncmhxT1dLbjV5dmhqVW5KcXJ4cGxPZHp0QzVkcXI1eUoxZkNuUGI3SXp6MkxiaVpVRkNyRXVGTUFQYUNSN0J4RjNfNFFQT0NWSmVieHF2eGdsV2wybTdCMHBFU3ZDZC1KQnNhX3ExblBibWwzMFp1dXl4cXBSUXk0ZWlSRk5HMXdrSkZtUDB5a0xhWk9qYzdMMGxTcVdRVlU?oc=5",
-    "source": "TradingKey",
-    "published": "2026-08-15T12:22+00:00",
-    "score": 11,
+    "id": "597b67cf8263db94",
+    "title": "Alphabet (GOOGL) Faces Fresh AI Doubts After Steve Eisman Cuts Exposure",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNc25iZVlra21QQkVvQUY4RWZBWmZMN2FYT0tFRXhGY1pYVWFoaGVNSkVqeUs5MUZOb21zZGtHeHhXcHlpdU96SE1tNHZldTdrNExQNGRnUEl4ZjlmZ1lYamlSZ3RHSXJ3ZWQ1aFRxdlIxS0ZlMEUtbHdSWHdweElIakxUdl9kcGtVak9zOVB6YnFqVzVrT0wyTkhUV2tvX1RBZGtqTmFzSWlxZnVRTVhpNFJHR1U1NmNaUGNJWGtuY2w2NTTSAcgBQVVfeXFMUGoycXZJb0NiSFg5YUZ2U0szN05yWW52N0FZdU9hUl9aYi1WaFJTN3hGOWQ3YXJHVnhSTDFSdUt6aVZHVEF2SnBzMmdIMDhDQTY5NFRKMnB4SzM3WmFhY2tJVDd3emIwcXI0LW1YVXFyTE5FX0FJcndFVFlleDZaNUNlZV95MXZac3g5X0tpQ0s",
+    "source": "simplywall.st",
+    "published": "2026-08-15T17:29+00:00",
+    "score": 5,
     "tags": [
-     "earnings",
-     "capital"
+     "operations"
     ],
-    "direction": "neutral",
+    "direction": "negative",
     "primary": false
    },
    {
@@ -659,17 +633,16 @@
     "primary": false
    },
    {
-    "id": "f8f49b68f050b732",
-    "title": "ARK Invest Buys $13M in Robinhood After Trump Accounts Deal",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd1B6cnViSm04TzFGbUVRRXZuSkxGeENVdXVsSmFDVmU1bndoemVaMVNGcktOTHlJTVRyNXRBTDdqRWFDSURUeDA0U096SWlVcXh3a0s2dHdvTmpXRnRHZ2o3dHNXLU9UNE1Kc3hDQmpBYTJmX2xwOU9oZThZdXRDWUEtbEhyOHY2SXUyOGZxQm40SldsYWxYMTlYanQwUHphbkdYSDNCTWoxQQ?oc=5",
+    "id": "d19a62c26db92cc2",
+    "title": "Ark Invest Buys $39.4M in Robinhood as HOOD Drops 13.2%",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObk1QV2lJTmUwbTFDaEdidHNiYzM5Zk9WOVVGNFNZMkxoLVdhTkUxTW0xY0JIU0JhT01qQTc0QW80VllrT0psdDhrcVg1TUgtaGdQRkdBLVNxRTM1OVc4U1BiVEc4RG5UenpiTmd6anI0blpWbGRSNUVPVzF5RVZpeWV1Wm5oU1RxdXc?oc=5",
     "source": "CoinMarketCap",
-    "published": "2026-08-15T00:25+00:00",
-    "score": 13,
+    "published": "2026-08-15T01:59+00:00",
+    "score": 8,
     "tags": [
-     "ma",
-     "contract"
+     "ma"
     ],
-    "direction": "neutral",
+    "direction": "negative",
     "primary": false
    },
    {
@@ -727,6 +700,19 @@
     "primary": false
    },
    {
+    "id": "059867820b1ae7f3",
+    "title": "Dow Jones Futures: Market Ready To Run? Sandisk Soars, Nvidia In Buy Area; Walmart, Target Due",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMTZsSXI3TWI0OGpoa0V0TFRNRFh0M3g2dGJlQTM5a1E3V0Z5QTNWeGRUMVBzQmZOYVA5eXp6Y2RTUHNyMFVGQm5iX2phNktBd1lUcU5tTEdoYlFXM25WVk8yXzRRZWFxbmltTVhSWEFhTXV3TTQzNXQ0SzNDelEwVzk3cml2M2tQWXJocVhGVE9oRWZEaWNGRUw4SldXdlU5MlR6R1J2ZDJLaVNWWlBOUGE2SDFYSHJ4NVd3VElzYkJiQy1TQkE?oc=5",
+    "source": "Investor's Business Daily",
+    "published": "2026-08-16T02:50+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
     "id": "52566c1aca0b995b",
     "title": "Stockton: Nvidia Is A Winner In The AI Trade; It's On Everyone's Radar. Won Currency (AOwnJ9dNOK)",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE85TWg2RWJvWDFoTzAtTUZkOWhSY25BVG9MbkdsVkphMS1IN18xdFJsaHZ2aE9zR1NDSDFWY0N5ZW1GYTN1Tzc2ak4zRXczSWRxUDk1ZzJmYkNQV0U?oc=5",
@@ -735,19 +721,6 @@
     "score": 5,
     "tags": [
      "contract"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "059867820b1ae7f3",
-    "title": "Dow Jones Futures: Market Ready To Run? Sandisk Soars, Nvidia In Buy Area; Walmart, Target Due",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMTZsSXI3TWI0OGpoa0V0TFRNRFh0M3g2dGJlQTM5a1E3V0Z5QTNWeGRUMVBzQmZOYVA5eXp6Y2RTUHNyMFVGQm5iX2phNktBd1lUcU5tTEdoYlFXM25WVk8yXzRRZWFxbmltTVhSWEFhTXV3TTQzNXQ0SzNDelEwVzk3cml2M2tQWXJocVhGVE9oRWZEaWNGRUw4SldXdlU5MlR6R1J2ZDJLaVNWWlBOUGE2SDFYSHJ4NVd3VElzYkJiQy1TQkE?oc=5",
-    "source": "Investor's Business Daily",
-    "published": "2026-08-15T21:26+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
     ],
     "direction": "positive",
     "primary": false
@@ -792,19 +765,6 @@
     "primary": false
    },
    {
-    "id": "9b8fb44952b57454",
-    "title": "NVIDIA Stock’s 12% August Gain Faces a 1% Earnings-Guidance Gap",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVHZ0d3p5aVd1a1BTNXRkR3lVYTlLVDcwOEdGaWN2X3BqampLQ2tiUEY4aEZFZ0hXX1ZDNnR2aHVNNmE3ZEwybmNEQklwbmJFd3N0VUUzZVpzNUxRc2VndHlRMVNWSkNDSnJYMjdScC02RDA2a192WDhEMkhFYzlTSXhaSHhudUxl?oc=5",
-    "source": "ts2.tech",
-    "published": "2026-08-15T06:10+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "f067e9ebf401208c",
     "title": "NVIDIA Tokenized Stock (Robinhood) Analytics: Price Dynamics, Quarterly Returns, and Annual Price Changes in USD",
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1QX3NrYkdCT095NlFORTFLVjhONFE0SVZ5S2t6ZGxRSDVDLVRjWG90M2t1UjB1S2tnNFBiQ2I5TTdEWjhGUlVMWTFPczd4cGpTenI3UFBuVThBUFVheDkzalVRcktNeWlDU0hwV3o2cGMtY1NBQS1HYTFn?oc=5",
@@ -841,6 +801,20 @@
      "earnings"
     ],
     "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "a970d4404475b533",
+    "title": "Nvidia scales back $250 billion OpenAI data center guarantee, WSJ reports",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTDczTGtXVlBJQ3hQdHdzRkdweXgyWEloWUlpYVFaWVBKVl9aMUJsOWRaUjRGQXVUYkJ5LWlTU01fNjVmNV9lX1NuNlMxY0g3NFBsMzFBejdNOHJvbzN1WExlRFlwSHp5M1pRZTVPZi12U3cxaVpmNzVHUm5EZ3MtNXNxNWRCTUhPZGJrcDhpSVM0Mmxxa3N0NWN3?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-14T23:43+00:00",
+    "score": 14,
+    "tags": [
+     "earnings",
+     "operations"
+    ],
+    "direction": "neutral",
     "primary": false
    }
   ],
@@ -912,19 +886,6 @@
     "primary": false
    },
    {
-    "id": "c0078c6258bff794",
-    "title": "Intel Shares Decline After $22.6 Billion Equity Offering Increases Share Count by 4.8%",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWUZtR3B4SVZNU1dXLW1lZnVqWVpiVTBiVWhkbUxsNGlCcnk3MFlCOTFyTGFicXExMGIzUlRkLWNldVIyRE9fV0swZmgya0o1bHFEUVlkaUVpNTdYbnM3TXJCOU1JZGdMak9zN1Q3MFFnZGxPOFJNUXZWOERiZW1TTTF0MjRQWGh5clIxRXdtSVJ2NWs?oc=5",
-    "source": "TechStock²",
-    "published": "2026-08-14T19:10+00:00",
-    "score": 8,
-    "tags": [
-     "capital"
-    ],
-    "direction": "negative",
-    "primary": false
-   },
-   {
     "id": "2dacbd142567ada0",
     "title": "Tiger Global adds Cerebras, exits Webull, boosts Intel stake, among top Q2 trades (CBRS:NASDAQ)",
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONUtJQmd1S1VvYTZsY2JHTUROaDR3cGo2SHB5X3llSkhNUV9RZEZxMjQzdXdhY2tBOTZCdFhOcWRwRFZvQWhQVDd6YXMyTU9aejhrenVwbTdNV0dTdG56a2NsYWlpSzdpcWdOM3lhNEh3UUNhUUEyaFQ1SG81ZEZXWVFadDdidFpNdjZjY1VjSFJ5dC10aU9UMThvdVJ3U2lOZS1uOTk3cE14d2d6aDJ1QzdHMC1Wb2ZP?oc=5",
@@ -935,6 +896,20 @@
      "capital"
     ],
     "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "bb0638fc42488fd1",
+    "title": "Intel stock extends rally as AI-driven Q2 2026 surge meets $20 billion equity offering",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcHZ0aG9fTlBZSTJMTmxYa0Vqblc5ZWdYa2JUSVp0ZjVzSGRnSVJBMVJZbnF3cDlOTGtDNXh5YjNpdlM5X2g2M3VkOWFEUWhSbndMWUhIWk85UTAwbzRBMlJCSXhVRWtQZ3lpbVMtY185dV9ZUW1tcFB6WlJjNVVISDBWX0lDdmVILUx2cUl2eGxuNjZRUFRaRUNXcWpHQzZ0U19wY2ZoYVk2S3pRaFJkM0MwNW4zaGVCS3lPZEgwM2puY0xlOHV0c3lKSzE?oc=5",
+    "source": "ad-hoc-news.de",
+    "published": "2026-08-14T05:31+00:00",
+    "score": 14,
+    "tags": [
+     "earnings",
+     "capital"
+    ],
+    "direction": "positive",
     "primary": false
    }
   ],
@@ -1062,7 +1037,7 @@
     "id": "5895ecee982b9294",
     "title": "Top U.S. Stock Performers This Week | NEBIUS surged nearly 36% for the week, driven by earnings that exceeded expectations and a $40 billion order backlog; SanDisk rose over 26%, bolstered by positive commentary at its Investor Day; Super Micro Compu",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUVFKbFM3S3BweVJhcW9URGhvVERIOWc0aHBYV3ZiNlVsN0Z1aTN1ZFdtR1AxZzk4N2lUTTdES3Q1Q1Q5b3E0M2psbTdTRENUVERaX1gwekF4ZVNibmROcHlteGo5U3dodHZEdkpjYlg4MnZkaDZ0cDVfZkJrWGZPSFl6QUZlUjVtVU0zbk9GQnZYMkRzT0lTNElJTGtUeDg?oc=5",
-    "source": "news.futunn.com",
+    "source": "富途牛牛",
     "published": "2026-08-14T10:04+00:00",
     "score": 14,
     "tags": [
@@ -1194,5 +1169,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 86
+ "count": 84
 }
