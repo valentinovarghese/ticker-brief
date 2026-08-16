@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-16T17:29:30+00:00",
- "changed": "2026-08-16T17:29:30+00:00",
+ "checked": "2026-08-16T17:48:45+00:00",
+ "changed": "2026-08-16T17:48:45+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -42,6 +42,19 @@
      "contract"
     ],
     "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "38c1c61fec874af0",
+    "title": "MASSIVE BUY ALERTS?! APPLE STOCK! TESLA STOCK! AMAZON STOCK! MICROSOFT STOCK! GOOGLE! NVIDIA! META! Thurrock Council (BKwnIs0TKz)",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VbzloTjNWSmdHbDFqV1hydkIzeEFnLWZxXzNIMmNJc0xKVGVQVHc4eWl6cXJRbnVzTVZOMmNBWkNpMF9QX25NU2l0OVRkSnYyZ1JkcmVULWpaNzg?oc=5",
+    "source": "Mshale",
+    "published": "2026-08-15T20:34+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
     "primary": false
    },
    {
@@ -297,22 +310,23 @@
     ],
     "direction": "positive",
     "primary": false
-   },
-   {
-    "id": "20594d688dda421f",
-    "title": "Palantir Stock Critical Support Level Signals Major Move Ahead! Uk Charity Shop Shutdowns (E7doDVLHF3)",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE12cmRuazE0UzJMZlZwVVFKcHJUS29YaDZJNjNvV0hmX0ZTX1FBcTJWLVhERTZ4ZXhxaUVBYmYxRGpxZzkzLVA5TV8xOHoxR1MtU0F1dzZFOHNuVkRrQnJjMg?oc=5",
-    "source": "Mshale",
-    "published": "2026-08-14T17:38+00:00",
-    "score": 5,
-    "tags": [
-     "operations"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "MSFT": [
+   {
+    "id": "151ceab28aad6a7e",
+    "title": "Satya Nadella's Microsoft Stock Jumped 18% in a Week After Azure's Annual Revenue Topped $100 Billion for the First Time. Is It Still a Buy?",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYk9XNWRIX2lMVTlHRjBIV0lpUnVJQ2llYnRaaEpGNmhyemJRU3F1MFpnbmdaWDZpdzBjaU80emlTWU1zTkpVU3cyUE83clFwRVp2dUx1NncyX2ZZTzE4ZEQtYkxwSDViU3ZoSGRMckFDWnF2MTh6TGtFTkw1OUVYenB6Q3NpUmZfTTl3T3loNGttN3pSTTJlWV93Y1FrVGtNemhVaA?oc=5",
+    "source": "finance.yahoo.com",
+    "published": "2026-08-16T17:37+00:00",
+    "score": 14,
+    "tags": [
+     "earnings",
+     "ma"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
    {
     "id": "0ca08964afd1108e",
     "title": "Microsoft Stock Leads 3 AI Stocks Backed By Real Revenue And Heavy Demand",
@@ -534,7 +548,7 @@
     "id": "e81ed5fae4820395",
     "title": "Nvidia Eyes $3 Billion Stake in SB Energy as OpenAI Pushes Massive Ohio Data Center: Report",
     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOTlNPMTdRSnhsNUV5MFZHeEV5RlZrcWNERzhhS0tBeUJhQkxsWUVaX3Z6Rm1sMldFZ0NNcEpxbUtXb0VLaU9tTDk3NWx2U0N4YlhjTXhScmFUd0pCMTlwZG9UMF8zQTFnNUpEWjNQM3Y5N2d4RXBwcnJqcDdfM2RHNlNrV2paRjkzSWUtOFNFRmgwV3VtanZtbHFCRDVtMWdFSFJsZGw2Mm1meFFYdHRFMFloa0VBRmswTHZ5YUtGM25hY1hHMDFTX0Nqb1BjWHhzdXZEdVctUGVoRG9BanlLZUZ3?oc=5",
-    "source": "tradingview.com",
+    "source": "TradingView",
     "published": "2026-08-16T03:47+00:00",
     "score": 14,
     "tags": [
@@ -999,5 +1013,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 71
+ "count": 72
 }
