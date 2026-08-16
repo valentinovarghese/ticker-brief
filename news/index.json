@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-16T21:34:16+00:00",
- "changed": "2026-08-16T21:34:16+00:00",
+ "checked": "2026-08-16T21:52:20+00:00",
+ "changed": "2026-08-16T21:52:20+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -48,7 +48,7 @@
     "id": "87b86f8dd66851bb",
     "title": "AAPL Stock Quote Price and Forecast",
     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE00U3JoRzhkckt5aVFxb1NVNnBndWhrcDM5N0NqUzZGUk8xQk04OF9jVWRULXh2RmlJaGpTS1FJWEREaUlNUnhfSHk2cm53NllX?oc=5",
-    "source": "CNN",
+    "source": "cnn.com",
     "published": "2026-08-15T20:44+00:00",
     "score": 6,
     "tags": [
@@ -102,7 +102,7 @@
     "id": "e03f7d7024b4fa88",
     "title": "Amazon Stock Rebounds From Slump: AI Ambitions and $2.5B FTC Deal Ignite $3 Trillion Hopes",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQU1ZoNi1QRmswZjFEXzBXcGxCOU9aTTh2UllSSHFoYzVHc3d3cDZIZXVKMDNJdnh3TFh1Ul9wYXZIb1dsWkNNbUUzWkdGaHQxdUtrZk1sNWxoYzhPWWt1dE04ZWtyM0FlUkc2dmJDOGNoLWVObmdGZ1FkSEgxVzJFd2NpVEJWZXhGNG1uWWhObzBoRnFIYUowSHpvYUhkR3NlSDh4X01aSlNXTFY2?oc=5",
-    "source": "TechStock²",
+    "source": "ts2.tech",
     "published": "2026-08-16T02:59+00:00",
     "score": 13,
     "tags": [
@@ -113,14 +113,14 @@
     "primary": false
    },
    {
-    "id": "02e08f32e64f81d7",
-    "title": "Thrive Capital Buys $215M Amazon Shares",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSFR5S19nYkpnWnUweFF0ZlEzczN1ZGhfMFBSblFXZFhBRE5QbEkwUlAzVDhPdjBkdGNkTW5sWWNRTXdfbnRrVEJwVER1MXhYa204WFdxOWxWYi0zODN2RUZ6NU5QTXg1MHpfM0ZJdTRvRXZwMDFWNUZfUXk4a24tY1NFbDF0MFNibWZmYnZR?oc=5",
-    "source": "Briefs Finance",
-    "published": "2026-08-14T22:25+00:00",
+    "id": "e83d4b25e5493f59",
+    "title": "Thrive Capital Took A $215 Million Amazon Stake",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPN2NTcE1qUTRrb094akd2SGZLNF9fLVNVakdfT3ZIVEpzRWZRR0tsY3R4RW5SVHAwUDNkZnphRUZJRG9UWmZTZWVoSFdYRHcwUk9lcHlId3JJYjBfX0d4cFE5bzFUTnNaWFZkamhuOXZkUlZJek9SSlhiQ3ZaRHA2RQ?oc=5",
+    "source": "Finimize",
+    "published": "2026-08-14T22:00+00:00",
     "score": 8,
     "tags": [
-     "ma"
+     "capital"
     ],
     "direction": "neutral",
     "primary": false
@@ -162,6 +162,19 @@
     "score": 8,
     "tags": [
      "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "d580f94088257115",
+    "title": "TSLA Stock Quote Price and Forecast",
+    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9qejEtbzhHOHJnMXJRWUVEbUxyUFF0RnJuNEtEN0U4Mk4wTlIycHNTejNyYTJYQlRDMFRCMllMcGJtNV81S0RNME9IZFBSZkRJ?oc=5",
+    "source": "cnn.com",
+    "published": "2026-08-15T16:23+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -302,6 +315,19 @@
     "primary": false
    },
    {
+    "id": "38c1c61fec874af0",
+    "title": "MASSIVE BUY ALERTS?! APPLE STOCK! TESLA STOCK! AMAZON STOCK! MICROSOFT STOCK! GOOGLE! NVIDIA! META! Thurrock Council (BKwnIs0TKz)",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VbzloTjNWSmdHbDFqV1hydkIzeEFnLWZxXzNIMmNJc0xKVGVQVHc4eWl6cXJRbnVzTVZOMmNBWkNpMF9QX25NU2l0OVRkSnYyZ1JkcmVULWpaNzg?oc=5",
+    "source": "Mshale",
+    "published": "2026-08-15T20:34+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "d72afe3c87f54d1f",
     "title": "Microsoft: Buy For The Value, Enjoy A Dividend Snack (NASDAQ:MSFT)",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeUtzSm9NSEg1TUV3R0Zqa09VTkcwMnRrdjBwQXdmYjMzZDJGREJzeDhsOXhVZXNIWlYyOVg0RFEydjVBYVdkdmU1eHNNeF9aYlZySEkwcDNfcjJxbHFGdTBtWXRsYlkwdXZJeksyMWhtYXpIVHhSUjBLeE16WDBKZTZ1ZENGODg4eDBENEpPNE5HWE03X1E?oc=5",
@@ -317,6 +343,19 @@
    }
   ],
   "GOOGL": [
+   {
+    "id": "7404411f0be04824",
+    "title": "1 Jaw-Dropping Metric That Makes Alphabet Stock a No-Brainer Buy.",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWS1qX1JnaUZuVDJybHZ4S0wyR19fOTBHR21zbVBqMWhwZGxOQ214Q3E1WVZQWUFRQXNTcVBkOUNwbHVBdEpiNjFzZmZCVFd3d0RGN0JDMGpjNHBPekxCMnZENFZGc2pmdnl0MlQtZDNka0NkSlhnUTVqV2lreHVCdmdXNEYtNjU0bWVQSzVOR0NuVkpoRUpz?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-16T21:26+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
    {
     "id": "18602b647040b455",
     "title": "Projected Robotaxi Growth By Company; I Rate Waymo A Buy (GOOG) (GOOGL)",
@@ -370,12 +409,12 @@
     "primary": false
    },
    {
-    "id": "518d21ee69a9626d",
-    "title": "Warren Buffett's Berkshire Hathaway nearly doubles its Alphabet stake with $17 billion Q2 buying spree",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAwLWdpcjZtNlhkcExGdXZJNTVxaXdsVEU4ZmV5VWFGd3ZTMXAwWkhIRmtFVFJOVENXQkJWd3ZhaDFWN1JHUE12TmwySnpYYTh4cWtkRmZ6a0FicFRUcUwxdmV5WUJRbUl1dDZ6MzJCU3ZqeUZKNmRF?oc=5",
-    "source": "Crypto Briefing",
-    "published": "2026-08-15T16:59+00:00",
-    "score": 8,
+    "id": "18c37fce679edd90",
+    "title": "Berkshire pads Delta, Alphabet stakes as Abel taps cash pile",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSFJScURJbTAxMS00dHlDZmlJSUtZRUpEdmhVbGVkaWZrSUdWU1hCWGktcXZCUElPMGktMDRoV1hNekpRQUxEYmNqNFRkbjNBTVNLSDk1QUNVLTdST2Q3T2hQVVRyZVJrclByNWVsb2VRT09XeVl5eHRLUmZkbndISnFZNVpHb21TUWZJT2N0ZGNyYXBvRE5Ublh4UGx3dWROdmZXcUs3NC1McW8?oc=5",
+    "source": "Fortune",
+    "published": "2026-08-15T15:09+00:00",
+    "score": 5,
     "tags": [
      "capital"
     ],
@@ -409,30 +448,30 @@
     "primary": false
    },
    {
+    "id": "1af65191a191eb19",
+    "title": "Warren Buffett’s Berkshire Hathaway boosts stake in Google parent Alphabet by whopping 83%",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcTJjNVZwQUpUd2RoSGo4SUduendJa2dITE10STFhRGFvcU5jVWgybF94YUVRRXF4RFZYeEFOTWRSWkJXemlTeU00eGhEV0doUlIwRDdCVldPM01Mc1hkVU5idVh0d0ZnY3g5UjNWalBMR0E4bFJ2RGo1QUxUVXp5M3N2VkRDMmZ4Rk1GYjk1UkxNdmRkVGxLd09CV0tqZTZ2UVIwOGlVM2FacnB5Q1Z2VHRaVQ?oc=5",
+    "source": "New York Post",
+    "published": "2026-08-14T22:17+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "77520706f8eda2b9",
     "title": "Berkshire Adds to Alphabet Stake, Buys Home Builders and Exits Constellation",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOTM0S3RnSVR5MnNmSk5NVWpoVVphSlA4ZkFRNFNwY1dJVFZULWkwSGJmeDZrcG5qNm1VM3I1SlNjQTVQamp5Sy1QNW13TkhtdXVTRVVtVk10YWdHNWZKaXZDRlM1NGNUMG9YemhfTG43REtfVFhIUXRGV28weVJIU2FhaG1kTUtHaWJkWGFzek9qTzc0ZkZqT2JEbjhXSWk2U2EzdV9KMGdISUh2NEVRR3hZQ0FqelNPVkE?oc=5",
     "source": "WSJ",
-    "published": "2026-08-14T22:44+00:00",
+    "published": "2026-08-14T21:54+00:00",
     "score": 10,
     "tags": [
      "capital",
      "ma"
     ],
     "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "b93450b40e39f300",
-    "title": "Berkshire Hathaway Boosted Alphabet, Delta Stakes, Sold Bank of America",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTF8wY0xtY3BjWXdXc05sci1mOTdkYUk1MnFCeTdrVzlVdTU4TVd3VGhlZGJrTURYdS1IMzhhakN0Wm1VMTJOakgwSERPUHVqd05YaXVFU25GdjExY2VPcThMeGpxd3NKQllNSE1GRktwX0hxdFJHcFVTaUJPX3ptbA?oc=5",
-    "source": "Barron's",
-    "published": "2026-08-14T21:46+00:00",
-    "score": 5,
-    "tags": [
-     "capital"
-    ],
-    "direction": "negative",
     "primary": false
    }
   ],
@@ -467,19 +506,6 @@
   ],
   "NVDA": [
    {
-    "id": "7dd3977768d3ba30",
-    "title": "This Nvidia-Backed Cloud Company’s Stock Is Soaring on Stronger-Than-Expected Earnings",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbHcwUU9sRzVFWnJMcnd6eHdKamxQR0Rmc1ZkeTM2NGgtcTNhNVhiOUsxWXlMRVgyTXkzNE5UYmd4UHFEd2VFLVR6U09FemFkcUFKXzhseUZNX3pPalRQUGdWNW5OcjVEVDVqNzdaQUdpVUl0Rk13b1Y1ejJsOE53U1EtYw?oc=5",
-    "source": "AOL.com",
-    "published": "2026-08-16T20:30+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
     "id": "6342303e9b431e6c",
     "title": "NVIDIA Employee Count Statistics 2026: Headcount, R&D, and Revenue",
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5IbnowM09TQkRvai1KRWg4UnE2VVBzOXlnZXNYRHNRVG51VC11Snk5U0d6QWFORzZ5Z21OUDZpZENMRzhZVTNfaW8wRFB2X2JRSlBRTnI5VFkzUkJkY2JucnY2eXllbnhGUWc?oc=5",
@@ -511,6 +537,19 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9KRE84R2VZd2tSLS1xYzRXX3FSaE1kTW1aR2YwcnVQWUNqdHpCT0tJYmZ4Q2dJS3VudHFTQU5aeDN6bHl0d1RmNl9IUGg2Nm9aTzdUaHJucS1nRHVRTkFOVW5EUFhFcUpnQ1BETmdCYXdUdEhnNmc?oc=5",
     "source": "finance.biggo.com",
     "published": "2026-08-16T09:05+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "fe62b31c4f23985c",
+    "title": "NVIDIA STOCK EARNINGS MASSIVE MOVE? (NVDA STOCK) | TECHNICAL ANALYSIS Greys Anatomy (XqMYJOm5Hb)",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5WOXZndkZYdzR6QmdQVndwT241NTQ4eEFMUmRMWktQTVF5c3J6Ynd2YnFXelVULV9UU1JNLVo2djh6a3ZvRUpBZmZuc0ROUlhGOWtKQkMyUlE2TlE?oc=5",
+    "source": "Mshale",
+    "published": "2026-08-16T05:22+00:00",
     "score": 6,
     "tags": [
      "earnings"
@@ -603,7 +642,7 @@
     "id": "f39c9994a18f3c57",
     "title": "Intel Prices $20 Billion Stock Offering at $95 per Share",
     "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBEVDM2VEhiNzc2UkJzM2JoM194QmQ1djUxNl9wRW5SenBvT2JMczBYNndGUjg2N0RGQWRoUmRBaTRhSGRU?oc=5",
-    "source": "fintechgate.net",
+    "source": "بوابة التكنولوجيا المالية",
     "published": "2026-08-16T16:44+00:00",
     "score": 8,
     "tags": [
@@ -682,8 +721,8 @@
    {
     "id": "ae984f547c3174e8",
     "title": "Intel’s stock buybacks: History & investor impact explained",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQa2k0eUdxb2V6R0ROenY5X18tU3RZSTFVQnYzNkFQY2dNZ2hKYUNpWGRMNTNqZW9Ydjl3WkZtUkZXWFEtNXJlS0tOajY0UDFGZWVSNFAycjZyb0stWHBYNE05QmZSLUhyaWdKS2lWU2FCUE5Gd0FGb1JuY28zV0VsRURyT1BPc1FNeEdGcENwTEVLdXZEa3VlSTgxUkxwRFVXZU5VNg?oc=5",
-    "source": "Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQUhkUnp0UDhkalFZMmllZ1hsVnl0TEZlZFY4WXdzb2dLTFFGWnZGaUNNU0Zhc3RwMzB2bl82NHlZclYyOTJaV0piZGtCVHZzMGp6YXVINk9QV0tJMXV3UHBrcnZtSWZFeXpZcUdfYVBTZm5hdjVMOF91cFEtZ2NGX29na1RGa3JKQURfVVdJWQ?oc=5",
+    "source": "Yahoo Finance Singapore",
     "published": "2026-08-14T22:50+00:00",
     "score": 5,
     "tags": [
@@ -948,5 +987,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 67
+ "count": 70
 }
