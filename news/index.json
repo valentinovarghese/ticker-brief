@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-17T18:51:46+00:00",
- "changed": "2026-08-17T18:51:46+00:00",
+ "checked": "2026-08-17T19:19:09+00:00",
+ "changed": "2026-08-17T19:19:09+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -141,6 +141,19 @@
   ],
   "AMZN": [
    {
+    "id": "243880fb45fcc611",
+    "title": "Amazon’s Stock Could Hit $500 by End of 2027. Why AWS Revenue Is the Key.",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5LOGU0SG9wME5XTTFVbFU5VXotS1pWRUg2dnVFZ3JZY3AwSmROVFkzRXF0TjBDUExqdEVTalZKU1hsVzZOYVZwQUpTckFpTWtzbWZwTEFiYUM0ZGdqeWZLOXJwTXVOcjhlQzhIa010ZDRtVjlNLU1CaA?oc=5",
+    "source": "Barron's",
+    "published": "2026-08-17T18:47+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "2a6829a2f07f1e7d",
     "title": "Druckenmiller dumps Micron, Intel, buys Amazon in Q2 2026",
     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQRzlBbE43SkJ6aXNlZWpuR1JNWFM4Y1E4NXZpMDJWM2ZFZ0VGaEJVNFRfTVg0RFJ4Q1hUeVY4WVpBV0ppajZMSmh5RnVuUWpNaS1WRGVWWDM3Q1AzSk1mRGU3LUQ1cDBwWGVQTE1WOXViZw?oc=5",
@@ -190,19 +203,6 @@
     "score": 8,
     "tags": [
      "contract"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "243880fb45fcc611",
-    "title": "Amazon’s Stock Could Hit $500 by End of 2027. Why AWS Revenue Is the Key.",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5LOGU0SG9wME5XTTFVbFU5VXotS1pWRUg2dnVFZ3JZY3AwSmROVFkzRXF0TjBDUExqdEVTalZKU1hsVzZOYVZwQUpTckFpTWtzbWZwTEFiYUM0ZGdqeWZLOXJwTXVOcjhlQzhIa010ZDRtVjlNLU1CaA?oc=5",
-    "source": "Barron's",
-    "published": "2026-08-17T13:58+00:00",
-    "score": 9,
-    "tags": [
-     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -357,7 +357,7 @@
     "id": "6a514630956f0472",
     "title": "SpaceX May Buy Tesla, But Its Own Stock Has Fallen 50% Since June",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBCZWhuc3pOem14NF9XdU9VdVJuRG1jamM0TFNCSDZCay12SVBESWhOVjVVLUVHd25heWZNYmlDbkczZ01RUElVZFZCRkM1VE1qSGZfZ0xPbnVibVNjZEJJN0tUODNfZzZfRW1EVF9wdXl4Sk9YVFE?oc=5",
-    "source": "Yellow.com",
+    "source": "yellow.com",
     "published": "2026-08-16T21:11+00:00",
     "score": 5,
     "tags": [
@@ -370,7 +370,7 @@
     "id": "15522ae2d4164549",
     "title": "Tesla Reports Record Revenue Amid Profit Decline",
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPU2J0Zmdib2R5SFJRWUNrRTRSUDVDT1YyM0N5OXVRUjU2Qjc2ZUpMWFdjM05Kb1ZWdzBtR0xPSy0zcHRva2dIenpuazN4dmFWNHNwaFdLOXVrN3c0UnUzUldmY3hyNDNwci1FLUd6UXMyTnloQTdDZnJnRl9YaERQS1lDN0NPdm5xc1E?oc=5",
-    "source": "intellectia.ai",
+    "source": "Intellectia AI",
     "published": "2026-08-16T00:08+00:00",
     "score": 6,
     "tags": [
@@ -517,7 +517,7 @@
    {
     "id": "1962100e4f2db169",
     "title": "MSFT Stock Price Today: Why Microsoft Stock Down? Shares Falls 3.28% as AI Spending Concerns Return – Check Financial Indicators, Revenue Performance, Market Analysis & More",
-    "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQRmJwNGhvTVBlbzZVTDFuaXQzb3pwNlk4TUtKOENsQndTNzJmS2dHQXJ1Mm92MnhCSXhSXzU5R05MMTZFUXp6bHQ0TmZ5Q3lNbEJ5Uk9jdWsxNWhjWUo0cmI5Qk9mYjc1VVdDeVFCdWxzNV9lUl9pelYxX1ZfRlhoUUw0a0JOaVNwenoxcmJkaTNGYVhkMVQyQ2JXc3pzMjhYeW40SHhyRUtyMXFsRFZSTWtRSWJSeGtWdVZNTzAwcnREc1RHeXV6UmJVSXZnR2dRbVhJUHhEeW1yS2o1aDdKS0YtV1FMdVJTZ1NiMExXLWxpQm5CbXpHdTBnMXhxWEdYVUNySTR6UkhQdUFhZ1ZGaDVidEVydTRpMGxjMDZ2TVowZDg1UU9ESkthZG9jTnRsVmpHSFdfY3pTMk3SAbsCQVVfeXFMUEZicDRob01QZW82VUwxbml",
+    "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPa3VucHFfMnd4ek5hS3FyeDFyVGphS3JuaWNobXdfNktkaHQxempkSzM5QkFibjJKWXdHZFdmU0d0Uy1kSVl5SXBLRENSSmdLMVZ3bnMyYTRtM3pmMjVESHBLS21KZ3ZJMVkxMktZMlc4WmNjeDdFX1JRTERzVEVIbmpiSW5sNW5XaXM4UGVJZTVtR1NMLVJubXd1b3pFOGlMQkc0Y2pRVnNoZlJNLXFaZjJpRHJiXzRnbmtDbWNpcTVkcGdBSzBTazh2VEJmX2FLX3ljdXpHaGRoTXFKZlNTOVJZV3o3SGNPVXBnR0M4WjRpS1NZVll0WUZlUFNfY1EzYlVwOE9kQ3RHakc0WlFCY05lTlJzZDVpYUdMcXpMeTFJUF9qS2dZYlQ1NHZNMEI0NTQ4aVhR0gG7AkFVX3lxTFBGYnA0aG9NUGVvNlVMMW5pdDNvenA",
     "source": "The Sunday Guardian",
     "published": "2026-08-17T17:42+00:00",
     "score": 6,
@@ -830,7 +830,7 @@
     "id": "3d1e5d94228f87f3",
     "title": "NVIDIA’s earnings report next week: likely another “Beat & Raise,” but the market may remain unsatisfied",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPR2IyVWxOZElxb3NMT2xMWlQxdlkzX1Y1UWEwNUF2RVJUNWVTbzBqellNZWphc05hQi1LbVoxT1lEeUFyNG1UT1cxTUhCbk9HaUlRb3hySU9mMUpYLS1qaWlsYlRuWDl0WVlWUkZwZnN4TXRZYXJfV3IzOWZLT2syc3RaYUhPZjhudXBHemplWXVJYm53emRkaUNUWFUya3loTjJ3NA?oc=5",
-    "source": "Moomoo",
+    "source": "moomoo.com",
     "published": "2026-08-17T14:11+00:00",
     "score": 6,
     "tags": [
@@ -947,6 +947,19 @@
     "primary": false
    },
    {
+    "id": "26f7d07f6d874686",
+    "title": "CEO & Director of Intel Lip-Bu Tan Buys 8.6% More Shares",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNlVxaWhkM0pqaWcydGRyOEpIbDk0WTRIZjBrQmZSNDhiZnVKdU0ySnFCUktGUHdMOVo4Qk83TkpEWXZ6eUU1eFh1c3lDcEhtNUxaTEtnUDZMZUhqVWM0YndOd1o3ejQwUldFRkVKdEtPNW1kb3BnT2stNTk4V2dkRU1RQXZCTjlvZmc?oc=5",
+    "source": "富途牛牛",
+    "published": "2026-08-17T11:29+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "89b42c0322db2ca8",
     "title": "Shutdown Shenanigans Hit New Milestones And Interview With Rep. Ashley Hinson Intel Stock (Pe3hesgn4f)",
     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1mUlpMWkVGSlRCY2dsWlJXektqTWdvX0p1SC1HVFQ2blgyQkVJS3lib1QtUkYtWWY4WDIzRnJVRTA4QUpzQ2hOSExqMVVDUFV0N0pKM0ZfeVZsYllZVFNtVQ?oc=5",
@@ -1005,19 +1018,6 @@
     "source": "TechSpot",
     "published": "2026-08-16T14:47+00:00",
     "score": 8,
-    "tags": [
-     "capital"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "5cb32174cc9d1647",
-    "title": "Stanley Druckenmiller’s Big Bet: New Broadcom, Intel and Arm Stakes in One Quarter",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRXFWTzMta3FmU3I3MTFrckJldGU4SmEzQlFSS0JiMmdKSzhwWTlCR2hrWFZkUUxIbnRWMWpvR0JJVkx1SGlzTEpDODM2RndtODVEMUhJaVRaRmkxeTR6VFNtS3ZXaTZfM045N2JCcWNSZGJRYkNIdHQyQTRnbmFnUzIteDRvZTdGSzJ5cGhBdlFLcm9tbWRTbnhVTjZJdzdRME9HWldR?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-16T14:00+00:00",
-    "score": 5,
     "tags": [
      "capital"
     ],
@@ -1097,7 +1097,7 @@
     "id": "ac53ed8262e89ffb",
     "title": "Nebius Earnings Ignite AI Cloud Trade: Can the Momentum Continue?",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOXJmNkNpV21OcFQ2VTZKRlRKZTNBcFZJOUtzN0ZJN1FtY3NZcUVhZWNfeVViRlBQZnBVZk45Nm95OS11ZUoydl91WDFvNWRVUHR6ak5Ja2VERFZGbE1POFp4YXpxM3B4Q1g1YlBleWtsOU94LW1kdlNjd1JFSlVyTXNJZnh5cUdyZGYySjN3bjhHTlNVUVA5S2gxTGhGYUkxRnNySTlzZFBWR1NRYjZpa1BMY3ZPMEJUeWc?oc=5",
-    "source": "Moomoo",
+    "source": "moomoo.com",
     "published": "2026-08-16T15:44+00:00",
     "score": 6,
     "tags": [
