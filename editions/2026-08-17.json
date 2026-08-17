@@ -1,0 +1,497 @@
+{
+ "date": "2026-08-17",
+ "weekday": "Mon",
+ "headline": "Berkshire added 48.1m Alphabet shares in the second quarter, lifting its stake 83% to about $36.6bn, disclosed after Friday's close.",
+ "gauge": [
+  {
+   "text": "QQQ -0.14% Friday close",
+   "tone": "down"
+  },
+  {
+   "text": "updated 07:00 ET &middot; before the open",
+   "tone": "flat"
+  },
+  {
+   "text": "12 tickers &middot; 13F filing day, 14 August",
+   "tone": "flat"
+  },
+  {
+   "text": "QQQ +0.56% premarket &middot; provisional",
+   "tone": "up"
+  }
+ ],
+ "quick": [
+  "<b>Berkshire nearly doubled its Alphabet position.</b> Its quarterly 13F, filed after Friday's close, shows <b>48.1m</b> shares added in the second quarter, an <b>83%</b> increase. That takes the holding to roughly <b>106m</b> Class A and C shares, worth about <b>$36.6bn</b> at Friday's close. Alphabet is now Berkshire's third largest holding. Berkshire was a net buyer of <b>$19.8bn</b> of equities, ending <b>14</b> straight quarters of net selling. <b>GOOGL</b> closed <b>-0.13%</b> on Friday, hours before the filing landed.",
+  "<b>Nvidia disclosed a $21bn SpaceX stake for the first time.</b> The same <b>14 August</b> 13F shows <b>122.8m</b> SpaceX Class A shares, and <b>214.8m</b> Intel shares worth about <b>$30bn</b> at 30 June. Nvidia paid <b>$23.28</b> a share for that Intel block, roughly <b>$5bn</b>. Share count was unchanged on the quarter: the gain is Intel's price, not fresh buying.",
+  "<b>Friday was a macro session, not a company one.</b> July retail sales fell <b>0.6%</b> on the month against <b>+0.1%</b> expected. Michigan consumer sentiment fell to <b>51.0</b> from <b>55.2</b>. Nine of the twelve fell. Ten of the twelve traded below their average volume, so conviction behind the move was thin."
+ ],
+ "macro": [
+  {
+   "dt": "<b>July retail sales landed at 08:30 ET on 14 August and were weak.</b> Sales fell <b>0.6%</b> on the month against <b>+0.1%</b> expected. Stripping out cars and petrol, they fell <b>0.2%</b> against <b>+0.3%</b> expected. At 10:00 ET the University of Michigan's preliminary August consumer sentiment index fell <b>4.2</b> points to <b>51.0</b>, from <b>55.2</b> in July",
+   "lead": "How it reaches these stocks",
+   "dd": "This print splits the list in two. For the companies that sell to households directly, weaker spending is a revenue cut you can trace: fewer phones, smaller baskets, fewer cars. <b>AAPL</b>, <b>AMZN</b> and <b>TSLA</b> sit on that side. For the AI infrastructure names the effect runs the other way and arrives through interest rates. A soft consumer makes a rate cut more likely, and a lower rate raises what investors will pay today for profits arriving years out. That is most of what <b>NBIS</b>, <b>PLTR</b> and <b>NVDA</b> are priced on. The two effects partly cancel, which is why an ugly print produced a flat index."
+  },
+  {
+   "dt": "<b>QQQ</b> closed <b>731.07</b>, <b>-0.14%</b>, and sits <b>2.35%</b> below its 52-week high of <b>748.65</b>",
+   "lead": "Does the gauge agree",
+   "dd": "It agrees, and the breadth is the tell. Six of the twelve beat the index and nine still fell. That is what a soft macro day looks like when nobody has a company reason to trade. Volume confirms it. Only <b>TSLA</b>, at <b>41%</b> above average, and <b>NBIS</b>, at <b>2%</b> above, traded more than usual. <b>PLTR</b> fell <b>2.78%</b> on volume <b>62%</b> below its average, the lightest participation of the twelve. A fall on thin volume is a fall nobody defended, not a verdict."
+  },
+  {
+   "dt": "<b>Semiconductors are bid this morning, before the open.</b> <b>MRVL</b> is <b>+2.92%</b> premarket, the largest premarket gain of the twelve, with <b>NBIS +2.28%</b> and <b>INTC +2.13%</b> behind it. QQQ futures point to <b>+0.56%</b>. Memory and storage names outside this list are leading",
+   "lead": "Read this provisionally",
+   "dd": "None of these three has published anything this morning. Premarket volume is thin and reverses often, so treat the whole move as unsettled until the open. What it looks like is a sector bid in memory and storage spreading into the wider chip complex, not three separate company stories. If it holds through the first hour it is a sector day. If it fades by 10:00 ET it was a handful of orders in an empty book."
+  },
+  {
+   "dt": "<b>The week ahead is a consumer week.</b> Walmart, Target, Home Depot and Lowe's all report. The Empire State index and the NAHB housing index come today",
+   "lead": "Why it matters here",
+   "dd": "Friday's retail sales number is a government estimate. The big-box results are the same question answered by the firms themselves, with actual baskets. If they confirm the slowdown, the consumer-facing names on this list carry it into their own quarters. If they contradict it, Friday's print gets marked down as noise and the rate-cut trade that supported the AI names loses some of its support."
+  }
+ ],
+ "entries": [
+  {
+   "ticker": "GOOGL",
+   "dir": "up",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; 13F filed after the close &middot; 14 August",
+   "move": "-0.13% &middot; Friday close, before the filing",
+   "move_tone": "down",
+   "happened": "Berkshire Hathaway's 13F, filed after Friday's close, shows it added 48.1m Alphabet shares in the second quarter. Alphabet separately hired banks on Monday for its first Australian dollar bond.",
+   "figures": [
+    "Berkshire added <b>48.1m</b> shares, an <b>83%</b> increase, taking the holding to roughly <b>106m</b> Class A and C shares",
+    "Worth about <b>$36.6bn</b> at Friday's close, now Berkshire's third largest equity position, behind Apple",
+    "About <b>60%</b> of the shares added came from a <b>$10bn</b> private placement Alphabet sold Berkshire directly, announced in early June. The rest, roughly <b>$7bn</b>, was bought in the open market",
+    "Berkshire was a net buyer of <b>$19.8bn</b> of equities in the quarter, ending <b>14</b> consecutive quarters of net selling. Portfolio <b>$299.3bn</b> across <b>29</b> positions",
+    "On <b>17 August</b> Alphabet mandated ANZ, Deutsche Bank, RBC and TD for an inaugural Australian dollar bond. Maturities of 3, 5, 10 and 20 years. No size was given in the bookrunner message",
+    "Closed <b>$345.90</b>, <b>-0.13%</b>, on volume <b>36%</b> below average. Sits <b>15.35%</b> below its 52-week high of <b>408.61</b>"
+   ],
+   "why": "Berkshire buys businesses it expects to still exist and still earn in twenty years, and it is famously reluctant to pay for technology. A position that size says Alphabet's earnings are durable rather than cyclical. That is the exact question the AI spending boom has opened up about every large advertiser. That reframes the capital budget. Money spent on data centres reads as investment if the franchise is safe, and as a defensive cost if it is not. The bond mandate makes the same point from the other side. Alphabet is funding its buildout with debt rather than cash flow. That preserves the cash but adds fixed charges it has to earn back.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "No. The filing landed after Friday's close, so Friday's <b>-0.13%</b> was not a reaction to it. Premarket is the only read and it is provisional on thin volume. The open will settle it.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "The next 13F, in November, shows Berkshire selling back down. A stake built partly through a placement the company arranged is not the same signal as one bought in the market. A quick reversal would say the placement was the whole story.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "28 October, third quarter results. The next 13F is mid-November.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "NVDA",
+   "dir": "neutral",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; 13F filed after the close &middot; 14 August",
+   "move": "-0.06% &middot; Friday close, before the filing",
+   "move_tone": "flat",
+   "happened": "Nvidia's 13F, filed on 14 August, disclosed a $21bn SpaceX holding for the first time and confirmed it still owns 214.8m Intel shares.",
+   "figures": [
+    "<b>122.8m</b> SpaceX Class A shares worth about <b>$21bn</b> at 30 June, a first-time disclosure and now the second largest position",
+    "The stake came from a <b>$10bn</b> investment in xAI in January, converted when SpaceX acquired xAI in February at a reported <b>$1.25tn</b> valuation. Reports differ on that valuation and it is not from a filing",
+    "<b>214.8m</b> Intel shares worth roughly <b>$30bn</b>, about <b>44%</b> of the disclosed portfolio. Bought at <b>$23.28</b> a share, roughly <b>$5bn</b>",
+    "Share count in Intel was unchanged on the quarter. The rise in value is Intel's share price, not new buying",
+    "Total disclosed equity portfolio about <b>$63.4bn</b>. Closed <b>$225.16</b>, <b>-0.06%</b>, the narrowest gap to a 52-week high of the twelve at <b>4.81%</b>"
+   ],
+   "why": "A 13F does not change Nvidia's chip business, but it changes what the share price is measuring. Most of the disclosed equity book sits in two companies that are themselves large Nvidia customers. So a slice of Nvidia's balance sheet now moves with its own end demand rather than against it. That removes diversification precisely where an investor would look for it. Quarterly marks on these stakes will also swing reported earnings in ways the chip business did not cause. Investors pay a lower multiple for profits they cannot forecast.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Not from Friday. The filing came after the close, and <b>-0.06%</b> is as close to unchanged as any close on the list, with Marvell at <b>-0.07%</b> beside it. Volume was <b>34%</b> below average. Any premarket reaction is provisional and small relative to what results on <b>26 August</b> will do.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "Nvidia discloses on 26 August that it is marking these stakes through the income statement at scale. That converts a disclosure into an earnings-quality problem investors have to price every quarter.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "26 August, Q2 FY27 results after the close, with written CFO commentary posted the same afternoon.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "NBIS",
+   "dir": "up",
+   "strength": "major",
+   "strength_label": "Major move &middot; no company event dated Friday &middot; results were 12 August",
+   "move": "+8.88% &middot; Friday close, settled",
+   "move_tone": "up",
+   "happened": "Nebius rose 8.88%, the largest gain of the twelve, still repricing its 12 August results rather than anything announced on Friday.",
+   "figures": [
+    "Second quarter revenue <b>$582.3m</b>, up <b>454%</b> on the year. Annualised run-rate revenue <b>$3bn</b>",
+    "Adjusted EBITDA turned positive at <b>$236m</b>, a <b>41%</b> margin, a first at this scale",
+    "Full-year 2026 guidance reaffirmed at <b>$3bn</b> to <b>$3.4bn</b> revenue, a <b>40%</b> EBITDA margin, and capital spending of <b>$20bn</b> to <b>$25bn</b>",
+    "Contracted power target raised to <b>5GW</b> by year-end. Backlog, meaning revenue already under contract, above <b>$40bn</b>: more than ten years of revenue at the current run rate",
+    "Four contracts signed in the quarter each above <b>$1bn</b> total value. Closed <b>$277.68</b>, <b>+8.88%</b>, on volume <b>2%</b> above average. Sits <b>7.40%</b> below its 52-week high"
+   ],
+   "why": "The number that sets Nebius's price is not revenue, it is contracted power. Compute revenue is capped by the megawatts you can energise, so gigawatts under contract is the ceiling on every future year of sales. Raising that target to 5GW lifts the ceiling, which is why the stock moves on a power figure rather than an earnings figure. The risk sits in the same place. Capital spending of $20bn to $25bn against $3bn of revenue means the backlog has to convert on schedule. Every quarter of delay is interest paid on plant that is not yet earning.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Friday's close is settled, and the market has now had three sessions to price a Wednesday report, so the easy part is done. Volume only <b>2%</b> above average suggests momentum rather than fresh buying. There is no company event to price, which is itself the flag: an <b>8.88%</b> move on no news is a crowded position, not a valuation.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "A customer prepayment is renegotiated or a contract slips. The backlog is the whole case. It is concentrated in four counterparties, at least one a private AI lab with no published accounts.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Third quarter results, expected around 10 November, unconfirmed.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "HOOD",
+   "dir": "down",
+   "strength": "major",
+   "strength_label": "Major move &middot; no company news &middot; sector and giveback",
+   "move": "-3.83% &middot; Friday close, settled",
+   "move_tone": "down",
+   "happened": "Robinhood fell 3.83%, the largest fall of the twelve, with no company announcement dated Friday.",
+   "figures": [
+    "Closed <b>$95.56</b>, <b>-3.83%</b>, giving back most of Thursday's <b>+4.70%</b> but still above Wednesday's <b>$94.91</b>",
+    "Volume <b>14.0m</b> against a <b>15.3m</b> average, <b>8%</b> below normal. There was no unusual participation behind the fall",
+    "Sits <b>37.89%</b> below its 52-week high of <b>153.86</b>, the widest gap to a high of the twelve",
+    "The July operating data that drove Thursday's gain was published on <b>12 August</b>. Nothing has been published since"
+   ],
+   "why": "Robinhood earns on retail trading activity, so it is the most direct read on household risk appetite of anything on this list. A retail sales miss and a four-point drop in sentiment land harder here than at a company selling to enterprises. The same squeezed household is both the customer and the trader. The move is not a judgement on Thursday's operating numbers. It is the market repricing how much discretionary money reaches a brokerage account over the next few quarters.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "The close is settled, but read it as a macro reaction, not a company one. Thursday's <b>+4.70%</b> came from the July metrics and Friday's <b>-3.83%</b> came from the consumer data. Both are real, and they are about different things.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "The big-box retailers report solid numbers this week. That would take the consumer-weakness read off the table, and the stock most exposed to it recovers most.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Early September, August operating metrics, on the monthly cadence the company has confirmed.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "AMZN",
+   "dir": "up",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; 13F disclosure &middot; 14 August",
+   "move": "-0.94% &middot; Friday close, before the filing",
+   "move_tone": "down",
+   "happened": "Thiel Macro's 13F, filed 14 August, shows Amazon as the largest position in a portfolio rebuilt from nothing after two quarters of zero disclosed holdings.",
+   "figures": [
+    "<b>$118m</b> in Amazon, <b>28%</b> of a <b>$418.7m</b> disclosed portfolio, the fund's largest single holding",
+    "The fund reported <b>zero</b> holdings for the two prior quarters. This is a rebuild, not an addition",
+    "Roughly <b>72%</b> of the rest went to power and energy: American Electric Power, CMS Energy, DTE Energy, FirstEnergy, Vista Energy and the nuclear developer X-Energy",
+    "Closed <b>$262.65</b>, <b>-0.94%</b>, on volume <b>36%</b> below average. Sits <b>8.55%</b> below its 52-week high"
+   ],
+   "why": "Take the size seriously and the signal loosely. $118m is not a flow that moves a company of Amazon's size, and nobody should buy Amazon because Peter Thiel did. What is worth reading is the shape of the portfolio around it. A manager puts almost three quarters of a book into utilities and nuclear, then makes his largest single bet a cloud provider. That is one view expressed twice. The binding constraint on AI is electricity, and whoever owns the generation or the data centres consuming it collects the scarcity rent. Amazon here is a power position wearing a retail name.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Friday's <b>-0.94%</b> came before the filing and reflected the retail sales miss, which hits Amazon's shopping business directly. The 13F is unpriced. Premarket is the first read and it is provisional.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "AWS capacity growth slows in the third quarter. The power thesis only pays if Amazon can energise data centres faster than demand grows. A capacity-constrained quarter turns scarcity from an asset into a cap on revenue.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "29 October, third quarter results, estimated.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "PLTR",
+   "dir": "down",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; no company news &middot; lightest volume of the twelve",
+   "move": "-2.78% &middot; Friday close, settled",
+   "move_tone": "down",
+   "happened": "Palantir fell 2.78% with no company announcement dated Friday, on the thinnest volume of the twelve.",
+   "figures": [
+    "Closed <b>$174.04</b>, <b>-2.78%</b>, after rising <b>4.66%</b> on Thursday",
+    "Volume <b>24.0m</b> against a <b>63.1m</b> average, <b>62%</b> below normal and the lightest participation of the twelve",
+    "Sits <b>16.13%</b> below its 52-week high of <b>207.52</b>",
+    "Second quarter results were reported on <b>3 August</b>. Nothing company-specific has been published since"
+   ],
+   "why": "Palantir carries one of the highest multiples on this list, which means most of its value sits in profits assumed to arrive many years out. Those distant profits react hardest to the rate used to discount them, so high-multiple names swing further on macro prints in both directions. The volume matters as much as the price here. A fall on 62% below-average volume is a handful of sellers meeting an empty book on a summer Friday, not a change of view.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "The close is settled, but on this volume it should be read as noise rather than repricing. Nothing about the business changed on Friday.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "The big-box retailers confirm a consumer slowdown and the rate-cut expectation strengthens. High-multiple names would recover fastest for the same reason they fell.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "2 November, third quarter results, estimated.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "INTC",
+   "dir": "down",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; the offering is old news &middot; priced 11 August",
+   "move": "-1.97% &middot; Friday close, settled",
+   "move_tone": "down",
+   "happened": "Intel fell 1.97% on no news dated Friday. Its $20bn share offering was priced on 11 August and closed on 12 August, though it ran heavily in weekend coverage.",
+   "figures": [
+    "The offering: <b>210,526,315</b> shares at <b>$95</b>, upsized from <b>$15bn</b>, with an order book of about <b>$100bn</b>. Net proceeds about <b>$19.7bn</b>. Priced <b>11 August</b>, closed <b>12 August</b>",
+    "Closed <b>$102.50</b>, <b>-1.97%</b>, below the <b>$95</b> issue price only by the margin the stock has held since. Volume <b>95.1m</b> against a <b>110.1m</b> average",
+    "Sits <b>27.99%</b> below its 52-week high of <b>142.35</b>",
+    "The only new Intel datapoint in this window sits in someone else's filing. Nvidia still held <b>214.8m</b> shares at 30 June, bought for about <b>$5bn</b>"
+   ],
+   "why": "A share sale this size resets the arithmetic behind every per-share figure. Adding 210.5m shares divides future foundry profits among more owners. The same business is worth less per share even as it becomes better funded. The drift lower since pricing is the ordinary mechanics of that. Investors who bought the placement at $95 to flip it are still selling. Anyone who wanted stock got it at a discount, not in the market. Nothing about the company changed on Friday.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Yes, and priced a week ago. Friday's fall is post-offering supply, not a reaction. Anyone reading weekend coverage of the offering as fresh news is reading a <b>11 August</b> event.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "Intel names a committed external foundry customer with a dollar value attached. The capital raise answers whether Intel can build the plants; it says nothing about who will fill them.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "22 October, third quarter results.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "AAPL",
+   "dir": "neutral",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; regulatory pressure, no dollar figure &middot; 14-15 August",
+   "move": "+0.22% &middot; Friday close, settled",
+   "move_tone": "up",
+   "happened": "The US Commerce Secretary said publicly that the administration opposes Apple buying memory chips from Chinese suppliers, reported 14 and 15 August.",
+   "figures": [
+    "Apple has been testing memory from CXMT for products sold in China, according to a Wall Street Journal report. Apple has not confirmed this",
+    "CXMT sits on the <b>1260H</b> Chinese Military Company list and on an updated Pentagon list. No formal restriction on Apple has been issued",
+    "Senators raised the same objection on <b>29 July</b>. Only the Commerce Secretary's remarks are new",
+    "Closed <b>$305.93</b>, <b>+0.22%</b>, one of only three gains among the twelve. Volume <b>40%</b> below average. Sits <b>11.21%</b> below its 52-week high"
+   ],
+   "why": "Memory is in genuine shortage because AI servers are consuming it. Shortage means Apple's component costs rise unless it can widen its supplier list. Closing off Chinese suppliers narrows that list to Samsung, SK Hynix and Micron at exactly the moment they have pricing power. The cost lands in gross margin, one of the lines Apple's valuation turns on. Investors treat that margin as proof its pricing power is intact. No dollar figure exists yet, which is why the market has largely ignored it.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "No, and reasonably so. <b>+0.22%</b> is not a reaction to anything. This is political pressure without a rule attached, and there is nothing to price until a restriction or a supply contract exists.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "Commerce issues an actual restriction, or Apple signs a long-term memory contract at a disclosed price. Either turns a warning into a number in the cost line.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "29 October, fourth quarter results, estimated, where memory costs would first show in gross margin guidance.",
+     "flag": false
+    }
+   ]
+  }
+ ],
+ "readthrough": {
+  "title": "What the 13Fs actually said, and the trap in reading them",
+  "body": "Three of Friday's filings point the same way. Berkshire bought Alphabet. Thiel Macro put <b>28%</b> of a rebuilt portfolio into Amazon and roughly <b>72%</b> into electricity and nuclear names. Nvidia's largest disclosed equity holding is a chip fabricator. None of these is a bet on a model or an app. All three are bets on the layer underneath: compute, power and the plants that make the silicon.<br><br>The trap is the date. A 13F reports holdings as of <b>30 June</b>, published six weeks later. It says what a manager owned a quarter ago, not what they own now. Nvidia's Intel stake shows the gap. It was worth about <b>$30bn</b> on 30 June, and materially less by mid-August after Intel's <b>$20bn</b> share sale on <b>11 August</b> diluted the count. Treat these as a map of a quarter that has already ended.<br><br>One live read-through does survive. Nvidia holds <b>214.8m</b> Intel shares it paid about <b>$5bn</b> for. That is a live link between two names on this list. A swing in <b>INTC</b> moves an asset on <b>NVDA</b>'s balance sheet, and Nvidia reports on <b>26 August</b>."
+ },
+ "nothing_material": {
+  "tickers": [
+   "TSLA",
+   "MSFT",
+   "META",
+   "MRVL"
+  ],
+  "note": {
+   "title": "What is not news, what could not be checked, and one asymmetry",
+   "body": "<b>Nothing on this list announced company news dated Friday 14 August.</b> Every item in this edition is either a 13F filed after Friday's close, a weekend report, or a Monday morning item. Friday's session was traded on the retail sales and sentiment data alone.<br><br><b>Excluded as old.</b> Intel's <b>$20bn</b> share offering was priced on <b>11 August</b> at <b>$95</b> and closed on <b>12 August</b>. It ran heavily in weekend coverage and is not news from this window. Nebius reported second quarter results on <b>12 August</b>, not Friday. Berkshire's exit from Amazon was a first quarter trade, disclosed in May. Senators' warnings to Apple over Chinese memory chips date from <b>29 July</b>: only the Commerce Secretary's remarks are new.<br><br><b>Could not be checked.</b> sec.gov is blocked from this environment, so every 13F figure here comes from press coverage of the filings rather than the filings themselves. One report put Alphabet's Australian bond at <b>$3.6bn</b>; the Reuters account of the bookrunner message gives no size, so no size is stated above. One outlet described Berkshire's Alphabet stake as tripled and another Nvidia's Intel position as halved. Neither matches the share counts, and both are excluded.<br><br><b>The asymmetry.</b> <b>GOOGL</b> and <b>META</b> run the same business model and are spending similarly on AI. Berkshire bought one of them. Meta closed <b>-0.86%</b> and sits <b>25.92%</b> below its 52-week high, against Alphabet's <b>15.35%</b>. The market charges Meta for the same capital spending it is now forgiving at Alphabet. Alphabet owns the cloud and the chips it spends on. Meta rents them.<br><br><b>MRVL</b> published nothing and closed <b>-0.07%</b> on Friday, but is <b>+2.92%</b> premarket, the largest premarket gain of the twelve. That is the memory and storage bid described above, not a Marvell event, and it is provisional until the open. <b>MSFT</b> closed <b>-0.30%</b> and shows the weakest premarket of the twelve at <b>-0.69%</b>. It is one of three lower in both windows, with <b>PLTR</b> and <b>META</b>. Three were higher in both: <b>AAPL</b>, <b>TSLA</b> and <b>NBIS</b>.<br><br><b>TSLA</b> rose <b>0.68%</b> on volume <b>41%</b> above average, the heaviest of the twelve, with no dated company event. Weekend speculation about a SpaceX combination is not a filing and is excluded."
+  }
+ },
+ "earnings_ahead": [
+  {
+   "when": "17 Aug",
+   "what": "<b>Macro</b> Empire State index and NAHB housing index, today"
+  },
+  {
+   "when": "18-21 Aug",
+   "what": "<b>Consumer</b> Walmart, Target, Home Depot and Lowe's report, the live test of Friday's retail sales print"
+  },
+  {
+   "when": "26 Aug",
+   "what": "<b>NVDA</b> Q2 FY27 after the close, nine days out and the nearest results date of the twelve"
+  },
+  {
+   "when": "27 Aug",
+   "what": "<b>MRVL</b> Q2 FY27, one day after Nvidia and ten days out"
+  },
+  {
+   "when": "early Sep",
+   "what": "<b>HOOD</b> August operating metrics, monthly, company-confirmed cadence"
+  }
+ ],
+ "data": {
+  "session": "2026-08-14",
+  "source": "twelvedata quote endpoint",
+  "fetched": "2026-08-17T11:05Z",
+  "tickers": {
+   "AAPL": {
+    "close": 305.93,
+    "pct": 0.22,
+    "open": 306.0,
+    "high": 307.49,
+    "low": 304.3,
+    "volume": 28186700,
+    "avg_volume": 46555190,
+    "high_52w": 344.57,
+    "premarket_pct": 0.24
+   },
+   "AMZN": {
+    "close": 262.65,
+    "pct": -0.94,
+    "open": 264.88,
+    "high": 265.81,
+    "low": 262.42,
+    "volume": 27184900,
+    "avg_volume": 42715620,
+    "high_52w": 287.2,
+    "premarket_pct": 1.28
+   },
+   "TSLA": {
+    "close": 342.27,
+    "pct": 0.68,
+    "open": 342.33,
+    "high": 351.26,
+    "low": 335.33,
+    "volume": 45375100,
+    "avg_volume": 32207790,
+    "high_52w": 498.83,
+    "premarket_pct": 0.27
+   },
+   "PLTR": {
+    "close": 174.04,
+    "pct": -2.78,
+    "open": 179.48,
+    "high": 180.18,
+    "low": 173.8,
+    "volume": 23985400,
+    "avg_volume": 63144690,
+    "high_52w": 207.52,
+    "premarket_pct": -0.51
+   },
+   "MSFT": {
+    "close": 495.4,
+    "pct": -0.3,
+    "open": 496.36,
+    "high": 500.01,
+    "low": 493.92,
+    "volume": 16205200,
+    "avg_volume": 33839580,
+    "high_52w": 553.72,
+    "premarket_pct": -0.69
+   },
+   "GOOGL": {
+    "close": 345.9,
+    "pct": -0.13,
+    "open": 346.8,
+    "high": 350.45,
+    "low": 344.5,
+    "volume": 17753300,
+    "avg_volume": 27510210,
+    "high_52w": 408.61,
+    "premarket_pct": 0.71
+   },
+   "HOOD": {
+    "close": 95.56,
+    "pct": -3.83,
+    "open": 98.0,
+    "high": 98.42,
+    "low": 95.44,
+    "volume": 13983800,
+    "avg_volume": 15265980,
+    "high_52w": 153.86,
+    "premarket_pct": 0.04
+   },
+   "NVDA": {
+    "close": 225.16,
+    "pct": -0.06,
+    "open": 226.77,
+    "high": 227.49,
+    "low": 224.5,
+    "volume": 75504000,
+    "avg_volume": 114140080,
+    "high_52w": 236.54,
+    "premarket_pct": 0.68
+   },
+   "INTC": {
+    "close": 102.5,
+    "pct": -1.97,
+    "open": 104.48,
+    "high": 106.87,
+    "low": 102.05,
+    "volume": 95105600,
+    "avg_volume": 110083270,
+    "high_52w": 142.35,
+    "premarket_pct": 2.13
+   },
+   "NBIS": {
+    "close": 277.68,
+    "pct": 8.88,
+    "open": 258.09,
+    "high": 278.66,
+    "low": 256.9,
+    "volume": 28947000,
+    "avg_volume": 28272090,
+    "high_52w": 299.86,
+    "premarket_pct": 2.28
+   },
+   "MRVL": {
+    "close": 222.02,
+    "pct": -0.07,
+    "open": 221.4,
+    "high": 223.52,
+    "low": 217.1,
+    "volume": 14437700,
+    "avg_volume": 20349660,
+    "high_52w": 329.88,
+    "premarket_pct": 2.92
+   },
+   "META": {
+    "close": 589.85,
+    "pct": -0.86,
+    "open": 596.98,
+    "high": 601.86,
+    "low": 589.29,
+    "volume": 8731600,
+    "avg_volume": 14605320,
+    "high_52w": 796.25,
+    "premarket_pct": -0.22
+   }
+  }
+ }
+}
