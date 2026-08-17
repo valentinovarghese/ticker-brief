@@ -1,23 +1,9 @@
 {
- "checked": "2026-08-17T23:32:45+00:00",
- "changed": "2026-08-17T23:32:45+00:00",
+ "checked": "2026-08-17T23:53:19+00:00",
+ "changed": "2026-08-17T23:53:19+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
-   {
-    "id": "8422a80a6808bcf5",
-    "title": "Apple investor sues board over alleged AI piracy, stock buybacks",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTEtaYVQ3S1d5dFQybjFPQ0trR3hMdkhiSlhmUlpRbGxIbHk3MjZOSnBZQkFUNWlxWEhhd1Vyajg2UTlmZ2ZyOExndTNkMGtWZ0R6VDh3RjQxOXZPSFM2QTBCSHVtdnNpdG5iRlpCZ05XNkJkR1hzS0lxakdUN25SVVFBeTh1TjltbzI0RE1NRmlWYkZDc3NaTU5Od3dRMXVNeXFqUWEyd2xwa1E?oc=5",
-    "source": "Daily Journal",
-    "published": "2026-08-17T23:23+00:00",
-    "score": 10,
-    "tags": [
-     "legal",
-     "capital"
-    ],
-    "direction": "negative",
-    "primary": false
-   },
    {
     "id": "eafa66d03b9d06e6",
     "title": "Micron (NASDAQ: MU) Stock Price Eyes $1,000 Breakout As Apple Memory Deal Could Ignite Next Rally",
@@ -138,6 +124,19 @@
     ],
     "direction": "positive",
     "primary": false
+   },
+   {
+    "id": "1be760f6f9eea0df",
+    "title": "Ross Gerber Says 'Now Is a Good Time' to Buy iPhone 17 as Apple Prepares for Potential Price Hike With Next Model: 'If You're Looking…'",
+    "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNNmdyS3ZkeUxhT2EzakcwSkpWVVRCSm9HN1F0LVhvUFlkUjRkYmFRYzJzWDJ5V2lOX1ozeTVlZU9IZm55WmNlbWNkdlhYTzA0YXVXYkRNSkNCUllyR2preGFPREhvbGg5RWxKZWl4Uk9LeGFvY0pqMkRraWVLYTdSLWRPX0k0UnhWSl9RV0ZXcndoU0ZMYkxTQ1VaZXlYX1ZWZkkwMDNoQllTelpYaUV1SHIzNVJyS2lDWjQ0Qm5qUllTQ0w4TGVpcmR2V1BPY0g4TW5SaGF1NklRLWR4VVIyTXVBdTU3MmFhMjVlcWc1dGxSZjhuSnVoS1NxSGNHZ1l5NmlxUDZOTlJWZGZkVUVCWHdfandfa3M?oc=5",
+    "source": "TradingView",
+    "published": "2026-08-17T05:35+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
    }
   ],
   "AMZN": [
@@ -211,8 +210,8 @@
    {
     "id": "456c81e90905a112",
     "title": "AMZN Stock’s Road To $500 Could Be Led By AWS, Believes Morgan Stanley – Firm Sees AWS Revenue Reaching $1 Trillion In 8 To 10 Years",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSE1JWUVtWXdBemJraWgyZVRSV3VmM1M4aWJxV0sxUUpvRWlHNmFwUGFPQXR3a1dIVGhCX004RUI1bTNQTFUwQ05XTTktdTlqRjFVQ2lwN1g3aDV4T1l1a1hJRG9zWG1JQkFpR2lpbEczblh1T2RlVXJHYWNHZjYyS25TN04yUURTYTg4U0Zzd2o3WWl6?oc=5",
-    "source": "Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPNktXNmZsblc4eTdiY0VRbThqbXJPQ2VhczZwbklnZXJKdk5kamdZS1lMY19pdDJHeTVYMGY4M1VwZ0FQNlVlclBhdjIydTJ5Z2NEX05EdWIwcmw4UFRidGJqa282cEJqSWN3bkk0aTJFaS1mRktvY3ZXeXR5RjZlb0FKaEtVclg4VERlLVo0V0JSTTVJdUJ4UUl3RGJ4Rm1kZWNONWJrRGhhWTlzVUdSR0NWN1ZnbXI4dlNUQy1VN2p0R2RqNTR2VW8tSkZXWFZtZ1lfMmdyWmlLZEdsVXhJZWtFbnhBRDFNNlhSMmJ2eDluT3play1TdFg4TW9sWEdMRVRDa1NrM09rLXlHYVBHQldxVGY0dw?oc=5",
+    "source": "TradingView",
     "published": "2026-08-17T15:23+00:00",
     "score": 9,
     "tags": [
@@ -331,8 +330,8 @@
    {
     "id": "ea5bdbb334477015",
     "title": "Cboe Delays Early Trading for Nvidia and Tesla Options Again",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWld2dGt2Y2dQeVVEaXZjbmpXYy14YnBGUW9jd3ppOTlJRXl3TmVOaDFvUUIyVTJfb3gxUXFRN3REMGxYemlTeUZSTHk0NEVrdnRySTMwZ3A4QjlXTG01VFhRaVVLcjYxRkFqM2JuUzJaR0Rvd0hhdzNLVVotbFRtX2dOMHJEcE1IenVyRmhQelRpVzV6enhWWFl1SzRMdllBR1N4Nkh5S0J3Ul85T1YzejQ0Z3dPa2hKdWRUY2ZUNlB1UUU?oc=5",
-    "source": "TradingView",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVzVQUzFCTHVHaGVodVBCNmxyVGw5U1NnUWlvY0I2RGZ2OEs3OUtiTl9qeUJUY3dHVzFSN1ExekVQd0M2WTdjcGFSQXZKb0JXbkk0SFlLcVVxV1ZNSm9EMk42LTdwZ2xZZHdjbWVhZTFLbG80bVpPNUxLSk1oTVNlNVJRa3psYlV0M0NQMnd3UHB5UzVWaHRmSUxFdWVIZnRu?oc=5",
+    "source": "Finance Magnates",
     "published": "2026-08-17T07:53+00:00",
     "score": 5,
     "tags": [
@@ -448,19 +447,6 @@
     "primary": false
    },
    {
-    "id": "a9b035328c5ef4fe",
-    "title": "Meet the Spectacular ETF With Big Positions in Stocks Like Palantir, Microsoft, and Salesforce. It Could be a Brilliant Buy as the AI Trade Unwinds.",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVnZQZ0FNS2dSSlF5SGFKclBaU242Wmg2QmpNMUNYM1RHZzkzMmdWbDVhUTZKNGJhUUlRSG02WWVNYlpzTjJxVk00aFFyblR5bUNMY19vcWZPeEhDZlRic3dSOW82NWZpeU02WXRzRFBRa09wQmxpX2VxUERvb3l2Qm4ycGtVb2xvdXd4OGdTZ3BDcEEwaEtxcnc1aWUtUUIyWVF1RXVR?oc=5",
-    "source": "AOL.com",
-    "published": "2026-08-17T13:48+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "9bee5ad0828d62dd",
     "title": "Palantir (PLTR) Stock Soars: The Revenue Target It Must Hit to Stay Ahead",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQXRjQlpHenppSlRXMEM5cHZzQ3JGT2VHVzhwYVFsMzBzbGVTekZaX3pENkx0Q1ZBdEdUZWg3TE9CV3RXMkhzS1RBbjIyUXZQN3pwS3BqcFMzZzU4ZkJOcGNLNmJFTGN1U1hDUERjUUVGbExYdnIyOTY4SkEyUWd4U0VLRnNyU0Q2MDRkV3didEZZb01TMU5Pc25R?oc=5",
@@ -537,6 +523,19 @@
      "earnings"
     ],
     "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "752eb56611c4923b",
+    "title": "Palantir's Revenue Surges Amid High Valuation Concerns",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4xWThkYnVZMzMtd1RPazZuNEJvd1h2cmQxd3BLSjRFQnBYWmxxY1NpbWZGZFI4NFlmQkRpZHFnRmNQWUZXTDFIc1RwM002aklaTFdjeGwxckFhcE5JSVNwRkZNaGY3OW8wMGhBbENlTQ?oc=5",
+    "source": "sekbernews.id",
+    "published": "2026-08-16T10:36+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
     "primary": false
    }
   ],
@@ -787,6 +786,19 @@
   ],
   "NVDA": [
    {
+    "id": "d81d885015747a92",
+    "title": "SPCX Stock Tests $150 Level as Google and Nvidia Stake in SpaceX Boosts the Confidence",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQ2w1Q1dHV2hSTTFpS2trVmRfVHM2dnNKdlh4Z091ME9nZXRxTG0xZjczYjJTR19lT3hvT2dja3pSU1VQZ3lrZnhGWGs4dG9vTE8yakpRdUFJS0c3ZlJoWWFMVkJnckhFRnBsZlJGRE1QcTlIUXkwYnMzZGNJVGlCMENFejRTNVh6dnJSdV9hUkdYdnFVZHBzWGx2Z3g2Znl6UFYtc2ZGc0FxQVpVY3J2NkpLQUMtU1lJekZxeEhGTG1vcWpsUHJn?oc=5",
+    "source": "FXLeaders",
+    "published": "2026-08-17T22:32+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "10bac3db16a9d930",
     "title": "Nvidia’s Huang Says OpenAI Data Center Could Generate $600 Billion in Revenue",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3dW9JWUlCUkQtOUVFZW1zSFV2X1p3Vl9HRXpTWEdSLXgzVy1KZThoLVRqYkVkd0xEenZ4encwcExhWlJrSGY4bzZFbmkzY3JBamJ0RzZJYlZvOEFCTDUxREplUlNyc1BlMFVuUGhlcHAwSXlrREE?oc=5",
@@ -863,19 +875,6 @@
      "ma",
      "contract",
      "operations"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "652fcaea9a492a6a",
-    "title": "Nvidia’s Stake in SpaceX—and Musk’s Massive Holdings",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9veV9YNGNtUVRBN1N0WHRuWlM4aWRJOFF1dl9ueF9maEo3VnNrQ21jTVlmVjNwQmFVVlZzVkMtYlo2aFRLTDNtczBuWmhwU0RBSExpY0dBWS1RaWtNN0tUMmFOMWVmOEVWUDVmM3A4QnNTWmdwbl9hNEpUTmpSQQ?oc=5",
-    "source": "Barron's",
-    "published": "2026-08-17T14:21+00:00",
-    "score": 5,
-    "tags": [
-     "capital"
     ],
     "direction": "neutral",
     "primary": false
@@ -1002,19 +1001,6 @@
     "primary": false
    },
    {
-    "id": "26f7d07f6d874686",
-    "title": "CEO & Director of Intel Lip-Bu Tan Buys 8.6% More Shares",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNlVxaWhkM0pqaWcydGRyOEpIbDk0WTRIZjBrQmZSNDhiZnVKdU0ySnFCUktGUHdMOVo4Qk83TkpEWXZ6eUU1eFh1c3lDcEhtNUxaTEtnUDZMZUhqVWM0YndOd1o3ejQwUldFRkVKdEtPNW1kb3BnT2stNTk4V2dkRU1RQXZCTjlvZmc?oc=5",
-    "source": "news.futunn.com",
-    "published": "2026-08-17T11:29+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "89b42c0322db2ca8",
     "title": "Shutdown Shenanigans Hit New Milestones And Interview With Rep. Ashley Hinson Intel Stock (Pe3hesgn4f)",
     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1mUlpMWkVGSlRCY2dsWlJXektqTWdvX0p1SC1HVFQ2blgyQkVJS3lib1QtUkYtWWY4WDIzRnJVRTA4QUpzQ2hOSExqMVVDUFV0N0pKM0ZfeVZsYllZVFNtVQ?oc=5",
@@ -1047,6 +1033,19 @@
     "source": "AD HOC NEWS",
     "published": "2026-08-17T04:52+00:00",
     "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "f39c9994a18f3c57",
+    "title": "Intel Prices $20 Billion Stock Offering at $95 per Share",
+    "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5ZU3NSRUdjMFU3X0lRcERGM2x4WWMzU2M5N1FJbWZrX3ViWTZiMUNiN1pQcGIzZ2pNZEd5bGlfS2U2bjdhejA1czl3?oc=5",
+    "source": "بوابة التكنولوجيا المالية",
+    "published": "2026-08-16T16:44+00:00",
+    "score": 8,
     "tags": [
      "capital"
     ],
