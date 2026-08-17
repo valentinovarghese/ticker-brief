@@ -1,9 +1,23 @@
 {
- "checked": "2026-08-17T08:01:10+00:00",
- "changed": "2026-08-17T08:01:10+00:00",
+ "checked": "2026-08-17T08:54:47+00:00",
+ "changed": "2026-08-17T08:54:47+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
+   {
+    "id": "183aefb7e20de40b",
+    "title": "Apple Stock: iPhone 18 Split Launch Puts 49.6% of Revenue on a Premium-Mix Test",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQmhUNklxdGpSYklZT2Q0WW0yLTRubTZnRmJWN0Itd1ktODJoZ2VNRW1Lc192SVgyTDdDSTR0ZXNyRVlVYmw5ZFNSUXF4M3VXcjlvZVF1b3d1a2QyS2lncmpiTkdhby04U1VOckppalUxVUpuTnc0M2dsMkdrRjVLazNYeUpXNGFDRGxtdWZjRVNNMjE0WVNWRWdRRTByOXc?oc=5",
+    "source": "TechStock²",
+    "published": "2026-08-17T08:42+00:00",
+    "score": 11,
+    "tags": [
+     "earnings",
+     "capital"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
    {
     "id": "b2fb9c566ca6184f",
     "title": "Apple’s Houston Manufacturing Shift Amid Supply Strains Could Be A Game Changer For Apple (AAPL)",
@@ -84,19 +98,6 @@
     "primary": false
    },
    {
-    "id": "6a4b5354497eeafe",
-    "title": "Closing Bell: Apple Closes Higher, Cleveland-Cliffs Rises On Earnings, AppLovin Sinks | Stock Movers Mike Vrabel News (YdUJk7s1cL)",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SdndMS1VEV2hSNjZRNk9tanVyd1QxbW5VM2dQa0hkWlJacGtzYmFYX1VRcXR1a2Q3Rm1IQm9BSEFmODBOVnVIOHJXYmxSeGdSX2VEcEp5LTlCajQ?oc=5",
-    "source": "Mshale",
-    "published": "2026-08-15T12:17+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "negative",
-    "primary": false
-   },
-   {
     "id": "44007843c83be7f9",
     "title": "Apple's Latest Earnings Report Surprised Wall Street, But Not the Way You'd Think",
     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9oSDRBdW1Gd3JoVUFOcFlZU2xpV2lhM3g4UDVxN083U3RHUnlEVXVLcUtoU1RuRkRiTzdFdDZNRUZOTElTVmtEQUF5Ry1YNmFISlUyTGVQWmlZcTZJSW9Fekg5SUg?oc=5",
@@ -111,6 +112,19 @@
    }
   ],
   "AMZN": [
+   {
+    "id": "67fb6af84a6289e6",
+    "title": "Amazon and Alphabet Both Cost More on Next Year's Earnings Than on Last Year's",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42bnhQSUVtYjBJZHNRUUdZU3N6T3FTeTRncnNrbTdBMmtmNURWYlBPdHdoVVF4dE4yUGFxZTlRYzRoMjdWZ1I5WHJKTzFBUnM2Sm85YTNteDJHZHc3LUJWNVJJUW9MWjlzSWNBOGJBemNDQU5TREk0QTFCYmNaRW8?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-17T06:26+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "cf5d70debcdd33ff",
     "title": "This AI Cloud Stock Is Obliterating Amazon, Microsoft, and Alphabet With a 1-Year Return of 275%. Is It Still a Buy?",
@@ -154,6 +168,19 @@
   ],
   "TSLA": [
    {
+    "id": "7c9e18acde9933f1",
+    "title": "Stock Market Today, Aug. 14: Tesla Gains on TD Cowen Buy Reiteration and $460 Target",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBZUG5fWmFjQWplV0cxa2huZUJVQ25LazlGcE8xWTNMTFBBbkplRmNoSlVwYy02TU1LaEF0OHU0SXdDR2FmX2tydzJRQmpkYXl1OTRPUEZQdUl4dElfLTdhVFlicEhBSFdBaHFvSmJVMzZESmR5UGw0dA?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-17T06:40+00:00",
+    "score": 8,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "c7dde45e3e3c797a",
     "title": "Is $TSLA Stock Price Being Suppressed Before The SpaceX Merger? Comingsoon.it (AOlmFMKxvO)",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1fdUhWbGRXdjlHcGdOeGZTeTJXYy1OTks2NXp3REpqa24tMzFGd2Z5c0tyMmVqOXI0eGcxMWJpN2pCaGhHcFlWQmMweTNmNXI3dENoeWVzU21MRWc?oc=5",
@@ -169,40 +196,14 @@
    {
     "id": "36056a33aedc4d4e",
     "title": "Tesla Stock Faces a High Stakes Reality Check After Its Record Quarter",
-    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOV21MblJLMmo2ZE1zTjM4SGRmYmtlc3BDQ0JXRl9yXzhGMEdqTDM0RDdmZGxSQ29BbTBtUGg3WEtQa290ajNsY3JOYXRqNmhUNF9vVW5GQTg1WXJJSk9PQS16eEIyR0Zad0lMWmU5cnZZMHBieE5pZUdWUXozUHp5MXQxSzAtc2dRNGVFNV82NG9TQ3lqTHRJTkRwaENxNl9TUFFpQWJqZ19CUk9BSVg0LUZsYjQ5Zy1RQWs1ZkI1ZFpJSHJpNGg3dnNZalBTaXNiUXdqNl9lX2xrWGxycWRzT00tWQ?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNeEs0MTEtZWt4YWxrbG1DTXp6T2FQUDE1LUpTbEt1SEZpS3BmVXlkaW1pVGEtNmtHMFNkaVpSTzlrUm9fYTBKQTlGTFh2LVlyYU54dnRSd3pzbnNUZHNwaE1XajNwMjd6c1BaTnJDMlM1T0hJZmphRWVwZ19vRThYV01nR2Y0UjBSS2JpOFhQQmp1NkhEUURTV0l1YjNOeDhoSG94QkVtbmw1QnNmZ2JMdlFPSXZPTTh3OVNaX1Q1c09taTJaTUQ0VDByMlR5SkUzOEYwTWNVS1lDdnp4QThENURiSi00QzJKd1pz?oc=5",
     "source": "The Globe and Mail",
-    "published": "2026-08-16T22:38+00:00",
+    "published": "2026-08-16T22:35+00:00",
     "score": 5,
     "tags": [
      "capital"
     ],
     "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "6a514630956f0472",
-    "title": "SpaceX May Buy Tesla, But Its Own Stock Has Fallen 50% Since June",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBCZWhuc3pOem14NF9XdU9VdVJuRG1jamM0TFNCSDZCay12SVBESWhOVjVVLUVHd25heWZNYmlDbkczZ01RUElVZFZCRkM1VE1qSGZfZ0xPbnVibVNjZEJJN0tUODNfZzZfRW1EVF9wdXl4Sk9YVFE?oc=5",
-    "source": "Yellow.com",
-    "published": "2026-08-16T21:11+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "negative",
-    "primary": false
-   },
-   {
-    "id": "7c9e18acde9933f1",
-    "title": "Stock Market Today, Aug. 14: Tesla Gains on TD Cowen Buy Reiteration and $460 Target",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBZUG5fWmFjQWplV0cxa2huZUJVQ25LazlGcE8xWTNMTFBBbkplRmNoSlVwYy02TU1LaEF0OHU0SXdDR2FmX2tydzJRQmpkYXl1OTRPUEZQdUl4dElfLTdhVFlicEhBSFdBaHFvSmJVMzZESmR5UGw0dA?oc=5",
-    "source": "AOL.com",
-    "published": "2026-08-16T07:10+00:00",
-    "score": 8,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
     "primary": false
    },
    {
@@ -409,16 +410,16 @@
   ],
   "GOOGL": [
    {
-    "id": "6e62c8d6c44cf003",
-    "title": "Alphabet hires banks for debut Australian dollar bond issue amid AI boom: report",
+    "id": "753715869647f511",
+    "title": "Alphabet seeks $3.6B in first Australian bond sale: report (GOOG:NASDAQ)",
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRTNIZ1BJV051dlhMaGdKSXZ0VXhqbFB2azF0RnVxendfMTVCY3dBR1JVZTJoMHFkQVdwZFFwSmV0eTBZWHhIQ2JuVFBHZW1jWTJ6UVRWYlVGWjlPa24zdEU1T29JWnhrSENEWTVfNHZJcF9EX3Y2TV9EZ096MzVqV2Y5Q28xN3Joc0dpa1FBOWQ1VHFZVDczZzVoX2JjU3pobkFIcFhaOVhuWTVzSC1faWM4eTczYjNk?oc=5",
     "source": "Seeking Alpha",
     "published": "2026-08-17T06:37+00:00",
-    "score": 6,
+    "score": 9,
     "tags": [
      "earnings"
     ],
-    "direction": "negative",
+    "direction": "neutral",
     "primary": false
    },
    {
@@ -543,6 +544,19 @@
   "HOOD": [],
   "NVDA": [
    {
+    "id": "0d252cb4dc847bd9",
+    "title": "NVIDIA HOLDERS PAY ATTENTION TO THIS Debt (rM1ZrDlgqF)",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBvVUVQQ0V5SUxHUmsxcXFnY2tqT3h3TkZRdURzY3BiRFJhZnB5OTlEWDVmNFFUOVZ5N3hpQzlLSWR5UmJHdklsNXhlSUlZYlQ3M2lqVllkVXJoRWs?oc=5",
+    "source": "Mshale",
+    "published": "2026-08-17T05:49+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "3f6813ffea7200c4",
     "title": "NVIDIA Earnings in 9 Days — Why BofA Expects a $95B Beat and Multi-Quarter Upgrade Cycle",
     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZXFmelBhRDdvaHZCMnN5UWtOenQ5SmRXdERoNkN1Q0NSZGpKdUJaVDBPcG94SVJ5WWJuM2g3cG5KWi13UnZHaUl0bUQ4R3ZUZ3RrSVRUZUFXa2o0Ri1sZUJZZzROMngzUGtoNGM3Q3pOWHg3VUdTWGdITldvTHp5UTBfZDRKeDJMLTU3ekswaEFaNWdSX1RUR1lzRzRET2JhcVh4anlxQUdUcEVOSzUxVHhTQm8tVjNrNDZESGZidk56QXJOY1dHeU9tZ0dESUk0c1ptT1ptRmw4LXMtTTZ1NThkSFhlZnNmOVVV?oc=5",
@@ -572,7 +586,7 @@
     "id": "6342303e9b431e6c",
     "title": "NVIDIA Employee Count Statistics 2026: Headcount, R&D, and Revenue",
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5IbnowM09TQkRvai1KRWg4UnE2VVBzOXlnZXNYRHNRVG51VC11Snk5U0d6QWFORzZ5Z21OUDZpZENMRzhZVTNfaW8wRFB2X2JRSlBRTnI5VFkzUkJkY2JucnY2eXllbnhGUWc?oc=5",
-    "source": "SQ Magazine",
+    "source": "sqmagazine.co.uk",
     "published": "2026-08-16T16:20+00:00",
     "score": 6,
     "tags": [
@@ -656,19 +670,6 @@
     "score": 8,
     "tags": [
      "capital"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "8849d7b4e4aa8901",
-    "title": "Nvidia’s Secret $21 Billion SpaceX Windfall — How One Chip Deal Turned Into a Rocket Fortune",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdkstcnl4aEQ3ZjFma3lwSzRDWXRoTy1ISDdTdU5FaW0xSmoyQjIweUw1aHNKZEJCcm1YNXlRYWJjZ2ZhVzc1RmdZTHYtVHJGdDNOUzhrOVFtMXVzV0pwc3doakRkaUNsUEdRWjMtbDNWWFRsOU5xRDg3YWdqYTJhUW16NDRUSENEcU02QmgzYkY2OWtDYm5BNUFyVDY?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-15T13:41+00:00",
-    "score": 8,
-    "tags": [
-     "contract"
     ],
     "direction": "neutral",
     "primary": false
@@ -917,19 +918,6 @@
   ],
   "MRVL": [
    {
-    "id": "42d60226658dedf6",
-    "title": "Marvell (MRVL) at $297 — Four Straight Guidance Raises and a $1B AI Capacity Bet",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZWhIZlhqNHVZSWItcTFFbVVWeUFBam9BY2x3Q2tSQUUxandJZEtEOGVEVVhQTWk5R0trVWJpWUE0c2lWX2o0S1l5elN4UE9FS05VU2Jmdnk4ZzQ4azNBbmdfSEVkcDgyUnZ6ZlNWTHpSdGhuOXRJTTM0X2dlZzNSMVFpRmZHMmJHNEZxbGVSdlJpazBBVHVDbUpudmtPVVFoV0xRY1g1a3hxU3FXUFJXQ0wwRzBFb2NSZTZNbg?oc=5",
-    "source": "TradingKey",
-    "published": "2026-08-15T22:20+00:00",
-    "score": 9,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
     "id": "18a0924aa278dd78",
     "title": "Marvell's High-Stakes Balancing Act: A $2 Billion Nvidia Endorsement Meets a Wall of Valuation Skept",
     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPVDFsZFNYOFRsVmU2NFNoWHVSM2htZEFlZXRXOHp6SVVZaUUzSGRNWHRMMXk0UnVsdjZhdmd4VDB6clp0djJhUXJ1dzBKSlM0RDdFOGFRZW9zS0ZGSlB0SHZfWWE0VnhkRGlCcF9xVkgxOFpFN2F3U29uYjNrdVRhQksydEYyRDFIekpKRlhlbmx5d0x3MTVJNFF6SVBTUXNGMk1UcnN0U0lSTVdWbWFlYlpmbmRWUWIyT2dBNFNmRjdEaVdQbFZ5eWhTVmM2cEpfdXAwZjh2NC12Rnhu?oc=5",
@@ -938,19 +926,6 @@
     "score": 8,
     "tags": [
      "capital"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "0c9ceb9c3c3b2b67",
-    "title": "Marvell (MRVL) Stock Ahead of Q2 Results: What Investors Need to Know",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNN2xZcjFMWEFCQ3EySTljalV5aVl1NW4yQmhZU2U3OV9GX2M3cXRVb0prM2M4UHQ1YjJ4dVhMTE1WSHdvVzRNODZ4WmdobjRqOVJBLUptVHI4ZGkycjhkTnc2ZE5menhEMzJ6RnNPUHY4R2FXd2dUTlhRc09vWnJlSUpGMXFVRDhKOHpKOGxhWS0wSUZV?oc=5",
-    "source": "blockonomi.com",
-    "published": "2026-08-15T08:49+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -1063,5 +1038,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 76
+ "count": 74
 }
