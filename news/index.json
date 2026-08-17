@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-17T05:31:02+00:00",
- "changed": "2026-08-17T05:31:02+00:00",
+ "checked": "2026-08-17T06:02:54+00:00",
+ "changed": "2026-08-17T06:02:54+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -151,6 +151,19 @@
      "capital"
     ],
     "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "6a514630956f0472",
+    "title": "SpaceX May Buy Tesla, But Its Own Stock Has Fallen 50% Since June",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBCZWhuc3pOem14NF9XdU9VdVJuRG1jamM0TFNCSDZCay12SVBESWhOVjVVLUVHd25heWZNYmlDbkczZ01RUElVZFZCRkM1VE1qSGZfZ0xPbnVibVNjZEJJN0tUODNfZzZfRW1EVF9wdXl4Sk9YVFE?oc=5",
+    "source": "Yellow.com",
+    "published": "2026-08-16T21:11+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "negative",
     "primary": false
    },
    {
@@ -357,6 +370,19 @@
   ],
   "GOOGL": [
    {
+    "id": "108f655cb3d64fdb",
+    "title": "Alphabet leads institutional holders in SpaceX post-IPO with $94B stake",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbVRVcGJ3MWN4RHRzOXU3SXdVYjhQQnFac0QwWmRBbi1VTUNhNEttb1F2NnN3ck9NTjctNkh6YVZUbkpxT2FuMHhDYk80RHhubm00TkxwRzVieVplRUNHSHY0TE9sTXhKeGNEendaX1A5MFNsQkd5S0VmVzRiNzF3cXlDZm9JelMwa0pScmZsdE00Um1kZ08yNi1UUmU0aUtNRmZmTVM5Ry1NYlJh?oc=5",
+    "source": "Seeking Alpha",
+    "published": "2026-08-17T05:52+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "d1a5398c185c36b8",
     "title": "Alphabet Mulls First Australian Dollar Bond As AI Debt Piles Up",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSUh1eU5EdFp3dXB4OVhIVW1UcnZzY3IyWXY3SDY5eXkta1lWenRacnA1d09rU24tNjZsdko3R1c1a1dkbEY3VDRNY29KZlB6UlBDellWSzl4RjVYS21ULVJSbGJGWGd0VnJUcko3RGtzUUJXZm95djF1YWlBbWpMWldhR0xaVXVNT2FGYWF0VEh2TzYzekcyYk94NUxlLWtRTGdDWHFTUHNmbW_SAbMBQVVfeXFMTW05NnFkYzBVNU5YVDh1VEloTXBYdDNwZmFwM0NIU0lMczBPSUNXNmJEUGR1TkQ2Y1oyM3BXWUlwd1EtZGdtZUFFeUZXV1NDTWNFZ1pnQVlpS2FwMmkzYjZfcG85cGVOWVhhX0xVbUhqSnJsYl9mR2xtM2hQZUJuaWhmSmZFN2FXeWpRZlNpYnYwZXJFT09pNF9KTi1EenZmSGxEemVtaG1",
@@ -392,19 +418,6 @@
     "score": 5,
     "tags": [
      "ma"
-    ],
-    "direction": "negative",
-    "primary": false
-   },
-   {
-    "id": "597b67cf8263db94",
-    "title": "Alphabet (GOOGL) Faces Fresh AI Doubts After Steve Eisman Cuts Exposure",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYVQ2d3FtazgyNFVoV1B2d1UxN29FcXV1cWY0UVpXMDFCWU5UUTczZ01pMUtxM1NhbGRPZndfYWcyVTY5RXVyWnVBME5tTU1JMGhtbTdqdGNfV0NzMVAzejZzOFJnUzU4Z1AzMmFpWG1pdFlOMDFOR29KUzJiZmlXNVVkd1Y1cElFSTN0R3RPeDgxVzcwbHRhMTc5Z002a2VwaDI2UGhEdmdaYTBkZHpVc09ZbWNHVEwwUEttcnhR?oc=5",
-    "source": "Sahm",
-    "published": "2026-08-16T16:04+00:00",
-    "score": 5,
-    "tags": [
-     "operations"
     ],
     "direction": "negative",
     "primary": false
@@ -449,16 +462,16 @@
     "primary": false
    },
    {
-    "id": "fa8fbe3c0a417012",
-    "title": "Alphabet made 100x on SpaceX, now Nvidia reveals $21 billion stake: Why Musk’s AI push matters",
-    "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNdEJkRHZPNEx1U2lrRzB0bkFmR1ZyUVdtMXl5ckNvak5ocVZ6LUhPaHJ0b0pCSlZwY19CRnFES3dfYWlqMTlPZnZZbUZXaHdyTTJyRU5WOVIzVUhuOVZlbnVjdjh5cjVyVUJvRmVPTGNZUFZWS3oyOTVKV3NmNHltcDB0UXQ3a21ZX3hJYnJlOG1hdVVwcWthSnRfVEpiaFBjelR2aTZGWkRZUDRQQk1BMHRybl96ZzZmVVJ5Z2JTUWJvajJGSU9qdU1aU3Rnbk9VNnZQbnJKU1lRQkF5S1pqMmZ4RXkyWWFvMGh4QzdMQWJmUzTSAfgBQVVfeXFMT3E4ajRSUFhfblMwdmFnYTlxSkJuTUtzZmJkdXVQbEN6WXMtY2Ztc2tTUzBIbmxQdWQyZGk1MEw4SzI2UWRhclpReVZMMHBrSjRiUk4xM1VGcGYwVW5YTE5",
-    "source": "livemint.com",
-    "published": "2026-08-15T16:02+00:00",
-    "score": 8,
+    "id": "597b67cf8263db94",
+    "title": "Alphabet (GOOGL) Faces Fresh AI Doubts After Steve Eisman Cuts Exposure",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNc25iZVlra21QQkVvQUY4RWZBWmZMN2FYT0tFRXhGY1pYVWFoaGVNSkVqeUs5MUZOb21zZGtHeHhXcHlpdU96SE1tNHZldTdrNExQNGRnUEl4ZjlmZ1lYamlSZ3RHSXJ3ZWQ1aFRxdlIxS0ZlMEUtbHdSWHdweElIakxUdl9kcGtVak9zOVB6YnFqVzVrT0wyTkhUV2tvX1RBZGtqTmFzSWlxZnVRTVhpNFJHR1U1NmNaUGNJWGtuY2w2NTTSAcgBQVVfeXFMUGoycXZJb0NiSFg5YUZ2U0szN05yWW52N0FZdU9hUl9aYi1WaFJTN3hGOWQ3YXJHVnhSTDFSdUt6aVZHVEF2SnBzMmdIMDhDQTY5NFRKMnB4SzM3WmFhY2tJVDd3emIwcXI0LW1YVXFyTE5FX0FJcndFVFlleDZaNUNlZV95MXZac3g5X0tpQ0s",
+    "source": "simplywall.st",
+    "published": "2026-08-15T17:29+00:00",
+    "score": 5,
     "tags": [
-     "capital"
+     "operations"
     ],
-    "direction": "neutral",
+    "direction": "negative",
     "primary": false
    },
    {
@@ -475,14 +488,14 @@
     "primary": false
    },
    {
-    "id": "c66c82fcc33c548f",
-    "title": "Sundar Pichai's Alphabet Reported Negative Free Cash Flow for the First Time Ever. Here's Why That Milestone Matters for Shareholders.",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdXRHZkprc3JvckswNFc5TW9Ib2x0UUUzX2V5cDAwTDdjOF80alAxS09hRDhlNWpib1otNWIzQmU4Z2c5d1ljd3drU29kVWhSUXBMVHFlVDRHckxxRFJGWHJLMVhER1BxZWxnaXBoQWFqeklPTXNtTWp0MW9HU3l2RWJfYWdWVlVWc2NUcGlfNEhVOVFzVG1HTlpwaFM4eG5zbHZZcFFkangtZw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-15T11:05+00:00",
-    "score": 6,
+    "id": "8ae8360b1988be92",
+    "title": "Berkshire adds $17 billion to Alphabet stake",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTVlXUGlQSUZVdnRDRXFHVU0wMlBfY0kzVFFFNS1FY2NSNG9QblVxV2dXdTZRUjFmWVdUck04RnpIU0xkRThWOWNpRnJCTVByX0hhWGI3SGVWQXpjU1dXV180NjBqUEx4UElCbFNJRGdMWkFZMHMtUm01TjlMbm81VDUzREFWMXPSAYwBQVVfeXFMTllSR3VuVXdXV1p0Y2JUZ1FoaG56RFQybURDY1hzWlFpdHNXZFhzcmJscXZpVVZUX1VGRl9yYWJ3MklCbExSUDRocWxsSFhBeFlJZmhCU1FpVDJMdFNSdkY0UWpqM2J4SGVOZFVieFUyRTNtbTdzUWo4TjFjZ181NWZZM0hDTnItVWdRZFM?oc=5",
+    "source": "CNBC",
+    "published": "2026-08-15T12:50+00:00",
+    "score": 8,
     "tags": [
-     "earnings"
+     "capital"
     ],
     "direction": "neutral",
     "primary": false
@@ -609,20 +622,33 @@
     "primary": false
    },
    {
-    "id": "8849d7b4e4aa8901",
-    "title": "Nvidia’s Secret $21 Billion SpaceX Windfall — How One Chip Deal Turned Into a Rocket Fortune",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdkstcnl4aEQ3ZjFma3lwSzRDWXRoTy1ISDdTdU5FaW0xSmoyQjIweUw1aHNKZEJCcm1YNXlRYWJjZ2ZhVzc1RmdZTHYtVHJGdDNOUzhrOVFtMXVzV0pwc3doakRkaUNsUEdRWjMtbDNWWFRsOU5xRDg3YWdqYTJhUW16NDRUSENEcU02QmgzYkY2OWtDYm5BNUFyVDY?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-15T13:41+00:00",
+    "id": "5e6d601982dfbb81",
+    "title": "Nvidia turns $5B Intel stock bet into $30B windfall — filing reveals new $21B SpaceX stake and complete exit from Arm stock",
+    "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQSGFqNXdqempLcmlwSU1WNVY3MUxUa09HMmV5d1hLaEhzSG9MLWxVNURVOWxzTXJadVNpWVA1RnZUcnd0ZFZBU2V1TWNqVUZYaEhMbWk5TEdLNjZCMUxzUVRHc09DZkxHeFJENGIzOUR0UnNyT2FEcHN0eS1lbjRnTzU4dzJ0M1VHV1ZhSktCdk1vTmIxZ0F6VkhjUDc3ZG1mVVA1T042RDhfampndGdpNy0zX1NON3RrVXB3b0cwZ0hocTdJbjdpbzcxZ3YyTHFDZVlJRnhHU1pBMHFnV3ZKZUQyM0xnemFMbVYxRUw4OGZaeVRXYmYzOFRjVWhMVFk?oc=5",
+    "source": "Tom's Hardware",
+    "published": "2026-08-15T14:16+00:00",
     "score": 8,
     "tags": [
-     "contract"
+     "capital"
     ],
     "direction": "neutral",
     "primary": false
    }
   ],
   "INTC": [
+   {
+    "id": "ac62fee178c1b234",
+    "title": "Intel stock steadies after $20 billion capital raise as earnings momentum builds",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOS3d6bEFEZmtwcUdHMlhTYTN1UVNOODE4MDlpLUF6UEFyeHpZcTN6bjlCc3VIQTVod1FQb1BmdUpONkh1OVByRjdtWm5aemJIb1JxdDQ2N0t5dllmWWtWVDJOMHU2andYNnE2RzMzc1FtQ190RnEzVHNCdDROV2VkRll1UzhjRjVHLWNkMVc3Yng4SUJxR2dhNkFZWFlmWW5Kdm5VMjZGcEtwNnZHS3dQek8tanUzQmVxc2FXSnBzRFktdC0yZmdMRGwxOENQT09F?oc=5",
+    "source": "ad-hoc-news.de",
+    "published": "2026-08-17T05:28+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
    {
     "id": "c8656ce7ab546da5",
     "title": "Banco Santander stock strengthens as US expansion and Intel stake deepen growth story",
@@ -671,19 +697,6 @@
     "score": 5,
     "tags": [
      "capital"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "2e6b6ff094672ddc",
-    "title": "Intel Price Forecast: Nvidia Picked Xeon 6, Invested $5B, Yet Analysts Still Trail INTC",
-    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPUTJ0M002eEJBWW5ocUl6ai1nTkJ1WjFMMktJRWtzekFRcktQd1d1MTFOd1RwbVFQWk9hU25UUC16RzBnbXBXdWZwcE5pS2ROeVN1YXhFZlNjVVctMWg4SWI1Y2FJazZTOTg2OVd0OWpmMGFKczk0ejdZX090Mkg2TU1Tc2Z4b2EwaUJ5MkxITm1NLWxic2JFdDVJRGZjdTBwbVNETDFURk1jMHBQN0ZQV3BhYVcyT2JDYWR2S1hLMERJNWc1bmVwODBxcUN1YUdxMlNQemdJbktvdzQxV0pmZXVIX1Zfam5N?oc=5",
-    "source": "TradingKey",
-    "published": "2026-08-16T01:55+00:00",
-    "score": 9,
-    "tags": [
-     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -879,6 +892,19 @@
   ],
   "META": [
    {
+    "id": "e32ade0fd79bbb3c",
+    "title": "Meta Platforms stock steadies after Q2 earnings miss as AI and legal risks shape the outlook",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQY21oOTdzWFRaMnNndWJMemdFX0JjeHFUOXRkeDVXRDlSWTRrUWNhRUhlbk9KVG1ZV2JVcElJMEFKT1JLMlFnNTRCRUtBUGs0TGFGcnc2UU1yRU01MUNiOG96TzhFZjJPUTI2XzQ4UVZEb1RUaTRmUUxaMUpmLWFjZE83TTh0UGFseHEycVFuckt0dWM2MEo0cUhDZUlLN0FTM0RLYXJWN2tTY1kxVk53a3lhTWJIMWVyWloyYnZnWExNRjhQSVNoNlFBOHhsSC0tY3dj?oc=5",
+    "source": "ad-hoc-news.de",
+    "published": "2026-08-17T05:42+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
     "id": "7c31ae8de42e5b1b",
     "title": "Meta Platforms (NASDAQ: META) Stock Price Fair Value Slashed To $754 As AI Costs Squeeze Margin Outlook",
     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQMzV2Tk9hZUhjYUJZbktsYUhzUE5QQTJncHF1S3pqWjFDa0NEZnBHbVVKS0I2VlBfMllsY1hoQzltUEJSVERNSzRpT1R2U3NBX29xcVZhTTkwcDlwNDhwT09hZTZTcG12MkFJZFhQWHhCNnlaX2pDUWZuTnY2eUFjNS1rVFJLak94ZzRBQzMxcnZFbEVPdDE5MEl0MXFYQmx1dTRHcmY0dWwwcUxhRHpydURUYkctTGc4eTlOYUV2a2NyejlUa3YzamloSlBWSzIyeENOeFZNdy10VElKRWRVd3hn?oc=5",
@@ -971,5 +997,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 69
+ "count": 71
 }
