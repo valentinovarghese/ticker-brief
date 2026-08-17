@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-17T04:05:25+00:00",
- "changed": "2026-08-17T04:05:25+00:00",
+ "checked": "2026-08-17T04:54:31+00:00",
+ "changed": "2026-08-17T04:54:31+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -58,32 +58,6 @@
     "primary": false
    },
    {
-    "id": "87b86f8dd66851bb",
-    "title": "AAPL Stock Quote Price and Forecast",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE00U3JoRzhkckt5aVFxb1NVNnBndWhrcDM5N0NqUzZGUk8xQk04OF9jVWRULXh2RmlJaGpTS1FJWEREaUlNUnhfSHk2cm53NllX?oc=5",
-    "source": "CNN",
-    "published": "2026-08-15T20:44+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "38c1c61fec874af0",
-    "title": "MASSIVE BUY ALERTS?! APPLE STOCK! TESLA STOCK! AMAZON STOCK! MICROSOFT STOCK! GOOGLE! NVIDIA! META! Thurrock Council (BKwnIs0TKz)",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VbzloTjNWSmdHbDFqV1hydkIzeEFnLWZxXzNIMmNJc0xKVGVQVHc4eWl6cXJRbnVzTVZOMmNBWkNpMF9QX25NU2l0OVRkSnYyZ1JkcmVULWpaNzg?oc=5",
-    "source": "Mshale",
-    "published": "2026-08-15T20:34+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "902c2a046501c383",
     "title": "Apple gets U.S. warning not to buy memory chips from China: WSJ",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWVdxeENVYVhiLUJxdUd4WlI3Vm9ubHROQTlSSER2M3NiU1M3MGZxT1hvN1pLQUlmRHVyM240TDhvdVZLSkFGZnM4WnJ4S3VSaXRaNWJici1qU1lJNW9Qck81T20zZHN6bjVoY3MyS2NhS3ZReXNxUUg0dlFPOEh4MWpudUNtUFZOT0p4MTgxODAwVVJLNEtOVXIwdm5GVzA?oc=5",
@@ -100,13 +74,26 @@
     "id": "44007843c83be7f9",
     "title": "Apple's Latest Earnings Report Surprised Wall Street, But Not the Way You'd Think",
     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9oSDRBdW1Gd3JoVUFOcFlZU2xpV2lhM3g4UDVxN083U3RHUnlEVXVLcUtoU1RuRkRiTzdFdDZNRUZOTElTVmtEQUF5Ry1YNmFISlUyTGVQWmlZcTZJSW9Fekg5SUg?oc=5",
-    "source": "financebuzz.com",
+    "source": "FinanceBuzz",
     "published": "2026-08-15T09:35+00:00",
     "score": 6,
     "tags": [
      "earnings"
     ],
     "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "02dcfa9fcfb49b67",
+    "title": "Nvidia (NVDA) Stock Climbs as Apple Reveals AI Partnership — With a Twist https://t.co/a7Mosz9C27",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE43Q3VrUGdua2dDaTdBUjFlcWh1Z1kzeEExUHRnaVVseGItTlF5TC04QWxVUWlFVHhvckxlb2M1elMxVTZ1LXc2UkNVemw2ZUtDT1hzRUtMdjNHVlBLQ3dvMTJfQl9jSF84ajg4dlhhcGM?oc=5",
+    "source": "KuCoin",
+    "published": "2026-08-15T05:43+00:00",
+    "score": 5,
+    "tags": [
+     "contract"
+    ],
+    "direction": "positive",
     "primary": false
    }
   ],
@@ -115,7 +102,7 @@
     "id": "e03f7d7024b4fa88",
     "title": "Amazon Stock Rebounds From Slump: AI Ambitions and $2.5B FTC Deal Ignite $3 Trillion Hopes",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQU1ZoNi1QRmswZjFEXzBXcGxCOU9aTTh2UllSSHFoYzVHc3d3cDZIZXVKMDNJdnh3TFh1Ul9wYXZIb1dsWkNNbUUzWkdGaHQxdUtrZk1sNWxoYzhPWWt1dE04ZWtyM0FlUkc2dmJDOGNoLWVObmdGZ1FkSEgxVzJFd2NpVEJWZXhGNG1uWWhObzBoRnFIYUowSHpvYUhkR3NlSDh4X01aSlNXTFY2?oc=5",
-    "source": "TechStock²",
+    "source": "ts2.tech",
     "published": "2026-08-16T02:59+00:00",
     "score": 13,
     "tags": [
@@ -130,27 +117,14 @@
    {
     "id": "36056a33aedc4d4e",
     "title": "Tesla Stock Faces a High Stakes Reality Check After Its Record Quarter",
-    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOV21MblJLMmo2ZE1zTjM4SGRmYmtlc3BDQ0JXRl9yXzhGMEdqTDM0RDdmZGxSQ29BbTBtUGg3WEtQa290ajNsY3JOYXRqNmhUNF9vVW5GQTg1WXJJSk9PQS16eEIyR0Zad0lMWmU5cnZZMHBieE5pZUdWUXozUHp5MXQxSzAtc2dRNGVFNV82NG9TQ3lqTHRJTkRwaENxNl9TUFFpQWJqZ19CUk9BSVg0LUZsYjQ5Zy1RQWs1ZkI1ZFpJSHJpNGg3dnNZalBTaXNiUXdqNl9lX2xrWGxycWRzT00tWQ?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNeEs0MTEtZWt4YWxrbG1DTXp6T2FQUDE1LUpTbEt1SEZpS3BmVXlkaW1pVGEtNmtHMFNkaVpSTzlrUm9fYTBKQTlGTFh2LVlyYU54dnRSd3pzbnNUZHNwaE1XajNwMjd6c1BaTnJDMlM1T0hJZmphRWVwZ19vRThYV01nR2Y0UjBSS2JpOFhQQmp1NkhEUURTV0l1YjNOeDhoSG94QkVtbmw1QnNmZ2JMdlFPSXZPTTh3OVNaX1Q1c09taTJaTUQ0VDByMlR5SkUzOEYwTWNVS1lDdnp4QThENURiSi00QzJKd1pz?oc=5",
     "source": "The Globe and Mail",
-    "published": "2026-08-16T22:38+00:00",
+    "published": "2026-08-16T22:35+00:00",
     "score": 5,
     "tags": [
      "capital"
     ],
     "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "80b81bd7f17b5456",
-    "title": "Is $TSLA Stock Price Being Suppressed Before The SpaceX Merger? Comingsoon.it (OlmFMKxvO1)",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1fdUhWbGRXdjlHcGdOeGZTeTJXYy1OTks2NXp3REpqa24tMzFGd2Z5c0tyMmVqOXI0eGcxMWJpN2pCaGhHcFlWQmMweTNmNXI3dENoeWVzU21MRWc?oc=5",
-    "source": "Mshale",
-    "published": "2026-08-16T14:20+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
     "primary": false
    },
    {
@@ -224,7 +198,7 @@
     "id": "b3e2c93038bd555c",
     "title": "Palantir Shares Rise 29% on U.S. Expansion as Global Revenue Disparity Grows",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOREIzV3N1dzJKSWdtQzk5aUdjY2h5MFFNdHZ2ZFQycU5QeUJrQVdpcWc5X2pRc0xsQnF4VWlpOEN2aHI4WUgyWUhYY0xxU29INUV6NW5YdlVaQVNCV1ZLSnBfNGNRXzc4N25la1FLS2lUVVMtQmlsRTZhUlM1cXpRVUFfZnB3M0FyNWxZa193NnNNdw?oc=5",
-    "source": "TechStock²",
+    "source": "ts2.tech",
     "published": "2026-08-16T11:15+00:00",
     "score": 6,
     "tags": [
@@ -315,32 +289,6 @@
     "primary": false
    },
    {
-    "id": "f93332f249f79b67",
-    "title": "MSFT Stock Quote Price and Forecast",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBQX3dUSG5UYjhqVm1nRmNzS2pFY0VvMjFRVlQ0WWk0RzFlM2NQZ1lnR2M0b1JKOUlFRU1KZTllYnJfODBUd0RKQ0FzT2o2SmFJ?oc=5",
-    "source": "CNN",
-    "published": "2026-08-15T22:13+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "38c1c61fec874af0",
-    "title": "MASSIVE BUY ALERTS?! APPLE STOCK! TESLA STOCK! AMAZON STOCK! MICROSOFT STOCK! GOOGLE! NVIDIA! META! Thurrock Council (BKwnIs0TKz)",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VbzloTjNWSmdHbDFqV1hydkIzeEFnLWZxXzNIMmNJc0xKVGVQVHc4eWl6cXJRbnVzTVZOMmNBWkNpMF9QX25NU2l0OVRkSnYyZ1JkcmVULWpaNzg?oc=5",
-    "source": "Mshale",
-    "published": "2026-08-15T20:34+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "d72afe3c87f54d1f",
     "title": "Microsoft: Buy For The Value, Enjoy A Dividend Snack (NASDAQ:MSFT)",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeUtzSm9NSEg1TUV3R0Zqa09VTkcwMnRrdjBwQXdmYjMzZDJGREJzeDhsOXhVZXNIWlYyOVg0RFEydjVBYVdkdmU1eHNNeF9aYlZySEkwcDNfcjJxbHFGdTBtWXRsYlkwdXZJeksyMWhtYXpIVHhSUjBLeE16WDBKZTZ1ZENGODg4eDBENEpPNE5HWE03X1E?oc=5",
@@ -370,20 +318,6 @@
     "primary": false
    },
    {
-    "id": "53458a38407700dc",
-    "title": "Stock Market Today: JPM Has Worst Day Of 2024, GOOGL Antitrust Woes, ORCL At All-Time High Yurav Premlall (36vgRxyvru)",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBzR1lGbUhXcElDVV9aNXB6aG5NQm9hRWdCZGxmUk16LUpuTGlzWU9RN3A4bG5rR0ZLR3NWZ1BxbGdaSFF3TWpTVGJTZmt6RXdhN1Fxcy12aTNGYUhuX0xPOA?oc=5",
-    "source": "Mshale",
-    "published": "2026-08-17T00:04+00:00",
-    "score": 9,
-    "tags": [
-     "legal",
-     "policy"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "7404411f0be04824",
     "title": "1 Jaw-Dropping Metric That Makes Alphabet Stock a No-Brainer Buy.",
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWS1qX1JnaUZuVDJybHZ4S0wyR19fOTBHR21zbVBqMWhwZGxOQ214Q3E1WVZQWUFRQXNTcVBkOUNwbHVBdEpiNjFzZmZCVFd3d0RGN0JDMGpjNHBPekxCMnZENFZGc2pmdnl0MlQtZDNka0NkSlhnUTVqV2lreHVCdmdXNEYtNjU0bWVQSzVOR0NuVkpoRUpz?oc=5",
@@ -392,19 +326,6 @@
     "score": 5,
     "tags": [
      "ma"
-    ],
-    "direction": "negative",
-    "primary": false
-   },
-   {
-    "id": "597b67cf8263db94",
-    "title": "Alphabet (GOOGL) Faces Fresh AI Doubts After Steve Eisman Cuts Exposure",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYVQ2d3FtazgyNFVoV1B2d1UxN29FcXV1cWY0UVpXMDFCWU5UUTczZ01pMUtxM1NhbGRPZndfYWcyVTY5RXVyWnVBME5tTU1JMGhtbTdqdGNfV0NzMVAzejZzOFJnUzU4Z1AzMmFpWG1pdFlOMDFOR29KUzJiZmlXNVVkd1Y1cElFSTN0R3RPeDgxVzcwbHRhMTc5Z002a2VwaDI2UGhEdmdaYTBkZHpVc09ZbWNHVEwwUEttcnhR?oc=5",
-    "source": "Sahm",
-    "published": "2026-08-16T16:04+00:00",
-    "score": 5,
-    "tags": [
-     "operations"
     ],
     "direction": "negative",
     "primary": false
@@ -449,6 +370,32 @@
     "primary": false
    },
    {
+    "id": "597b67cf8263db94",
+    "title": "Alphabet (GOOGL) Faces Fresh AI Doubts After Steve Eisman Cuts Exposure",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNc25iZVlra21QQkVvQUY4RWZBWmZMN2FYT0tFRXhGY1pYVWFoaGVNSkVqeUs5MUZOb21zZGtHeHhXcHlpdU96SE1tNHZldTdrNExQNGRnUEl4ZjlmZ1lYamlSZ3RHSXJ3ZWQ1aFRxdlIxS0ZlMEUtbHdSWHdweElIakxUdl9kcGtVak9zOVB6YnFqVzVrT0wyTkhUV2tvX1RBZGtqTmFzSWlxZnVRTVhpNFJHR1U1NmNaUGNJWGtuY2w2NTTSAcgBQVVfeXFMUGoycXZJb0NiSFg5YUZ2U0szN05yWW52N0FZdU9hUl9aYi1WaFJTN3hGOWQ3YXJHVnhSTDFSdUt6aVZHVEF2SnBzMmdIMDhDQTY5NFRKMnB4SzM3WmFhY2tJVDd3emIwcXI0LW1YVXFyTE5FX0FJcndFVFlleDZaNUNlZV95MXZac3g5X0tpQ0s",
+    "source": "simplywall.st",
+    "published": "2026-08-15T17:29+00:00",
+    "score": 5,
+    "tags": [
+     "operations"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "fa8fbe3c0a417012",
+    "title": "Alphabet made 100x on SpaceX, now Nvidia reveals $21 billion stake: Why Musk’s AI push matters",
+    "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNdEJkRHZPNEx1U2lrRzB0bkFmR1ZyUVdtMXl5ckNvak5ocVZ6LUhPaHJ0b0pCSlZwY19CRnFES3dfYWlqMTlPZnZZbUZXaHdyTTJyRU5WOVIzVUhuOVZlbnVjdjh5cjVyVUJvRmVPTGNZUFZWS3oyOTVKV3NmNHltcDB0UXQ3a21ZX3hJYnJlOG1hdVVwcWthSnRfVEpiaFBjelR2aTZGWkRZUDRQQk1BMHRybl96ZzZmVVJ5Z2JTUWJvajJGSU9qdU1aU3Rnbk9VNnZQbnJKU1lRQkF5S1pqMmZ4RXkyWWFvMGh4QzdMQWJmUzTSAfgBQVVfeXFMT3E4ajRSUFhfblMwdmFnYTlxSkJuTUtzZmJkdXVQbEN6WXMtY2Ztc2tTUzBIbmxQdWQyZGk1MEw4SzI2UWRhclpReVZMMHBrSjRiUk4xM1VGcGYwVW5YTE5",
+    "source": "livemint.com",
+    "published": "2026-08-15T16:02+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "18c37fce679edd90",
     "title": "Berkshire pads Delta, Alphabet stakes as Abel taps cash pile",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSFJScURJbTAxMS00dHlDZmlJSUtZRUpEdmhVbGVkaWZrSUdWU1hCWGktcXZCUElPMGktMDRoV1hNekpRQUxEYmNqNFRkbjNBTVNLSDk1QUNVLTdST2Q3T2hQVVRyZVJrclByNWVsb2VRT09XeVl5eHRLUmZkbndISnFZNVpHb21TUWZJT2N0ZGNyYXBvRE5Ublh4UGx3dWROdmZXcUs3NC1McW8?oc=5",
@@ -465,7 +412,7 @@
     "id": "8ae8360b1988be92",
     "title": "Berkshire adds $17 billion to Alphabet stake",
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTVlXUGlQSUZVdnRDRXFHVU0wMlBfY0kzVFFFNS1FY2NSNG9QblVxV2dXdTZRUjFmWVdUck04RnpIU0xkRThWOWNpRnJCTVByX0hhWGI3SGVWQXpjU1dXV180NjBqUEx4UElCbFNJRGdMWkFZMHMtUm01TjlMbm81VDUzREFWMXPSAYwBQVVfeXFMTllSR3VuVXdXV1p0Y2JUZ1FoaG56RFQybURDY1hzWlFpdHNXZFhzcmJscXZpVVZUX1VGRl9yYWJ3MklCbExSUDRocWxsSFhBeFlJZmhCU1FpVDJMdFNSdkY0UWpqM2J4SGVOZFVieFUyRTNtbTdzUWo4TjFjZ181NWZZM0hDTnItVWdRZFM?oc=5",
-    "source": "cnbc.com",
+    "source": "CNBC",
     "published": "2026-08-15T12:50+00:00",
     "score": 8,
     "tags": [
@@ -490,19 +437,6 @@
   ],
   "HOOD": [],
   "NVDA": [
-   {
-    "id": "193b2bce16d9b10e",
-    "title": "IonQ Stock Surges 21% After Earnings Shock — Is This The Nvidia Of Quantum Computing? High Potential (BYfCWCk8Wa)",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9WanVzRlRWSThhdjF6Rnc2LWhnMm1zczVnMVJ6TkUzYTRnYzdyam5fODBmN1M3Smw3THhOckREOWFvdnNqUW14R2M2bmU0Uk9GelU0R0NUdmhxUUk?oc=5",
-    "source": "Mshale",
-    "published": "2026-08-17T01:50+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
    {
     "id": "3f6813ffea7200c4",
     "title": "NVIDIA Earnings in 9 Days — Why BofA Expects a $95B Beat and Multi-Quarter Upgrade Cycle",
@@ -548,19 +482,6 @@
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1OZjEzc19iT0dnTG4tSlpwTy1mc1VpcmJWeUE2RjFONEVYWDJoaFRJRjhuN0Q1RG5JNzM5TmFUSGlWemE4Y0oyY3E4ajRjVjgxOWYySWNlQmlEZnpmakNiX0JtYU9aZjZlRE9aenM5bEhyaHFXWmVhQXB2TQ?oc=5",
     "source": "Intellectia AI",
     "published": "2026-08-16T16:11+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "083223e077ac0d46",
-    "title": "CNBC & Fox Today On NVIDIA Stock, Micron Stock, SK Hynix Stock - NVDA Update Kirklees Local Elections 2026 Results (qxZdEqxo8s)",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hdDJwMzJCTGZSNG80bGpCdndOQy02QkJJSEdFd1VrQW5FRmlsVWFGazFSRlhRdzBXNVhqYm5hcGRmaUpOa3VZdGVsRHFrM2djWlVUMm1VY0FWaFE?oc=5",
-    "source": "Mshale",
-    "published": "2026-08-16T12:41+00:00",
     "score": 6,
     "tags": [
      "earnings"
@@ -620,6 +541,32 @@
     ],
     "direction": "neutral",
     "primary": false
+   },
+   {
+    "id": "ec327f7b1ed1704e",
+    "title": "Nvidia Discloses $50B Equity Stake in SpaceX and Intel: Both Exclusive Chip Buyers",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbDRyTjF4N0V4RnVSaHZlNUZiUkVfbV9mMlh2b0c0UTM1TmFRdkk3MENaZ3JsYlpYemI1eHlBYk9BUzFiR3U4dUJMcjJUSDh2TS1jZkw0alVMa3BfcG1UUXRWWE5KQzIxbHdodW1kOTZ2UFhiWUR5WFRFRGdsZENEUFVNMWdhZVp2bHl5RlR1LUFRcktSTnVqWVVaMHg0LXdtZE45OURPOXVuemJiVUxpcmk4SHgwWFB2RmctejJLcUhjUlNub3I4?oc=5",
+    "source": "Tech Times",
+    "published": "2026-08-15T12:12+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "3bc0ea0b48a8e26c",
+    "title": "Nvidia, ASML Lead Five Stocks Near Buy Points With Roaring Growth",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQN2tSZzVYT0d5cEJ3TEZGcW1VSm43NGxOSnBtVTlhOVliaDhKSzRoRzBuckY1RGN0YmowUHpFUUoxOGp4ZTNFYUpZcXNiOEctVGNHMm82UzQtMmhYdXlmVG15azhySmtGQVpHelpBVktlaUJ5NjBmQUY5WDRFT2MyOU1xLWg4SnNiWDA2Wi0tQUV6RmNnd3o4?oc=5",
+    "source": "Investor's Business Daily",
+    "published": "2026-08-15T12:00+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "positive",
+    "primary": false
    }
   ],
   "INTC": [
@@ -660,32 +607,6 @@
      "capital"
     ],
     "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "2e6b6ff094672ddc",
-    "title": "Intel Price Forecast: Nvidia Picked Xeon 6, Invested $5B, Yet Analysts Still Trail INTC",
-    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPUTJ0M002eEJBWW5ocUl6ai1nTkJ1WjFMMktJRWtzekFRcktQd1d1MTFOd1RwbVFQWk9hU25UUC16RzBnbXBXdWZwcE5pS2ROeVN1YXhFZlNjVVctMWg4SWI1Y2FJazZTOTg2OVd0OWpmMGFKczk0ejdZX090Mkg2TU1Tc2Z4b2EwaUJ5MkxITm1NLWxic2JFdDVJRGZjdTBwbVNETDFURk1jMHBQN0ZQV3BhYVcyT2JDYWR2S1hLMERJNWc1bmVwODBxcUN1YUdxMlNQemdJbktvdzQxV0pmZXVIX1Zfam5N?oc=5",
-    "source": "TradingKey",
-    "published": "2026-08-16T01:55+00:00",
-    "score": 9,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "c3b62cd6944130ef",
-    "title": "Pau Cubarsi | FIFA Best Young Player Award, Presented By Aramco Intel Stock (UkUKGhOhKQ)",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9iQXd0U1NxNUtvT0hTTTBsMjMzb0lJTnpwQVRrS2RrNjhBZzRCSDh3aTdtejdxbjVXVVltd3NaUkE4NTFtMHNFalF2T1piWEh1aFlOSl9FRXBLNlE?oc=5",
-    "source": "Mshale",
-    "published": "2026-08-15T21:34+00:00",
-    "score": 5,
-    "tags": [
-     "contract"
-    ],
-    "direction": "positive",
     "primary": false
    },
    {
@@ -904,19 +825,6 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "38c1c61fec874af0",
-    "title": "MASSIVE BUY ALERTS?! APPLE STOCK! TESLA STOCK! AMAZON STOCK! MICROSOFT STOCK! GOOGLE! NVIDIA! META! Thurrock Council (BKwnIs0TKz)",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VbzloTjNWSmdHbDFqV1hydkIzeEFnLWZxXzNIMmNJc0xKVGVQVHc4eWl6cXJRbnVzTVZOMmNBWkNpMF9QX25NU2l0OVRkSnYyZ1JkcmVULWpaNzg?oc=5",
-    "source": "Mshale",
-    "published": "2026-08-15T20:34+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ]
  },
@@ -958,5 +866,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 68
+ "count": 61
 }
