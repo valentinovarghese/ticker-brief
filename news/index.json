@@ -1,9 +1,22 @@
 {
- "checked": "2026-08-18T11:56:42+00:00",
- "changed": "2026-08-18T11:56:42+00:00",
+ "checked": "2026-08-18T12:48:56+00:00",
+ "changed": "2026-08-18T12:48:56+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
+   {
+    "id": "1ce40af319f3b865",
+    "title": "Apple stock trades below record high as Q3 2026 earnings beat meets cautious outlook",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeVYyWW5xQ0tUTGNfeDVOemhBNmctTTlwV2N0UVNwLTFpT3M4Uy1ZR09SellaTmRFRUxXaGV6aEpvamFhQkhCYm93RVByUGo1T0YtWHRMeUNtdjJOZTdkV3N2Mk0xTmZ5Wkc4X3hHNm1vcnlubEVyOU5hdE1ReGpOUjNub3JWODN3V0tJNlN6OXBKVTZjV3hodi1OdkpRbkNfT1BhSHhyVjRpS2pfWTEyYlZwNVpxdHVhY3lnRzJZOFVfaFkxd1paLTdn?oc=5",
+    "source": "AD HOC NEWS",
+    "published": "2026-08-18T12:06+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
    {
     "id": "dcf18f01f6d85763",
     "title": "Apple (AAPL) To Revise App Tracking Rules After German Antitrust Decision",
@@ -14,6 +27,19 @@
     "tags": [
      "legal",
      "policy"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "44007843c83be7f9",
+    "title": "Apple's Latest Earnings Report Surprised Wall Street, But Not the Way You'd Think",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQ2FjR08yd0VvV0VDdFNVMDJXOW1VQnZ4WHNKV1FhMEtlc0RoQjdtckh3aW5BaTZwTzZRLVdSSmplMndLZjV2bUZFdzRpbFN6cnlKVk8zVnVlbXFaUFRtWGp1dXZUWWNtWmJ5SUhWdzRTVFJqcEpHeHpMRFZnZ0hrWVY0NndDYmVfVlZj?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-18T10:34+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -30,19 +56,6 @@
      "capital"
     ],
     "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "44007843c83be7f9",
-    "title": "Apple's Latest Earnings Report Surprised Wall Street, But Not the Way You'd Think",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQ2FjR08yd0VvV0VDdFNVMDJXOW1VQnZ4WHNKV1FhMEtlc0RoQjdtckh3aW5BaTZwTzZRLVdSSmplMndLZjV2bUZFdzRpbFN6cnlKVk8zVnVlbXFaUFRtWGp1dXZUWWNtWmJ5SUhWdzRTVFJqcEpHeHpMRFZnZ0hrWVY0NndDYmVfVlZj?oc=5",
-    "source": "AOL.com",
-    "published": "2026-08-18T03:59+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
     "primary": false
    },
    {
@@ -125,19 +138,6 @@
     ],
     "direction": "positive",
     "primary": false
-   },
-   {
-    "id": "8301aecb9a9408d6",
-    "title": "The cheaper Apple Watch SE 3 is just $219 in this Amazon deal, grab it while stock lasts!",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQS2xCVm82SHJNYUwwRVhpU291UEpuNU1xZVpjOVhxaFExeDFxa2J5ZXdnNDN5aUVZX2otRndPZXlpNVJwWjJkXzZjQWNDVGd5dktFQzJEZDQ3Y3hOT3N0V1ZYYWI0YXZoSTk0c01Zako5bFlJX3VfSVVHb1BHNTAtUkFJYWxLZnFkSGtnNGs2d1JlNWFJQnRZT05ac1Z4WDF0UTFKNG8xai1qbG5rdnB6cmI4OGZpVG03?oc=5",
-    "source": "PC Guide",
-    "published": "2026-08-17T14:35+00:00",
-    "score": 8,
-    "tags": [
-     "contract"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "AMZN": [
@@ -155,11 +155,11 @@
     "primary": false
    },
    {
-    "id": "d56e2e284ea698c4",
-    "title": "Einride shares soar on Tesla Semi partnership with Amazon By Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQOWlUMk1BSUFPUndFMXpQcEpaSzkzTXR6bTk2TVhDX1dkWWJ6eE5Nc1JsMDBiOXA4b0F4UlduNHcyejZzYnVheWxPbnBUbXZFUkhuNWtNcWtnZlhHTmNCOGxkZG90OTUyX1RaTm9HUUkyc3NCMmwxQlp1QjZCQ09GOFByQ2xtWjF2SU1WTElRWTJ4d1pYVFg5bENqN2dXQnpId1pWZG01RFJKOFF1QUhGM3A4YVgwN0Q5V3hIVjNtcG12MlM1MHRBelZB?oc=5",
-    "source": "Investing.com South Africa",
-    "published": "2026-08-18T10:40+00:00",
+    "id": "2bcd7697da1d094d",
+    "title": "Einride shares soar on Tesla Semi partnership with Amazon",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOekVLS1FFX09ZdGthcnJDMkRFSXNobDhfYmpPU25CVUU0UlI5LXFrcWFtZDFxc0o0ZzQ2bElNbVZsc3lpREd3UG5RLVJ2T1ctV1pRcG45dkJEcDRNUy1kNGhaUldBUlRrdm8wQnc0QW8tSXV3LVlybFJLWEZ3eEp3QTc2bDhIN2F2Ri1pa0h3dGlaN0U5emlNckdqOEpDaEQzenZNcE54TFFmc0ZvZWpiYzdKbDBrbnpkalgtWkxMNFVtek1FV3c?oc=5",
+    "source": "Investing.com",
+    "published": "2026-08-18T10:35+00:00",
     "score": 5,
     "tags": [
      "contract"
@@ -263,8 +263,8 @@
    {
     "id": "456c81e90905a112",
     "title": "AMZN Stock’s Road To $500 Could Be Led By AWS, Believes Morgan Stanley – Firm Sees AWS Revenue Reaching $1 Trillion In 8 To 10 Years",
-    "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPNktXNmZsblc4eTdiY0VRbThqbXJPQ2VhczZwbklnZXJKdk5kamdZS1lMY19pdDJHeTVYMGY4M1VwZ0FQNlVlclBhdjIydTJ5Z2NEX05EdWIwcmw4UFRidGJqa282cEJqSWN3bkk0aTJFaS1mRktvY3ZXeXR5RjZlb0FKaEtVclg4VERlLVo0V0JSTTVJdUJ4UUl3RGJ4Rm1kZWNONWJrRGhhWTlzVUdSR0NWN1ZnbXI4dlNUQy1VN2p0R2RqNTR2VW8tSkZXWFZtZ1lfMmdyWmlLZEdsVXhJZWtFbnhBRDFNNlhSMmJ2eDluT3play1TdFg4TW9sWEdMRVRDa1NrM09rLXlHYVBHQldxVGY0dw?oc=5",
-    "source": "TradingView",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSE1JWUVtWXdBemJraWgyZVRSV3VmM1M4aWJxV0sxUUpvRWlHNmFwUGFPQXR3a1dIVGhCX004RUI1bTNQTFUwQ05XTTktdTlqRjFVQ2lwN1g3aDV4T1l1a1hJRG9zWG1JQkFpR2lpbEczblh1T2RlVXJHYWNHZjYyS25TN04yUURTYTg4U0Zzd2o3WWl6?oc=5",
+    "source": "Yahoo Finance",
     "published": "2026-08-17T15:23+00:00",
     "score": 9,
     "tags": [
@@ -275,6 +275,19 @@
    }
   ],
   "TSLA": [
+   {
+    "id": "56ff99dafabc8aa8",
+    "title": "Swedish Trucking Company Jumps 20% On Tesla Semi Truck Order",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOX0lLQUpVXzBrR2ZNVHYxeFJrX2U3eGhVRTJjMGVkYUJ1eS1ENmJfbFlMaTh3YngtUjVMMVg1VWV0Z0w1VDVkdFFocVZUMjNZWmY0YkN2SGJxVGRITFVHMVJSZ3pYcFdRU3k4aDJTaW1icHVxcWdVN1BUV09vWF9tVG9vNlFvc09oaGo2RDB0MmVXWThZUGZsSnpucw?oc=5",
+    "source": "Investor's Business Daily",
+    "published": "2026-08-18T12:21+00:00",
+    "score": 5,
+    "tags": [
+     "contract"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
    {
     "id": "3896ecd9777f2e8f",
     "title": "Tesla to launch Cybercab in Austin this month - report",
@@ -304,8 +317,8 @@
    {
     "id": "ea5bdbb334477015",
     "title": "Cboe Delays Early Trading for Nvidia and Tesla Options Again",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWld2dGt2Y2dQeVVEaXZjbmpXYy14YnBGUW9jd3ppOTlJRXl3TmVOaDFvUUIyVTJfb3gxUXFRN3REMGxYemlTeUZSTHk0NEVrdnRySTMwZ3A4QjlXTG01VFhRaVVLcjYxRkFqM2JuUzJaR0Rvd0hhdzNLVVotbFRtX2dOMHJEcE1IenVyRmhQelRpVzV6enhWWFl1SzRMdllBR1N4Nkh5S0J3Ul85T1YzejQ0Z3dPa2hKdWRUY2ZUNlB1UUU?oc=5",
-    "source": "TradingView",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVzVQUzFCTHVHaGVodVBCNmxyVGw5U1NnUWlvY0I2RGZ2OEs3OUtiTl9qeUJUY3dHVzFSN1ExekVQd0M2WTdjcGFSQXZKb0JXbkk0SFlLcVVxV1ZNSm9EMk42LTdwZ2xZZHdjbWVhZTFLbG80bVpPNUxLSk1oTVNlNVJRa3psYlV0M0NQMnd3UHB5UzVWaHRmSUxFdWVIZnRu?oc=5",
+    "source": "Finance Magnates",
     "published": "2026-08-17T07:53+00:00",
     "score": 5,
     "tags": [
@@ -342,6 +355,19 @@
    }
   ],
   "PLTR": [
+   {
+    "id": "73f61cd7927fdc49",
+    "title": "Palantir Calls Q2 \"Otherworldly\" and Raises Guidance — Will Jackson Hole Derail the AI Sovereignty Momentum?",
+    "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNRFJueUJuakVSSTJHalhiNGpXd1lxVGlhcE04NjlQdl9SWTlkN0wzaWstQ0QwYlpreGQ3TTBmcnJkMjhrNm5aNTFXT1poSmhTQTg4Wk5LaWFBSDNSMUl5dE9WNHZDcUExVEFvR1hxNlZJRTl3azlLbmkxME1PS1VhalBGUUNNQUxUbXQ1bVAzUk9nSmpabzJKN3E1UGhSS3ItT2FDeF9tN3VrajVsU3BRRENOWkF5Wmw1MTUtcUo2Mjd2cmUtMTdTZGZERmYzRXh1TDBROFlsRDdaV3RuY196NGhnVnZRd0JJVjFKWUdwMW1laGE3VUZV?oc=5",
+    "source": "NewsBreak: Local News & Alerts",
+    "published": "2026-08-18T09:41+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
    {
     "id": "14ca11883c6f46d6",
     "title": "Can Palantir Stock Keep Climbing After Its \"Otherworldly\" Earnings?",
@@ -458,20 +484,6 @@
      "earnings"
     ],
     "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "49cbd45f11512f8f",
-    "title": "Palantir Co-Founder Peter Thiel Buys Stake in Vista Energy; Shares Up Pre-Bell",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMHhSS2ZmRW9GanIzNmRqQjM4RGNRczAyZUVyVndIUlh4MmdTMkVoX3NmUUFkS2hteF8xYUExYlQ1U1k1RmJQdm5oVHptVnh1MTA1bU0zdzRFZVRtc1d3YlBqRGtnLUVnRE9PRFItblg1eGlMMFUtRFFubU1fZHI3bURKeTJrd3ZSemVyVWlERFRhNGx5YXJMRkNwYWRKNXZ5b3hwSkhZYV9GTFA5NVotRDBoN1YzcnB4NFJHNGJzUFRTODY0elJUOVNB?oc=5",
-    "source": "marketscreener.com",
-    "published": "2026-08-17T09:05+00:00",
-    "score": 10,
-    "tags": [
-     "capital",
-     "ma"
-    ],
-    "direction": "neutral",
     "primary": false
    }
   ],
@@ -778,7 +790,7 @@
     "id": "86d055fb2587a327",
     "title": "SPCX: SpaceX Stock Jumps 4% as Harvard, Nvidia, Norway Reveal Stakes",
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMFRidlYyaXozVEVDMUdWc2ZQWkxaQms5NmhDakVJY3prQ2l2SVp0amQzcDJueFhncUdVN1pVaXZPVXVwbUJxb1EybmdVOEJNOEtsMEJuN0VXQXZPVHYxSHMyMllQQXFkQmVhT3lDV296UWZBQVVVNHFTTmFrRFRjMENWQUp4eEtzQkNjbTFLaFdkZkhqQmZKYmJKXzFWMUU1WkpTbnJ6UnZiVEV1Y1JETEtOSmdPRldkN1Jackp1SmwzRlJv?oc=5",
-    "source": "TradingView",
+    "source": "tradingview.com",
     "published": "2026-08-18T06:48+00:00",
     "score": 5,
     "tags": [
@@ -791,7 +803,7 @@
     "id": "043c5ceb58bf90a2",
     "title": "Cathie Wood Buys $22.8 Million of Nvidia Stock, Ark Invest Dumps AMD and Palantir Shares",
     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxObW1idHV5c25VR1ZWZTZBZ1B3eHBiemdSWjFZX2hiUEpMeXVMbTN0LUgyaXNuYldDNTRNTFF2TWJJZkI4VlJMSTZTT3k0SkdMcllxSWs0dnlwdUk3NWhQZUZ1M21tWXlNYU4yQmZOT2h2cU1ZNEVDbFZIWEhMSzlqVjF3WEFMbzFVZ20wbDNWUE1QS0VUbWlwemZlUU01ek05MjYxMl9DNUZnbGNmd1RRR2Vzc0ZJMjVObHZFeUhla1k0SWRHS05teTR2bFA4Ri1QTUNBZlBtNjVTM2hhN0E?oc=5",
-    "source": "TradingView",
+    "source": "tradingview.com",
     "published": "2026-08-18T02:37+00:00",
     "score": 8,
     "tags": [
@@ -830,7 +842,7 @@
     "id": "1ab123a8c67b33a5",
     "title": "Groq Gets Brutal Valuation Reset After Nvidia Deal",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVUpTUzhpLVhhaEhWd3UzdGxCaFcyMy0wYjNvdUpqeTJaQlllaWpmcTY2TTdpLVpaQm5hTWdlVUl6aEZLNEVfRFNXb04zblkxVzlpWTVCM0k1VEY2dFo1bW5aRkNpbFJKd3lodk1vMXZ5N0hIMVNzR1puSnZtNElKUFU2NFhOX014TVpHM1g3ekI2US1JdGNKUFFoRkJXUjRidi04TG1jdmtTTTRVbEVZ?oc=5",
-    "source": "TradingView",
+    "source": "tradingview.com",
     "published": "2026-08-17T20:11+00:00",
     "score": 5,
     "tags": [
@@ -854,20 +866,6 @@
     "primary": false
    },
    {
-    "id": "05f93293f1ddeb40",
-    "title": "Nvidia's Spectrum X CPO switches enter mass production; GFS forecasts 100K shipments in 2027",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTDBYNUd1NmZNNG41OTZuX3BieW1Pb3lydzduc3hJd2FZUlZhNmxDMXktVjh0NWpmTElUV3hNYlNESTBxdDE4eUktM2RiT3RoS2h3ZmY2RHJpX21qZ2ZvdTU3M0sxbkdrc2kwSUFaX19vU1Z1VlFBdDJROE1vdkVJdW1qclo4Wnk4bGhiTFdjSXlydXV4U3dodVF4VFJOUVJiRFVOWmItY1dpWnUzRGJBTUhwSHJEb3ZrVXU5M09Md1A3OHFJS29R?oc=5",
-    "source": "Seeking Alpha",
-    "published": "2026-08-17T15:46+00:00",
-    "score": 11,
-    "tags": [
-     "earnings",
-     "operations"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "b4d9b2899825fcb9",
     "title": "Nvidia Strikes Deal With OpenAI As Tenant; Is Nvidia A Buy Now?",
     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1XTUFJeFZmVTllZDZKSFlLVjhXd2hLUEFnSXlwakRMdk1pemZJQmZFOFNKSHJBbWNfYzM4OEtoQmFpN0dINXFieE1fT3FlVTNkdExwdzJLVTJRRURUWk5yV1F4cEppRVdYSm9PekNFTEtrbE8zOUVHM2dRZzY2R0k?oc=5",
@@ -881,14 +879,53 @@
     ],
     "direction": "neutral",
     "primary": false
+   },
+   {
+    "id": "652fcaea9a492a6a",
+    "title": "Nvidia’s Stake in SpaceX—and Musk’s Massive Holdings",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9veV9YNGNtUVRBN1N0WHRuWlM4aWRJOFF1dl9ueF9maEo3VnNrQ21jTVlmVjNwQmFVVlZzVkMtYlo2aFRLTDNtczBuWmhwU0RBSExpY0dBWS1RaWtNN0tUMmFOMWVmOEVWUDVmM3A4QnNTWmdwbl9hNEpUTmpSQQ?oc=5",
+    "source": "Barron's",
+    "published": "2026-08-17T14:21+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
    }
   ],
   "INTC": [
    {
+    "id": "db329fa0ab86e921",
+    "title": "SoftBank put two-thirds of its U.S. stock portfolio into Intel, SEC filing shows",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5PMEFHOTB2Zkk4SlNVZFdxWGNmTE8xcTY5dWUyeks5Sl9WZkVPZmJ1dldPUC1EaUxmT1NmenE3amI0Wmd2S0liR09aaEc0QS0wREs0UGNPU0ZxN0dCaTQ5bQ?oc=5",
+    "source": "qz.com",
+    "published": "2026-08-18T12:16+00:00",
+    "score": 6,
+    "tags": [
+     "filing"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "a725773ff7a67c72",
+    "title": "Intel Stock Steadies After Aggressive $20B Share Offering",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBBWDVJUVZSSzlnYXJVTFlQWWtJdnd0WUhPZi04VDByenU0b3pHOU9SVmY4akE1RkpINEZaeTBOZ0dGZkJITzBfUTdIUVJla1ZLY1FsM1N6WkVONWp5dUpfR1pHUUlidGcybGtMd0x2ODREMU1kcWZQa3VrTWFHZw?oc=5",
+    "source": "timothysykes.com",
+    "published": "2026-08-18T11:48+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "54b09b75500b8f12",
     "title": "Intel Stock Closes 8.9% Above $20 Billion Offering as CEO Buy Signals Confidence",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNb081X2pxY3ZwRWtEcEducER1NGJHc2d5dUYxeDJFQzRITHRYZ3FwU0EtVGhsSERQZU1ldVJzVnJSam5NOHF2aUgtTlI2VmhjNXVFenJzT2pXaWcwek44UzloX09yS2l2MVdBNGQwS1R1c3FBYzhtUFpHd0xmOXhvN2k3TDhVSVJXRl9Jb0g4aEcyMExTVlVheGVjVHI2N29E?oc=5",
-    "source": "ts2.tech",
+    "source": "TechStock²",
     "published": "2026-08-17T23:05+00:00",
     "score": 13,
     "tags": [
@@ -978,37 +1015,11 @@
     "primary": false
    },
    {
-    "id": "c8656ce7ab546da5",
-    "title": "Banco Santander stock strengthens as US expansion and Intel stake deepen growth story",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdHFOZlNwZ2hOTnA1Vl9EZGtFemhBbW45Zm9YX3ZjUl83VGY1S1NPRkM5eTRaU3hxdktHcHM0bFUzbU1iUzVIUUFJNnE2NEFONjd6X3FrdmszV1NXRmF4UkVXOXRBU295UUwyWmtpYTcwYy15STZBTlhZbllmZ2xNcEJpM0FnR2puNUh3cGJoclZ1YTlwNWhWLWFhRjY5OHl5R0RTZzRUbmVLVjR5WldEQTNMWWw5MDlrSWFoTHlIblpGVTBPSlpWeUdWVWhFdzNH?oc=5",
-    "source": "AD HOC NEWS",
-    "published": "2026-08-17T04:52+00:00",
-    "score": 5,
-    "tags": [
-     "capital"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "f39c9994a18f3c57",
     "title": "Intel Prices $20 Billion Stock Offering at $95 per Share",
     "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5ZU3NSRUdjMFU3X0lRcERGM2x4WWMzU2M5N1FJbWZrX3ViWTZiMUNiN1pQcGIzZ2pNZEd5bGlfS2U2bjdhejA1czl3?oc=5",
     "source": "بوابة التكنولوجيا المالية",
     "published": "2026-08-16T16:44+00:00",
-    "score": 8,
-    "tags": [
-     "capital"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "a0bc496a57d4e750",
-    "title": "Nvidia's $5 billion Intel bet is now worth nearly $25 billion, and its SpaceX stake isn't far behind",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSThoOE4zM0pwQkI3dm1zT2FRVmUwTExfTi1xNlJrMUZma1I2YktqYk1Hc3l6eXZGLUZoTDQxelJQMHFXRWQzYXhieW9FelhrNEtDNGNoWWltSFdsc1pDME80clhqMHY3NlR3U2x1cUMtN3F3MENHR25aVktuLVpPcUNJNDE0b1kzcGU4cHRR?oc=5",
-    "source": "TechSpot",
-    "published": "2026-08-16T14:47+00:00",
     "score": 8,
     "tags": [
      "capital"
@@ -1047,6 +1058,19 @@
     "primary": false
    },
    {
+    "id": "aaed20577ead8b7e",
+    "title": "Sell NVIDIA And Buy Nebius? Or Is The AI Infrastructure Trade Getting Too Risky? The Scottish Sun (CIKYXl7lab)",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5HOEhqUldELW5XTmc2bGRTNXRSMEFhQzl6aVFvbTNwWXY1cm42ZXluTlIxSFgySi1FZzV1Uk1WZ1lEQU4wSjZ3YjNLS2UyUDBkZEJ5SmNmeXpHQW8?oc=5",
+    "source": "Mshale",
+    "published": "2026-08-17T17:34+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "354b1310a81f7960",
     "title": "Nebius Is Worth 55 Times Its Revenue. What Does That Price Assume?",
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5iOXJPTHFvUDBTYURtRHY2eVJJaDdJWDN2eHZ3Y01uRE9pRmZHVFVJYkpJRDU3SE85b002eWhDRlpWaGQxc3R4ZU9NRmluXzY3bHM1NElkc2Q3czY4dWlha1VaTWtBWWNOWmtUcFk4WE51Wmt2R0NqSWN5UWlKZw?oc=5",
@@ -1063,7 +1087,7 @@
     "id": "9633e66f4b6631d6",
     "title": "Fuel Cells Beat Gas Turbines at Permits: Bloom Energy Stock Jumps on Nebius Deal",
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNT09tdzZUc3JTU2o5Ml9iUXJNejA5UVV3QzVIaUJ5OURSWXBGSEoyMjNxSFF0RWNqNjNFZ1F4dG1WNzRXTzZ4NHBMbjZwVXpuWTlTcjFRYkI0Q0ttMzMwM09fcGs4QVhvM2Q1V1RsYmNxTk9pbnE5eThPVlFKN1JjNzdsX0dSbGktZ1JaUkVJSGQzX2xjY2NmQnZuUUo4TFRCcTEtS0xCMlhWQVRmSEd0Q2VVOWFaQ01ZdDZnZDg5WWxVRGp4OUdz?oc=5",
-    "source": "techtimes.com",
+    "source": "Tech Times",
     "published": "2026-08-17T15:00+00:00",
     "score": 11,
     "tags": [
@@ -1114,6 +1138,19 @@
    }
   ],
   "MRVL": [
+   {
+    "id": "af038ddf4f0c3091",
+    "title": "Marvell Stock Gets a Major AI Boost: UBS Sees Billions in New Revenue Ahead",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOb2l2S3dibTdzSmZ0cXBHbUxMZnNBWWR3bmFGOF9XVGZrNmVfZkNXTkVRd3FDZVhPR1R4UmFLMzFsNmNqVGxWMVBVemNxTnQtNXVucllVRU9nY2d2NVBPNXljWVRWNVRENjRvRDdYTW1tbkpuZ3hYZjkwdVVOaFFJVDY3OEpkWm5kMTNHcl9FdjNPWW10RVhKbHozcTl6cnI4a2g4dnNfMHZVRmhhN25tLS1CUDFCUVI1Umg2bDRIVFlFOVR6U3FjNktDN3N4aUE?oc=5",
+    "source": "tradingview.com",
+    "published": "2026-08-18T11:57+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "4afb0b156783e98c",
     "title": "Marvell Technology (MRVL) Stock: CEO Offloads $1.77M in Shares Ahead of Quarterly Report",
@@ -1261,5 +1298,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 90
+ "count": 93
 }
