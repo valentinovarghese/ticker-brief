@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-18T17:18:45+00:00",
- "changed": "2026-08-18T17:18:45+00:00",
+ "checked": "2026-08-18T18:15:20+00:00",
+ "changed": "2026-08-18T18:15:20+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -49,7 +49,7 @@
     "id": "c216923efa754c53",
     "title": "Samsung Could Follow Apple’s Stock Path if It Becomes a High-Dividend Play, Hana Says",
     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1keGt0SFZZUFZ1LWkwb3hjTzlfLUxic3J5NzJGNXhqWFlfaDgtdjZyRTVkVkRRRWNyam9JNGx5WVk5M3BjWGFoc3RVc3Z0RjVieXFJSw?oc=5",
-    "source": "en.bloomingbit.io",
+    "source": "bloomingbit",
     "published": "2026-08-18T00:21+00:00",
     "score": 5,
     "tags": [
@@ -62,7 +62,7 @@
     "id": "8422a80a6808bcf5",
     "title": "Apple investor sues board over alleged AI piracy, stock buybacks",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTEtaYVQ3S1d5dFQybjFPQ0trR3hMdkhiSlhmUlpRbGxIbHk3MjZOSnBZQkFUNWlxWEhhd1Vyajg2UTlmZ2ZyOExndTNkMGtWZ0R6VDh3RjQxOXZPSFM2QTBCSHVtdnNpdG5iRlpCZ05XNkJkR1hzS0lxakdUN25SVVFBeTh1TjltbzI0RE1NRmlWYkZDc3NaTU5Od3dRMXVNeXFqUWEyd2xwa1E?oc=5",
-    "source": "dailyjournal.com",
+    "source": "Daily Journal",
     "published": "2026-08-17T23:23+00:00",
     "score": 10,
     "tags": [
@@ -70,19 +70,6 @@
      "capital"
     ],
     "direction": "negative",
-    "primary": false
-   },
-   {
-    "id": "eafa66d03b9d06e6",
-    "title": "Micron (NASDAQ: MU) Stock Price Eyes $1,000 Breakout As Apple Memory Deal Could Ignite Next Rally",
-    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNMmRqT2ZMU01KZ0ludU5EZzd0MUVrMDRQQmJaRG9xcUJhcHJZUmZmLVp6eVN3NTNRandHdVlEZTFLX1BDWXdqMU5DYVBCTnIxRVc5dTRLVGhocmFlRjNOd3A5SC1FNHhLd3BCSnJVSnNJdndaNUY5ZmRiZkpFV3hPSHAyQU10ZUk1VDFlR05rTVMzYXhTajk5TDZDcVVNR3NIT3dKcjRTaWtzd2RaNTlVa2N1Y1YzTUVnWS1MUlF2clFzelNqQTE3eFVRVWZiT1NtWU5YUE5IUXE?oc=5",
-    "source": "foreignpolicyjournal.com",
-    "published": "2026-08-17T18:14+00:00",
-    "score": 8,
-    "tags": [
-     "contract"
-    ],
-    "direction": "positive",
     "primary": false
    },
    {
@@ -117,7 +104,7 @@
     "id": "8301aecb9a9408d6",
     "title": "The cheaper Apple Watch SE 3 is just $219 in this Amazon deal, grab it while stock lasts!",
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQS2xCVm82SHJNYUwwRVhpU291UEpuNU1xZVpjOVhxaFExeDFxa2J5ZXdnNDN5aUVZX2otRndPZXlpNVJwWjJkXzZjQWNDVGd5dktFQzJEZDQ3Y3hOT3N0V1ZYYWI0YXZoSTk0c01Zako5bFlJX3VfSVVHb1BHNTAtUkFJYWxLZnFkSGtnNGs2d1JlNWFJQnRZT05ac1Z4WDF0UTFKNG8xai1qbG5rdnB6cmI4OGZpVG03?oc=5",
-    "source": "pcguide.com",
+    "source": "PC Guide",
     "published": "2026-08-17T14:35+00:00",
     "score": 8,
     "tags": [
@@ -138,6 +125,19 @@
      "policy"
     ],
     "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "2b2190f01d26917a",
+    "title": "Rothschild upgrades Apple to Buy as foldable iPhone and AI strategy drive optimism",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeXA0eGJfVUJTckh1Y3I2eGZaM3YwbjA5bXp1Rks1ell6S0pydHBxNUVpaC1oX3dGUWpxLXZLU0Z0ZEF0VnlXLUphRm9PMHBKaW1BSDhIYlRVQnNkcFc2NHJyNXBZWUZjTllmRFhEaHNMU0VIandCZ1pMbi1GRE0yY3F1clFLOFF1Mm1vM0c1NDV2V3lyYWhhSUVuVV8ydmlWeExLWUd3?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-17T10:35+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "positive",
     "primary": false
    }
   ],
@@ -169,11 +169,11 @@
     "primary": false
    },
    {
-    "id": "2bcd7697da1d094d",
-    "title": "Einride shares soar on Tesla Semi partnership with Amazon",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOekVLS1FFX09ZdGthcnJDMkRFSXNobDhfYmpPU25CVUU0UlI5LXFrcWFtZDFxc0o0ZzQ2bElNbVZsc3lpREd3UG5RLVJ2T1ctV1pRcG45dkJEcDRNUy1kNGhaUldBUlRrdm8wQnc0QW8tSXV3LVlybFJLWEZ3eEp3QTc2bDhIN2F2Ri1pa0h3dGlaN0U5emlNckdqOEpDaEQzenZNcE54TFFmc0ZvZWpiYzdKbDBrbnpkalgtWkxMNFVtek1FV3c?oc=5",
-    "source": "Investing.com",
-    "published": "2026-08-18T10:35+00:00",
+    "id": "d56e2e284ea698c4",
+    "title": "Einride shares soar on Tesla Semi partnership with Amazon By Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbXNpVFdVX3RKMEp2RkVTeklCQ0Zhbk9MVXVScFNGN0s5TkdQSlVhdFFMTlJTR0FyTk5ma3lzQmJ0Zk5rSXZtVUhuXzRrTl9tcG0wQWg0akNlWTY0cFBXZ1REVktqLUo0SmJfMUxyMUxvRUVMV0dRRmZ1NEpYMWlyTk5PUHV6bUczN2E5SUdwdUVXT2w2REpreFVuT0lXTXNMWVptU2hGX0F0NXU5YlZiQTFNc2dOZ3ZhMmc?oc=5",
+    "source": "Investing.com Australia",
+    "published": "2026-08-18T10:41+00:00",
     "score": 5,
     "tags": [
      "contract"
@@ -453,7 +453,7 @@
     "id": "1b289aa409ccdc9f",
     "title": "Microsoft Cuts Carbon Removal Buying 80% as AI Emissions Put Climate Goals Under Pressure",
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVkNIbDRYUm1QcEJMdU5xU3BWSFVRS1Q2a2JrN0J4eUUtaXJVZXpvR0xCWHRqTElTcFNQUE95bWsyaUZfczlqVnJ6dUZZUTlLSmZCclRKY05zcVRpR0ZGOXlpQnNyUlNBZFY0WEloajJFSmR0c1hZRldBLWd6bXktSkxsMzRyQQ?oc=5",
-    "source": "carboncredits.com",
+    "source": "CarbonCredits.com",
     "published": "2026-08-18T15:47+00:00",
     "score": 5,
     "tags": [
@@ -529,6 +529,19 @@
     "primary": false
    },
    {
+    "id": "d458c6c008202159",
+    "title": "Microsoft Shares Slide 3% as Morgan Stanley Flags AI Spending-Revenue Gap",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBmYkpycEdIWFZmOWwyR2JZcUluamt0dkFkSUQxVjM4Y2o3UUthRUhqME9hanR3c1RUWW1MU3JnNF9QSkRKcS1weFdPTnRKdU8ycHByRHBmbjJkTmlaenI3ZjNiMXl5ZEsxVDZoa3lZTnVLYjhRWHc?oc=5",
+    "source": "finance.biggo.com",
+    "published": "2026-08-17T20:25+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
     "id": "13453405511a046a",
     "title": "Bill Ackman Exits Alphabet, Cuts Amazon Stake While Doubling Down on Meta and Microsoft",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5yb0tTakVyRVpOd3BJUjdtMkptY2VBVDdBSHhHM2ZBYTZuV19hcUo4MWpmZ084Y09sRmtJQV9HWGNNV01EdmpvZzBYaUYtUW5Vc2tjU3JPSl9XNC13amZ1cVpBeUcwWW5qR1dPb010YllMX3JyVEE?oc=5",
@@ -538,19 +551,6 @@
     "tags": [
      "capital",
      "operations"
-    ],
-    "direction": "negative",
-    "primary": false
-   },
-   {
-    "id": "1962100e4f2db169",
-    "title": "MSFT Stock Price Today: Why Microsoft Stock Down? Shares Falls 3.28% as AI Spending Concerns Return – Check Financial Indicators, Revenue Performance, Market Analysis & More",
-    "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPa3VucHFfMnd4ek5hS3FyeDFyVGphS3JuaWNobXdfNktkaHQxempkSzM5QkFibjJKWXdHZFdmU0d0Uy1kSVl5SXBLRENSSmdLMVZ3bnMyYTRtM3pmMjVESHBLS21KZ3ZJMVkxMktZMlc4WmNjeDdFX1JRTERzVEVIbmpiSW5sNW5XaXM4UGVJZTVtR1NMLVJubXd1b3pFOGlMQkc0Y2pRVnNoZlJNLXFaZjJpRHJiXzRnbmtDbWNpcTVkcGdBSzBTazh2VEJmX2FLX3ljdXpHaGRoTXFKZlNTOVJZV3o3SGNPVXBnR0M4WjRpS1NZVll0WUZlUFNfY1EzYlVwOE9kQ3RHakc0WlFCY05lTlJzZDVpYUdMcXpMeTFJUF9qS2dZYlQ1NHZNMEI0NTQ4aVhR0gG7AkFVX3lxTFBGYnA0aG9NUGVvNlVMMW5pdDNvenA",
-    "source": "The Sunday Guardian",
-    "published": "2026-08-17T17:42+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
     ],
     "direction": "negative",
     "primary": false
@@ -749,6 +749,19 @@
     "primary": false
    },
    {
+    "id": "ca6276f4a1cb79f1",
+    "title": "NVIDIA Commits to Major AI Infrastructure Partnership in Ohio",
+    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPcUV1dHZYdEphbU9ZbWQxMENHR1NBTmFMdS1GWTd1VEtLTUowUjhmM09ZOG45NVJBSFJaNk9jdEtqdHJTTThFVEIwcmlDN3lDc1dNRDZ0a2x2VzBGQm9NREo4MjNEY1MwODRiVlltSjhfcmJqalBHclgxQksxTWxzRDVOanRFX2lpT09RRmlBQjRsSjRkQVNOSnRqaG9rU2NmMEJ2cm0zRGlvbmxaTko2ZU56TXFUeDlSVHo2M0t6azNzMzVLcUNwS0xLZ2FqN2VVajUtYTdCd1ZTcGlyZVJxeUZR?oc=5",
+    "source": "The Globe and Mail",
+    "published": "2026-08-18T13:32+00:00",
+    "score": 5,
+    "tags": [
+     "contract"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "307d2d1418d0c985",
     "title": "Wall Street Analysts See Nvidia (NVDA) as a Buy: Should You Invest?",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNOGVVLWhRUWQ0Tk42VDRLNjNhal9McVoydjhxV0pkelZkLTE3NVh1T09VUk10SmhtajdMR2ZtSHdsbXpRWGtfTnJZSW5iQndxdFozTW03bGw4SU5pN3ptV09KY0s2dEZpR3hwYVY1dzgwcFNaS0w1LUpReXR5ZTQzeVk0MUduQUdfWjdBbm9hNFZ1VE5Gc1pOd0VIckg?oc=5",
@@ -812,22 +825,22 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "10bac3db16a9d930",
-    "title": "Nvidia’s Huang Says OpenAI Data Center Could Generate $600 Billion in Revenue",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3dW9JWUlCUkQtOUVFZW1zSFV2X1p3Vl9HRXpTWEdSLXgzVy1KZThoLVRqYkVkd0xEenZ4encwcExhWlJrSGY4bzZFbmkzY3JBamJ0RzZJYlZvOEFCTDUxREplUlNyc1BlMFVuUGhlcHAwSXlrREE?oc=5",
-    "source": "Barron's",
-    "published": "2026-08-17T20:47+00:00",
-    "score": 9,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "INTC": [
+   {
+    "id": "05e571dfaf0ee874",
+    "title": "Intel Stock Under Pressure as Share Offering Spooks Markets",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcTBUdjZHTnRLVXZjaHNqNHd3TEpzRDNwSW94REM3Z1R4Tks5d2U3Rm1QazVWSnRpY09EMWh2VDhPSTlHeEdKNTlZWjk1VW5PSXNuNnpzdVRJb21sTHh3NHlyYjNZVnZoWDhTbzBsQzlnQ3Nsc0xIZ29HaVdtMy1lcGpfbkdfZlhCbEhVMGtNbzlzR2FBT3E2Rlo1Zzc1dw?oc=5",
+    "source": "thebull.com.au",
+    "published": "2026-08-18T17:18+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "45afd93606b7ec4b",
     "title": "Tech Stocks Forecast – Rising Rates Pressure Oracle, AMD, and Intel",
@@ -884,7 +897,7 @@
     "id": "5fb78629d6baccd5",
     "title": "INTC Stock Slides As $20B Share Offering Reshapes The Chart",
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE51Q3RHZl9nSmRSZE5weDVXd1ZySDNUaHh3ekNWQ05RVEh2YktUbGRkYnVLSDBKZko4bmx2bFFMaFk1OGNaZEFfTTFxN3ZsN0dldzhqRFpiVFZfY2w2d1NIbkV3T09PRVduSTk2OGprMkRjc2x1cWlJT0Jn?oc=5",
-    "source": "StocksToTrade",
+    "source": "stockstotrade.com",
     "published": "2026-08-18T11:48+00:00",
     "score": 8,
     "tags": [
@@ -946,19 +959,6 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "15e466031a6c9202",
-    "title": "Nvidia has $21 billion SpaceX stake, $30 billion in Intel shares",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTU5yOUZjOEFSbXNOQjZqUV9mSjNUVEw4VTh5d1R4dk5heWh5cEFtUHhjVnVqNFg0a09CaUlJZlU2Z0xSVGpsdjlxdXVZM05BcFEwOGhycXRaR3FWV3hEVGJKME5LS25lZmxsM0UzNTVlWXdlb2stamRzZWI5NXFZYWJ1TnJweEJtT2hVaWxoX0c4QTF3MzFCYjdVcjlramVtNE9pMml0b2ZvejlS?oc=5",
-    "source": "Moomoo",
-    "published": "2026-08-17T12:29+00:00",
-    "score": 8,
-    "tags": [
-     "capital"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "NBIS": [
@@ -973,6 +973,19 @@
      "earnings"
     ],
     "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "c36621e6cc09710b",
+    "title": "DA Davidson Reverses Course on Nebius Target Cut in Just 1 Week. What Is Going On?",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaFRqeVpLMUR6aXEyU1lVS0FZV3NUT1NWRmp0ZVdJd0FjTFZoS2x1VlB3eGtJOUU0Y0dHR2M5NjdzVzkzUi1ZM1NMZk93Nl9FdGp1U1gyZlhrWnpvbWJHclk2U05SWVpwLWdqaU45amJ1dk5Mc3VuNEZ2d3lVeUlQcTNMalFaZjRKVER5VndGNkdPZk9MNmxKQ0hkQ0lxc0ox?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-18T13:52+00:00",
+    "score": 5,
+    "tags": [
+     "operations"
+    ],
+    "direction": "negative",
     "primary": false
    },
    {
@@ -1001,6 +1014,19 @@
      "policy"
     ],
     "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "aaed20577ead8b7e",
+    "title": "Sell NVIDIA And Buy Nebius? Or Is The AI Infrastructure Trade Getting Too Risky? The Scottish Sun (CIKYXl7lab)",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5HOEhqUldELW5XTmc2bGRTNXRSMEFhQzl6aVFvbTNwWXY1cm42ZXluTlIxSFgySi1FZzV1Uk1WZ1lEQU4wSjZ3YjNLS2UyUDBkZEJ5SmNmeXpHQW8?oc=5",
+    "source": "Mshale",
+    "published": "2026-08-17T17:34+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
     "primary": false
    },
    {
@@ -1068,13 +1094,28 @@
     ],
     "direction": "positive",
     "primary": false
+   }
+  ],
+  "MRVL": [
+   {
+    "id": "5a51e69e1846cd24",
+    "title": "Fabrinet Drops After Earnings Dragging Down Peers Like Marvell and Amphenol",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNclZGaW42STFBaWgxMTgwdnJUUkRJaWxHUzVOQ1RPNGF5Q0ZpaVNvSUtRRThYb2RGYndkLUpTUkJvZzZZcWZybC1ySzk0NUVYTzkxRWxSVk5qcF83bGJjN2pKQ0tGa3BzN3hCbWx1UzZMdnpYNVJyWWdtMUZ3d0tNZ0JRM0otV2xT?oc=5",
+    "source": "aol.com",
+    "published": "2026-08-18T18:03+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "negative",
+    "primary": false
    },
    {
-    "id": "11adf474e0b53783",
-    "title": "Nebius: Why Its Post-Earnings Momentum Has Staying Power",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeDJTSV9JV1NpOGFkUEhRN3NlMW80b0dXaVVZQVFGUU1vR1BvQ1ExWDhOWTkxRU5IMnIydHQyN2Y4UVZzeWlsRmU4RG5qS0VVYmxERFZuMnJWZFFmM0c3Zm9EanItaTUwTUprZHZOYzV3ZTdRbGlzTnY1MU5VYWJ4VEFpX3pWYVRFb1J5Zmx4QnltdlJRWk5WSk1MUQ?oc=5",
-    "source": "Seeking Alpha",
-    "published": "2026-08-17T00:13+00:00",
+    "id": "af038ddf4f0c3091",
+    "title": "Marvell Stock Gets a Major AI Boost: UBS Sees Billions in New Revenue Ahead",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOb2l2S3dibTdzSmZ0cXBHbUxMZnNBWWR3bmFGOF9XVGZrNmVfZkNXTkVRd3FDZVhPR1R4UmFLMzFsNmNqVGxWMVBVemNxTnQtNXVucllVRU9nY2d2NVBPNXljWVRWNVRENjRvRDdYTW1tbkpuZ3hYZjkwdVVOaFFJVDY3OEpkWm5kMTNHcl9FdjNPWW10RVhKbHozcTl6cnI4a2g4dnNfMHZVRmhhN25tLS1CUDFCUVI1Umg2bDRIVFlFOVR6U3FjNktDN3N4aUE?oc=5",
+    "source": "TradingView",
+    "published": "2026-08-18T11:57+00:00",
     "score": 6,
     "tags": [
      "earnings"
@@ -1083,25 +1124,10 @@
     "primary": false
    },
    {
-    "id": "b96d7d3d0dfb9841",
-    "title": "Nebius Group Surges on Q2 Results as Michael Burry Increases Short",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE14aU92ZkxTeExJWUZzSWMyYnpacjNTbS1FN3hTS01nbGIxMHlVRnkzenY2VG5xWlhGMEpyeDM3bEdTa2NUNVRPTHhNNEM0bUUtSFZoLVJRdXhPYlJNTDNOWmQ2ODl1RzUyd0dMRQ?oc=5",
-    "source": "sekbernews.id",
-    "published": "2026-08-16T22:12+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
-   }
-  ],
-  "MRVL": [
-   {
     "id": "4afb0b156783e98c",
     "title": "Marvell Technology (MRVL) Stock: CEO Offloads $1.77M in Shares Ahead of Quarterly Report",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZmRQdVAyQ0hZU2JTeHNNVXM2SHR3TjhTMEJhazBmRXB5dUFCWHZ4R3hoZjhOZ3VQLUxWVGpjVG1Fa3hmOExBSUczcjZtZV9oUGRWWkNZRjJYS0lxMmNYeG1Da1JmbkZNQVVNRG85czFoRDFYa3pORUhSd3JqSGpjcDJBbTR1am1zd0pqcjVldS1wekY3M3lkX2dPeTdjdmM3UWdrWnNDSW4zUzhT?oc=5",
-    "source": "blockonomi.com",
+    "source": "Blockonomi",
     "published": "2026-08-18T11:14+00:00",
     "score": 9,
     "tags": [
@@ -1231,5 +1257,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 88
+ "count": 90
 }
