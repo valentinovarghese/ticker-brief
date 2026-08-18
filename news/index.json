@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-18T16:17:33+00:00",
- "changed": "2026-08-18T16:17:33+00:00",
+ "checked": "2026-08-18T16:52:50+00:00",
+ "changed": "2026-08-18T16:52:50+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -27,19 +27,6 @@
     "tags": [
      "legal",
      "policy"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "44007843c83be7f9",
-    "title": "Apple's Latest Earnings Report Surprised Wall Street, But Not the Way You'd Think",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQ2FjR08yd0VvV0VDdFNVMDJXOW1VQnZ4WHNKV1FhMEtlc0RoQjdtckh3aW5BaTZwTzZRLVdSSmplMndLZjV2bUZFdzRpbFN6cnlKVk8zVnVlbXFaUFRtWGp1dXZUWWNtWmJ5SUhWdzRTVFJqcEpHeHpMRFZnZ0hrWVY0NndDYmVfVlZj?oc=5",
-    "source": "AOL.com",
-    "published": "2026-08-18T10:34+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -75,7 +62,7 @@
     "id": "8422a80a6808bcf5",
     "title": "Apple investor sues board over alleged AI piracy, stock buybacks",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTEtaYVQ3S1d5dFQybjFPQ0trR3hMdkhiSlhmUlpRbGxIbHk3MjZOSnBZQkFUNWlxWEhhd1Vyajg2UTlmZ2ZyOExndTNkMGtWZ0R6VDh3RjQxOXZPSFM2QTBCSHVtdnNpdG5iRlpCZ05XNkJkR1hzS0lxakdUN25SVVFBeTh1TjltbzI0RE1NRmlWYkZDc3NaTU5Od3dRMXVNeXFqUWEyd2xwa1E?oc=5",
-    "source": "Daily Journal",
+    "source": "dailyjournal.com",
     "published": "2026-08-17T23:23+00:00",
     "score": 10,
     "tags": [
@@ -138,9 +125,36 @@
     ],
     "direction": "neutral",
     "primary": false
+   },
+   {
+    "id": "2022fb351948d4c9",
+    "title": "Germany concludes Apple antitrust probe as tech giant agrees to data consent changes",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeW90UVFTRnlTdzgyWVVNSUVqRjRNZzR0bUdhcVVDQ1hNQ3hab05BWVlVVjBEZVlNSERTVVFLQ095QlpDd2ZtNl9FRVZFZHJQRzZxNHNINFY2NHZiNWsxcTVRTE52VVA2dEw1RFg0R1VYa1pLbzIxOGduZ25VaWVhVkZRU2JhMEdlWlhnNlZVQzlTWE9EZ2dvV1Z3XzA3c2k5VFBQTmhtS1BiM1JCYWZmLWtEb25oMTNWR1VMTV9Daw?oc=5",
+    "source": "Seeking Alpha",
+    "published": "2026-08-17T11:28+00:00",
+    "score": 9,
+    "tags": [
+     "legal",
+     "policy"
+    ],
+    "direction": "negative",
+    "primary": false
    }
   ],
   "AMZN": [
+   {
+    "id": "69e9e11545471848",
+    "title": "Amazon.com (AMZN): AI Demand Triggers AWS Revenue Acceleration",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMVQwb0dNc1k5cExzQ3N3cE1Ic1dWTkk5Y1p3LVFfN1dyaFp6M3NhZi1kWWVHVmc1ajYxT1BDNGY1VVJZcmlhU0lxeUV0bmV6OUM4VERPYzMxRnVMRnZaUUhJOEU0V21XUnprNGQ1YzZVeFZWZFRmVWgzZWZ5UVF5b0FDRklrVWlabzBSY1cxSGM2LXUz?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-18T13:18+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
    {
     "id": "1fad40ae8cb6fa08",
     "title": "What Could Amazon.com (AMZN) Patent Lawsuit Mean For Its Smart Home Business?",
@@ -171,7 +185,7 @@
     "id": "67fb6af84a6289e6",
     "title": "Amazon and Alphabet Both Cost More on Next Year's Earnings Than on Last Year's",
     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42bnhQSUVtYjBJZHNRUUdZU3N6T3FTeTRncnNrbTdBMmtmNURWYlBPdHdoVVF4dE4yUGFxZTlRYzRoMjdWZ1I5WHJKTzFBUnM2Sm85YTNteDJHZHc3LUJWNVJJUW9MWjlzSWNBOGJBemNDQU5TREk0QTFCYmNaRW8?oc=5",
-    "source": "AOL.com",
+    "source": "aol.com",
     "published": "2026-08-18T10:02+00:00",
     "score": 6,
     "tags": [
@@ -184,7 +198,7 @@
     "id": "cdf4de94f7979958",
     "title": "Amazon Is the Only $3 Trillion Company That Has Never Paid a Dividend",
     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zUEhEOVVGRkgzSnN4eGxXeEQtNW1pLW1ZNDd1T3BQOHY1WTBMbExjb3NFZVpYVEVyTGk5NS1Pb0IyYkN5WERnSEdILVExdThRQktwV2FGbHBaT3JhVGdHM0FUN3dZOEhMQnVjTU91ZVFHeGxxY3lfUWhYVWhMSk0?oc=5",
-    "source": "AOL.com",
+    "source": "aol.com",
     "published": "2026-08-18T04:21+00:00",
     "score": 8,
     "tags": [
@@ -197,7 +211,7 @@
     "id": "cf5d70debcdd33ff",
     "title": "This AI Cloud Stock Is Obliterating Amazon, Microsoft, and Alphabet With a 1-Year Return of 275%. Is It Still a Buy?",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONnRMdlNqcy1HVGpvcDRJYlB0ZTJ3ZkZCOWMtMERXT3RtcHJaSUhJUThOU2U1NUdfQzhIQXdGWWd3ZFh1UnpmU1JjeFZJQVpCQS1sRmRhaG9jQTVocGZuM0dLNG9ESkg3MW56QkpuNXNZbmNmdTdxWGpJTGpLbUpndDJpeEk?oc=5",
-    "source": "AOL.com",
+    "source": "aol.com",
     "published": "2026-08-18T03:48+00:00",
     "score": 5,
     "tags": [
@@ -210,7 +224,7 @@
     "id": "13959498d42a0aa5",
     "title": "Amazon Grew Revenue 20%. Here's the Only Reason I Can Think Of for Why Amazon Trades at Just 22 Times Forward Earnings.",
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE93RlliMVc1dDZ5Qk42QjR1YVJfRXIzM0pMMHhDQl93NmtBUTVmMXpycWpQS1lPQ3RxQnZ4TGlTdkt0Nm5FZzNmUnpUWURsNGxydnVwaGVxOTFucmxkNy1LdDNMaDhmMTN2cFpGMDVfUWhuRDNRaXZOMWxBaTc?oc=5",
-    "source": "AOL.com",
+    "source": "aol.com",
     "published": "2026-08-17T23:31+00:00",
     "score": 6,
     "tags": [
@@ -239,19 +253,6 @@
     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5LOGU0SG9wME5XTTFVbFU5VXotS1pWRUg2dnVFZ3JZY3AwSmROVFkzRXF0TjBDUExqdEVTalZKU1hsVzZOYVZwQUpTckFpTWtzbWZwTEFiYUM0ZGdqeWZLOXJwTXVOcjhlQzhIa010ZDRtVjlNLU1CaA?oc=5",
     "source": "Barron's",
     "published": "2026-08-17T18:47+00:00",
-    "score": 9,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "00a5e28bd40f8c26",
-    "title": "Amazon Stock Price Forecast: Morgan Stanley Says AWS Business Could Push Stock to $500 by End of 2027",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSHlaOFY5RExzbmtjZGNhUHNmR0xWd0g1dnlLWFdrSzh6WEhkcHVDUXkzaWE5WUs1blI4d0ZZdzQyVGRwdXZmQ0g2Sm0yTnkyYzhHOEdyczA1alJSWmt3VExxRGQ5elhaaHA1X3VITXVWS1JCZXM1TDlHaHI4bHFYQkhJSWRWekliRTRhUEJrcG9BZHNQTHJ4aTVxRXpNdmY5UUhLT0hSMF9SZ3pPTHhvR1RGcl90Y2IzUEVHVXZB?oc=5",
-    "source": "TradingKey",
-    "published": "2026-08-17T18:35+00:00",
     "score": 9,
     "tags": [
      "earnings"
@@ -385,7 +386,7 @@
     "id": "14ca11883c6f46d6",
     "title": "Can Palantir Stock Keep Climbing After Its \"Otherworldly\" Earnings?",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQTkzMTNaa0tNX1BmZXNxaS00WjRjQWRQdG1ZRXYta25Pd3AxeklOWUxENjlaeDg5R290b0JHZGNGMnBlR21OTElTQmVDbmhnRi1aT3N2QjJ1aE1VZThKak5yVTlwa1d1dkJzNndnd3hLN0ZqNE9sMVB3YVEyTGtWSUw4YUFmTXJ3c2JoVndB?oc=5",
-    "source": "AOL.com",
+    "source": "aol.com",
     "published": "2026-08-18T03:31+00:00",
     "score": 6,
     "tags": [
@@ -437,7 +438,7 @@
     "id": "7e31d9a6ea17ee6b",
     "title": "AMD at $514, PLTR at $174: Buy, Sell or Hold?",
     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBkZ2xIWHA2QmJuT1ZmbVZWaGV6cEdodi1qcVBZU2p0cVg2YTdfU2ppQmxkZElBQ18wYTJtV01ndGJueXFoRnRka0Z6TkhPUWE3VWhTMWVKMzlsOWZ4TEkteEwyeEdPaUtDX3BzTHJhQkpoUQ?oc=5",
-    "source": "AOL.com",
+    "source": "aol.com",
     "published": "2026-08-17T17:03+00:00",
     "score": 8,
     "tags": [
@@ -505,7 +506,7 @@
     "id": "7245c0432b59c465",
     "title": "MSFT Stock Dips Below $380 as Iren Deal and Morgan Stanley Warning on Hyperscaler Creditworthiness Weighs",
     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQMDNPdGkwNDdocjVMYnFUM3dkQ2xCeWhMTVRnaUV2UEJib05GUFJoNWdYV2xybmZhVkdNSzB6OXJQLVgyNG5wcG9QdnJHWUNNaXg5cXFzVFRvSWVmLVAtRENhZ1FPb3ZFUlVtS01lM3VHUDJDZ2dNRXFKS3E5bnFpcHV4MVM5UkF4ZEYtc2pJaUd5M1ItRnFQcF94OU8xWU9CaEoxTVhjN00tRGluVUJqdzlqZDZOY3JyZWFtQXkycm5lT1I2a1NPeHItX3MzU1JlMy1IVk1BLUZjMjhrS2dUUQ?oc=5",
-    "source": "fxleaders.com",
+    "source": "FXLeaders",
     "published": "2026-08-18T04:12+00:00",
     "score": 8,
     "tags": [
@@ -586,7 +587,7 @@
     "id": "cc4cd6be74b86fb1",
     "title": "Billionaire Ackman exits Alphabet, buys Visa and Mastercard",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOa1d6VU1YTTBQNXVSMEstbjV3LTFwQVVBV0lPdjk1a25tdE9xSUFIbHRrX0NQUXJ0c2hFZHNYXzJNTlVLRy16RGtKQk1yOXhzV1JJcmpwLXVURDhCMXB1aTU0ckM5TzJpa2ZJdDhQcklXeE9lWno2TDNKZ2Z1MmNyTnZsY00yZ2ZVdld5UDgwVFhSN2hpVWRKQ2EzMzdwRHowdGFaczZ0TkdsNzlZMnRtNEE2SHNkdw?oc=5",
-    "source": "Billionaires.Africa",
+    "source": "billionaires.africa",
     "published": "2026-08-18T15:35+00:00",
     "score": 5,
     "tags": [
@@ -613,7 +614,7 @@
     "id": "55211409d3d6384d",
     "title": "Amazon's Stake in Anthropic Is Now Big Enough to Move Its Earnings. Here's How That Compares to Alphabet's Stake in SpaceX.",
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQcG5FbWgyZ1BmcWxOcmRCYmVTX3lLMmZNdFRvbURYdVdKTHV5VUt3TWM5Wm1DVGpHN3VEMUtvTTY4UlJTRDFsalZZUzE4WW5rLW9ab0tyWjZGbEdlenJQUVB2dEpETUMtOGQ4R0J3Y3JfUE5FQjNGQ245ajQ0c1lZWA?oc=5",
-    "source": "AOL.com",
+    "source": "aol.com",
     "published": "2026-08-17T21:14+00:00",
     "score": 11,
     "tags": [
@@ -697,7 +698,7 @@
     "id": "bfe7988675d7bede",
     "title": "Move Over, Nvidia: Why AMD’s Latest Acquisition Could Redefine Direct-Silicon AI Inference",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9IdFdvZnhFOE5fdWF4Ylp0b3ljemZtZE0xWlVsMTc0X0doVWUycEdXVlZUY2stUl9uZHV3U0gxTUU3MWN4Q091Q2Nnd0RkYTBoSGktSmVOY2d6VnFlb01DX3pZLTNvNVlfUHliZm5QeExKS2kxMV9V?oc=5",
-    "source": "AOL.com",
+    "source": "aol.com",
     "published": "2026-08-18T15:26+00:00",
     "score": 5,
     "tags": [
@@ -880,19 +881,6 @@
     "primary": false
    },
    {
-    "id": "5fb78629d6baccd5",
-    "title": "INTC Stock Slides As $20B Share Offering Reshapes The Chart",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE51Q3RHZl9nSmRSZE5weDVXd1ZySDNUaHh3ekNWQ05RVEh2YktUbGRkYnVLSDBKZko4bmx2bFFMaFk1OGNaZEFfTTFxN3ZsN0dldzhqRFpiVFZfY2w2d1NIbkV3T09PRVduSTk2OGprMkRjc2x1cWlJT0Jn?oc=5",
-    "source": "StocksToTrade",
-    "published": "2026-08-18T11:48+00:00",
-    "score": 8,
-    "tags": [
-     "capital"
-    ],
-    "direction": "negative",
-    "primary": false
-   },
-   {
     "id": "a725773ff7a67c72",
     "title": "Intel Stock Steadies After Aggressive $20B Share Offering",
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBBWDVJUVZSSzlnYXJVTFlQWWtJdnd0WUhPZi04VDByenU0b3pHOU9SVmY4akE1RkpINEZaeTBOZ0dGZkJITzBfUTdIUVJla1ZLY1FsM1N6WkVONWp5dUpfR1pHUUlidGcybGtMd0x2ODREMU1kcWZQa3VrTWFHZw?oc=5",
@@ -950,7 +938,7 @@
     "id": "15e466031a6c9202",
     "title": "Nvidia has $21 billion SpaceX stake, $30 billion in Intel shares",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTU5yOUZjOEFSbXNOQjZqUV9mSjNUVEw4VTh5d1R4dk5heWh5cEFtUHhjVnVqNFg0a09CaUlJZlU2Z0xSVGpsdjlxdXVZM05BcFEwOGhycXRaR3FWV3hEVGJKME5LS25lZmxsM0UzNTVlWXdlb2stamRzZWI5NXFZYWJ1TnJweEJtT2hVaWxoX0c4QTF3MzFCYjdVcjlramVtNE9pMml0b2ZvejlS?oc=5",
-    "source": "moomoo.com",
+    "source": "Moomoo",
     "published": "2026-08-17T12:29+00:00",
     "score": 8,
     "tags": [
@@ -961,6 +949,19 @@
    }
   ],
   "NBIS": [
+   {
+    "id": "73f9e5d245bc30aa",
+    "title": "Nebius Group (NBIS) Stock May Be Fully Priced After Q2 AI Revenue Jump",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYTFqUTAwSWFBNVNpbWdFc25LVDVnRzd0T0UxcFpKVEhkaUxDWmhZX3pETzNEU3ZVRzRXcldQQnV6aGFPa1dxWHM4V0E5dGhGckpINkNUanJralBHcnV1MFJ3OXVCdU9wNkJrb2pCMXlFMUtiVHdzXzA5T21jTFNjd0liQkdaQUpnQjRpUW51VmVPb1lmelZrNHpLemMzZ19ZVlc5U0ZIR1hqdWR1NXRtdlpoWXdLMXY5VFA3ekx1TlJGLW9zclFGWU8tUdIB0AFBVV95cUxPdWRVbWs4LTEzY05RMElpTm1QaWV3UVd1cVA4NEowM1hWcS1KOHMtRXVWR1ZuRXNrZ0JsZmNrSTBmb2pDb25lcE5XWU5ldWs3MzJRa0lmQy1nX1dUNDFBT1lnZDZKcmZyeWlQeDFqMmtwVDVhWDRhWnVJNEt2Vk5BWWhtcXhPYnR",
+    "source": "simplywall.st",
+    "published": "2026-08-18T16:28+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
    {
     "id": "97680cf8cd18274f",
     "title": "Nebius Enters Its Q2 Earnings Spotlight With a Fresh Billion-Dollar Contract and a Familiar Capex De",
@@ -990,19 +991,6 @@
     "primary": false
    },
    {
-    "id": "aaed20577ead8b7e",
-    "title": "Sell NVIDIA And Buy Nebius? Or Is The AI Infrastructure Trade Getting Too Risky? The Scottish Sun (CIKYXl7lab)",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5HOEhqUldELW5XTmc2bGRTNXRSMEFhQzl6aVFvbTNwWXY1cm42ZXluTlIxSFgySi1FZzV1Uk1WZ1lEQU4wSjZ3YjNLS2UyUDBkZEJ5SmNmeXpHQW8?oc=5",
-    "source": "Mshale",
-    "published": "2026-08-17T17:34+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "03bd157e8c7f9501",
     "title": "Nebius's Revenue Is Forecast to Roughly Quadruple Year Over Year. Here's Why Analysts Are Still Debating Whether That's Enough to Justify the Stock.",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSm9fdXZPSGlvR052cnlEZENXUmtIY2N1Y0R3WThfeTNkS0tDUFNlMUc5VnEyQUh0ankxaFNjN09XbFJTRFQzdDdpT3kwV21CSFlmRXZIODBzMC1zcFRVT2RvYk5FTVZkWGJnckl6OFM5ZXFPSUtKMlNheU8yRGRQVG1walBic3JFM3lncUlZbTEtUmpaU1lnYzY4dmF2c0hLT2xYZVViTWZQa3M?oc=5",
@@ -1019,7 +1007,7 @@
     "id": "354b1310a81f7960",
     "title": "Nebius Is Worth 55 Times Its Revenue. What Does That Price Assume?",
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5iOXJPTHFvUDBTYURtRHY2eVJJaDdJWDN2eHZ3Y01uRE9pRmZHVFVJYkpJRDU3SE85b002eWhDRlpWaGQxc3R4ZU9NRmluXzY3bHM1NElkc2Q3czY4dWlha1VaTWtBWWNOWmtUcFk4WE51Wmt2R0NqSWN5UWlKZw?oc=5",
-    "source": "AOL.com",
+    "source": "aol.com",
     "published": "2026-08-17T16:37+00:00",
     "score": 6,
     "tags": [
@@ -1082,11 +1070,11 @@
     "primary": false
    },
    {
-    "id": "b96d7d3d0dfb9841",
-    "title": "Nebius Group Surges on Q2 Results as Michael Burry Increases Short",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE14aU92ZkxTeExJWUZzSWMyYnpacjNTbS1FN3hTS01nbGIxMHlVRnkzenY2VG5xWlhGMEpyeDM3bEdTa2NUNVRPTHhNNEM0bUUtSFZoLVJRdXhPYlJNTDNOWmQ2ODl1RzUyd0dMRQ?oc=5",
+    "id": "0df9f416a527c649",
+    "title": "Nebius (NBIS) Stock Rally May Not Be Over as Capacity Guidance Grows",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5tbGVxaVVqWVJhYmxxbkpTQkltV1g4OE01d0t4cDVEd3VUX2thUGh1Z2d4UE9KNS1BdkxKNHFXaDEzaE5BWGltcnJuc0hLak8yVkhOMml0Q3R3MFpJUDFEcmxXclBVVkFTOWJnN1pjNDVQVE9Bd2dCNnFpNA?oc=5",
     "source": "sekbernews.id",
-    "published": "2026-08-16T22:12+00:00",
+    "published": "2026-08-16T16:55+00:00",
     "score": 6,
     "tags": [
      "earnings"
@@ -1113,7 +1101,7 @@
     "id": "4afb0b156783e98c",
     "title": "Marvell Technology (MRVL) Stock: CEO Offloads $1.77M in Shares Ahead of Quarterly Report",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZmRQdVAyQ0hZU2JTeHNNVXM2SHR3TjhTMEJhazBmRXB5dUFCWHZ4R3hoZjhOZ3VQLUxWVGpjVG1Fa3hmOExBSUczcjZtZV9oUGRWWkNZRjJYS0lxMmNYeG1Da1JmbkZNQVVNRG85czFoRDFYa3pORUhSd3JqSGpjcDJBbTR1am1zd0pqcjVldS1wekY3M3lkX2dPeTdjdmM3UWdrWnNDSW4zUzhT?oc=5",
-    "source": "blockonomi.com",
+    "source": "Blockonomi",
     "published": "2026-08-18T11:14+00:00",
     "score": 9,
     "tags": [
@@ -1256,5 +1244,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 90
+ "count": 89
 }
