@@ -1,9 +1,23 @@
 {
- "checked": "2026-08-18T10:39:13+00:00",
- "changed": "2026-08-18T10:39:13+00:00",
+ "checked": "2026-08-18T11:01:27+00:00",
+ "changed": "2026-08-18T11:01:27+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
+   {
+    "id": "dcf18f01f6d85763",
+    "title": "Apple (AAPL) To Revise App Tracking Rules After German Antitrust Decision",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTlY4NG9yNWUwUUNZYkVxQjZmRm9VNUZwSUJWbHJBOGh0YlNYYTBvdlZQRmxDMHZ0OGlWZUVOOE5DTV9WakRiTUo1OTdJN2dCZEpZYW1sYjJsQzNBTmt4Zm8xcDh0TjU4ZHRnYVZIa1RNdnlwX2V1c0NGNzQ2Q2RrSUtaSU1fRExYZkN6T2dwVkdPQWRGR1hTUGxGeHRsX0dpT3JXMURicFJLY3FpVElIMklJQTRFWW9xamRxb9IBwgFBVV95cUxQOTZVYlYxcl9uZVZQZHloTHM2ckNUZm41QV93ZWhqZU5IeHhVdUJ5dXdJMWlWNEhaQzJadXAySFVEelo2TzhpYUxCWXNkc3NCLVIwcU5WTW1YYW1YTVcxbHdoMjNKVF9pTTVOUnJ2aG9Da0FYbzQ5Q1BtT3duZjZiU0s2djZkeHRSMjlmbFo4QlY3cTFpRG4",
+    "source": "simplywall.st",
+    "published": "2026-08-18T10:43+00:00",
+    "score": 9,
+    "tags": [
+     "legal",
+     "policy"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "076fb774994f980f",
     "title": "Is Strong Q2, Higher 2026 Guidance and Heavy Buybacks Altering The Investment Case For Apple Hospitality REIT (APLE)?",
@@ -124,22 +138,35 @@
     ],
     "direction": "neutral",
     "primary": false
+   }
+  ],
+  "AMZN": [
+   {
+    "id": "2bcd7697da1d094d",
+    "title": "Einride shares soar on Tesla Semi partnership with Amazon",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSjNCbDVKMXNWRENaRF9fcmRibnB6OWlIRmFSVFRFZFdsN2VHQjF6VXRyU2JNcjhCeU1XeWluRTZSZWxKTjRkNHFkNUVHcEZPWWl3ZkpHTGhxQjBLOFpORFlrcnlpY3ItVXNSTXAzLUo3Z05JVXBBWHVVSVRISDFDNXJtU1ZyTU90c3RVdFRSVS1rbHJud0ktM1VLWGFQYm5Sb3VWdmptbmtZNzFnY1h0WjdGeG9PMmNGd2Nn?oc=5",
+    "source": "Investing.com",
+    "published": "2026-08-18T10:37+00:00",
+    "score": 5,
+    "tags": [
+     "contract"
+    ],
+    "direction": "positive",
+    "primary": false
    },
    {
-    "id": "f72532ded3f1275b",
-    "title": "Apple Stock Dips As PC Market Faces Declines In Global Shipments Faillite (kk7U9ofdiZ)",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1veThsYWlic09DODltMGZ2dkw5NlhGUkdQYlRhMnVscnlBMlV3cC1wVFlGSm5VTTJZRnNpZHhYMzZvMnQxRGRsS1lxanp6Ni1vNmp1a0RTS0pqMW8?oc=5",
-    "source": "Mshale",
-    "published": "2026-08-17T12:56+00:00",
+    "id": "67fb6af84a6289e6",
+    "title": "Amazon and Alphabet Both Cost More on Next Year's Earnings Than on Last Year's",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42bnhQSUVtYjBJZHNRUUdZU3N6T3FTeTRncnNrbTdBMmtmNURWYlBPdHdoVVF4dE4yUGFxZTlRYzRoMjdWZ1I5WHJKTzFBUnM2Sm85YTNteDJHZHc3LUJWNVJJUW9MWjlzSWNBOGJBemNDQU5TREk0QTFCYmNaRW8?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-18T10:02+00:00",
     "score": 6,
     "tags": [
      "earnings"
     ],
-    "direction": "negative",
+    "direction": "neutral",
     "primary": false
-   }
-  ],
-  "AMZN": [
+   },
    {
     "id": "cdf4de94f7979958",
     "title": "Amazon Is the Only $3 Trillion Company That Has Never Paid a Dividend",
@@ -182,9 +209,9 @@
    {
     "id": "55211409d3d6384d",
     "title": "Amazon's Stake in Anthropic Is Now Big Enough to Move Its Earnings. Here's How That Compares to Alphabet's Stake in SpaceX.",
-    "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQRUFVVllaaUQxV1ZSWXo1cWpOZi00azBPaHR0UVNfMkpSQ0N4Qk1CQmxfMm50QnRPd3RISXRCSkZmY2k2S0c1d1o4aTNOblhETy0zeEd1ZzlYaTY5Ukc0b2V4b1VmSHdQaUQ5Z3hCSUhfVEEzT056MnRJUm9IQldJQU5rNk1jWmtDZzNHSTB5eG9oUUFWQURHVFNNRHQzY2dvUmwtblZ5SjNMMkR4YjNKazltMVJocno5SGZXZkN5Ql9oZFJGMXVRSkxtaXBsNi1iMWtOVThzSG85Qk52SmRMZmhxVFJjYUtqWl9ObFVWd3JQYk9XRUppODVKY2hKcURCSHJzTzJCbGp3aFIyLXV4TzJ1QjF0T256SEMxZjBNWjVaVmFvZENsZWRpYw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQXzVJUXNHcGRDWmJBTkRnVXdLbktnVmhkR3BnZWVRaGRHRGFVbnFVbWYxbWlueXI0UnR2VXZ1YmNmbWxkbENXSHczVFY4N3VHU1JrWk5QejdkMkFLUjNuSlpxWXpQWV9YY3lBbm1DUERtY0VaRFg5aE9QUEtQQXF4QU9LMTdYYzZmSXZQUmtUQ2dYQWF6STU1WFZCbEgtd3pVTXRTYlBlUEJ5cm94UW81cGNhWWdFUjZLN0YyZmV5TUJVWERlTVNodGw5VGttR3dQa25vbzY4WklnRWx2ODFRWWVSNFBWTk52aFprdHVkM3VSSVVkYXo5anFhMnVTZGdsLXhUNV9OblhVRi1XYzVvX1RHZmFsZjVvS292elY4QV9xRTUycUs5SGlQQQ?oc=5",
     "source": "The Globe and Mail",
-    "published": "2026-08-17T20:09+00:00",
+    "published": "2026-08-17T19:48+00:00",
     "score": 11,
     "tags": [
      "earnings",
@@ -197,7 +224,7 @@
     "id": "243880fb45fcc611",
     "title": "Amazon’s Stock Could Hit $500 by End of 2027. Why AWS Revenue Is the Key.",
     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5LOGU0SG9wME5XTTFVbFU5VXotS1pWRUg2dnVFZ3JZY3AwSmROVFkzRXF0TjBDUExqdEVTalZKU1hsVzZOYVZwQUpTckFpTWtzbWZwTEFiYUM0ZGdqeWZLOXJwTXVOcjhlQzhIa010ZDRtVjlNLU1CaA?oc=5",
-    "source": "Barron's",
+    "source": "barrons.com",
     "published": "2026-08-17T18:47+00:00",
     "score": 9,
     "tags": [
@@ -223,8 +250,8 @@
    {
     "id": "456c81e90905a112",
     "title": "AMZN Stock’s Road To $500 Could Be Led By AWS, Believes Morgan Stanley – Firm Sees AWS Revenue Reaching $1 Trillion In 8 To 10 Years",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSE1JWUVtWXdBemJraWgyZVRSV3VmM1M4aWJxV0sxUUpvRWlHNmFwUGFPQXR3a1dIVGhCX004RUI1bTNQTFUwQ05XTTktdTlqRjFVQ2lwN1g3aDV4T1l1a1hJRG9zWG1JQkFpR2lpbEczblh1T2RlVXJHYWNHZjYyS25TN04yUURTYTg4U0Zzd2o3WWl6?oc=5",
-    "source": "Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPNktXNmZsblc4eTdiY0VRbThqbXJPQ2VhczZwbklnZXJKdk5kamdZS1lMY19pdDJHeTVYMGY4M1VwZ0FQNlVlclBhdjIydTJ5Z2NEX05EdWIwcmw4UFRidGJqa282cEJqSWN3bkk0aTJFaS1mRktvY3ZXeXR5RjZlb0FKaEtVclg4VERlLVo0V0JSTTVJdUJ4UUl3RGJ4Rm1kZWNONWJrRGhhWTlzVUdSR0NWN1ZnbXI4dlNUQy1VN2p0R2RqNTR2VW8tSkZXWFZtZ1lfMmdyWmlLZEdsVXhJZWtFbnhBRDFNNlhSMmJ2eDluT3play1TdFg4TW9sWEdMRVRDa1NrM09rLXlHYVBHQldxVGY0dw?oc=5",
+    "source": "TradingView",
     "published": "2026-08-17T15:23+00:00",
     "score": 9,
     "tags": [
@@ -298,19 +325,6 @@
      "operations"
     ],
     "direction": "negative",
-    "primary": false
-   },
-   {
-    "id": "c7dde45e3e3c797a",
-    "title": "Is $TSLA Stock Price Being Suppressed Before The SpaceX Merger? Comingsoon.it (AOlmFMKxvO)",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1fdUhWbGRXdjlHcGdOeGZTeTJXYy1OTks2NXp3REpqa24tMzFGd2Z5c0tyMmVqOXI0eGcxMWJpN2pCaGhHcFlWQmMweTNmNXI3dENoeWVzU21MRWc?oc=5",
-    "source": "Mshale",
-    "published": "2026-08-17T06:11+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
     "primary": false
    },
    {
@@ -829,7 +843,7 @@
     "id": "10bac3db16a9d930",
     "title": "Nvidia’s Huang Says OpenAI Data Center Could Generate $600 Billion in Revenue",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3dW9JWUlCUkQtOUVFZW1zSFV2X1p3Vl9HRXpTWEdSLXgzVy1KZThoLVRqYkVkd0xEenZ4encwcExhWlJrSGY4bzZFbmkzY3JBamJ0RzZJYlZvOEFCTDUxREplUlNyc1BlMFVuUGhlcHAwSXlrREE?oc=5",
-    "source": "Barron's",
+    "source": "barrons.com",
     "published": "2026-08-17T20:47+00:00",
     "score": 9,
     "tags": [
@@ -865,6 +879,19 @@
     "primary": false
    },
    {
+    "id": "6251a3934e735df6",
+    "title": "Nvidia’s $500 Billion GPU Financing Deal Fuels Path Toward $270",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbkNkcVJMcy1oVmd3WTR0SDloRGxIb2VxWWt1WkZTNENwZXBWdlJiNkJiVnJiS3MxSnRCUDlkWkV5aEVfOE90aGpNX2w3bHBtM3VuZDYyU1dsWmdIRUJRM2c3QWZENWNHVWwxQ3JJdTZEU2p3cERMempoTVpHZ2J2VGdDM0wtaUg1MUNKUGFNLXE2WE1xZGVJUngzU08tcWhETlZPMEo3NGU?oc=5",
+    "source": "Investing.com",
+    "published": "2026-08-17T16:25+00:00",
+    "score": 8,
+    "tags": [
+     "contract"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "1b360047490b69c6",
     "title": "SKHY stock rebounds on Temasek investment report, Nvidia AI deal",
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE12dXdBV3lLckVmSkxCWG9sQXZ2YmNGLTB5ZEJjYkJIRGtoWlhoRWtOYmFGdDZhSHFvT3RYWnRBMUNJOEcxYWxMbmlqT0V6cV83QlRydVZPSUo5c1QtRC1PZnRUQTNEU2EwaTN6NDNVQQ?oc=5",
@@ -874,20 +901,6 @@
     "tags": [
      "earnings",
      "contract"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "05f93293f1ddeb40",
-    "title": "Nvidia's Spectrum X CPO switches enter mass production; GFS forecasts 100K shipments in 2027",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTDBYNUd1NmZNNG41OTZuX3BieW1Pb3lydzduc3hJd2FZUlZhNmxDMXktVjh0NWpmTElUV3hNYlNESTBxdDE4eUktM2RiT3RoS2h3ZmY2RHJpX21qZ2ZvdTU3M0sxbkdrc2kwSUFaX19vU1Z1VlFBdDJROE1vdkVJdW1qclo4Wnk4bGhiTFdjSXlydXV4U3dodVF4VFJOUVJiRFVOWmItY1dpWnUzRGJBTUhwSHJEb3ZrVXU5M09Md1A3OHFJS29R?oc=5",
-    "source": "Seeking Alpha",
-    "published": "2026-08-17T15:46+00:00",
-    "score": 11,
-    "tags": [
-     "earnings",
-     "operations"
     ],
     "direction": "neutral",
     "primary": false
@@ -1029,6 +1042,20 @@
   ],
   "NBIS": [
    {
+    "id": "97680cf8cd18274f",
+    "title": "Nebius Enters Its Q2 Earnings Spotlight With a Fresh Billion-Dollar Contract and a Familiar Capex De",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQYy1RT2RWdkphLWJxS3VIejhLUWJtQzdFQzFaaG04VVBRLXJGTE5pSHU3THpYXzI5T3JkX2JmOWx1VTI5NnZJeG92WVF4M0VYUmtXaEdMV2NaYXduYzByeHZNZGxnZ2prc0tneUFlMEZnVGt1OFFiOHFyTUIyQnM2aWlsQXFKM3RKbGh5X2QtSXBoRENzU0pYTFU0RUxxUld3WEtTalZndEtnNWQ1d0hrbk84V241eVFMNHdTd2daeWZKNndqRDl5WC10VGtYRklhYmdmbWdR?oc=5",
+    "source": "AD HOC NEWS",
+    "published": "2026-08-18T09:26+00:00",
+    "score": 11,
+    "tags": [
+     "earnings",
+     "contract"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "c437570126ac74c1",
     "title": "NBIS Stock Dips Premarket: Nebius Clears Hurdle For Microsoft Deal As Vineland Approves Data Center Expansion",
     "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNbHRzSFB4T1FBN0RhcDA1cWZlbV8yUVF2UXFGYjUwRVBMMmEwV183bGRUdVAyOUFNMXRIS191d0RybENicFlFb0wxOGtmS0hTelNmVmQ3MzNiVVB2RXRNUDA2SXpMd193RDFrckJJaE11SXFzR2E5Y0lVUmlSV1B2Y1hhbDYtdk5vRUV0bkpvN0xCTVV3c1g2RGcxZ0h5aVRwemp5VlJ4SW13eUJyTWNzdWs0dXNGS3Z0aXlFOTNtaUNjZC0yQlF5TC0zWVAwbDRBeE9oOGxrTVFpc2JNcGNIUXVIVVFlNU41bnN5X1h1emlpTHhwNC0tdHViOUo?oc=5",
@@ -1040,33 +1067,6 @@
      "policy"
     ],
     "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "97680cf8cd18274f",
-    "title": "Nebius Enters Its Q2 Earnings Spotlight With a Fresh Billion-Dollar Contract and a Familiar Capex De",
-    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQYy1RT2RWdkphLWJxS3VIejhLUWJtQzdFQzFaaG04VVBRLXJGTE5pSHU3THpYXzI5T3JkX2JmOWx1VTI5NnZJeG92WVF4M0VYUmtXaEdMV2NaYXduYzByeHZNZGxnZ2prc0tneUFlMEZnVGt1OFFiOHFyTUIyQnM2aWlsQXFKM3RKbGh5X2QtSXBoRENzU0pYTFU0RUxxUld3WEtTalZndEtnNWQ1d0hrbk84V241eVFMNHdTd2daeWZKNndqRDl5WC10VGtYRklhYmdmbWdR?oc=5",
-    "source": "AD HOC NEWS",
-    "published": "2026-08-17T18:46+00:00",
-    "score": 11,
-    "tags": [
-     "earnings",
-     "contract"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "aaed20577ead8b7e",
-    "title": "Sell NVIDIA And Buy Nebius? Or Is The AI Infrastructure Trade Getting Too Risky? The Scottish Sun (CIKYXl7lab)",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5HOEhqUldELW5XTmc2bGRTNXRSMEFhQzl6aVFvbTNwWXY1cm42ZXluTlIxSFgySi1FZzV1Uk1WZ1lEQU4wSjZ3YjNLS2UyUDBkZEJ5SmNmeXpHQW8?oc=5",
-    "source": "Mshale",
-    "published": "2026-08-17T17:34+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
     "primary": false
    },
    {
@@ -1115,6 +1115,19 @@
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUGZsU0dnbjBxVzZiaTVGa1prd2lvTkt2RktDTlF6UjFUMlFGWGVBS09mSmZlOUYyRWx1eTdoSmhNSldWalFPTm01d1Y4Q2V3NlNLR21YWjhhZGw3Zm9VMUFTYkwwZzJSSUZVUzJCaWFQUU81OUdITjNfNGZBUUtVZW8ycnE4eVZUT3NDQlF5ZGFoWlFwSFhEV0pjVkNsZVFOdC1nOVRyTVRScjZSSGF1R240a0JPMmRNRXY4UlQyTk9uMGxkQlE?oc=5",
     "source": "Seeking Alpha",
     "published": "2026-08-17T11:00+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "b96d7d3d0dfb9841",
+    "title": "Nebius Group Surges on Q2 Results as Michael Burry Increases Short",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE14aU92ZkxTeExJWUZzSWMyYnpacjNTbS1FN3hTS01nbGIxMHlVRnkzenY2VG5xWlhGMEpyeDM3bEdTa2NUNVRPTHhNNEM0bUUtSFZoLVJRdXhPYlJNTDNOWmQ2ODl1RzUyd0dMRQ?oc=5",
+    "source": "sekbernews.id",
+    "published": "2026-08-16T22:12+00:00",
     "score": 6,
     "tags": [
      "earnings"
@@ -1284,5 +1297,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 92
+ "count": 93
 }
