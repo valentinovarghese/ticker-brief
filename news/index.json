@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-19T15:22:52+00:00",
- "changed": "2026-08-19T15:22:52+00:00",
+ "checked": "2026-08-19T15:54:55+00:00",
+ "changed": "2026-08-19T15:54:55+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -21,7 +21,7 @@
     "id": "91317f7a2842d324",
     "title": "Apple stock holds above $310 as fresh Q3 2026 earnings and security updates shape investor expectati",
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOamR4UmZwVVAzT0JaZjRDTmJobzc2MWUtakR0TGVOUXZob21BWTNRZ1RPaXkxRXd2amNFSVFlc09VZEhBRHVqOWdxbGNOa21vMFBNdHNCakR4ZUtXMmlyUUExTXV2MUNGNFBWQ2RUMk9rYmhrZER0QzVsMkRQOVRFOS0zRjNlYXpMNVdSclctNGMwM1FPZHZ1V0JoVllJNml3anlEVWEtWHo3cm1IMW04RkJ3XzgxVlV2SmZHQmZZb1BBNlA0UFpXUA?oc=5",
-    "source": "AD HOC NEWS",
+    "source": "ad-hoc-news.de",
     "published": "2026-08-19T14:11+00:00",
     "score": 9,
     "tags": [
@@ -34,13 +34,27 @@
     "id": "b0ecc282386951b9",
     "title": "Apple Stock Target Jumps From $260 to $400 in Rare Upgrade to Buy",
     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1WUFd2T2pyYmlyWU5TazMyR3hwX2x3c2s4MllxNGxaRTZWcG5sVk9URE44SkQ1X0NTbWwxdWFOdG0tbDh2NXVUV3NGRzE3S2NoU29OVE1QTVBfN3pTd25oWVl3R0lXVUlhelVHamsxUnVVNHhq?oc=5",
-    "source": "FinanceBuzz",
+    "source": "financebuzz.com",
     "published": "2026-08-19T09:59+00:00",
     "score": 8,
     "tags": [
      "ma"
     ],
     "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "8e9a391770e643c1",
+    "title": "Apple Cuts EU App Store Commissions to Avoid Fines",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNGhUY3VXT2U3WkdPNm9ackNtTzhwVktnTE1aNFJXTW53bWQyQXZNOWhNSGdvRFRvWUQ1SHU5c3dMVlMySXVqVzAySVIzc0djRHc5dnVhdC1Fa01hUVNkbnp6enZ3SFlTWWlveUlER285d1ROT2FWN1BSaF84b0NScUVUZkhFUHYwRTB0REZjRTlOdw?oc=5",
+    "source": "Briefs Finance",
+    "published": "2026-08-19T09:54+00:00",
+    "score": 10,
+    "tags": [
+     "legal",
+     "operations"
+    ],
+    "direction": "negative",
     "primary": false
    },
    {
@@ -153,6 +167,19 @@
     "primary": false
    },
    {
+    "id": "a0dc7d1b43fd6375",
+    "title": "Daniel Mahncke & Shawn O'Malley: Why Amazon, Alphabet, and Reddit Remain Buys Despite the AI Capex Supercycle",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9YTENJQ0JPb3gwWWxSLXhVWHZhVFR4OUREaFFhYkpNX1pnUVZnZjFTU2hUM3NMVzAxS1ZUaWh4REV5bDVmNXRUN2YxejNZTEJXX2NYc3hlWHdrVWs?oc=5",
+    "source": "finance.biggo.com",
+    "published": "2026-08-19T12:08+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "bb8e21f791d336bd",
     "title": "AMAZON COM INC SEC Filing (Aug 19, 2026)",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYkMwTEIyeEZlNExCM0tSMW8yQi1aRmQxWklXSXlMSDBZSjJtYnhyQm1YQ0p2S1NpLTFUSE1FTzktM21ZdGY1N3F4cHdnTk55azVjejQ2aEVJOWpBT2hjdnNMa0h4V1JJSGU1aW9JZ3V4WDV6OUYzTzZuQ3VrWEpCbkR1QnlYc1lWZG1sSGJfTXBwdTYtT1czVS13?oc=5",
@@ -190,19 +217,6 @@
      "contract"
     ],
     "direction": "negative",
-    "primary": false
-   },
-   {
-    "id": "0e442dc48340b70c",
-    "title": "Amazon joins other tech giants in gobbling up books to train AI, report finds",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOX2haQVpSY0F2ZU1XSmpEbUxZb1FWS3M0eG45ZklXNHZQTWdDME9tYjNUUnZQdFlfdHlzMGxkeW5wSk8yWkJLejItY0M4VFNrTGtEbzk0aWI5WkdCZm1MVlBTUS1YRmRvdkgtSjQ5cXdabTI3dDhqZktDU3MzdlBLd3V6eko0em1HQnl5RFhmVGRfUlNkS2cyNWZkRXRlVmlTaWRoTnVKSlA?oc=5",
-    "source": "New York Post",
-    "published": "2026-08-18T20:55+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
     "primary": false
    },
    {
@@ -330,7 +344,7 @@
     "id": "8fb35ff5b7d7840a",
     "title": "Palantir stock holds above $170 as Q2 revenue jumps 93 percent",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQd3AzSmplVmEyTmt5andDbmk5U0NJUG5Dajl4cHFwcGt2RjBCV0NqbjdKV1pVWm1EcW0xYXp5UWk3TG12YmU2UzBnUE9BTzVOSjZtUEdQS1l1aUNiWTVEYzlBaVlaZW55ZEd2N1lnOHNQUkljSG1yT29LbTlPb0RPUWlKWVpsSUhQOFVyVVlZUWlycWVfcVhWRkZaYTgtMVBQOEowai1CYjNlYmNaSXg3VWFkTkJpSThtallQbjAzN09jdw?oc=5",
-    "source": "AD HOC NEWS",
+    "source": "ad-hoc-news.de",
     "published": "2026-08-19T06:43+00:00",
     "score": 9,
     "tags": [
@@ -529,7 +543,7 @@
     "id": "1b289aa409ccdc9f",
     "title": "Microsoft Cuts Carbon Removal Buying 80% as AI Emissions Put Climate Goals Under Pressure",
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVkNIbDRYUm1QcEJMdU5xU3BWSFVRS1Q2a2JrN0J4eUUtaXJVZXpvR0xCWHRqTElTcFNQUE95bWsyaUZfczlqVnJ6dUZZUTlLSmZCclRKY05zcVRpR0ZGOXlpQnNyUlNBZFY0WEloajJFSmR0c1hZRldBLWd6bXktSkxsMzRyQQ?oc=5",
-    "source": "carboncredits.com",
+    "source": "CarbonCredits.com",
     "published": "2026-08-18T15:47+00:00",
     "score": 5,
     "tags": [
@@ -716,7 +730,7 @@
     "id": "264ee3637025be01",
     "title": "Robinhood Markets stock trades below this year’s high as earnings growth expectations stay strong",
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQS3JsV0dPelMzdFQ2M2hrUnZKUzE4NkNtbDJJSVlfVUpjZE1KVnBMS2JPRUxxYWtLRFNnQUNHcWREaGRDSWFiS2dqWEVkcjN3X1FvQUk2Y2NmSnhqcmZjamx6d0plR1NwaEZMYTZwcngyNEswMklKUVkxWjR2Zzh0eDhLcDR4cXMxR2Q3SXJHZHdOVF9peHFsOTM5TGlLc3lDLWxXaGZBa05aZUVlbFUxNnlDcGVWNjlpR0tSdDR2TWxmVjNTeHhfTHBqVzI5bHZk?oc=5",
-    "source": "AD HOC NEWS",
+    "source": "ad-hoc-news.de",
     "published": "2026-08-18T20:35+00:00",
     "score": 6,
     "tags": [
@@ -806,6 +820,19 @@
     "primary": false
    },
    {
+    "id": "1b91b5f0458f7f17",
+    "title": "Moody’s affirms Nvidia stock Aa1 rating on Ohio data center deal",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQek95eC04THNSZUVwcWNGeklGVEdWS2otVDlCTV9ISDNEQ1NVQ2tJNjBvNlpQZXVrYW9LYnVPQnlBVFh0TzBIaUhPMk5XTVA2TnRfcjJDYlN5cE9Xa0pmeUROQUduRTVEOWVBUmEtNXRMa1pGQ2xBVWI5ajRVNW9QSTNBUm9lX0I1MHdTY2xHQjZYVzZnbEpQNzA3SDVGanpwa05kT09DVkN0amgwT2VNNElCQTBaVTM2bWZKWHluSjhUZEk?oc=5",
+    "source": "Investing.com",
+    "published": "2026-08-18T21:40+00:00",
+    "score": 5,
+    "tags": [
+     "contract"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "2f2933b62708cf29",
     "title": "Nvidia Reveals a $21 Billion Position in SpaceX. Here's How That Could Impact Its Earnings",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZ2d4aXpfeGM5LU93TzJpZWZkOGtTZjZfZHlOLWktYW4wZDdPUkdfRDlIQnVHYmYxYk5fcFhPaTQ1dF9SZm8tRUV5LXUwY3E3U1V2V1lqUWxSMnZ5bVVRak5aSkJEYjAtcHdEUUdtRXJXQ3JGc21DTUFBd2c1RDlFSUlvNnh4MkhVbnMyb0I2X09lRWlJQlRyM0VDTHFZNFlh?oc=5",
@@ -816,19 +843,6 @@
      "earnings"
     ],
     "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "36dd98d1172402ee",
-    "title": "Nvidia Won 'Very Competitive' Ohio AI Data Center Bid, SB Energy Co-CEO Says – BofA Claims Financing Risks May Be Overstated",
-    "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNZU92Ui1UV1FoZFhRWkFnYXJMVmNkeG92NkNBcUtoYTVoUlRnWW81TUx4TlM3eEtWdEIxZXNlb1VOMGh5eGo1TTZwQWZyQUpyVURmNzB1MjkwbUlUUGw1R1FJNXRjZDFFSzBPbHZwc0xsdFpsNmUxZERuWmJ2czUtUGE1QzdTdTBLbGJhSFBiNkpZYk5VVjlQVTZrYmhqcDRMTktPRHFxeUwyM2xqNHd3aUowVUhabUlZUUJzaFdPRHBCbjFtOHRGWDVfUlNZWUdBUm1sUDNlQU8zX2x4RWxHUW41T0wzTHQ3MzRadWtISjFRV0ttRXNUdzFlY0xXT056TEtqdjdTMmxFdWs?oc=5",
-    "source": "TradingView",
-    "published": "2026-08-18T16:56+00:00",
-    "score": 5,
-    "tags": [
-     "contract"
-    ],
-    "direction": "positive",
     "primary": false
    },
    {
@@ -984,7 +998,7 @@
     "id": "4900d23c5fff1395",
     "title": "Nebius's New Jersey Win and 5-Gigawatt Ambition Put Execution Risk Under the Microscope",
     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPaDF6bTNmUXVfTFk2WjEwRmVGSTUwMVd1Wk1PY1BXbG5vT1pIc25SZ19rTk54R2NTVUFOMXJLVWRULV9NSW81WGpFeXRCMXZFZGV3enlTU0pUckZzdXBBX2gyRUFCZkhUdTkwb0dNM2VWMXFXLWppSzJHUWs5RHVXWjNhSFFYZ3g4cG5oU0JCLWFKeTVIZkRhWUl5b0E1NnlPQVo2N05qMGNYX1JqZWhieTFnYWNOT05WSWJONlRLanlfVVo5dHhPb2FiWjQtd3dsc3lIZ2czcWhMcUc3?oc=5",
-    "source": "AD HOC NEWS",
+    "source": "ad-hoc-news.de",
     "published": "2026-08-19T00:42+00:00",
     "score": 5,
     "tags": [
@@ -1024,7 +1038,7 @@
    {
     "id": "73f9e5d245bc30aa",
     "title": "Nebius Group (NBIS) Stock May Be Fully Priced After Q2 AI Revenue Jump",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdWRVbWs4LTEzY05RMElpTm1QaWV3UVd1cVA4NEowM1hWcS1KOHMtRXVWR1ZuRXNrZ0JsZmNrSTBmb2pDb25lcE5XWU5ldWs3MzJRa0lmQy1nX1dUNDFBT1lnZDZKcmZyeWlQeDFqMmtwVDVhWDRhWnVJNEt2Vk5BWWhtcXhPYnROUExLVVU3TjNlWWNGTVNrV3kwb2o5MzBZTENFdVlSS1dZV2M4TmNoamt6eG40aDFfd2Y3MnNDYUlJWjFwdzY5eGxRWWNoVm5G0gHQAUFVX3lxTE91ZFVtazgtMTNjTlEwSWlObVBpZXdRV3VxUDg0SjAzWFZxLUo4cy1FdVZHVm5Fc2tnQmxmY2tJMGZvakNvbmVwTldZTmV1azczMlFrSWZDLWdfV1Q0MUFPWWdkNkpyZnJ5aVB4MWoya3BUNWFYNGFadUk0S3ZWTkFZaG1",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYTFqUTAwSWFBNVNpbWdFc25LVDVnRzd0T0UxcFpKVEhkaUxDWmhZX3pETzNEU3ZVRzRXcldQQnV6aGFPa1dxWHM4V0E5dGhGckpINkNUanJralBHcnV1MFJ3OXVCdU9wNkJrb2pCMXlFMUtiVHdzXzA5T21jTFNjd0liQkdaQUpnQjRpUW51VmVPb1lmelZrNHpLemMzZ19ZVlc5U0ZIR1hqdWR1NXRtdlpoWXdLMXY5VFA3ekx1TlJGLW9zclFGWU8tUdIB0AFBVV95cUxPdWRVbWs4LTEzY05RMElpTm1QaWV3UVd1cVA4NEowM1hWcS1KOHMtRXVWR1ZuRXNrZ0JsZmNrSTBmb2pDb25lcE5XWU5ldWs3MzJRa0lmQy1nX1dUNDFBT1lnZDZKcmZyeWlQeDFqMmtwVDVhWDRhWnVJNEt2Vk5BWWhtcXhPYnR",
     "source": "simplywall.st",
     "published": "2026-08-18T16:28+00:00",
     "score": 6,
@@ -1051,7 +1065,7 @@
     "id": "97680cf8cd18274f",
     "title": "Nebius Enters Its Q2 Earnings Spotlight With a Fresh Billion-Dollar Contract and a Familiar Capex De",
     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQYy1RT2RWdkphLWJxS3VIejhLUWJtQzdFQzFaaG04VVBRLXJGTE5pSHU3THpYXzI5T3JkX2JmOWx1VTI5NnZJeG92WVF4M0VYUmtXaEdMV2NaYXduYzByeHZNZGxnZ2prc0tneUFlMEZnVGt1OFFiOHFyTUIyQnM2aWlsQXFKM3RKbGh5X2QtSXBoRENzU0pYTFU0RUxxUld3WEtTalZndEtnNWQ1d0hrbk84V241eVFMNHdTd2daeWZKNndqRDl5WC10VGtYRklhYmdmbWdR?oc=5",
-    "source": "AD HOC NEWS",
+    "source": "ad-hoc-news.de",
     "published": "2026-08-18T09:26+00:00",
     "score": 11,
     "tags": [
@@ -1079,8 +1093,8 @@
    {
     "id": "be13045469239c19",
     "title": "Marvell gives Google option to buy $12.2 billion stake in custom chip deal",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOU3ZiaHRMTmgxek52bjRQSkRrU3JLa1Y0VWJLSGtVR0NJNjVVYXIzUjhrSm5wbF9ScjNoTWRpbTR1Sy1SZklVOGdiSTVZbEs5NGVVNE41ME1xVm8zT3hidThMUHFlZUtVLW1JTHBnOWNqUWMtT3hRZnlaSHhkT1RUaWt2MXFhaVpkSmM1ei04VkFEZHU1eVBXOVRZRWl4TjQxQWxzZUEzNWQ3SnFDY1NCb2ZuaHAtVkltdHc?oc=5",
-    "source": "CNA",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMGJtYjVLaXdOWGtqeDQ1Nk9MWkdTMnUwYXhGTUNnODVfX09qZlRfbHRMaDBLRnU3Y0VqQm5NRVhKTGJVUmQyWjhCOVJKc2NXT24xY3FOQ0RlU3RSdndhZmIwR2VCZllJdWFhVGxGQjBvQ2tfeTRock1lc09ZNEwxMV9vcWtVNV9VSXFoOGtTZE8?oc=5",
+    "source": "Yahoo Finance",
     "published": "2026-08-19T12:38+00:00",
     "score": 18,
     "tags": [
@@ -1108,7 +1122,7 @@
     "id": "d81597cfcb49d6ed",
     "title": "Marvell Technology stock slides after rally as investors weigh rich valuation and upcoming earnings",
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQdHhkZndfTmw4cjF6OGNuSkFicUdocndES3FJdEw3M0h5enhxcjZNc2g0NWxxMXZuNjdJQkhYNy00OW81NTRpWDBFU0FJc0F4XzRCVDJUQS1hcGxNLVg1U3Joc2FPaG1QTEpEdDVJWmRJVktqT25QT29CTnZTRlZRNHdyRWpMb0ZwZzFxV3VpbTl3THc4MVI3LUdvaEw4dmFmYWZZd2hGcDNXX0Z4d1RtRXpsTGViVXZBeWZpQUdoNERUVGVWYlRPVlpB?oc=5",
-    "source": "AD HOC NEWS",
+    "source": "ad-hoc-news.de",
     "published": "2026-08-19T11:26+00:00",
     "score": 6,
     "tags": [
@@ -1183,6 +1197,19 @@
     ],
     "direction": "neutral",
     "primary": false
+   },
+   {
+    "id": "0daf4519c2695497",
+    "title": "US Stock Market Movements | Meta (META.US) Falls Over 3%, Faces Risk of Up to $1.4 Trillion in Fines",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTDFFX2htZi1vZ2FtRFJZUThHVXB3Q0wtZVFtY2xsWWhWYnRIaUN3VWE5ems0anFTSXljWE9zdUNkY19FQV9tZ25uZ2I5d3B4MHpidnQyRjdLZHRrckdoQ1NRQ2RBNDZkcXQ2NUM1VW5sbW0wSE13UzNVQ0ZVS3dQVHNhMWk1b2c5R3c1QTBCSUxyOGgyQmtWNkhMeVpRdkE?oc=5",
+    "source": "Moomoo",
+    "published": "2026-08-18T14:42+00:00",
+    "score": 8,
+    "tags": [
+     "legal"
+    ],
+    "direction": "negative",
+    "primary": false
    }
   ]
  },
@@ -1224,5 +1251,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 88
+ "count": 90
 }
