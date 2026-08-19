@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-19T21:10:13+00:00",
- "changed": "2026-08-19T21:10:13+00:00",
+ "checked": "2026-08-19T21:40:17+00:00",
+ "changed": "2026-08-19T21:40:17+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -44,23 +44,10 @@
     "primary": false
    },
    {
-    "id": "91317f7a2842d324",
-    "title": "Apple stock holds above $310 as fresh Q3 2026 earnings and security updates shape investor expectati",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOamR4UmZwVVAzT0JaZjRDTmJobzc2MWUtakR0TGVOUXZob21BWTNRZ1RPaXkxRXd2amNFSVFlc09VZEhBRHVqOWdxbGNOa21vMFBNdHNCakR4ZUtXMmlyUUExTXV2MUNGNFBWQ2RUMk9rYmhrZER0QzVsMkRQOVRFOS0zRjNlYXpMNVdSclctNGMwM1FPZHZ1V0JoVllJNml3anlEVWEtWHo3cm1IMW04RkJ3XzgxVlV2SmZHQmZZb1BBNlA0UFpXUA?oc=5",
-    "source": "ad-hoc-news.de",
-    "published": "2026-08-19T14:11+00:00",
-    "score": 9,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "b0ecc282386951b9",
     "title": "Apple Stock Target Jumps From $260 to $400 in Rare Upgrade to Buy",
     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1WUFd2T2pyYmlyWU5TazMyR3hwX2x3c2s4MllxNGxaRTZWcG5sVk9URE44SkQ1X0NTbWwxdWFOdG0tbDh2NXVUV3NGRzE3S2NoU29OVE1QTVBfN3pTd25oWVl3R0lXVUlhelVHamsxUnVVNHhq?oc=5",
-    "source": "FinanceBuzz",
+    "source": "financebuzz.com",
     "published": "2026-08-19T09:59+00:00",
     "score": 8,
     "tags": [
@@ -135,6 +122,20 @@
      "policy"
     ],
     "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "8422a80a6808bcf5",
+    "title": "Apple investor sues board over alleged AI piracy, stock buybacks",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTEtaYVQ3S1d5dFQybjFPQ0trR3hMdkhiSlhmUlpRbGxIbHk3MjZOSnBZQkFUNWlxWEhhd1Vyajg2UTlmZ2ZyOExndTNkMGtWZ0R6VDh3RjQxOXZPSFM2QTBCSHVtdnNpdG5iRlpCZ05XNkJkR1hzS0lxakdUN25SVVFBeTh1TjltbzI0RE1NRmlWYkZDc3NaTU5Od3dRMXVNeXFqUWEyd2xwa1E?oc=5",
+    "source": "Daily Journal",
+    "published": "2026-08-17T23:23+00:00",
+    "score": 10,
+    "tags": [
+     "legal",
+     "capital"
+    ],
+    "direction": "negative",
     "primary": false
    }
   ],
@@ -261,7 +262,7 @@
     "id": "69e9e11545471848",
     "title": "Amazon.com (AMZN): AI Demand Triggers AWS Revenue Acceleration",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMVQwb0dNc1k5cExzQ3N3cE1Ic1dWTkk5Y1p3LVFfN1dyaFp6M3NhZi1kWWVHVmc1ajYxT1BDNGY1VVJZcmlhU0lxeUV0bmV6OUM4VERPYzMxRnVMRnZaUUhJOEU0V21XUnprNGQ1YzZVeFZWZFRmVWgzZWZ5UVF5b0FDRklrVWlabzBSY1cxSGM2LXUz?oc=5",
-    "source": "finance.yahoo.com",
+    "source": "Yahoo Finance",
     "published": "2026-08-18T13:18+00:00",
     "score": 6,
     "tags": [
@@ -276,7 +277,7 @@
     "id": "3c02d853abf62d42",
     "title": "Tesla Stock Surges 2.9% Despite Its 321-Times Earnings Valuation",
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQURwSGEzVEFSYWx1VHdyMlFTNHRnaW9oOEtlMEtMa0xnNjNWZEVkTnowNmFvSkRvQThtX3NvVWJGSlAzWHpCLTFMT3E5eVRtV29JQXYwT25BZEhfSnNuRzhYaWF2bXZpQXQ5bjBqcU0xLWlNd0N2SXJsdDltZHFQSEZ1enNYLWpkbEluRXFfN2c?oc=5",
-    "source": "finance.yahoo.com",
+    "source": "Yahoo Finance",
     "published": "2026-08-19T17:48+00:00",
     "score": 6,
     "tags": [
@@ -447,7 +448,7 @@
     "id": "3057491e453c9774",
     "title": "Palantir and Sandisk Stocks Are Soaring: Wall Street Says to Buy 1 and Avoid the Other",
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQREJNWWVfNzFNaUU0X0ZUN25OeDlyVjdFajhZWXRSNUk1S1FnY045bEpqRjBsenJOTVdZcVJSV0I2SFVqeFJmbHRHTVBVRjJyYVcxdVhyOHUxaWUxeDlfaEJTb1FKNmtLU21uOExPemZlUEdVLUw5NVJESlVtSEc0anRuZWxZazBUM2d0cGZoT3hEMjF4ZWNwRERlSVN0Q2w2Mzh3?oc=5",
-    "source": "finance.yahoo.com",
+    "source": "Yahoo Finance",
     "published": "2026-08-18T12:45+00:00",
     "score": 5,
     "tags": [
@@ -662,7 +663,7 @@
     "id": "2cfb9abb55d4c3dc",
     "title": "Alphabet’s (GOOGL) Small Data Deal Hints At A Bigger AI Appetite",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdFI3U1Q2OXlOcDYwSHVfck1JdFM0RVdkRVQ2N0M0RmRjaUVEU25SM0lOcHMxU2g5SEVxdGhJYU1ndXRad2RDeDVpLXp5cEF0OERWMGY3Wm5nd3gyaTZBc1hMTGlqNEZldm9vUjlzQW4yY2pDYlhSZHNDbnJiVDRQLUk2SFdGc0d3cWtJbjNXN29TMlFMeDhkZGxn?oc=5",
-    "source": "finance.yahoo.com",
+    "source": "Yahoo Finance",
     "published": "2026-08-19T12:48+00:00",
     "score": 5,
     "tags": [
@@ -701,7 +702,7 @@
     "id": "8a1886c5c78b1870",
     "title": "Alphabet Stock Holds Firm as Cloud Revenue Explodes 82%",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUTdRLUhwQ2VNeldvdDNrRC1DMVJBSmpHV1NZM3Y1N1FERm1qX1dmTGpkVzE5OVJ2cGYtVUtCZVhOQXBwVnZpcUZjeWp2TWtzS0RGTEZxUGVHcWFsVFJMOHk4MTY1SS1CYm1pV1h2Ny14QUxEWGFBVDNzN2drLTJ2N2lJZU5IaC1hOXJKYXdWd1I2amc5cWZjV3ZMX04?oc=5",
-    "source": "finance.yahoo.com",
+    "source": "Yahoo Finance",
     "published": "2026-08-18T20:52+00:00",
     "score": 6,
     "tags": [
@@ -955,7 +956,7 @@
     "id": "f183b48bdfc875f9",
     "title": "Intel and AMD Fall 4% as 13F Filings Reveal Concentrated Chip Bets",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdjhaMEthUk1VcThZeUllUmtEQzlzaTJVZHNvTURUWFdiak9ZVkRsVHRLek9hNVpwMWlLTHVXY0hqMTRoNEk5bURrVFVuUkFVS2xCX2tjNHM1eUxVZHhxWVFnaFVRZ3E4OU9FQ1U0ZE03a19KWmtwcG9SUG5kMEpucUhJNTd3V1ljN2xPcllR?oc=5",
-    "source": "finance.yahoo.com",
+    "source": "Yahoo Finance",
     "published": "2026-08-18T13:34+00:00",
     "score": 6,
     "tags": [
@@ -993,6 +994,19 @@
   ],
   "NBIS": [
    {
+    "id": "8073270e5e5bbaf9",
+    "title": "NBIS Stock Falls After Announcing Its Third Multi-Billion Dollar Convertible Notes Sale in Under a Year",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQakZhTHhjTGhZSzI4eTQ2MU42SUJLNS1qNmZrOXZRV19vZk1KZnFTQzgteFBHOG9SR2hvY1lsSHcyNDd0NVZ4bEkya21mcG9RVTdUamE3bERXSmpVdkZ1VFYyZk9yTDAzd2tvQ3lNNmU2Z1dTRjR6U0ZBX291TEZORC0tUUxKbTdiLTZHdFhGWTBndDNYY29ZV1FQODRibjA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-19T15:18+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
     "id": "c5d4bc64b07344e7",
     "title": "Nebius Shares Drop 11% as $4.5 Billion Bond Finances 80% of Quarterly AI Budget",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOV95R09lcC1ESmF1TWFuRkNWNkV3TmVJRVlBZ2JkYlZtbEczNFEzWktYQ0xnZUxnVF90T19fSTlzUXNuYmloUjBwaGtrQVJXQlk0NURIWGRjbTYyNENqUlZSZUpFWVZPdmU4MUdVV1BBNDFZaWxFOTFCQWdrbFhWTzZ6TGhnbEpRREhaaWhCUWdFSUQ2R1k4LTNaQXhBa2ZOZ0E?oc=5",
@@ -1029,6 +1043,19 @@
      "capital"
     ],
     "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "73f9e5d245bc30aa",
+    "title": "Nebius Group (NBIS) Stock May Be Fully Priced After Q2 AI Revenue Jump",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQN2JDOEtqRWNLZEtzU3JvcHJPOF9UZW5CMWtwQlMxVFZoY2NyeG52R0RqMEE3WTljZjdURHpEUFhJWDl5S0RaWnpNZkxENzU0Z09MQzhhX1RJbHYtUlh3dnYxRlFuVFl5c2dZN1R5QUIteWVwQUo0dXJjeFlCRWp2QXUycmhURko5UDNUaV9QZUQ4dWZSUUdrNVlqSWFaaUdZcFA3MDcwUEpCck1xLUNENlEwX0RrWGlrS2N0Uw?oc=5",
+    "source": "Sahm",
+    "published": "2026-08-19T08:43+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
     "primary": false
    },
    {
@@ -1098,36 +1125,22 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
+   }
+  ],
+  "MRVL": [
    {
-    "id": "73f9e5d245bc30aa",
-    "title": "Nebius Group (NBIS) Stock May Be Fully Priced After Q2 AI Revenue Jump",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYTFqUTAwSWFBNVNpbWdFc25LVDVnRzd0T0UxcFpKVEhkaUxDWmhZX3pETzNEU3ZVRzRXcldQQnV6aGFPa1dxWHM4V0E5dGhGckpINkNUanJralBHcnV1MFJ3OXVCdU9wNkJrb2pCMXlFMUtiVHdzXzA5T21jTFNjd0liQkdaQUpnQjRpUW51VmVPb1lmelZrNHpLemMzZ19ZVlc5U0ZIR1hqdWR1NXRtdlpoWXdLMXY5VFA3ekx1TlJGLW9zclFGWU8tUdIB0AFBVV95cUxPdWRVbWs4LTEzY05RMElpTm1QaWV3UVd1cVA4NEowM1hWcS1KOHMtRXVWR1ZuRXNrZ0JsZmNrSTBmb2pDb25lcE5XWU5ldWs3MzJRa0lmQy1nX1dUNDFBT1lnZDZKcmZyeWlQeDFqMmtwVDVhWDRhWnVJNEt2Vk5BWWhtcXhPYnR",
-    "source": "simplywall.st",
-    "published": "2026-08-18T16:28+00:00",
-    "score": 6,
+    "id": "0127f89ebb72f44e",
+    "title": "Marvell Technology (MRVL) Expands Google AI Partnership: What Investors Need to Know",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQnUyd2dFNllXRzE1WFpJX0wxQTN6U3ZldjZ0MVN3RW9tN1RST3pOQjdNdW45eEFHUkFTU2FNVEd1MkswME1rQWxZcXItOExxcFVFb3hjVGp1ZEVxcUlGQ2QwcUp1ck5YSGxwaGN6VFUtczBRNWJsWENpaWhoWkZJeTB5NndWaXFGQWpSc3Rxb3haZGhsZ1R3OWdSOTh3ZE1vTVVRRQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-19T21:15+00:00",
+    "score": 5,
     "tags": [
-     "earnings"
+     "contract"
     ],
     "direction": "positive",
     "primary": false
    },
-   {
-    "id": "97680cf8cd18274f",
-    "title": "Nebius Enters Its Q2 Earnings Spotlight With a Fresh Billion-Dollar Contract and a Familiar Capex De",
-    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQYy1RT2RWdkphLWJxS3VIejhLUWJtQzdFQzFaaG04VVBRLXJGTE5pSHU3THpYXzI5T3JkX2JmOWx1VTI5NnZJeG92WVF4M0VYUmtXaEdMV2NaYXduYzByeHZNZGxnZ2prc0tneUFlMEZnVGt1OFFiOHFyTUIyQnM2aWlsQXFKM3RKbGh5X2QtSXBoRENzU0pYTFU0RUxxUld3WEtTalZndEtnNWQ1d0hrbk84V241eVFMNHdTd2daeWZKNndqRDl5WC10VGtYRklhYmdmbWdR?oc=5",
-    "source": "ad-hoc-news.de",
-    "published": "2026-08-18T09:26+00:00",
-    "score": 11,
-    "tags": [
-     "earnings",
-     "contract"
-    ],
-    "direction": "neutral",
-    "primary": false
-   }
-  ],
-  "MRVL": [
    {
     "id": "58ee0bd88a3a2d04",
     "title": "Marvell Gives Client Google Right to Buy $12.2 Billion Stock",
@@ -1172,7 +1185,7 @@
     "id": "65220e7b3ee0a9fe",
     "title": "Broadcom Rival Marvell Surges After Google Strikes AI Chip Deal, Gets Option to Buy $12.2B Stake",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaXo4dDF3WHUtLUNzSmtJX0thVEtvU0dtSnNaVXlNTmpfQWZkYXRKZERjTHVXa2Z6akV5MUlRVjdJZHpCalB1NTB3LWFmUjFPY1pIX2tTMGRLX3poUXJPYlQzOVlCR3l1NkxnLWx2T2NpU1BPUXE5T1FhQkJHUzlOU1RSR0xOSnJpRlZkTWJTemZJSWNVOExoYUx6bUo2ZFpWR3c?oc=5",
-    "source": "finance.yahoo.com",
+    "source": "Yahoo Finance",
     "published": "2026-08-19T14:37+00:00",
     "score": 23,
     "tags": [
@@ -1181,20 +1194,6 @@
      "contract"
     ],
     "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "c8d36ab1c44c8802",
-    "title": "Marvell Issues Google Warrant to Buy Up to 59 Million Shares as Part of Partnership Agreement",
-    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNVDJPcEF2S1lBeUx4QW14ZW4wUUpHeFBwLU5NSnFNUDZJcV9TQXlfMWJMX3lmUURad1kzZndhaF85MVRVVXBqQVlxRml4MFBnV2RneVpORkMzdkhxMWlld3Y0S0RBMGpRSXIyTXFnVm9Ud1puRms5dVhwMGlxLWdJaDhsVGF3QVRlSks2Q1BhOFF0OTJ4S1BNVjNQemJ1Tm5hQUdNOTcxZGw5XzhtVGdLbV95cnNTaWFtZHhSbjA4VFkwWU1KYUV3NTdOYjdoX0YyVlQ3WmY1MWswRW04ampZ?oc=5",
-    "source": "marketscreener.com",
-    "published": "2026-08-19T13:25+00:00",
-    "score": 10,
-    "tags": [
-     "ma",
-     "contract"
-    ],
-    "direction": "neutral",
     "primary": false
    },
    {
@@ -1214,7 +1213,7 @@
     "id": "5a51e69e1846cd24",
     "title": "Fabrinet Drops After Earnings Dragging Down Peers Like Marvell and Amphenol",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNX2FOcnlPbDlFVi1wNmtPUlpGQ0xBQmJHM0dYbzF6MnU4TUs4SWVrWTM1bURzOG8wTTlldVdiazNUeDJkY0I3aFdsTTF4WnViVjhrS3JjbDA1MEFORnc0SzFlWmt2Wk1McjdMb0R5LWZuQjVWZTVQeHB3Sy1KLXZGUVdnSkhRdFBTbzUyZmJqcDVwb1N1MHNrZ1JBR3JacTdscjkwQw?oc=5",
-    "source": "finance.yahoo.com",
+    "source": "Yahoo Finance",
     "published": "2026-08-18T17:45+00:00",
     "score": 6,
     "tags": [
