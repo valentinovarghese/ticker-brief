@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-19T19:23:13+00:00",
- "changed": "2026-08-19T19:23:13+00:00",
+ "checked": "2026-08-19T19:47:09+00:00",
+ "changed": "2026-08-19T19:47:09+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -100,7 +100,7 @@
     "id": "bc5385051e234ffc",
     "title": "Apple Changes App Store Terms to Resolve E.U. Antitrust Dispute",
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUDdna2V3bXFlOERIUnFkejQ5WkVBc2I3cVRoZXNGdWZDQnRMeUVEZ2x6VnVVbTJQenY4aDIwU0RLQ1JOMWVLazZmZ3N1MjVmLXFyc08xOWhBT0pLU1JDUzctczNpQmdkd1BuUHo0M1N3M3ZoNFktQmg4V2NOWjFwM2dxWngzUQ?oc=5",
-    "source": "Barron's",
+    "source": "barrons.com",
     "published": "2026-08-18T18:19+00:00",
     "score": 9,
     "tags": [
@@ -221,7 +221,7 @@
     "id": "e03f7d7024b4fa88",
     "title": "Amazon Stock Rebounds From Slump: AI Ambitions and $2.5B FTC Deal Ignite $3 Trillion Hopes",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQU1ZoNi1QRmswZjFEXzBXcGxCOU9aTTh2UllSSHFoYzVHc3d3cDZIZXVKMDNJdnh3TFh1Ul9wYXZIb1dsWkNNbUUzWkdGaHQxdUtrZk1sNWxoYzhPWWt1dE04ZWtyM0FlUkc2dmJDOGNoLWVObmdGZ1FkSEgxVzJFd2NpVEJWZXhGNG1uWWhObzBoRnFIYUowSHpvYUhkR3NlSDh4X01aSlNXTFY2?oc=5",
-    "source": "TechStock²",
+    "source": "ts2.tech",
     "published": "2026-08-19T03:25+00:00",
     "score": 13,
     "tags": [
@@ -475,7 +475,7 @@
     "id": "56588e2248f71e28",
     "title": "Microsoft Shares Tick Up, U.S. Markets Trade as China Windows 10 Departure Weighs on 1.5% Revenue Risk",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOT2dtd2VLVEhockhjQW1hUE56dUJEYkhIQndUTUJ6enVJMWloS1VMX1NHdkNCYkZIbE9ldHhCR2VTcWlzRkRNX3FEU3pqMGtmTktDY29NMnRmbzN0b200NWtRcnZNS3lDV2w1S2ZHY1Q3U0NvVUlvNzhKUTZObHlwbW5WZVdKM2w4VkNSV1g4anN3Z3N5TDZ3Q3VfVWk5eE52cXRHcDVn?oc=5",
-    "source": "TechStock²",
+    "source": "ts2.tech",
     "published": "2026-08-19T14:16+00:00",
     "score": 11,
     "tags": [
@@ -673,19 +673,6 @@
     "primary": false
    },
    {
-    "id": "3df3c308074bfbc4",
-    "title": "Berkshire Boosts Alphabet Stake 83% as Buffett Makes Major AI Bet",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOFp1a25DNTlnY3BmTF9BTnFDVnI0bWFPTWtKVmVXUW9IMl9mTkJrWExSem5fT2M2QmpyN2hDY3pKUjYwUmVKM0ZjeTNrTENJQVEtRWxRQmRKUWUxM3A2NUI2MGVWOUF0X2o4Njl0LTVIaF95RXR0LS15ZVREVVBKeERxM3c0a3ZyOTYxZk13TEVXZE5zWGwzYUJrOFhvNFVZaXBCdEItWUhfOUgzUHpiYTFJV0xLaWpMck1jd255bHNNdw?oc=5",
-    "source": "TradingView",
-    "published": "2026-08-18T21:00+00:00",
-    "score": 5,
-    "tags": [
-     "capital"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "8a1886c5c78b1870",
     "title": "Alphabet Stock Holds Firm as Cloud Revenue Explodes 82%",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUTdRLUhwQ2VNeldvdDNrRC1DMVJBSmpHV1NZM3Y1N1FERm1qX1dmTGpkVzE5OVJ2cGYtVUtCZVhOQXBwVnZpcUZjeWp2TWtzS0RGTEZxUGVHcWFsVFJMOHk4MTY1SS1CYm1pV1h2Ny14QUxEWGFBVDNzN2drLTJ2N2lJZU5IaC1hOXJKYXdWd1I2amc5cWZjV3ZMX04?oc=5",
@@ -862,7 +849,7 @@
     "id": "382a676f3addef36",
     "title": "NVIDIA earnings approach! Is the $105 billion support for OpenAI a move to strengthen AI hegemony? Or a new risk?",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMFJUelFMdjhmanU4ajZQb29kSDNGQWJDdUxsTi0zMXJXYzV1ZUJLaDFWdS1UTHlTWWJlNmNtcDhiRmJodi11MjZzaGxUSkZLZGpYaFhiR0lJb1BUQlp4UEotLUNHMmplUFp1cWVTbmljR3lPay10SzBGUmlOY1RKRWhzZGprOFp4SkRLLU1GOVp4cjhvaW9BUGtjdEwwZlUxUlRDY1lfOXZrckVH?oc=5",
-    "source": "moomoo.com",
+    "source": "Moomoo",
     "published": "2026-08-19T06:20+00:00",
     "score": 9,
     "tags": [
@@ -943,7 +930,7 @@
     "id": "cab92cd046fc955e",
     "title": "Intel's $100 Strike Put Sweep Raises Questions as Chip Rally Hits Turbulence | Options Income Daily",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVUZ5eGw4VkRacGVRUW93cDZobTNMUnVlRzVOWHdIRTdzLXU0bFBGRHVSMEJVMnowV1ZjSGlOMWJadlBodDlJT2lzeW5aNFp4c1MzeVhNR3d4TEJ5aVVfQUtBdjRDakVyT2VNRHBHSlhHdkVrdm81S21TRGU2LWllc3JKSFFOSXJMUVBNV2lFWGNZbHBqYVBsRFBlZzZNV25XUGJrU1BMQWNsNGs?oc=5",
-    "source": "moomoo.com",
+    "source": "Moomoo",
     "published": "2026-08-19T03:34+00:00",
     "score": 8,
     "tags": [
@@ -997,7 +984,7 @@
     "id": "c5d4bc64b07344e7",
     "title": "Nebius Shares Drop 11% as $4.5 Billion Bond Finances 80% of Quarterly AI Budget",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOV95R09lcC1ESmF1TWFuRkNWNkV3TmVJRVlBZ2JkYlZtbEczNFEzWktYQ0xnZUxnVF90T19fSTlzUXNuYmloUjBwaGtrQVJXQlk0NURIWGRjbTYyNENqUlZSZUpFWVZPdmU4MUdVV1BBNDFZaWxFOTFCQWdrbFhWTzZ6TGhnbEpRREhaaWhCUWdFSUQ2R1k4LTNaQXhBa2ZOZ0E?oc=5",
-    "source": "TechStock²",
+    "source": "ts2.tech",
     "published": "2026-08-19T14:12+00:00",
     "score": 9,
     "tags": [
@@ -1144,6 +1131,20 @@
     "primary": false
    },
    {
+    "id": "c8d36ab1c44c8802",
+    "title": "Marvell Issues Google Warrant to Buy Up to 59 Million Shares as Part of Partnership Agreement",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNVDJPcEF2S1lBeUx4QW14ZW4wUUpHeFBwLU5NSnFNUDZJcV9TQXlfMWJMX3lmUURad1kzZndhaF85MVRVVXBqQVlxRml4MFBnV2RneVpORkMzdkhxMWlld3Y0S0RBMGpRSXIyTXFnVm9Ud1puRms5dVhwMGlxLWdJaDhsVGF3QVRlSks2Q1BhOFF0OTJ4S1BNVjNQemJ1Tm5hQUdNOTcxZGw5XzhtVGdLbV95cnNTaWFtZHhSbjA4VFkwWU1KYUV3NTdOYjdoX0YyVlQ3WmY1MWswRW04ampZ?oc=5",
+    "source": "marketscreener.com",
+    "published": "2026-08-19T13:25+00:00",
+    "score": 10,
+    "tags": [
+     "ma",
+     "contract"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "2d8c3735f41be5b3",
     "title": "Marvell Gives Client Google Right to Buy $12.2 Billion in Shares",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWUthaHBDWVRmVFNLMTQwS1RyYnlmelc4T3hNSWp0cnVKemhpd19UcklodEIyMXA1ZjRlLXlnZ3cybzJleVJYU2NSMUFzTDloc0Fkc0NSRjVSZ0g3X2ZxLUdkU0FaRVVEU3luRENwSGhjc0dqZEF0VlZZTkpvRGhIaXVxdDJYR0NOVUNpYk5MMjhTOWRRV0otbHd4OEticDI5c2hCb2FGalNCWHhFSzkwMlZBNA?oc=5",
@@ -1152,19 +1153,6 @@
     "score": 8,
     "tags": [
      "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "5f33af7057ce501e",
-    "title": "Marvell Shares Rise, Google Warrant Imposes $120 Billion Buyout Hurdle",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObkV1dmlEdGV4WEZVSFRXdnRTcGpiRGdmMU9YVTF5YXlvNmhTVU1wQ0lwWWlVb3hTTE1OanhHUU1rRF9pWGxsUzFPbl9nTnVYY0Z2cmVpZ2hKaUx2WGdUaUo1dVVTRDhCbkh5QlkzaDdpVHVUOGRIcy1jQ1FhcFlUWUF2XzV5QXNHdmFpd3k3cjBibjF0WkE?oc=5",
-    "source": "TechStock²",
-    "published": "2026-08-19T12:38+00:00",
-    "score": 8,
-    "tags": [
-     "operations"
     ],
     "direction": "neutral",
     "primary": false
@@ -1263,5 +1251,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 91
+ "count": 90
 }
