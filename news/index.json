@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-19T20:44:26+00:00",
- "changed": "2026-08-19T20:44:26+00:00",
+ "checked": "2026-08-19T21:10:13+00:00",
+ "changed": "2026-08-19T21:10:13+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -512,20 +512,6 @@
     "primary": false
    },
    {
-    "id": "151ceab28aad6a7e",
-    "title": "Satya Nadella's Microsoft Stock Jumped 18% in a Week After Azure's Annual Revenue Topped $100 Billion for the First Time. Is It Still a Buy?",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQc0dCYXVLT3AxLVFWdkRqUVNsMUQyWHl1Nm5uNG1ld1M3eVNVNHRMRFZGc18wMkFfc3VYaW5SeThQV2JMOUpGQXRqWHZ1SEY0NmdySTloRndhenZOM29oLWFQajJIU0R6WEpGMjBPYm1IelZzSFVCekRzTllZdUlRM1VUZHF3cFR0?oc=5",
-    "source": "AOL.com",
-    "published": "2026-08-19T11:22+00:00",
-    "score": 14,
-    "tags": [
-     "earnings",
-     "ma"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
     "id": "c336e9cedfd6e0fe",
     "title": "Freedom reviewed Apple, Microsoft, Amazon and other крупнейшие U.S. companies after earnings",
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaFRNenAwU0xrNXE1WC0zdXBjbmNHbnZVRWZWN1hDLXkwTWY4enN0eklLNzlhTnBJbjgwMzJDZE8yYk9ZMFBOR0w0SlU4clRkMGxUQVFOdWZLeURFeENlLXJUbWlPZ0IzTnZuRDl4WHJfWFNZaFB1NUc2dEJYaVcwOEJ6WTFKeVhPQVFTdHN3WjBKSnNrRnFTaFdPS2lseEtJS2xaaURGa0N1M0JLTDFVTEFGVkxkQ1hCYy1OeG82SXhCYVMw?oc=5",
@@ -615,6 +601,19 @@
      "earnings"
     ],
     "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "64ac398b9db21e2c",
+    "title": "Microsoft (NASDAQ: MSFT) Stock Price Surges 18% As Azure Cracks $100 Billion In Annual Revenue For The First Time",
+    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQWjhYWjFyUzJCQ0xVdW1xTXJLeFg4UGdwOUhmWU4tWkNmT2o5aGpYX2pUenZKUC0weEhuSHRMZ19IVXRRdm5lMmdMS2hmWU03QXdkbXM4NEtrdHE0dFpyRWpjVGRSUm1PUi1RUW13ZGJiaHdiLXQ4VnhTWVk1RTR3VkdlVkZDWGdLRzgxdE5sX0pRVklMcTRKbF9PSGZyX2Z0Y2w2QTRvWVR4ZVd1OXBxOGdvWlB4OWlXRjltY1dNZmJwZmRrUG1HYmtEN0lQdGtmN2h3TEljbDE0YkxmSEc5MzhvU0NwZzdXbUpwWDN3?oc=5",
+    "source": "foreignpolicyjournal.com",
+    "published": "2026-08-18T00:53+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
     "primary": false
    },
    {
@@ -793,6 +792,19 @@
    }
   ],
   "NVDA": [
+   {
+    "id": "030e183098d29e91",
+    "title": "Nvidia Reportedly Explores Stake in AI Data Provider Mercor At $20B Valuation",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdVplTE1RZmhWdDR4UFdKV2VPNFNFS2pWS3pBMWlCWlJoS21aN3ZHaXl1X1RWa3F4ODc2NjFkZDBKbjRxYmpiRVpfSlRjOUVmVmpMZDJrUUpDYUtwSXVISUdnMlJOemRreHZKZVhVcW1FcDNFOHNPSUF3ZGUyY1Foanl5OWdqeS1LaW9kNlBVV3IyTG04X2pLMFVmZDBLVmlzdnJzbDNvRnhJU3VuVUxmTmwzVFozaEdsZzhlMC1lVHRmdVc4RFljNVROTUtzUk1WTEVV?oc=5",
+    "source": "TradingView",
+    "published": "2026-08-19T20:45+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "03f15782958f672b",
     "title": "Nvidia considers funding AI startup Mercor, which helps it develop open-source models: report",
@@ -1279,5 +1291,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 92
+ "count": 93
 }
