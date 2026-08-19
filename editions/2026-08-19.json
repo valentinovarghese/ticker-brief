@@ -1,0 +1,515 @@
+{
+ "date": "2026-08-19",
+ "weekday": "Wed",
+ "headline": "MRVL -7.82% led five of the twelve down 3% or more, as the 30-year Treasury yield hit 5.32%, a 19-year high.",
+ "gauge": [
+  {
+   "text": "QQQ -1.69% Tuesday close",
+   "tone": "down"
+  },
+  {
+   "text": "updated 07:00 ET &middot; before the open",
+   "tone": "flat"
+  },
+  {
+   "text": "12 tickers &middot; session of Tuesday 18 August",
+   "tone": "flat"
+  },
+  {
+   "text": "Nasdaq-100 futures -0.37% &middot; provisional",
+   "tone": "down"
+  }
+ ],
+ "quick": [
+  "<b>A bond move, not a technology story, set the session.</b> The 30-year Treasury yield touched <b>5.323%</b> on <b>18 August</b>, its highest since <b>2007</b>. QQQ closed <b>-1.69%</b> against SPY at <b>-0.68%</b>: the long-duration index lagged the broad one by more than a point. Five of the twelve fell <b>3%</b> or more and none rose <b>3%</b>. Three rose and nine fell.",
+  "<b>Nebius got the approval it had been waiting for and fell 7.60%.</b> The Vineland planning board passed the Phase 2 site plan <b>8-1</b> on the night of <b>17 August</b>. That clears the campus behind its <b>$17.4bn</b> Microsoft contract. NBIS still closed <b>7.54%</b> below its own opening price, and its intraday range of <b>12.08%</b> was the widest of the twelve.",
+  "<b>Apple agreed to charge European developers less, and rose 1.45%.</b> On <b>18 August</b> it cut its EU in-app commission to <b>26%</b> from <b>30%</b> and scrapped the Core Technology Fee. That ends the Commission's Digital Markets Act case. That was the largest rise of the twelve on a day when nine fell."
+ ],
+ "macro": [
+  {
+   "dt": "<b>The 30-year Treasury yield touched 5.323% on 18 August, a 19-year high.</b> US national debt is approaching <b>$40tn</b>, inflation expectations are firm, and the AI industry is now a heavy borrower in its own right",
+   "lead": "How it reaches these stocks",
+   "dd": "A long bond yield is the price of waiting. Most of what investors pay for <b>NBIS</b>, <b>MRVL</b>, <b>PLTR</b> and <b>NVDA</b> is profit expected several years out. A higher discount rate shrinks a distant profit far more than a near one. That is arithmetic, not sentiment, and it explains why the steepest falls came in the names whose earnings sit furthest out. QQQ closed <b>-1.69%</b> and SPY <b>-0.68%</b>, which fits the read rather than contradicting it."
+  },
+  {
+   "dt": "<b>Oil is feeding the yield.</b> Trump ruled out talks with Iran on <b>18 August</b> and said the naval blockade stands. Brent was near <b>$91.55</b> and WTI <b>$84.61</b> early on <b>19 August</b>. The Strait of Hormuz has been effectively shut since late February",
+   "lead": "Why an oil headline lands on a chip stock",
+   "dd": "Energy is the one input that reaches every price in the economy. A sustained oil shock raises expected inflation, and long bond yields are made of expected inflation. The chain is oil, then yields, then the discount rate, then the multiple investors will pay per dollar of distant earnings. None of these twelve companies buys much crude. All of them are priced off the number at the end of that chain."
+  },
+  {
+   "dt": "<b>The Federal Reserve publishes the minutes of its August meeting at 14:00 ET today.</b> Overnight, Asian equities fell hard, with South Korea's KOSPI down more than <b>5%</b>. US futures were softer early: S&amp;P 500 <b>-0.18%</b>, Nasdaq-100 <b>-0.37%</b>",
+   "lead": "What to watch",
+   "dd": "The minutes are the only scheduled event today that can move the discount rate directly. Futures are thin before the bell and frequently reverse, so treat the early softness as provisional. Note that per-ticker premarket quotes could not be obtained this morning, so nothing below reads a premarket move for an individual name."
+  }
+ ],
+ "entries": [
+  {
+   "ticker": "MRVL",
+   "dir": "bearish",
+   "strength": "major",
+   "strength_label": "Major move &middot; no company event &middot; sector",
+   "move": "-7.82% &middot; Tuesday close, settled",
+   "move_tone": "down",
+   "happened": "Marvell fell 7.82% with no company announcement, eight days before it reports.",
+   "figures": [
+    "Closed <b>$216.00</b>, <b>-7.82%</b>, the largest fall of the twelve. Volume ran at <b>130%</b> of its average, so the selling was real rather than thin",
+    "The only filing in the window is routine. A Form 4 filed <b>18 August</b> shows CEO Matt Murphy sold <b>7,500</b> shares on <b>17 August</b>. The average price was <b>$236.08</b>, or <b>$1.77m</b> in total. It ran under a 10b5-1 plan he adopted on <b>16 December 2025</b>. He still holds <b>783,186</b> shares",
+    "The stock sits <b>34.5%</b> below its 52-week high of <b>$329.88</b>. AMD and Intel fell with it on the same day, which is the tell"
+   ],
+   "why": "Marvell sells custom silicon to a handful of very large buyers whose orders are funded, increasingly, with borrowed money. When the cost of that borrowing jumps, the market marks down how many years of order growth it will assume. Marvell's price is almost entirely that assumption. A pre-scheduled sale of 0.9% of the chief executive's holding tells you nothing about demand; the yield does.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "There was no news to price. Using Tuesday's settled close, this is a <b>7.82%</b> move on a sector input. Set against QQQ's <b>1.69%</b> fall, that is roughly four and a half times the index. That is what a high-multiple supplier does when the discount rate moves.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "The 30-year yield retreats below <b>5%</b>. Or Marvell's <b>27 August</b> guidance pulls the custom-silicon revenue outlook nearer than the market now assumes.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "<b>27 August</b>, second quarter results, one day after Nvidia.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "NBIS",
+   "dir": "bearish",
+   "strength": "major",
+   "strength_label": "Major move &middot; good news &middot; approval 17 August",
+   "move": "-7.60% &middot; Tuesday close, settled",
+   "move_tone": "down",
+   "happened": "Nebius won the New Jersey planning approval its Microsoft contract depends on, then fell 7.60%.",
+   "figures": [
+    "The Vineland planning board approved the Phase 2 amended site plan by <b>8-1</b> on the night of <b>17 August</b>. It adds <b>600,000</b> square feet to the DataOne campus. The board had held the vote up over noise, water use, emissions and LNG storage",
+    "The campus supplies the five-year Microsoft contract initially valued at <b>$17.4bn</b> when it was agreed last year",
+    "Closed <b>$248.43</b> against an open of <b>$268.70</b>, so it gave up <b>7.54%</b> after the opening bell. High <b>$274.80</b>, low <b>$244.78</b>: an intraday range of <b>12.08%</b>, the widest of the twelve",
+    "Volume was <b>19%</b> below its own average, so this was not capitulation on heavy trade"
+   ],
+   "why": "Removing a permitting risk should raise the probability that contracted revenue actually arrives, which is normally worth something. It was worth nothing here because the constraint that moved is financing, not planning. Nebius has no mature business throwing off cash to build with, so every gigawatt it adds is funded externally. A 19-year high in long yields raises the cost of every future funding round. That arithmetic overwhelmed a favourable municipal vote on the same morning.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Moved hard in the opposite direction to the news, which is the flag. Using the settled Tuesday close, the market weighted the cost of capital over the removal of an execution risk. The pattern across the day supports that: the fall began at the open and the stock closed near its low.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "Nebius announces the Vineland capacity is financed on terms already agreed, or long yields fall back. Either turns the approval into revenue rather than into a larger funding requirement.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "No confirmed results date. Consensus points to early <b>November</b> for third quarter figures.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "INTC",
+   "dir": "bearish",
+   "strength": "major",
+   "strength_label": "Major move &middot; no company event &middot; sector",
+   "move": "-6.58% &middot; Tuesday close, settled",
+   "move_tone": "down",
+   "happened": "Intel fell 6.58% on no announcement, back to within touching distance of last week's placement price.",
+   "figures": [
+    "Closed <b>$96.685</b>, <b>-6.58%</b>, on volume <b>11%</b> above average",
+    "That is only <b>1.8%</b> above the <b>$95.00</b> price at which Intel sold <b>210,526,315</b> new shares on <b>11 August</b>. Investors who bought that <b>$20bn</b> placement are close to flat eight days later",
+    "Nothing Intel-specific is dated <b>18 August</b>. The placement is from <b>11 August</b> and the Tesla 14A Terafab win was announced in <b>April</b>, though both recirculated in this week's coverage"
+   ],
+   "why": "Intel's equity now carries a much larger share count, sold on a promise that foundry customers will fill new capacity. That promise is worth less when capital costs rise, because the customers deciding whether to commit are themselves financing long-dated projects. The placement price has become a visible floor. A stock trading near the level management chose to issue at is being tested, not believed.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "No news to price. Read this as sector. AMD, Marvell and Intel all fell together while Nvidia fell less. That is the AI chip trade narrowing, not a judgement on Intel.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "Intel names a second large external 14A customer with a dollar commitment. That converts the placement from a bet into funded backlog, which is revenue already under contract.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "<b>22 October</b>, third quarter results.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "HOOD",
+   "dir": "bearish",
+   "strength": "major",
+   "strength_label": "Major move &middot; Form 4 filed 18 August &middot; mostly sector",
+   "move": "-4.90% &middot; Tuesday close, settled",
+   "move_tone": "down",
+   "happened": "Robinhood fell 4.90% the day a co-founder's routine share sale was filed.",
+   "figures": [
+    "A Form 4 filed <b>18 August</b> shows director and co-founder Baiju Bhatt sold <b>50,317</b> Class A shares on <b>14 August</b>. The average price was <b>$96.80</b>, or <b>$4.87m</b>. The plan behind it was adopted on <b>13 November 2025</b>",
+    "He retains <b>46,848,939</b> Class B shares. The sale was about <b>0.1%</b> of his holding, which is not a signal about anything",
+    "Closed <b>$91.53</b>, near the session low of <b>$91.44</b>, on volume roughly in line with average. It sits <b>40.5%</b> below its 52-week high of <b>$153.86</b>, the largest gap to a high of the twelve",
+    "Context from <b>12 August</b>, outside this window. July crypto notional volumes were <b>$10.9bn</b>, down <b>62%</b> year on year. Equities ran <b>$333bn</b>, up <b>59%</b>"
+   ],
+   "why": "Several outlets pinned Tuesday's fall on the insider filing. The sizes do not support that: $4.9m of stock cannot move a company worth tens of billions. Robinhood is simply the highest-beta name on this list, a business whose revenue rises and falls with retail risk appetite. When long yields spike and equity indices fall, the market cuts its estimate of how much trading its customers will do. That estimate drives the bulk of the valuation.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "The move is larger than the news, so treat the news as the wrong explanation rather than as underpriced. Against Tuesday's settled close, a <b>4.90%</b> fall on a day QQQ lost <b>1.69%</b> is the market repricing retail activity, not a director's trading plan.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "August volume data, due in mid-September, shows crypto notional stabilising month on month. The year-on-year comparison is already known and priced; the sequential number is not.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Mid-<b>September</b>, August operating data. Third quarter results expected early <b>November</b>.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "META",
+   "dir": "bearish",
+   "strength": "major",
+   "strength_label": "Major move &middot; trial opened 18 August",
+   "move": "-4.45% &middot; Tuesday close, settled",
+   "move_tone": "down",
+   "happened": "Opening statements began in the youth safety trial in federal court in Oakland.",
+   "figures": [
+    "The consolidated action brought by <b>29</b> state attorneys general opened on <b>18 August</b>. Coverage puts the trial at four to six weeks, with Mark Zuckerberg expected to testify",
+    "Meta has told the court the states seek as much as <b>$1.4tn</b>. Lawyers for the states have said <b>$200bn</b> is the more realistic figure. Both come from filings and hearings reported by press, not from a company release",
+    "Closed <b>$543.67</b>, <b>-4.45%</b>, on volume at <b>182%</b> of its average, the heaviest volume against its own average of the twelve",
+    "It sits <b>31.3%</b> below its 52-week high of <b>$790.80</b>"
+   ],
+   "why": "A damages range this wide is not really a number, it is a measure of how little anyone can price. What changed on Tuesday is that the range starts narrowing: testimony and rulings replace speculation over the next month. Investors discount a legal overhang by assuming a settlement, and every week of evidence moves that assumption. The operational risk is the larger one. A remedy that forces design changes to teen accounts touches engagement, and advertising revenue is sold against engagement.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Partly, and the volume says the repricing is active. The trial date was known. So the <b>4.45%</b> fall on Tuesday's settled close responds to the opening statements. Volume was the heaviest against its own average of the twelve. Note Meta also fell <b>3.54%</b> on Monday, before the trial opened.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "The judge narrows the claims or excludes the internal research the states are building on. That would cut the plausible damages range sharply and quickly.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Daily through late <b>September</b>. Zuckerberg is expected to testify at some point during it.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "NVDA",
+   "dir": "bearish",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; no company event &middot; results in 7 days",
+   "move": "-2.34% &middot; Tuesday close, settled",
+   "move_tone": "down",
+   "happened": "Nvidia fell 2.34% with nothing new from the company, a week before results.",
+   "figures": [
+    "Closed <b>$219.74</b>, <b>-2.34%</b>, on volume slightly below average. It sits <b>7.10%</b> below its 52-week high, the smallest gap to a high of the twelve",
+    "It fell less than Marvell, Intel and AMD on the same day, which is the AI trade concentrating rather than unwinding",
+    "The <b>$21bn</b> SpaceX stake disclosed in its 13F is dated <b>14 August</b>, and the <b>$105bn</b> Ohio backstop <b>17 August</b>. Neither belongs in this window"
+   ],
+   "why": "Nvidia is now the position investors keep while cutting exposure to everything around it. That is why its discount to its high stayed the smallest of the twelve. That relative strength raises the bar for next week. Expectations embedded in a stock near its high are harder to beat than those in one already marked down.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Moved roughly in line with a rates-driven session, so largely. On Tuesday's settled close it lost about <b>1.4</b> times QQQ's fall, against Marvell's <b>4.6</b> times.",
+     "flag": false
+    },
+    {
+     "k": "Would flip if",
+     "v": "The <b>26 August</b> guidance shows data centre revenue growth decelerating, which would remove the reason for the concentration.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "<b>26 August</b>, second quarter FY27 results after the close, seven days out and the nearest of the twelve.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "AAPL",
+   "dir": "bullish",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; regulatory settlement 18 August",
+   "move": "+1.45% &middot; Tuesday close, settled",
+   "move_tone": "up",
+   "happened": "Apple rewrote its EU App Store terms and ended the European Commission's Digital Markets Act case.",
+   "figures": [
+    "From <b>1 October</b>, EU in-app purchase commission falls to <b>26%</b> from <b>30%</b>. Apps using an outside payment processor pay <b>20%</b>, or <b>10%</b> for small businesses. Purchases through external web links pay <b>15%</b>, or <b>10%</b> for small developers",
+    "The Core Technology Fee is replaced by a <b>5%</b> Core Technology Commission on digital transactions in apps distributed outside the App Store. Developers may now show Apple's payment system alongside alternatives rather than choosing one",
+    "The Commission welcomed the changes and said it will monitor implementation. Separately, a German commitment decision dated <b>13 August</b> gives Apple four months to make its tracking consent prompts neutral across almost all of the EU",
+    "Closed <b>$310.03</b>, <b>+1.45%</b>, the largest rise of the twelve. Volume ran <b>14%</b> above its own average"
+   ],
+   "why": "Apple gave up revenue and bought certainty, and the market paid for the trade. Services carries much higher margins than hardware, and is why investors accept a premium multiple. So the risk that mattered was never the four points of commission. It was open-ended fines, and a regulator able to redesign the business by decree. Converting that into a known, capped tax makes the Services earnings stream forecastable again. A forecastable stream is worth more per dollar than a contested one.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Partly. A <b>1.45%</b> gain on Tuesday's settled close, in a session where nine of the twelve fell, is a real reaction rather than a drift. But the fee cut hits revenue from <b>1 October</b>, while the removal of legal risk is immediate. The two effects will separate over the next two quarters.",
+     "flag": false
+    },
+    {
+     "k": "Would flip if",
+     "v": "The Commission reopens the case over implementation. Or a large developer routes payments outside the App Store at scale, and the <b>5%</b> commission fails to hold European Services revenue.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "<b>1 October</b>, the new terms take effect. Fourth quarter results <b>29 October</b>.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "GOOGL",
+   "dir": "neutral",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; bond sale in progress",
+   "move": "+0.06% &middot; Tuesday close, settled",
+   "move_tone": "flat",
+   "happened": "Alphabet is in the market with its first Australian dollar bond, expected to price today.",
+   "figures": [
+    "Up to <b>A$5bn</b> across three, five, ten and twenty year maturities, with ANZ, Deutsche Bank, RBC Capital Markets and TD Securities as joint lead managers. That would exceed Apple's <b>A$2.25bn</b> deal, the previous record for a corporate bond in Australia",
+    "Context, from second quarter results in late July. Free cash flow (cash left after spending) was <b>-$5.9bn</b>. That was Alphabet's first negative quarter since its 2004 listing. Capital spending doubled year on year to <b>$44.9bn</b>, against operating cash flow of <b>$39.1bn</b>. Full-year capex guidance is <b>$195bn to $205bn</b>",
+    "Closed <b>$344.20</b>, <b>+0.06%</b>, effectively unchanged. Final pricing was not confirmed at the time of writing"
+   ],
+   "why": "This is the day's macro story written as a transaction. Alphabet is borrowing because its own cash no longer covers what it is building. It is doing so into the highest long-term yields in nineteen years. Diversifying into a new currency sensibly widens the buyer base. But the timing shows the buildout is now paced by credit markets, not by operating cash flow.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "The stock did not move, which is fair for a funding transaction that changes no forecast. Watch the spread rather than the share price: it is the direct read on what the market charges these companies to build.",
+     "flag": false
+    },
+    {
+     "k": "Would flip if",
+     "v": "The deal prices well inside guidance and upsizes, showing credit investors will still fund AI capex cheaply. That would ease the pressure on every name on this list.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Pricing expected today, <b>19 August</b>. Third quarter results <b>28 October</b>.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "TSLA",
+   "dir": "neutral",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; media report, not confirmed",
+   "move": "-0.72% &middot; Tuesday close, settled",
+   "move_tone": "flat",
+   "happened": "The Information reported that Tesla has told staff the Cybercab goes on public roads in Austin this month.",
+   "figures": [
+    "Employees would ride first, with the vehicles joining the existing Austin robotaxi fleet of roughly <b>186</b> Model Ys days later. The Cybercab has no steering wheel or pedals",
+    "Tesla has not confirmed a date. A rider contest closes <b>23 August</b> with winners named <b>25 August</b>, which is the only company-dated marker",
+    "Closed <b>$336.87</b>, <b>-0.72%</b>, on below-average volume. It sits <b>32.5%</b> below its 52-week high"
+   ],
+   "why": "A driverless vehicle without controls is the first fleet Tesla could operate at a genuinely different cost per mile, because the driver is the cost. Until a regulator lets it carry paying passengers at scale, though, it changes no revenue line. A press report of an internal plan is not a data event, and the near-flat close says the market treated it that way.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Nothing to price. The <b>0.72%</b> fall on Tuesday's settled close is smaller than QQQ's and is a non-reaction.",
+     "flag": false
+    },
+    {
+     "k": "Would flip if",
+     "v": "Tesla confirms paying public rides with a permit, or the launch slips past August with no explanation.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "<b>25 August</b>, contest winners. Third quarter results <b>21 October</b>.",
+     "flag": false
+    }
+   ]
+  }
+ ],
+ "readthrough": {
+  "title": "The asymmetry: the market paid for cash today and marked down capacity in 2028",
+  "body": "Two companies resolved a real uncertainty on the same day and were treated in opposite ways. <br><br><b>Apple settled with a regulator and gave up money.</b> Its EU commission falls to <b>26%</b> from <b>30%</b> on <b>1 October</b>. The stock rose <b>1.45%</b>, the largest rise of the twelve. <br><br><b>Nebius cleared the last planning obstacle in front of a $17.4bn contract and gave up nothing.</b> It fell <b>7.60%</b>. <br><br>The difference is not the quality of the news, it is when the cash arrives. Apple's concession lowers near-term revenue and removes an open-ended liability today. Nebius's approval unlocks capacity that produces revenue years out, and years-out revenue is exactly what a <b>5.32%</b> 30-year yield discounts hardest. On a day when the long bond made a 19-year high, the market paid for certainty it could bank. It marked down everything that still has to be financed. <br><br><b>The read-through runs the length of the list.</b> <b>GOOGL</b> is borrowing up to <b>A$5bn</b> in Australia because its own cash flow turned negative in the second quarter. That same cost of credit sets what <b>MSFT</b>, <b>AMZN</b> and <b>META</b> pay to build. That in turn sets the orders <b>NVDA</b>, <b>MRVL</b> and <b>INTC</b> book. Suppliers move first, and on the thinnest evidence. That is why <b>MRVL</b> fell roughly four and a half times QQQ, with no company event at all."
+ },
+ "nothing_material": {
+  "tickers": [
+   "AMZN",
+   "PLTR",
+   "MSFT"
+  ],
+  "note": {
+   "title": "What was quiet, what was excluded as old, and what could not be checked",
+   "body": "<b>Nothing material.</b> <b>AMZN -0.71%</b>, <b>PLTR -0.59%</b> and <b>MSFT +0.27%</b> had no company announcement dated <b>18 August</b>. All three traded below their own average volume. Microsoft was one of only three of the twelve to close higher, without any news to explain it. <br><br><b>Excluded as old.</b> Intel's <b>$20bn</b> share sale priced at <b>$95</b> on <b>11 August</b> and closed <b>12 August</b>. Tesla's selection of Intel's 14A process for the Terafab project was announced in <b>April</b>. Amazon's <b>$11.57bn</b> agreement to buy Globalstar dates from <b>14 April</b>. Nvidia's <b>$21bn</b> SpaceX position came in a 13F filed <b>14 August</b>, and its <b>$105bn</b> Ohio backstop was <b>17 August</b>, covered in yesterday's edition. Robinhood's July operating data was published <b>12 August</b>. Apple's German tracking-consent decision is dated <b>13 August</b>. All of these recirculated in the past 24 hours as though they were new. <br><br><b>Could not be checked.</b> sec.gov is blocked from this environment, so the Marvell and Robinhood Form 4s could not be read directly and are attributed to the coverage. Alphabet's bond size is a bookrunner report rather than a company statement, and final pricing was not available when this was written. Meta's damages figures come from filings and hearings reported by press. Reports of the trial's expected length differ, from four to six weeks upward. <br><br><b>A note on price windows.</b> Every percentage in this edition is Tuesday's settled close unless stated. Per-ticker premarket quotes were unavailable this morning: the data plan in use refuses extended-hours prices, and no figure was substituted. The only pre-open evidence here is index futures, which were modestly lower and are provisional. Nothing below the index level should be read as a premarket reaction."
+  }
+ },
+ "earnings_ahead": [
+  {
+   "when": "19 Aug",
+   "what": "<b>Macro</b> Federal Reserve minutes of the August meeting, 14:00 ET. <b>GOOGL</b> expected pricing of its first Australian dollar bond"
+  },
+  {
+   "when": "23 Aug",
+   "what": "<b>TSLA</b> robotaxi rider contest closes, winners <b>25 August</b>. The only company-dated marker for the Cybercab rollout"
+  },
+  {
+   "when": "26 Aug",
+   "what": "<b>NVDA</b> Q2 FY27 after the close, seven days out and the nearest results date of the twelve"
+  },
+  {
+   "when": "27 Aug",
+   "what": "<b>MRVL</b> Q2 FY27, one day after Nvidia and eight days out"
+  },
+  {
+   "when": "daily",
+   "what": "<b>META</b> youth safety trial, Oakland, running four to six weeks from <b>18 August</b>"
+  }
+ ],
+ "data": {
+  "session": "2026-08-18",
+  "source": "twelvedata quote endpoint",
+  "fetched": "2026-08-19T11:02Z",
+  "tickers": {
+   "AAPL": {
+    "close": 310.029999,
+    "pct": 1.45293,
+    "open": 307.53,
+    "high": 311.48999,
+    "low": 305.73999,
+    "volume": 46601840,
+    "avg_volume": 40731274,
+    "high_52w": 344.57001,
+    "premarket_pct": null
+   },
+   "AMZN": {
+    "close": 259.45001,
+    "pct": -0.71179265,
+    "open": 260.63,
+    "high": 262.17999,
+    "low": 257.73001,
+    "volume": 31484780,
+    "avg_volume": 34202598,
+    "high_52w": 287.20001,
+    "premarket_pct": null
+   },
+   "TSLA": {
+    "close": 336.87,
+    "pct": -0.71617824,
+    "open": 333.18201,
+    "high": 340.53,
+    "low": 331.12,
+    "volume": 27113653,
+    "avg_volume": 30369095,
+    "high_52w": 498.82999,
+    "premarket_pct": null
+   },
+   "PLTR": {
+    "close": 171.53999,
+    "pct": -0.58534323,
+    "open": 171.92599,
+    "high": 174.98,
+    "low": 170.63,
+    "volume": 27979382,
+    "avg_volume": 43177998,
+    "high_52w": 207.52,
+    "premarket_pct": null
+   },
+   "MSFT": {
+    "close": 481.63,
+    "pct": 0.26647211,
+    "open": 481.54001,
+    "high": 484.26999,
+    "low": 477.15051,
+    "volume": 23714829,
+    "avg_volume": 27454123,
+    "high_52w": 553.71997,
+    "premarket_pct": null
+   },
+   "GOOGL": {
+    "close": 344.20001,
+    "pct": 0.058143083,
+    "open": 342.45001,
+    "high": 344.8699,
+    "low": 340.19,
+    "volume": 19171000,
+    "avg_volume": 23824430,
+    "high_52w": 408.60999,
+    "premarket_pct": null
+   },
+   "HOOD": {
+    "close": 91.53,
+    "pct": -4.9039,
+    "open": 93.6,
+    "high": 94.59,
+    "low": 91.44,
+    "volume": 13822425,
+    "avg_volume": 13561982,
+    "high_52w": 153.86,
+    "premarket_pct": null
+   },
+   "NVDA": {
+    "close": 219.74001,
+    "pct": -2.34211,
+    "open": 220.45,
+    "high": 221.64,
+    "low": 218.6902,
+    "volume": 102376166,
+    "avg_volume": 107430367,
+    "high_52w": 236.53999,
+    "premarket_pct": null
+   },
+   "INTC": {
+    "close": 96.685,
+    "pct": -6.57551,
+    "open": 99.142,
+    "high": 99.31,
+    "low": 95.25,
+    "volume": 121164464,
+    "avg_volume": 108990716,
+    "high_52w": 142.35001,
+    "premarket_pct": null
+   },
+   "NBIS": {
+    "close": 248.42999,
+    "pct": -7.59532,
+    "open": 268.70001,
+    "high": 274.79999,
+    "low": 244.78101,
+    "volume": 22199044,
+    "avg_volume": 27473294,
+    "high_52w": 299.85999,
+    "premarket_pct": null
+   },
+   "MRVL": {
+    "close": 216.0,
+    "pct": -7.8223,
+    "open": 220.645,
+    "high": 225.0099945,
+    "low": 211.10001,
+    "volume": 25447297,
+    "avg_volume": 19516830,
+    "high_52w": 329.88,
+    "premarket_pct": null
+   },
+   "META": {
+    "close": 543.66998,
+    "pct": -4.44663,
+    "open": 557.31,
+    "high": 560.65997,
+    "low": 543.21002,
+    "volume": 26550374,
+    "avg_volume": 14595827,
+    "high_52w": 790.79999,
+    "premarket_pct": null
+   }
+  }
+ }
+}
