@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-19T05:06:05+00:00",
- "changed": "2026-08-19T05:06:05+00:00",
+ "checked": "2026-08-19T05:43:12+00:00",
+ "changed": "2026-08-19T05:43:12+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -8,7 +8,7 @@
     "id": "bc5385051e234ffc",
     "title": "Apple Changes App Store Terms to Resolve E.U. Antitrust Dispute",
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUDdna2V3bXFlOERIUnFkejQ5WkVBc2I3cVRoZXNGdWZDQnRMeUVEZ2x6VnVVbTJQenY4aDIwU0RLQ1JOMWVLazZmZ3N1MjVmLXFyc08xOWhBT0pLU1JDUzctczNpQmdkd1BuUHo0M1N3M3ZoNFktQmg4V2NOWjFwM2dxWngzUQ?oc=5",
-    "source": "barrons.com",
+    "source": "Barron's",
     "published": "2026-08-18T18:19+00:00",
     "score": 9,
     "tags": [
@@ -98,40 +98,14 @@
     ],
     "direction": "positive",
     "primary": false
-   },
-   {
-    "id": "1be760f6f9eea0df",
-    "title": "Ross Gerber Says 'Now Is a Good Time' to Buy iPhone 17 as Apple Prepares for Potential Price Hike With Next Model: 'If You're Looking…'",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPS21yQUFIZWlxRVU0dFdwQzVoX0hxSWlOSVEzdEEyZlZDUU90eUxodDZTNVV2LWJPMC1GcXlRVmh2aE5oek81ZWdNSkNXQXFaZjY5Q0pxcDJySWx1VVBiSWo0UGtKNzFqRC1ESUltQlBJODA3cVpDSDk3UUN4S055SDNZSEY1Nkp4bjZqOExCRTg3SUtn?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-17T05:35+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "AMZN": [
    {
-    "id": "0e442dc48340b70c",
-    "title": "Amazon joins other tech giants in gobbling up books to train AI, report finds",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOX2haQVpSY0F2ZU1XSmpEbUxZb1FWS3M0eG45ZklXNHZQTWdDME9tYjNUUnZQdFlfdHlzMGxkeW5wSk8yWkJLejItY0M4VFNrTGtEbzk0aWI5WkdCZm1MVlBTUS1YRmRvdkgtSjQ5cXdabTI3dDhqZktDU3MzdlBLd3V6eko0em1HQnl5RFhmVGRfUlNkS2cyNWZkRXRlVmlTaWRoTnVKSlA?oc=5",
-    "source": "nypost.com",
-    "published": "2026-08-18T20:55+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "ecf878370c3b7b76",
     "title": "Amazon to buy Globalstar (NYSE: GSAT) with cash-or-stock choice and Apple risk",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPX2dha0xjNW5xTVBHZzlpX05FR3dnSUtJTWt1b1V4TzhWbnBTckxBcWd2ZkNrWmV1M1FMRDRaRlJBamRicDJTZXRtc0dLOUFnQ0puTGw2dS1kTG1BMGtNejhLUzlsY3YwUU9BaEkyOGRRSFdIaGd0aWlROThlNzdoem1EbTJmdnloUGQzTnlXWS10STcyWjgtYnFST2VONGpCRjdpZFd0TjJ4Sk5IdWE0ZTktQQ?oc=5",
-    "source": "stocktitan.net",
+    "source": "Stock Titan",
     "published": "2026-08-18T20:53+00:00",
     "score": 5,
     "tags": [
@@ -183,7 +157,7 @@
     "id": "243880fb45fcc611",
     "title": "Amazon’s Stock Could Hit $500 by End of 2027. Why AWS Revenue Is the Key.",
     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5LOGU0SG9wME5XTTFVbFU5VXotS1pWRUg2dnVFZ3JZY3AwSmROVFkzRXF0TjBDUExqdEVTalZKU1hsVzZOYVZwQUpTckFpTWtzbWZwTEFiYUM0ZGdqeWZLOXJwTXVOcjhlQzhIa010ZDRtVjlNLU1CaA?oc=5",
-    "source": "barrons.com",
+    "source": "Barron's",
     "published": "2026-08-17T18:47+00:00",
     "score": 9,
     "tags": [
@@ -248,6 +222,19 @@
     "primary": false
    },
    {
+    "id": "f53c9338a2064d2f",
+    "title": "Tesla Plans Cybercab Launch As Soon As This Month: Report",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE43c2xtc0p5Xzl0TnBxQ1U4czNnc1pWT1BpX0NNbXMweDFzck1CRzRZaURSZlA4YVdERjZ3OFRGYzV2bWNkdGl0TXNsejhJa3NKVGp2RGc1NWJfQ202OGhrb2wxRUkza2hIc0hFRFBLSWtlLThf?oc=5",
+    "source": "Investor's Business Daily",
+    "published": "2026-08-18T20:02+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
     "id": "70880001186bba23",
     "title": "Swedish Trucking Company Inks Deal For Tesla Semi Truck Rollout",
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOX0lLQUpVXzBrR2ZNVHYxeFJrX2U3eGhVRTJjMGVkYUJ1eS1ENmJfbFlMaTh3YngtUjVMMVg1VWV0Z0w1VDVkdFFocVZUMjNZWmY0YkN2SGJxVGRITFVHMVJSZ3pYcFdRU3k4aDJTaW1icHVxcWdVN1BUV09vWF9tVG9vNlFvc09oaGo2RDB0MmVXWThZUGZsSnpucw?oc=5",
@@ -258,32 +245,6 @@
      "contract"
     ],
     "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "8e26bdedb9ec44e5",
-    "title": "Gary Black Has ‘Low Interest’ in Tesla Stock at Current Price, Even With a Potential SpaceX Buyout",
-    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVktpV0Z3YS1naTdmSmVnNm9XVGM4elVsVWtyQ29MRWEydFVMdDAxOUd4eVJWOWRvRjBiUW5sQTJ0X3RubWo0dVdnOXZYUU9LYTFyUVZkakJDcXIxTGZtQjRfSUZidHE0M203R29nSVJTdzNqRGFxeTdWN19SRkNCNURPclVrVXRUbWpuVnh3dk5DVFBXOWJMZzFTeVo2X0hQUEg1cFh6N3oyUjdXWUN5bUpVSjBJY1U2bHA5T1JocXItZW1oUEgySzRvZGtGR3NXWFhEYkpxMGdRd3BlQmtqSw?oc=5",
-    "source": "Sahm",
-    "published": "2026-08-18T10:54+00:00",
-    "score": 5,
-    "tags": [
-     "operations"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "3bbfc90c4a694c8b",
-    "title": "Tesla Cybercab Launch Could Begin In This City Soon as Elon Musk-Led Company Prepares Driverless Vehicles for Public Roads: Report",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMWNuMmp4YWFMRHVqa2R3eUJ0NW54ZnZDWE1scVVROGQtNGZMQ2NFcmM3WW1BWWNhdE16dHhoZFl6WlppR0ZxWXVzVzduZHVKOUdxbzI5SS0ySW1rU3k0cTdFNjc1ZE1qUHg3X1ZGTjk2Zlk4X2FRUWUzVDRDNzVkVjdZZjFaRC05bjVLMnVBMGFwQ2pIQTlJOUZB?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-18T03:05+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
     "primary": false
    },
    {
@@ -357,7 +318,7 @@
     "id": "0115599930a19acd",
     "title": "Palantir stock consolidates after Q2 revenue jumps 93 percent",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRXp2Wk9jZ1lHVVBMZG9heWN2VktsQi1pRHprNG5uYzBhamNUUmFBSnVqOVRiTTFSRGVTOUE1dGx0aFF2b1I4SS1sdUQwS0V1SE5qYVA1c1JDTS1BUzAyekUzd2RZbmVhTjcwSG9nVmgyRnlKRzdkSnJQNnFFN2V5Vkt5R3hJa0FxOVZIVUV1MmkxdmtlMy1BZWZ0eVdsTlM2RU1sX3hDOXhvaDM5X0huOWdXTjdSYV9vaTdPMkl0a0tpQQ?oc=5",
-    "source": "AD HOC NEWS",
+    "source": "ad-hoc-news.de",
     "published": "2026-08-18T12:44+00:00",
     "score": 6,
     "tags": [
@@ -651,7 +612,7 @@
     "id": "264ee3637025be01",
     "title": "Robinhood Markets stock trades below this year’s high as earnings growth expectations stay strong",
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQS3JsV0dPelMzdFQ2M2hrUnZKUzE4NkNtbDJJSVlfVUpjZE1KVnBMS2JPRUxxYWtLRFNnQUNHcWREaGRDSWFiS2dqWEVkcjN3X1FvQUk2Y2NmSnhqcmZjamx6d0plR1NwaEZMYTZwcngyNEswMklKUVkxWjR2Zzh0eDhLcDR4cXMxR2Q3SXJHZHdOVF9peHFsOTM5TGlLc3lDLWxXaGZBa05aZUVlbFUxNnlDcGVWNjlpR0tSdDR2TWxmVjNTeHhfTHBqVzI5bHZk?oc=5",
-    "source": "AD HOC NEWS",
+    "source": "ad-hoc-news.de",
     "published": "2026-08-18T20:35+00:00",
     "score": 6,
     "tags": [
@@ -728,6 +689,19 @@
     "primary": false
    },
    {
+    "id": "36dd98d1172402ee",
+    "title": "Nvidia Won 'Very Competitive' Ohio AI Data Center Bid, SB Energy Co-CEO Says – BofA Claims Financing Risks May Be Overstated",
+    "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNZU92Ui1UV1FoZFhRWkFnYXJMVmNkeG92NkNBcUtoYTVoUlRnWW81TUx4TlM3eEtWdEIxZXNlb1VOMGh5eGo1TTZwQWZyQUpyVURmNzB1MjkwbUlUUGw1R1FJNXRjZDFFSzBPbHZwc0xsdFpsNmUxZERuWmJ2czUtUGE1QzdTdTBLbGJhSFBiNkpZYk5VVjlQVTZrYmhqcDRMTktPRHFxeUwyM2xqNHd3aUowVUhabUlZUUJzaFdPRHBCbjFtOHRGWDVfUlNZWUdBUm1sUDNlQU8zX2x4RWxHUW41T0wzTHQ3MzRadWtISjFRV0ttRXNUdzFlY0xXT056TEtqdjdTMmxFdWs?oc=5",
+    "source": "TradingView",
+    "published": "2026-08-18T16:56+00:00",
+    "score": 5,
+    "tags": [
+     "contract"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
     "id": "aacb5d5c60417e9d",
     "title": "Nvidia Wants Customers to Buy New AI Chips — Without Giving Up Their Old Ones",
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOb1VHeTdtM1FsVVFvSXZfdXFGWkkyRWFSd01pUlVWRjVtOFcwXzdqMzVqWVJpUzR5bzBVbmF3NzQwWTNqRjZJaXJhc1VaTFhCbjV5OTlVOTd2Smo5MDVhLUI5NXVSZjIwQVcyWTRJNTJhQm9zNnNmS1prRVdidGp2OXVCNG5kYkNtR1hPOC15ejI0dzg1eDdpQjVjS2k3T1ZKNkdhZWVJbWdDRFJVMW5pMnV6OFViWlFvQzBBemgxSXBGNmJWdUNfRkxEbHlIX28?oc=5",
@@ -792,19 +766,6 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "2efbf18999018064",
-    "title": "BofA reiterates Nvidia stock Buy rating on AI commitment strength",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPb1NfZUVjdHJvVG1rQzc1ZkNCaHNqSUVQMDBHRUFKNW4ySE5pcmxfaEdMaVphXzJEa2lXaEMzT0JXVjJJTnV5bmtINkFEMmxsN25HcDlTQnpFQzZ3Vmh4T1Fzck5ieU9qWXNoWERQdm9DSDFCQXVmSnNjTkNQbWJWVF90WUJFaHI3QWJmN0Z2djlackNvTlBxMFhNWVkwMzdJQndrM0dEWG9wMkVKenBIOVFheWVrV2VOQUFfQTE4anB6a1E?oc=5",
-    "source": "Investing.com",
-    "published": "2026-08-18T09:14+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "INTC": [
@@ -812,7 +773,7 @@
     "id": "cab92cd046fc955e",
     "title": "Intel's $100 Strike Put Sweep Raises Questions as Chip Rally Hits Turbulence | Options Income Daily",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVUZ5eGw4VkRacGVRUW93cDZobTNMUnVlRzVOWHdIRTdzLXU0bFBGRHVSMEJVMnowV1ZjSGlOMWJadlBodDlJT2lzeW5aNFp4c1MzeVhNR3d4TEJ5aVVfQUtBdjRDakVyT2VNRHBHSlhHdkVrdm81S21TRGU2LWllc3JKSFFOSXJMUVBNV2lFWGNZbHBqYVBsRFBlZzZNV25XUGJrU1BMQWNsNGs?oc=5",
-    "source": "moomoo.com",
+    "source": "Moomoo",
     "published": "2026-08-19T03:34+00:00",
     "score": 8,
     "tags": [
@@ -946,7 +907,7 @@
     "id": "4900d23c5fff1395",
     "title": "Nebius's New Jersey Win and 5-Gigawatt Ambition Put Execution Risk Under the Microscope",
     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPaDF6bTNmUXVfTFk2WjEwRmVGSTUwMVd1Wk1PY1BXbG5vT1pIc25SZ19rTk54R2NTVUFOMXJLVWRULV9NSW81WGpFeXRCMXZFZGV3enlTU0pUckZzdXBBX2gyRUFCZkhUdTkwb0dNM2VWMXFXLWppSzJHUWs5RHVXWjNhSFFYZ3g4cG5oU0JCLWFKeTVIZkRhWUl5b0E1NnlPQVo2N05qMGNYX1JqZWhieTFnYWNOT05WSWJONlRLanlfVVo5dHhPb2FiWjQtd3dsc3lIZ2czcWhMcUc3?oc=5",
-    "source": "AD HOC NEWS",
+    "source": "ad-hoc-news.de",
     "published": "2026-08-19T00:42+00:00",
     "score": 5,
     "tags": [
@@ -1013,7 +974,7 @@
     "id": "97680cf8cd18274f",
     "title": "Nebius Enters Its Q2 Earnings Spotlight With a Fresh Billion-Dollar Contract and a Familiar Capex De",
     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQYy1RT2RWdkphLWJxS3VIejhLUWJtQzdFQzFaaG04VVBRLXJGTE5pSHU3THpYXzI5T3JkX2JmOWx1VTI5NnZJeG92WVF4M0VYUmtXaEdMV2NaYXduYzByeHZNZGxnZ2prc0tneUFlMEZnVGt1OFFiOHFyTUIyQnM2aWlsQXFKM3RKbGh5X2QtSXBoRENzU0pYTFU0RUxxUld3WEtTalZndEtnNWQ1d0hrbk84V241eVFMNHdTd2daeWZKNndqRDl5WC10VGtYRklhYmdmbWdR?oc=5",
-    "source": "AD HOC NEWS",
+    "source": "ad-hoc-news.de",
     "published": "2026-08-18T09:26+00:00",
     "score": 11,
     "tags": [
@@ -1066,7 +1027,7 @@
     "id": "9633e66f4b6631d6",
     "title": "Fuel Cells Beat Gas Turbines at Permits: Bloom Energy Stock Jumps on Nebius Deal",
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNT09tdzZUc3JTU2o5Ml9iUXJNejA5UVV3QzVIaUJ5OURSWXBGSEoyMjNxSFF0RWNqNjNFZ1F4dG1WNzRXTzZ4NHBMbjZwVXpuWTlTcjFRYkI0Q0ttMzMwM09fcGs4QVhvM2Q1V1RsYmNxTk9pbnE5eThPVlFKN1JjNzdsX0dSbGktZ1JaUkVJSGQzX2xjY2NmQnZuUUo4TFRCcTEtS0xCMlhWQVRmSEd0Q2VVOWFaQ01ZdDZnZDg5WWxVRGp4OUdz?oc=5",
-    "source": "Tech Times",
+    "source": "techtimes.com",
     "published": "2026-08-17T15:00+00:00",
     "score": 11,
     "tags": [
@@ -1160,7 +1121,7 @@
     "id": "753cc627174787a0",
     "title": "Marvell Technology stock surges ahead of August 27 earnings as AI momentum builds",
     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbTBLUXNxckZjTVVua2lOWExoT3I5Wnc0Um12aENOZmFnbWdfTEdIa1NyN1hnSklOcTVqSWo2WEM5ejlneXQybkJFWU9acno2ZkV1X08xaDZ4aVQxekE2WGU3Wlo0d01DcU92RHdfS0ZrNmdRVVVQX1JwSEhXX1dEZlJTX25XeVF6dE1WalpMQnVvU0EtdjlqVEJkWDNPa3BQWUctbHlsTnhJV0o2UC0xa2hTbWh3elFYS0s3VmduZkZELTR2WTV1d1hZNVowZDZ4U3BV?oc=5",
-    "source": "AD HOC NEWS",
+    "source": "ad-hoc-news.de",
     "published": "2026-08-17T20:47+00:00",
     "score": 6,
     "tags": [
@@ -1186,7 +1147,7 @@
     "id": "b67bde19739bcf77",
     "title": "Marvell's Rollercoaster Summer Sets Up a Pivotal Earnings Moment",
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPdlcxejRQM1RpZEtZendvek5MakxKcW5xaWFCRFpNUzlzNUNOVWNOUVNNR19QcmFsV0pEcXFnQ3Q4T3loT2dwcW9CamEwbTBHNkRJeUI2Ql9aeGptRjkzdUJCX0tYb1pFS1FkMnpkZFNQa0VaSndmZGRJNEQ0ZXp5NkE2WWJJelc2NE9yVHBqVG5LUTJwbmJncVBIVFdVSklEQkJlXzMwVVN4cFVxYXN4N2FpQnAyRUJGUHhQWE52blZfazl3ZnE1dnhHamVISDRoTHc?oc=5",
-    "source": "AD HOC NEWS",
+    "source": "ad-hoc-news.de",
     "published": "2026-08-17T16:43+00:00",
     "score": 6,
     "tags": [
@@ -1201,7 +1162,7 @@
     "id": "bfb8017995f63a74",
     "title": "Meta Platforms (META) CFO stock awards lead to share tax withholding",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVl9FejNvdjNVQVlpeXBHVk56eHFvbnUtQ182QUV6TnJkRXdxbDVZSHN5aXlENEtwWTNid1Q0Q3FpdGdXbzVHLXU0WnNDRjFyQ0VEc0RETVVxT215alJMMDYzQmN0SkVlOVZoWUwzbThKaWd1akhsUHF0b1VrMkZkNGRkd0ZtT2NydjZPb2cwY2NXRWtKbkpJSWk3VkliRTZHSlBQdlg1V2lvU3FLLXk2NjFn?oc=5",
-    "source": "stocktitan.net",
+    "source": "Stock Titan",
     "published": "2026-08-19T01:06+00:00",
     "score": 5,
     "tags": [
@@ -1214,7 +1175,7 @@
     "id": "4a335f85bd442ffb",
     "title": "Meta (NASDAQ: META) legal chief settles 4,757 RSUs",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVnFlVEU0YWtkV29LS0szSldVVXJpMng4TFlYMXdpNFdhLWpkV1RJQVdpdjRnZVZLWmhHVTRJcm1XMlo4RURoeU40VUZRdU5pVWhDLWFqRWNnR1I0X19TYTlMaEtzUmNNV3dYcnFqbUlabWtwNG9sUHRudHlYd3hjc1NLQ3E4ZXN4REEzSmRFcTdELVd2N2xJTjNldU92akg4Y1R5X0poOGthZ1dkSkowcHZ3?oc=5",
-    "source": "stocktitan.net",
+    "source": "Stock Titan",
     "published": "2026-08-19T01:06+00:00",
     "score": 5,
     "tags": [
@@ -1227,7 +1188,7 @@
     "id": "0daf4519c2695497",
     "title": "US Stock Market Movements | Meta (META.US) Falls Over 3%, Faces Risk of Up to $1.4 Trillion in Fines",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTDFFX2htZi1vZ2FtRFJZUThHVXB3Q0wtZVFtY2xsWWhWYnRIaUN3VWE5ems0anFTSXljWE9zdUNkY19FQV9tZ25uZ2I5d3B4MHpidnQyRjdLZHRrckdoQ1NRQ2RBNDZkcXQ2NUM1VW5sbW0wSE13UzNVQ0ZVS3dQVHNhMWk1b2c5R3c1QTBCSUxyOGgyQmtWNkhMeVpRdkE?oc=5",
-    "source": "moomoo.com",
+    "source": "Moomoo",
     "published": "2026-08-18T14:42+00:00",
     "score": 8,
     "tags": [
@@ -1276,5 +1237,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 92
+ "count": 89
 }
