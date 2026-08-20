@@ -1,9 +1,22 @@
 {
- "checked": "2026-08-20T17:37:15+00:00",
- "changed": "2026-08-20T17:37:15+00:00",
+ "checked": "2026-08-20T18:00:59+00:00",
+ "changed": "2026-08-20T18:00:59+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
+   {
+    "id": "f00416f926978ffd",
+    "title": "Apple App Store net revenues see dip Y/Y, monthly data shows: MS",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPR2RPWW9aa3VzeXV0QmVwcmpNZnR2VUtiNVlBVUl0T19iQTRJMWswdkFYbDgxYXRqT2E3Ylhla3Q0Y21VakxJTXFmQVo0eFdwR1pTcXdlNURQckF3S2l2MGpaZ2xrV20ySVMzajV5MWNUMzUwSFAyWUpoV3RuT3hFRGtlR3F0YjBrZE14Yld5bWxCUTlzUUYxQUV6aHVyRGlTNk9WSHlXVXZRb3dIT2EtNA?oc=5",
+    "source": "Seeking Alpha",
+    "published": "2026-08-20T17:47+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "45c9c5be81ab3a69",
     "title": "Apple Watch Series 11 $100 off for Anniversary week, Best Buy open-box offers from $254",
@@ -126,6 +139,19 @@
   ],
   "AMZN": [
    {
+    "id": "e3aa1aa1b0d3081c",
+    "title": "Iran strikes Amazon Web Services facility in Bahrain, causes temporary disruption to services",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNHBERFF1YmpYWjh4dkUzdjdybGFPZjVlUW5yc2dzSzU0cTZKOVN0Ykl4bVJ4LXp4b09vcHJITDZfa3hPaUMtU1I4bGtNLTBpVTRucUVwY2U1ck95RzcwYzFMUlkwaGEyX1FZSXJuNHBJQnhHQTBUUXZ2ZEJTNGgzR1Z1VjJ2OTUzTzNEYkdoYW1MSjNsY0pCQ01FQlJ6S213R0dnOUFQTWNPV3JvT1p3UXlNbzdlVjdDQnc?oc=5",
+    "source": "News On AIR",
+    "published": "2026-08-20T15:22+00:00",
+    "score": 5,
+    "tags": [
+     "operations"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "c1da7aa4c949b538",
     "title": "Amazon Q2 Smashes Estimates: $200.6B Revenue, EPS $5.75 Beat, AWS +37%, $220B Capex, $3T Market Cap",
     "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNMXU1Ml9ULTdJZ1RPZHcxVTZiUVJPX2JiNDM5cGZDaC1PLVg0ZnI3TE1fLWR2UGlOOFp4cVNXQTBtNmdYemlPc21SZGhyZWdJVF9tT2V1ZDFZeGowUGxTTXk3cHJmQ1FyS0JsVnZXeG5HZE5rQ3hrVWJXRGgzN3FlS1FPVjBvamdpQkdQNHYwVm03WHhLaWRTREZMZkZsZkdzSnJ2UjgtalR2OUU5dS02WmhiMGVlZERZdzNIYjdNWlM1Vmc0RVVzTDluclNzaWVyaDBvU1hIMEJvck1BZUxqSzVpLWQxdV9Yb2gycFA5MU5tTk4weXFNWTB2Mzg?oc=5",
@@ -242,20 +268,6 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "e03f7d7024b4fa88",
-    "title": "Amazon Stock Rebounds From Slump: AI Ambitions and $2.5B FTC Deal Ignite $3 Trillion Hopes",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQU1ZoNi1QRmswZjFEXzBXcGxCOU9aTTh2UllSSHFoYzVHc3d3cDZIZXVKMDNJdnh3TFh1Ul9wYXZIb1dsWkNNbUUzWkdGaHQxdUtrZk1sNWxoYzhPWWt1dE04ZWtyM0FlUkc2dmJDOGNoLWVObmdGZ1FkSEgxVzJFd2NpVEJWZXhGNG1uWWhObzBoRnFIYUowSHpvYUhkR3NlSDh4X01aSlNXTFY2?oc=5",
-    "source": "TechStock²",
-    "published": "2026-08-19T03:25+00:00",
-    "score": 13,
-    "tags": [
-     "legal",
-     "contract"
-    ],
-    "direction": "negative",
-    "primary": false
    }
   ],
   "TSLA": [
@@ -283,19 +295,6 @@
      "earnings"
     ],
     "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "6a514630956f0472",
-    "title": "SpaceX May Buy Tesla, But Its Own Stock Has Fallen 50% Since June",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5YWG11d3hnaTcyc0VxeVRPRm9VM0MtNmxjUEhhOTdKT1poekRaX0xCdjJXNkJTQXhmQ0w0c1hhcEx0SzZhb3VOOVhhZkpEUm1VSGV4RVNxZDh2MHJVaGtvSW9oemh2VTRhNVhBcmtKX2FDNlJtY1dJ?oc=5",
-    "source": "Yellow.com",
-    "published": "2026-08-20T04:39+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "negative",
     "primary": false
    },
    {
@@ -498,20 +497,6 @@
     "primary": false
    },
    {
-    "id": "151ceab28aad6a7e",
-    "title": "Satya Nadella's Microsoft Stock Jumped 18% in a Week After Azure's Annual Revenue Topped $100 Billion for the First Time. Is It Still a Buy?",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQc0dCYXVLT3AxLVFWdkRqUVNsMUQyWHl1Nm5uNG1ld1M3eVNVNHRMRFZGc18wMkFfc3VYaW5SeThQV2JMOUpGQXRqWHZ1SEY0NmdySTloRndhenZOM29oLWFQajJIU0R6WEpGMjBPYm1IelZzSFVCekRzTllZdUlRM1VUZHF3cFR0?oc=5",
-    "source": "AOL.com",
-    "published": "2026-08-20T08:45+00:00",
-    "score": 14,
-    "tags": [
-     "earnings",
-     "ma"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
     "id": "56588e2248f71e28",
     "title": "Microsoft Shares Tick Up, U.S. Markets Trade as China Windows 10 Departure Weighs on 1.5% Revenue Risk",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOT2dtd2VLVEhockhjQW1hUE56dUJEYkhIQndUTUJ6enVJMWloS1VMX1NHdkNCYkZIbE9ldHhCR2VTcWlzRkRNX3FEU3pqMGtmTktDY29NMnRmbzN0b200NWtRcnZNS3lDV2w1S2ZHY1Q3U0NvVUlvNzhKUTZObHlwbW5WZVdKM2w4VkNSV1g4anN3Z3N5TDZ3Q3VfVWk5eE52cXRHcDVn?oc=5",
@@ -523,6 +508,20 @@
      "leadership"
     ],
     "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "151ceab28aad6a7e",
+    "title": "Satya Nadella's Microsoft Stock Jumped 18% in a Week After Azure's Annual Revenue Topped $100 Billion for the First Time. Is It Still a Buy?",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONzNFMUZHSy11d2NWOWcwb1pxR0VENzY5SDNjQXpya0FzeUE2Qmw4aUUybjlUYkJTZl9TWk1OX1VDU2VkQU1PSGpBT0V2alJtSGR4OG5oSXROckRZaTA2VzdkS1B1c2NxcnpuZUtGOUlhNUtUOVM4YmloamhWU19MZFI1Y2RGZjA?oc=5",
+    "source": "AOL.ca",
+    "published": "2026-08-19T10:43+00:00",
+    "score": 14,
+    "tags": [
+     "earnings",
+     "ma"
+    ],
+    "direction": "positive",
     "primary": false
    },
    {
@@ -597,7 +596,7 @@
     "id": "f25abc8c74a803ea",
     "title": "Alphabet’s 7% Aussie Bond Debut Underscores the Sky-High Cost of AI Debt",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMXpzSU1faC01RGxOTzZ5djByYXhqVE9ibC05aHdvM3FsV1dpWUdVQmRkenJENGZNZ3ZKcEllTTN2cmJIUndKVDQ5Zi1YYWZzRDZVMFlJdEVjMnZ3RHZmTzhOQ1Z5ZTByR25FSmR0OFFNVGRJRzUydy1UV2V3TDROVGN6bGpUNF9CaU13S04ydlJLTW81aXFtYnBnT1RCZGlrVUhydzZ0WlVSZTlsTzlz?oc=5",
-    "source": "Bloomberg.com",
+    "source": "Bloomberg",
     "published": "2026-08-20T02:16+00:00",
     "score": 5,
     "tags": [
@@ -607,11 +606,11 @@
     "primary": false
    },
    {
-    "id": "e765d4c73215e4b4",
-    "title": "Rosenblatt initiates Alphabet stock coverage with buy rating on cloud",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeHhaYmFlOU81OTZvTWFzd0xUcnhXUkJZLUQ5TFhsRUpGWTJERHFobmRQMHVpODd6Ty0xQnJWbVJiRWtlWml3QS01QlltcG5YdkZJbHkxWnUtaXV0SHBTSlFqbzlRbUdVVkhwTTR0SDY3S245eEFsMXRnOU91OGFWR3JhUTl5UDV5aDNTMzFxajYzaWp0a0R3LUl3VEpWNEFmcmJxRldrTnhaWlBWeXEybUhpM2pOYnRnOVVfX29ibmhTNmwxdG1ZUA?oc=5",
-    "source": "Investing.com",
-    "published": "2026-08-20T00:17+00:00",
+    "id": "b983660e1cf539b5",
+    "title": "Rosenblatt initiates Alphabet stock coverage with buy rating on cloud By Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPamlONncya2dVR0x6RWRnMzh3TlZQWW9sUGw2bmVuNEYwdC1DX19RZHJabmhPaXBKZGFldHF5RkNta0JQTkR2VFlXUHJuOWotTGVudzVwZldPdUdaUkhwOElmcWRCUUdkbEFmMXFVOVM3VHkwaU1fY3R4M0laQVRRYXh6dFhlUERySmpnZ2U0eDNQMEJsQ1EwbVphM2NWWjFsbUNxaXR5dlJjM0pueEN4T25lQnNlS3lCYmtlQ2ZtUG5pSFhwdU1fdkV3?oc=5",
+    "source": "Investing.com South Africa",
+    "published": "2026-08-20T00:16+00:00",
     "score": 5,
     "tags": [
      "ma"
@@ -740,19 +739,6 @@
     "primary": false
    },
    {
-    "id": "9767b58659a42f5d",
-    "title": "Robinhood Stock Forecast Ahead of Trump Crypto Meeting This Week",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcHdtaENlekxRX1VXcW81QzJNeUhSQmV4Z2FUamlCeHR3bjhmV0dlV0FBcVZrb2Vhb3lvWDIxY0t6ckRYVEYwakRWZUF1Nm5yeEhScUVvalBoY3o2R3RUdW5PeDNmR0pkU3pIdF9mM2lWTW1BNERxSnhoQXZldmlMTlMzY21IZTl4VWlwMGc5S0RuLVdxbWhOYWhHd3ZyOWVwaVJGQ2ZJa3pUenZ6?oc=5",
-    "source": "The Market Periodical",
-    "published": "2026-08-19T15:00+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "2e5c2900acd50d6f",
     "title": "Robinhood (HOOD) Results Breakdown: EPS Beats Its Estimate on the Day; Stock Move: Shares Close 4.90% Lower - Return On Capital",
     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQ1dDYkNrdlc5dEJSQlJGSGxwV0NEWm1jcndCdDNlNTVZSjV3VkpDOTVMTFI0aXRTeGtWZVY5azJjS0ZscnhhQkxzdFB3ZDlsaW5BYnpPZ0Z2Y1FJNE5tZWQtNEFVQ2ltdUI0elNFRmI2SHJ6bTRNUW9QWVJFR0FXamFPd3Q5R1VsaEVMY0FzX0VLdEpybEF3alRpdEhZdHl2czF2MXoteUZwaTdZb1gzU295U28tQ1NHUjU2cDV0a2hIaXlkRjh4T1VOcGVsM0JkUm5GYkR0QzQzZw?oc=5",
@@ -833,14 +819,14 @@
     "primary": false
    },
    {
-    "id": "c9f89d6b63e82c4a",
-    "title": "NVIDIA Supplier SK Hynix Rolls Out $29 Billion Buyback After AI Spending Fears Hammer Stock",
-    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNLVE5Qk4zZkQweDBneVZEOTlIVFNRalNCLVRmcmwteXhCNlo1M0RjT0NGYXRrQ0FWbWNGeWczN1ExY0dPaDlOUTZ0Z0VpQkU3WFg5dW9hLXhSOTNzMFJHa0RGazFIN1czeWt1UE8ycy04SERKRUdlR1pna2xQc1J4MlZ3bmx6TlNSWU1xaEFVM3kwSmM5ZjZTeVlIaXNsRkxpSnJ4UmxaSVpnU2dPLVNvdUY5Q1hhMzc0QmM0N0c3RjJtTHRLS0lTZmlES0puVnoydFdLY3lRMjU1UQ?oc=5",
-    "source": "Sahm",
-    "published": "2026-08-20T11:11+00:00",
-    "score": 8,
+    "id": "517e1ef30b7dfe5a",
+    "title": "Nvidia (NVDA): New Buy Recommendation for This Technology Giant",
+    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQcktrRFNyYUFTZGtsaHJLWEt6N2o0OTZGaHdFU0o0bEpMcE10RDZqNTVIaTVldUdmbXI0RWZsZ1YyOGUyM0pSazRBTDlWaWwwX0pfbmJiUi1OVjh6QzJQcEZPU0pkY3NrWW80U2U3Sl9qOGJHSzEzdVRmQXh4SVpVZV9mbGdFS1ktNjdWODVmZWl0YmZjTEZzNTRjV2dXRk02MGFQUUhwNUZhdXo4RUVlVlM2NU9VMjVoWk5VbUtkSXg5VzBXYXNZcHl4dElZRy1sVndTU19rdXVXUlZodEtsOQ?oc=5",
+    "source": "The Globe and Mail",
+    "published": "2026-08-20T11:25+00:00",
+    "score": 5,
     "tags": [
-     "capital"
+     "ma"
     ],
     "direction": "neutral",
     "primary": false
@@ -899,6 +885,19 @@
    }
   ],
   "INTC": [
+   {
+    "id": "8d65a12ec0532a74",
+    "title": "Intel Embarks on $15 Billion Stock Offering to Capitalize on AI Demand",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxORUdUaktnS3ZzVmUxWmxhY1FVNXNIcU0zcVFNMzhYcEFsU2ZvbUR2aVlmcHJ2YnJjQ0lqSS1RcF9tUDVSblpBUThXUC1YaXVlck95dVRoTFlOclk0ZjRoaWJKMGZsYWx5QWpZeTUyVzEyMnozaE0yUVZiOHJqUmdTU0U4bjBHWFlfaU1DUjJGZTRqWTBJb0YzMHc3UGdFZw?oc=5",
+    "source": "Small Business Trends",
+    "published": "2026-08-20T14:11+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "f183b48bdfc875f9",
     "title": "Intel and AMD Fall 4% as 13F Filings Reveal Concentrated Chip Bets",
@@ -1195,7 +1194,7 @@
     "id": "58ee0bd88a3a2d04",
     "title": "Marvell Gives Client Google Right to Buy $12.2 Billion Stock",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWUthaHBDWVRmVFNLMTQwS1RyYnlmelc4T3hNSWp0cnVKemhpd19UcklodEIyMXA1ZjRlLXlnZ3cybzJleVJYU2NSMUFzTDloc0Fkc0NSRjVSZ0g3X2ZxLUdkU0FaRVVEU3luRENwSGhjc0dqZEF0VlZZTkpvRGhIaXVxdDJYR0NOVUNpYk5MMjhTOWRRV0otbHd4OEticDI5c2hCb2FGalNCWHhFSzkwMlZBNA?oc=5",
-    "source": "Bloomberg.com",
+    "source": "Bloomberg",
     "published": "2026-08-19T19:56+00:00",
     "score": 8,
     "tags": [
