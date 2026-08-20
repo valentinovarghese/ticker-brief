@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-19T23:44:02+00:00",
- "changed": "2026-08-19T23:44:02+00:00",
+ "checked": "2026-08-20T00:01:21+00:00",
+ "changed": "2026-08-20T00:01:21+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -8,7 +8,7 @@
     "id": "391868eeae469cf8",
     "title": "Apple’s stock could be the savviest buy within Big Tech, according to this analysis",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYVZvRU1zYVdBRHpDVXNGTE82cTM0SjJfMlJjX3FXZURKcVg4U0h6QW5DN2JaMWlBSHA3T2Z3Vy15RjF6cFYzRWlnU2V0YU5tc2JmSFNlTzhCV0pvc1NtallVVER5Y3VXSkJneGRtM1R6OTY5UE5vMUZqOWxoS2xBNV9oVm9ETTVEcjRhUjQzbi1ReDlFTFJGM0RzNFFsRHdqdklZd2xUSEZKSWVUU2dTUTVJYkIzRnRjaWoyWC1mQ3l6QQ?oc=5",
-    "source": "marketwatch.com",
+    "source": "MarketWatch",
     "published": "2026-08-19T17:39+00:00",
     "score": 5,
     "tags": [
@@ -74,7 +74,7 @@
     "id": "c336e9cedfd6e0fe",
     "title": "Freedom reviewed Apple, Microsoft, Amazon and other крупнейшие U.S. companies after earnings",
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaFRNenAwU0xrNXE1WC0zdXBjbmNHbnZVRWZWN1hDLXkwTWY4enN0eklLNzlhTnBJbjgwMzJDZE8yYk9ZMFBOR0w0SlU4clRkMGxUQVFOdWZLeURFeENlLXJUbWlPZ0IzTnZuRDl4WHJfWFNZaFB1NUc2dEJYaVcwOEJ6WTFKeVhPQVFTdHN3WjBKSnNrRnFTaFdPS2lseEtJS2xaaURGa0N1M0JLTDFVTEFGVkxkQ1hCYy1OeG82SXhCYVMw?oc=5",
-    "source": "Freedom Broker",
+    "source": "fbroker.kz",
     "published": "2026-08-19T09:54+00:00",
     "score": 6,
     "tags": [
@@ -126,6 +126,19 @@
    }
   ],
   "AMZN": [
+   {
+    "id": "f0d9175875c340df",
+    "title": "Rosenblatt initiates Amazon stock coverage with buy rating on AI growth",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOWFFQcXotaGQ3SGp2LWFMVTJjVm5CTUQ4d190bVhqNXNYdWROaWJBQVM0UTBTbE8xTWRoaE5OS2JxbTZ1Y0ZiN3VQVl8tN21PZkhwVm1uTXJnQ3lnWG4zM2J6MDJwZnhheHBJWnE5X1otY2tpa0xEVzBXRWUwUk1OaWtXNkhfc09wMVBOX2lQVzV0QS1FZVkyYVVZSFVyUTBKUDVDUllnelJHZksxeUs3eWRITjBoSC04MzgwT3hra1ZwRE0tSW5VblZtRGM?oc=5",
+    "source": "Investing.com Canada",
+    "published": "2026-08-19T23:52+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
    {
     "id": "cdf4de94f7979958",
     "title": "Amazon Is the Only $3 Trillion Company That Has Never Paid a Dividend",
@@ -195,7 +208,7 @@
     "id": "c336e9cedfd6e0fe",
     "title": "Freedom reviewed Apple, Microsoft, Amazon and other крупнейшие U.S. companies after earnings",
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaFRNenAwU0xrNXE1WC0zdXBjbmNHbnZVRWZWN1hDLXkwTWY4enN0eklLNzlhTnBJbjgwMzJDZE8yYk9ZMFBOR0w0SlU4clRkMGxUQVFOdWZLeURFeENlLXJUbWlPZ0IzTnZuRDl4WHJfWFNZaFB1NUc2dEJYaVcwOEJ6WTFKeVhPQVFTdHN3WjBKSnNrRnFTaFdPS2lseEtJS2xaaURGa0N1M0JLTDFVTEFGVkxkQ1hCYy1OeG82SXhCYVMw?oc=5",
-    "source": "Freedom Broker",
+    "source": "fbroker.kz",
     "published": "2026-08-19T09:54+00:00",
     "score": 6,
     "tags": [
@@ -216,19 +229,6 @@
      "contract"
     ],
     "direction": "negative",
-    "primary": false
-   },
-   {
-    "id": "0e442dc48340b70c",
-    "title": "Amazon joins other tech giants in gobbling up books to train AI, report finds",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOX2haQVpSY0F2ZU1XSmpEbUxZb1FWS3M0eG45ZklXNHZQTWdDME9tYjNUUnZQdFlfdHlzMGxkeW5wSk8yWkJLejItY0M4VFNrTGtEbzk0aWI5WkdCZm1MVlBTUS1YRmRvdkgtSjQ5cXdabTI3dDhqZktDU3MzdlBLd3V6eko0em1HQnl5RFhmVGRfUlNkS2cyNWZkRXRlVmlTaWRoTnVKSlA?oc=5",
-    "source": "New York Post",
-    "published": "2026-08-18T20:55+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
     "primary": false
    },
    {
@@ -259,6 +259,19 @@
    }
   ],
   "TSLA": [
+   {
+    "id": "d4fac654be8dc187",
+    "title": "Tesla Stock TSLA Recovers Above $350 as Austin Cybercab Plans and Strong China Sales Improve Outlook",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPXzc4QVNFYWJzVnRORWRZYWkwX0dORFBaaXZLWGZ0dW1BcWhyMFlVd0s5cUEycmJrMzlDbmZ1TTBQX2F2MHZiN3FoZUdDNVVmUm5EdU9GNURMUnYwTlZndEhVeEhBTE5nanppeDNiQk5PZzcycVp1ekVsZ1ZmSGxBd2xzck9vb2tVbkJFSXQ0bVg4WWVEWkVEWm52bDZIQ3RKS1NyZ3FKX0VTNjE2c0VXQkZORDEzRGxvcEZ3eExYOHZlMTlXZ2wzUDc1NWkycFpzcXhXdktsb0dKdw?oc=5",
+    "source": "FXLeaders",
+    "published": "2026-08-19T23:49+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
    {
     "id": "3c02d853abf62d42",
     "title": "Tesla Stock Surges 2.9% Despite Its 321-Times Earnings Valuation",
@@ -312,19 +325,6 @@
     "primary": false
    },
    {
-    "id": "f53c9338a2064d2f",
-    "title": "Tesla Plans Cybercab Launch As Soon As This Month: Report",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE43c2xtc0p5Xzl0TnBxQ1U4czNnc1pWT1BpX0NNbXMweDFzck1CRzRZaURSZlA4YVdERjZ3OFRGYzV2bWNkdGl0TXNsejhJa3NKVGp2RGc1NWJfQ202OGhrb2wxRUkza2hIc0hFRFBLSWtlLThf?oc=5",
-    "source": "Investor's Business Daily",
-    "published": "2026-08-18T20:02+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
     "id": "70880001186bba23",
     "title": "Swedish Trucking Company Inks Deal For Tesla Semi Truck Rollout",
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOX0lLQUpVXzBrR2ZNVHYxeFJrX2U3eGhVRTJjMGVkYUJ1eS1ENmJfbFlMaTh3YngtUjVMMVg1VWV0Z0w1VDVkdFFocVZUMjNZWmY0YkN2SGJxVGRITFVHMVJSZ3pYcFdRU3k4aDJTaW1icHVxcWdVN1BUV09vWF9tVG9vNlFvc09oaGo2RDB0MmVXWThZUGZsSnpucw?oc=5",
@@ -359,19 +359,6 @@
     "source": "Ad-hoc-news.de",
     "published": "2026-08-19T06:43+00:00",
     "score": 9,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "14ca11883c6f46d6",
-    "title": "Can Palantir Stock Keep Climbing After Its \"Otherworldly\" Earnings?",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQTkzMTNaa0tNX1BmZXNxaS00WjRjQWRQdG1ZRXYta25Pd3AxeklOWUxENjlaeDg5R290b0JHZGNGMnBlR21OTElTQmVDbmhnRi1aT3N2QjJ1aE1VZThKak5yVTlwa1d1dkJzNndnd3hLN0ZqNE9sMVB3YVEyTGtWSUw4YUFmTXJ3c2JoVndB?oc=5",
-    "source": "AOL.com",
-    "published": "2026-08-18T19:44+00:00",
-    "score": 6,
     "tags": [
      "earnings"
     ],
@@ -468,6 +455,19 @@
     ],
     "direction": "neutral",
     "primary": false
+   },
+   {
+    "id": "26d2fa2befc2198b",
+    "title": "Q2 Earnings Season Standout Performers: PLTR, MSFT",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUUp4c20zSTNLS0s4YWprOUVQMlN4TjVhVnlzZDNJMF9ob25MZTVpRmZfVEtXYXFmaUlaeEFDeVhqX0FET1Vqdkxzck1EUG5SNGpGeHRWUjctYWpVeC1LSnNLZW5rNHhzamZpdkF0OTZjb290aXBmZ0hiM1Z4b19fRnptaElsNzFibTR0UzRIOFdxM0llOW85MjdUT0ZsOVkzdWFnLVVYaTNNU3BKaWl0Qw?oc=5",
+    "source": "sharewise.com",
+    "published": "2026-08-18T01:11+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
    }
   ],
   "MSFT": [
@@ -489,7 +489,7 @@
     "id": "c336e9cedfd6e0fe",
     "title": "Freedom reviewed Apple, Microsoft, Amazon and other крупнейшие U.S. companies after earnings",
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaFRNenAwU0xrNXE1WC0zdXBjbmNHbnZVRWZWN1hDLXkwTWY4enN0eklLNzlhTnBJbjgwMzJDZE8yYk9ZMFBOR0w0SlU4clRkMGxUQVFOdWZLeURFeENlLXJUbWlPZ0IzTnZuRDl4WHJfWFNZaFB1NUc2dEJYaVcwOEJ6WTFKeVhPQVFTdHN3WjBKSnNrRnFTaFdPS2lseEtJS2xaaURGa0N1M0JLTDFVTEFGVkxkQ1hCYy1OeG82SXhCYVMw?oc=5",
-    "source": "Freedom Broker",
+    "source": "fbroker.kz",
     "published": "2026-08-19T09:54+00:00",
     "score": 6,
     "tags": [
@@ -522,19 +522,6 @@
      "earnings"
     ],
     "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "1b289aa409ccdc9f",
-    "title": "Microsoft Cuts Carbon Removal Buying 80% as AI Emissions Put Climate Goals Under Pressure",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVkNIbDRYUm1QcEJMdU5xU3BWSFVRS1Q2a2JrN0J4eUUtaXJVZXpvR0xCWHRqTElTcFNQUE95bWsyaUZfczlqVnJ6dUZZUTlLSmZCclRKY05zcVRpR0ZGOXlpQnNyUlNBZFY0WEloajJFSmR0c1hZRldBLWd6bXktSkxsMzRyQQ?oc=5",
-    "source": "CarbonCredits.com",
-    "published": "2026-08-18T15:47+00:00",
-    "score": 5,
-    "tags": [
-     "operations"
-    ],
-    "direction": "negative",
     "primary": false
    },
    {
@@ -606,6 +593,19 @@
   ],
   "GOOGL": [
    {
+    "id": "b983660e1cf539b5",
+    "title": "Rosenblatt initiates Alphabet stock coverage with buy rating on cloud By Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOENDRkxJazRwRVhvYVBsTVBteTVEUGtBZTJuS240ZmFOTTdoNTA5ZGd2V1Ywb3plYmdUamx2cTVxcDlPaDE1cTZSeHV5b0lWbGp2SjJvWDg3RllZanRnSTFKd05BczA1aUtYMnFZTEx1ZlJCaWNwZ2g4eHlCZWVJcTh2UWNGZG5GbDJLTW15bm11TXRqVU9GQ1VpSDJVMXNOZFB0T09kZElBY0k5ZnoxZFduNzdrdld6R1laM0NEOGtEbkJpRnRfWjZR?oc=5",
+    "source": "Investing.com Canada",
+    "published": "2026-08-19T23:52+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "3ea03d5919e96789",
     "title": "Google (GOOGL) to buy up to $12.2 billion shares in US chip firm Marvell (MRVL)",
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObXhfRGlxTU9OZ0ZyRXl4OGUwYkdSOXRoanBVbFMwUkRWZkNjMDVLUVJOUGNiOTdWZE9wdzNDWW5jQ1NNTXRiZ25RMHVsaExXNzNHZnJpUEY4YlFZUkdXQnR2bDQzdklBUS1LTjFBMnpSamRTMWVNTTd4S1MwYzlvRWFPVVZ5amtKRmtv0gGXAUFVX3lxTE1vdmFmUXB4cnl5VE5lalNnR1M1dHR6QWxYZTdwSV9qUlFfMzZiZ0RJUzlDQmstSURGcVY1Wm1NRDlMXzJ5OVVEZFZyNXZLZkJaWmk5dlNDRzdobWFfNUpoSElJclNYWnRRUFZxNWtsQWhpZHdRTWZHNk10aktnaEhJaGZjV0hWcGp3X1NCQjhSamlsdkRWa0E?oc=5",
@@ -635,7 +635,7 @@
     "id": "b9696cd4e3362f2f",
     "title": "Marvell surges after deal allows Alphabet to buy up to $12.2 billion in shares",
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONFNuVjRuejZsZW82ZzJYLUM1cWllYXdZUnl5SDI0cVN0YmRKRFRvMWYyak4xUTN3SkRObWJaTTJUYmd2NWxjYVF4MWFyZW9mWGNQNS1UeXFMUHBKdXQ0Ym4tUklONGFoUUh4YnZVNUltUDg0M1BEb1A2MDF4X0JGX0JFdF9mclNkem5RWEtoMkNsek1DN3BQNlUzY0RNeEJOZ3lnMnhyQVRjdl9WN0g1ZUh5WUR3cGd6Q0NmMkEtRGpJMHZD?oc=5",
-    "source": "cnbc.com",
+    "source": "CNBC",
     "published": "2026-08-19T14:34+00:00",
     "score": 13,
     "tags": [
@@ -675,7 +675,7 @@
     "id": "f25abc8c74a803ea",
     "title": "Alphabet’s 7% Aussie Bond Debut Underscores the Sky-High Cost of AI Debt",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMXpzSU1faC01RGxOTzZ5djByYXhqVE9ibC05aHdvM3FsV1dpWUdVQmRkenJENGZNZ3ZKcEllTTN2cmJIUndKVDQ5Zi1YYWZzRDZVMFlJdEVjMnZ3RHZmTzhOQ1Z5ZTByR25FSmR0OFFNVGRJRzUydy1UV2V3TDROVGN6bGpUNF9CaU13S04ydlJLTW81aXFtYnBnT1RCZGlrVUhydzZ0WlVSZTlsTzlz?oc=5",
-    "source": "Bloomberg",
+    "source": "Bloomberg.com",
     "published": "2026-08-19T07:30+00:00",
     "score": 5,
     "tags": [
@@ -705,19 +705,6 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPc00yeXJpQ01QaGxuOGJTbWtCVV9pUm95VkxvVVlRT1hLNW04enlwWW51OFZrSVAxUHROSGVIQl9XNXBxLXdFYUtxVXlCVjhpVXZNdC05ZGMxN1hZeWVHQkVEbE9RU3p1R3dHcXNENElXTW9rV1FnVzF5LTdKSzhENXdHTG9DdWdlSEhYMGxIc1JRZllm?oc=5",
     "source": "Traders Union",
     "published": "2026-08-19T16:03+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "9767b58659a42f5d",
-    "title": "Robinhood Stock Forecast Ahead of Trump Crypto Meeting This Week",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcHdtaENlekxRX1VXcW81QzJNeUhSQmV4Z2FUamlCeHR3bjhmV0dlV0FBcVZrb2Vhb3lvWDIxY0t6ckRYVEYwakRWZUF1Nm5yeEhScUVvalBoY3o2R3RUdW5PeDNmR0pkU3pIdF9mM2lWTW1BNERxSnhoQXZldmlMTlMzY21IZTl4VWlwMGc5S0RuLVdxbWhOYWhHd3ZyOWVwaVJGQ2ZJa3pUenZ6?oc=5",
-    "source": "The Market Periodical",
-    "published": "2026-08-19T15:00+00:00",
     "score": 6,
     "tags": [
      "earnings"
@@ -808,7 +795,7 @@
    {
     "id": "f0aca1d303155a17",
     "title": "Nvidia engages in 'matchmaking' to foster data center development in Nordics: report",
-    "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPNW5aUkNfLVlOM1NFMWxVNmF3R0NqOFVWX3FSbnc2YkZxWXpDSGxmRXNDbnlzUVkxUW14MnV6WjBqWDlqdlQ1Ul9NLXMtUnFHa3hULTQyNG1pTVRYUmNncXhGUGoyN2RMX2tEZUhQVm1icVJNajJqcWwxc19CWkR2UU1ybmxEMVhZRHRLOWY4bVRJbjlwcmpuRE5fREk1UXkxcFoxX1dYRnp4TVJnQ0NrR0pqTTJ1NnpIWkgwUUJGT1p6T2ZybUhmV1FLOFE3bDRPM2NXdzZWSzJDdFdjeWRvbFpTTXNQdHVLQ3ZqTUVZUHNZYTQ?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZDdpbHFtbGE2VmJPN1gzYXhLSVhmbTNfSm1oSnF2Vk5SaXU2NFdjOUpGUHpqX2VZRkFUd29qMUZyUldGSUxtYzRTYi14SWVKQ1pyemQ1eWg5Q2p5Wm14Q3R0eFJobXpzM3RLZmJBM3kyXzlyREwzb18xV2swNmE5eWlfcjZNZF8yZDFtM1kwcnlfMWhkQXVvWU1KUzlvUGIxZlBKd2JXMmI3enFFWkxoTU44alN6TU0yZ0pJ?oc=5",
     "source": "Seeking Alpha",
     "published": "2026-08-19T16:18+00:00",
     "score": 6,
@@ -848,7 +835,7 @@
     "id": "a0a5e3646c992eb0",
     "title": "SKHY Stock Whipsaws As $500B Nvidia AI Deal Reshapes The Chart",
     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBObmJKUFRxekxOQ2ZOOWprSGVrNXBHdXBXSE9manhEajdJVXY1bGZtSVpDTGhpcEFRWnVMTTM5ZlVJNm45aUZ0aVhWQ2ItYTk5WVBSbF9NVjhGZmlOeUNvd3pWRGNVUzcwaHhOTUlMcmRVUGc?oc=5",
-    "source": "stockstotrade.com",
+    "source": "StocksToTrade",
     "published": "2026-08-19T11:47+00:00",
     "score": 8,
     "tags": [
@@ -916,7 +903,7 @@
     "title": "Intel (NASDAQ:INTC) Stock Drops Below Its $95 Offering Price: Why INTC Is Falling Again",
     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5NRmY2bDFPVnFqemxqWEV2bFVVYm5qUTNFcW5xWGJIY0VpUGtPSUl5ODVwZ0NmdGZDczZ0cFp3N1p5UlUwUGtpUUhwLW1NVmstV0lpclh6Q0tteHI4LWNMRnlKLWNwcGotbTJjS2VBamxjZw?oc=5",
     "source": "Stocks Down Under",
-    "published": "2026-08-19T19:14+00:00",
+    "published": "2026-08-19T19:39+00:00",
     "score": 8,
     "tags": [
      "capital"
@@ -981,7 +968,7 @@
     "id": "5fb78629d6baccd5",
     "title": "INTC Stock Slides As $20B Share Offering Reshapes The Chart",
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE51Q3RHZl9nSmRSZE5weDVXd1ZySDNUaHh3ekNWQ05RVEh2YktUbGRkYnVLSDBKZko4bmx2bFFMaFk1OGNaZEFfTTFxN3ZsN0dldzhqRFpiVFZfY2w2d1NIbkV3T09PRVduSTk2OGprMkRjc2x1cWlJT0Jn?oc=5",
-    "source": "stockstotrade.com",
+    "source": "StocksToTrade",
     "published": "2026-08-18T11:48+00:00",
     "score": 8,
     "tags": [
@@ -1198,7 +1185,7 @@
     "id": "58ee0bd88a3a2d04",
     "title": "Marvell Gives Client Google Right to Buy $12.2 Billion Stock",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWUthaHBDWVRmVFNLMTQwS1RyYnlmelc4T3hNSWp0cnVKemhpd19UcklodEIyMXA1ZjRlLXlnZ3cybzJleVJYU2NSMUFzTDloc0Fkc0NSRjVSZ0g3X2ZxLUdkU0FaRVVEU3luRENwSGhjc0dqZEF0VlZZTkpvRGhIaXVxdDJYR0NOVUNpYk5MMjhTOWRRV0otbHd4OEticDI5c2hCb2FGalNCWHhFSzkwMlZBNA?oc=5",
-    "source": "Bloomberg",
+    "source": "Bloomberg.com",
     "published": "2026-08-19T12:52+00:00",
     "score": 8,
     "tags": [
@@ -1314,5 +1301,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 95
+ "count": 94
 }
