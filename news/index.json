@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-20T21:22:26+00:00",
- "changed": "2026-08-20T21:22:26+00:00",
+ "checked": "2026-08-20T21:50:47+00:00",
+ "changed": "2026-08-20T21:50:47+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -175,19 +175,6 @@
      "earnings"
     ],
     "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "b972f3c4b2477e3a",
-    "title": "87% SMBs say AI-powered tools improve access to advertising: Amazon report",
-    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQbFpiT3d5THFUTzQ5cHFnbFg2T3IwZlI0Tm5SYUc1U2Z3Z3dkWl8yQkxJUHRPZVF2RWQ3YVVuc2E1aEpVUnZENmlvLWxYbGtXcWFXcmEtc2JhX2NETTA4ZnlRM2IzWEFsTF9kZElRbnlaQ3dzLUJRT3MxUTZlZ0hQbVBqUUZORlR1aDUzQWhFRWN2bHZtYmhHTk5hekxOQ1o0eXllc1lsN3VtOEI4M19sZWhabXFmLUZONUhJc19ZdlZXSlpDMkVRNWxILTIxT0JRelR1U1I4TUvSAd4BQVVfeXFMTU5ZTW1zdHlKUzNhTDRPV3dBZEFpYlN4enVlQWYyaVV1amhrUENNQzBMaFZEMnIwMVVrcnJtZWwxdUVCMEpWaUp2ODcyNmZMWXhoWjQ3dGNaa09JTWNDVnU4YlVKRVdNbjdCeVhReXFqV2xQRV9YdEFLYWJ",
-    "source": "Business Standard",
-    "published": "2026-08-20T13:11+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
     "primary": false
    },
    {
@@ -569,7 +556,7 @@
     "id": "f25abc8c74a803ea",
     "title": "Alphabet’s 7% Aussie Bond Debut Underscores the Sky-High Cost of AI Debt",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMXpzSU1faC01RGxOTzZ5djByYXhqVE9ibC05aHdvM3FsV1dpWUdVQmRkenJENGZNZ3ZKcEllTTN2cmJIUndKVDQ5Zi1YYWZzRDZVMFlJdEVjMnZ3RHZmTzhOQ1Z5ZTByR25FSmR0OFFNVGRJRzUydy1UV2V3TDROVGN6bGpUNF9CaU13S04ydlJLTW81aXFtYnBnT1RCZGlrVUhydzZ0WlVSZTlsTzlz?oc=5",
-    "source": "Bloomberg.com",
+    "source": "Bloomberg",
     "published": "2026-08-20T02:16+00:00",
     "score": 5,
     "tags": [
@@ -1151,6 +1138,19 @@
   ],
   "MRVL": [
    {
+    "id": "f7a820e82f770919",
+    "title": "Marvel Technologies (MRVL) Price Forecast: Bullish Trend Targets $300 After Pullback",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQU29lZUN3UHFzSl9jSU9MMFZZTWNXaXAxeFI3RmMySUZlMGM5V3pLOFM4a1VfRWxXSHBnZkM4OGUwZm91T2VKX1dxVGpuM3VqUW5mWHNHUFpuemJXV1VqLTluQWdwMVdCcjhKdWRHVDR4a1hCMk9DV2RYWVJNcDBoSW8yUGk3WjItNi1LSEQzNG00X25CZm1JM3I0dFA1VEQ5ZDhMZ2QtWlNfRnNHRk1seUtWSHZjYl9fbGc5c0toTmxVcl9yeUFtS2V1UQ?oc=5",
+    "source": "FXEmpire",
+    "published": "2026-08-20T21:24+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "eb1c248a0a733228",
     "title": "Marvell Bears Spar With Bulls as Google Deal Bolsters Outlook: Short Seller Tracker",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcUFVVnV4a0dWUlZwdjRJbHFQalpSWEFtcVNYN053WTFud2VfV0VxMTJ6eG41WkhOcEVwMzRaSDg3b2drU0RCaml0RDZTTEltMHNoZ2hIMkdTTTBEbUFWOGZadDBnWWsyLUl2elhud3JKZzBYbTZNbUg2ZTd3S2RmNGMyRjZKd0RKd1dYajI1ejQ1V2NUU19COS15Q3czOFdIZTZDVmdnRUM5dkZ3c1JmZWJURVUyQQ?oc=5",
@@ -1268,21 +1268,6 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "0678062928de4750",
-    "title": "Marvell gives Google option to buy $12.2 billion stake in custom AI chip deal",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMGJtYjVLaXdOWGtqeDQ1Nk9MWkdTMnUwYXhGTUNnODVfX09qZlRfbHRMaDBLRnU3Y0VqQm5NRVhKTGJVUmQyWjhCOVJKc2NXT24xY3FOQ0RlU3RSdndhZmIwR2VCZllJdWFhVGxGQjBvQ2tfeTRock1lc09ZNEwxMV9vcWtVNV9VSXFoOGtTZE8?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-19T12:38+00:00",
-    "score": 18,
-    "tags": [
-     "capital",
-     "ma",
-     "contract"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "META": [
@@ -1378,5 +1363,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 100
+ "count": 99
 }
