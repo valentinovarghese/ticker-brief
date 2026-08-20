@@ -1,9 +1,22 @@
 {
- "checked": "2026-08-20T20:23:13+00:00",
- "changed": "2026-08-20T20:23:13+00:00",
+ "checked": "2026-08-20T20:54:16+00:00",
+ "changed": "2026-08-20T20:54:16+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
+   {
+    "id": "a09749566803622b",
+    "title": "Apple Stock AAPL Slips Toward $300 as App Store Revenue Falls and Guidance Disappoints",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZjl4UVAybEFhMWNCSW5lMXdfOEhKN1N5emFPVlBFTWl1eVdsY1R1dGRwZU9zOUlnTmt4SHRQU05fUDFtV2pDR1AxMEJNdHdBdU84OFo2Sm9hcW9nYUIzb1hPQ1c5ZGVKeERIcUZyQWtyTzJseWhuVVB4NF91WHRRTS1PMFBYN2FLVUhvMUpUUVFiYnBoOV8xcGtETHh5OFpnUjNVVGRCUk52UjQtdHFuUTJiM0VHZVZScHBVWm5QNHVXMTlCNWY4?oc=5",
+    "source": "FXLeaders",
+    "published": "2026-08-20T20:41+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
    {
     "id": "d113fe402fb8b944",
     "title": "Apple App Store net revenues see dip Y/Y, monthly data shows: Morgan Stanley",
@@ -121,19 +134,6 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "b0ecc282386951b9",
-    "title": "Apple Stock Target Jumps From $260 to $400 in Rare Upgrade to Buy",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1WUFd2T2pyYmlyWU5TazMyR3hwX2x3c2s4MllxNGxaRTZWcG5sVk9URE44SkQ1X0NTbWwxdWFOdG0tbDh2NXVUV3NGRzE3S2NoU29OVE1QTVBfN3pTd25oWVl3R0lXVUlhelVHamsxUnVVNHhq?oc=5",
-    "source": "FinanceBuzz",
-    "published": "2026-08-19T09:59+00:00",
-    "score": 8,
-    "tags": [
-     "ma"
-    ],
-    "direction": "positive",
-    "primary": false
    }
   ],
   "AMZN": [
@@ -183,19 +183,6 @@
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYUtYeDFDdnppR0RiRWoxb3F6UC1VVFA3ekdNU2NackR2VDlZaF9OeWpWRWt5T3Y5NzdnRTlwaGlTWDRZenMyWThUZE5CVFVndnRlTThFWEFuXzVja1FaZFNDaDhtZm83TnM5VmpwWXV6MlBkSVNIVW82X19hX0hXZmNUaGxvTFBVQmNibmkzeEktLTZNb1JHcGVZMVVGWjJGY0Q1ME52eEtsOV9UQnBLYWRZbjNHMkxQVVN3VEw2ZUJaOEtQ?oc=5",
     "source": "Ad-hoc-news.de",
     "published": "2026-08-20T13:34+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "b972f3c4b2477e3a",
-    "title": "87% SMBs say AI-powered tools improve access to advertising: Amazon report",
-    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQbFpiT3d5THFUTzQ5cHFnbFg2T3IwZlI0Tm5SYUc1U2Z3Z3dkWl8yQkxJUHRPZVF2RWQ3YVVuc2E1aEpVUnZENmlvLWxYbGtXcWFXcmEtc2JhX2NETTA4ZnlRM2IzWEFsTF9kZElRbnlaQ3dzLUJRT3MxUTZlZ0hQbVBqUUZORlR1aDUzQWhFRWN2bHZtYmhHTk5hekxOQ1o0eXllc1lsN3VtOEI4M19sZWhabXFmLUZONUhJc19ZdlZXSlpDMkVRNWxILTIxT0JRelR1U1I4TUvSAd4BQVVfeXFMTU5ZTW1zdHlKUzNhTDRPV3dBZEFpYlN4enVlQWYyaVV1amhrUENNQzBMaFZEMnIwMVVrcnJtZWwxdUVCMEpWaUp2ODcyNmZMWXhoWjQ3dGNaa09JTWNDVnU4YlVKRVdNbjdCeVhReXFqV2xQRV9YdEFLYWJ",
-    "source": "Business Standard",
-    "published": "2026-08-20T13:11+00:00",
     "score": 6,
     "tags": [
      "earnings"
@@ -265,6 +252,19 @@
     "score": 6,
     "tags": [
      "filing"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "c336e9cedfd6e0fe",
+    "title": "Freedom reviewed Apple, Microsoft, Amazon and other крупнейшие U.S. companies after earnings",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaFRNenAwU0xrNXE1WC0zdXBjbmNHbnZVRWZWN1hDLXkwTWY4enN0eklLNzlhTnBJbjgwMzJDZE8yYk9ZMFBOR0w0SlU4clRkMGxUQVFOdWZLeURFeENlLXJUbWlPZ0IzTnZuRDl4WHJfWFNZaFB1NUc2dEJYaVcwOEJ6WTFKeVhPQVFTdHN3WjBKSnNrRnFTaFdPS2lseEtJS2xaaURGa0N1M0JLTDFVTEFGVkxkQ1hCYy1OeG82SXhCYVMw?oc=5",
+    "source": "Freedom Broker",
+    "published": "2026-08-19T09:54+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -630,19 +630,6 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "8a1886c5c78b1870",
-    "title": "Alphabet Stock Holds Firm as Cloud Revenue Explodes 82%",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUTdRLUhwQ2VNeldvdDNrRC1DMVJBSmpHV1NZM3Y1N1FERm1qX1dmTGpkVzE5OVJ2cGYtVUtCZVhOQXBwVnZpcUZjeWp2TWtzS0RGTEZxUGVHcWFsVFJMOHk4MTY1SS1CYm1pV1h2Ny14QUxEWGFBVDNzN2drLTJ2N2lJZU5IaC1hOXJKYXdWd1I2amc5cWZjV3ZMX04?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-18T20:52+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "HOOD": [
@@ -990,6 +977,19 @@
     "primary": false
    },
    {
+    "id": "c88e0372e61eb27c",
+    "title": "Intel, AMD, Micron Drop Pre-Market As SK Hynix Buyback Fails To Sway US Chip Stock Traders",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSGhYV3Z3VTVXNzdWX2xoQXhGUDEtOEJsUTFYVmx1ZjBiT1l0S0VLcnBubzlTbXlONy1WOW01ME5jOW1zYUxHdHUtZGJtc3dSSDAzblZzT0ktcVBsUy1kX1lfS3pMU053WXVpUURfTEdfLVdhdDlkYW1BTFlSLTRtWV8wTUltc3NKVzhaSGE0d054cEdoY0NvOWpVcjlHTzFCT3hSLXQxcjlHQi1Wcll5OVd4YWJYS2NBc3BiYTBEVlRqYjRDMWJpa1k2ZVfSAdQBQVVfeXFMTUFpUm5MeU85bnFOa3UtZnJvNVM0eFZoUjlScWZtcG8zMHVkcjdPWjBDNUVwc3pJcjJFSjRRNGZPc205d1NJbTY1RzRIdzBYdGR6VDhPa2t4cEEyQzhsMEJjVGp6UTUxUGV0b2xtLU9FamliWW5vVlREY0VGZHZDZm1yU3lsY0d",
+    "source": "NDTV Profit",
+    "published": "2026-08-19T11:34+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
     "id": "b5eabb4f6ed893eb",
     "title": "Intel Q2 $16.1B Beat: $20B Capital Raise, Foundry 14A Tesla Deal, Agentic AI CPU Demand",
     "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPZTFRUWM4emwybjRpTEdrNWp0eHJRVHVTNTZSSWtIZVFoRWZqbTlkSWxaV3V0SzZqVVpGOFVKNnVVNlRtd19tWUVBMThHNWxlLWpWMU1xeE96WDNOMS03dDdEdW1BRTBYOG1iTm5Ec0xQdFZFa0FYMHktenVETXFxUHNseWVtamt2M1pheWdYUlRfRHQwSm8wM3gyOFFQdkh4cWpNWWEzSkhtV0ItczNsRlVrZnRabUlBc0dyVUFRNlVCc2hBbFJteE80M0xKdUE4Z1ZZMVdKYW85dWhOWTIwZ1MyUUcxbFdCQ2ZNX0VGWUQ0ajAzSnR3TEZ3?oc=5",
@@ -1204,6 +1204,19 @@
     "primary": false
    },
    {
+    "id": "81497454087d7c0e",
+    "title": "Google may buy $12.2b of Marvell stock by 2033",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBqRWttc2pKV0pBaHFMdF96Nk1SYUZBcGM1QzZfV0RHeXNwZWVSbGlieW9fb0h0azRhVFFPVTJ5NW5udVZ5bkJJUXhpaGJwd2E1emtJQ2w5aDJoRDRwaVhHcHZfRy04djcwWE1XSE5n?oc=5",
+    "source": "Tech in Asia",
+    "published": "2026-08-20T01:46+00:00",
+    "score": 8,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "0127f89ebb72f44e",
     "title": "Marvell Technology (MRVL) Expands Google AI Partnership: What Investors Need to Know",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQnUyd2dFNllXRzE1WFpJX0wxQTN6U3ZldjZ0MVN3RW9tN1RST3pOQjdNdW45eEFHUkFTU2FNVEd1MkswME1rQWxZcXItOExxcFVFb3hjVGp1ZEVxcUlGQ2QwcUp1ck5YSGxwaGN6VFUtczBRNWJsWENpaWhoWkZJeTB5NndWaXFGQWpSc3Rxb3haZGhsZ1R3OWdSOTh3ZE1vTVVRRQ?oc=5",
@@ -1214,19 +1227,6 @@
      "contract"
     ],
     "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "58ee0bd88a3a2d04",
-    "title": "Marvell Gives Client Google Right to Buy $12.2 Billion Stock",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWUthaHBDWVRmVFNLMTQwS1RyYnlmelc4T3hNSWp0cnVKemhpd19UcklodEIyMXA1ZjRlLXlnZ3cybzJleVJYU2NSMUFzTDloc0Fkc0NSRjVSZ0g3X2ZxLUdkU0FaRVVEU3luRENwSGhjc0dqZEF0VlZZTkpvRGhIaXVxdDJYR0NOVUNpYk5MMjhTOWRRV0otbHd4OEticDI5c2hCb2FGalNCWHhFSzkwMlZBNA?oc=5",
-    "source": "Bloomberg.com",
-    "published": "2026-08-19T19:56+00:00",
-    "score": 8,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
     "primary": false
    },
    {
@@ -1270,18 +1270,18 @@
     "primary": false
    },
    {
-    "id": "65220e7b3ee0a9fe",
-    "title": "Broadcom Rival Marvell Surges After Google Strikes AI Chip Deal, Gets Option to Buy $12.2B Stake",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaXo4dDF3WHUtLUNzSmtJX0thVEtvU0dtSnNaVXlNTmpfQWZkYXRKZERjTHVXa2Z6akV5MUlRVjdJZHpCalB1NTB3LWFmUjFPY1pIX2tTMGRLX3poUXJPYlQzOVlCR3l1NkxnLWx2T2NpU1BPUXE5T1FhQkJHUzlOU1RSR0xOSnJpRlZkTWJTemZJSWNVOExoYUx6bUo2ZFpWR3c?oc=5",
+    "id": "0678062928de4750",
+    "title": "Marvell gives Google option to buy $12.2 billion stake in custom AI chip deal",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMGJtYjVLaXdOWGtqeDQ1Nk9MWkdTMnUwYXhGTUNnODVfX09qZlRfbHRMaDBLRnU3Y0VqQm5NRVhKTGJVUmQyWjhCOVJKc2NXT24xY3FOQ0RlU3RSdndhZmIwR2VCZllJdWFhVGxGQjBvQ2tfeTRock1lc09ZNEwxMV9vcWtVNV9VSXFoOGtTZE8?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-08-19T14:37+00:00",
-    "score": 23,
+    "published": "2026-08-19T12:38+00:00",
+    "score": 18,
     "tags": [
      "capital",
      "ma",
      "contract"
     ],
-    "direction": "positive",
+    "direction": "neutral",
     "primary": false
    }
   ],
