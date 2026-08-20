@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-20T23:11:16+00:00",
- "changed": "2026-08-20T23:11:16+00:00",
+ "checked": "2026-08-20T23:40:34+00:00",
+ "changed": "2026-08-20T23:40:34+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -752,19 +752,6 @@
     "primary": false
    },
    {
-    "id": "f43b07d1e3d0baf9",
-    "title": "Nvidia to ship AI chip for China by year-end, The Information reports",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBONXdCNVg4bUg3YTFnclREUmMxYjlqM3EzczM5cVdiem1oSXVyRG1ZWGlLMmtrM3VrZjdVUGZGYV9QaERtWVc4R1V3RFlvSXIxVW5BY2NWZWgtOGRrUGtiRUZqWFk3aVRfc3JXVklsNDhCSjB2UEVSTw?oc=5",
-    "source": "AOL.com",
-    "published": "2026-08-20T17:28+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "c71bd75c885ed4f3",
     "title": "Nvidia Stock Explodes After Hours | NVDA Stock Earnings Kevin Gausman (qc0LI2bbZS)",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5iR1FDNnFZMjljNE9pRXQwSUt4RHk5alhKekJQWFdvb2xRRW5hRk8zeGgyanVIMDczTmhzMVJ2Mm5iX2V4V25EVGVFTkFqamdCNjVpeFBPdWVRSlU?oc=5",
@@ -851,6 +838,19 @@
     "score": 6,
     "tags": [
      "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "030e183098d29e91",
+    "title": "Nvidia Reportedly Explores Stake in AI Data Provider Mercor At $20B Valuation",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQUs2Ym1JVWo5UlBZMWt0SWFpS3J0M25mYktiTXRyT1FEeDNYeXRpLTl4amE1UTNCSEtMRVU4RVV4OHpEdmFMNEs1MU8wMGpUVndMbG5QWDkxMVppZ2pMZ1JETW45dUZ1QXdKTjZjZWhHbzdWbHdmLTdiOHlmakp6TGU5VkQ3bHltZFAweV8xT3F0QnMwOWkzVF9fTks4Y09O?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-19T20:45+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
     ],
     "direction": "neutral",
     "primary": false
@@ -1083,6 +1083,20 @@
     "primary": false
    },
    {
+    "id": "6f2f7a79da6564d0",
+    "title": "Is Nebius a Buy After Last Week's Earnings? Here's My Honest Take",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA3VWJId3VSYlVnYzBDVzh4NnRoSUJfYnRjRlYxSW5HQXBwNFMwajBjY3J2QlVhVHFRb1R3M3lPM3VGY1dYSE04c1ZrY0l1c1dVLU9qbEZYS1Y4UEVuc2JKcWF2Yl81emEyejNwT3dyQ0tKTUdPQ3k3NkpFTHFZSUU?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-19T13:29+00:00",
+    "score": 11,
+    "tags": [
+     "earnings",
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "b2ee2a6c3cadff71",
     "title": "Nebius says its $5 billion convertible underscores data centre demand",
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYzJYSUdqcjEzbl9LMlh2LVpNV0FwUzh2elNlelR5azB1X0lLM2wyVlg0RGl2cGJPSE5wUFRmQmVSV2V2UEpLcDFuQzJjVnljM1YyQVhiSUFoc0lwSFNxVVdacm9yeVZ3TWEtcWtOVDlKeXZDOFFOUDk5dnA3SVkxdmRQeXJKUEVydmgzRHF1eHVWaUNuRXItdHV6MVRVMnlGdU9fMzREUW9wVUxxcXhMVkZ5NTU4N2NScEJmMUMxVQ?oc=5",
@@ -1106,19 +1120,6 @@
      "capital"
     ],
     "direction": "negative",
-    "primary": false
-   },
-   {
-    "id": "73f9e5d245bc30aa",
-    "title": "Nebius Group (NBIS) Stock May Be Fully Priced After Q2 AI Revenue Jump",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQN2JDOEtqRWNLZEtzU3JvcHJPOF9UZW5CMWtwQlMxVFZoY2NyeG52R0RqMEE3WTljZjdURHpEUFhJWDl5S0RaWnpNZkxENzU0Z09MQzhhX1RJbHYtUlh3dnYxRlFuVFl5c2dZN1R5QUIteWVwQUo0dXJjeFlCRWp2QXUycmhURko5UDNUaV9QZUQ4dWZSUUdrNVlqSWFaaUdZcFA3MDcwUEpCck1xLUNENlEwX0RrWGlrS2N0Uw?oc=5",
-    "source": "Sahm",
-    "published": "2026-08-19T08:43+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
     "primary": false
    }
   ],
@@ -1273,9 +1274,9 @@
    {
     "id": "150e3da0e23da5e6",
     "title": "(08/20/26) META: A Dividend-Paying AI Stock Ripe for the Picking",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPLXNrRUI2ZEZsODRXQlhScC1WMGFraXlzcVVoajI4YXJRMjdwU3VybVlWM2UxYWU2U3cxa1h5RUl4MmZUNUlBSW9nX1EyQ0tKYzl4WUM4djdjelNmNlFDclFnaWJ4LUptNGJ5d1hYQlRpM2lUYWRVMmpIRjlFanRibjBGcnpubk0yM3htSURxSmlQSnFJVTkweFRlb1pTUE5TeTlXTjg5dw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE04akl4UmNST2F6SUM5UGFiTEpEYmdzWmoyRVJ4RUxsNVlCMkNzakctdks5VWJKS1VpaV96UFlyUkY2NEZuVW43d0ZBbENHSUd3R0xSVk5LQTJOWXZ1Unc2bA?oc=5",
     "source": "moneyshow.com",
-    "published": "2026-08-20T04:03+00:00",
+    "published": "2026-08-20T04:39+00:00",
     "score": 5,
     "tags": [
      "capital"
