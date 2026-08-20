@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-20T09:43:41+00:00",
- "changed": "2026-08-20T09:43:41+00:00",
+ "checked": "2026-08-20T10:12:59+00:00",
+ "changed": "2026-08-20T10:12:59+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -53,6 +53,19 @@
     "score": 5,
     "tags": [
      "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "44007843c83be7f9",
+    "title": "Apple's Latest Earnings Report Surprised Wall Street, But Not the Way You'd Think",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQ2FjR08yd0VvV0VDdFNVMDJXOW1VQnZ4WHNKV1FhMEtlc0RoQjdtckh3aW5BaTZwTzZRLVdSSmplMndLZjV2bUZFdzRpbFN6cnlKVk8zVnVlbXFaUFRtWGp1dXZUWWNtWmJ5SUhWdzRTVFJqcEpHeHpMRFZnZ0hrWVY0NndDYmVfVlZj?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-19T17:05+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -119,20 +132,6 @@
     "score": 5,
     "tags": [
      "capital"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "dcf18f01f6d85763",
-    "title": "Apple (AAPL) To Revise App Tracking Rules After German Antitrust Decision",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTlY4NG9yNWUwUUNZYkVxQjZmRm9VNUZwSUJWbHJBOGh0YlNYYTBvdlZQRmxDMHZ0OGlWZUVOOE5DTV9WakRiTUo1OTdJN2dCZEpZYW1sYjJsQzNBTmt4Zm8xcDh0TjU4ZHRnYVZIa1RNdnlwX2V1c0NGNzQ2Q2RrSUtaSU1fRExYZkN6T2dwVkdPQWRGR1hTUGxGeHRsX0dpT3JXMURicFJLY3FpVElIMklJQTRFWW9xamRxb9IBwgFBVV95cUxQOTZVYlYxcl9uZVZQZHloTHM2ckNUZm41QV93ZWhqZU5IeHhVdUJ5dXdJMWlWNEhaQzJadXAySFVEelo2TzhpYUxCWXNkc3NCLVIwcU5WTW1YYW1YTVcxbHdoMjNKVF9pTTVOUnJ2aG9Da0FYbzQ5Q1BtT3duZjZiU0s2djZkeHRSMjlmbFo4QlY3cTFpRG4",
-    "source": "simplywall.st",
-    "published": "2026-08-18T10:43+00:00",
-    "score": 9,
-    "tags": [
-     "legal",
-     "policy"
     ],
     "direction": "neutral",
     "primary": false
@@ -272,6 +271,19 @@
    }
   ],
   "TSLA": [
+   {
+    "id": "6a514630956f0472",
+    "title": "SpaceX May Buy Tesla, But Its Own Stock Has Fallen 50% Since June",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5YWG11d3hnaTcyc0VxeVRPRm9VM0MtNmxjUEhhOTdKT1poekRaX0xCdjJXNkJTQXhmQ0w0c1hhcEx0SzZhb3VOOVhhZkpEUm1VSGV4RVNxZDh2MHJVaGtvSW9oemh2VTRhNVhBcmtKX2FDNlJtY1dJ?oc=5",
+    "source": "Yellow.com",
+    "published": "2026-08-20T04:39+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
    {
     "id": "ac8eb6a5d84f8aac",
     "title": "Tesla Stock And Cross Border Exporters Worth Watching After The US Canada Trade Pause",
@@ -666,6 +678,19 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPc00yeXJpQ01QaGxuOGJTbWtCVV9pUm95VkxvVVlRT1hLNW04enlwWW51OFZrSVAxUHROSGVIQl9XNXBxLXdFYUtxVXlCVjhpVXZNdC05ZGMxN1hZeWVHQkVEbE9RU3p1R3dHcXNENElXTW9rV1FnVzF5LTdKSzhENXdHTG9DdWdlSEhYMGxIc1JRZllm?oc=5",
     "source": "Traders Union",
     "published": "2026-08-19T16:03+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "9767b58659a42f5d",
+    "title": "Robinhood Stock Forecast Ahead of Trump Crypto Meeting This Week",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcHdtaENlekxRX1VXcW81QzJNeUhSQmV4Z2FUamlCeHR3bjhmV0dlV0FBcVZrb2Vhb3lvWDIxY0t6ckRYVEYwakRWZUF1Nm5yeEhScUVvalBoY3o2R3RUdW5PeDNmR0pkU3pIdF9mM2lWTW1BNERxSnhoQXZldmlMTlMzY21IZTl4VWlwMGc5S0RuLVdxbWhOYWhHd3ZyOWVwaVJGQ2ZJa3pUenZ6?oc=5",
+    "source": "The Market Periodical",
+    "published": "2026-08-19T15:00+00:00",
     "score": 6,
     "tags": [
      "earnings"
@@ -1089,6 +1114,19 @@
   ],
   "MRVL": [
    {
+    "id": "917cdae50b31df18",
+    "title": "Broadcom Guarantee Grows With Every AI Rack Sold: BofA Warning Meets Marvell-Google Deal",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVkIzMHd5SlJZaWUxeUNaNkZ3S0lmY2VtVHdWdDk5bjFRZjgyMUdEZDVvRGxDa2VNdnl0YWNXY2pMN2tQWl90Z1F5bFgxSm5uN2VZSXhjMUJhVlJTTHo4YkRWbWh3TllzWTdyNFhIcl9SdnFueGh3Y1BJdEh5YlNqdzF2Z0ptdUZhc28xRzliMjJhLTdxNDVXOW9JQkhhb0ZCb21VRjk5UEdaV3cwQWJ4VUVFU0FWVE45SDZ3cHdFSlRWOWZ1S0E3RUwxc18weUc0Q0Rv?oc=5",
+    "source": "Tech Times",
+    "published": "2026-08-20T10:10+00:00",
+    "score": 5,
+    "tags": [
+     "contract"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
     "id": "0127f89ebb72f44e",
     "title": "Marvell Technology (MRVL) Expands Google AI Partnership: What Investors Need to Know",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQnUyd2dFNllXRzE1WFpJX0wxQTN6U3ZldjZ0MVN3RW9tN1RST3pOQjdNdW45eEFHUkFTU2FNVEd1MkswME1rQWxZcXItOExxcFVFb3hjVGp1ZEVxcUlGQ2QwcUp1ck5YSGxwaGN6VFUtczBRNWJsWENpaWhoWkZJeTB5NndWaXFGQWpSc3Rxb3haZGhsZ1R3OWdSOTh3ZE1vTVVRRQ?oc=5",
@@ -1276,5 +1314,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 92
+ "count": 95
 }
