@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-20T19:54:36+00:00",
- "changed": "2026-08-20T19:54:36+00:00",
+ "checked": "2026-08-20T20:23:13+00:00",
+ "changed": "2026-08-20T20:23:13+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -138,6 +138,20 @@
   ],
   "AMZN": [
    {
+    "id": "e03f7d7024b4fa88",
+    "title": "Amazon Stock Rebounds From Slump: AI Ambitions and $2.5B FTC Deal Ignite $3 Trillion Hopes",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQU1ZoNi1QRmswZjFEXzBXcGxCOU9aTTh2UllSSHFoYzVHc3d3cDZIZXVKMDNJdnh3TFh1Ul9wYXZIb1dsWkNNbUUzWkdGaHQxdUtrZk1sNWxoYzhPWWt1dE04ZWtyM0FlUkc2dmJDOGNoLWVObmdGZ1FkSEgxVzJFd2NpVEJWZXhGNG1uWWhObzBoRnFIYUowSHpvYUhkR3NlSDh4X01aSlNXTFY2?oc=5",
+    "source": "TechStock²",
+    "published": "2026-08-20T18:10+00:00",
+    "score": 13,
+    "tags": [
+     "legal",
+     "contract"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
     "id": "149605b346b1c7c8",
     "title": "How paper gains can inflate company earnings: Amazon example",
     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9rZDhrTlRjUW10SHNsOVhVWmlvSjNEaHhMbXVXb3RyRVBQVHp4WXYtT09rMDljR1pxY0FsWTVQZGthWG1jZUcyc2pLNjdGeDZkTGRPNWhxSG1OMkZ6?oc=5",
@@ -254,22 +268,22 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
+   }
+  ],
+  "TSLA": [
    {
-    "id": "c336e9cedfd6e0fe",
-    "title": "Freedom reviewed Apple, Microsoft, Amazon and other крупнейшие U.S. companies after earnings",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaFRNenAwU0xrNXE1WC0zdXBjbmNHbnZVRWZWN1hDLXkwTWY4enN0eklLNzlhTnBJbjgwMzJDZE8yYk9ZMFBOR0w0SlU4clRkMGxUQVFOdWZLeURFeENlLXJUbWlPZ0IzTnZuRDl4WHJfWFNZaFB1NUc2dEJYaVcwOEJ6WTFKeVhPQVFTdHN3WjBKSnNrRnFTaFdPS2lseEtJS2xaaURGa0N1M0JLTDFVTEFGVkxkQ1hCYy1OeG82SXhCYVMw?oc=5",
-    "source": "Freedom Broker",
-    "published": "2026-08-19T09:54+00:00",
+    "id": "f097725631e21429",
+    "title": "Tesla Earnings | W/Jim Cramer & Solving The Money Problem Sj Earthquakes (ZxMkwI8YlY)",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9yMlF1ZEJaU05ZdHB2Zm5va1VvVUFqS3pZdEtwTG9TallDNmk2WThSYThHcXNFREtkdDlEblRTZUFuVml4aEtvTnhtNG5ad0xTbmI3YmwybWVKVzg?oc=5",
+    "source": "Mshale",
+    "published": "2026-08-20T19:19+00:00",
     "score": 6,
     "tags": [
      "earnings"
     ],
     "direction": "neutral",
     "primary": false
-   }
-  ],
-  "TSLA": [
+   },
    {
     "id": "28eda1f341296404",
     "title": "JPMorgan Hints At Another Delay For Tesla Optimus Release",
@@ -362,6 +376,19 @@
     "primary": false
    },
    {
+    "id": "18fdbb2bec0267ff",
+    "title": "US Stock Forecast – Tesla, Amazon, and Apple Rebound Near Key Moving Averages",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOUtjMXJlSDlaWWRqbURGTXdjVm04UUMyY25XZHJrMlJVSjN6SnppbXNFX3Rac2FuTWgzdUpNdXlOSmJPU2FMV1l6cjBOVGwyck9lVlhzb2NuRG9RMjh1VGI2VG9sNlpUX1BEbjVZNHVNQXR5Q1JUS2ZlU0xBeGhTMmNpdHp0QmU0bW56TnZ6Vl9MR0ZaUVcwQjBJaXA1dVpLZWtNZ2s1VlFwREJjQlBrbEJtZm12X20wR2xJRWJ5Um93Zw?oc=5",
+    "source": "FXEmpire",
+    "published": "2026-08-19T12:59+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "51de2b0106cfe621",
     "title": "Cathie Wood’s ARK buys 450,000 Tesla shares amid 24% stock decline",
     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE93Zy1VZ21FTTg0RnVyYk1jWkdpRklaNVhtTnpBTzVVOXNpR0t0c19CZ21uMU9QV2RYXzJCdkRUdFBPSE5XNlQzd1p4UnpxSmVrQWlVNmdrMDRlRnZBNHZkUmxRNkNoWWpQalVz?oc=5",
@@ -372,32 +399,6 @@
      "ma"
     ],
     "direction": "negative",
-    "primary": false
-   },
-   {
-    "id": "e8ccac8f4fa0a8b5",
-    "title": "Tesla: Media Reports Cybercab Will Join Robotaxi Fleet in Near Term",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNLS1fVFdOOWdUSVdIRmluTW1pYzJxMFBkM2l2cDZGYnpSV05CdmtJR1J5Vm9qeHMyUDV5c2g0Sm9RaFBFVXhZRWt4T0ctTklnWjdkekZROVBmVVJnVF9GcmZhR2NPUzV6ZFY1WUFGZG0xU0hDUUpVbGEyTWRSX1NiNTZXSXc5eDdmQnNfUmhselJ2Q2RucUZscUhXcVdZNFVnWVJ0V2RaQXpHWlU?oc=5",
-    "source": "Morningstar",
-    "published": "2026-08-18T20:33+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "70880001186bba23",
-    "title": "Swedish Trucking Company Inks Deal For Tesla Semi Truck Rollout",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOX0lLQUpVXzBrR2ZNVHYxeFJrX2U3eGhVRTJjMGVkYUJ1eS1ENmJfbFlMaTh3YngtUjVMMVg1VWV0Z0w1VDVkdFFocVZUMjNZWmY0YkN2SGJxVGRITFVHMVJSZ3pYcFdRU3k4aDJTaW1icHVxcWdVN1BUV09vWF9tVG9vNlFvc09oaGo2RDB0MmVXWThZUGZsSnpucw?oc=5",
-    "source": "Investor's Business Daily",
-    "published": "2026-08-18T20:01+00:00",
-    "score": 5,
-    "tags": [
-     "contract"
-    ],
-    "direction": "neutral",
     "primary": false
    }
   ],
@@ -496,17 +497,16 @@
     "primary": false
    },
    {
-    "id": "151ceab28aad6a7e",
-    "title": "Satya Nadella's Microsoft Stock Jumped 18% in a Week After Azure's Annual Revenue Topped $100 Billion for the First Time. Is It Still a Buy?",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQc0dCYXVLT3AxLVFWdkRqUVNsMUQyWHl1Nm5uNG1ld1M3eVNVNHRMRFZGc18wMkFfc3VYaW5SeThQV2JMOUpGQXRqWHZ1SEY0NmdySTloRndhenZOM29oLWFQajJIU0R6WEpGMjBPYm1IelZzSFVCekRzTllZdUlRM1VUZHF3cFR0?oc=5",
-    "source": "AOL.com",
-    "published": "2026-08-20T08:45+00:00",
-    "score": 14,
+    "id": "34d014208dee2896",
+    "title": "Microsoft rebounds as Treasury buybacks ease pressure on valuations",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbC1uQTFTY0dmOU1jdnlyWmpuRkpjbWR3MzFrU0tEUll1QzFmUVJIUENZa2JjRG9wVk1BQzR5MFp0M3c0Nk1iZl9ONTVKb3QzRzZvTTFOSEQzY01OeFk4YnVlYTRyaUQwTW5iSkJpdXo0N3lTeW1IdWtCYUtqQmlobzFFeXA1NzlVZVE0Q0VTckJkTzdxSS04LWtYRQ?oc=5",
+    "source": "Traders Union",
+    "published": "2026-08-19T15:29+00:00",
+    "score": 5,
     "tags": [
-     "earnings",
-     "ma"
+     "capital"
     ],
-    "direction": "positive",
+    "direction": "neutral",
     "primary": false
    },
    {
@@ -521,6 +521,20 @@
      "leadership"
     ],
     "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "151ceab28aad6a7e",
+    "title": "Satya Nadella's Microsoft Stock Jumped 18% in a Week After Azure's Annual Revenue Topped $100 Billion for the First Time. Is It Still a Buy?",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONzNFMUZHSy11d2NWOWcwb1pxR0VENzY5SDNjQXpya0FzeUE2Qmw4aUUybjlUYkJTZl9TWk1OX1VDU2VkQU1PSGpBT0V2alJtSGR4OG5oSXROckRZaTA2VzdkS1B1c2NxcnpuZUtGOUlhNUtUOVM4YmloamhWU19MZFI1Y2RGZjA?oc=5",
+    "source": "AOL.ca",
+    "published": "2026-08-19T10:43+00:00",
+    "score": 14,
+    "tags": [
+     "earnings",
+     "ma"
+    ],
+    "direction": "positive",
     "primary": false
    },
    {
@@ -565,11 +579,11 @@
     "primary": false
    },
    {
-    "id": "e765d4c73215e4b4",
-    "title": "Rosenblatt initiates Alphabet stock coverage with buy rating on cloud",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeHhaYmFlOU81OTZvTWFzd0xUcnhXUkJZLUQ5TFhsRUpGWTJERHFobmRQMHVpODd6Ty0xQnJWbVJiRWtlWml3QS01QlltcG5YdkZJbHkxWnUtaXV0SHBTSlFqbzlRbUdVVkhwTTR0SDY3S245eEFsMXRnOU91OGFWR3JhUTl5UDV5aDNTMzFxajYzaWp0a0R3LUl3VEpWNEFmcmJxRldrTnhaWlBWeXEybUhpM2pOYnRnOVVfX29ibmhTNmwxdG1ZUA?oc=5",
-    "source": "Investing.com",
-    "published": "2026-08-20T00:17+00:00",
+    "id": "b983660e1cf539b5",
+    "title": "Rosenblatt initiates Alphabet stock coverage with buy rating on cloud By Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPamlONncya2dVR0x6RWRnMzh3TlZQWW9sUGw2bmVuNEYwdC1DX19RZHJabmhPaXBKZGFldHF5RkNta0JQTkR2VFlXUHJuOWotTGVudzVwZldPdUdaUkhwOElmcWRCUUdkbEFmMXFVOVM3VHkwaU1fY3R4M0laQVRRYXh6dFhlUERySmpnZ2U0eDNQMEJsQ1EwbVphM2NWWjFsbUNxaXR5dlJjM0pueEN4T25lQnNlS3lCYmtlQ2ZtUG5pSFhwdU1fdkV3?oc=5",
+    "source": "Investing.com South Africa",
+    "published": "2026-08-20T00:16+00:00",
     "score": 5,
     "tags": [
      "ma"
@@ -843,19 +857,6 @@
     "primary": false
    },
    {
-    "id": "c9f89d6b63e82c4a",
-    "title": "NVIDIA Supplier SK Hynix Rolls Out $29 Billion Buyback After AI Spending Fears Hammer Stock",
-    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNLVE5Qk4zZkQweDBneVZEOTlIVFNRalNCLVRmcmwteXhCNlo1M0RjT0NGYXRrQ0FWbWNGeWczN1ExY0dPaDlOUTZ0Z0VpQkU3WFg5dW9hLXhSOTNzMFJHa0RGazFIN1czeWt1UE8ycy04SERKRUdlR1pna2xQc1J4MlZ3bmx6TlNSWU1xaEFVM3kwSmM5ZjZTeVlIaXNsRkxpSnJ4UmxaSVpnU2dPLVNvdUY5Q1hhMzc0QmM0N0c3RjJtTHRLS0lTZmlES0puVnoydFdLY3lRMjU1UQ?oc=5",
-    "source": "Sahm",
-    "published": "2026-08-20T11:11+00:00",
-    "score": 8,
-    "tags": [
-     "capital"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "94f6d91bce04d357",
     "title": "Nvidia's Earnings Outranks Jackson Hole and Options Market Are Pricing a ±5.8% Move",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNN21tTjc5YURyRmd4OW9zYUNGN2hjX2tnMEpxRm5sNkpXbGlBRG1yUlhYbnlFdHVxVEh4elJsdzg2SnRSdWpFdzUxRzk4SEZjQ04xbUdoVTFldnZhYVZmQWlHRURsRnRzRkJYRXFYNEV6SWd2c0VtTE9JLVIxemZ3Z0Z5SDRnN0FlV1ZuVVFMbFc2WjNwM1BWYWRETnI5cUhKY0JaWmJINTEwRW00MzVwcVpFcmtMM1E?oc=5",
@@ -877,6 +878,19 @@
     "score": 6,
     "tags": [
      "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "030e183098d29e91",
+    "title": "Nvidia Reportedly Explores Stake in AI Data Provider Mercor At $20B Valuation",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQUs2Ym1JVWo5UlBZMWt0SWFpS3J0M25mYktiTXRyT1FEeDNYeXRpLTl4amE1UTNCSEtMRVU4RVV4OHpEdmFMNEs1MU8wMGpUVndMbG5QWDkxMVppZ2pMZ1JETW45dUZ1QXdKTjZjZWhHbzdWbHdmLTdiOHlmakp6TGU5VkQ3bHltZFAweV8xT3F0QnMwOWkzVF9fTks4Y09O?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-19T20:45+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
     ],
     "direction": "neutral",
     "primary": false
@@ -1001,19 +1015,6 @@
     ],
     "direction": "positive",
     "primary": false
-   },
-   {
-    "id": "f57840859fccd93e",
-    "title": "INTC Stock Quote Price and Forecast",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1lWkZjY0djMFFwSUlhcXJYVkRXQlptNHppd1R5NFlzSm9UckZacWJERUZpdWw5WlViaENhblBac0hQZ3BNdmZUZ1VONmU1dHp2?oc=5",
-    "source": "CNN",
-    "published": "2026-08-18T20:15+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "NBIS": [
@@ -1083,6 +1084,19 @@
     "primary": false
    },
    {
+    "id": "8073270e5e5bbaf9",
+    "title": "NBIS Stock Falls After Announcing Its Third Multi-Billion Dollar Convertible Notes Sale in Under a Year",
+    "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQdUpoMXNIeDdzdHpudnE3VFdVaWZyLUtBa0J2M1k5bTd0TDFSZjhIZmk5YU5nM2gydmN6dFlQaFF4N3g3WWpNMHBKM0dqV1JGQ0lDNHpranR6NjVxSHhIOXB2UG5QUFJoclZQOWFSaDhJQ1RTSjV5dklTd3hjMmFsS3NPdGRVRGZ6R2tVVFZKS2hqZm9YTDFWRG1GNm8wd3prNW9ZSVhPajluaENuamhhcV9VdU1wei1rcHVRYUhlNEE3WkxuOEtLZnFqRnFXUHJDZXhKNFZZUjI1NlZkVU0yaWxEanRhNExhbG43T3NqUnJmN0JvSkJJ0gH8AUFVX3lxTE1ickU4RE85YmJOdTFZZnJCcThZTEw2aUNGZXZmdUo1TzhyNkRtc3lwZ2doVm9vczdxMVJnZ3JLcGpmVWxyQXRQUzNlSTBmSWh2UnZ0WnRWY1dCdFN",
+    "source": "Asianet Newsable",
+    "published": "2026-08-19T15:30+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
     "id": "c5d4bc64b07344e7",
     "title": "Nebius Shares Drop 11% as $4.5 Billion Bond Finances 80% of Quarterly AI Budget",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOV95R09lcC1ESmF1TWFuRkNWNkV3TmVJRVlBZ2JkYlZtbEczNFEzWktYQ0xnZUxnVF90T19fSTlzUXNuYmloUjBwaGtrQVJXQlk0NURIWGRjbTYyNENqUlZSZUpFWVZPdmU4MUdVV1BBNDFZaWxFOTFCQWdrbFhWTzZ6TGhnbEpRREhaaWhCUWdFSUQ2R1k4LTNaQXhBa2ZOZ0E?oc=5",
@@ -1132,19 +1146,6 @@
      "earnings"
     ],
     "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "c36621e6cc09710b",
-    "title": "DA Davidson Reverses Course on Nebius Target Cut in Just 1 Week. What Is Going On?",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOejhpTHhQQnd0ck1TeVhTeGQxTWJ6MUVTU1A5dkRub1BsVjZUV2UySEEzclZCcXNoT2VSV19LYjY3SU9wR3dPS3Z3ZW9WX1lLNVJ3YlFERDVwRDh1SThJLWt6bXpjY25PdV9MR01KM3dxdHdPWk92WEVhQk40QUh1QW9LSVA?oc=5",
-    "source": "AOL.com",
-    "published": "2026-08-19T00:09+00:00",
-    "score": 5,
-    "tags": [
-     "operations"
-    ],
-    "direction": "negative",
     "primary": false
    }
   ],
