@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-21T08:28:01+00:00",
- "changed": "2026-08-21T08:28:01+00:00",
+ "checked": "2026-08-21T09:08:49+00:00",
+ "changed": "2026-08-21T09:08:49+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -375,19 +375,6 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "476a6d513d443612",
-    "title": "Palantir Technologies Insider Sold Shares Worth $2,788,463, According to a Recent SEC Filing",
-    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWG9QVWp6ci1QZWpzNy1qNy02ZTNrVWJCcEMydE5UZVRIazktSGhFZUZrRVhZb3BxZ19WUE1ocU16bTdpLWlnOXdUclZ6OVFYZ3gzclV4RzVfRzEwYUd0dzdpSHJzVTFob0hQenF1Q21MS2ZOZTEyZFNaVW52LWx4dzdSVDdoQURuR1YzT3JZT2Q2M08yMmZuaDZGZldGNWVnMWlzN2RNR0hUM09yQ2dzcUNwZlRQdERSZ1BlRWFuN1BRb3BEOUpZUF90Z1hJcmRmbTZVakowVV9IdHc?oc=5",
-    "source": "marketscreener.com",
-    "published": "2026-08-20T07:41+00:00",
-    "score": 9,
-    "tags": [
-     "filing"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "MSFT": [
@@ -661,6 +648,20 @@
   ],
   "NVDA": [
    {
+    "id": "daebf683a5dcedd4",
+    "title": "Nvidia mulls potential deal with Korean AI chip startup Rebellions: report",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOU3FTdzZ4S3VNenBjZ3ExQnBFQzFVN3lhNXo3dXRTejExN3BJeXp0YWNLY0R1LUVrTHRCLTlBZElDSlhzNHFRVF9yVHU5SFU0dDdMaEFQVWluMGZ0ZEVyU2pmRTJqWmRNbzZZeVp5TnZjZkl0TGctem0yMFU3TjVhRXByUl9vWG44SkNBd1B0aU53cGpYVWRhQnFpUzFmSHJLTXRZX2xJOA?oc=5",
+    "source": "Seeking Alpha",
+    "published": "2026-08-21T09:04+00:00",
+    "score": 11,
+    "tags": [
+     "earnings",
+     "contract"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "cd71e8633ee53502",
     "title": "NVDA Stock Gains Premarket: AI Chipmaker Denies Reports Of New Bespoke AI Chip For China Market",
     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQdlcxTnREb0x4cnU3ZVdPNV9ldTNEaXY4MVlKaTVWTHVRanJnN1l6R3VkNXBGSnhiUjMyTlFOWnZRZTJEV2Nxd1Q5bjVoN3pTRWlIZ1JFY3RlNkdoclN1R293OXE0bEoxcWRhVThVc3ROZU1WRVhVUXlBSEdGMGR4M2NucElsX191SzBHOWFLY2QyQ1RtTWV1ZElPdGhPNnhmTllFTU1LajhSNndFRzNORkJiUmFxUWVsaEdPSGtMci1LZ0FNWHRiaWVHZzJ1bHRCanQ4Qk5GSlF5SmV5dVRvblRZNnNwVGdjYklZ?oc=5",
@@ -771,19 +772,6 @@
     "source": "KuCoin",
     "published": "2026-08-20T12:53+00:00",
     "score": 9,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "94f6d91bce04d357",
-    "title": "Nvidia's Earnings Outranks Jackson Hole and Options Market Are Pricing a ±5.8% Move",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNN21tTjc5YURyRmd4OW9zYUNGN2hjX2tnMEpxRm5sNkpXbGlBRG1yUlhYbnlFdHVxVEh4elJsdzg2SnRSdWpFdzUxRzk4SEZjQ04xbUdoVTFldnZhYVZmQWlHRURsRnRzRkJYRXFYNEV6SWd2c0VtTE9JLVIxemZ3Z0Z5SDRnN0FlV1ZuVVFMbFc2WjNwM1BWYWRETnI5cUhKY0JaWmJINTEwRW00MzVwcVpFcmtMM1E?oc=5",
-    "source": "Moomoo",
-    "published": "2026-08-20T10:22+00:00",
-    "score": 6,
     "tags": [
      "earnings"
     ],
@@ -1004,19 +992,6 @@
     ],
     "direction": "negative",
     "primary": false
-   },
-   {
-    "id": "73f9e5d245bc30aa",
-    "title": "Nebius Group (NBIS) Stock May Be Fully Priced After Q2 AI Revenue Jump",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQN2JDOEtqRWNLZEtzU3JvcHJPOF9UZW5CMWtwQlMxVFZoY2NyeG52R0RqMEE3WTljZjdURHpEUFhJWDl5S0RaWnpNZkxENzU0Z09MQzhhX1RJbHYtUlh3dnYxRlFuVFl5c2dZN1R5QUIteWVwQUo0dXJjeFlCRWp2QXUycmhURko5UDNUaV9QZUQ4dWZSUUdrNVlqSWFaaUdZcFA3MDcwUEpCck1xLUNENlEwX0RrWGlrS2N0Uw?oc=5",
-    "source": "Sahm",
-    "published": "2026-08-19T08:43+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
    }
   ],
   "MRVL": [
@@ -1232,5 +1207,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 89
+ "count": 87
 }
