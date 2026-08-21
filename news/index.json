@@ -1,15 +1,15 @@
 {
- "checked": "2026-08-20T23:59:39+00:00",
- "changed": "2026-08-20T23:59:39+00:00",
+ "checked": "2026-08-21T01:49:37+00:00",
+ "changed": "2026-08-21T01:49:37+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
    {
-    "id": "a09749566803622b",
-    "title": "Apple Stock AAPL Slips Toward $300 as App Store Revenue Falls and Guidance Disappoints",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZjl4UVAybEFhMWNCSW5lMXdfOEhKN1N5emFPVlBFTWl1eVdsY1R1dGRwZU9zOUlnTmt4SHRQU05fUDFtV2pDR1AxMEJNdHdBdU84OFo2Sm9hcW9nYUIzb1hPQ1c5ZGVKeERIcUZyQWtyTzJseWhuVVB4NF91WHRRTS1PMFBYN2FLVUhvMUpUUVFiYnBoOV8xcGtETHh5OFpnUjNVVGRCUk52UjQtdHFuUTJiM0VHZVZScHBVWm5QNHVXMTlCNWY4?oc=5",
+    "id": "114ef97d5e998dc7",
+    "title": "Apple AAPL Stock Slips Toward $300 as App Store Revenue Falls and Guidance Disappoints",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVkticS1rY2k3VDlUZmsxOXhpVXA1VU9zRzZPMUtGcWQwX00zTmhqOG92QkRJMW0tSExWU1p6Mmk5T0hucU9kd0lzR1BxZTBLV3lBMUxKMk1PTnluRmU1cnF5WTBXdnBvVmdQU2N4ODE3eWdyWW5YcVgwcE54X2dMdWM4WGMzSkVXd2U2OUtmaldTak9KNlhoMkxBNVRtSjRSM0VEVV9YMWpnS0EzV1NrMjJNV19HT2UwV20tLWM1dllLcEV2QXVV?oc=5",
     "source": "FXLeaders",
-    "published": "2026-08-20T20:41+00:00",
+    "published": "2026-08-21T00:06+00:00",
     "score": 9,
     "tags": [
      "earnings"
@@ -258,8 +258,8 @@
   ],
   "TSLA": [
    {
-    "id": "28eda1f341296404",
-    "title": "JPMorgan Hints At Another Delay For Tesla Optimus Release",
+    "id": "7d843a4c35019da2",
+    "title": "JPMorgan Hints At Further Delay For Tesla Optimus Release",
     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GeEtSem03alY1bmgwMG5lMEZNQzF4S2ZMZENRd09NemlKM1I0QlU5LWRCRHdEeWlZOHU4VktRSHF3WVdFa1VaYTg2TkFnUm4tWlU1NTNRUWxLSEs0RzdBQktBZlBCd0ExMVkxd3hROHRBN1lEUkRDN2hQWEphRlU?oc=5",
     "source": "Investor's Business Daily",
     "published": "2026-08-20T20:00+00:00",
@@ -279,19 +279,6 @@
     "score": 6,
     "tags": [
      "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "8b8d01ade0ab7b03",
-    "title": "TSLA-Einride Deal for Tesla Semis: Should You Get Too Optimistic?",
-    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOUWVaNzVLNkI5V3JYcXpDWmIzcjJNbEEySjVLcVlReWg5czNMVEdPLVQ4bXlfcl9iaVFobFl6eV80c3FkYkZLa1NYVWNmNHRhM1lCZVpkeloyTnZOZEc3QnZRZzZncjlBVFllWi1CZzZWM3F1NEVYWmNHblQ3R1lzMGRqYUFfcm15S3lycUpqOXVDOGtXaTVBQjRGbnR1Q2Rtek8zU3B4aURQRW9KN1dYdXhEVkJaeWpoSnlSSFBuV1h6aTU3cXkwdnhXaVlab0VLVGJuYXFFVnRRSjhpTTdva3pn?oc=5",
-    "source": "The Globe and Mail",
-    "published": "2026-08-20T14:58+00:00",
-    "score": 5,
-    "tags": [
-     "contract"
     ],
     "direction": "neutral",
     "primary": false
@@ -386,6 +373,19 @@
     ],
     "direction": "neutral",
     "primary": false
+   },
+   {
+    "id": "51de2b0106cfe621",
+    "title": "Cathie Wood’s ARK buys 450,000 Tesla shares amid 24% stock decline",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE93Zy1VZ21FTTg0RnVyYk1jWkdpRklaNVhtTnpBTzVVOXNpR0t0c19CZ21uMU9QV2RYXzJCdkRUdFBPSE5XNlQzd1p4UnpxSmVrQWlVNmdrMDRlRnZBNHZkUmxRNkNoWWpQalVz?oc=5",
+    "source": "eciks.org",
+    "published": "2026-08-19T05:47+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "negative",
+    "primary": false
    }
   ],
   "PLTR": [
@@ -398,6 +398,19 @@
     "score": 5,
     "tags": [
      "ma"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "e73e479f6b6df22b",
+    "title": "Palantir's 93% Revenue Surge Meets a 110x Valuation: Can the Rally Last?",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5YVmdrMFF1WXhVOW1pQkRSMkF0MGFleEUxZHRQaEhSd0Z6VmJGbWw1UktybHRIWFhPV2IwSko0eVo1WnRDd1BFOXV0TkcyUWc2WUhpbWpvQ1l0aUhBWG1KajZvRDlwdWFPdnU2MDRWSVBaU00wM1E?oc=5",
+    "source": "finance.biggo.com",
+    "published": "2026-08-20T18:21+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
     ],
     "direction": "positive",
     "primary": false
@@ -426,6 +439,32 @@
      "ma"
     ],
     "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "e214e09a528b8712",
+    "title": "Palantir Stock Defends Key Support Ahead Of Nvidia Earnings! Alex De Minaur (J04gQgpXc1)",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5CaTdTVFZxMGJLeEhSNWJMbzctMEllakVmbXVrMjV4UERZaXpsc2hPTmE4dXFTNmlISXFyYWpOeEw0aDkzTXdHRnRacmFRdjU4aVZaU3RjaGJzTVcwUl80Ug?oc=5",
+    "source": "Mshale",
+    "published": "2026-08-20T08:46+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "476a6d513d443612",
+    "title": "Palantir Technologies Insider Sold Shares Worth $2,788,463, According to a Recent SEC Filing",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWG9QVWp6ci1QZWpzNy1qNy02ZTNrVWJCcEMydE5UZVRIazktSGhFZUZrRVhZb3BxZ19WUE1ocU16bTdpLWlnOXdUclZ6OVFYZ3gzclV4RzVfRzEwYUd0dzdpSHJzVTFob0hQenF1Q21MS2ZOZTEyZFNaVW52LWx4dzdSVDdoQURuR1YzT3JZT2Q2M08yMmZuaDZGZldGNWVnMWlzN2RNR0hUM09yQ2dzcUNwZlRQdERSZ1BlRWFuN1BRb3BEOUpZUF90Z1hJcmRmbTZVakowVV9IdHc?oc=5",
+    "source": "marketscreener.com",
+    "published": "2026-08-20T07:41+00:00",
+    "score": 9,
+    "tags": [
+     "filing"
+    ],
+    "direction": "neutral",
     "primary": false
    }
   ],
@@ -529,7 +568,7 @@
     "id": "f25abc8c74a803ea",
     "title": "Alphabet’s 7% Aussie Bond Debut Underscores the Sky-High Cost of AI Debt",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMXpzSU1faC01RGxOTzZ5djByYXhqVE9ibC05aHdvM3FsV1dpWUdVQmRkenJENGZNZ3ZKcEllTTN2cmJIUndKVDQ5Zi1YYWZzRDZVMFlJdEVjMnZ3RHZmTzhOQ1Z5ZTByR25FSmR0OFFNVGRJRzUydy1UV2V3TDROVGN6bGpUNF9CaU13S04ydlJLTW81aXFtYnBnT1RCZGlrVUhydzZ0WlVSZTlsTzlz?oc=5",
-    "source": "Bloomberg.com",
+    "source": "Bloomberg",
     "published": "2026-08-20T02:16+00:00",
     "score": 5,
     "tags": [
@@ -539,11 +578,11 @@
     "primary": false
    },
    {
-    "id": "e765d4c73215e4b4",
-    "title": "Rosenblatt initiates Alphabet stock coverage with buy rating on cloud",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeHhaYmFlOU81OTZvTWFzd0xUcnhXUkJZLUQ5TFhsRUpGWTJERHFobmRQMHVpODd6Ty0xQnJWbVJiRWtlWml3QS01QlltcG5YdkZJbHkxWnUtaXV0SHBTSlFqbzlRbUdVVkhwTTR0SDY3S245eEFsMXRnOU91OGFWR3JhUTl5UDV5aDNTMzFxajYzaWp0a0R3LUl3VEpWNEFmcmJxRldrTnhaWlBWeXEybUhpM2pOYnRnOVVfX29ibmhTNmwxdG1ZUA?oc=5",
-    "source": "Investing.com",
-    "published": "2026-08-20T00:17+00:00",
+    "id": "b983660e1cf539b5",
+    "title": "Rosenblatt initiates Alphabet stock coverage with buy rating on cloud By Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPamlONncya2dVR0x6RWRnMzh3TlZQWW9sUGw2bmVuNEYwdC1DX19RZHJabmhPaXBKZGFldHF5RkNta0JQTkR2VFlXUHJuOWotTGVudzVwZldPdUdaUkhwOElmcWRCUUdkbEFmMXFVOVM3VHkwaU1fY3R4M0laQVRRYXh6dFhlUERySmpnZ2U0eDNQMEJsQ1EwbVphM2NWWjFsbUNxaXR5dlJjM0pueEN4T25lQnNlS3lCYmtlQ2ZtUG5pSFhwdU1fdkV3?oc=5",
+    "source": "Investing.com South Africa",
+    "published": "2026-08-20T00:16+00:00",
     "score": 5,
     "tags": [
      "ma"
@@ -593,6 +632,19 @@
    }
   ],
   "HOOD": [
+   {
+    "id": "35a6b3f0ba588e3a",
+    "title": "HOOD Stock Falls HARD After Earnings… Here’s What Nobody Is Saying! 😱 #hoodstocks #nasdaq #robinhood Paramount Ufc (fDFRjidzCp)",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9QSExUajdSdTZsQ2VWSVlEWWd2RzVCTEszLVlKSzkycGJrUl9jRDBObk5lUEdGSm1XczIzeEcxaThVM2V6VDViYUU5UjFpYXZlN0pvV1p0R3VnMmc?oc=5",
+    "source": "Mshale",
+    "published": "2026-08-20T23:48+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
    {
     "id": "9fe2b575ea3ff373",
     "title": "HOOD Stock Massive Crash: Buy Robinhood Stock Now? Blaze Alexander (Shk2qycbh5)",
@@ -685,6 +737,19 @@
     "primary": false
    },
    {
+    "id": "044cd054f298356b",
+    "title": "Robinhood (HOOD) CEO Urges U.S. Regulators to Embrace Tokenized Stock Trading",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNmhsSFRDaGkxUF9rYkwtR3VMdHEyUVpkTVZLSV81TF9iWDVDNEZnQ1FTeTA2ZEJianJVbXBjbnBubzNSQjhFQk1uYVhZQVg3V1pXa0pwMVBrbTBKUHNNYkxfMDU5MVlHdmwtQW1yaGtvT0xEZXNyeklOV3RlaTRvNHg2N0tveEV6Q2xac3RqYVFhRzNrMmxZVFY0MFFTRzA?oc=5",
+    "source": "Blockonomi",
+    "published": "2026-08-19T07:35+00:00",
+    "score": 5,
+    "tags": [
+     "legal"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "2f78f8479aaa31dd",
     "title": "Ark Invest Scoops Up Coinbase Stock, Trims Robinhood Stake",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQk1mUjl0eFJYMzFKTWxIMml0LUc1R051MmdjOTlERlBvaEZrc1pWSEl1M3JzZDh0WU1qclVoTEh6Nk92ZEhjQWtoZS1zenJaT3o0OEpKV2dWSEVyLUFoYUVNRnFLaWUxSVlKVGZkbVRaa3pjdVBpYWZHck8yMUpQa2tTVk96Y3E5QjR4eXFNbjlGeUNaRGhMaTE3ck9ndw?oc=5",
@@ -693,19 +758,6 @@
     "score": 5,
     "tags": [
      "capital"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "ffd7219c46e90122",
-    "title": "Robinhood CEO Urges US Regulators to Open Path for Tokenized Stocks — \"Risk Losing Leadership to Overseas Markets\"",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5oak1VcDcwM1M5ZnI4RlRVV09pUTNKUGM5M1hJQ19HUXNySzVTV3lvRlN6eFVpTHREZW9uc2Zya0ZQQ1lXRkN2MWUyVWh6dVFKX0ZOZHktYW92Xy00RHhfdFp5RU1uWnVUTEpVMnRUR3hpRDBzY3c?oc=5",
-    "source": "finance.biggo.com",
-    "published": "2026-08-19T01:25+00:00",
-    "score": 5,
-    "tags": [
-     "legal"
     ],
     "direction": "neutral",
     "primary": false
@@ -732,19 +784,6 @@
     "source": "Seeking Alpha",
     "published": "2026-08-20T18:31+00:00",
     "score": 9,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "f43b07d1e3d0baf9",
-    "title": "Nvidia to ship AI chip for China by year-end, The Information reports",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBONXdCNVg4bUg3YTFnclREUmMxYjlqM3EzczM5cVdiem1oSXVyRG1ZWGlLMmtrM3VrZjdVUGZGYV9QaERtWVc4R1V3RFlvSXIxVW5BY2NWZWgtOGRrUGtiRUZqWFk3aVRfc3JXVklsNDhCSjB2UEVSTw?oc=5",
-    "source": "AOL.com",
-    "published": "2026-08-20T17:28+00:00",
-    "score": 6,
     "tags": [
      "earnings"
     ],
@@ -793,9 +832,9 @@
    {
     "id": "517e1ef30b7dfe5a",
     "title": "Nvidia (NVDA): New Buy Recommendation for This Technology Giant",
-    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVGZjRTNqUy1aUDFTLVZaTkZvUldkQWtHY0Zla2Z3dHRISEZiSXdtTFJEdUM4dkxnX0t3dHE4TmJvX3F3aDJJa3QyTWloYjF6bFRGRkx3RE5iSDJncmVtVHd0WjVXMWNOTGRtY1Q0aTBoRURSdjRVbGxTNEpTSW1KbjhKMWRTV2xXcmo5U29FS1BaQklhckNvemdFWnFwaWp4WE1QNGtWNnlkQk1NaFA4MEp0OFZ5M3ZRakZucms5WHhzWjB2aWpHSkd5S3NIdjJqdFE3YVlGZDR5TkVDUWc?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQcktrRFNyYUFTZGtsaHJLWEt6N2o0OTZGaHdFU0o0bEpMcE10RDZqNTVIaTVldUdmbXI0RWZsZ1YyOGUyM0pSazRBTDlWaWwwX0pfbmJiUi1OVjh6QzJQcEZPU0pkY3NrWW80U2U3Sl9qOGJHSzEzdVRmQXh4SVpVZV9mbGdFS1ktNjdWODVmZWl0YmZjTEZzNTRjV2dXRk02MGFQUUhwNUZhdXo4RUVlVlM2NU9VMjVoWk5VbUtkSXg5VzBXYXNZcHl4dElZRy1sVndTU19rdXVXUlZodEtsOQ?oc=5",
     "source": "The Globe and Mail",
-    "published": "2026-08-20T11:23+00:00",
+    "published": "2026-08-20T11:25+00:00",
     "score": 5,
     "tags": [
      "ma"
@@ -830,14 +869,14 @@
     "primary": false
    },
    {
-    "id": "6c424529dce2bc6b",
-    "title": "NVIDIA Earnings August 2026: AI Chip Leader's Q2 Preview & Investment Outlook",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0xZElaaDB3YWd5amR1MUpjZGRMeG1JcWV5NjJKMTRlRjJsbVNfeGFXSk9vZ0FzVTRTUWV2SmF3bW1mVk1VOHFwRXBMSGdvQ01mdlU4YVhpNHJpekszTlpnYmVaOFdwQQ?oc=5",
-    "source": "Intellectia AI",
-    "published": "2026-08-20T08:10+00:00",
-    "score": 6,
+    "id": "030e183098d29e91",
+    "title": "Nvidia Reportedly Explores Stake in AI Data Provider Mercor At $20B Valuation",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQUs2Ym1JVWo5UlBZMWt0SWFpS3J0M25mYktiTXRyT1FEeDNYeXRpLTl4amE1UTNCSEtMRVU4RVV4OHpEdmFMNEs1MU8wMGpUVndMbG5QWDkxMVppZ2pMZ1JETW45dUZ1QXdKTjZjZWhHbzdWbHdmLTdiOHlmakp6TGU5VkQ3bHltZFAweV8xT3F0QnMwOWkzVF9fTks4Y09O?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-19T20:45+00:00",
+    "score": 8,
     "tags": [
-     "earnings"
+     "capital"
     ],
     "direction": "neutral",
     "primary": false
@@ -937,6 +976,19 @@
     "primary": false
    },
    {
+    "id": "c88e0372e61eb27c",
+    "title": "Intel, AMD, Micron Drop Pre-Market As SK Hynix Buyback Fails To Sway US Chip Stock Traders",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSGhYV3Z3VTVXNzdWX2xoQXhGUDEtOEJsUTFYVmx1ZjBiT1l0S0VLcnBubzlTbXlONy1WOW01ME5jOW1zYUxHdHUtZGJtc3dSSDAzblZzT0ktcVBsUy1kX1lfS3pMU053WXVpUURfTEdfLVdhdDlkYW1BTFlSLTRtWV8wTUltc3NKVzhaSGE0d054cEdoY0NvOWpVcjlHTzFCT3hSLXQxcjlHQi1Wcll5OVd4YWJYS2NBc3BiYTBEVlRqYjRDMWJpa1k2ZVfSAdQBQVVfeXFMTUFpUm5MeU85bnFOa3UtZnJvNVM0eFZoUjlScWZtcG8zMHVkcjdPWjBDNUVwc3pJcjJFSjRRNGZPc205d1NJbTY1RzRIdzBYdGR6VDhPa2t4cEEyQzhsMEJjVGp6UTUxUGV0b2xtLU9FamliWW5vVlREY0VGZHZDZm1yU3lsY0d",
+    "source": "NDTV Profit",
+    "published": "2026-08-19T11:34+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
     "id": "b5eabb4f6ed893eb",
     "title": "Intel Q2 $16.1B Beat: $20B Capital Raise, Foundry 14A Tesla Deal, Agentic AI CPU Demand",
     "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPZTFRUWM4emwybjRpTEdrNWp0eHJRVHVTNTZSSWtIZVFoRWZqbTlkSWxaV3V0SzZqVVpGOFVKNnVVNlRtd19tWUVBMThHNWxlLWpWMU1xeE96WDNOMS03dDdEdW1BRTBYOG1iTm5Ec0xQdFZFa0FYMHktenVETXFxUHNseWVtamt2M1pheWdYUlRfRHQwSm8wM3gyOFFQdkh4cWpNWWEzSkhtV0ItczNsRlVrZnRabUlBc0dyVUFRNlVCc2hBbFJteE80M0xKdUE4Z1ZZMVdKYW85dWhOWTIwZ1MyUUcxbFdCQ2ZNX0VGWUQ0ajAzSnR3TEZ3?oc=5",
@@ -970,7 +1022,7 @@
     "title": "Nebius Tests AI Appetite With A $5 Billion Convertible",
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNS29QWjQyb3N2NW5GWS1udlB4YkhDYlA2Q2k5VWtUR0dUYk52YXZOWGZuOVhvMHhUblZ5N0RhVDR3Q2EzWlB3OTVGRFJvNVVDTlBPSXF4cGRCamIycFJBRVBkb3pSNGxPRkdObTBaV0ZtSUQ1RnpoYjVWOXpMV3gtS2pWc1ozaWNoNlE?oc=5",
     "source": "Finimize",
-    "published": "2026-08-20T15:55+00:00",
+    "published": "2026-08-20T15:18+00:00",
     "score": 8,
     "tags": [
      "capital"
@@ -1031,19 +1083,6 @@
     "primary": false
    },
    {
-    "id": "8073270e5e5bbaf9",
-    "title": "NBIS Stock Falls After Announcing Its Third Multi-Billion Dollar Convertible Notes Sale in Under a Year",
-    "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQdUpoMXNIeDdzdHpudnE3VFdVaWZyLUtBa0J2M1k5bTd0TDFSZjhIZmk5YU5nM2gydmN6dFlQaFF4N3g3WWpNMHBKM0dqV1JGQ0lDNHpranR6NjVxSHhIOXB2UG5QUFJoclZQOWFSaDhJQ1RTSjV5dklTd3hjMmFsS3NPdGRVRGZ6R2tVVFZKS2hqZm9YTDFWRG1GNm8wd3prNW9ZSVhPajluaENuamhhcV9VdU1wei1rcHVRYUhlNEE3WkxuOEtLZnFqRnFXUHJDZXhKNFZZUjI1NlZkVU0yaWxEanRhNExhbG43T3NqUnJmN0JvSkJJ0gH8AUFVX3lxTE1ickU4RE85YmJOdTFZZnJCcThZTEw2aUNGZXZmdUo1TzhyNkRtc3lwZ2doVm9vczdxMVJnZ3JLcGpmVWxyQXRQUzNlSTBmSWh2UnZ0WnRWY1dCdFN",
-    "source": "Asianet Newsable",
-    "published": "2026-08-19T15:30+00:00",
-    "score": 5,
-    "tags": [
-     "capital"
-    ],
-    "direction": "negative",
-    "primary": false
-   },
-   {
     "id": "c5d4bc64b07344e7",
     "title": "Nebius Shares Drop 11% as $4.5 Billion Bond Finances 80% of Quarterly AI Budget",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOV95R09lcC1ESmF1TWFuRkNWNkV3TmVJRVlBZ2JkYlZtbEczNFEzWktYQ0xnZUxnVF90T19fSTlzUXNuYmloUjBwaGtrQVJXQlk0NURIWGRjbTYyNENqUlZSZUpFWVZPdmU4MUdVV1BBNDFZaWxFOTFCQWdrbFhWTzZ6TGhnbEpRREhaaWhCUWdFSUQ2R1k4LTNaQXhBa2ZOZ0E?oc=5",
@@ -1054,6 +1093,20 @@
      "earnings"
     ],
     "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "6f2f7a79da6564d0",
+    "title": "Is Nebius a Buy After Last Week's Earnings? Here's My Honest Take",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA3VWJId3VSYlVnYzBDVzh4NnRoSUJfYnRjRlYxSW5HQXBwNFMwajBjY3J2QlVhVHFRb1R3M3lPM3VGY1dYSE04c1ZrY0l1c1dVLU9qbEZYS1Y4UEVuc2JKcWF2Yl81emEyejNwT3dyQ0tKTUdPQ3k3NkpFTHFZSUU?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-19T13:29+00:00",
+    "score": 11,
+    "tags": [
+     "earnings",
+     "ma"
+    ],
+    "direction": "neutral",
     "primary": false
    },
    {
@@ -1231,6 +1284,19 @@
   ],
   "META": [
    {
+    "id": "882d6407422bc791",
+    "title": "Meta (NASDAQ: META) CTO sells 7,848 shares, keeps trust stake",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOU1NTN1ozN2otUGYyMEZ1aTlKSUlhYU5ZQjZWbTdnQXMwT0FGaTR0SmhadjNkZEx4Q245czdNRnJSb2E1Uk83OUxZQXNndjhYeDNLSzA2RnBKb3dkY29qX0pJUzdIcTF1NjRqYWZvSVZMdnFzS1RaSzJXUDQ3TGVzYjRNN1BlTHY5RnlaaHh0TTlRbk1LR25qQUZCNWcwSDk0RzBlRWxkeTlSN29zZEEtLUd3?oc=5",
+    "source": "Stock Titan",
+    "published": "2026-08-20T22:30+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "967048e2eec0a2dc",
     "title": "Meta Platforms Faces Multi-Billion-Dollar Child Privacy Lawsuit as Opening Arguments Begin",
     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE83RHhfN0oxRExFdmxLSEFTLUFObHpLRG1pSnhlUC0yRHVhRnFQZ2FEeVlnSlhrSS03Vk1FYk1tdGJIbllRNFFLcHB1YnJjQ0EyUmZGc004V1ctVkxYM1ZwMjJaYmp4eDVVSDJOYWV1azgtVURRZk5CNGpLZUlReU0?oc=5",
@@ -1246,38 +1312,12 @@
    {
     "id": "150e3da0e23da5e6",
     "title": "(08/20/26) META: A Dividend-Paying AI Stock Ripe for the Picking",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPLXNrRUI2ZEZsODRXQlhScC1WMGFraXlzcVVoajI4YXJRMjdwU3VybVlWM2UxYWU2U3cxa1h5RUl4MmZUNUlBSW9nX1EyQ0tKYzl4WUM4djdjelNmNlFDclFnaWJ4LUptNGJ5d1hYQlRpM2lUYWRVMmpIRjlFanRibjBGcnpubk0yM3htSURxSmlQSnFJVTkweFRlb1pTUE5TeTlXTjg5dw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE04akl4UmNST2F6SUM5UGFiTEpEYmdzWmoyRVJ4RUxsNVlCMkNzakctdks5VWJKS1VpaV96UFlyUkY2NEZuVW43d0ZBbENHSUd3R0xSVk5LQTJOWXZ1Unc2bA?oc=5",
     "source": "moneyshow.com",
-    "published": "2026-08-20T04:03+00:00",
+    "published": "2026-08-20T04:39+00:00",
     "score": 5,
     "tags": [
      "capital"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "bfb8017995f63a74",
-    "title": "Meta Platforms (META) CFO stock awards lead to share tax withholding",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVl9FejNvdjNVQVlpeXBHVk56eHFvbnUtQ182QUV6TnJkRXdxbDVZSHN5aXlENEtwWTNid1Q0Q3FpdGdXbzVHLXU0WnNDRjFyQ0VEc0RETVVxT215alJMMDYzQmN0SkVlOVZoWUwzbThKaWd1akhsUHF0b1VrMkZkNGRkd0ZtT2NydjZPb2cwY2NXRWtKbkpJSWk3VkliRTZHSlBQdlg1V2lvU3FLLXk2NjFn?oc=5",
-    "source": "Stock Titan",
-    "published": "2026-08-19T01:06+00:00",
-    "score": 5,
-    "tags": [
-     "contract"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "4a335f85bd442ffb",
-    "title": "Meta (NASDAQ: META) legal chief settles 4,757 RSUs",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVnFlVEU0YWtkV29LS0szSldVVXJpMng4TFlYMXdpNFdhLWpkV1RJQVdpdjRnZVZLWmhHVTRJcm1XMlo4RURoeU40VUZRdU5pVWhDLWFqRWNnR1I0X19TYTlMaEtzUmNNV3dYcnFqbUlabWtwNG9sUHRudHlYd3hjc1NLQ3E4ZXN4REEzSmRFcTdELVd2N2xJTjNldU92akg4Y1R5X0poOGthZ1dkSkowcHZ3?oc=5",
-    "source": "Stock Titan",
-    "published": "2026-08-19T01:06+00:00",
-    "score": 5,
-    "tags": [
-     "legal"
     ],
     "direction": "neutral",
     "primary": false
@@ -1322,5 +1362,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 96
+ "count": 99
 }
