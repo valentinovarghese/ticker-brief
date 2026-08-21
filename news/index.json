@@ -1,9 +1,22 @@
 {
- "checked": "2026-08-21T16:18:53+00:00",
- "changed": "2026-08-21T16:18:53+00:00",
+ "checked": "2026-08-21T16:56:25+00:00",
+ "changed": "2026-08-21T16:56:25+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
+   {
+    "id": "761bbdb99a16f4de",
+    "title": "Is Apple Stock's 33.54X PE Still Worth it? Buy, Sell, or Hold?",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMk8tRXUxYV9rci1UcjliMC05aVBwemNNbGFFQ21EMzNGTDQ0UUlmUGFRX3YxZDlUMktLWnJ6bWc0U3lRMTRvRGZCREdxYld2SXdidjNDOGI4emVEcmZycnYybGlwc25zYUhJNEo3Tnlnd0pBT2JfZ0pvd2pfOHJSNzU1RXhnd0pZZjhEQW84aDg?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-21T15:18+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "287a881d4bf6b3ad",
     "title": "$32 million: The number incoming Apple CEO John Ternus has to beat to measure up to Tim Cook",
@@ -120,19 +133,6 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "391868eeae469cf8",
-    "title": "Apple’s stock could be the savviest buy within Big Tech, according to this analysis",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYVZvRU1zYVdBRHpDVXNGTE82cTM0SjJfMlJjX3FXZURKcVg4U0h6QW5DN2JaMWlBSHA3T2Z3Vy15RjF6cFYzRWlnU2V0YU5tc2JmSFNlTzhCV0pvc1NtallVVER5Y3VXSkJneGRtM1R6OTY5UE5vMUZqOWxoS2xBNV9oVm9ETTVEcjRhUjQzbi1ReDlFTFJGM0RzNFFsRHdqdklZd2xUSEZKSWVUU2dTUTVJYkIzRnRjaWoyWC1mQ3l6QQ?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-08-19T17:39+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "AMZN": [
@@ -172,20 +172,6 @@
     "score": 6,
     "tags": [
      "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "46f5ffd09671256b",
-    "title": "Buy Amazon Stock Before Earnings: Amazon (AMZN) Stock Analysis Rosa Chemical (OJHpESdLzo)",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Fck91cnZaZEJvRy1fZThCNEJ1Ym9SeEtHSmRwTno5eTNvNEJVaUdrRlV6RnZ4T1hTTEpQSjEwa2xXV2hXTEVUNnV1VGt5VG1lTWJfa0Z0N2VvOFFDUzl4VQ?oc=5",
-    "source": "Mshale",
-    "published": "2026-08-20T10:08+00:00",
-    "score": 11,
-    "tags": [
-     "earnings",
-     "ma"
     ],
     "direction": "neutral",
     "primary": false
@@ -298,6 +284,19 @@
    }
   ],
   "PLTR": [
+   {
+    "id": "5dc46ca44702b4a1",
+    "title": "Palantir Surge Slashes Wall Street Upside with AI Expansion at 153x P/E",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOFRDMHZjU0hlM3Z3cU9IUmRYUWtYbHFVUzhwMmdhT0ZDMkYyX3dGeldUVi1WN1FxYXVBQzZOYzkzaGlWckxkQUQ2bnllRWFUTFhIUHhtUzJucDNEMFZJV2dzRGwzTmFKaE1kVVQ2TERhRWR0VC1HRVo5ODRRQnQwckkyM0JvdG9zSUVUUTJzbnVTWnFCbWZGc3JCQ3htZw?oc=5",
+    "source": "TechStock²",
+    "published": "2026-08-21T16:54+00:00",
+    "score": 5,
+    "tags": [
+     "operations"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
    {
     "id": "85dbc105a99359db",
     "title": "Palantir Technologies Tokenized Stock (Robinhood) Exchanges PLTR Markets | Buy & Sell & Trade",
@@ -460,12 +459,12 @@
   ],
   "GOOGL": [
    {
-    "id": "150c199e6b51693f",
-    "title": "Alphabet C stock trades near $339 as AI ads lift Q2 revenue",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaWR1b2dDS2lsaHFGeHBvR1U0ZlktQVFJUElmMWdBTlAtdk5uSkxEWFlvcVhrY0M4ZEJrTlY0Y096RDJMWkhlWEx6QWJGeEFwZXZhQVd5WXVYd0tpZFBuWjQ2UEpwdXFKaFJFTHFmbGNFMmhIUFJoQ2JNdzhGQ2tfYXRMZnZyU3phY05wRDRHc2ZnQnNWQnEwbGdwMVN5OHZmcjl5RGhPa09JNFdubGlNT3J1c1l4OFVaSVFHR3Rn?oc=5",
-    "source": "Ad-hoc-news.de",
-    "published": "2026-08-21T14:59+00:00",
-    "score": 9,
+    "id": "7ae2eda8a4c9af32",
+    "title": "Duquesne Management Opens New Position in Alphabet Stock as Google Posts Blowout Q2 Results",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNeG9acHVzNjJFZzNFbVpCaWlKYUctdmlHcnVsTjlSYTdURWlpc0doeTdVUm1kM0VaR2IteWJ2cHRvNF83TzA2WjdscUlZRm9oeXd0UVlkMnRQb2J6OHhiTHNWeFZ0RUM5cTdCQWMxTS1SVjhCZnkycTgyeURnNmhMUFBpbnd4Y0doLWNjRk5XeTZHYkNRMVpiQllIZlNtMEI2TDJ3eDJZa1lhMzJjZEo2aXoyeXhUWmtHeHVxOWZlSjMzZ0NUdnlHdUNPX25fQW5F?oc=5",
+    "source": "Barchart.com",
+    "published": "2026-08-21T16:35+00:00",
+    "score": 6,
     "tags": [
      "earnings"
     ],
@@ -473,14 +472,14 @@
     "primary": false
    },
    {
-    "id": "42c4074c104b848c",
-    "title": "Alphabet stock holds above $340 as AI gains reshape earnings",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOFkwcVVaYnczZXIzTlZhd3NXRW5jdGVuaE1HcFBhbVFMYmJWLVdWYl82dlhOMWhuZ2NIYTFGbnhOSE5pcnRuei1pczNJSWhHQlFkV04tV1M4and6Zi1INkRDV0dnOC05T3BxbWY5OUdNMmRkMUR4dnl5aWEwRUo5T0VBcDdEZE1RYlBfXzA1SktONko3dEgtbVV0RXlFU3RXRVlyUVZGSW10Z01FRjdWM0VEU0VucVNwSWxwZUo1SQ?oc=5",
-    "source": "Ad-hoc-news.de",
-    "published": "2026-08-21T06:15+00:00",
-    "score": 9,
+    "id": "f25abc8c74a803ea",
+    "title": "Alphabet’s 7% Aussie Bond Debut Underscores the Sky-High Cost of AI Debt",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMXpzSU1faC01RGxOTzZ5djByYXhqVE9ibC05aHdvM3FsV1dpWUdVQmRkenJENGZNZ3ZKcEllTTN2cmJIUndKVDQ5Zi1YYWZzRDZVMFlJdEVjMnZ3RHZmTzhOQ1Z5ZTByR25FSmR0OFFNVGRJRzUydy1UV2V3TDROVGN6bGpUNF9CaU13S04ydlJLTW81aXFtYnBnT1RCZGlrVUhydzZ0WlVSZTlsTzlz?oc=5",
+    "source": "Bloomberg.com",
+    "published": "2026-08-20T02:16+00:00",
+    "score": 5,
     "tags": [
-     "earnings"
+     "capital"
     ],
     "direction": "neutral",
     "primary": false
@@ -496,19 +495,6 @@
      "ma"
     ],
     "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "26ee14d44f80960a",
-    "title": "Marvell Won Alphabet’s Deal; Everything Changes (Upgrade) (NASDAQ:MRVL)",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPU2JPVHRJNzJLSlQ0ZUhEZGV3OEFyWjNPY3A1ZEJRNGE4eVFlOTJlUzV4djAyUWlzRUo3YTBqZjRrb0JaU1RURV9YU0hBVkpaX1F1Zkk2OVg5OGpKa0J3NUF6R2oyQl9qdVdoWVhORE5UdEVzZUYyZGlJV2tIU0t0cnYtN0tXTEdnam5hbEhTejc0a3I3cWhIZA?oc=5",
-    "source": "Seeking Alpha",
-    "published": "2026-08-19T17:50+00:00",
-    "score": 5,
-    "tags": [
-     "contract"
-    ],
-    "direction": "positive",
     "primary": false
    }
   ],
@@ -553,19 +539,6 @@
     "primary": false
    },
    {
-    "id": "0bcc2c0f4ece295e",
-    "title": "Robinhood Announces MASSIVE Share Buyback And SHOCKS Investors! Chelsea Handler (GM9c76ALuE)",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBsWTBVYld0ejFwdjJfRXpLY1I1ZE0tSWlfTUNHZHJYNU5tTXYwQ3U2T1J2dFBqbVlaZ3o0VzBXcEN6dTlMYi1SSUpvbkJQNm9CeU81b1BuWHNfZzQ?oc=5",
-    "source": "Mshale",
-    "published": "2026-08-21T11:57+00:00",
-    "score": 5,
-    "tags": [
-     "capital"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "35a6b3f0ba588e3a",
     "title": "HOOD Stock Falls HARD After Earnings… Here’s What Nobody Is Saying! 😱 #hoodstocks #nasdaq #robinhood Paramount Ufc (fDFRjidzCp)",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9QSExUajdSdTZsQ2VWSVlEWWd2RzVCTEszLVlKSzkycGJrUl9jRDBObk5lUEdGSm1XczIzeEcxaThVM2V6VDViYUU5UjFpYXZlN0pvV1p0R3VnMmc?oc=5",
@@ -600,6 +573,19 @@
     "score": 6,
     "tags": [
      "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "9fe2b575ea3ff373",
+    "title": "HOOD Stock Massive Crash: Buy Robinhood Stock Now? Blaze Alexander (Shk2qycbh5)",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1manNhaV8yOGx5Vjk5bU1RcHpLSnN0Xzc3ZkdKbzFPampkMG9hZGJLbTAzdDJYZnNjUU1ESzRCbV9OVXR2dTZCckZOS2RCWEdSOWdpMXd5OUkta00?oc=5",
+    "source": "Mshale",
+    "published": "2026-08-20T13:55+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
     ],
     "direction": "neutral",
     "primary": false
@@ -914,11 +900,11 @@
     "primary": false
    },
    {
-    "id": "97fc804c2353e316",
-    "title": "Nebius Upsizes Convertible Note Sale to $5 Billion for AI Buildout",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVGR0eWVEeGhiaDF5bGdjSDI5bFhyajAtaEh4aDl4ZXZ1eko2a2dwM0gzUUNfSzBhMzdKVjhxa3M1aHktb0t2WjVUV1V1ZmtBS1lUNWowUnlEdmc2S1Y1dHJTbkR1SDgwdmxxVE5wU2ZzUF9lb0lWdFVQQ2dDdngxcFFxNDFSV19TZGFkVllGYw?oc=5",
-    "source": "TheEnergyMag",
-    "published": "2026-08-20T06:45+00:00",
+    "id": "67fa83d61d5c8b27",
+    "title": "Nebius upsizes debt sale to $5 billion to fund data centres, AI platform",
+    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOZ1hNcGtndUdId1BlU1ZRR1EzcTh3VU1UZUR3S0dxU1E1Tm4yTWpWM251NVdqZTg1dTZEVEdJcU5xQVFiNmdaSElvQy1zb25QNi1EUGZaWElxdUF5YVRRYmtFQTF5VDUzbi1KdmlrYXhJMU5lWlZzUjdqTkItMDFwM184Nm02dFBDWUdyRFZYZ3Myc1ktdEk2U0RPemRGY2lnaUE1a2xSQ3FEWUVObU1JQ3dMMkVBSUx5aFNUdDZiRlFQTHZIeTZ6cHRNNm51VGQ2ZExNQWJHYU5JRGhwWXdkeGtIV0hVdW1D0gHuAUFVX3lxTE43N040US1YcUFSOEFZYzcyempBWTkwZWo0eHZNcUpGMVM4cU1zcmtKdm11cElDVFVuQmk5NnRQTktndTVyNGt2dldOZ3EzZmRPMGxwZmN5Ti16UGN1UXlQUy1MY3pRZWJFeFF",
+    "source": "The Economic Times",
+    "published": "2026-08-20T05:03+00:00",
     "score": 8,
     "tags": [
      "capital"
@@ -940,51 +926,11 @@
     "primary": false
    },
    {
-    "id": "7a6f524f5da11381",
-    "title": "Nebius Stock Falls 14% on $4.5 Billion Convertible Offering",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNHNLeU1XeGlDNTdZcHJPWWZhVTdmUkc0U20zN3E4c1ZMMHdBSTVDNU4yUF9VdFRWNjUteElScy0xMmx2S0ZleERZRXpRRXQtMXFTalF3Wk9IOHdaNWhOYVRvMm9XeWQzUkVkbk1jY0FodXdFN0dpNXRPZlJPZGd3amhDWUZNMjBTdUp1SHZLY2lDLU1yWktkbUlaWm5oR0VjbGplekhoeHFSWE1xSXJhSENhbndTMTFl?oc=5",
-    "source": "TradingView",
-    "published": "2026-08-19T18:15+00:00",
-    "score": 8,
-    "tags": [
-     "capital"
-    ],
-    "direction": "negative",
-    "primary": false
-   },
-   {
-    "id": "fe2b17536511b5f1",
-    "title": "Nebius Seeks $4.5B in Convertible Debt to Fund AI Data Centers",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUUgwVFdKQkVyM0sxanROTU1KWlVzV2J1dGFmRG5Jci0tSUtZYVFFUkxzOV83cDRMZHBwZ2hFbWN1OENIVlZ2Q1FOMUQ4MFVraHY0eDRsQU9OVzRDVEVWMy1hMUZzeWdVaV8zQVl0dlpnUVlBNjcxOXQ5ckNCWXBJUVJKdndmU21WemZZMVZ3R004Zw?oc=5",
-    "source": "Briefs Finance",
-    "published": "2026-08-19T16:49+00:00",
-    "score": 8,
-    "tags": [
-     "capital"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "6f2f7a79da6564d0",
-    "title": "Is Nebius a Buy After Last Week's Earnings? Here's My Honest Take",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA3VWJId3VSYlVnYzBDVzh4NnRoSUJfYnRjRlYxSW5HQXBwNFMwajBjY3J2QlVhVHFRb1R3M3lPM3VGY1dYSE04c1ZrY0l1c1dVLU9qbEZYS1Y4UEVuc2JKcWF2Yl81emEyejNwT3dyQ0tKTUdPQ3k3NkpFTHFZSUU?oc=5",
+    "id": "696191ae1b18a7b6",
+    "title": "Nebius Group Sinks 13% on $4.5B Convertible Note Offering and Share Exchange Plan",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5RdHVQWm9tU1lKbFU3QTVkRFg3WHdid2hpZEd5bXdSZkxaeC01RHJHcFJ3bm9pS1A4T0RqaEt3aDRBU1N2WTNkUXNHMFlHcEhidWVCdUJjNk15NTVEXzB3WGxncEYxWklDRzRTdHcyMGdxT0wwQ0E?oc=5",
     "source": "AOL.com",
-    "published": "2026-08-19T16:45+00:00",
-    "score": 11,
-    "tags": [
-     "earnings",
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "0e7a5177f7c432dd",
-    "title": "Nebius Group Stock Slides 8% on Proposed Private Offering of $4.5B in Senior Notes",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMkdlcVpWSF9RUkFhTzZrd0dYd3Biek8yV1NESWxvemYtckx3dFh4ck0yZGRORElsa1djS1BvSzF2SmR3N0plUVhNc21ydzRYdWhyZlJfOWVhN2s3ZHNBamxsOXF1ZU9lSVE3dV85MHpYaG92dzlJSzlzN21oU0RuZ1p2enFBaGtIRjZ2LTdaUWhPc3F2ak1SVEZvTDRoUEJqOW1r?oc=5",
-    "source": "Moomoo",
-    "published": "2026-08-19T16:22+00:00",
+    "published": "2026-08-19T16:57+00:00",
     "score": 8,
     "tags": [
      "capital"
@@ -994,6 +940,19 @@
    }
   ],
   "MRVL": [
+   {
+    "id": "105d1dcacaa76321",
+    "title": "Marvell Stock Flashes Strong Signal Before Earnings",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYVN0Y1Z1dXlaMHRFdDBsc2Q2UzF0ZWt4ck1QMmwzdVRNOURvMFh6eTNCN3NIcm9WTWlJLWozR3Rqakoyd2wzRHJQN3NEMlVnSGd1OFZTOExEaFQ3MzBLamVLTGlOWEdfYksxaGliRzl5bm9CUzNnSG9LZHFmRU9vSU82c2ZHYkFLelZuVUZlMXRiaVFQakFHQTUwZldUaHJ1UnZTOW5uMmJiNjk4Z1NHeg?oc=5",
+    "source": "TradingView",
+    "published": "2026-08-21T16:24+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
    {
     "id": "cef26ab39dba3803",
     "title": "Q2 Earnings Now in Focus - Can Marvell stock sustain its rally ahead of Q2 earnings?",
@@ -1016,19 +975,6 @@
     "score": 8,
     "tags": [
      "contract"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "f7a820e82f770919",
-    "title": "Marvel Technologies (MRVL) Price Forecast: Bullish Trend Targets $300 After Pullback",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQU29lZUN3UHFzSl9jSU9MMFZZTWNXaXAxeFI3RmMySUZlMGM5V3pLOFM4a1VfRWxXSHBnZkM4OGUwZm91T2VKX1dxVGpuM3VqUW5mWHNHUFpuemJXV1VqLTluQWdwMVdCcjhKdWRHVDR4a1hCMk9DV2RYWVJNcDBoSW8yUGk3WjItNi1LSEQzNG00X25CZm1JM3I0dFA1VEQ5ZDhMZ2QtWlNfRnNHRk1seUtWSHZjYl9fbGc5c0toTmxVcl9yeUFtS2V1UQ?oc=5",
-    "source": "FXEmpire",
-    "published": "2026-08-20T21:24+00:00",
-    "score": 9,
-    "tags": [
-     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -1110,19 +1056,6 @@
      "capital"
     ],
     "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "124baac3e71617ac",
-    "title": "Marvell (MRVL) Stock Looks Strong On Cash Flow But Rich On Earnings",
-    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPNkEzbnFXckJ5VFdNMnRybkNyQkJQQl9IOGxEUlluZ2ttVE1sUHU5dTUyNGptM0J2QnJvVTRkTFRfQjlqdEF6cGtTWW9Wd280RUJYWDA0bTFMalhqQnF4YmtTM1dtZkRfWXJXcnd4clpFRmNVMklSaF9yLThHY0VVcGdEQmJDN1dKSlM1bTdUREc0YWFjVW15R2k3UjVWMzN4OVJraVNDeUNvdXNMbTJuMWM2Zl9Yc21sYVV1NDhBcVluT1d3LWJTQU5VLUs0MDZwakptVzJadndTLVdqa25WU9IB4AFBVV95cUxPNkEzbnFXckJ5VFdNMnRybkNyQkJQQl9IOGxEUlluZ2ttVE1sUHU5dTUyNGptM0J2QnJvVTRkTFRfQjlqdEF6cGtTWW9Wd280RUJYWDA0bTFMalhqQnF4YmtTM1dtZkRfWXJXcnd4clpFRmN",
-    "source": "simplywall.st",
-    "published": "2026-08-19T16:39+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
     "primary": false
    }
   ],
@@ -1219,5 +1152,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 88
+ "count": 83
 }
