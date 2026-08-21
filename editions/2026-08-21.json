@@ -1,0 +1,514 @@
+{
+ "date": "2026-08-21",
+ "weekday": "Fri",
+ "headline": "MRVL +5.79% was the only gain of the twelve, a second day of Google's $12.2bn warrant for up to 59m Marvell shares.",
+ "gauge": [
+  {
+   "text": "QQQ -0.72% Thursday close",
+   "tone": "down"
+  },
+  {
+   "text": "updated 07:00 ET &middot; before the open",
+   "tone": "flat"
+  },
+  {
+   "text": "12 tickers &middot; session of Thursday 20 August",
+   "tone": "flat"
+  },
+  {
+   "text": "premarket all 12 higher &middot; provisional",
+   "tone": "up"
+  }
+ ],
+ "quick": [
+  "<b>Marvell was the only one of the twelve to rise.</b> It closed <b>+5.79%</b> at <b>$251.01</b>, on <b>124%</b> of average volume. This was the second day of the Google warrant, not the first: the news landed <b>19 August</b> and MRVL closed <b>+9.85%</b> that day. Eleven of the twelve fell.",
+  "<b>Nebius priced a $5.0bn convertible bond, and the damage was Wednesday's.</b> The terms use the <b>19 August</b> close of <b>$223.90</b> as their reference, and NBIS fell <b>9.87%</b> that day on <b>50.4m</b> shares. Thursday added only <b>-1.69%</b>. Premarket it is <b>+3.58%</b>.",
+  "<b>Walmart, not a technology company, set the tone.</b> Its US same-store sales rose <b>2.6%</b>, the slowest in more than six years. The three weakest of the twelve were <b>AMZN -2.16%</b>, <b>AAPL -1.75%</b> and <b>TSLA -1.71%</b>, the three that sell to households."
+ ],
+ "macro": [
+  {
+   "dt": "<b>The Treasury's bond rally faded within a day.</b> On <b>19 August</b> the Treasury said it would at least double its long-end liquidity buybacks, from <b>$2bn</b> to <b>$4bn</b> per operation, running <b>9 September</b> to <b>4 November</b>. Yields fell. On <b>20 August</b> they went back up: the 10-year <b>+4bp to 4.69%</b>, the 30-year <b>+4bp to 5.24%</b>",
+   "lead": "How it reaches these stocks",
+   "dd": "A buyback changes who holds the bonds, not how many exist. The market took a day to work that out. For these twelve the long yield is the discount rate applied to profits expected years ahead, and most of what investors pay for <b>NBIS</b>, <b>PLTR</b> and <b>MRVL</b> sits out there. A one-day reprieve that reverses leaves the multiple where it was. Bessent said on <b>20 August</b> the operations could run past <b>$4bn</b>, which is why this is not finished."
+  },
+  {
+   "dt": "<b>Walmart reported US same-store sales up 2.6% on 20 August, the slowest in over six years.</b> The company said new pharmacy pricing rules cost it about <b>0.8pp</b>; without them the figure would have been <b>3.4%</b>. Its CFO said consumers have been more pressured than earlier in the year. Walmart shares fell more than <b>6%</b>",
+   "lead": "Why a supermarket number splits this list in two",
+   "dd": "Walmart is the widest available read on what American households are actually spending. That matters for <b>AMZN</b>'s retail half, for <b>AAPL</b>'s handset upgrade cycle, for <b>TSLA</b>'s large discretionary purchase, and for the advertising budgets that pay <b>META</b> and <b>GOOGL</b>. It does not touch <b>NVDA</b>, <b>MRVL</b> or <b>NBIS</b>, whose buyers are corporate capital budgets, not shoppers. Thursday's ranking followed that split almost exactly."
+  },
+  {
+   "dt": "<b>Weekly jobless claims fell to 206,000 from a revised 212,000.</b> QQQ closed <b>-0.72%</b> against SPY at <b>-0.84%</b>. Index prints for the day differ slightly from these ETF closes, and the figures here are the ETF closes we fetched",
+   "lead": "What the gauge says",
+   "dd": "A firm labour market removes the argument for faster rate cuts, which keeps the long yield elevated. On the pure duration story QQQ should have lagged SPY, and it did not. The gap is only <b>0.12pp</b>, too small to build a case on, but it is worth naming: Thursday was a consumer scare more than a rates scare, and the consumer sits more heavily in the broad index than in the Nasdaq."
+  }
+ ],
+ "entries": [
+  {
+   "ticker": "MRVL",
+   "dir": "bullish",
+   "strength": "major",
+   "strength_label": "Major move &middot; company event &middot; day two",
+   "move": "+5.79% &middot; Thursday close, settled",
+   "move_tone": "up",
+   "happened": "Marvell rose 5.79%, the only gain of the twelve, extending Wednesday's move on the Google warrant.",
+   "figures": [
+    "Closed <b>$251.01</b>, <b>+5.79%</b>, on <b>124%</b> of average volume. Its intraday range of <b>7.13%</b> was the second widest of the twelve",
+    "The warrant, issued <b>18 August</b> and announced <b>19 August</b>, lets Google buy up to <b>58,970,907</b> Marvell shares at <b>$206.58</b>, about <b>$12.2bn</b> if taken in full. It runs to <b>18 August 2033</b>",
+    "Nearly <b>1.4m</b> shares vest in year one. The rest vest in tranches, one for every <b>$500m</b> of chips Google buys, reaching full vesting at roughly <b>$120bn</b> of cumulative purchases",
+    "MRVL closed <b>+9.85%</b> on <b>19 August</b>, the day the deal became public, so Thursday is the second leg. At <b>$251.01</b> the strike is already <b>21.5%</b> in the money, worth about <b>$2.6bn</b> on paper to Google if fully vested"
+   ],
+   "why": "Custom silicon carries one dominant risk: the customer designs you out and the revenue leaves in a single decision. A warrant that vests only as Google buys makes Google an owner of Marvell's upside, so re-sourcing now costs Google something. That lengthens the number of years investors will assume the programme survives, and the assumed life of a revenue stream is most of what sets the multiple. The scope matters too: inference accelerators, storage, network and memory controllers, which is a wider attachment than a single chip socket.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Partly. Using settled closes, MRVL has gained <b>16.2%</b> across <b>19</b> and <b>20 August</b> combined. Premarket it is a further <b>+1.07%</b>, provisional and thin. The market is paying for the attachment, not yet for the <b>$120bn</b>, which is a fiscal-2033 number and largely unearned.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "Next Thursday's guidance shows custom-silicon revenue arriving later than the warrant tranches imply. The vesting schedule is now a public yardstick for Marvell's own numbers.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "<b>27 August</b>, Q2 results, one day after Nvidia.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "NBIS",
+   "dir": "bearish",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; company event &middot; reaction was Wednesday",
+   "move": "-1.69% &middot; Thursday close, settled",
+   "move_tone": "down",
+   "happened": "Nebius priced an upsized $5.0bn convertible bond, having launched it a day earlier.",
+   "figures": [
+    "Two tranches: <b>$3bn</b> at <b>0.50%</b> due <b>2030</b> and <b>$2bn</b> at <b>4.50%</b> due <b>2034</b>. Upsized from <b>$4.5bn</b>. Net proceeds about <b>$4.94bn</b>, settling <b>24 August</b>",
+    "Conversion prices <b>$313.46</b> and <b>$324.65</b>, premiums of <b>40%</b> and <b>45%</b>. Both are struck off the <b>19 August</b> close of <b>$223.90</b>, which dates the pricing to Wednesday evening",
+    "<b>The selling was Wednesday.</b> NBIS fell <b>9.87%</b> on <b>19 August</b> on <b>50.4m</b> shares, its heaviest since <b>12 August</b>. Thursday's <b>-1.69%</b> came on <b>91%</b> of average volume, with a low of <b>$212.04</b> and a close of <b>$220.11</b>",
+    "The stock is <b>26.6%</b> below its 52-week high of <b>$299.86</b>. Premarket it is <b>+3.58%</b>, second strongest of the twelve"
+   ],
+   "why": "Nebius has signed more capacity than it has built, including the <b>$17.4bn</b> Microsoft contract. Until Wednesday the open question was whether the build would be funded or would need equity sold at whatever price the market allowed. Five billion dollars answers that, and a <b>0.50%</b> coupon on the larger tranche says lenders are buying the conversion option rather than the yield. The cost is that existing holders now own a claim that shrinks if the shares ever reach <b>$313</b>. Financing risk has been swapped for dilution risk, which is the better of the two trades but is not free.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Yes, and on the correct day. The <b>9.87%</b> fall on <b>19 August</b> was the reaction; Thursday's <b>-1.69%</b> is settling. Anyone reading Thursday's close as the verdict on this deal has the wrong session.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "Contracted revenue converts to delivered revenue on schedule. The conversion prices are <b>40%</b> above Wednesday's close, so the bonds only dilute if the equity story works.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "<b>24 August</b>, notes settle. Q3 results are not expected until <b>10 November</b>.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "AMZN",
+   "dir": "bearish",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; no company event &middot; consumer",
+   "move": "-2.16% &middot; Thursday close, settled",
+   "move_tone": "down",
+   "happened": "Amazon fell 2.16%, the largest fall of the twelve, with no company announcement dated 20 August.",
+   "figures": [
+    "Closed <b>$260.11</b> on <b>85%</b> of average volume, so this was not forced selling",
+    "Its intraday range was <b>1.63%</b>, the third narrowest of the twelve. A broad drift, not an event",
+    "<b>Excluded as old:</b> coverage circulating on <b>20 August</b> recycled the <b>$2.5bn</b> FTC settlement and the Q2 results reported in <b>July</b>. Neither is news from the past 24 hours"
+   ],
+   "why": "Walmart's signal reaches Amazon through its retail half. Roughly half its revenue is retail, where the market prices a volume assumption rather than a margin one. A slowdown at Walmart lowers that assumed volume across the sector before any Amazon-specific number arrives. The AWS half is untouched by this, which is why the fall was measured in points rather than a repricing.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Using Thursday's settled close, the move is roughly three times QQQ's <b>0.72%</b>. That is the consumer read being applied, and it looks proportionate. Premarket <b>+0.62%</b>, provisional.",
+     "flag": false
+    },
+    {
+     "k": "Would flip if",
+     "v": "Next week's retail data separates Walmart's problem from the sector's. Walmart blamed <b>0.8pp</b> on pharmacy pricing rules, which is company-specific and does not reach Amazon.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "<b>29 October</b>, Q3 results, expected.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "AAPL",
+   "dir": "bearish",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; third-party data &middot; consumer",
+   "move": "-1.75% &middot; Thursday close, settled",
+   "move_tone": "down",
+   "happened": "Apple fell 1.75% as a broker's monthly App Store tracker showed net revenue down year on year.",
+   "figures": [
+    "Closed <b>$311.30</b>, <b>-1.75%</b>, on almost exactly average volume (<b>100%</b>). It fell <b>1.94%</b> from its own opening price, the second largest such reversal of the twelve",
+    "The App Store figure is a <b>Morgan Stanley</b> estimate from monthly tracking data, published <b>20 August</b>. It is not an Apple disclosure and Apple has confirmed nothing",
+    "The stock is <b>9.66%</b> below its 52-week high of <b>$344.57</b>, one of the three smallest gaps of the twelve"
+   ],
+   "why": "Investors pay a higher multiple for Apple's Services earnings than for its hardware earnings, because Services is recurring and carries far higher margins. The App Store sits inside Services. If net revenue there is genuinely shrinking year on year, the growth rate attached to Services falls, and so does the multiple applied to the whole company. That is why a third-party estimate can move the stock at all.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Partly, using Thursday's settled close. Treat the read with care: the source is an outside estimate, and Apple's own EU commission cut to <b>26%</b> from <b>1 October</b> pushes App Store net revenue the same way for a different reason. Premarket <b>+0.16%</b>, the weakest of the twelve bar Palantir.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "Apple's next Services disclosure shows growth intact, which would make the tracker a bad proxy rather than an early warning.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "<b>1 October</b>, EU commission cut takes effect. <b>29 October</b>, Q4 results.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "HOOD",
+   "dir": "neutral",
+   "strength": "minor",
+   "strength_label": "Minor close &middot; violent reversal &middot; crypto beta",
+   "move": "-0.70% close &middot; but -5.70% from its own open",
+   "move_tone": "down",
+   "happened": "Robinhood gave up a 5.8% premarket gain and closed lower, on the widest range and heaviest volume of the twelve.",
+   "figures": [
+    "Opened <b>$100.85</b>, high <b>$101.61</b>, low <b>$93.65</b>, closed <b>$95.10</b>. The range was <b>8.31%</b> of the prior close, the widest of the twelve, on <b>159%</b> of average volume, also the heaviest",
+    "It fell <b>5.70%</b> from its own opening price, by far the largest such reversal of the twelve",
+    "The driver was crypto, not company news. Bitcoin broke <b>$70,000</b> for the first time since early June after Trump pushed the CLARITY Act at a White House crypto event on <b>19 August</b>, with a record <b>$2.7bn</b> of short liquidations",
+    "<b>Excluded as old:</b> the Robinhood Ventures Fund II (RVII) IPO priced <b>8m</b> shares at <b>$25</b> on <b>13 August</b>. That is a fortnight old and did not move Thursday's tape",
+    "HOOD is <b>38.19%</b> below its 52-week high of <b>$153.86</b>, the largest gap of the twelve"
+   ],
+   "why": "Robinhood's earnings are geared to trading activity, and crypto is its most volatile revenue line, so the stock trades as a leveraged claim on retail risk appetite rather than on anything the company announced. The reversal is the useful signal: buyers who paid up on a policy headline were gone by the close. That tells you the market is pricing the CLARITY Act as talk until it is law, and it is a warning about reading premarket moves in this name at all.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "This is the day's clearest caution. HOOD is <b>+5.05%</b> premarket this morning, the strongest of the twelve, on the same crypto impulse that reversed yesterday. Yesterday's premarket gain was <b>+5.77%</b> and it ended <b>-0.70%</b>. Provisional, and the open will settle it.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "The CLARITY Act gets a floor vote, or the SEC's <b>18 August</b> Regulation Crypto Assets proposal is finalised. Either turns sentiment into a revenue channel.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "SEC comment period on the crypto rulemaking. Q3 results not until <b>4 November</b>, expected.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "GOOGL",
+   "dir": "bearish",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; counterparty to the Marvell deal",
+   "move": "-1.17% &middot; Thursday close, settled",
+   "move_tone": "down",
+   "happened": "Alphabet fell 1.17% as the counterparty to Marvell's warrant, having barely moved when the deal broke.",
+   "figures": [
+    "Closed <b>$340.67</b> on <b>91%</b> of average volume. Its intraday range was <b>1.55%</b>, the second narrowest of the twelve",
+    "Alphabet was described as unmoved on <b>19 August</b>, the day the warrant was announced, while Broadcom fell about <b>3%</b>"
+   ],
+   "why": "Alphabet is paying up to <b>$12.2bn</b> of Marvell equity value to widen its TPU supply beyond one vendor. That is worth more to it than the cost: single-supplier dependence on Broadcom was the main execution risk in Google's plan to run AI inference on its own silicon rather than buying Nvidia GPUs. Cheaper inference per query is what turns AI search features from a cost into a margin. The market gave Alphabet no credit on the day, which is the asymmetry below.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "No. Alphabet did not move on the announcement and fell with the market on Thursday. Investors are weighting the consumer and advertising read above a supply-chain change whose benefit arrives over years.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "Google discloses TPU deployment or unit-cost figures at a level that lets the saving be quantified.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "<b>28 October</b>, Q3 results.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "NVDA",
+   "dir": "neutral",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; report of early talks &middot; no figures",
+   "move": "-0.33% &middot; Thursday close, settled",
+   "move_tone": "down",
+   "happened": "Bloomberg reported this morning that Nvidia is in early talks with Korean chip designer Rebellions.",
+   "figures": [
+    "Closed <b>$216.85</b>, <b>-0.33%</b>. Only Meta at <b>-0.04%</b> fell less. Volume ran at <b>93%</b> of average",
+    "The Rebellions report is dated <b>21 August</b>, after Thursday's close, so it is not in Thursday's price. Talks are described as preliminary: partnership, investment or acquisition. <b>No value has been reported</b> and neither company has confirmed anything",
+    "NVDA is <b>8.32%</b> below its 52-week high of <b>$236.54</b>, the smallest gap of the twelve",
+    "<b>Excluded:</b> a widely shared claim of a <b>$500bn</b> Nvidia financing deal could not be verified against any primary source and is not used here"
+   ],
+   "why": "Nvidia held up better than almost anything else on the list because its demand comes from corporate capital budgets, which the Walmart number does not touch. The Rebellions talks matter only as direction: Rebellions builds inference chips, the segment where custom silicon is taking share from general-purpose GPUs. Buying into that is a hedge against the same trend the Marvell and Google deal represents.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Nothing to price yet. Premarket <b>+0.44%</b> after the report, which is close to nothing, and provisional.",
+     "flag": false
+    },
+    {
+     "k": "Would flip if",
+     "v": "Wednesday's results or guidance show inference demand shifting to customers' own silicon faster than expected.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "<b>26 August</b>, Q2 FY27 after the close. Five days out, the nearest results of the twelve.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "TSLA",
+   "dir": "bearish",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; no company event &middot; consumer",
+   "move": "-1.71% &middot; Thursday close, settled",
+   "move_tone": "down",
+   "happened": "Tesla fell 1.71% with no company announcement dated 20 August.",
+   "figures": [
+    "Closed <b>$345.13</b> on <b>96%</b> of average volume. Third largest fall of the twelve",
+    "It is <b>30.81%</b> below its 52-week high of <b>$498.83</b>"
+   ],
+   "why": "A car is the largest discretionary purchase most households make, so a weakening consumer signal reaches Tesla's delivery assumptions faster than it reaches almost any other name here. Deliveries are the number Tesla's valuation is built on. The absence of company news is the point: this was the sector input, priced.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "In line with the consumer read on Thursday's settled close. Premarket <b>+1.12%</b>, provisional.",
+     "flag": false
+    },
+    {
+     "k": "Would flip if",
+     "v": "Consumer data next week reverses, or the robotaxi rollout produces a dated operational number.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "<b>21 October</b>, Q3 results.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "INTC",
+   "dir": "neutral",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; legal filing &middot; capital raise is old",
+   "move": "-0.72% &middot; Thursday close, settled",
+   "move_tone": "down",
+   "happened": "Commerce Secretary Lutnick asked a judge to dismiss a challenge to the government's Intel stake.",
+   "figures": [
+    "Closed <b>$92.13</b> on <b>76%</b> of average volume, the second lightest of the twelve behind Palantir. Apart from Marvell it was the only ticker to close above its own open, by <b>0.24%</b>",
+    "The motion to dismiss was reported <b>20 August</b>. No ruling has been made and no financial terms are at stake in the filing itself",
+    "<b>Excluded as old:</b> the <b>$15bn</b> stock offering announced <b>10 August</b> was upsized and priced at <b>$20bn</b>, <b>210,526,315</b> shares at <b>$95</b>, on <b>10-11 August</b>, closing <b>12 August</b>. Articles recirculating the <b>$15bn</b> figure this week are describing a deal that is ten days old and was superseded"
+   ],
+   "why": "The litigation decides whether the government's equity stake survives, and that stake is what underwrites Intel's foundry build-out. A dismissal would remove a tail risk rather than add value. Note the stock trades at <b>$92.13</b>, below the <b>$95</b> the August offering was priced at, so buyers of that issue are underwater.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Neutral. A procedural motion with no ruling is not a repricing event, and volume was the second lightest of the twelve.",
+     "flag": false
+    },
+    {
+     "k": "Would flip if",
+     "v": "The judge lets the challenge proceed, which would put the stake and the foundry funding back in question.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "No scheduled hearing date confirmed. <b>22 October</b>, Q3 results.",
+     "flag": false
+    }
+   ]
+  }
+ ],
+ "readthrough": {
+  "title": "The asymmetry: two companies promised future shares this week, and only one was rewarded",
+  "body": "Marvell and Nebius both agreed this week to hand over equity that does not exist yet. The market treated them as opposites.<br><br><b>Marvell granted a warrant over up to 58,970,907 shares</b> and rose <b>9.85%</b> on <b>19 August</b>, then <b>5.79%</b> on <b>20 August</b>.<br><br><b>Nebius sold $5.0bn of bonds convertible into stock</b> and fell <b>9.87%</b> on <b>19 August</b>, then <b>1.69%</b> on <b>20 August</b>.<br><br>The difference is what the dilution is attached to. Marvell's shares are issued only as Google actually buys chips, one tranche per <b>$500m</b>, so the shares appear only alongside the revenue that justifies them. It is dilution that pays for itself by construction. Nebius took <b>$4.94bn</b> of cash now against capacity it still has to build, fill and get paid for, and the conversion right exists whether or not that works. Same instrument class, opposite risk.<br><br><b>The read-through to Alphabet.</b> Google is buying a second source for its TPU stack, which lowers its dependence on Broadcom and, over time, its cost per inference. That is a direct substitute for buying Nvidia GPUs. <b>GOOGL</b> fell <b>1.17%</b> and was reported unmoved on the announcement day, while <b>NVDA</b> fell only <b>0.33%</b>. The market has priced the supplier gaining a customer and has not yet priced the customer gaining leverage."
+ },
+ "nothing_material": {
+  "tickers": [
+   "MSFT",
+   "META",
+   "PLTR"
+  ],
+  "note": {
+   "title": "What was quiet, and what did not survive dating",
+   "body": "<b>Nothing material.</b> <b>MSFT -0.65%</b>, <b>META -0.04%</b> and <b>PLTR -0.70%</b> had no company announcement dated <b>20 August</b>. All three traded below average volume, Palantir at <b>69%</b>, the lightest of the twelve. Microsoft's range of <b>0.96%</b> was the narrowest of the twelve. Meta was the flattest close of the twelve at <b>-0.04%</b>.<br><br><b>Routine filings.</b> Form 4s show a Palantir insider sold <b>$2,788,463</b> of stock (reported <b>20 August</b>) and a Meta insider <b>$4,379,184</b> (reported <b>21 August</b>). Both are ordinary disposals at these companies' scale and neither is a signal.<br><br><b>Excluded as old.</b> Microsoft's Azure passing <b>$100bn</b> of annual revenue, Amazon's <b>$2.5bn</b> FTC settlement, Amazon's Q2 results, Intel's <b>$20bn</b> share sale and Robinhood's RVII IPO all resurfaced in coverage dated this week. Every one of them happened between late July and <b>13 August</b>. None is news from the past 24 hours.<br><br><b>Could not be verified.</b> A circulating claim that Nvidia secured a <b>$500bn</b> financing deal traces to no primary source and is not reported here. <b>sec.gov is blocked from this environment</b> (HTTP 403 on all twelve tickers this morning), so Form 4 details above come from filing aggregators rather than from EDGAR directly.<br><br><b>One discrepancy, stated plainly.</b> Press reports put the S&amp;P 500 down about <b>0.33%</b> and the Nasdaq Composite about <b>0.52%</b> on <b>20 August</b>. Our fetched ETF closes are SPY <b>-0.84%</b> and QQQ <b>-0.72%</b>. Every figure in this brief uses the fetched ETF and single-stock data, which is internally consistent across quote and daily-bar endpoints."
+  }
+ },
+ "earnings_ahead": [
+  {
+   "when": "24 Aug",
+   "what": "<b>NBIS</b> the <b>$5.0bn</b> convertible notes settle. Net proceeds about <b>$4.94bn</b>"
+  },
+  {
+   "when": "26 Aug",
+   "what": "<b>NVDA</b> Q2 FY27 after the close. Five days out and the nearest results date of the twelve"
+  },
+  {
+   "when": "27 Aug",
+   "what": "<b>MRVL</b> Q2 FY27, one day after Nvidia. First guidance since the Google warrant, and the vesting tranches are now a public yardstick"
+  },
+  {
+   "when": "1 Oct",
+   "what": "<b>AAPL</b> the EU in-app commission falls to <b>26%</b> from <b>30%</b>"
+  },
+  {
+   "when": "9 Sep",
+   "what": "<b>Macro</b> the Treasury's enlarged long-end buybacks begin, running to <b>4 November</b>"
+  }
+ ],
+ "data": {
+  "session": "2026-08-20",
+  "source": "twelvedata quote endpoint",
+  "fetched": "2026-08-21T11:05Z",
+  "tickers": {
+   "AAPL": {
+    "close": 311.29999,
+    "pct": -1.74542,
+    "open": 317.45499,
+    "high": 320.28,
+    "low": 310.64999,
+    "volume": 40891451,
+    "avg_volume": 40995375,
+    "high_52w": 344.57001,
+    "premarket_pct": 0.1606207
+   },
+   "AMZN": {
+    "close": 260.10999,
+    "pct": -2.15544,
+    "open": 262.905,
+    "high": 263.84,
+    "low": 259.51999,
+    "volume": 28294255,
+    "avg_volume": 33197646,
+    "high_52w": 287.20001,
+    "premarket_pct": 0.61513004
+   },
+   "TSLA": {
+    "close": 345.13,
+    "pct": -1.70597,
+    "open": 345.89001,
+    "high": 347.48999,
+    "low": 338.95999,
+    "volume": 30691906,
+    "avg_volume": 31814451,
+    "high_52w": 498.82999,
+    "premarket_pct": 1.12132
+   },
+   "PLTR": {
+    "close": 173.96001,
+    "pct": -0.70209242,
+    "open": 175.89,
+    "high": 176.46001,
+    "low": 172.029999,
+    "volume": 26985969,
+    "avg_volume": 38973397,
+    "high_52w": 207.52,
+    "premarket_pct": 0.022989931
+   },
+   "MSFT": {
+    "close": 481.14999,
+    "pct": -0.65247541,
+    "open": 483.0,
+    "high": 484.16,
+    "low": 479.5,
+    "volume": 20003604,
+    "avg_volume": 24504910,
+    "high_52w": 553.71997,
+    "premarket_pct": 0.33045955
+   },
+   "GOOGL": {
+    "close": 340.67001,
+    "pct": -1.17486,
+    "open": 342.79501,
+    "high": 343.89999,
+    "low": 338.56509,
+    "volume": 18535291,
+    "avg_volume": 20442899,
+    "high_52w": 408.60999,
+    "premarket_pct": 0.68394237
+   },
+   "HOOD": {
+    "close": 95.099998,
+    "pct": -0.69959089,
+    "open": 100.85,
+    "high": 101.61,
+    "low": 93.65,
+    "volume": 25123448,
+    "avg_volume": 15847695,
+    "high_52w": 153.86,
+    "premarket_pct": 5.04732
+   },
+   "NVDA": {
+    "close": 216.85001,
+    "pct": -0.32634283,
+    "open": 218.36,
+    "high": 219.86,
+    "low": 215.66,
+    "volume": 92250395,
+    "avg_volume": 99197540,
+    "high_52w": 236.53999,
+    "premarket_pct": 0.43808802
+   },
+   "INTC": {
+    "close": 92.13,
+    "pct": -0.72198898,
+    "open": 91.91,
+    "high": 92.68,
+    "low": 89.85,
+    "volume": 85370362,
+    "avg_volume": 112287466,
+    "high_52w": 142.35001,
+    "premarket_pct": 0.857487
+   },
+   "NBIS": {
+    "close": 220.11,
+    "pct": -1.69272,
+    "open": 222.745,
+    "high": 223.0,
+    "low": 212.039993,
+    "volume": 28422524,
+    "avg_volume": 31172642,
+    "high_52w": 299.85999,
+    "premarket_pct": 3.57548
+   },
+   "MRVL": {
+    "close": 251.0099945,
+    "pct": 5.79087,
+    "open": 238.0,
+    "high": 251.45,
+    "low": 234.52699,
+    "volume": 29137608,
+    "avg_volume": 23504231,
+    "high_52w": 329.88,
+    "premarket_pct": 1.071673
+   },
+   "META": {
+    "close": 545.83002,
+    "pct": -0.036630258,
+    "open": 546.95001,
+    "high": 549.98798,
+    "low": 539.31,
+    "volume": 13836762,
+    "avg_volume": 15060256,
+    "high_52w": 790.79999,
+    "premarket_pct": 1.020461
+   }
+  }
+ }
+}
