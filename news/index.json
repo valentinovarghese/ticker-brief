@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-22T19:02:38+00:00",
- "changed": "2026-08-22T19:02:38+00:00",
+ "checked": "2026-08-22T19:30:39+00:00",
+ "changed": "2026-08-22T19:30:39+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -149,6 +149,19 @@
      "earnings"
     ],
     "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "e3aa1aa1b0d3081c",
+    "title": "Iran strikes Amazon Web Services facility in Bahrain, causes temporary disruption to services",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNHBERFF1YmpYWjh4dkUzdjdybGFPZjVlUW5yc2dzSzU0cTZKOVN0Ykl4bVJ4LXp4b09vcHJITDZfa3hPaUMtU1I4bGtNLTBpVTRucUVwY2U1ck95RzcwYzFMUlkwaGEyX1FZSXJuNHBJQnhHQTBUUXZ2ZEJTNGgzR1Z1VjJ2OTUzTzNEYkdoYW1MSjNsY0pCQ01FQlJ6S213R0dnOUFQTWNPV3JvT1p3UXlNbzdlVjdDQnc?oc=5",
+    "source": "News On AIR",
+    "published": "2026-08-22T07:58+00:00",
+    "score": 5,
+    "tags": [
+     "operations"
+    ],
+    "direction": "neutral",
     "primary": false
    },
    {
@@ -484,6 +497,19 @@
    }
   ],
   "GOOGL": [
+   {
+    "id": "c2d51675a3616cab",
+    "title": "Android Pulse on Google Play Surpasses 10 Million Installs, Uncertain Effect on Alphabet Results Persists",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcFFCLUFaSlhIeWtKTmMyM0lIcW11V2FINERfanZBejIyZWZuMmxIUDM3UVdiaS0xZTRtM1BROFpfX1FUcWhMMHNwNGVUc1p6c3QwUWVKUGhPUTNyTTlSLXIyZC1maldqU2owZllOcVlveVNfX2hDTU5uNGpnRTRRLWtoY1BPbGJjSjR3TFpTV0daM1VXVVBxM3dTTVJuSFlBQURQSDFjZi1PR1dkd0ZRTmhqUkJUTTA?oc=5",
+    "source": "TechStock²",
+    "published": "2026-08-22T19:16+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "f8d5d00569ac1fa5",
     "title": "Berkshire Hathaway Gains Indirect SpaceX Exposure Through Alphabet Stake",
@@ -1204,5 +1230,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 87
+ "count": 89
 }
