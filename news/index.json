@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-22T17:58:25+00:00",
- "changed": "2026-08-22T17:58:25+00:00",
+ "checked": "2026-08-22T18:38:36+00:00",
+ "changed": "2026-08-22T18:38:36+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -53,6 +53,19 @@
     "tags": [
      "earnings",
      "operations"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "761bbdb99a16f4de",
+    "title": "Is Apple Stock's 33.54X PE Still Worth it? Buy, Sell, or Hold?",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMk8tRXUxYV9rci1UcjliMC05aVBwemNNbGFFQ21EMzNGTDQ0UUlmUGFRX3YxZDlUMktLWnJ6bWc0U3lRMTRvRGZCREdxYld2SXdidjNDOGI4emVEcmZycnYybGlwc25zYUhJNEo3Tnlnd0pBT2JfZ0pvd2pfOHJSNzU1RXhnd0pZZjhEQW84aDg?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-21T15:18+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
     ],
     "direction": "neutral",
     "primary": false
@@ -139,6 +152,19 @@
     "primary": false
    },
    {
+    "id": "e3aa1aa1b0d3081c",
+    "title": "Iran strikes Amazon Web Services facility in Bahrain, causes temporary disruption to services",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNHBERFF1YmpYWjh4dkUzdjdybGFPZjVlUW5yc2dzSzU0cTZKOVN0Ykl4bVJ4LXp4b09vcHJITDZfa3hPaUMtU1I4bGtNLTBpVTRucUVwY2U1ck95RzcwYzFMUlkwaGEyX1FZSXJuNHBJQnhHQTBUUXZ2ZEJTNGgzR1Z1VjJ2OTUzTzNEYkdoYW1MSjNsY0pCQ01FQlJ6S213R0dnOUFQTWNPV3JvT1p3UXlNbzdlVjdDQnc?oc=5",
+    "source": "News On AIR",
+    "published": "2026-08-22T07:58+00:00",
+    "score": 5,
+    "tags": [
+     "operations"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "52c8f36a7541ae5b",
     "title": "UPS Fired Amazon. Was It The Smart Move?",
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBGelVBYW1uM25MTGlsalJsR3dsTVNwQzZUUDcxcnc5bWZNTlJTelpIZ29RUTEwc2hETTNoVDEwZ2p1eXN6YjRxRkhkTzBIdHNFd1lZSHBWeWlDUTc3dElGckJ4ZHNOdkMtbXRWUXNBUWYwXzJmQlI1RTUxQQ?oc=5",
@@ -202,36 +228,9 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "e03f7d7024b4fa88",
-    "title": "Amazon Stock Rebounds From Slump: AI Ambitions and $2.5B FTC Deal Ignite $3 Trillion Hopes",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQU1ZoNi1QRmswZjFEXzBXcGxCOU9aTTh2UllSSHFoYzVHc3d3cDZIZXVKMDNJdnh3TFh1Ul9wYXZIb1dsWkNNbUUzWkdGaHQxdUtrZk1sNWxoYzhPWWt1dE04ZWtyM0FlUkc2dmJDOGNoLWVObmdGZ1FkSEgxVzJFd2NpVEJWZXhGNG1uWWhObzBoRnFIYUowSHpvYUhkR3NlSDh4X01aSlNXTFY2?oc=5",
-    "source": "TechStock²",
-    "published": "2026-08-20T18:10+00:00",
-    "score": 13,
-    "tags": [
-     "legal",
-     "contract"
-    ],
-    "direction": "negative",
-    "primary": false
    }
   ],
   "TSLA": [
-   {
-    "id": "acb90b9c7e1b0b1a",
-    "title": "Alibaba earnings miss and Tesla robotaxi surge - top AI stocks today, August 21, 2026",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbFJxdTdkeFVnSzRfQVhDVy1famJ5cTA2LW92SGpEc1lPUTZRRllTMlFFaWlnNXpLbUNTQnBmZFN5U2twZlptZXV1czJzb2I0cDRFOGpuQzE1YW9KSGxQNXBsSFRRU1M2eHpuaTBQdWRRcE94OGhZVzFFQWdXNTBrWg?oc=5",
-    "source": "StartupHub.ai",
-    "published": "2026-08-21T22:51+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
    {
     "id": "6b289df82ac47fa3",
     "title": "Tesla leads China’s record vehicle recall over door safety (TSLA:NASDAQ)",
@@ -514,9 +513,9 @@
    {
     "id": "d35d5c0f652bc245",
     "title": "David J. Taylor from Ohio’s 2nd district buys Alphabet Inc and Procter & Gamble stocks, sells Microsoft",
-    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOVVdIQmVwVkQzUG5IUldSREhhekNmWS1xZUlmdjk5VDhFZlRiWWV3MzQwZlpsVGFBUkxocjVlSVZZcEE0U2Nid01iUTl6MEdVNHQyUzZzMmJIdk53SkpkYVpUcXRCNlRDc2R3aF91OHNRQzNPNmRKdTRYVTRfaUhyRjctTkdFcG9FQnpGV3dWRXJGNzZGU3R1LUVEMmxQSEd0ZVJLUnBhU0lMbHZCb2tMdG9IMVhEa1prSTFlcVNFUVgwZW0zSTVQOGhJdUp1YVEzQjhuRG9BTFN4d0tTVEpjOFhUazRkYVZVNHZ0cVFFcVFLQQ?oc=5",
-    "source": "Investing.com Nigeria",
-    "published": "2026-08-22T05:10+00:00",
+    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNRDVIX3hkTjJSbjl2UzJvYWxHT2Jsa2hZeDVYMGRqQUdGLXEwYmJMVXdtNHNFYktMQ3diTzZkWDQtUDdlZ3BlTVBsZ3dlTS1ZYjVwc3FrM1Y0alVnbjUxR3ZNWmo2RFlvVzhmZDNHNXMxY3Zrd2RyNGJ5eVRRMWx5SU05MElCUDRqT1BOaWs3VEhOb1A3ZmcwQjg5elBCMC1BQzVKWGE0YklUbDU3QmlkdWtrVmQ3T3ZZV0I1Q01jaDVjTGs3TjZkMVJIMTJjTU1ZT1lhSzVzSXREeUxJNkQ0YXNaVXh4MTNrcDBvYQ?oc=5",
+    "source": "Investing.com",
+    "published": "2026-08-21T23:22+00:00",
     "score": 5,
     "tags": [
      "ma"
@@ -570,19 +569,6 @@
     "source": "Yahoo Finance",
     "published": "2026-08-21T15:30+00:00",
     "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "1c81ebf05b5d2848",
-    "title": "Alphabet stock holds above $340 as AI gains reshape 2026 outlook",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTEJCcTBDQUJEWE11cWRiVlJDMHc3bmJ2Qmd6aFowU19mSzhneG9hZ0J3U0VtQWpwTzJ0QTBhcUEySDRxa3gwQU9Za2tVbUR6S05tUmo0SXUyNFpNWGl1bzF1QTBkX01sR1M1NnMxYkJhMlJvc0N5ZnlEdDFuWFJjd1h1SndydnVwVDRyN1hsXzRVYlBiRy16cWFGeWk3TS0tR3RMc2x3dTVISTE0X1oyUmlSY05wT21yZnJpcXJsWi1HQ0Na?oc=5",
-    "source": "Ad-hoc-news.de",
-    "published": "2026-08-21T14:17+00:00",
-    "score": 9,
     "tags": [
      "earnings"
     ],
@@ -644,27 +630,27 @@
     "primary": false
    },
    {
-    "id": "958f12401b60c2e7",
-    "title": "Dell Tokenized Stock (Robinhood) Analytics: Price Dynamics, Quarterly Returns, and Annual Price Changes in USD",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5NV2ZEUDl2Ry1PQk83S1NyQl9jRE41QmVCbmRKd0lQMGp6eWZmTXpQeHp6NGE0OVlUQjFqcDQ0c2FwOWVpOGhwRHIzd1M0X01Vd0t0ZmFveF81SFRCX1hvZVAxa1cwOEdwcWpWRzQzV0JCWHljd2VN?oc=5",
+    "id": "536a27f7f73f3165",
+    "title": "Netflix Tokenized Stock (Robinhood) Exchanges NFLX Markets | Buy & Sell & Trade",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1tZ3BxZWQ2QVNRUXJGWjZwb1RmR2dSZHZJdjk4bHpTLVhvZ1hCbjNSRkh6NGh2RzFwRTlTWDJkTld2S1ZiYl9BZ0Z1RjYwVXNyYjc3dkgzaFpqYk0wV0w2QkpiUWE2MVUwMENTN0R0a0J5dmVNZ25nZg?oc=5",
     "source": "CryptoRank",
-    "published": "2026-08-21T23:30+00:00",
-    "score": 6,
+    "published": "2026-08-21T23:31+00:00",
+    "score": 5,
     "tags": [
-     "earnings"
+     "ma"
     ],
     "direction": "neutral",
     "primary": false
    },
    {
-    "id": "c97f44359934ff1d",
-    "title": "SpaceX Tokenized Stock (Robinhood) Exchanges SPCX Markets | Buy & Sell & Trade",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAxaHVRWlRtYzBXVHZucGtLS2FxaEo5UHZDdzRJTjVtWXpLencweVRtajB6bl9lOVFGSVVyUFdneWN4NkJnUnIwbzZlOTIyaFNMQTFKTDNwcGlzMm13UUdicldzaUZ5c0FJT1pSVDBmeDZMRFFELUUzaGhB?oc=5",
+    "id": "f4a2e87dcbf311be",
+    "title": "SpaceX Tokenized Stock (Robinhood) Analytics: Price Dynamics, Quarterly Returns, and Annual Price Changes in USD",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9sZTA3T2NjQ1N0YjRVUzR0YjQ5SUJIQ0U2MDBibG96YTZwV2xMVlBGM295am1sR3RoVVVHM21HTUFwMjRmUkNoVFJjeElsTThuNUF0NGpEUm5vTzZIRkROTmRpOEUzaGV1MXhHM2VqT0VQSHYtdzN2X2Vn?oc=5",
     "source": "CryptoRank",
     "published": "2026-08-21T20:54+00:00",
-    "score": 5,
+    "score": 6,
     "tags": [
-     "ma"
+     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -703,7 +689,7 @@
     "title": "Smart Investor: Picking Winning Stocks, Behind the Bond Yield Surge, and Nvidia Earnings Outlook",
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTk9FNG9yUDB3SkQyR3Vwdlh5MnRnWjJiazZOOFlFTlFlejNTSUdoS3ZhVDJPVEFLY1I3cXlGbmI5V1FWbUVMOHJYMFNXVFRIY0x0NDBEcWdPbWVzYWhxdUtMc3JfaENIX21kSWQ5ekExVk5XR25KS2dnbFRpTllxSU9WZ0JzNktJOGk0dHl2MGloYjBodm1zZ191QXNIcHhnXzVqb0hfMlE4V2NZaVdOZ3ZrNFYybFJINnRvR1Jn?oc=5",
     "source": "Morningstar",
-    "published": "2026-08-22T12:13+00:00",
+    "published": "2026-08-22T12:20+00:00",
     "score": 6,
     "tags": [
      "earnings"
@@ -1107,6 +1093,19 @@
     "score": 8,
     "tags": [
      "contract"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "f7a820e82f770919",
+    "title": "Marvel Technologies (MRVL) Price Forecast: Bullish Trend Targets $300 After Pullback",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQU29lZUN3UHFzSl9jSU9MMFZZTWNXaXAxeFI3RmMySUZlMGM5V3pLOFM4a1VfRWxXSHBnZkM4OGUwZm91T2VKX1dxVGpuM3VqUW5mWHNHUFpuemJXV1VqLTluQWdwMVdCcjhKdWRHVDR4a1hCMk9DV2RYWVJNcDBoSW8yUGk3WjItNi1LSEQzNG00X25CZm1JM3I0dFA1VEQ5ZDhMZ2QtWlNfRnNHRk1seUtWSHZjYl9fbGc5c0toTmxVcl9yeUFtS2V1UQ?oc=5",
+    "source": "FXEmpire",
+    "published": "2026-08-20T21:24+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
     ],
     "direction": "neutral",
     "primary": false
