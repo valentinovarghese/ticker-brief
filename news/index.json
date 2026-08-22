@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-22T20:04:01+00:00",
- "changed": "2026-08-22T20:04:01+00:00",
+ "checked": "2026-08-22T20:35:22+00:00",
+ "changed": "2026-08-22T20:35:22+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -215,22 +215,22 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
+   }
+  ],
+  "TSLA": [
    {
-    "id": "f0b08bb9d33749e8",
-    "title": "Amazon is bringing a multibillion-dollar robotics plant to Texas",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNb2F5VGlRUThuVkpHZ2NPTEF6dkFNSndMcU5uYnA2TGhLZVlFbld6ZmZhZlNSODlhb1N5QTFxclNLZVN5OTZFVGN5c0NneUJPWWhSRDVKMXZBeDR2X0RKSjQyNHpBaW9PT0RzN3pON3dBX3dLMHZUYW02ODJNNFVMcm9DWmUtSnllWDJuRUFqS1RtQQ?oc=5",
-    "source": "AOL.com",
-    "published": "2026-08-20T22:07+00:00",
-    "score": 5,
+    "id": "cb5e0c21fee24c43",
+    "title": "Elon Musk's SpaceX and Tesla Are Building a $16.8 Billion Chip Factory 5 Times Bigger Than Earth's Largest Building. What Does That Mean for Both Stocks?",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOEVhMHpFcmI0V19BYWI5TVd4OXZPckZpcG1WLVJOd2ZYeEpZWWZkekFPNkdKNGQwY3ZPWlNzeWZzY001QjlfOU9XWTBQMGdyelhnSjFtdnhoQVBxOVFDZXlUV0NlTl9RRVdOaXZQMHlZYVluVjJmOWt0ZXJNT2dsTkNXbjVqdkdWWE9uMWZKNnpfa19VMVpWd18xem1idw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-21T20:57+00:00",
+    "score": 8,
     "tags": [
      "operations"
     ],
     "direction": "neutral",
     "primary": false
-   }
-  ],
-  "TSLA": [
+   },
    {
     "id": "6b289df82ac47fa3",
     "title": "Tesla leads China’s record vehicle recall over door safety (TSLA:NASDAQ)",
@@ -513,12 +513,25 @@
    {
     "id": "d35d5c0f652bc245",
     "title": "David J. Taylor from Ohio’s 2nd district buys Alphabet Inc and Procter & Gamble stocks, sells Microsoft",
-    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOVVdIQmVwVkQzUG5IUldSREhhekNmWS1xZUlmdjk5VDhFZlRiWWV3MzQwZlpsVGFBUkxocjVlSVZZcEE0U2Nid01iUTl6MEdVNHQyUzZzMmJIdk53SkpkYVpUcXRCNlRDc2R3aF91OHNRQzNPNmRKdTRYVTRfaUhyRjctTkdFcG9FQnpGV3dWRXJGNzZGU3R1LUVEMmxQSEd0ZVJLUnBhU0lMbHZCb2tMdG9IMVhEa1prSTFlcVNFUVgwZW0zSTVQOGhJdUp1YVEzQjhuRG9BTFN4d0tTVEpjOFhUazRkYVZVNHZ0cVFFcVFLQQ?oc=5",
-    "source": "Investing.com Nigeria",
-    "published": "2026-08-22T05:10+00:00",
+    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNRDVIX3hkTjJSbjl2UzJvYWxHT2Jsa2hZeDVYMGRqQUdGLXEwYmJMVXdtNHNFYktMQ3diTzZkWDQtUDdlZ3BlTVBsZ3dlTS1ZYjVwc3FrM1Y0alVnbjUxR3ZNWmo2RFlvVzhmZDNHNXMxY3Zrd2RyNGJ5eVRRMWx5SU05MElCUDRqT1BOaWs3VEhOb1A3ZmcwQjg5elBCMC1BQzVKWGE0YklUbDU3QmlkdWtrVmQ3T3ZZV0I1Q01jaDVjTGs3TjZkMVJIMTJjTU1ZT1lhSzVzSXREeUxJNkQ0YXNaVXh4MTNrcDBvYQ?oc=5",
+    "source": "Investing.com",
+    "published": "2026-08-21T23:22+00:00",
     "score": 5,
     "tags": [
      "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "aade19aa7286656b",
+    "title": "Alphabet's TPU Chips Generated Revenue for the First Time Last Quarter. Here's Why That Line Item Matters More Than the Headline Cloud Number.",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTFIwYVkwbENwMUk3MGNQZ2M0bHdVM25VLUlTMkxHZ25oc00wY1JTQVg2ZmNSSVFfSnpPWHNleG5MNkdXSkp6Q3hzRWZBVFlnTXpqXzB0cDVFUmlRWVQ4VnNIM2tiNjJld0VoTmE1d0V1V1lZZ3YxUzdJY3RreWpOWU92eXA1bE52RDhhT3RzRjU1dw?oc=5",
+    "source": "Currently.com",
+    "published": "2026-08-21T19:50+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -724,20 +737,6 @@
     "primary": false
    },
    {
-    "id": "5adc0bc554ee200b",
-    "title": "How Many Times Has NVDA Stock Split? Full History & 2026 Outlook",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0zMDdTdExER0xlaEozMGFuejJQbFZweFNaTzVxU05uTllGVTJYQURFejRHVUVJcmdLWWd4eFEyN1oyS0ZJTFN1MnlWT0ZfYlAyUlhpMU01ZHNCTl9hcW53RmZ4UDdBazl5azhkQzJPZXFTVUF0ZVlIbEpn0gF6QVVfeXFMTTMwN1N0TERHTGVoSjMwYW56MlBsVnB4U1pPNXFTTm5OWUZVMlhBREV6NEdVRUlyZ0tZZ3h4UTI3WjJLRklMU3UyeVZPRl9iUDJSWGkxTTVkc0JOX2FxbndGZnhQN0FrOXlrOGRDMk9lcVNVQXRlWUhsSmc?oc=5",
-    "source": "Bitget",
-    "published": "2026-08-22T12:44+00:00",
-    "score": 11,
-    "tags": [
-     "earnings",
-     "capital"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "e71cfa8479282ae9",
     "title": "Smart Investor: Picking Winning Stocks, Behind the Bond Yield Surge, and Nvidia Earnings Outlook",
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTk9FNG9yUDB3SkQyR3Vwdlh5MnRnWjJiazZOOFlFTlFlejNTSUdoS3ZhVDJPVEFLY1I3cXlGbmI5V1FWbUVMOHJYMFNXVFRIY0x0NDBEcWdPbWVzYWhxdUtMc3JfaENIX21kSWQ5ekExVk5XR25KS2dnbFRpTllxSU9WZ0JzNktJOGk0dHl2MGloYjBodm1zZ191QXNIcHhnXzVqb0hfMlE4V2NZaVdOZ3ZrNFYybFJINnRvR1Jn?oc=5",
@@ -798,6 +797,19 @@
     "score": 5,
     "tags": [
      "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "ae06d894ead9feed",
+    "title": "Dow Adds 517 Points Ahead of Nvidia Earnings Week: Stock Market Today",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZG8wSTQ0ZTgwSU9yd1FXV0djVVVwRUp6eEpDcHp5aDVzTGZEWkU5eVI1SHNnUXBrQ0ZoM3ZHTDN1MVB5SUJldmFGMnc3V3JhUWxQblItTVZubkhETEdRUkdfckJ3UWNLYThKc3AtLVJNdkdYMmJyWkFFZGxFR2tJNVhQY2Nkc3poQ0xEX0RSb0lUSWU3UVZDNVZfNkZ3aUVJS04wcmZLdEh5eWJkd0hRNw?oc=5",
+    "source": "Kiplinger",
+    "published": "2026-08-21T20:13+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -884,7 +896,100 @@
     "primary": false
    }
   ],
-  "NBIS": [],
+  "NBIS": [
+   {
+    "id": "dd76ebb1e2a179d9",
+    "title": "NBIS Stock Explodes 16% After Nvidia’s $2B Investment – Is Nebius Still A Buy? Josh D'amaro (Z6tYXqHbwF)",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1sR09TX1ptTG85WjlHRWx5dmFDUFlZRXU3YS0zMm1NX0VSY0laR3JGQV9UOVBRYm5qQUNyR0lHaDBpMzRhZlVVQUJVeHZNMmFtVktuWG9VOE9feGc?oc=5",
+    "source": "Mshale",
+    "published": "2026-08-22T08:59+00:00",
+    "score": 8,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "2336ff69e15403b3",
+    "title": "Nebius Faces Its Earnings Moment With a Billion-Dollar Contract in Hand and a Construction Question",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNejZYYjNNYXgxRW9fUVRvU29rYWQ3THczelczNUlyR1ByWmF1eDlreURGR182ZFFQdzNCQnFXdGZRSFhQRjZSQ3ZITVBRaVR1Vk4yX3dsTjFXWVl2ZEVBajNUSU1MOVlwZUtLSTRPRVlTWDZTZnFhUmJwQkJFMjlIZlR6VUNQMXlxbExxSjVfa2lzUEhVanZVQzRZeGRnc3BuOGpvMGR2OFNZT2RiZlgzdjU3aFVudm9Lc2FFOEczT0xJTkxYT0dSX25faW81M2VUNk9NTVdoQk83OFE?oc=5",
+    "source": "Ad-hoc-news.de",
+    "published": "2026-08-22T08:28+00:00",
+    "score": 11,
+    "tags": [
+     "earnings",
+     "contract"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "696191ae1b18a7b6",
+    "title": "Nebius Group Sinks 13% on $4.5B Convertible Note Offering and Share Exchange Plan",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5RdHVQWm9tU1lKbFU3QTVkRFg3WHdid2hpZEd5bXdSZkxaeC01RHJHcFJ3bm9pS1A4T0RqaEt3aDRBU1N2WTNkUXNHMFlHcEhidWVCdUJjNk15NTVEXzB3WGxncEYxWklDRzRTdHcyMGdxT0wwQ0E?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-22T01:12+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "c36621e6cc09710b",
+    "title": "DA Davidson Reverses Course on Nebius Target Cut in Just 1 Week. What Is Going On?",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOejhpTHhQQnd0ck1TeVhTeGQxTWJ6MUVTU1A5dkRub1BsVjZUV2UySEEzclZCcXNoT2VSV19LYjY3SU9wR3dPS3Z3ZW9WX1lLNVJ3YlFERDVwRDh1SThJLWt6bXpjY25PdV9MR01KM3dxdHdPWk92WEVhQk40QUh1QW9LSVA?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-21T23:19+00:00",
+    "score": 5,
+    "tags": [
+     "operations"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "566346c1457a6f12",
+    "title": "Nebius Joins Nvidia, Amazon in Race for $7 Billion Decart AI Deal",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9UVmlhM3JwdFg5U2xneUhjUDFCbDFXTmdWTGFLQ0ZtTFZkXzBEMWVVZDZZOC1KQ05XRXRTX29VYzR1Ykg4QmcyR3J5LUg1QXFOTFhkQXhSOEFHbUJmdFpzbnZtNjl0Ym5CdmFPLXEydFQ4ajczRXc?oc=5",
+    "source": "finance.biggo.com",
+    "published": "2026-08-21T18:40+00:00",
+    "score": 8,
+    "tags": [
+     "contract"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "5a50617357ffb4af",
+    "title": "Nebius (NBIS) Raises $5B Convertible Bond As AI Compute Demand Surges",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNzJObUpmUlMxR0lOUGtrcTRTUFNsNThtRHpyVy1hX1U5SEZOYUg5Z0x2cmMwY0ozNVg5aUlsT1hZV1lvLVMwNjZkM1pBR3prcW52ZGNqUHdwYlU2UFVuUEtManZpbUhjdnJyQkdEQ1FmTU96Z0JJQW1XSGt5MFhhcWhKTDd4WkJwODBRNGRZbVFFRGNWd1ZSQ1cyMU9kdw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-21T09:33+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "a1ba74ee826d4617",
+    "title": "Nebius (NBIS) Results at a Glance: EPS Comes in Above Forecast for the Current Session; Shares Move 1.69% Lower on the Day - Earnings Per Share",
+    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNWFlRMlh3MGl4eHBTeGxxcUtqTWtxWDdDeXVsVkxGX1EwY0RzcEhuRS1kb1doSjNkMTZUZVJNUnREM2M3ZkFyM1l3dTBjTDlBZGJXbHNleGc4OU8tQTdNamJMQWxFTWdwcktsSWluV1lObGk1U1YtM2NlWnpMN3FzdnNJaHM1NUF6VS05aVdBb3pEWkpwdGxPSHFEQlRnVmRtdDlldVU5OURmT1hlU1NuS3VTTGxzRVNuZGN0YjZQUU9jNkZMajk1Y2dnWWtZMXJ0eWtEWVN6VFl3czR3c1lxSFp1VHEzdVZmX0NCaTN4Yw?oc=5",
+    "source": "vinanet.vn",
+    "published": "2026-08-21T05:48+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "negative",
+    "primary": false
+   }
+  ],
   "MRVL": [
    {
     "id": "8b13c623c81c05d9",
@@ -1098,5 +1203,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 79
+ "count": 87
 }
