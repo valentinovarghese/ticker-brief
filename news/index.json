@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-22T02:41:01+00:00",
- "changed": "2026-08-22T02:41:01+00:00",
+ "checked": "2026-08-22T03:25:11+00:00",
+ "changed": "2026-08-22T03:25:11+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -138,14 +138,14 @@
   ],
   "AMZN": [
    {
-    "id": "6c0c2807e4d0a985",
-    "title": "Amazon Tokenized Stock (Robinhood) Exchanges AMZN Markets | Buy & Sell & Trade",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1NOXpEbDM3bzlPMFFwSnVoaTItUUtkT3g3eldvUkI2TXlxTVlTVTBBN1cxRExSZlpHYXZ1NW9EdGozelc1U09fZWNDTWM4T19RTHp2N3dLMGZNdU9Rc3BhRG9ienp0eVFzTmw2TUxCeHh4UEI5V3E4Ujln?oc=5",
+    "id": "4e4da79ee286df41",
+    "title": "Amazon Tokenized Stock (Robinhood) Analytics: Price Dynamics, Quarterly Returns, and Annual Price Changes in USD",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5PRHpNSVhyUXFZSHlxTWYycWV6TXd5SGMwaEVsVWtobGIybVhudHd3a3ItWE1kUkJQSnVIa3hUNHRuTkVWVkk0cHg2V1JVMmZhT3VKRjU0dHlaYkMxU0F0STNubHB1UUg5eEQzNlY5VU44bUVDTWl3VDZ3?oc=5",
     "source": "CryptoRank",
     "published": "2026-08-22T01:36+00:00",
-    "score": 5,
+    "score": 6,
     "tags": [
-     "ma"
+     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -444,6 +444,19 @@
     "primary": false
    },
    {
+    "id": "25c60cbdc79c0d41",
+    "title": "Dividend payout of $0.91 per share: MSFT resistance levels in focus",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeGVtNW1yb2ozQnpnZk9nQXpfT1ljcjZaS3Q0eEVleFh0d0t6c0VteXZ0ejV5WEZscHZUQTRLRU9TSkg0Z2F4VVRZLUZBa3FEWS11TlF4RlVzczBBOWZVWTVhblhrS1RPa0llWFQtWjBLRExURld6Nm1pSFhWREhQRmNiSVVUUFRDSzZ0VVJuUTF3UQ?oc=5",
+    "source": "Traders Union",
+    "published": "2026-08-21T14:44+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "151ceab28aad6a7e",
     "title": "Satya Nadella's Microsoft Stock Jumped 18% in a Week After Azure's Annual Revenue Topped $100 Billion for the First Time. Is It Still a Buy?",
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUkw1SGF2MFVBVXMza3BoYV9vaE1NNG0tMjVKamVSRTlBNDVIM1RwTHA5M1g4bkZFWlNrRXJhXzh3OE5XZDk5VHZiYzh2XzZiM255Y1U5ZHZrQmNGSmpwVHBnV0NQbThvS1dUQWwwQVhZWHB6RmNiMUFJTjF0d1Z5YzZqS2s3TlZw?oc=5",
@@ -531,19 +544,6 @@
     "source": "Yahoo Finance",
     "published": "2026-08-21T15:30+00:00",
     "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "150c199e6b51693f",
-    "title": "Alphabet C stock trades near $339 as AI ads lift Q2 revenue",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaWR1b2dDS2lsaHFGeHBvR1U0ZlktQVFJUElmMWdBTlAtdk5uSkxEWFlvcVhrY0M4ZEJrTlY0Y096RDJMWkhlWEx6QWJGeEFwZXZhQVd5WXVYd0tpZFBuWjQ2UEpwdXFKaFJFTHFmbGNFMmhIUFJoQ2JNdzhGQ2tfYXRMZnZyU3phY05wRDRHc2ZnQnNWQnEwbGdwMVN5OHZmcjl5RGhPa09JNFdubGlNT3J1c1l4OFVaSVFHR3Rn?oc=5",
-    "source": "Ad-hoc-news.de",
-    "published": "2026-08-21T14:59+00:00",
-    "score": 9,
     "tags": [
      "earnings"
     ],
@@ -648,8 +648,8 @@
    {
     "id": "11bb1d57ccf7a6e4",
     "title": "Whale Rock Just Dumped Most of Its Nvidia Stake",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdGlrbDNwd1A4ZkFuNHJjMW1CT1piLWI5U2NHcVJCVkgta1NIbmdKUDFiTzUyTW9CcjVGLXRpeEJIZE40MG1NQ0JTYzdYUm1abW43d2R6N0hVYlNpWElKYmtHMFd1Mkc4d0Eyb3hfcDBpVlJnTGlFc25hdE1wRzZTY2JFSmlMdFoyM0czSVV3cFY1WmtrYVE?oc=5",
-    "source": "Barchart.com",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdWw2eGE5ekltbmZrYWVrTmZfZU5odXFUZDlaVjloYURhdUM3QW00dTRNMkxsVmVjTXNjZGRqUWJZSWlCZFowNnBhQVVOaFZIeEgxNHI1UlcyVzR4RzJmNVJSNUxfMXJPNEpmQS1YNy1LS3VqMEFZb2RyLVZKY0dEUTJkdlBMM0FHenI2RC00NVRGTF9UN05V?oc=5",
+    "source": "Yahoo Finance",
     "published": "2026-08-21T20:18+00:00",
     "score": 5,
     "tags": [
@@ -711,6 +711,19 @@
     "primary": false
    },
    {
+    "id": "299772905c2f5f77",
+    "title": "Should You Add NVIDIA Stock to Your Portfolio Ahead of Q2 Earnings?",
+    "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSkwtSFJBTFdxSWFLcTdFcG9RLURPODU5T3RGcVhiYjVWajhPY0EzQ0YtOE1KX0RnQWN2UW1paWthUjMzdUhxampRRzZ2OW92ZkdEMlpRU2V1dnRlRGlOdUk5WnFUbGp1YWRGalo4WkdMODdiUzBZcmhtNkJoUnNnYWc1d2xMdHdHY3pwWml2b2V1cGpmbWVBT0VKcFY4akFXNEhuU0stMUd0WnVBZWRWanNwR28yU0pRblBQMGNadWVId3JVSVpDNHJDR1laWWFYTzYzdTB0M3BFQ0szeWJNZkc2eFdNUQ?oc=5",
+    "source": "The Globe and Mail",
+    "published": "2026-08-21T15:30+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "5aa8cd9335436eda",
     "title": "Nvidia’s Ruthless Way to Beat the Competition Has 2 Problems",
     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1jaWNESmFIYUtuNDI1X0p3N2xKOC0zSTZibzMweFBiY1lHVUlWdUlPc2tPbkFuY2pnd1BsT1luenFZRXgzVFFqNlAwZ3YydV90TmE0c2E1LU1WeEpkalc4YjA4enhqZ1FaTkFIN255Rm1lTVVsbXF1Yg?oc=5",
@@ -719,19 +732,6 @@
     "score": 6,
     "tags": [
      "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "568dd3065fe0d3dd",
-    "title": "HRT Taps CoreWeave for NVIDIA Vera Rubin: Could This Be a Win for CRWV?",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQeE9wTHZsbFR2OW00V0NCZXVtMDZOUWJEWHJfUjU3NmlqblRLLTRONTlvWlBnTUNGSXdRM0hEclI1Ql9LVVJUaWhaYmc3OFVzS0NDZkRGeUo2QkZjcHR4UVlwbkhXY0duLWpBLXdSTkxIcXZBVE1VTTA5OWYyaVI5ZDVFSlRfTzdPay15dXQxRkV6YXBBd3E3NUNSOGN0QU9kTDhYOWU3UVUzRmZYdGF6NjRPVF85MUY0Mi15c2VjT0xOOXc?oc=5",
-    "source": "TradingView",
-    "published": "2026-08-21T13:14+00:00",
-    "score": 5,
-    "tags": [
-     "contract"
     ],
     "direction": "positive",
     "primary": false
@@ -845,6 +845,19 @@
     "primary": false
    },
    {
+    "id": "bf58165aeb478f20",
+    "title": "Masayoshi Son Has 67% of SoftBank's U.S. Stock Portfolio in Intel. He Didn't Buy a Single Share Last Quarter.",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBGeXJCU2lGMDBFUTZsQjRHaEZNZmpOLW5nRV9faHpta0UwOWxLTEtYOGFuU2dGX1RaZEh6Skdpd0JEdVBNOVktX1RIMEFJZw?oc=5",
+    "source": "Longbridge",
+    "published": "2026-08-20T06:26+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "4643418dfce59991",
     "title": "Intel stock falls after a $20 billion stock offering",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTWdERHNlVFZ4LVFtc1lKaHBlVlc2Qk94MGVScXo0S2p4RDV0ZjNqRm5XN3hyS3plR2JSOGhXeVdzMVdrbnA4U1NjbkFLdVZKMXhTNkxBSHU2WTc2YTdFQVplSndoNFBuQ2UySGFSa1oyM3RmdGhORVY2ZGJTbnpmU1JLdzFoZnJ5Y2lOLWg4alFOOTkyX21OUGFqM0hqMy1VRlg3Z3VaMXVWcFB1VlJESU54S04?oc=5",
@@ -855,19 +868,6 @@
      "capital"
     ],
     "direction": "negative",
-    "primary": false
-   },
-   {
-    "id": "a44271c22c40d07c",
-    "title": "SoftBank's Masayoshi Son holds 67% of US stock portfolio in Intel, didn't buy a single share last quarter",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5CLURjODJXVW8zTVRpamEwcGhicVhtT29ta3FWdXp5SFR3bExtUEh4Qm1KM1N5cGU2TmdFYkVzWU1sbTJoWlh4NWwyN1VKelZaanF0Z0g5YUEwLWk5bDlMaDhnRm5HOWplUFJiU2U1Tlo?oc=5",
-    "source": "Crypto Briefing",
-    "published": "2026-08-20T02:58+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
     "primary": false
    }
   ],
@@ -939,19 +939,6 @@
     "primary": false
    },
    {
-    "id": "ac53ed8262e89ffb",
-    "title": "Nebius Earnings Ignite AI Cloud Trade: Can the Momentum Continue?",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOXJmNkNpV21OcFQ2VTZKRlRKZTNBcFZJOUtzN0ZJN1FtY3NZcUVhZWNfeVViRlBQZnBVZk45Nm95OS11ZUoydl91WDFvNWRVUHR6ak5Ja2VERFZGbE1POFp4YXpxM3B4Q1g1YlBleWtsOU94LW1kdlNjd1JFSlVyTXNJZnh5cUdyZGYySjN3bjhHTlNVUVA5S2gxTGhGYUkxRnNySTlzZFBWR1NRYjZpa1BMY3ZPMEJUeWc?oc=5",
-    "source": "Moomoo",
-    "published": "2026-08-21T01:50+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "35efd4193d70f0d5",
     "title": "Nebius Tests AI Appetite With A $5 Billion Convertible",
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNS29QWjQyb3N2NW5GWS1udlB4YkhDYlA2Q2k5VWtUR0dUYk52YXZOWGZuOVhvMHhUblZ5N0RhVDR3Q2EzWlB3OTVGRFJvNVVDTlBPSXF4cGRCamIycFJBRVBkb3pSNGxPRkdObTBaV0ZtSUQ1RnpoYjVWOXpMV3gtS2pWc1ozaWNoNlE?oc=5",
@@ -996,6 +983,19 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVGR0eWVEeGhiaDF5bGdjSDI5bFhyajAtaEh4aDl4ZXZ1eko2a2dwM0gzUUNfSzBhMzdKVjhxa3M1aHktb0t2WjVUV1V1ZmtBS1lUNWowUnlEdmc2S1Y1dHJTbkR1SDgwdmxxVE5wU2ZzUF9lb0lWdFVQQ2dDdngxcFFxNDFSV19TZGFkVllGYw?oc=5",
     "source": "TheEnergyMag",
     "published": "2026-08-20T06:45+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "f8a4781dbc5c982e",
+    "title": "Nebius prices upsized $5B convertible debt offering to fund AI cloud expansion (NBIS:NASDAQ)",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVGszWU91YUdzemQ5bWVTZTRPM1Y4elF6eVd1a2JjaE1hbk1IMnhYX09IS2NPczd3anVNM0F0OE1LV1JuMmNLY0NKSWNsaGRTdXNFU0lxR1B2ckM3RTRMRUN6WDFvLUMyM3dIdlBOTVpJNU1KQnRDVlprQWpVTnl1aTFoeGhUR2FlSndlRElPWTI4V0o4NmNxMXdmZnRsb0NELWp6UVllcUdDNWs2cERKWlhpN1BlUQ?oc=5",
+    "source": "Seeking Alpha",
+    "published": "2026-08-20T04:29+00:00",
     "score": 8,
     "tags": [
      "capital"
@@ -1059,14 +1059,68 @@
     "primary": false
    },
    {
-    "id": "2d1d83dd227eb267",
-    "title": "Google's Marvell Warrant Doesn't Fully Vest Until Google Buys $120 Billion of Chips",
-    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOVEVCRTZuNzRGNUpzWUNPV1g2QU1SQXBiZVJYemZUVVQ2TGY1cG9Ycm44czZRTkxna2wxRDhHS056eHFNVDdydWpFUWxJc2Zhcjk4WjYxYS1kLUZ1X3FxUGlYemtTdzc5TTFGV3RRWDdscFlBWERTNGI2ZERiZ29ISE1ZbGItQnJBWUpJbm5CUHJnOGlONm5rM2xvcF9QcGtuejM0THJYdFgtMFR0U0JnbVBORW9YUk5MXzA4R3JhS2kyellfeXZmYmV5LVcyTXRWdnE5aHhhOHZ5TXh4dkZpaTlfWW52S0ZlaXJCYk4xY044NWxobHIycg?oc=5",
-    "source": "The Globe and Mail",
-    "published": "2026-08-21T04:35+00:00",
+    "id": "762dbe43b35e4d58",
+    "title": "Marvell Technology: Why The $12.2B Deal With Google Is Outrageously Beneficial (NASDAQ:MRVL)",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObDBpY294OG04ay1HZnV0d0Znbi1Nb29Wem02ZEViTkdUTldKTzEtNjUwVTNDTzJYNFhlbWNfeW5ia2dZRk9JeHNiVEFRb1k5Y3pXbHN0dWJHcUdSc29vZnhtaW4waEJGTW5rSkl6YmpWWEFYYTlfV19vaDlWR05DSDVhVXk4VkFiRXQzQ0JET0Y2MXZiYS01bGpjUl85TTV1bjFRV3ppLUl0ZFhVT1l5ZlpwaDZIRW95?oc=5",
+    "source": "Seeking Alpha",
+    "published": "2026-08-20T14:19+00:00",
     "score": 8,
     "tags": [
-     "ma"
+     "contract"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "eb1c248a0a733228",
+    "title": "Marvell Bears Spar With Bulls as Google Deal Bolsters Outlook: Short Seller Tracker",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcUFVVnV4a0dWUlZwdjRJbHFQalpSWEFtcVNYN053WTFud2VfV0VxMTJ6eG41WkhOcEVwMzRaSDg3b2drU0RCaml0RDZTTEltMHNoZ2hIMkdTTTBEbUFWOGZadDBnWWsyLUl2elhud3JKZzBYbTZNbUg2ZTd3S2RmNGMyRjZKd0RKd1dYajI1ejQ1V2NUU19COS15Q3czOFdIZTZDVmdnRUM5dkZ3c1JmZWJURVUyQQ?oc=5",
+    "source": "Moomoo",
+    "published": "2026-08-20T14:17+00:00",
+    "score": 11,
+    "tags": [
+     "earnings",
+     "contract"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "64a317798f14b80a",
+    "title": "Broadcom Holds Steady as ARK Buys the Dip, Intel Slips, AMD Eases After Google’s Marvell Chip Deal",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcHFnY3o1Nk9sX2ZOTVB4Nl9qbWhMN0wzcE5SbWRWc0w3TlBHZXNZcXpRbGpkWXJzR2stbzF2ZTdXOHFmS2RUT3dsWG9scnpTQVZEeEVYejJhZWtfWGZFWl9qYnhSb1h0OEpnVjJPWE04eDlCa0FieFh3ZXdHSmY5ODhBS2R4VTNnc1B0VkZPc19GSVdDZHJwRThJVQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-20T13:32+00:00",
+    "score": 10,
+    "tags": [
+     "ma",
+     "contract"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "1094806bb9961d4c",
+    "title": "Marvell's Google Warrant Could Add $6.15 to Earnings Per Share",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNU2o2aXNFV0pQV2hwN2xLUHJxWFI3VzB2M1pyQzFKSFhsOVhBN0VoWk9WY21DYkJ2dlMxT09zLTNfRnpLZ2JVdjIySkpKcmlVR3FtNnNicXMyalBIZmdxc0RwSGVLVjFfeC10MVZqSFhnZGZaYjlfTTJlVGppdkU4cE85NVhzeF9tSURNTWtwMVQ1eUZRTUlTbTFkWHVCb2Q3QU1qb1JKaHpSZkphNnVkcTVlTk5LMUJfYlYwYnd3?oc=5",
+    "source": "TradingView",
+    "published": "2026-08-20T13:09+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "3db47c41ef4388b6",
+    "title": "Google's $12bn Marvell bet: what the chip supply shake-up means for data centre capital plans",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQkx5WDlfVDBReC1POWV3ZTFpaDBoTURCc3I0Y2hZN0hleVc5RnBzVEpOOWRWUmNvRVBPcVBwdUF6SjlpQWZJcjkyajdHWXoydWFVdXY3WEYyTkNfMU5uekZGc2UwV0VXRjFLOVhyNC1GNy1YYy1JQk1Fb1dvN2VtcVJrd2JNSWFCZGs5dHV6SGpIUlVxZnQxOFEyQndwWlQyQTZ0alhPb3FJOVNfTHdjbGx5SGZwQ1ZXRGVkOUFpdmg?oc=5",
+    "source": "capacityglobal.com",
+    "published": "2026-08-20T12:24+00:00",
+    "score": 8,
+    "tags": [
+     "contract"
     ],
     "direction": "neutral",
     "primary": false
@@ -1082,33 +1136,6 @@
      "contract"
     ],
     "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "73cbcf037376b324",
-    "title": "Barclays reiterates Marvell stock rating on Google partnership",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTGZ1Nm5HS0kxLWZqcVNyal9HdWFQSE1lRXFXZDZiT1A4T1J2bFV6WTdhcGhiWFZVVWV3MEFMQV9fRmdzZEl0UUpwTGZjdVpUQlhvNV9ZWlNTY3ZuaXhCYTdjRGw2NEYtdnNlWjlBQ1J6TnBvMXBPXzRtTmdta0YzaXhrd2JUd0dMa2YybHBTdUVtMm43b2dWX2J6ZDF4RDBKcmZZRmFOU3J5NlE1ZFR3Y1YyZE5Vd3drenBaLVI4Yw?oc=5",
-    "source": "Investing.com",
-    "published": "2026-08-20T09:15+00:00",
-    "score": 5,
-    "tags": [
-     "contract"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "dc6c0a05db0d1268",
-    "title": "Marvell Stock Jumps on Google AI Chip Deal Ahead of Q2 Earnings",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYnZmdXE0aFBrNTZoblEteEVhQU9qWlR3ZWNQUC1Pb2dLMFN0czVFN2lUSF8tRFdsWEJ6UDF1Z0djODQ4WGJqckVFRzZZNWF6UzVlQUt4dnFoNWRLM2VmQ2FEVjV1LVlfSDdyc19PbjNYRkl4RE9CNzVTcGVfYXNnM1V2MzNhNjgtbE5rUWFqUlFvN0NyWmNEeU9SclV2UGRTbGU3YU5MamR3MzFEMjlLZWwyNTBQUENaQU9J?oc=5",
-    "source": "TradingKey",
-    "published": "2026-08-20T03:24+00:00",
-    "score": 11,
-    "tags": [
-     "earnings",
-     "contract"
-    ],
-    "direction": "positive",
     "primary": false
    }
   ],
@@ -1205,5 +1232,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 87
+ "count": 89
 }
