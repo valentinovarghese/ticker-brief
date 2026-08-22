@@ -1,9 +1,22 @@
 {
- "checked": "2026-08-22T12:55:49+00:00",
- "changed": "2026-08-22T12:55:49+00:00",
+ "checked": "2026-08-22T13:30:41+00:00",
+ "changed": "2026-08-22T13:30:41+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
+   {
+    "id": "948d68c7f0250df5",
+    "title": "Apple Stock Price Forecast: Product Price Hikes Trigger Over 6% Drop, May Continue to Correct",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTlJXaVg4MFRqczZmNnJxbTRROGN1VmFxRlh3bFd6aU5rcXRRRUZGdHBibDIwOVdjYl9VUjRwU25OVTM1WU5TSXNmRWtoZ1lkck5pOTk1aWtaTTBFTC1QMWZ5dXZkQ1RpUUNlSjJBbk01M0VtUGRwbXJ4NmVXeUJHWXVDdjBDd3lST25pbGJIMHl0dFRQeWFvSkNVRDNZdzdzOWFVWTdvVWg1YmtLOEIwdVFOZDZPY0ZRcXJ5SHN6bVd6UnRnV3RVblh3LUdpOHBER0E?oc=5",
+    "source": "TradingKey",
+    "published": "2026-08-22T08:19+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
    {
     "id": "44007843c83be7f9",
     "title": "Apple's Latest Earnings Report Surprised Wall Street, But Not the Way You'd Think",
@@ -216,19 +229,6 @@
     ],
     "direction": "negative",
     "primary": false
-   },
-   {
-    "id": "149605b346b1c7c8",
-    "title": "How paper gains can inflate company earnings: Amazon example",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9rZDhrTlRjUW10SHNsOVhVWmlvSjNEaHhMbXVXb3RyRVBQVHp4WXYtT09rMDljR1pxY0FsWTVQZGthWG1jZUcyc2pLNjdGeDZkTGRPNWhxSG1OMkZ6?oc=5",
-    "source": "thestreet.com",
-    "published": "2026-08-20T16:22+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "TSLA": [
@@ -299,19 +299,6 @@
    }
   ],
   "PLTR": [
-   {
-    "id": "c1288dd3a54b9250",
-    "title": "Palantir, Freeport Break Out, Lead Five Stocks Near Buy Points",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVXJRM3dxZHNvSDl4ckx0N3hzMmJWcnhxSDFkMUM5cUZqamp2ZUJEQVNrLUhqLWFySXc3MFVoV200ZWZQMHlDa1BaLXFzOGYtWjRDb05pZW9WMUlISzFKelJfWmFHdy0zai0xNGlXR1lIa1RnRHhoQnI2c0lJU1gyb05HRklpTmJRWUd3QzhvSQ?oc=5",
-    "source": "Investor's Business Daily",
-    "published": "2026-08-22T12:00+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
    {
     "id": "7dd6a74c40f8928f",
     "title": "Palantir stock holds high valuation as AI-fueled growth lifts guidance",
@@ -425,6 +412,19 @@
     "score": 6,
     "tags": [
      "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "03a9c7b48334bb1b",
+    "title": "Palantir: Buy Before The Next Leg Higher",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTWNnX2tPU3VKS0hQbVpTWFdJOUN1TUNkRmdIcXQwYnUyM01DVm5Oa2Q2cXUwSk9qUHA2ZW5hR3BPTTdFUDNpNGp6c3JSR3ZZNi15YVVyTURTQTlnazZEZFJiYURjbHpwVW84LW9oeGU0cm53OEMtYTc1OW9EYzRUY1E1R0pJYU0?oc=5",
+    "source": "Seeking Alpha",
+    "published": "2026-08-21T05:01+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
     ],
     "direction": "neutral",
     "primary": false
@@ -596,6 +596,32 @@
     "source": "Yahoo Finance",
     "published": "2026-08-21T15:30+00:00",
     "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "150c199e6b51693f",
+    "title": "Alphabet C stock trades near $339 as AI ads lift Q2 revenue",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaWR1b2dDS2lsaHFGeHBvR1U0ZlktQVFJUElmMWdBTlAtdk5uSkxEWFlvcVhrY0M4ZEJrTlY0Y096RDJMWkhlWEx6QWJGeEFwZXZhQVd5WXVYd0tpZFBuWjQ2UEpwdXFKaFJFTHFmbGNFMmhIUFJoQ2JNdzhGQ2tfYXRMZnZyU3phY05wRDRHc2ZnQnNWQnEwbGdwMVN5OHZmcjl5RGhPa09JNFdubGlNT3J1c1l4OFVaSVFHR3Rn?oc=5",
+    "source": "Ad-hoc-news.de",
+    "published": "2026-08-21T14:59+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "1c81ebf05b5d2848",
+    "title": "Alphabet stock holds above $340 as AI gains reshape 2026 outlook",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTEJCcTBDQUJEWE11cWRiVlJDMHc3bmJ2Qmd6aFowU19mSzhneG9hZ0J3U0VtQWpwTzJ0QTBhcUEySDRxa3gwQU9Za2tVbUR6S05tUmo0SXUyNFpNWGl1bzF1QTBkX01sR1M1NnMxYkJhMlJvc0N5ZnlEdDFuWFJjd1h1SndydnVwVDRyN1hsXzRVYlBiRy16cWFGeWk3TS0tR3RMc2x3dTVISTE0X1oyUmlSY05wT21yZnJpcXJsWi1HQ0Na?oc=5",
+    "source": "Ad-hoc-news.de",
+    "published": "2026-08-21T14:17+00:00",
+    "score": 9,
     "tags": [
      "earnings"
     ],
@@ -926,6 +952,19 @@
   ],
   "NBIS": [
    {
+    "id": "dd76ebb1e2a179d9",
+    "title": "NBIS Stock Explodes 16% After Nvidia’s $2B Investment – Is Nebius Still A Buy? Josh D'amaro (Z6tYXqHbwF)",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1sR09TX1ptTG85WjlHRWx5dmFDUFlZRXU3YS0zMm1NX0VSY0laR3JGQV9UOVBRYm5qQUNyR0lHaDBpMzRhZlVVQUJVeHZNMmFtVktuWG9VOE9feGc?oc=5",
+    "source": "Mshale",
+    "published": "2026-08-22T08:59+00:00",
+    "score": 8,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "2336ff69e15403b3",
     "title": "Nebius Faces Its Earnings Moment With a Billion-Dollar Contract in Hand and a Construction Question",
     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNejZYYjNNYXgxRW9fUVRvU29rYWQ3THczelczNUlyR1ByWmF1eDlreURGR182ZFFQdzNCQnFXdGZRSFhQRjZSQ3ZITVBRaVR1Vk4yX3dsTjFXWVl2ZEVBajNUSU1MOVlwZUtLSTRPRVlTWDZTZnFhUmJwQkJFMjlIZlR6VUNQMXlxbExxSjVfa2lzUEhVanZVQzRZeGRnc3BuOGpvMGR2OFNZT2RiZlgzdjU3aFVudm9Lc2FFOEczT0xJTkxYT0dSX25faW81M2VUNk9NTVdoQk83OFE?oc=5",
@@ -937,6 +976,19 @@
      "contract"
     ],
     "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "696191ae1b18a7b6",
+    "title": "Nebius Group Sinks 13% on $4.5B Convertible Note Offering and Share Exchange Plan",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5RdHVQWm9tU1lKbFU3QTVkRFg3WHdid2hpZEd5bXdSZkxaeC01RHJHcFJ3bm9pS1A4T0RqaEt3aDRBU1N2WTNkUXNHMFlHcEhidWVCdUJjNk15NTVEXzB3WGxncEYxWklDRzRTdHcyMGdxT0wwQ0E?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-22T01:12+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
+    ],
+    "direction": "negative",
     "primary": false
    },
    {
@@ -963,6 +1015,19 @@
      "contract"
     ],
     "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "5a50617357ffb4af",
+    "title": "Nebius (NBIS) Raises $5B Convertible Bond As AI Compute Demand Surges",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNzJObUpmUlMxR0lOUGtrcTRTUFNsNThtRHpyVy1hX1U5SEZOYUg5Z0x2cmMwY0ozNVg5aUlsT1hZV1lvLVMwNjZkM1pBR3prcW52ZGNqUHdwYlU2UFVuUEtManZpbUhjdnJyQkdEQ1FmTU96Z0JJQW1XSGt5MFhhcWhKTDd4WkJwODBRNGRZbVFFRGNWd1ZSQ1cyMU9kdw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-21T09:33+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
+    ],
+    "direction": "positive",
     "primary": false
    },
    {
@@ -1002,32 +1067,6 @@
      "capital"
     ],
     "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "5bdce149d1ad0ec3",
-    "title": "Nebius Stock Drops As Massive Convertible Notes Offering Sparks Investor Dilution Fears",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVzJYbmxPTWVGb2s3bllPcmUtMUpVU1hnbkFyOW0yV1pKWGZHSWdEbzNCY3pJSHZuVXNjVURTQ1hNWEdRS3RsM0hpcFNGeS1zQXlJSk1xd1V6UGl5ejRMWUViMmRfakNjZG1SSmVHZXFLTFRSSjFCY01nSTNzckgxcGNhOUQ5eGhSQ1E?oc=5",
-    "source": "TIKR.com",
-    "published": "2026-08-20T15:21+00:00",
-    "score": 5,
-    "tags": [
-     "capital"
-    ],
-    "direction": "negative",
-    "primary": false
-   },
-   {
-    "id": "ca1a4e7ec4c17bef",
-    "title": "Nebius Group (NBIS) Stock Dips Despite $5 Billion Convertible Note Launch for AI Infrastructure",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYVdMTTYwazBFY1J0eEl4RFJHeVlicVRjZ0VfZFF1TTc0QmZ2WkNmNzlQWEFKcExXOTVZcFh4OVRMREU4VFYxS0ZHSWM5Mk5lYnJVMEVfNjN5bEwyWDFOSFU4YzJ3Y2d4STFhSGVtT3pGSlVuYllkQ3BiR0lWdnJ5TkhwWWtLNmxaY1VQQ09JdVU2ckhvb0lZWmpzTU9hWWhyUHdGQmZnZzF5RVJ0WnZqM1BaVjJCaDA?oc=5",
-    "source": "Blockonomi",
-    "published": "2026-08-20T13:20+00:00",
-    "score": 8,
-    "tags": [
-     "capital"
-    ],
-    "direction": "positive",
     "primary": false
    }
   ],
@@ -1112,6 +1151,19 @@
     "primary": false
    },
    {
+    "id": "2d1d83dd227eb267",
+    "title": "Google's Marvell Warrant Doesn't Fully Vest Until Google Buys $120 Billion of Chips",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLU0weEZJRGJ0c09nRGhPaDh1V3dsVHh6XzExYmRuVG5KTXlwd2ZoMnl5X3dMYUtNenVMNUFGVGdKeDdNdE9WZFVNMXRkRzdfYWhCOWk0Q1ZRUDI5TFpNb1NSVFZwMXp6cHNFay1WSm5GV0Q2N1hCa01lWnZYN1czbHE2d2l2QXByX2M5OWR2UWRfa25SZkd1OVRsdERYQQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-21T03:38+00:00",
+    "score": 8,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "762dbe43b35e4d58",
     "title": "Marvell Technology: Why The $12.2B Deal With Google Is Outrageously Beneficial (NASDAQ:MRVL)",
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObDBpY294OG04ay1HZnV0d0Znbi1Nb29Wem02ZEViTkdUTldKTzEtNjUwVTNDTzJYNFhlbWNfeW5ia2dZRk9JeHNiVEFRb1k5Y3pXbHN0dWJHcUdSc29vZnhtaW4waEJGTW5rSkl6YmpWWEFYYTlfV19vaDlWR05DSDVhVXk4VkFiRXQzQ0JET0Y2MXZiYS01bGpjUl85TTV1bjFRV3ppLUl0ZFhVT1l5ZlpwaDZIRW95?oc=5",
@@ -1146,20 +1198,6 @@
     "published": "2026-08-20T14:14+00:00",
     "score": 5,
     "tags": [
-     "contract"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "64a317798f14b80a",
-    "title": "Broadcom Holds Steady as ARK Buys the Dip, Intel Slips, AMD Eases After Google’s Marvell Chip Deal",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcHFnY3o1Nk9sX2ZOTVB4Nl9qbWhMN0wzcE5SbWRWc0w3TlBHZXNZcXpRbGpkWXJzR2stbzF2ZTdXOHFmS2RUT3dsWG9scnpTQVZEeEVYejJhZWtfWGZFWl9qYnhSb1h0OEpnVjJPWE04eDlCa0FieFh3ZXdHSmY5ODhBS2R4VTNnc1B0VkZPc19GSVdDZHJwRThJVQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-20T13:32+00:00",
-    "score": 10,
-    "tags": [
-     "ma",
      "contract"
     ],
     "direction": "neutral",
@@ -1218,6 +1256,20 @@
     ],
     "direction": "neutral",
     "primary": false
+   },
+   {
+    "id": "e9b413a711dab0b6",
+    "title": "META trades flat as potential $1.4 trillion legal penalty weighs on outlook",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZWZxNjJFZ19CT2kzTGpLR1ZqQUpkcmRiUlotcnZoSGR6ZFc4TEJYeDJFLXpzN1JBaGxfUWotbjlEdTlSTGlUZXBONFUxT0pJX0hRYVllNTJ0LXNZZ25JY3ZxWWNtbmF4Q2JkNE12Z0M2MjI2WG1OR0ZtQlFJbzZTeUJBNC0tX1Jy?oc=5",
+    "source": "Traders Union",
+    "published": "2026-08-20T14:19+00:00",
+    "score": 14,
+    "tags": [
+     "earnings",
+     "legal"
+    ],
+    "direction": "negative",
+    "primary": false
    }
   ]
  },
@@ -1259,5 +1311,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 91
+ "count": 95
 }
