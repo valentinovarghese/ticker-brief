@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-22T06:01:54+00:00",
- "changed": "2026-08-22T06:01:54+00:00",
+ "checked": "2026-08-22T06:54:24+00:00",
+ "changed": "2026-08-22T06:54:24+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -148,6 +148,19 @@
      "earnings"
     ],
     "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "7e704acbef2cea46",
+    "title": "Modine Stock Jumps After Report Names Google, Amazon as Data Center Cooling Customers",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNSnpwMEF6elNyOHFacDZBY09SQ3JaS2s0WHdJalRmUUw1RmVSRnVxanpXQWxTZUpBMm04dmtZNHRGLU1kck13bUdhUXAxQURxOWlYc2ZWcUxncy1pa25OQmdiNGlNOU9yQVczRXJaZHhQMkVRMGEwcENQS09Pc29wWlR0QS1nUjZlQzhCdHZuem5tYzFZWWYtRVlmVzNUWmpXQ0ZRTlc0dGN5dmZ5dDlNQWlCeEg3ZWVJMUJsMGNVZ09naU9ERkwyUU81YVdCOTZBUWhlX1F5VUZYSlU?oc=5",
+    "source": "TradingView",
+    "published": "2026-08-21T14:41+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
     "primary": false
    },
    {
@@ -717,7 +730,7 @@
     "title": "Intel Stock INTC Closes Week at $90 After $100 Rejection and Massive Share Offering",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRlRENXNiVmFZV0l1aVN5aTdwTEVnMmo0WGZwVmwwSEd4aEdRRUx4VkdDcTFiUlY5Z0lZZDMyRF85QUdvLVcwa09UYjlHSl81ek1tRWduSzAtMEd4ZUNyNEhCTzFhZE15YWlDaEoxMDVrQkJ1ZzNocnByMl9VaWN0cHpQVHVrTEc5NnJiMC1yZXd3RXV2bEJvWUhwaTg2X0pXSzMwMVpFUXdkbG1GYUVmcHZzSjN3cTV1a0R4SmVneVlmZw?oc=5",
     "source": "FXLeaders",
-    "published": "2026-08-22T05:15+00:00",
+    "published": "2026-08-22T05:22+00:00",
     "score": 8,
     "tags": [
      "capital"
@@ -808,25 +821,12 @@
    {
     "id": "ac7abba915afbecf",
     "title": "‘It’s Done’: Investor Warns Warren Buffett’s Berkshire Can’t Beat the S&P 500 — Bets on PayPal and Intel Instead",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5maTZjMTBVc0lqUlEwcl9lZ3ZhQlBXS0JDV2dua0JNZTlfNlh1ZklJdjNWc0FTLUdiTDh2UmRnejhtUWEzUmJfak82ZGtMX0xncnhsQjd3U3JmbGw4bTdkVW9BLVZtUjha?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNSkZqaHRZWW54TlhGT2VqZjNmOUtXYmJleTA3Z1pEQWtwU2hMUEs0NC1FN01iLW9ZaW9SSW0yNV9zbWh5cDdOOEh2eFkxSFR4N1RBNGxDRVduU09qNklFc0s2SlgzNU5NaTlkU2wxNUgtM1h2SXllOWhoUWo5MmRwR2hMaHB3ZmgyMjAwLXFMV0ZieXdwa2I2OHZMLUNkLVQ5ZWxfRTM1UlBLR2VWS1NhcTJaQnFMTGRsUy1lSlBfTzZ3eWh6LVJxcXdad0tBUDkxangtcTBWREF3TEh0UC1tOFhsNDNtWGwtMWlaNGxGaEJlWEhYZnNCM1lR?oc=5",
     "source": "TradingView",
     "published": "2026-08-20T11:44+00:00",
     "score": 6,
     "tags": [
      "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "bf58165aeb478f20",
-    "title": "Masayoshi Son Has 67% of SoftBank's U.S. Stock Portfolio in Intel. He Didn't Buy a Single Share Last Quarter.",
-    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBGeXJCU2lGMDBFUTZsQjRHaEZNZmpOLW5nRV9faHpta0UwOWxLTEtYOGFuU2dGX1RaZEh6Skdpd0JEdVBNOVktX1RIMEFJZw?oc=5",
-    "source": "Longbridge",
-    "published": "2026-08-20T06:26+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
     ],
     "direction": "neutral",
     "primary": false
@@ -874,16 +874,16 @@
     "primary": false
    },
    {
-    "id": "5a50617357ffb4af",
-    "title": "Nebius (NBIS) Raises $5B Convertible Bond As AI Compute Demand Surges",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNzJObUpmUlMxR0lOUGtrcTRTUFNsNThtRHpyVy1hX1U5SEZOYUg5Z0x2cmMwY0ozNVg5aUlsT1hZV1lvLVMwNjZkM1pBR3prcW52ZGNqUHdwYlU2UFVuUEtManZpbUhjdnJyQkdEQ1FmTU96Z0JJQW1XSGt5MFhhcWhKTDd4WkJwODBRNGRZbVFFRGNWd1ZSQ1cyMU9kdw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-21T09:33+00:00",
-    "score": 8,
+    "id": "b6ed3161e2141b72",
+    "title": "Michael Burry's Nebius Short Is Underwater After a 454% Revenue Quarter",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQemQwQVNNVFEyU19vNlNFT2xvbFdtRFRMTlZCRjVoaTdidEJLWERNWngxTGFuY2FoTnU3RHdYdm1RWmtCRVNrc1pTd1NPRktzZmdlX1V4OHJrTkk5YmRyUm1VTjFxbV9OV25ZY0JhUVlaTDlNY0JsTDd1OXhhbERfa2dGMWN5SHlleHc?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-21T15:56+00:00",
+    "score": 6,
     "tags": [
-     "capital"
+     "earnings"
     ],
-    "direction": "positive",
+    "direction": "neutral",
     "primary": false
    },
    {
@@ -926,6 +926,19 @@
     "primary": false
    },
    {
+    "id": "ca1a4e7ec4c17bef",
+    "title": "Nebius Group (NBIS) Stock Dips Despite $5 Billion Convertible Note Launch for AI Infrastructure",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYVdMTTYwazBFY1J0eEl4RFJHeVlicVRjZ0VfZFF1TTc0QmZ2WkNmNzlQWEFKcExXOTVZcFh4OVRMREU4VFYxS0ZHSWM5Mk5lYnJVMEVfNjN5bEwyWDFOSFU4YzJ3Y2d4STFhSGVtT3pGSlVuYllkQ3BiR0lWdnJ5TkhwWWtLNmxaY1VQQ09JdVU2ckhvb0lZWmpzTU9hWWhyUHdGQmZnZzF5RVJ0WnZqM1BaVjJCaDA?oc=5",
+    "source": "Blockonomi",
+    "published": "2026-08-20T13:20+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
     "id": "40df15a10a2777d4",
     "title": "Nebius (NBIS) Results at a Glance: The Bottom-Line Figure Outpaces Its Comparison in Latest Trading",
     "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNVUJOWU5ZT3UtZ0hFMkExVEgybHBYcld4a2NvQkRkZGZTTXc4S3J0TEphX2wyRldfMGxOeml5ZFNUUEpTNWlKMEhKWTVYRy05UFl0SDNiV1BncTEtajcxaWNYUzlNc1ltVm9JeWJPRGRkSkJrRTVyUzFiblotLW56T1BkUUo1Zy11eDE3eWR5eldMY0xfSTJPYWxDWDM4UklkRVBIdHpFdk5hMGg2cWZhRzd6YlptYm04WWJ3TG9tbFhPaXB5MHFtWTNPeGdROVFjRmVFVnl3UmlRSWxjTERLU1UyS1VXdTZHZ0FjcVhhcHFJSUdybHcwV3V4NHl2eDdGZnh1RTZaN2E3eHJ1b3l4WXZZNXJSMG5maHhR?oc=5",
@@ -934,19 +947,6 @@
     "score": 6,
     "tags": [
      "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "97fc804c2353e316",
-    "title": "Nebius Upsizes Convertible Note Sale to $5 Billion for AI Buildout",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVGR0eWVEeGhiaDF5bGdjSDI5bFhyajAtaEh4aDl4ZXZ1eko2a2dwM0gzUUNfSzBhMzdKVjhxa3M1aHktb0t2WjVUV1V1ZmtBS1lUNWowUnlEdmc2S1Y1dHJTbkR1SDgwdmxxVE5wU2ZzUF9lb0lWdFVQQ2dDdngxcFFxNDFSV19TZGFkVllGYw?oc=5",
-    "source": "TheEnergyMag",
-    "published": "2026-08-20T06:45+00:00",
-    "score": 8,
-    "tags": [
-     "capital"
     ],
     "direction": "neutral",
     "primary": false
