@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-23T13:49:52+00:00",
- "changed": "2026-08-23T13:49:52+00:00",
+ "checked": "2026-08-23T14:10:16+00:00",
+ "changed": "2026-08-23T14:10:16+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -340,6 +340,19 @@
   ],
   "PLTR": [
    {
+    "id": "6bc25e9bb2598c02",
+    "title": "Palantir Keeps 55 Cents of Every Revenue Dollar as Profit",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOSFNOY0hWeVN0dWxGWUhIdFJEUnhTMmFCY29RSW9PZUJoWV96dHg0cEc0TTFmTVM2NG5rLS1NWS0xU3dkajZWdC1qR3BUVHFPRXNndzNMOGdwdmFyNFYyaHN0U1hBVnJPVWhnNmNQbGdZdWREaEFhLXVRZmFMQ0dkNERkd3pmX21vRko4MU9JelNyRElWbnBRVHFBZ3VQSk9sT09fZ3hNRk5VVTBWQzhmZjEtVGh2dnZrcmsxdXgzR3BzMEZuMTgwTnBqTUpDTGpfWmdySEtxNDc3eUNp?oc=5",
+    "source": "The Globe and Mail",
+    "published": "2026-08-23T01:58+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "3058e1c215c0b668",
     "title": "Trump Made Over 1,000 Trades in June: First-Ever Berkshire Hathaway Purchase, Cuts Meta and Palantir Stakes",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5VQ0hyV1dNOWdKeDZXQlVZMXRiemZCN1kxaW5pR2NNRFJnR09oRTc2bHJvNldvUVlvVUgwcTBCanU1cGNGd25fMk0tVm9JMW1oUTEwQnczcFhaMW1iUl9XQjdSbHlEUVh0QjFrNlRrNGd0SzJubnc?oc=5",
@@ -388,19 +401,6 @@
     "score": 5,
     "tags": [
      "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "45a46f8d77763807",
-    "title": "Palantir stock falls on profit-taking after Q2 revenue beats by $136 million",
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRHByZDlkQndFbDExSkl4VWlvNW42bjlWNU5XdC0xdTBfWTRTb1NjbVRhdENBWFlqb3ZWZ3JCeDRfOWRxdWVrOEd2MXdiVkhISGlpLXdBSWF2OGRlZjdPVk1YZjlPUVl5Zm9sVWtnNldOb3l6cjNZczEyMlptZnNKbk1hemZpMXg4QmpNOG5xenZLSlIwM1FoSm14X0JXSUZwMVZUbGw3ekhTR1hwdzdWeVRtX2JPZU9sZDRyajBKcWxGTEktV1JJRmc2TU9zcXlRN3Fr?oc=5",
-    "source": "scanx.trade",
-    "published": "2026-08-21T21:45+00:00",
-    "score": 9,
-    "tags": [
-     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -727,6 +727,19 @@
    }
   ],
   "HOOD": [
+   {
+    "id": "88f2dbd4e207d5ee",
+    "title": "Robinhood’s 2026 Outlook: Strategic Evolution and Valuation After a 280% Surge",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOLURfLWtteE1pT05DVzhfb0FCWVR3Qm51VVlHMkNUdWthUV9pclBrVGJmamdDMWV4eW82eGxDaUZzSEtzc3lpZkFuVFNtdjRrazFmdmJDcG40eWM4N3M5Z0ZWZ3V1dWJIRzU3ajRzbzhFTl9wM29oSFJwTTM2cHBkUlRRX2hFQ3hEbEhzNjQ3VTRaU19fZHBzWGUzaFRXRUVXTDU4Vlctcm1rOEpuSE1JdWJWNDBvYVIwV0VJV0JoTQ?oc=5",
+    "source": "TradingKey",
+    "published": "2026-08-22T22:54+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
    {
     "id": "70a90914fad4b66f",
     "title": "Robinhood Price Forecast: Can HOOD Reach $130 After Its AI and Crypto Push?",
@@ -1344,5 +1357,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 97
+ "count": 98
 }
