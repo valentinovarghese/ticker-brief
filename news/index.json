@@ -1,9 +1,22 @@
 {
- "checked": "2026-08-23T11:56:58+00:00",
- "changed": "2026-08-23T11:56:58+00:00",
+ "checked": "2026-08-23T12:42:49+00:00",
+ "changed": "2026-08-23T12:42:49+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
+   {
+    "id": "ecabf417a7687125",
+    "title": "Apple Stock Outlook: AAPL Faces CEO Change, iPhone 18 Launch and EU Risks",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWGtZR0ljYlJySk9ucWtGcEVGTGtoQ1drdXduNVRpMFB6YVczOVJqVkgxblB1azZGZmxkLUY0VUQtbTI2cjU5aFo3d2xUTGx3MW82WGczMnk2cTBiSzFXcmJuY0hZSG9NcTN6amZ2VUt0S2NfNUlabllTam1iQlJvMTlSSmNfSGVLT3J5TkRvdHFJN1pvZUtJVDI1SGE3U2NGQnhxeU00TkVMbk5SUHA3TWV3TkNieUJPUnczTm5wLU0?oc=5",
+    "source": "TradingKey",
+    "published": "2026-08-23T12:03+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
    {
     "id": "5a11005a4dc63972",
     "title": "Apple Cut Its Standard EU App Store Commission From 30% to 26%",
@@ -120,19 +133,6 @@
     "tags": [
      "earnings",
      "operations"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "761bbdb99a16f4de",
-    "title": "Is Apple Stock's 33.54X PE Still Worth it? Buy, Sell, or Hold?",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMk8tRXUxYV9rci1UcjliMC05aVBwemNNbGFFQ21EMzNGTDQ0UUlmUGFRX3YxZDlUMktLWnJ6bWc0U3lRMTRvRGZCREdxYld2SXdidjNDOGI4emVEcmZycnYybGlwc25zYUhJNEo3Tnlnd0pBT2JfZ0pvd2pfOHJSNzU1RXhnd0pZZjhEQW84aDg?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-21T15:18+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
     ],
     "direction": "neutral",
     "primary": false
@@ -273,6 +273,19 @@
   ],
   "TSLA": [
    {
+    "id": "524ff2ba0d890bcc",
+    "title": "GM, Tesla Pivot to Software Subscription Revenue",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNT1lhVkROd1RaemNsV1lTdW5hRjdWZUtqcjdycUNEM3pNc2JQM2tnNkh5QW1jbm1lVXV3ekRxdk94VlBZT3AzSXdKc1owTHRtRFhWQU1zQWVKbFZMM25XQjB1N3FKN1BWZ0hlaTZuY3J1WTRBQ190MHhBdHE2VVF6bUlNVmpTS0huQ2VHbEtILWotQQ?oc=5",
+    "source": "Briefs Finance",
+    "published": "2026-08-23T12:20+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "439012cfc74ca57e",
     "title": "Tesla Rises 5.1% After Securing Nevada Robotaxi Permit; 5,000-Vehicle Limit Not Forward Outlook",
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORkZyY3Q2eEtlRWtMeDJ5b2hmOFhpN2Zla3oxYndRaE9RQVpidzA0Zlh2ckNBcC1QaDVyaHE4T29HUjk1UFFjTHpuZGNtRmZ1ZGk2Yk9tX2xRRndpeHY3UmhXeUpMVkJhYnptdE42X0pKeHFBUDRoZGtPcElwakJIN1I3Q3E5WjdRUTdYS1BwbnlZR3FOWEdHaXUtQ05WbGxJMEdj?oc=5",
@@ -342,7 +355,7 @@
    {
     "id": "6bc25e9bb2598c02",
     "title": "Palantir Keeps 55 Cents of Every Revenue Dollar as Profit",
-    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOSFNOY0hWeVN0dWxGWUhIdFJEUnhTMmFCY29RSW9PZUJoWV96dHg0cEc0TTFmTVM2NG5rLS1NWS0xU3dkajZWdC1qR3BUVHFPRXNndzNMOGdwdmFyNFYyaHN0U1hBVnJPVWhnNmNQbGdZdWREaEFhLXVRZmFMQ0dkNERkd3pmX21vRko4MU9JelNyRElWbnBRVHFBZ3VQSk9sT09fZ3hNRk5VVTBWQzhmZjEtVGh2dnZrcmsxdXgzR3BzMEZuMTgwTnBqTUpDTGpfWmdySEtxNDc3eUNp?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVk1FRVlGNXc4MVVyVHlLX3pfaC1IS0lCcnBLX3o1M0xRZjdVUkdCd1RxNHpNOGZtV3kxQUpuTzNudHFWTy1LdDRDZzI2aWtYaEFOQnNSM3NwUzAtMGhMVzVEVEZFcXp0NnFaNDl6XzA1aThzVkNzQm52cDRfdE5VeGNLQnRpdS1GN2xaSEo3Z0pNSUYwZFQtSm5fay1iS2wtTVpnVEdoT0Z1eDZaRmJ0eEdsRmlpMGpUcWJ1Nkl1cXFmdlJEdFZaWUg5UEJKS2JvdUl5ZVIwZWlnZw?oc=5",
     "source": "The Globe and Mail",
     "published": "2026-08-23T01:58+00:00",
     "score": 6,
@@ -767,27 +780,27 @@
     "primary": false
    },
    {
-    "id": "85917852eaf44543",
-    "title": "Intel Tokenized Stock (Robinhood) Analytics: Price Dynamics, Quarterly Returns, and Annual Price Changes in USD",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5ySVlSMkNEd3dmWUxpSjcwVWtUei1GZ1dCSm5EZG1kZmNqVlF4NnhFRFhDWGFVWGs4cDE1SktpRzBxWHdpNlhTSDNmZlc1TzNFcFlUYnRfa1VOSGJWcmtOajF5Z3lieTd6VEtTNFJBN3F2cExyYzNKUw?oc=5",
+    "id": "e4c4469807732e24",
+    "title": "Dell Tokenized Stock (Robinhood) Exchanges DELL Markets | Buy & Sell & Trade",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5nZkhyVEpoWjRyM2p0OWYzSXp5UmJvYUdISElpOV9yd2tTcGswNnd4Y3k1Sm9vaGlpU09IbU5VXzBDV1NMMjZaczhJM0dGdDgxY2VyLV9uWVRsWi04V1k0OW1MREgtdENBQXZsZVcwM2E2Ym93QVZB?oc=5",
     "source": "CryptoRank",
-    "published": "2026-08-21T23:46+00:00",
-    "score": 6,
+    "published": "2026-08-21T23:35+00:00",
+    "score": 5,
     "tags": [
-     "earnings"
+     "ma"
     ],
     "direction": "neutral",
     "primary": false
    },
    {
-    "id": "0342b6b5e5f0825b",
-    "title": "Sandisk Corporation Tokenized Stock (Robinhood) Exchanges SNDK Markets | Buy & Sell & Trade",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcy1ZM0VLNmdla2JWSDl0RlltVGpacDVORXYyTjM2dmpjN2R2UUpmTXJBRGlraE1HUVZvbUxyaktqci1ISXF4QWZYSmNqTlpHbEVjcWJDSjNVU21GdTIzcmJVcUVOUUdoTnZZMDBNR19YQ3Izbjk5QWVFMzdwNVZ1TkJPOER6bVNjbDNr?oc=5",
+    "id": "ff26b0324b93a4d0",
+    "title": "Alibaba Tokenized Stock (Robinhood) Analytics: Price Dynamics, Quarterly Returns, and Annual Price Changes in USD",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE56dlRxLW1YNm1RZHVDTndLVDVWZUg4UGhUc0s2VGdzamp3dmVlSlBIQjE0dnFrZU9YUHBTX2FIalBXMkFnNXZ2S3dJQUVwaTFaaDFabDI4SDRqWXVBNEZWRVd3cFE1X29VanlsY19lT2xuUDU5eXd1TUZBVQ?oc=5",
     "source": "CryptoRank",
-    "published": "2026-08-21T12:42+00:00",
-    "score": 5,
+    "published": "2026-08-21T23:31+00:00",
+    "score": 6,
     "tags": [
-     "ma"
+     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -825,6 +838,19 @@
     "title": "Nvidia Q2 Preview: Strong Earnings and Low Valuation Set the Stage for Upside",
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMW9Tb1BJTkhfZ25sZHh0eWIweTlsSVRxbTBraFNFQkRrZE9Ia3hHX0E0a1Z5QjBSdWIzLUJUSGhQY24za2cwUTlfeEM0SEh4Q0FxajhZTVY1enFJbGlvT05BSDlwTF9OWnl0TTU0X1EyRjlOZDgxbGVTVzJLcEZmamswbGRnYkEzRHM5dks4UUpkTHRRTlk0WlFNM0hJU0cwR25IamlfVG9waWZ2YXZETTBEUzdTSHZ6TDc0LQ?oc=5",
     "source": "Barchart.com",
+    "published": "2026-08-22T20:52+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "58033a5af3c0151f",
+    "title": "Nvidia customers face over 15% server price hikes as memory costs soar - report",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMjlNekpQZk9iWVk4YVJNNmRRRVA1ZmtCcTZRWnRsZnBYQ0VhTU15ajF2ZFZ1TWcwN2ROakozS0ZIMkl3c082TDdZeWtUZnlacnFSSDV1b2cxdXdLN0FPaGZkQVFLTXBkQXVueTJqLWZKMDFIVk9NUE9VQjR2cy1YT0ZEYXVBZ2J0cVVfWm9KNGRTZ1lRVXRpODhYem5HTHV6MUMtbVBITlVVYmJidDZCY2VjMFl1RmQ5UjhJZFNyRXN4UUZvM3JHb0JVZ3E4WTg?oc=5",
+    "source": "Investing.com",
     "published": "2026-08-22T20:52+00:00",
     "score": 6,
     "tags": [
@@ -911,20 +937,6 @@
      "capital"
     ],
     "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "5250677cbdb992e9",
-    "title": "Nvidia Reportedly Strikes $7B Licensing And Investment Deal With AI Startup Poolside — NVDA Stock Ends Week 5% Lower",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOU281azI3LUtYX0pKSWxPR2VzQm9jZUpkSzJQbkdoMjR2eFZtaGx5aDZvTWtaWXZpY2pLVHJoVVphLTltSzJMRWRGbUdrM1llLXQ3WTlNUXVaMHp5dXZDd0xMREJmV2pTUlJ0Q0hRNjY3ZFlMZGY5dm1NN3hacXlUYlQ2QWpCQ1pTMGdUSVVLVktQTmhpamxfdTZLcTdPNzNQQ3BsMQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-21T20:51+00:00",
-    "score": 13,
-    "tags": [
-     "contract",
-     "operations"
-    ],
-    "direction": "negative",
     "primary": false
    }
   ],
@@ -1252,6 +1264,19 @@
     "primary": false
    },
    {
+    "id": "090fe4065943cf9c",
+    "title": "Jensen Huang says Marvell could become next trillion-dollar chip company after Google deal",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNTNLeU5BQ0xaNmd6T2VPVjlNN3Z6dFJZUURsbEJYRVZZaDE1TUFrSUU5anV3OE92MDdRdGJkeXhpZmhkWU1ZcUVVUlpvNUpxaVo3d0dLcEdUYi1pMkh2aVUzSFd1Yy1YVThDQjc5ZGlNSjVXMm1rWFpjUHVoMFpHeHRn?oc=5",
+    "source": "Crypto Briefing",
+    "published": "2026-08-21T18:26+00:00",
+    "score": 5,
+    "tags": [
+     "contract"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "105d1dcacaa76321",
     "title": "Marvell Stock Flashes Strong Signal Before Earnings",
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYVN0Y1Z1dXlaMHRFdDBsc2Q2UzF0ZWt4ck1QMmwzdVRNOURvMFh6eTNCN3NIcm9WTWlJLWozR3Rqakoyd2wzRHJQN3NEMlVnSGd1OFZTOExEaFQ3MzBLamVLTGlOWEdfYksxaGliRzl5bm9CUzNnSG9LZHFmRU9vSU82c2ZHYkFLelZuVUZlMXRiaVFQakFHQTUwZldUaHJ1UnZTOW5uMmJiNjk4Z1NHeg?oc=5",
@@ -1287,19 +1312,6 @@
     "score": 8,
     "tags": [
      "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "a238ce687667f931",
-    "title": "What’s Behind Google’s US$12.2bn AI Chip Deal with Marvell?",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTmVnenBWVmU0eHVXZW5BbXk4NTlLb0g0clVqSDdmeWdYeHptVjNNMm9lMlZ0eXdrYnJTS3ZqTXBRd3k1bm43YUxHa3FVMkt6dmdZcmE4bUtWa1FaSWN6d1QxQjRDbnNPVnQwaXBjMVpScjlEMm4zdnMzY1g3LTBERUpRSXFxOF9mZGdzdg?oc=5",
-    "source": "AI Magazine",
-    "published": "2026-08-21T12:01+00:00",
-    "score": 8,
-    "tags": [
-     "contract"
     ],
     "direction": "neutral",
     "primary": false
@@ -1372,5 +1384,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 99
+ "count": 100
 }
