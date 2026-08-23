@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-23T12:42:49+00:00",
- "changed": "2026-08-23T12:42:49+00:00",
+ "checked": "2026-08-23T13:20:57+00:00",
+ "changed": "2026-08-23T13:20:57+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -353,19 +353,6 @@
   ],
   "PLTR": [
    {
-    "id": "6bc25e9bb2598c02",
-    "title": "Palantir Keeps 55 Cents of Every Revenue Dollar as Profit",
-    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVk1FRVlGNXc4MVVyVHlLX3pfaC1IS0lCcnBLX3o1M0xRZjdVUkdCd1RxNHpNOGZtV3kxQUpuTzNudHFWTy1LdDRDZzI2aWtYaEFOQnNSM3NwUzAtMGhMVzVEVEZFcXp0NnFaNDl6XzA1aThzVkNzQm52cDRfdE5VeGNLQnRpdS1GN2xaSEo3Z0pNSUYwZFQtSm5fay1iS2wtTVpnVEdoT0Z1eDZaRmJ0eEdsRmlpMGpUcWJ1Nkl1cXFmdlJEdFZaWUg5UEJKS2JvdUl5ZVIwZWlnZw?oc=5",
-    "source": "The Globe and Mail",
-    "published": "2026-08-23T01:58+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "3058e1c215c0b668",
     "title": "Trump Made Over 1,000 Trades in June: First-Ever Berkshire Hathaway Purchase, Cuts Meta and Palantir Stakes",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5VQ0hyV1dNOWdKeDZXQlVZMXRiemZCN1kxaW5pR2NNRFJnR09oRTc2bHJvNldvUVlvVUgwcTBCanU1cGNGd25fMk0tVm9JMW1oUTEwQnczcFhaMW1iUl9XQjdSbHlEUVh0QjFrNlRrNGd0SzJubnc?oc=5",
@@ -414,6 +401,19 @@
     "score": 5,
     "tags": [
      "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "45a46f8d77763807",
+    "title": "Palantir stock falls on profit-taking after Q2 revenue beats by $136 million",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRHByZDlkQndFbDExSkl4VWlvNW42bjlWNU5XdC0xdTBfWTRTb1NjbVRhdENBWFlqb3ZWZ3JCeDRfOWRxdWVrOEd2MXdiVkhISGlpLXdBSWF2OGRlZjdPVk1YZjlPUVl5Zm9sVWtnNldOb3l6cjNZczEyMlptZnNKbk1hemZpMXg4QmpNOG5xenZLSlIwM1FoSm14X0JXSUZwMVZUbGw3ekhTR1hwdzdWeVRtX2JPZU9sZDRyajBKcWxGTEktV1JJRmc2TU9zcXlRN3Fr?oc=5",
+    "source": "scanx.trade",
+    "published": "2026-08-21T21:45+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -808,6 +808,32 @@
   ],
   "NVDA": [
    {
+    "id": "d176406094717107",
+    "title": "Options on Nvidia Earnings Anticipate $312 Billion Volatility Amid Increasing Server Expenses",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTGw2dFBFU1FHMnliZDFPRUNKSXlQaWpDUXNpejBicjlxNTFBRDBHQjdvWjhEdzhmRDU0YUhWUlluNGdHblVXeGdJaFdYNlhjdGhZZXBhWDhwWFp1UTM2M0VMVy1aNkhUbW1YajNNQlFLdEtpWk9Rck80QWd1THBvc2stcDVCNmphSkw3cWhVanBJY205c2c?oc=5",
+    "source": "TechStock²",
+    "published": "2026-08-23T13:18+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "4f954f7aeb88a6b9",
+    "title": "Nvidia Reports Earnings Wednesday. Here’s How Much the Stock Is Expected to Move",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOYzA4M3hqNTB6Q0ZXdHhZcmx3eDlKcGdaX1FIbGdwNXFBakJPY0ROV2tzLWlzWWJxMUhOX3NDbWk4b2RSWjBnVm9tTDhhOVc4MDd2b294WVdsRkNjWFBGWW5hN3M3YmdiZVRsVnFBUUVRX3ladDg0Y1hoREdkcndLTmozb3FFQmluWXc?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-23T11:44+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "a890ee8780c42ae0",
     "title": "Nvidia Stock May Plunge After Earnings, Even If It Beats (NASDAQ:NVDA)",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdDhDY0doSElNSFZmMFBMVnduNXhVN295UWp6VFMyVWpQOGhDenQ5OXlkTUx1X0xPSDBVOTlVT3prcFBLMEljMHRjcFpsR09yQVNPOEV3bGlyNDd0andzaVRFRjNreE96TmY2SzE1SElYeWxrOER4T1hlS3RhWjlhVzFDeUV6VFNIMDllUURhekZ6T2NkcTM0TnVNbW4?oc=5",
@@ -900,20 +926,6 @@
     "primary": false
    },
    {
-    "id": "5adc0bc554ee200b",
-    "title": "How Many Times Has NVDA Stock Split? Full History & 2026 Outlook",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0zMDdTdExER0xlaEozMGFuejJQbFZweFNaTzVxU05uTllGVTJYQURFejRHVUVJcmdLWWd4eFEyN1oyS0ZJTFN1MnlWT0ZfYlAyUlhpMU01ZHNCTl9hcW53RmZ4UDdBazl5azhkQzJPZXFTVUF0ZVlIbEpn0gF6QVVfeXFMTTMwN1N0TERHTGVoSjMwYW56MlBsVnB4U1pPNXFTTm5OWUZVMlhBREV6NEdVRUlyZ0tZZ3h4UTI3WjJLRklMU3UyeVZPRl9iUDJSWGkxTTVkc0JOX2FxbndGZnhQN0FrOXlrOGRDMk9lcVNVQXRlWUhsSmc?oc=5",
-    "source": "Bitget",
-    "published": "2026-08-22T12:44+00:00",
-    "score": 11,
-    "tags": [
-     "earnings",
-     "capital"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "e71cfa8479282ae9",
     "title": "Smart Investor: Picking Winning Stocks, Behind the Bond Yield Surge, and Nvidia Earnings Outlook",
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTk9FNG9yUDB3SkQyR3Vwdlh5MnRnWjJiazZOOFlFTlFlejNTSUdoS3ZhVDJPVEFLY1I3cXlGbmI5V1FWbUVMOHJYMFNXVFRIY0x0NDBEcWdPbWVzYWhxdUtMc3JfaENIX21kSWQ5ekExVk5XR25KS2dnbFRpTllxSU9WZ0JzNktJOGk0dHl2MGloYjBodm1zZ191QXNIcHhnXzVqb0hfMlE4V2NZaVdOZ3ZrNFYybFJINnRvR1Jn?oc=5",
@@ -924,19 +936,6 @@
      "earnings"
     ],
     "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "6eacdd38b6ead747",
-    "title": "How much will 100 NVDA shares earn when Nvidia pays its next hiked dividend?",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTzVjTzJ6VmJzUUg1Y3J3S2c0WnhyVXhKOEI2NkF5ODZLT1dZUWEyS0lEdTdNYzB6T1F4MTdFMzU2OG1xM1dNUU81OXFkdGtfazRmejNxSE04aTFsdEZBamhnenlkemNfaVRNcTJUQjZUOHRBOGU3RThNQWRuaFVLZThSbFpLb1Zyc1RlQVFfd0thOHVtWVA0ODFvVEc?oc=5",
-    "source": "Finbold",
-    "published": "2026-08-22T08:47+00:00",
-    "score": 5,
-    "tags": [
-     "capital"
-    ],
-    "direction": "neutral",
     "primary": false
    }
   ],
@@ -1302,19 +1301,6 @@
     ],
     "direction": "positive",
     "primary": false
-   },
-   {
-    "id": "2d1d83dd227eb267",
-    "title": "Google's Marvell Warrant Doesn't Fully Vest Until Google Buys $120 Billion of Chips",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQm95LVQwcVViOHZQV05XNXBma3ZNRGllckVJWUhmblcweDlPOF9oQ05tbUZSRUpnajJMQ1hhaVdLMnJlc3R1YzAyTk16SmMwZzBhWGg0MWhHWDRtbDlTeHRPdEhrTTdpVmNMb0xuNl9MSTV4SDZSbEZnTlM3RjZtYTJDRmVTZw?oc=5",
-    "source": "AOL.ca",
-    "published": "2026-08-21T13:03+00:00",
-    "score": 8,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "META": [
@@ -1384,5 +1370,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 100
+ "count": 99
 }
