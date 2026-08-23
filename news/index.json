@@ -1,9 +1,22 @@
 {
- "checked": "2026-08-23T15:50:32+00:00",
- "changed": "2026-08-23T15:50:32+00:00",
+ "checked": "2026-08-23T16:08:13+00:00",
+ "changed": "2026-08-23T16:08:13+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
+   {
+    "id": "c8e45f56b1067f03",
+    "title": "AAPL Stock Forecast: The Impact of a Foldable iPhone on a Saturated Long Position — $315 as a Key Resistance Level",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZERQWmQyczZRaHM4dWZlbmc1Tlh1THY2dGp2ZGlkZkRWVWtzVlVYbDZsT1hESkp5VTFzalAyek1XSGlwMUZMRkxJZ2NBT2VfNWVsWDlSRzQ3YlVoUC1QV0w5S0ZhcU4zbV8zd2otejRNUHo3SURXd1VQa0FUX2kxb1NtbEZXQ282NHdyOENxYUIwVTE4RU5Oam4xZEpNaGRweGozaV9UVVd1Z3RVRktLNHJzZTBEU3l6R1NPWlkydDMyc0k2MWRpN1MwaU9yLXJfbVI2c241V0R6dw?oc=5",
+    "source": "RS Web Solutions",
+    "published": "2026-08-23T16:00+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "d33f28237f18d07b",
     "title": "Apple stock tests $309 level as Q3 2026 earnings beat and AI push shape outlook",
@@ -39,19 +52,6 @@
     "score": 5,
     "tags": [
      "operations"
-    ],
-    "direction": "negative",
-    "primary": false
-   },
-   {
-    "id": "948d68c7f0250df5",
-    "title": "Apple Stock Price Forecast: Product Price Hikes Trigger Over 6% Drop, May Continue to Correct",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTlJXaVg4MFRqczZmNnJxbTRROGN1VmFxRlh3bFd6aU5rcXRRRUZGdHBibDIwOVdjYl9VUjRwU25OVTM1WU5TSXNmRWtoZ1lkck5pOTk1aWtaTTBFTC1QMWZ5dXZkQ1RpUUNlSjJBbk01M0VtUGRwbXJ4NmVXeUJHWXVDdjBDd3lST25pbGJIMHl0dFRQeWFvSkNVRDNZdzdzOWFVWTdvVWg1YmtLOEIwdVFOZDZPY0ZRcXJ5SHN6bVd6UnRnV3RVblh3LUdpOHBER0E?oc=5",
-    "source": "TradingKey",
-    "published": "2026-08-23T00:38+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
     ],
     "direction": "negative",
     "primary": false
@@ -487,20 +487,6 @@
     "primary": false
    },
    {
-    "id": "1ce2c52ae6f8b69c",
-    "title": "Microsoft Stock Forecast: Is Spending $190 Billion on AI Infrastructure in 2026 — Is MSFT a Buy at $452?",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSzQzUHo1QjF5QktqWDB4dWJVLXhIYldVYlQ5TW14ai12WG0yQlhGcjUxSW5ZMHBtZExmNkMzVXBqd3E1Wk1vcjBsQlhDelBZQXNLQWtfTDhIZUdGVjRKYXNjZUw5RlFlMmpsNUE3Y3AxWGJIYnlVcUs3Ym1JX21CSTZfT1FkSEdHR0FjTW1MSXkyYWNicXV1Zm1nZ1VUNm1ydHMwbVl3TExqaVpjQTl3QzBaZV8tTVRtN3RmX3dGSWVTdjl6NmQtN0NNNGNwV0E?oc=5",
-    "source": "TradingKey",
-    "published": "2026-08-22T19:42+00:00",
-    "score": 14,
-    "tags": [
-     "earnings",
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "38ffcc6f4a97e218",
     "title": "Microsoft: Higher Revenue Visibility Met Measured Capex",
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeUZOWS1uV1VWbjVFajNNZGVDU2FtTElpWW80UURZU1JIZ3diOV9lYUU3M3FINXBST1lTc3lkZjladVlFRDBPWmQwV1Z5VnlwdVprUUJSWEotLUJxdFBBOWZXMHA4SkxhdlZEUUVvV3lqM3lIU3RobVZUTHVXZXp6dlc1LUZCdDBvVnpXdjNjSzR5YlBDX25QQThGWQ?oc=5",
@@ -519,6 +505,19 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNWRrTzRRRVozWHRYX3pKUGU4V0VuNHYyTXQzSWZRbDdaQVlTbTFpMEZfM3ludjktN01zV0poWUU1Y3hyS3RsQVh1aDFFVEYyVlVzb1NHYnNCRkE2OUNoNGt4YWlOT0F6MGxmRnRESzlDTXpkUlI5djRLZU51RmwtZmpiWXVKUWdWNTgxV3RfRmh5M0hBQVNBZ295LUJMbHhvVV85VmtTLUE1VkhmaVNrQWNOOGI?oc=5",
     "source": "Ad-hoc-news.de",
     "published": "2026-08-22T05:45+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "9e902b84d5272479",
+    "title": "Microsoft Stock Forecast: MSFT May Break $570 as Azure Growth Holds at 40%",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMDZVbEpHaGVTV21CUmNuMjl0Q2s3cFNTQ2VpTkNIWVl4aHhHZHFSbWhlVFRrbmZHRlA0QXN4NERBOWpqYjNRbk1tcWd1UjIxR2E2V1ExQjVneVlTU1QxNGdnU2drS2Roa0dSa3FGRmtkbGdPTUJNN0tIeTRpNWlZNkJZTGJtV29qU2hla205Zml1OFFGeFhKcWNtSVJMNW5CTGFmYXhubmRTUnU5d25zTnBUdllTY1hycjhHaGZiUlNJQU1OWFVZdFNwMkRXeERY?oc=5",
+    "source": "TradingKey",
+    "published": "2026-08-21T21:06+00:00",
     "score": 9,
     "tags": [
      "earnings"
@@ -563,6 +562,19 @@
      "earnings"
     ],
     "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "947974b63cb84b70",
+    "title": "Microsoft (MSFT) Stock: Raises Dividend as AI Capital Spending Hits Record Levels",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOODJYVW1xZmJPamJfSUV1bllURHNVZlZCQzZXd2JlUGNnTDNDNUVjYU5SVVlDS2tUY1FwRnpiTmFqaExnMjRWZzRIYlgzOGFETU84czFKd2RzTGtNWk9TSndsN2ZCQ2JMMjRaQ3JteUtIYVhKbGNicGk1MDZDMlZGUC1iT25WSnhGTmdDWFBhTmZsU3d1TXhwandocVVnZ0l5cGJlNA?oc=5",
+    "source": "Blockonomi",
+    "published": "2026-08-21T16:32+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "positive",
     "primary": false
    }
   ],
@@ -781,19 +793,6 @@
     "primary": false
    },
    {
-    "id": "6b8e90915b416b54",
-    "title": "HSBC: Two Hidden Nvidia Narratives Emerge — Open-Source Models and Supply Chain Lockups as Re-Rating Catalysts",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4tWUIzMzdMdnlRTDJuZlNFdi0xUjluRk9VTWd1dVpyaEk2UVZ3Q3hydEtGeWtkU0dLV1doU3I4VTQzMjNDcFJoX1puVUhkZ092MkhCaVUtNjdpa29EVzhIS0J1emZKMjE3M3ZvcVBrOGJKTTFkN0E?oc=5",
-    "source": "finance.biggo.com",
-    "published": "2026-08-23T13:30+00:00",
-    "score": 5,
-    "tags": [
-     "contract"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "d176406094717107",
     "title": "Options on Nvidia Earnings Anticipate $312 Billion Volatility Amid Increasing Server Expenses",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTGw2dFBFU1FHMnliZDFPRUNKSXlQaWpDUXNpejBicjlxNTFBRDBHQjdvWjhEdzhmRDU0YUhWUlluNGdHblVXeGdJaFdYNlhjdGhZZXBhWDhwWFp1UTM2M0VMVy1aNkhUbW1YajNNQlFLdEtpWk9Rck80QWd1THBvc2stcDVCNmphSkw3cWhVanBJY205c2c?oc=5",
@@ -896,6 +895,19 @@
     ],
     "direction": "neutral",
     "primary": false
+   },
+   {
+    "id": "09b4abce1774f02a",
+    "title": "Nvidia Earnings Put Downside Risk in Focus",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5RdEt5VnlIZUgyamtxNDF3eEthcXh2d2F5Rk9CeDZPZktSc0hxbzFISlZoVmRBeUlfVnNyckU0Sk9YclFZam1aWnVsTVE4c3JUUFVfS1hmYmVnRWFWb1JkMjRvR3IwaUlFcFdNTjdrUTdRZw?oc=5",
+    "source": "Mott Capital Management",
+    "published": "2026-08-22T17:10+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
    }
   ],
   "INTC": [
@@ -926,6 +938,19 @@
     "primary": false
    },
    {
+    "id": "2e6b6ff094672ddc",
+    "title": "Intel Price Forecast: Nvidia Picked Xeon 6, Invested $5B, Yet Analysts Still Trail INTC",
+    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPUTJ0M002eEJBWW5ocUl6ai1nTkJ1WjFMMktJRWtzekFRcktQd1d1MTFOd1RwbVFQWk9hU25UUC16RzBnbXBXdWZwcE5pS2ROeVN1YXhFZlNjVVctMWg4SWI1Y2FJazZTOTg2OVd0OWpmMGFKczk0ejdZX090Mkg2TU1Tc2Z4b2EwaUJ5MkxITm1NLWxic2JFdDVJRGZjdTBwbVNETDFURk1jMHBQN0ZQV3BhYVcyT2JDYWR2S1hLMERJNWc1bmVwODBxcUN1YUdxMlNQemdJbktvdzQxV0pmZXVIX1Zfam5N?oc=5",
+    "source": "TradingKey",
+    "published": "2026-08-23T01:54+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "62f100c6de640fcb",
     "title": "Intel Lands a Preliminary Apple Chip Deal and an SK Hynix Packaging Partnership — Is INTC Still a Buy at $124?",
     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNTGpHN3o3WGJhaU1Nbld3bC03TnZpTlhfRXNCeU1Oc0QzRTlyelo3VjNvN0Nucjd5UWpkTDB5S1VPMVlRcHhfekg0U01ZbnoxNTRrbU1UdE11R3FQX3lIX3J3eFN0OUFjaENlM2ZlSjg0UkFIbGoxMGNPdXRrZFdVcEIxWTZfNlNRRG1fQXA5X1VoLUNMQklucVppVl9mVFc1cVBsNV95V1FqUWpLdEExZHZQTm5NM0RVQzRucC12MGthOVVXdEhsTUVWR1FNWjVhdDRXelNuTzNVbHpqSWJiamFFVmI0NTFGRjdwQTFR?oc=5",
@@ -949,19 +974,6 @@
     "tags": [
      "earnings",
      "contract"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "2e6b6ff094672ddc",
-    "title": "Intel Price Forecast: Nvidia Picked Xeon 6, Invested $5B, Yet Analysts Still Trail INTC",
-    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPUTJ0M002eEJBWW5ocUl6ai1nTkJ1WjFMMktJRWtzekFRcktQd1d1MTFOd1RwbVFQWk9hU25UUC16RzBnbXBXdWZwcE5pS2ROeVN1YXhFZlNjVVctMWg4SWI1Y2FJazZTOTg2OVd0OWpmMGFKczk0ejdZX090Mkg2TU1Tc2Z4b2EwaUJ5MkxITm1NLWxic2JFdDVJRGZjdTBwbVNETDFURk1jMHBQN0ZQV3BhYVcyT2JDYWR2S1hLMERJNWc1bmVwODBxcUN1YUdxMlNQemdJbktvdzQxV0pmZXVIX1Zfam5N?oc=5",
-    "source": "TradingKey",
-    "published": "2026-08-22T16:17+00:00",
-    "score": 9,
-    "tags": [
-     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -1277,11 +1289,11 @@
     "primary": false
    },
    {
-    "id": "8bc803f7cc083017",
-    "title": "Meta (META) Stock Price Outlook 2026: $55B Ad Quarter, $145B AI Bet — Is $540 the Next Stop?",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNckswVmVKY2RZRU1FNno3N0RTSGVzN0JCYzZhTGlLOVVLV1hLWF9UdndsRFhHd2RUYTY5aHNrellDam9FT2RVUjFsVkcwZU5pTFFzVV9TZG9zYkpGcUtDa1NBLTBEc2VfWmo3c09XMktNQU5Yam5CUllnVnFTcmx0RHFQa2szNFF5aDhJd3AzakFHTWRnOWlQWGt2SmIwdUQ2cUFraTNRTVo5TkFzTGswd3FpTUkxaXZySE5YdVpBdTluMC10RDBZOA?oc=5",
+    "id": "246d26201aad022c",
+    "title": "Meta Stock Price Forecast 2026-2030: Can META Hit $1,000?",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTnpGV296NEJTWWFiTlR3UDJEVzJQanM2dy00VDJZSXNHMkx2Tmx3bGNUYUtncnRaTVhOdU85bEE5SDNtRFVMT05LVTRTZnljcnl4T2JNdEJDWmRManowN1U1bHFBbHBrNEplNV9TdHVwdW8yN2FzTzlSbnhya0h6bFVtaEM2Y0pfZU5TQmI2RHVKUEVxNXZmNW9lSmlOTmV6VHZKX1cxbTFZTERTTFBaRXdzOFlSMV95YXp1V2ZGVDNwOVU4UlRianZQYlkzMzIyQzdDXy13YjJ5Tm8?oc=5",
     "source": "TradingKey",
-    "published": "2026-08-23T02:48+00:00",
+    "published": "2026-08-23T02:53+00:00",
     "score": 9,
     "tags": [
      "earnings"
@@ -1290,11 +1302,11 @@
     "primary": false
    },
    {
-    "id": "246d26201aad022c",
-    "title": "Meta Stock Price Forecast 2026-2030: Can META Hit $1,000?",
-    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTnpGV296NEJTWWFiTlR3UDJEVzJQanM2dy00VDJZSXNHMkx2Tmx3bGNUYUtncnRaTVhOdU85bEE5SDNtRFVMT05LVTRTZnljcnl4T2JNdEJDWmRManowN1U1bHFBbHBrNEplNV9TdHVwdW8yN2FzTzlSbnhya0h6bFVtaEM2Y0pfZU5TQmI2RHVKUEVxNXZmNW9lSmlOTmV6VHZKX1cxbTFZTERTTFBaRXdzOFlSMV95YXp1V2ZGVDNwOVU4UlRianZQYlkzMzIyQzdDXy13YjJ5Tm8?oc=5",
+    "id": "8bc803f7cc083017",
+    "title": "Meta (META) Stock Price Outlook 2026: $55B Ad Quarter, $145B AI Bet — Is $540 the Next Stop?",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNckswVmVKY2RZRU1FNno3N0RTSGVzN0JCYzZhTGlLOVVLV1hLWF9UdndsRFhHd2RUYTY5aHNrellDam9FT2RVUjFsVkcwZU5pTFFzVV9TZG9zYkpGcUtDa1NBLTBEc2VfWmo3c09XMktNQU5Yam5CUllnVnFTcmx0RHFQa2szNFF5aDhJd3AzakFHTWRnOWlQWGt2SmIwdUQ2cUFraTNRTVo5TkFzTGswd3FpTUkxaXZySE5YdVpBdTluMC10RDBZOA?oc=5",
     "source": "TradingKey",
-    "published": "2026-08-22T17:37+00:00",
+    "published": "2026-08-23T02:48+00:00",
     "score": 9,
     "tags": [
      "earnings"
@@ -1355,5 +1367,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 98
+ "count": 99
 }
