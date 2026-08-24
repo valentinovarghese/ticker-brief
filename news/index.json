@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-24T23:03:35+00:00",
- "changed": "2026-08-24T23:03:35+00:00",
+ "checked": "2026-08-24T23:31:04+00:00",
+ "changed": "2026-08-24T23:31:04+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -28,19 +28,6 @@
      "contract"
     ],
     "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "568e16735ffa7c05",
-    "title": "Memory Stocks Slide on Report Apple May Source Chinese Chips: SanDisk Down 9%, Micron and Western Digital Down 7%",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOb0NIQll1YTlpOU5MZk82SlA4bENYTjdjbE0weGtjVFRqMmpzaDZnSFJrcXFDUUtIdzVCUk5nOXZGVG1oSkM2R3Y0RFQzRUdrLTJvelVaTi1TaGxkQTdtc0lpblMtSzBJR1FBQjJLN3pLeE9uTUI5cFdJdndWbWJvSVpEVVNXeERCM2tNbWpGTHZjb29UX09BZWlhRXNVUQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-24T15:29+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "negative",
     "primary": false
    },
    {
@@ -80,6 +67,19 @@
      "ma"
     ],
     "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "c70453590f49dfef",
+    "title": "iPhone Ultra: Report reveals new details of upcoming foldable Apple phone – including its one big downside",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSnNESTdEc1JtWGtXbmZCbG9IN2NvTUo1cFpXMzg2MjlRNnl2Zl84R0F3N1V1b3FoWDM3WEJfRmpCS1UyZTV1aUszdzRXemdKOE0xbkVaUC01Q3FCdG1FYm95Z0tBVUhCMWp6cVYyelE0bWJYdWVTb3d2am8zS1NIZV9yUms1QQ?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-24T10:47+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
     "primary": false
    },
    {
@@ -340,7 +340,7 @@
    {
     "id": "6bc25e9bb2598c02",
     "title": "Palantir Keeps 55 Cents of Every Revenue Dollar as Profit",
-    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVk1FRVlGNXc4MVVyVHlLX3pfaC1IS0lCcnBLX3o1M0xRZjdVUkdCd1RxNHpNOGZtV3kxQUpuTzNudHFWTy1LdDRDZzI2aWtYaEFOQnNSM3NwUzAtMGhMVzVEVEZFcXp0NnFaNDl6XzA1aThzVkNzQm52cDRfdE5VeGNLQnRpdS1GN2xaSEo3Z0pNSUYwZFQtSm5fay1iS2wtTVpnVEdoT0Z1eDZaRmJ0eEdsRmlpMGpUcWJ1Nkl1cXFmdlJEdFZaWUg5UEJKS2JvdUl5ZVIwZWlnZw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNR01kVkRqaFVfSEZSaE1pVzVNRkFCNEJ6NWVSamk5bkhjeFVMYmM0MWhSTEx3N01xSFZMbkJNbTJUMjhVa3FtX3hXUUd1NVJkNGhOYTRadkkwUDh6Y1ROVzJPaElIYlhEWklsWmRlVE8ybXN0azYyZlRxT002Y2FZa1o2TWt5YWVyYU9HdFAzVnczc0ZzeVNWNC1WbWVoTnRHZHp1WG03aVAzMEFkVW15Q2ZPdFNFaXI0cTJnbUhlRzdUMHNDZGN5eXNfMTVtS1FWWnRxSDRYdG15dw?oc=5",
     "source": "The Globe and Mail",
     "published": "2026-08-23T01:58+00:00",
     "score": 6,
@@ -676,6 +676,19 @@
   ],
   "NVDA": [
    {
+    "id": "2bef494c9dcfc978",
+    "title": "NVIDIA and 4 Other Spectacular Earnings Charts You Must See",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVWk3WlZ1cUxfOHFtOXhfVVczc3h5dHBWeV9TZUsyS3QyUi01QlNrQVRVNTBwd3pWd2lnUkVBWjBSclp2UUEtbDJYZl9HdkFHUjV4cGI5LUpsRnVNN0RuU0U5VWE2a01TWXRMd0k4RzkwLWVyWGZHdHBXZnJ3WUh4MS1VVExtQ1hDWjFlelJhTWlvaGZYYXFfeXdLeGoteXo2SFQxSWtvYUpXUjhpS2tabGgxc1BCQQ?oc=5",
+    "source": "TradingView",
+    "published": "2026-08-24T22:09+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "39948b3161844508",
     "title": "Dow Jones Futures: Trump, Bessent Comments Spark Tech Losses; Nvidia Sells Off Before Earnings",
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRFZIaFY5UkpfTGhqVzNUZS00enZhN2pKRlFWcGJrVkI3dzZnZ0hQY3FEMlotRTJEOHE5OTNiVnREbjdZOUpla09mbEdKaVNVb2FQaXlkSlFWTFF2MlhZcjNlN1ZHb28zMnZRUFN5WERyX2RQV2FVWHRYZ2lRRUJlNXN0eWN2Q3BtNVhhOWhQM20yTC1OYkRxZVBCSEJhYThMWUtOd3JyS3hnVkJWdkRvSDZxRnl0N1NrNUE4eWJPUUE1OXlCanBuekJB?oc=5",
@@ -686,6 +699,19 @@
      "earnings"
     ],
     "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "f03c8afb377e721a",
+    "title": "NVIDIA Earnings: A Quick Look at Expectations",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZ2xfdDdJR3NFMEFuaDM1X09TMkJTc1BGMHdKNjFaTnc0Vy1iVFBMUW5CM193SU5xWnozSldqTWdPVkE1UmhxWk9yYm1reGJWNEJTNkZLYXJvb3Z1Tmowb3VvSlNjUE93MWNNRW01ejdEcmVuUmZwdHFHOU5IYTNkTDMtZzdJOFFnWnp5ckVFUWc1amQtd3VRWDhzTjFmQkQwQkE?oc=5",
+    "source": "TradingView",
+    "published": "2026-08-24T21:28+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
     "primary": false
    },
    {
@@ -779,32 +805,6 @@
      "earnings"
     ],
     "direction": "negative",
-    "primary": false
-   },
-   {
-    "id": "7bbe08e14f044313",
-    "title": "Nvidia Q2 Preview: The Beat Is Priced In, But I Have Questions About Their AI Investments",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOeEdqcExneWZ6Nm1kU3VrSjJFWjhUcTFjT3pvbXRqM0daLVFHaFFpY1o1Zk5samlGVy1sc0NtdEpxck01MWlieDB2NE9UdkdEcEp5b2xWTndpV09OcXY3X2F3ck1VM3pPenIyYlNnWjlNNlRjMjNpRWxEZ1VsOV93ZUNPT3hUenNlbWxqSVpIZXUxUlF1S25xRG55VnA5MXBWSGI4OFE0X3NzaGd4YkNtZWQ2SG1FRGNPclpHWjUyLUh2Wlh1UHdN?oc=5",
-    "source": "Seeking Alpha",
-    "published": "2026-08-24T17:29+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "8d5d474df72d6767",
-    "title": "Nvidia Reports Earnings Wednesday. Here’s How Much Traders Expect the Stock to Move",
-    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMHVLQU03THBfMGZYMl9KSERlRFBLTnJBMHc5dE9VVGppMnd6T3pucENWN0lpOTNET2Q1UGtIenEyblVuaFVmekh1Ujl6OU00TFB6SDVTb0F2RUYzOE9rMmRzaFJQV2J1VkJadVl0NElDNng2czFfaWtHdHg2djZYNmRqUGRYZmFJN0U0YWVUSEgtd0pZRmtmSjBDVW52ekM2Z0drUTdxQi1LYWhWeEVRRTFud0pVai1xeWJzbVlsRFhNY3UwemtOVGV4VjlSMHd6Znl5WU81azBRS1E?oc=5",
-    "source": "Investopedia",
-    "published": "2026-08-24T15:18+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
     "primary": false
    }
   ],
@@ -1053,19 +1053,6 @@
     "primary": false
    },
    {
-    "id": "9f7899f07e974c7f",
-    "title": "Marvell Technology (MRVL) Q2 2027 Preview: EPS Est. $0.93, Reports August 27",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZS1LdmdaTzVVYXl2NkZCSTRCaGRpeEpCNG1jQ0NBMWI0NGtla3lQR3JydVdsbXVSMEZHWnpTdWVQS3Y3aml4ckhSc0FoVkxDc0ZoeV9Ock5FbVEwSFpaZlYwblZkOFh6UUJqdmJsQWRLSWlXTWp0ekFuMkhFRnVUQXNJbEQwN2MyRzg5WUgyMzNwRDUzdUZiT3NZaTI0dWVETTA3cGxBQdIBpwFBVV95cUxPZS1LdmdaTzVVYXl2NkZCSTRCaGRpeEpCNG1jQ0NBMWI0NGtla3lQR3JydVdsbXVSMEZHWnpTdWVQS3Y3aml4ckhSc0FoVkxDc0ZoeV9Ock5FbVEwSFpaZlYwblZkOFh6UUJqdmJsQWRLSWlXTWp0ekFuMkhFRnVUQXNJbEQwN2MyRzg5WUgyMzNwRDUzdUZiT3NZaTI0dWVETTA3cGxBQQ?oc=5",
-    "source": "AlphaStreet",
-    "published": "2026-08-24T13:52+00:00",
-    "score": 9,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "8762d8559409651b",
     "title": "Marvell, Intel liked at GF Securities while highlighting ASIC outlook",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOGMxMWpCU25McGY4UUNtVG9lY2F3N3o2bXR1RHpxeXVYbDUtamFjQWRWOFk1QlpVbDRwMUV4ZGVrYU9ub2NiX3JiRjRldFNJbjJoeTV6Y1dVZ094SVVsc3BFWEhOZlRDWHhfUFBlaDB6azY4Q2NpUE1BaXNjQ3FIV1BXb1FES0wteVFyeXlrTXdqREZPZkxNTG0xYzhzQWJpbHFXVUVNUVhWUQ?oc=5",
@@ -1092,37 +1079,11 @@
     "primary": false
    },
    {
-    "id": "baccc906e2209acf",
-    "title": "Marvell Technology stock tests support after dilution concerns from Google warrant deal",
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPeXFINWxlY2Q5amstTU85b3l2a1VBTVFOOUkzSGg3dlpjRFROQVVrbXBRWEJjdUhwZnhTaWstWHB1ZGtXdGMwWk1tcUJleGdBbC1yR3U4YVZUeXN6VS1pbFdQMWNWUHNzQ3FvWFJSUHJUS29wd0g4WmYxZmo2WVYzaEk4ek5TT2ZSV09famNvYUF6TF9KeTk2OVpiZ0JaWUpxa0k5YWstME9rSVFhVEpsRDdhNnIwWFVXak83OThrUFhJZVhnell0ajQycVY1eVlOSEpj?oc=5",
-    "source": "Ad-hoc-news.de",
-    "published": "2026-08-24T11:12+00:00",
-    "score": 5,
-    "tags": [
-     "contract"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "6dde7f5363f29a87",
-    "title": "Marvell Cools After 178% Rally as Valuation Faces Thursday Earnings Test",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVmo1UFJhb1FOOTEwZXBJTVFzU01HLVVFeTlZSFo4SklDOVNkRDd4am90ZHFQZ2p1Qjg0SEVnVExwUG1vYXFzU1NXOVZ1VXh4d0lfOGd1WnN2c2Znc0NQR2RSN2JtU2JCT25rbmh6TzFzZkhMSjVSa3RSSHVYWUg3dHJoclktRHp1TjF6bjFtSE9RNXh5cG5qRlJ6elQ5bDJ0S2ZwaXYzXzBkem1CckNxRExQWDhIdWJjblpRYldxZU4?oc=5",
-    "source": "Sahm",
-    "published": "2026-08-24T08:52+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "4ed14f55198605d5",
-    "title": "Marvell Expands Chip Agreement with Google, Impacting Broadcom",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQa0czX1pfVkN4aVZ3YThESHJCTDNUdFpULXVmYUEwajRkRmt4TVRSV1hnbk5UYTJUTXJCUTZPV3F1dngyQ0ljR3pCdnlVdzBVWVZYamM2WkRCYWx2TkJmZVFTZ3NBYW0tYkkxTTJsWGEzVHNlU0Q0RVNLdVU1Q0MwWlhkOWdQX3RUaHJMSTNidFBfNTkwYmdoMHJLNA?oc=5",
-    "source": "Intellectia AI",
-    "published": "2026-08-24T03:06+00:00",
+    "id": "fc7b25ec96bc3f82",
+    "title": "Why Marvell Technology (MRVL) Is Up 6.8% After Expanding Its Equity-Linked AI Chip Deal With Google",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQ3RZZl84UGlZQlBxYTNpWHNXV2VnLUxlcWt3THJ1SWozblBZSnJyaE85U0NIbDZLVkZzclpNWWlxSFRSak5tYU95SjI2UGliT3R5Vkt4al9EbnlpMXJrRFZTWGZQeTRTYm5DdnNMTGtjZFBlRE9VSGhZZDVxa0JwUHIxNEN2VDlvWUxwOG5IN3hiWnB2dzlfVVFqZDdUbnV2MC1XdDlUNEQ1aEZ4cG01cUVLWXNlQU5ON0lwd0hTZE1oUWdVYU11TG5MWE40bkRLYS1pZVNoU2FaNXfSAeABQVVfeXFMUDFZeWJSZ0MySWdjQjNwZTN3b05OejRLdFdHTnpkaEJtcDVTVGxYSmsxQnVhaVpvdDVnQ2hPTmxpTmNEM2xWQmxvQWU1U05mSzEwT05EUFc4ektXbVVEbS10c2FSa1pUa21fU09Mb2NkOG1pRWQ5aTV",
+    "source": "simplywall.st",
+    "published": "2026-08-24T01:26+00:00",
     "score": 5,
     "tags": [
      "contract"
@@ -1153,6 +1114,32 @@
     "tags": [
      "earnings",
      "contract"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "57167fc6c9233050",
+    "title": "Marvell Stock Forecast: Q1 Revenue Jumps 28%, but Is the Trillion-Dollar Thesis Real?",
+    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNNHdCZWpxVmpVNjUxQzl6N2hDdGdZWG9Xa1pfSnB3TVNYcWt2ZnMydm4wSHFwWm5zQXZmTkVSSk1nWkRUZXluMFJzYlgwYkVMOF9peGpoYzdJTWRpYkJMM0lGWG42aWVvVDJnREVxc0JaYnhjNHFIYzJBeXYtQWxTSUxtYnVvTERQbWVxVWZxa0lVOXhCZG1zQ3VVLVpqa1VlZFI0eHMta1A3T2gxcmc1S1ZMV3JlTUstUDl4SUgzVmpuUXRfdnhqTS1FbU5jTU1kSzdubkNFUk9fTENSX1Q2b1NhVVFtaXJncGdTOQ?oc=5",
+    "source": "TradingKey",
+    "published": "2026-08-23T16:27+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "418cb07afc564a44",
+    "title": "Marvell Stock Forecast 2026 and 2030: Can MRVL Reach $300?",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE00UWlDU2ozTTBHSGZQenhoYXFoWlpIcFRLU3M1ZGRyd3VTYXRYTkZibm5nNUtOOThHU2hjSnZrR01rX2l2TlZvaGNEanpvQ1hpVmZoVk9IdmpmdFpPdGFPenBzdTBYQQ?oc=5",
+    "source": "Markets.com",
+    "published": "2026-08-23T16:02+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -1290,5 +1277,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 93
+ "count": 92
 }
