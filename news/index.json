@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-24T09:12:42+00:00",
- "changed": "2026-08-24T09:12:42+00:00",
+ "checked": "2026-08-24T10:05:19+00:00",
+ "changed": "2026-08-24T10:05:19+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -28,6 +28,19 @@
      "earnings"
     ],
     "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "e8135b4f17571843",
+    "title": "Apple (AAPL.US) is about to change its CEO, Tim Cook delivers a “stunning” report card: Market cap increased by $32 million per hour, repurchased $877 billion—ranked first in the world",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xTDNFTjIwNmpuSFYyeWRKY3VuLXBOTU4zU3BtSkRnelozUkdfTUFJZTQwX1NKckNpTlN1eGt6c0tGbGdoU0V0MDNJNlROVnZRRU4zMXd3amFRbk5RZThJRjNjSnBNdU41enfSAWpBVV95cUxPcUwzRU4yMDZqbkhWMnlkSmN1bi1wTk1OM1NwbUpEZ3paM1JHX01BSWU0MF9TSnJDaU5TdXhrenNLRmxnaFNFdDAzSTZUTlZ2UUVOMzF3d2phUW5OUWU4SUYzY0pwTXVONXp3?oc=5",
+    "source": "Bitget",
+    "published": "2026-08-24T03:10+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
     "primary": false
    },
    {
@@ -120,22 +133,35 @@
     ],
     "direction": "positive",
     "primary": false
-   },
-   {
-    "id": "5a11005a4dc63972",
-    "title": "Apple Cut Its Standard EU App Store Commission From 30% to 26%",
-    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNlZleFFQc0h2cUVDSkFYcFdCSDJxUWFXOEtQOFVVUEJnZWphT0I3dGZ1TmhkaWgyWmktT3UyNkNqUlZnUWdFQXhzRVBQTDhPVnZCM2laejRGRmVkc0N3SzVwaU5lUFN0ZldrSWN2U1JLUlBnU1lUQnY1ZmgzZzdhb3lmLVFYSXZrZ0JnbG5QY2lNRnc1cjFEcm0xd0MzRzJ1d1Buck9fX25rdjVjMmRPTVVCRW9nSW9IXzZjZExqRHRQTTlUWGlpOVFqUFczTndtUllfRm50cmhTYkEwOXc?oc=5",
-    "source": "The Globe and Mail",
-    "published": "2026-08-23T04:23+00:00",
-    "score": 5,
-    "tags": [
-     "operations"
-    ],
-    "direction": "negative",
-    "primary": false
    }
   ],
   "AMZN": [
+   {
+    "id": "ceb6f27d64a0498b",
+    "title": "The One Line in Anthropic's S-1 That Amazon Investors Should Read First",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZnZNMXhfbDFCLU1UTnhqaGxMdFBhQkZGYlJfdDJXZm5GaTd0T0lIaDc5QTd5RUVwRUkxcUlOM3EySWctY1ZITDAzWE9raFJUS25aYlpHajVNSl9TRGVPUk9WTC1SMUwtSXlVQm9EaFFVeW5pTVFWUlNmOW1QcW55dG5iNmdCTHFvMkI2RWhCN3RGcUlqd0hn?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-24T09:50+00:00",
+    "score": 6,
+    "tags": [
+     "filing"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "bc1f6c0a0a90a796",
+    "title": "Anthropic’s S-1 filing reveals key details for Amazon investors",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE0wX05BZC1YVWJwbUpIbVlwd0NUeHVJODY0V0hRWFpLQ05ITXBMUTV4TkRfQ3RQVXdFMHYzc3JhZlZDd29TMkVmRDZNa005enUzTFNIakwwQV9qZHdLSTZSbHdtY3FUZzBib1QxV2dIMzQ0dw?oc=5",
+    "source": "Crypto Briefing",
+    "published": "2026-08-24T09:45+00:00",
+    "score": 6,
+    "tags": [
+     "filing"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "4d5623fcfa1edfd8",
     "title": "Why is Novo Nordisk stock up today? Amazon Web Services deal and resistance levels in focus",
@@ -154,10 +180,23 @@
     "title": "Iran strikes Amazon Web Services facility in Bahrain, causes temporary disruption to services",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNHBERFF1YmpYWjh4dkUzdjdybGFPZjVlUW5yc2dzSzU0cTZKOVN0Ykl4bVJ4LXp4b09vcHJITDZfa3hPaUMtU1I4bGtNLTBpVTRucUVwY2U1ck95RzcwYzFMUlkwaGEyX1FZSXJuNHBJQnhHQTBUUXZ2ZEJTNGgzR1Z1VjJ2OTUzTzNEYkdoYW1MSjNsY0pCQ01FQlJ6S213R0dnOUFQTWNPV3JvT1p3UXlNbzdlVjdDQnc?oc=5",
     "source": "News On AIR",
-    "published": "2026-08-23T20:09+00:00",
+    "published": "2026-08-24T07:31+00:00",
     "score": 5,
     "tags": [
      "operations"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "7d91a03f0d96edc2",
+    "title": "Jeff Bezos Remains Amazon's Largest Individual Shareholder With Roughly 900 Million Shares. Here's Why That Stake Still Anchors the Stock.",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV1c1aHI5aHU2aGI5ZG96TzZRU2NCR2lWOEhBYVdIRm5iMHRqN0p4YjNSTjVQZDRlNWpzN25HSFgyRlZuWEVtSXdCYjRTQmdObWdUQUNWU29VNV8wN0g5WUZfUXVRNWM3d2pEMm9lU2ZSX2hsZUZINC1xRlU3eDRTajFLTQ?oc=5",
+    "source": "AOL.ca",
+    "published": "2026-08-23T21:44+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
     ],
     "direction": "neutral",
     "primary": false
@@ -202,19 +241,6 @@
     "primary": false
    },
    {
-    "id": "46a0d9f88819d481",
-    "title": "Amazon Q2 EPS $5.75 beats estimates; analysts see $1 trillion AWS opportunity",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeEUwclE1bG1LcGkzd1Q4VU5rMmt5bW5qRVJBbEpPMS1mN0R3aEJjT3NTTlowckJYR1ExN1pnbGotMjZwZUFrV1VJa2pwOEwtZnEyMWFfOXBWdGlLOXFpb0Z6ck1YWm9hUHZ4NS1IbmdpaUpmcXlqRWo5ZHZOcWgxX2JNTU15dEtpRno1M2hXclo3YlZmTXBMNWtCUUJtRnhYT0tRU19ab2dzc2Q5SHc?oc=5",
-    "source": "scanx.trade",
-    "published": "2026-08-23T08:24+00:00",
-    "score": 9,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
     "id": "a7d275206697eb20",
     "title": "UPS stock steady as Amazon volume cut reshapes profit outlook",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOS0JzMUE5cEl4OUttWDIwWjZ0OWZnMG1EbGJ5Tll1S0VGanJmczdldXFHX0FYanpzdTZUS3pZQmdnaVNBb19SMk1DN2pDX3lTTGRBSXoxLWRJbGdPbUNaUG5jRU1xN2J1NG5kdS1WSkRuXzN4bUtWMHJnb2JTQ0tSWG1CZlR6dUUtelZKZGhRcVZmaXBiallXRk9CSXVOaU9OVHNyTzVSb0JDUnlLeWh4NzdpTEhZY3YwdDhpbmFaLTk0dw?oc=5",
@@ -235,19 +261,6 @@
     "source": "Sahm",
     "published": "2026-08-22T11:13+00:00",
     "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "2bd7f7b2ce7ab505",
-    "title": "Resilient Amazon stock holds above $258 as Q2 2026 growth supports upbeat earnings outlook",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVktJRnZta1dNU1hIbkNhb3NidTZ0cWRXUG1LMkpTSDBmY09iSktQdFItaTA0WFlaUjVyT25Pc3drWmVjU2RfdDBYNGZJZjQ4VEhpWmZENHFQUlV0VXR2eWd0S2ZoSHZSUW1TSHc2Vzl2aG9tWS10ZVpNUWw1ZDgtcE95LWpEeVNIQkU5S1h1MWpYNHFUdmVLSk5KQ2gyeXQ5TWdGTlppZGZSd3VrSmN0d1VaT1N5RmlzWS00bk82NnZ3SWE5MElXUmZKOG5Tb2xZ?oc=5",
-    "source": "Ad-hoc-news.de",
-    "published": "2026-08-22T11:08+00:00",
-    "score": 9,
     "tags": [
      "earnings"
     ],
@@ -315,6 +328,19 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNT1lhVkROd1RaemNsV1lTdW5hRjdWZUtqcjdycUNEM3pNc2JQM2tnNkh5QW1jbm1lVXV3ekRxdk94VlBZT3AzSXdKc1owTHRtRFhWQU1zQWVKbFZMM25XQjB1N3FKN1BWZ0hlaTZuY3J1WTRBQ190MHhBdHE2VVF6bUlNVmpTS0huQ2VHbEtILWotQQ?oc=5",
     "source": "Briefs Finance",
     "published": "2026-08-23T08:20+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "439012cfc74ca57e",
+    "title": "Tesla Rises 5.1% After Securing Nevada Robotaxi Permit; 5,000-Vehicle Limit Not Forward Outlook",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORkZyY3Q2eEtlRWtMeDJ5b2hmOFhpN2Zla3oxYndRaE9RQVpidzA0Zlh2ckNBcC1QaDVyaHE4T29HUjk1UFFjTHpuZGNtRmZ1ZGk2Yk9tX2xRRndpeHY3UmhXeUpMVkJhYnptdE42X0pKeHFBUDRoZGtPcElwakJIN1I3Q3E5WjdRUTdYS1BwbnlZR3FOWEdHaXUtQ05WbGxJMEdj?oc=5",
+    "source": "TechStock²",
+    "published": "2026-08-22T21:56+00:00",
     "score": 6,
     "tags": [
      "earnings"
@@ -414,19 +440,6 @@
      "operations"
     ],
     "direction": "negative",
-    "primary": false
-   },
-   {
-    "id": "6a505d2c0fc6ef74",
-    "title": "Cathie Wood’s ARK Invest Buys SpaceX, Securitize & Solana ETF, Continues Palantir Sales",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaDdkZWF6Y0ctT2lWcnplbDJzQ0YtVXJmZHQ1ZDVkcUZpM2x3VEtINUhLUDhSUGRVQldjWU1VelJjWGdNbm9CT0t0c2dNcnhSQVc5d0F6Q1F0X2QxR0xHb05qR1JXYkVkTUllQjlwRndNMkFCSzVucU5yLWJ6SThJOFVBa3JZODRCeUlnZWctWHJoeGxBaFhSMVI4cmJHZFptTThaVWk2bkJXZEd4eFQ1Vw?oc=5",
-    "source": "The Crypto Times",
-    "published": "2026-08-22T09:48+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
     "primary": false
    }
   ],
@@ -671,48 +684,22 @@
     ],
     "direction": "positive",
     "primary": false
-   },
+   }
+  ],
+  "NVDA": [
    {
-    "id": "70a90914fad4b66f",
-    "title": "Robinhood Price Forecast: Can HOOD Reach $130 After Its AI and Crypto Push?",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNG11RWJVQnF0dkJJWGczRHAyaUpzLW5EXzl1ZXpLMm9vUzMxOWRTcm5qVG5qUzNZNWE1emVYOTctbFIwbmRRQnkxTFpRX2RVUGV5bGRBYU9rZXlMek5vSTNzQ1RDekl4aHctekJVR0ZfcTc1SnlaM1dGUl9yQ1BndDNscGNUNi04VXM0d19iQXdJUjFwSU5JY3liQ2NxNG9kNENhdE4tQk5kQTBraUlnSVY1eDdiRnM5X1JVUDluMA?oc=5",
-    "source": "TradingKey",
-    "published": "2026-08-22T22:19+00:00",
-    "score": 9,
+    "id": "c012b12b3ba4412f",
+    "title": "A Stock-Level Perspective on 13F Filings: How Are Major Institutions Positioning in Nvidia?",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSW1LZnJodFdBTzFiTERVQXBZWGg4aVQxVnh0Z25leC1qVDc5Z3FRXzRxS2tITlo5MHg1LVMwZEFwNHZrclBKS0R1R2dOd3M0X2o1LUZta2dJOFJYZE5WdUFrWERRaXdjYkJLRGVZUUo0R0lMYUNqaGtFSU0yT1RNV0RPR3F5cXdtNTA3RXRWLVRWZXRBT28zaXdrQVdhZV9wRHFjUkl2ZGRHS3Nq?oc=5",
+    "source": "Moomoo",
+    "published": "2026-08-24T09:33+00:00",
+    "score": 6,
     "tags": [
-     "earnings"
+     "filing"
     ],
     "direction": "neutral",
     "primary": false
    },
-   {
-    "id": "65805c8ea5f79c57",
-    "title": "Robinhood Sees 14% Bitcoin Jump Add $11.7 Billion, Sparking Revenue Debate",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVmE1R2luWS1ZRTRZQ19lMDNOdV9Lai0xZU44ZnRoVlhGZzJtaWI4U0JHWlFMMElPSFA3aVdMbDcyQjRVT1RPMFNwcXNBbGltXzhMQ1NZYUtLSTlLS2cxWkQzckFJZXhQYk40djQ3aEtKMlBLVGpLMTJSdnVfV3piVjVHUElGUWRyUkM3U0tHQURHcWxLX0N6dElSaG1lZw?oc=5",
-    "source": "TechStock²",
-    "published": "2026-08-22T09:56+00:00",
-    "score": 9,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "9c1532161f3b85ea",
-    "title": "Robinhood stock jumps on crypto buzz and record Q2 revenue",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZXU1bkZ0ZW5nckJ5Wl82bXN0NFN0RW1RN0FRNWpoOVhmXzJFMlRRWFVpZlZxdWVleUdJdjBULTFBc1o2cE9vaWt4WE9kcE5YSFMyc0lPQmM1RXZ5TnUxWXdBMDU0RzdpN3hBWGNDZGhtUEttMkN3QllId2huNFNEd0R1dE8xNWNfMnAyUEpSMXZQWGo3ZmVlZVgtMEFkai1FV2RGQWdRZ2R4cWg2UllOVzkwcFJTMmlUR0hZamhB?oc=5",
-    "source": "Ad-hoc-news.de",
-    "published": "2026-08-22T09:37+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
-   }
-  ],
-  "NVDA": [
    {
     "id": "fbd54fa0c3d34835",
     "title": "Is Nvidia stock a ‘Buy’ ahead of next earnings?",
@@ -825,19 +812,6 @@
     "source": "KuCoin",
     "published": "2026-08-24T04:12+00:00",
     "score": 9,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "176446924eb038b1",
-    "title": "Nvidia Reports Wednesday. Bonds Already Softened the Week.",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9zU3k2OElVNF9MMkNaak91aVl2VlFaLVBSdzVrdlV0Z0k4VEtxdVhCZUJlMnZYbGw1RlRnNDJ0b2pPQUJza0ZRUDNXbkJGZHRWMTBJQW12WWtBQVdQNUp3ZnJGYjhiTk1ELVNZTFgzaWpFVVNiM2lza253?oc=5",
-    "source": "Money Morning",
-    "published": "2026-08-24T04:12+00:00",
-    "score": 6,
     "tags": [
      "earnings"
     ],
@@ -1157,5 +1131,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 83
+ "count": 81
 }
