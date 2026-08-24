@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-24T03:14:21+00:00",
- "changed": "2026-08-24T03:14:21+00:00",
+ "checked": "2026-08-24T04:08:22+00:00",
+ "changed": "2026-08-24T04:08:22+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -41,6 +41,19 @@
      "earnings"
     ],
     "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "19a4b932903a6575",
+    "title": "Apple Stock Forecast: Apple Posted $111.2B Revenue, So Why Did AAPL Fall After WWDC?",
+    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOMXV4XzlFSkVPUTRmVEdHSWd2UW0zQlVWMTc1a3JPRHU0eFZqMkxjcTBZS3NtekYwcUxYb0hjTG5PWDZRVjNnWVUzY2pqSVlEMEtCUTBBMmtBU18wUGQ3UnMtTkFsMDBPYy1ueUxmZFhMdWRyenJiV21XUS1XS09zaWI3cktiXzl1N3RPbFJNdElfeTZPQ0s5WUhIUmtUX3VJYVNBV1ZiRXhoc2YwbjRrdXRyeS1wMUFDU1FPM1FiaHF3SGw2MWt0NE9YM21zM0pJWV9rTjJ3aUtNMENwMTBqZnJnQ243eUk0R3c?oc=5",
+    "source": "TradingKey",
+    "published": "2026-08-23T15:08+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "negative",
     "primary": false
    },
    {
@@ -107,19 +120,6 @@
      "contract"
     ],
     "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "19a4b932903a6575",
-    "title": "Apple Stock Forecast: Apple Posted $111.2B Revenue, So Why Did AAPL Fall After WWDC?",
-    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOMXV4XzlFSkVPUTRmVEdHSWd2UW0zQlVWMTc1a3JPRHU0eFZqMkxjcTBZS3NtekYwcUxYb0hjTG5PWDZRVjNnWVUzY2pqSVlEMEtCUTBBMmtBU18wUGQ3UnMtTkFsMDBPYy1ueUxmZFhMdWRyenJiV21XUS1XS09zaWI3cktiXzl1N3RPbFJNdElfeTZPQ0s5WUhIUmtUX3VJYVNBV1ZiRXhoc2YwbjRrdXRyeS1wMUFDU1FPM1FiaHF3SGw2MWt0NE9YM21zM0pJWV9rTjJ3aUtNMENwMTBqZnJnQ243eUk0R3c?oc=5",
-    "source": "TradingKey",
-    "published": "2026-08-22T22:52+00:00",
-    "score": 9,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "negative",
     "primary": false
    },
    {
@@ -341,7 +341,7 @@
    {
     "id": "6bc25e9bb2598c02",
     "title": "Palantir Keeps 55 Cents of Every Revenue Dollar as Profit",
-    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVk1FRVlGNXc4MVVyVHlLX3pfaC1IS0lCcnBLX3o1M0xRZjdVUkdCd1RxNHpNOGZtV3kxQUpuTzNudHFWTy1LdDRDZzI2aWtYaEFOQnNSM3NwUzAtMGhMVzVEVEZFcXp0NnFaNDl6XzA1aThzVkNzQm52cDRfdE5VeGNLQnRpdS1GN2xaSEo3Z0pNSUYwZFQtSm5fay1iS2wtTVpnVEdoT0Z1eDZaRmJ0eEdsRmlpMGpUcWJ1Nkl1cXFmdlJEdFZaWUg5UEJKS2JvdUl5ZVIwZWlnZw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOSFNOY0hWeVN0dWxGWUhIdFJEUnhTMmFCY29RSW9PZUJoWV96dHg0cEc0TTFmTVM2NG5rLS1NWS0xU3dkajZWdC1qR3BUVHFPRXNndzNMOGdwdmFyNFYyaHN0U1hBVnJPVWhnNmNQbGdZdWREaEFhLXVRZmFMQ0dkNERkd3pmX21vRko4MU9JelNyRElWbnBRVHFBZ3VQSk9sT09fZ3hNRk5VVTBWQzhmZjEtVGh2dnZrcmsxdXgzR3BzMEZuMTgwTnBqTUpDTGpfWmdySEtxNDc3eUNp?oc=5",
     "source": "The Globe and Mail",
     "published": "2026-08-23T01:58+00:00",
     "score": 6,
@@ -390,23 +390,22 @@
     ],
     "direction": "neutral",
     "primary": false
+   },
+   {
+    "id": "7dd6a74c40f8928f",
+    "title": "Palantir stock holds high valuation as AI-fueled growth lifts guidance",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNYW1NTlJWZW1DUHVTZ2VnRHJEWUZPTkhaVkNIUG5GcVZZMU1SeG4zUzEyQ0xiQ0ZWTnNDNHY3cXJCM0o1RDNQVUJhdm1WbS1yUnAzNVJpNEZiTmVkbVJxSEtBTjRkUk5Pd0JiRGI2NGVURmtvNkg3QmdNNmpZZnZXdUxPVlViMkpiRVhYbDhPdUE5di1UcmdFTGNWUWRGR2xxNmUtaGdNaWItVWdhaU5hNF9pRE9xRFFHbENXN2t2MWdLek41dmRKbFJtMGxrUQ?oc=5",
+    "source": "Ad-hoc-news.de",
+    "published": "2026-08-22T04:42+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
    }
   ],
   "MSFT": [
-   {
-    "id": "1ce2c52ae6f8b69c",
-    "title": "Microsoft Stock Forecast: Is Spending $190 Billion on AI Infrastructure in 2026 — Is MSFT a Buy at $452?",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSzQzUHo1QjF5QktqWDB4dWJVLXhIYldVYlQ5TW14ai12WG0yQlhGcjUxSW5ZMHBtZExmNkMzVXBqd3E1Wk1vcjBsQlhDelBZQXNLQWtfTDhIZUdGVjRKYXNjZUw5RlFlMmpsNUE3Y3AxWGJIYnlVcUs3Ym1JX21CSTZfT1FkSEdHR0FjTW1MSXkyYWNicXV1Zm1nZ1VUNm1ydHMwbVl3TExqaVpjQTl3QzBaZV8tTVRtN3RmX3dGSWVTdjl6NmQtN0NNNGNwV0E?oc=5",
-    "source": "TradingKey",
-    "published": "2026-08-23T15:11+00:00",
-    "score": 14,
-    "tags": [
-     "earnings",
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
    {
     "id": "1e07fb94bfe55022",
     "title": "Microsoft's Split Screen: AI Momentum, Legal Headwinds, and a Stock Caught in Between",
@@ -596,19 +595,6 @@
   ],
   "HOOD": [
    {
-    "id": "6e18f8be6e0525ff",
-    "title": "AST SpaceMobile Tokenized Stock (Robinhood) Exchanges ASTS Markets | Buy & Sell & Trade",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQLWVwNDJTTWM1MTJwNW8xWm9HRXY2cDRPMFZMMUluX2tldDBFdTE2eTItbWFYa3dGQWNKb2FoV3Y4dndiMTl3UlpfelRPTkRQLW5PcEtUU0J2WFdXNDVLZ3ZFS19WSkxwdmtEaG5UZENaNjE0aXdnUER6c1IwUWpJWWM1ZHJEQQ?oc=5",
-    "source": "CryptoRank",
-    "published": "2026-08-24T01:57+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "88f2dbd4e207d5ee",
     "title": "Robinhood’s 2026 Outlook: Strategic Evolution and Valuation After a 280% Surge",
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOLURfLWtteE1pT05DVzhfb0FCWVR3Qm51VVlHMkNUdWthUV9pclBrVGJmamdDMWV4eW82eGxDaUZzSEtzc3lpZkFuVFNtdjRrazFmdmJDcG40eWM4N3M5Z0ZWZ3V1dWJIRzU3ajRzbzhFTl9wM29oSFJwTTM2cHBkUlRRX2hFQ3hEbEhzNjQ3VTRaU19fZHBzWGUzaFRXRUVXTDU4Vlctcm1rOEpuSE1JdWJWNDBvYVIwV0VJV0JoTQ?oc=5",
@@ -676,6 +662,19 @@
   ],
   "NVDA": [
    {
+    "id": "bdf60c8f3f8928e3",
+    "title": "$92 Billion Nvidia Earnings Could Make or Break the AI Trade",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1nS0NOaktCSFZRQ3RWd1ZDXzdjYzM5YUd5ZS1VOHNBRTlUMEI2OTYzWkJpMEZVaFFYSnJLRzVOcGhWZHFCNjRiWE85TmN1dTdJeDZ5RzZVLVpLeDFaY0FUaVd6QVQxWjE5d2tv?oc=5",
+    "source": "BeInCrypto",
+    "published": "2026-08-24T03:40+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "81077f132e22ac0a",
     "title": "Japan's Nikkei wavers as AI stocks weigh ahead of Nvidia earnings",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOU01EdWVOM2VYbXhvLXViU3c1RVFnRmtSMFlMVnlXVVZRRGVocjJCNW5KZkxfVUV6ZFJTbHBSWXNIcTh3MERNS0VJUVlLYTB5VWRpZVgtdGozR214dzlDM3pYVE1zT0oyZ0xXQWsxZXpyR2d6R2RFTjZGeFczdHY2ZDhfbHJIb3VLNXhHdmFjVGJZc1dscTJtYVc0VzhSX0NWQVgyTHpOTWlvNjRsWmZIUkVyanFqcTI4Nmc?oc=5",
@@ -697,20 +696,6 @@
     "score": 6,
     "tags": [
      "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "b083591b8b378ed9",
-    "title": "Shares flat in Asia before Iran sanctions news, Nvidia results",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMG83ZmMxSkVxZFI2eFdsTkhlblVtbE82OFd5SmxFekFOZmtQZEVLSzZOZU1tckZxd2QyOU9vYmRuWGhXeDIzVDhkQ1RaUF96T1hRZkg1SVRHWHAxcGVMTWxmMXBsSjVONURWaEFhMWp2dWdKM0piSGtyWVF1bkJ0YWFxWQ?oc=5",
-    "source": "Reuters",
-    "published": "2026-08-24T00:49+00:00",
-    "score": 10,
-    "tags": [
-     "earnings",
-     "policy"
     ],
     "direction": "neutral",
     "primary": false
@@ -757,9 +742,9 @@
    {
     "id": "599a0de64f8f7e20",
     "title": "Your Last Chance to Buy Nvidia Stock for Cheap in 2026 May Be Near",
-    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNQ195U1IxRTF2TmZsYTNYUllYWFVyRTVtRzBMTDlUVXFUUVpsVWJ5d3VXeXVqRXdKOTU2VXp2MHdUZXFFSWw5cHhLRUpGaXA2QW9xV2NNZE55N0FqUEJiMHpTTmQ3RGdGNjVaazZxeHU2U0JJNzZiYWtVSC10dEVNUXB3NXpzNHJHSnhPSHBoMjZTRGlIcW1seXJJQkw4VEtJZC1uZUNnS2x1dmd5c290dGl3TG9DVlBYdU9hSXZxbGtsVmNRMnJxZEZ4bTRhc1l6RlYyYjE0UXRQMHF5LWZ3T1VGN3p1M3VX?oc=5",
-    "source": "The Globe and Mail",
-    "published": "2026-08-23T16:57+00:00",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRGJPaGFQQy1JdHFsMmk3OWlMOVhtc0ZvcUhJaUxmdVhGLU9vX2dINWZIMU9NX3FNX2VOZ09TZy1mUjI5cE81NzlWbzVLd1E2b1I0V1dyOEFraVdtUDY5bE5lQmdhSHhLT2Y3N2NBb3dqR2pQcU5UWU96WkFFWGd5VWNZcHBSdw?oc=5",
+    "source": "Currently.com",
+    "published": "2026-08-23T16:55+00:00",
     "score": 5,
     "tags": [
      "ma"
@@ -781,11 +766,11 @@
     "primary": false
    },
    {
-    "id": "80f496c3f66b7ed7",
-    "title": "Citi expects Nvidia stock to trade higher post earnings",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOT2h1QzRFa0JKSENhd0FfcHd2cjFMc0tzUTA2SW5oUjRtUkJZeWxTZFpUOG9tZmMwamp3SWpYRG5remg5Q2tmUzNTU3E0ZFg1TTlZYW9RellSS3RhbTZJUFZCV1RERjN1ai16UDhXeTFoT3R4cHN2U1E1alpSQmlXTmpoWmZBYWgzYUUxbTJVdFVvckpOM1Z2SVNUOUQ3Q2gtdGYwSWZWZ2xDeE82S0ZNQ3pB?oc=5",
-    "source": "Investing.com",
-    "published": "2026-08-23T11:19+00:00",
+    "id": "13ac09d68aa16269",
+    "title": "Nvidia earnings and Jackson Hole: What to watch this week",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWEpad09WSDNLcmI4VU9WY25VOFczSzJqMm16bEFpSTFJbE0ybVEtS01wbzcxWl9TdzlOdmlIYlFPYm1HOWRtUU9wNk5YeVUwUzE0NG1WZTU4eEhfZEFTcFpRY3VTRDVMVU9TM2QyQzBkUl9vRVVuU2thU0VBdWtEbHN1OUI3NkRmclJxcWtiNUxnMEVuc3lWNy1rOGN5dEhpdlJNNUpfaEFwUVJPNE1VWDM3RQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-23T10:00+00:00",
     "score": 6,
     "tags": [
      "earnings"
@@ -794,11 +779,11 @@
     "primary": false
    },
    {
-    "id": "13ac09d68aa16269",
-    "title": "Nvidia earnings and Jackson Hole: What to watch this week",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWEpad09WSDNLcmI4VU9WY25VOFczSzJqMm16bEFpSTFJbE0ybVEtS01wbzcxWl9TdzlOdmlIYlFPYm1HOWRtUU9wNk5YeVUwUzE0NG1WZTU4eEhfZEFTcFpRY3VTRDVMVU9TM2QyQzBkUl9vRVVuU2thU0VBdWtEbHN1OUI3NkRmclJxcWtiNUxnMEVuc3lWNy1rOGN5dEhpdlJNNUpfaEFwUVJPNE1VWDM3RQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-23T10:00+00:00",
+    "id": "277599e1fdde9351",
+    "title": "Nvidia stock in focus as earnings loom and GPU price hikes approach",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUlhLRXM4bU1tVlByY1dEejFJVFFhZUZlaW44U3pTWnRhWk5IZDY2S3dlTzBUcnA1eTVOWEg0NExwSHZuWFdiVTFIU0hCTmloWWhQY3B3NUZhNE1RbDVYRzFJSEtFamp6UEFsS3V4bUMzS1AwNXRfaV9hVnBhVDFNQi16QmZiVVYwU2JPRkhHTTVfN3ZLNEd0bHBwNU9EVEk4M25VZ1cxSURsY25NazBaS29lbjVGaWh5am1pMEdiS0M?oc=5",
+    "source": "TradingView",
+    "published": "2026-08-23T05:13+00:00",
     "score": 6,
     "tags": [
      "earnings"
@@ -1064,19 +1049,6 @@
     ],
     "direction": "negative",
     "primary": false
-   },
-   {
-    "id": "901854f303f3d3b2",
-    "title": "Marvell Technology Tokenized Stock (Robinhood) Exchanges MRVL Markets | Buy & Sell & Trade",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeDRyVl9UZjBiWXR6OHhNek9QTjRRUllqV1RsQUxEaFh3UmRjLUQ4OWhTYW9PMnViazV4bkgtRjhGMnY3Uy15Y3JEbGNtUExPRG55YlBNRTE2TkdOQWVELTRYVlQ0aGl1X1BhSmk0ek5SQ1NrVmVGUG1PcVJBN0E0M2NEWWFMZEtOWHc?oc=5",
-    "source": "CryptoRank",
-    "published": "2026-08-22T03:25+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "META": [
@@ -1185,5 +1157,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 85
+ "count": 83
 }
