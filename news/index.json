@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-24T12:16:49+00:00",
- "changed": "2026-08-24T12:16:49+00:00",
+ "checked": "2026-08-24T13:18:07+00:00",
+ "changed": "2026-08-24T13:18:07+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -42,6 +42,19 @@
      "contract"
     ],
     "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "35fcad32bf68adf4",
+    "title": "Apple Job Cuts Hit Siri, Vision Pro Teams During Major AI Restructuring",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWDczc01YdElWYWw3U01xY1pIbm45Skt0c1BpY3U3MmhNdTlHUzExeFMxek1KekFHRGcycTNRcGN5bkJOam1RMHE3b2x1djAtZE0yR0xpREZUZ0paYlV3dHF1SV9HbEdhNUdBUjNqbkl2YjJsNU5EZFh1UVVQUGlEQnNRTjhhRVI2SFB4aXZ6R0o0SFVQQzZNWjJsdkMzcDlpc0E5WFRwSFI2NjM30gG6AUFVX3lxTE1nYkF2a2RSRF9CSVRrcl8wVXF2cFZkWlNMTmU3NDRwb3lZQzg1eG8wYl9OUFVMQWJmT2t0UUQzaWNGNkNqem9pdzVCeWlTU3Q1X3hJQ3VJMHVBOXJGc2NUalkxVm1RMWtyd3I3THJ1NGY3SkJ6TDU5S1lpekRUZnJZNDd0N1hIcXdnUkJ1c3ZnS1RUX1M5azlvUUVNM2s2Q3FueVczaGV",
+    "source": "Analytics Insight",
+    "published": "2026-08-23T21:00+00:00",
+    "score": 5,
+    "tags": [
+     "operations"
+    ],
+    "direction": "negative",
     "primary": false
    },
    {
@@ -121,31 +134,18 @@
     ],
     "direction": "negative",
     "primary": false
-   },
-   {
-    "id": "d33f28237f18d07b",
-    "title": "Apple stock tests $309 level as Q3 2026 earnings beat and AI push shape outlook",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTnZWa1FienQtejBEbnlxZkwxb28xdXh3YldZaUd1RVJjUFdmZ2xXVXRyZE92UF9GeW54eUZpWEhfRTdQb0JwNlFXU25uRDZDZkNSM2t1bDd3R3BrZmV1eGVhUzAtaGM5MWhRLWlkdHpSdDhURFJOQWQ1UFozT1p2Q2tGM3FkcXFBdXVDU053VWJvUmo4S0ZjTHE2THlFdVhpTzJPTHdJc2EtQi1HYmxCVG9lQzIwc3M3OFZGNGVxYmY2SGdYODl3VXBRVFFWUQ?oc=5",
-    "source": "Ad-hoc-news.de",
-    "published": "2026-08-23T14:26+00:00",
-    "score": 9,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
    }
   ],
   "AMZN": [
    {
-    "id": "bc1f6c0a0a90a796",
-    "title": "Anthropic’s S-1 filing reveals key details for Amazon investors",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE0wX05BZC1YVWJwbUpIbVlwd0NUeHVJODY0V0hRWFpLQ05ITXBMUTV4TkRfQ3RQVXdFMHYzc3JhZlZDd29TMkVmRDZNa005enUzTFNIakwwQV9qZHdLSTZSbHdtY3FUZzBib1QxV2dIMzQ0dw?oc=5",
-    "source": "Crypto Briefing",
-    "published": "2026-08-24T09:45+00:00",
-    "score": 6,
+    "id": "abda4f6362f77c78",
+    "title": "Anthropic’s Revenue Run Rate Just Hit $65 Billion. SpaceX and Amazon May Be the Biggest Winners.",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONGxkdG1PdUVrWGhyMkpFOUpCUDk1SFd2Sk5YZDdPWm5pWXYzakgwZ1QteVZVLW16cFRUNXI1aWVNLTBCdGM3Q2o5U2U3anhFSUNfNXJMQXVzYWhfdnduendVa3JGYi03QjhsTldTNUVoVmpmVk9GZmxhZlZPTDJxRA?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-24T11:36+00:00",
+    "score": 9,
     "tags": [
-     "filing"
+     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -191,19 +191,6 @@
     "primary": false
    },
    {
-    "id": "7d91a03f0d96edc2",
-    "title": "Jeff Bezos Remains Amazon's Largest Individual Shareholder With Roughly 900 Million Shares. Here's Why That Stake Still Anchors the Stock.",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV1c1aHI5aHU2aGI5ZG96TzZRU2NCR2lWOEhBYVdIRm5iMHRqN0p4YjNSTjVQZDRlNWpzN25HSFgyRlZuWEVtSXdCYjRTQmdObWdUQUNWU29VNV8wN0g5WUZfUXVRNWM3d2pEMm9lU2ZSX2hsZUZINC1xRlU3eDRTajFLTQ?oc=5",
-    "source": "AOL.ca",
-    "published": "2026-08-23T21:44+00:00",
-    "score": 5,
-    "tags": [
-     "capital"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "b24386b1b9c14dd9",
     "title": "Amazon's Q2 Earnings Report Analysis",
     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9KZWloSjU4MjNoV0ZnbFdaYTg4dXVzd3I0djhObFBPQXFQOUpPSnJ4WjlyMDM4QWZFVmZJNDFKTk1ydlJBMFVERF9xUF9aMEduXzdzakFVUmZUSnJDZjVlNjVXYllhYkhCVi1iNU5ZOFJNa3dPQmhkcg?oc=5",
@@ -240,19 +227,6 @@
      "ma"
     ],
     "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "46a0d9f88819d481",
-    "title": "Amazon Q2 EPS $5.75 beats estimates; analysts see $1 trillion AWS opportunity",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeEUwclE1bG1LcGkzd1Q4VU5rMmt5bW5qRVJBbEpPMS1mN0R3aEJjT3NTTlowckJYR1ExN1pnbGotMjZwZUFrV1VJa2pwOEwtZnEyMWFfOXBWdGlLOXFpb0Z6ck1YWm9hUHZ4NS1IbmdpaUpmcXlqRWo5ZHZOcWgxX2JNTU15dEtpRno1M2hXclo3YlZmTXBMNWtCUUJtRnhYT0tRU19ab2dzc2Q5SHc?oc=5",
-    "source": "scanx.trade",
-    "published": "2026-08-23T08:24+00:00",
-    "score": 9,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
     "primary": false
    }
   ],
@@ -637,14 +611,14 @@
   ],
   "HOOD": [
    {
-    "id": "53cadadcb77a73ff",
-    "title": "Quantum Computing Tokenized Stock (Robinhood) Exchanges QUBT Markets | Buy & Sell & Trade",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ3lNYUNMTzhyRTRJNmtvdXI2VDd1VGsxNFg5UlV0OUFrV0Jtdkc3WTJ0dF9IT0RfTGNwbTN5S1h6X3hpaUFMSjlvSUVJVGhJZ1lZcTBRMjIxZnhlTnpxaEFaVHhXNEpJaGlNWHZTa3NtTHZnR2htTXBpcUFHbGRhYU9scmhzVlJr?oc=5",
-    "source": "CryptoRank",
-    "published": "2026-08-24T11:21+00:00",
-    "score": 5,
+    "id": "90b2a11f178f306d",
+    "title": "Robinhood Shares Lose Momentum Post 13.7% Surge as Crypto Regulation Presents Revenue Challenge",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNa1JaQ0gyWHpVX3pzLXhXUnRSbzFWMFU2b2JtX1M2OVprRU9FWHFfdnRnZDlfdThic2ZPdTNRSU5qV21YWGQ2MGhqTXA2ODVzLTRab2NCOXc0TzRfa29ORldDb29XS1Rna09TYzI5VVhybUwyVkpoRkU3TU55TTlvQk9UanpIZmRQU2xCeXZ1ZXFXSzlzb3VZUVVCSQ?oc=5",
+    "source": "TechStock²",
+    "published": "2026-08-24T12:48+00:00",
+    "score": 6,
     "tags": [
-     "ma"
+     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -689,19 +663,6 @@
     "primary": false
    },
    {
-    "id": "88f2dbd4e207d5ee",
-    "title": "Robinhood’s 2026 Outlook: Strategic Evolution and Valuation After a 280% Surge",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOLURfLWtteE1pT05DVzhfb0FCWVR3Qm51VVlHMkNUdWthUV9pclBrVGJmamdDMWV4eW82eGxDaUZzSEtzc3lpZkFuVFNtdjRrazFmdmJDcG40eWM4N3M5Z0ZWZ3V1dWJIRzU3ajRzbzhFTl9wM29oSFJwTTM2cHBkUlRRX2hFQ3hEbEhzNjQ3VTRaU19fZHBzWGUzaFRXRUVXTDU4Vlctcm1rOEpuSE1JdWJWNDBvYVIwV0VJV0JoTQ?oc=5",
-    "source": "TradingKey",
-    "published": "2026-08-22T22:54+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
     "id": "70a90914fad4b66f",
     "title": "Robinhood Price Forecast: Can HOOD Reach $130 After Its AI and Crypto Push?",
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNG11RWJVQnF0dkJJWGczRHAyaUpzLW5EXzl1ZXpLMm9vUzMxOWRTcm5qVG5qUzNZNWE1emVYOTctbFIwbmRRQnkxTFpRX2RVUGV5bGRBYU9rZXlMek5vSTNzQ1RDekl4aHctekJVR0ZfcTc1SnlaM1dGUl9yQ1BndDNscGNUNi04VXM0d19iQXdJUjFwSU5JY3liQ2NxNG9kNENhdE4tQk5kQTBraUlnSVY1eDdiRnM5X1JVUDluMA?oc=5",
@@ -717,16 +678,29 @@
   ],
   "NVDA": [
    {
-    "id": "c0e8d79d5c6ae696",
-    "title": "Cantor Fitzgerald reiterates Nvidia stock rating on AI demand outlook By Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQUxvUjg1NzlfbG13YjJyS19SaGxYYUktM3ZPU1dHcWJVN3VELTJsc0stTkdNV09WOXpPOVl1dlBMNnZ3dlU1ZW1OYTAxQS1sbTU2YmVURlZNUWZJR3lnV1c1ajh5WUQyendDRTdyLVBtc01lZWJuSXg4TXNzdEF1Y0tRakVUTjEyOE1lQzdqbEMxXzNYTHRUWDhfeU9ka2lRTGR0dXlXQ0EydHp2WnhNbDU5T3B0bkdrbE9OR3JCOFFuM3lhVHlIOElB?oc=5",
-    "source": "Investing.com Canada",
-    "published": "2026-08-24T12:12+00:00",
+    "id": "2950ac7bc556d6cc",
+    "title": "Cantor Fitzgerald reiterates Nvidia stock rating on AI demand outlook",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbzQ4N1VIbmotVDFTa0FCbEFWZk5OZVNxMDdHZG1GQ2cxVUhfU3NLTERiUHZMenZPNDNJbmdhNFQzaGZlaW8xUHAzeVptd2Z0TUxVNjh0UDVzUmg2eDNOOTlnRlVRTTloampiMWczM1R5Z1VNcUktemlCOVAtVUgteXZyWDZKX0s5Wnc2cTc0QjdXb2k2bS1OY005bHlnTUZFX3g1b1hyU2wwbUhGOVVpRHpsTXp4S3FwTy1ubld5LUhTaUludVZMRQ?oc=5",
+    "source": "Investing.com",
+    "published": "2026-08-24T12:25+00:00",
     "score": 6,
     "tags": [
      "earnings"
     ],
     "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "c9d8b818cddb8249",
+    "title": "US Futures Drop as Investors Prep for Busy Week, Nvidia Earnings",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdTZrRWZYZDYwOXhaUWZtN1BvZUM5dkk4bzhLblY0aFJKREpQSGxOaTF3d0tCbUtfcERVaUJ6bW9XdWZjWGpUVWY0T2hrczVDY0VpNFA5VmZMT1lOVVJ4QnpJdGJQcTZQcDRkMGtmVkMwSHR2cFE4dktYUnJqZjlEQk83TW9uanBQMkpSTFJHUmlaV3UtU3drdGlWVnhlclQtWmM5V0ZOZmtXNkJPNVJDOTY1X2g?oc=5",
+    "source": "Bloomberg.com",
+    "published": "2026-08-24T12:23+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "negative",
     "primary": false
    },
    {
@@ -784,6 +758,19 @@
     "primary": false
    },
    {
+    "id": "b54be98d73417db2",
+    "title": "Michael Burry Predicts Nvidia Earnings Blowout — Why Is He Betting Against NVDA?",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcVo1eDdYWkFmZmRkV01VQ2pScVk4a3ZmY0xqUWxqZENiaUxCTUp0NVRtMDdNT1pHS3RadmVaNU1XNm9jOXQ5SXVuRklUd3FBYzJaZDRWVDlVV3plNnJZSTBHUzhlRUczM085Snk5UmlYQVJrYlpUNThzSUFrZDFTWGxTZ1hwbU9WNXZqNXp1eVNPdzV3R29tTFVKUExQbDJQQ05PeGZqTGRmb0Q0dTNGNWZ0QjJWQQ?oc=5",
+    "source": "CryptoRank",
+    "published": "2026-08-24T10:09+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "c012b12b3ba4412f",
     "title": "A Stock-Level Perspective on 13F Filings: How Are Major Institutions Positioning in Nvidia?",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSW1LZnJodFdBTzFiTERVQXBZWGg4aVQxVnh0Z25leC1qVDc5Z3FRXzRxS2tITlo5MHg1LVMwZEFwNHZrclBKS0R1R2dOd3M0X2o1LUZta2dJOFJYZE5WdUFrWERRaXdjYkJLRGVZUUo0R0lMYUNqaGtFSU0yT1RNV0RPR3F5cXdtNTA3RXRWLVRWZXRBT28zaXdrQVdhZV9wRHFjUkl2ZGRHS3Nq?oc=5",
@@ -792,6 +779,19 @@
     "score": 6,
     "tags": [
      "filing"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "13ac09d68aa16269",
+    "title": "Nvidia earnings and Jackson Hole: What to watch this week",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWEpad09WSDNLcmI4VU9WY25VOFczSzJqMm16bEFpSTFJbE0ybVEtS01wbzcxWl9TdzlOdmlIYlFPYm1HOWRtUU9wNk5YeVUwUzE0NG1WZTU4eEhfZEFTcFpRY3VTRDVMVU9TM2QyQzBkUl9vRVVuU2thU0VBdWtEbHN1OUI3NkRmclJxcWtiNUxnMEVuc3lWNy1rOGN5dEhpdlJNNUpfaEFwUVJPNE1VWDM3RQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-24T09:05+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -807,46 +807,6 @@
      "earnings"
     ],
     "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "fbd54fa0c3d34835",
-    "title": "Is Nvidia stock a ‘Buy’ ahead of next earnings?",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5MamplSHpFdGhNMmR4c0E1N3lkTHFQV00yNTFYWFJjTkNTSXhJZ2tMYXFmS2VobDJQRk9ZMTNRMk82Z0JKMWdLbFhpcUxIZ2hmaHI5SDZjX1ZFajdXMmVKek94UmdqeV9DQVBOeEpfa0xYRTQ?oc=5",
-    "source": "Finbold",
-    "published": "2026-08-24T08:44+00:00",
-    "score": 11,
-    "tags": [
-     "earnings",
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "8bb0dc24a59c6b07",
-    "title": "Michael Burry Says Nvidia Q2 Earnings Will Be 'Lights Out' And '100% Of Announced Revenue Is Circular'",
-    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOS2JlUUNSSGpLOGhlY2h0RmxyT2hDS0lYMHpFRXNVTXRNWlVPcm14TkFxVmhoUXdPNEFQb25zWmEwTkhxbVJEczZ2M2M1dVBSQTJMZGthREt5ZVNQSVFaNFp5VWFJVlZUOVB4Sldac25FNEZ6WG45MFNxdG50MDg5Unhudy1JQ3haX0l0V0h2SkppcVFWRWdEY0VNc2c5bVc5U1JRSEVXU1ZTYy1SWW1kLVVRYUl3MjhndURrV1hrXzdLZlNraG5uWkxtM1dHZnJpVjRIMktZMHRDejYtZ3hTUkVkUXhpVjRYZzk1TEVfNA?oc=5",
-    "source": "TradingView",
-    "published": "2026-08-24T07:50+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "22ec93564330bf24",
-    "title": "Nvidia to hike AI server prices over 15% as memory chip costs soar - report",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBDSGtpM0thdWhpWlVqcVlzaHo3dFg2THVjNkI1dFNHSlFBTDNEYjczX3VQVHROVmFsdW1WNVI5eWQ5UVZ3T3I1b1phTGtJc0JwMjVnM05kdkVTeEVzQU1jYmEzSzlBY3V1WHJsUWViYTJBTnhC?oc=5",
-    "source": "Seeking Alpha",
-    "published": "2026-08-24T07:29+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
     "primary": false
    }
   ],
@@ -879,12 +839,38 @@
     "primary": false
    },
    {
+    "id": "5cb32174cc9d1647",
+    "title": "Stanley Druckenmiller’s Big Bet: New Broadcom, Intel and Arm Stakes in One Quarter",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdE9YcU1kWVNMNmdFWEFhcUR1ZHlMOXRIQ0gxejBFUnl4a3d0SjhVVkFsdUR5X1hya2lnZTZveTFiZHA0Vk9TMVRpWWhuUzdCc2FjTVhyZG8xeXVneVloT2hIMGxrSmlncE9NXzZ5R3VBT2NxOUs1QlhjVmhlSGtTNXJiRGxIMGl5RUE?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-24T07:30+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "6e00e5439f521549",
     "title": "Intel stock holds high valuation as AI demand drives guidance",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYnBnTzhQTVRJQmk3NTlubXpRTENqVW9KMlhiT3dpYXFsR09Yd2M0Z0g2TFpoRXlJb25WNjYtSUNQcm5BcER5c3RDS1RubTNTcGF5RW5rcHZ1OHFyNHZYUG41MkhRMWxkczRKcDJWdWk1ckt4bGsxaHhUbncwak1FVXJ0OVQ4UXNjSmZPTFpjVV9scFpfc3hYMWptcWNMb1JHcGtyOVNHNVZWWUlJYXR3VG9pREhHZUhDcm53R0daTnlhQQ?oc=5",
     "source": "Ad-hoc-news.de",
     "published": "2026-08-24T06:37+00:00",
     "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "2ab4ebace09d9829",
+    "title": "Why Is Intel (INTC) Stock Volatile After Earnings? Revenue Beat Overshadowed by $11 Billion Loss",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdGVhdUdOWHYwd0I2OHRLRjlFVE9KTkNud09aOHhCOTZGY2NDZVM4VjFnTTZKdkpKdlBORHo1OG5RWENLVFg4VUZoYVdVWVRpaWFCSWtxY2dHX280ZFFsaDlvSldKQm9NdTdWTjlueks4V3V3RUVJQ2pqYVFtNi0xVU9zY2V3MGdONjRFaHJqU1RRaVZZMm9GZndlNVRSaWpveDlMWG41WG5qUk52T0tRcGl1bklGZ2twMmQyQnJxdkM0YzU1d1J2Wg?oc=5",
+    "source": "TradingKey",
+    "published": "2026-08-24T00:40+00:00",
+    "score": 9,
     "tags": [
      "earnings"
     ],
@@ -903,6 +889,19 @@
      "contract"
     ],
     "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "f183b48bdfc875f9",
+    "title": "Intel and AMD Fall 4% as 13F Filings Reveal Concentrated Chip Bets",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE10VU1SZ3NFclB5MWQzTkhvajl2VTU4YV8yb0owMlI0YlVOSmM2Q3BIR2NES3VpZlFlTXMtV29PeUNyQ0Q3Y0hEVGdOME1mcjZQUGtGR0Y0c0h2eEd0VWNEOG5wcldmYVI0bVV4NndaMmlsZw?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-23T19:46+00:00",
+    "score": 6,
+    "tags": [
+     "filing"
+    ],
+    "direction": "negative",
     "primary": false
    },
    {
@@ -932,19 +931,6 @@
     "primary": false
    },
    {
-    "id": "bf58165aeb478f20",
-    "title": "Masayoshi Son Has 67% of SoftBank's U.S. Stock Portfolio in Intel. He Didn't Buy a Single Share Last Quarter.",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9GZXVBSmVjUXNmaWFYU0EydVEtWFlJM3hBWWJOMVpBRkZhTktKRWdBMEMyZG1ibFZRVGxUOXYtVHlsRk02QjlXNTJjcld3LUViWmQzdW9kb2d2b1I0aUpOem9lUGlWYTNqRW5nN1l0aGJvZk1yNFZ6OVM2UTM?oc=5",
-    "source": "AOL.com",
-    "published": "2026-08-23T05:41+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "62f100c6de640fcb",
     "title": "Intel Lands a Preliminary Apple Chip Deal and an SK Hynix Packaging Partnership — Is INTC Still a Buy at $124?",
     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNTGpHN3o3WGJhaU1Nbld3bC03TnZpTlhfRXNCeU1Oc0QzRTlyelo3VjNvN0Nucjd5UWpkTDB5S1VPMVlRcHhfekg0U01ZbnoxNTRrbU1UdE11R3FQX3lIX3J3eFN0OUFjaENlM2ZlSjg0UkFIbGoxMGNPdXRrZFdVcEIxWTZfNlNRRG1fQXA5X1VoLUNMQklucVppVl9mVFc1cVBsNV95V1FqUWpLdEExZHZQTm5NM0RVQzRucC12MGthOVVXdEhsTUVWR1FNWjVhdDRXelNuTzNVbHpqSWJiamFFVmI0NTFGRjdwQTFR?oc=5",
@@ -956,19 +942,6 @@
      "contract"
     ],
     "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "efcf8cf0d68674d0",
-    "title": "Desktop CPU shipments crater 20% amid high component costs, but AMD gains record share despite 'ugly' desktop processor market — Intel floods laptop market with millions of CPUs, but AMD still sets all-time share records",
-    "link": "https://news.google.com/rss/articles/CBMigwNBVV95cUxOS1pJbGM5TzRnOGszc3htcUVCbnBWOXZmSzBnVXZFVTNZcGhRNVNUdm9sVi1RdllFS3dtSWtCWldJNmhCR1JvbWpxTmVuaGJKRGI3bWRTQndGV2xKNEVBTTlCSDVONTA4dENaYVA0U1lpdlZiSzZDVEo5by0xX21peDdIWFhka19fcFJUZ09pREx5NXpCSlNwWlhZTTQ3SWJYamJEVHJ4dldfUG5FM0lJSXlvS0pWdXBLQVBYNWRlWHI3MHFxR3p5ZVM0dUZJRDRpRUx6TFV5NnlOUVFQVENsRFFFTWpXVlVuYlBEbUF5Q0VqanBjLXJ6cEJRTmhCdWt5LVFJOWpxODlhZzVqc0w2WFUtemhIODlaOG90UkQ5SWtzSEdhb1RqUmsxTHhnNDFpb0NYN19ON3NtaWlydjhrMjRmckV6am5jQkpQU1hKb3NnSFY2QVl",
-    "source": "Tom's Hardware",
-    "published": "2026-08-22T12:30+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
     "primary": false
    }
   ],
@@ -1043,6 +1016,19 @@
    }
   ],
   "MRVL": [
+   {
+    "id": "7a81d09a958a5396",
+    "title": "Here’s How Much Traders Expect Marvell Stock to Move After Earnings",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQb24zY3FFQ3RqWE1IRTh5dVBlZkdhNkFJNkwxSno0RFVvM0ZKUzNHMUhQWDBzam43Z3I5Y01Zbzd5RVJnVTU1UzIyQk8wQk9hSTAtejlLc1ZxSUhWLWtRSEVsWGlOR0FDWENTbHpuZU1EblN1NzBlNkxwNXhyZEdaUkNmUQ?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-24T12:43+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "6dde7f5363f29a87",
     "title": "Marvell Cools After 178% Rally as Valuation Faces Thursday Earnings Test",
@@ -1162,19 +1148,6 @@
     ],
     "direction": "positive",
     "primary": false
-   },
-   {
-    "id": "b0ec30ee1954e4ba",
-    "title": "Meta Platforms Tokenized Stock (Robinhood) Exchanges META Markets | Buy & Sell & Trade",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQUNqRkVTalA2WWRXTVhXbk9BLW1hVVN0dFBUc3hkN3JwMmRaT1BsQ0xxcktMMkt4bWZfWlVDdnZneDIwM3JFVnpGbWVPeVMxVXFrUmNDanUxSFVBUVQ0TnlIZGhxaGY5akhDYmVGcHFPaEV2WmctamRNa2Q2MHB0azN2SjE?oc=5",
-    "source": "CryptoRank",
-    "published": "2026-08-22T12:38+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ]
  },
@@ -1216,5 +1189,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 87
+ "count": 85
 }
