@@ -1,9 +1,22 @@
 {
- "checked": "2026-08-24T05:45:23+00:00",
- "changed": "2026-08-24T05:45:23+00:00",
+ "checked": "2026-08-24T07:36:36+00:00",
+ "changed": "2026-08-24T07:36:36+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
+   {
+    "id": "095e2edb2c706726",
+    "title": "Apple stock holds above $300 as Q3 2026 earnings show 16 percent revenue growth",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMTdfczlPcVFLT25kdnlzQlB0Z0JLMHZUNWNCTFVEQkhpWmxVY2VKUUoxalpDX1pCMzF4aUw3bFZvdlByeHhxYVhPOWhTb0V2YkE1eXRzbXhhUTVROTJnZFNXRlVBbUxrZW1TZENsS1NlTEN0azVwbUo5bktmbTY3ZmhYQzR2WEZPU1YxcFNDa0hLdnQ3QnJGeXpCVzJmODVRQ2pPQWNTaGxubFMzODZSak0zUm95N2xjUTlFVHN2UkVXYjNfT0M0LTFuTmt0S2c?oc=5",
+    "source": "Ad-hoc-news.de",
+    "published": "2026-08-24T06:45+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
    {
     "id": "582ba62247dafc7f",
     "title": "Apple Stock Forecast: Leadership Shift, iPhone 18, EU Challenges",
@@ -121,35 +134,9 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "a166f69caa4df9ad",
-    "title": "Apple announces largest-ever stock buyback at $110 billion under Tim Cook",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4xVHRqNnJWU19ralpLTmppYU1Sd0stQ3BHazczZzByYmZMWWY1c3F4SDVNVlptajlwanV5TkRtalJ2TlRISHUzZWtySllMSEF6VVJkUk9yTTc2cU9BSzBYQ0JyNEhCZU82SDFuWlEyeENRdWhL?oc=5",
-    "source": "Crypto Briefing",
-    "published": "2026-08-22T22:14+00:00",
-    "score": 8,
-    "tags": [
-     "capital"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "AMZN": [
-   {
-    "id": "7d91a03f0d96edc2",
-    "title": "Jeff Bezos Remains Amazon's Largest Individual Shareholder With Roughly 900 Million Shares. Here's Why That Stake Still Anchors the Stock.",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV1c1aHI5aHU2aGI5ZG96TzZRU2NCR2lWOEhBYVdIRm5iMHRqN0p4YjNSTjVQZDRlNWpzN25HSFgyRlZuWEVtSXdCYjRTQmdObWdUQUNWU29VNV8wN0g5WUZfUXVRNWM3d2pEMm9lU2ZSX2hsZUZINC1xRlU3eDRTajFLTQ?oc=5",
-    "source": "AOL.ca",
-    "published": "2026-08-23T21:44+00:00",
-    "score": 5,
-    "tags": [
-     "capital"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
    {
     "id": "e3aa1aa1b0d3081c",
     "title": "Iran strikes Amazon Web Services facility in Bahrain, causes temporary disruption to services",
@@ -241,19 +228,6 @@
     ],
     "direction": "positive",
     "primary": false
-   },
-   {
-    "id": "52c8f36a7541ae5b",
-    "title": "UPS Fired Amazon. Was It The Smart Move?",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBGelVBYW1uM25MTGlsalJsR3dsTVNwQzZUUDcxcnc5bWZNTlJTelpIZ29RUTEwc2hETTNoVDEwZ2p1eXN6YjRxRkhkTzBIdHNFd1lZSHBWeWlDUTc3dElGckJ4ZHNOdkMtbXRWUXNBUWYwXzJmQlI1RTUxQQ?oc=5",
-    "source": "AOL.com",
-    "published": "2026-08-22T06:59+00:00",
-    "score": 5,
-    "tags": [
-     "leadership"
-    ],
-    "direction": "negative",
-    "primary": false
    }
   ],
   "TSLA": [
@@ -280,6 +254,19 @@
     "score": 5,
     "tags": [
      "operations"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "f21e669c1724b4a7",
+    "title": "Tesla Stock Forecast: How Much Will TSLA Stock Be Worth in 2030? Can It Hit $3,000?",
+    "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNVFZibUlDdy02NU1WeTVUWEdZZzAtc1pOLW5HRFgyN2JQYmxIMlRhdTNFZHZUaU9zTFlSTllicUY4dlpCYTFlVXBBN00yeVpRUGVWRl93d3dQQkktRGZCc2lHVnpxUG5RbHFpcy14ZkdvRFVyWGxIajJUTHRSNDJ3c1dQeUxKS0ZaMDZtRlBHd2NEUG9CM01vS2ZhQVpubHo2WW1mYVdCRV8yUUhldWVZWE5MamY4SHBNVTdxM0FONFhqWlZvRXZkUWNZcXk0Q3p2WmRYZzY5RmxGMGI2VGFIZzlQQlE1VngxU0J5X3p5R3ptRDA?oc=5",
+    "source": "TradingKey",
+    "published": "2026-08-23T18:14+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -366,6 +353,45 @@
   ],
   "PLTR": [
    {
+    "id": "015a1a90a645983f",
+    "title": "Palantir stock extends strong 2026 rally as government growth lifts guidance",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZGxVMnpYZ1RMZkJKZDY0c2JxUnRhSndxVFcwamRsRl85MG80alpILTBDVXJ3eFRCWVUyQkYxYVhiUzk4VzZQWGkwU3QxRjdneG1tNFJyNW14UFFaZ3pWbENiaG9Md19ySkpBU3Q2Z0FMT215ckhyazRvUkhPUmtwMGhpMTBtOVV4NVVpX0pZZFBBbExBQW1RQlRucnFCcEkwZG5YZHZzVE1TSXEzUUhQZFlJQ3NJV2dXejgxVm1SQ3R5a01SNXJ6bEVn?oc=5",
+    "source": "Ad-hoc-news.de",
+    "published": "2026-08-24T05:52+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "c308847cc1e9c6d2",
+    "title": "Palantir Grew Revenue 85% and Raised Full-Year Guidance by 10 Points — So Why Is PLTR Down 26% YTD?",
+    "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQNmM2SURNRGVLR0RMNmJYbUJidUVteEZBTkRuejNZX2JTMHo4SG5jVnhlbFBrd0FsUFpSTmg3ZGp6RlpzalpSNTlNVElFRGVJRVdQWjJQb2N4WndtWXpHNFZMQVNlLUJrNEpRMDd1X3kyUHk3cWtIeFBLNGpOOEF1MVc0cXBkUlZHcVhjenM2MDhmQ1NRbGk5TFVPV0xTbGNxRHQ2YlRMcnNINVhrOG9aUUZWQl9wa3BWRTItVmpMcHhVNUNoZXZuLTN4dUJ0Nm5HLWp4MTEtUFo0eFQ0RWYxa1VvVkZZR1JPdVh4XzhMdFBmNGY5MUY5a3NMVmxLSjBTWjlFOHBXb01mSkk?oc=5",
+    "source": "TradingKey",
+    "published": "2026-08-23T18:13+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "d773fbf5385b4779",
+    "title": "Palantir (PLTR) Stock Forecast: 85% Revenue Growth, Rule of 40 at 145% - Worth $129?",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWmZkNXhUQ25tZjBLSy1reGk5cTZIa0RtRy1QdTZtU3hSSzJlNUlYaVNWbk9UN0tiOFdoNHQtU2V0Tl9xTEZ3MkxLek1HVmdqelBXUl96WVdGVVFadnJCSC1KaUtpaVllbEhYM1laSVVFNnZXd25WWWtrVzk4bzVWVEVHTzE0czhMVEsxUDZYUFhrb19RTS14U3V1c2ZtYzhYcHMwdG9VN1djVnRPUjNEWXZDd2daRUdIamJKUWttNG5QRTJX?oc=5",
+    "source": "TradingKey",
+    "published": "2026-08-23T12:18+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
     "id": "6bc25e9bb2598c02",
     "title": "Palantir Keeps 55 Cents of Every Revenue Dollar as Profit",
     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVk1FRVlGNXc4MVVyVHlLX3pfaC1IS0lCcnBLX3o1M0xRZjdVUkdCd1RxNHpNOGZtV3kxQUpuTzNudHFWTy1LdDRDZzI2aWtYaEFOQnNSM3NwUzAtMGhMVzVEVEZFcXp0NnFaNDl6XzA1aThzVkNzQm52cDRfdE5VeGNLQnRpdS1GN2xaSEo3Z0pNSUYwZFQtSm5fay1iS2wtTVpnVEdoT0Z1eDZaRmJ0eEdsRmlpMGpUcWJ1Nkl1cXFmdlJEdFZaWUg5UEJKS2JvdUl5ZVIwZWlnZw?oc=5",
@@ -393,19 +419,6 @@
     "primary": false
    },
    {
-    "id": "7e49b903d5b6d963",
-    "title": "Palantir Stock Forecast: PLTR Breakout Eyes $173.89 After 93% Revenue Growth",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRmNDZHJUQUttdjZFVENNd2dYTUhONkxNdFZVV2tkenVWRURtb0dOdkxVbzNLTHdxRFZ6ZWZ5RmE4YzdER3ozMVJwaE9WMFBId3J4SEpPU0psQmN2czJ0ai1jRnhWLVVkMUtldzB4WW45NDQ0Nlo0SGFkNlFRZHJjSDdaSVF3Sy1aUHpybFlHVFlCRnYyUlJkcHBqd0V1WFNCRDVhUENtVTl2QldnaVphTUt3VUVILVBNUFJ3X1FZLVdiTjNtQmtPemlyVC0?oc=5",
-    "source": "TradingKey",
-    "published": "2026-08-22T18:24+00:00",
-    "score": 9,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
     "id": "6a505d2c0fc6ef74",
     "title": "Cathie Wood’s ARK Invest Buys SpaceX, Securitize & Solana ETF, Continues Palantir Sales",
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaDdkZWF6Y0ctT2lWcnplbDJzQ0YtVXJmZHQ1ZDVkcUZpM2x3VEtINUhLUDhSUGRVQldjWU1VelJjWGdNbm9CT0t0c2dNcnhSQVc5d0F6Q1F0X2QxR0xHb05qR1JXYkVkTUllQjlwRndNMkFCSzVucU5yLWJ6SThJOFVBa3JZODRCeUlnZWctWHJoeGxBaFhSMVI4cmJHZFptTThaVWk2bkJXZEd4eFQ1Vw?oc=5",
@@ -420,6 +433,19 @@
    }
   ],
   "MSFT": [
+   {
+    "id": "74eb69b366e26ac1",
+    "title": "Microsoft stock consolidates after AI-driven earnings surge",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaDZBZElJeTFRZnpySHNrRERQNUZZOFVjY20tMTNIT3ROeVFmRjM4ZmtXeFRocndNRTcxblNuY1h6Mkk4QjVRb0tmenhZYlE4WjlhbVE2WFJpRnRWRkRHbFM1MDJ1NjBlaUNCVTk0MDdsT2U0QmQ2SmZHSTRtX1pTREZXVUJSOEU4RndvV3FHYWJMSTBxNnJLa0dWcy05eDZNRDctLUI5UmVRa2V6MkRhd3h3RXpzUFgwTUpWdWNQVQ?oc=5",
+    "source": "Ad-hoc-news.de",
+    "published": "2026-08-24T06:45+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
    {
     "id": "1ce2c52ae6f8b69c",
     "title": "Microsoft Stock Forecast: Is Spending $190 Billion on AI Infrastructure in 2026 — Is MSFT a Buy at $452?",
@@ -476,6 +502,32 @@
    }
   ],
   "GOOGL": [
+   {
+    "id": "4e7b9b781863e57f",
+    "title": "Alphabet stock climbs after earnings beat on ads and costs",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQnBRYnpHQmtQNW5od0NWTUxaTzVkTy15UWRQVE9aTlBfbzQ0M0VTYkZ1c0lyV0lfenp5VlB2aTJnM0pjeEZjRzU5dWxZQ01KMVVpLVlXeGFILWJKejVaRzN5WUZOWk8zdDRyZEdzcXVac1FqT25VZDhod3ZMYXZ3MmJiQ3FKQnN0SUNZSFV4dWt6ZmotaW1XR2NaREZXdHJhV29DN0FPWTFFOG5ucjNLdV8wOUdTdE5XdDUzbmx3?oc=5",
+    "source": "Ad-hoc-news.de",
+    "published": "2026-08-24T05:59+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "aade19aa7286656b",
+    "title": "Alphabet's TPU Chips Generated Revenue for the First Time Last Quarter. Here's Why That Line Item Matters More Than the Headline Cloud Number.",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRV9jV243RlZJVFJSa1B6al9HTm1IbFNNVzBxOTlKdjRZYmhoU0lrT2xUTEZFV1RQRC1Mdnc1UjhwdlhoUmN3NVY0RUo4dFpWaUlwR0tQYkYwVUg5MjdOb3NZWWlSTG9pNExtVDBOVEJ0Q0NKN2ZZR1UxbWlQdDgxS2ZIRHdPal9z?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-24T05:14+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "3c6ea98201c96f88",
     "title": "Alphabet stock edges higher as Q2 2026 earnings and AI momentum support valuation",
@@ -580,22 +632,48 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
+   }
+  ],
+  "HOOD": [
    {
-    "id": "d35d5c0f652bc245",
-    "title": "David J. Taylor from Ohio’s 2nd district buys Alphabet Inc and Procter & Gamble stocks, sells Microsoft",
-    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNMGtnRURvazA5cy1iRmlqeEJxc0NWWG5oU1cwT2luUk5UUTZwUWVWaEsyVVEtS0RzdDZUR2tyNVJrWFl2ZEZ0dFVETmRtNEI1WUZZcllYNjg1eUx3YVpMUlNaNm1leTk2bXFsbVYwMnBRYksxSHYwSWlQWDlkdTM4U1gzaEx1Z1ZENFh0V2F5bjY5X3lDbG5JWUplS09HQVNsRTYwX2dSbHdSVjhQQWVNd0ZPcTRiQ3MtS2dzNkxsS0xLNzZTR1B5NmpaQ2hFZ1hlWlJTWHlBYVlNM2ZXbzltZW82VkdhbjlwQ2JfMTY0WGNxQQ?oc=5",
-    "source": "Investing.com India",
-    "published": "2026-08-22T12:24+00:00",
+    "id": "7c74bbe49aca372f",
+    "title": "Trump Sells Strategy Stock and Buys Coinbase, Robinhood Shares",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5lQnVfSThzWFI0OGFaLWtURzJpQTVzei1ROUk0WHpLeVNNUG5Oa0lXYXJZZllfVUk5cjNiTWJrbGEzaHN4UWk2aGc0SUNGeFJvWTVyTmdmVnYzT0VHTEpYNTFmaw?oc=5",
+    "source": "Altcoin Buzz",
+    "published": "2026-08-24T07:10+00:00",
     "score": 5,
     "tags": [
      "ma"
     ],
     "direction": "neutral",
     "primary": false
-   }
-  ],
-  "HOOD": [
+   },
+   {
+    "id": "c48b20c2fa2c6835",
+    "title": "HOOD Stock Gets A Retail-Trading Boost: CEO Says Robinhood Beat GameStop-Era Activity",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSlRWalhCMThQZFBjWE9PYWJONlFoODh4ZWtaTjhabm5LUncwdkE1N1lxM0E3NzgydFBNcTBwa2JYODFYcWNmbHRfU0pyZkhzLW52U0lOVTZtWldrb045VDFfZHhlMHh4OEtxWFBRbW0wTDNXNnE1d1RlajhPZmhLUXN0RUxaajlLLVlfUkk4bW5UdHhDMEtxdmlOQQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-24T06:26+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "88f2dbd4e207d5ee",
+    "title": "Robinhood’s 2026 Outlook: Strategic Evolution and Valuation After a 280% Surge",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOLURfLWtteE1pT05DVzhfb0FCWVR3Qm51VVlHMkNUdWthUV9pclBrVGJmamdDMWV4eW82eGxDaUZzSEtzc3lpZkFuVFNtdjRrazFmdmJDcG40eWM4N3M5Z0ZWZ3V1dWJIRzU3ajRzbzhFTl9wM29oSFJwTTM2cHBkUlRRX2hFQ3hEbEhzNjQ3VTRaU19fZHBzWGUzaFRXRUVXTDU4Vlctcm1rOEpuSE1JdWJWNDBvYVIwV0VJV0JoTQ?oc=5",
+    "source": "TradingKey",
+    "published": "2026-08-22T22:54+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
    {
     "id": "70a90914fad4b66f",
     "title": "Robinhood Price Forecast: Can HOOD Reach $130 After Its AI and Crypto Push?",
@@ -651,6 +729,46 @@
   ],
   "NVDA": [
    {
+    "id": "eb058c7846cc295f",
+    "title": "Nvidia set to hike AI server prices over 15% as memory chip costs soar - report",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBDSGtpM0thdWhpWlVqcVlzaHo3dFg2THVjNkI1dFNHSlFBTDNEYjczX3VQVHROVmFsdW1WNVI5eWQ5UVZ3T3I1b1phTGtJc0JwMjVnM05kdkVTeEVzQU1jYmEzSzlBY3V1WHJsUWViYTJBTnhC?oc=5",
+    "source": "Seeking Alpha",
+    "published": "2026-08-24T07:29+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "3420759123ad390c",
+    "title": "Nvidia Is Coming for OpenAI and DeepSeek With $6 Billion Poolside Deal to Build a Powerful Open-Weight AI Model: Report",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObHdqS2NYN3FlajFEOXJpdWNMX2l6OERrd1N3ZlVtT0JHeURTM1JkME9oYWpDdF9uUGhMaUpDaGVKOGYyWjRfeTJFRGRDQkRYaUxGeEszTWJKclpCOGdKOHR6dzUydTAzS2tleDhVOFNRTDFoS05VQ0VTdV9EU3FaUw?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-24T06:34+00:00",
+    "score": 14,
+    "tags": [
+     "earnings",
+     "contract"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "6a80c19defd63eef",
+    "title": "Nvidia Reportedly Plans To Put More Money In Perplexity Amid Circular Deal Concerns: Critic Says Chipmaker ‘Bailing Out’ AI Firms",
+    "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNb3I3N3hmSmh1ODI3bF9YSkZCZUtjbUczZ2didDNGN2R3elhST3BYdVFhZzVsakVLSHV5Um1vV2w2bXg0cWdYX25ScU1fSU1idDVWX25EOGpjbFc4NWpWRlFNRHZHTVVtbFhUODNRNVNPd1EteGVIQWNMUlRmT2xGM3VzRGF0aXhfdFF3MHVWakFvNXhFOWxsTXNlN3pXQXRlRzlLSWZqMzJxU3NtUjYyNTFlUFdnQWpFUDl5Y3hvUmJlNXcxal91TFFIWkY0Y05xcnNqNWh0azQ5SGlRd1ZIOGZDQWd0bjgzX21MLWhmREFsQ3dvUG1pZXRjMmU5NGdWZVR4VDlxSTJiMThmRk5xTHRyRktsUQ?oc=5",
+    "source": "TradingView",
+    "published": "2026-08-24T06:29+00:00",
+    "score": 5,
+    "tags": [
+     "contract"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "a6954900e7f0044f",
     "title": "Nvidia in talks to invest in Perplexity at over $30B valuation, The Information reports (NVDA:NASDAQ)",
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbjJIOEZnOUhfdWFyZEM4elZvd2hEX1JEN3ZiYUdSd1l5cmlqNU16cXVFVjQ2MThTQVh1cUlsYXFqN2hGN2stSFY1eFY3LVF1dHlXV3poelgxT05Mc3VhTTFTQjVtQUhFSktwd2EtQlhmZHRnT3p0bGdwRFF5ZUpSZWw0OVUzVExwYnZsbVpab1VkMFZfX3FrWldyaEt1cWpEWTgzcmtOVW5hcGdxbTVlT1JGVzNqZzktUXhubXRBZ04?oc=5",
@@ -703,11 +821,11 @@
     "primary": false
    },
    {
-    "id": "81077f132e22ac0a",
-    "title": "Japan's Nikkei wavers as AI stocks weigh ahead of Nvidia earnings",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOU01EdWVOM2VYbXhvLXViU3c1RVFnRmtSMFlMVnlXVVZRRGVocjJCNW5KZkxfVUV6ZFJTbHBSWXNIcTh3MERNS0VJUVlLYTB5VWRpZVgtdGozR214dzlDM3pYVE1zT0oyZ0xXQWsxZXpyR2d6R2RFTjZGeFczdHY2ZDhfbHJIb3VLNXhHdmFjVGJZc1dscTJtYVc0VzhSX0NWQVgyTHpOTWlvNjRsWmZIUkVyanFqcTI4Nmc?oc=5",
-    "source": "marketscreener.com",
-    "published": "2026-08-24T02:18+00:00",
+    "id": "f48c331d84ed02cd",
+    "title": "Investors Stand Ready as Nvidia’s Q2 Earnings Report Arrives This Week: Another Major Test for AI Trading in the US Stock Market",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9MT3VkOE5xNGhla3ptZUYxMkpMcE9scTBiVVQ0NE9TNzNqcDZIVXpEVzhIOHd6UzdScGhaMUJwUFlWMjNfX0dkbko0ZlpXN1YzMWlQV0VSTGNMeVpsMGc2WnBSWdIBY0FVX3lxTE9MT3VkOE5xNGhla3ptZUYxMkpMcE9scTBiVVQ0NE9TNzNqcDZIVXpEVzhIOHd6UzdScGhaMUJwUFlWMjNfX0dkbko0ZlpXN1YzMWlQV0VSTGNMeVpsMGc2WnBSWQ?oc=5",
+    "source": "Bitget",
+    "published": "2026-08-24T03:27+00:00",
     "score": 6,
     "tags": [
      "earnings"
@@ -716,11 +834,11 @@
     "primary": false
    },
    {
-    "id": "e574eefd836e254b",
-    "title": "NVIDIA Earnings Test Semiconductor Stocks' Rebound Potential",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZFlZQ2M5QUtZZXByZzkwZVVVdkJ5VXdmajQ0SnNqSFNoeDhKRzB4bzFIU292N2FKLV9CTlRjcmlJX1M5MjlCbmlRUjcydk8ybXd5MDIxRl9nU3k2c2ZaaDV6OEM0OGVuSjgzN3RVYjlfNVlVU0VqV25JeWNOQkdDMlhSaUppSnRQX2IzdVBB?oc=5",
-    "source": "조선일보",
-    "published": "2026-08-24T00:19+00:00",
+    "id": "81077f132e22ac0a",
+    "title": "Japan's Nikkei wavers as AI stocks weigh ahead of Nvidia earnings",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOU01EdWVOM2VYbXhvLXViU3c1RVFnRmtSMFlMVnlXVVZRRGVocjJCNW5KZkxfVUV6ZFJTbHBSWXNIcTh3MERNS0VJUVlLYTB5VWRpZVgtdGozR214dzlDM3pYVE1zT0oyZ0xXQWsxZXpyR2d6R2RFTjZGeFczdHY2ZDhfbHJIb3VLNXhHdmFjVGJZc1dscTJtYVc0VzhSX0NWQVgyTHpOTWlvNjRsWmZIUkVyanFqcTI4Nmc?oc=5",
+    "source": "marketscreener.com",
+    "published": "2026-08-24T02:18+00:00",
     "score": 6,
     "tags": [
      "earnings"
@@ -740,48 +858,22 @@
     ],
     "direction": "negative",
     "primary": false
-   },
-   {
-    "id": "ad6dea00da40ea1f",
-    "title": "Nvidia Reportedly Raising Prices 15%; This Week's Earnings and Fed Speech Key to US Stock Market Direction",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Lb2ZFNTVaZDNEQU1aZFdDV1o0Ukxrc1IzT1REYm1XUExfaTRoNW84Ulp5X09pQi03eVYwNm1pLWhHTElwU0p5cGJtSnN3YmhEejRNdkNCc1F1cVREbHVxQ3BVZVhfcGJGb1dTZktLNUFVNDlwbEE?oc=5",
-    "source": "finance.biggo.com",
-    "published": "2026-08-24T00:00+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "f4d36121da2ad4b1",
-    "title": "Why One Company's Earnings Can Move the Entire Stock Market for NASDAQ:NVDA by VertexQore",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRTBTYTctMjV0Vno0V2ZRWGdHVFRDV0stQ2dMQXNOSDY2cGcxWVFNUFg2aWxDMzQ4cmVialI2aVNscTNMNWtfQnNsRG9yYTVKRll2M1Rtdi1OeWhYXzE0VXFhZy02R3VMN3A0RGpFc1ZLRXhjTl9ocEQxdWliUHBYNG9jZFNXR1Z5WThLS21QMjR0c0V0TGczWXZNMW1HRzVoRzgtU2pHa3Y5a3E1?oc=5",
-    "source": "TradingView",
-    "published": "2026-08-23T21:22+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "12bae9443d33ce64",
-    "title": "Goldman Sachs spots huge twist ahead of Nvidia’s earnings",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbVVoUVVtdnI1LTJFb3BCQjZ0MDRaWGxXclBCTnZvQm84Sk5sSkdyR1g1WEFMa3AzcEVEd2xJVzBHamRqNFlCb1QtWGM2aFJnZWZWV2w4S3FpSmdiNFpKWGQxMEtDdmRiQndFZnBxRjZfR2IyN1puSkJaSmZJSWJPcFdiVHpKSnowRThZSjlhYzExLXdWeW9jc1d3UlVqdw?oc=5",
-    "source": "thestreet.com",
-    "published": "2026-08-23T19:17+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "INTC": [
+   {
+    "id": "6e00e5439f521549",
+    "title": "Intel stock holds high valuation as AI demand drives guidance",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYnBnTzhQTVRJQmk3NTlubXpRTENqVW9KMlhiT3dpYXFsR09Yd2M0Z0g2TFpoRXlJb25WNjYtSUNQcm5BcER5c3RDS1RubTNTcGF5RW5rcHZ1OHFyNHZYUG41MkhRMWxkczRKcDJWdWk1ckt4bGsxaHhUbncwak1FVXJ0OVQ4UXNjSmZPTFpjVV9scFpfc3hYMWptcWNMb1JHcGtyOVNHNVZWWUlJYXR3VG9pREhHZUhDcm53R0daTnlhQQ?oc=5",
+    "source": "Ad-hoc-news.de",
+    "published": "2026-08-24T06:37+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "f183b48bdfc875f9",
     "title": "Intel and AMD Fall 4% as 13F Filings Reveal Concentrated Chip Bets",
@@ -891,6 +983,20 @@
   ],
   "NBIS": [
    {
+    "id": "3a8d890ea32a676a",
+    "title": "Nebius Stock Forecast: How Did NBIS Secure $44B in Contracts and What's Next?",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONWJFd1lDUXI2WFZ3UUVWNDFaVVRMTnNSYWtYSmJpbi1sY2RpUkFtaUFmUFZhdV9Pc2VTOHFWSUFwaXlsWEJJWW42V25lZDJ5RDc4NE1aX0d6eGgyYkxlaXV3dXFYUWlrc0hWbWpxdmV6UWY1Q1hsNjV1cUlpaEJXemZpOFVWQTFYYUdGRFM5S2g3SnVqTE5rWktyQ3dsZTZUcWtLUEo3RFF6LWtXclV6dHZUc2h3Ui1FM3lieGwzVmdfeXdQb1BDTGl2M3ZabVZrVEE?oc=5",
+    "source": "TradingKey",
+    "published": "2026-08-23T16:52+00:00",
+    "score": 14,
+    "tags": [
+     "earnings",
+     "contract"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
     "id": "2336ff69e15403b3",
     "title": "Nebius Faces Its Earnings Moment With a Billion-Dollar Contract in Hand and a Construction Question",
     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNejZYYjNNYXgxRW9fUVRvU29rYWQ3THczelczNUlyR1ByWmF1eDlreURGR182ZFFQdzNCQnFXdGZRSFhQRjZSQ3ZITVBRaVR1Vk4yX3dsTjFXWVl2ZEVBajNUSU1MOVlwZUtLSTRPRVlTWDZTZnFhUmJwQkJFMjlIZlR6VUNQMXlxbExxSjVfa2lzUEhVanZVQzRZeGRnc3BuOGpvMGR2OFNZT2RiZlgzdjU3aFVudm9Lc2FFOEczT0xJTkxYT0dSX25faW81M2VUNk9NTVdoQk83OFE?oc=5",
@@ -914,20 +1020,6 @@
     "tags": [
      "earnings",
      "capital"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "3a8d890ea32a676a",
-    "title": "Nebius Stock Forecast: How Did NBIS Secure $44B in Contracts and What's Next?",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONWJFd1lDUXI2WFZ3UUVWNDFaVVRMTnNSYWtYSmJpbi1sY2RpUkFtaUFmUFZhdV9Pc2VTOHFWSUFwaXlsWEJJWW42V25lZDJ5RDc4NE1aX0d6eGgyYkxlaXV3dXFYUWlrc0hWbWpxdmV6UWY1Q1hsNjV1cUlpaEJXemZpOFVWQTFYYUdGRFM5S2g3SnVqTE5rWktyQ3dsZTZUcWtLUEo3RFF6LWtXclV6dHZUc2h3Ui1FM3lieGwzVmdfeXdQb1BDTGl2M3ZabVZrVEE?oc=5",
-    "source": "TradingKey",
-    "published": "2026-08-22T23:46+00:00",
-    "score": 14,
-    "tags": [
-     "earnings",
-     "contract"
     ],
     "direction": "positive",
     "primary": false
@@ -992,7 +1084,7 @@
     "title": "Marvell Stock Forecast: Q1 Revenue Jumps 28%, but Is the Trillion-Dollar Thesis Real?",
     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNNHdCZWpxVmpVNjUxQzl6N2hDdGdZWG9Xa1pfSnB3TVNYcWt2ZnMydm4wSHFwWm5zQXZmTkVSSk1nWkRUZXluMFJzYlgwYkVMOF9peGpoYzdJTWRpYkJMM0lGWG42aWVvVDJnREVxc0JaYnhjNHFIYzJBeXYtQWxTSUxtYnVvTERQbWVxVWZxa0lVOXhCZG1zQ3VVLVpqa1VlZFI0eHMta1A3T2gxcmc1S1ZMV3JlTUstUDl4SUgzVmpuUXRfdnhqTS1FbU5jTU1kSzdubkNFUk9fTENSX1Q2b1NhVVFtaXJncGdTOQ?oc=5",
     "source": "TradingKey",
-    "published": "2026-08-22T22:46+00:00",
+    "published": "2026-08-23T16:27+00:00",
     "score": 6,
     "tags": [
      "earnings"
@@ -1081,14 +1173,14 @@
     "primary": false
    },
    {
-    "id": "9c217a76f88df445",
-    "title": "Meta Platforms stock steadies as AI spending and revenue outlook reshape the risk-reward",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNcWpXN05iSDc2VU5GbEdGV0dqVGUyUWpNbnFWcWJtM3pKZDc2cjFpSnRudXJLRjFVdk9pTHh3b2pXTDdRYU5Ia0dCSnhVb0MwNG5GNXI4b1VFdXVISjRYM3hTazBYMHNhM2pGR2d1QnJjTGF5M2tFeDB5VnJVcWxfek5vakJwaWNJVVNhNFA5T0RYZHNFSjNwX3BoNGJRSEtsMUlPMVFFZVpLdzRmVGMxbHZwYnQyNmlTZUh6S3FuZlBXb2M5bXU0T0o2cHpOSEVq?oc=5",
-    "source": "Ad-hoc-news.de",
-    "published": "2026-08-22T06:53+00:00",
-    "score": 6,
+    "id": "b0ec30ee1954e4ba",
+    "title": "Meta Platforms Tokenized Stock (Robinhood) Exchanges META Markets | Buy & Sell & Trade",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQUNqRkVTalA2WWRXTVhXbk9BLW1hVVN0dFBUc3hkN3JwMmRaT1BsQ0xxcktMMkt4bWZfWlVDdnZneDIwM3JFVnpGbWVPeVMxVXFrUmNDanUxSFVBUVQ0TnlIZGhxaGY5akhDYmVGcHFPaEV2WmctamRNa2Q2MHB0azN2SjE?oc=5",
+    "source": "CryptoRank",
+    "published": "2026-08-22T12:38+00:00",
+    "score": 5,
     "tags": [
-     "earnings"
+     "ma"
     ],
     "direction": "neutral",
     "primary": false
@@ -1133,5 +1225,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 81
+ "count": 88
 }
