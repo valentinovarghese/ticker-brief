@@ -1,9 +1,22 @@
 {
- "checked": "2026-08-24T15:41:34+00:00",
- "changed": "2026-08-24T15:41:34+00:00",
+ "checked": "2026-08-24T16:16:20+00:00",
+ "changed": "2026-08-24T16:16:20+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
+   {
+    "id": "568e16735ffa7c05",
+    "title": "Memory Stocks Slide on Report Apple May Source Chinese Chips: SanDisk Down 9%, Micron and Western Digital Down 7%",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZXpLNjQ5dUFnbV8tWW1sSnBLNmd5RTdjcFQ1elJ6UjRuTnFyZ2h2OEpuVmZVdlNpN3hwOFFJLW5mRzJ0OUMzZ1p6NWU1QzdOUzE3d1dHV3VBVERHZVBCX0JKeU5DTTJjT3ZwSGtPem10ekNoc0N2N0pqOXJMUWtfa05R?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-24T16:07+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
    {
     "id": "91b80ec6065fcf0d",
     "title": "Apple Tokenized Stock (Robinhood) Analytics: Price Dynamics, Quarterly Returns, and Annual Price Changes in USD",
@@ -120,19 +133,6 @@
      "earnings"
     ],
     "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "38890d9e8c9a64df",
-    "title": "Apple TV Faces F1 Viewership Decline, Testing Revenue Against 900,000 Subscriber Threshold",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTDFkcjI0M2FRNWYtOTJERzJGa0hmV0JJVVlFZDNmQUZpNFpfVkM5T1lNdGRPZ0o2V2d1UUF6dnE3aTEwVEFCcE5Tc3F6amNMc3IwOVNiSmVDcEFmb0Y0WDQzVTBQSDBLdWFXX3ZXc0dZLUs3WlhpaFJoRVBzNWpjQmNXRmpWcVgyUnkta1ln?oc=5",
-    "source": "TechStock²",
-    "published": "2026-08-23T17:52+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "negative",
     "primary": false
    }
   ],
@@ -345,7 +345,7 @@
     "title": "Palantir Q2 2026: Revenue $1.935B (+93%), U.S. Commercial Surge 149%, Rule of 40 Reaches 155%, Stock Extends Breakout",
     "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPWTc5YmZsSUtnQkZLNTYwNVFJSkh2R0tRMTRCanpxSXVaenQ2V1o4MTNRaXNtZkh3ZU9tMDA0STdzaEdXeHNHeThCZjNBckFrQzZ1R0RsWTJJd3l2Y05PYWRMUWZkU3FrdEdRLUc2Qi11Q19HeG5yeFl3bkJhZDB5TWRLbktZZFZxd2wya2s5Z1VOQWFrbjRpUWpRbHltVFlVODdYTGM1YnY5V0xHdHpISW16LUdNVnQxM2ZYRkd0TWUzaGtJMVFOX2gyMDlWaUZXdVdQSURubFpkY3RvYkhxcXd3UDh6VldRT2hZVHFpdTQ0a3lUdGVCV2t6UXI?oc=5",
     "source": "TradingKey",
-    "published": "2026-08-24T14:05+00:00",
+    "published": "2026-08-24T12:06+00:00",
     "score": 9,
     "tags": [
      "earnings"
@@ -705,6 +705,19 @@
   ],
   "NVDA": [
    {
+    "id": "7aac03cc6a49c10b",
+    "title": "Nvidia Makes Waves With Poolside Deal, AI Investments",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPc2hxWVBBV1Nlak03ZFhmRm14Q0o4RFJaVkozWUx1NkhXMmxmREprV0U0NGxHc2hTY1BqdEE4eXdCSzhqQTh0NHJ6aUhSd2tGTmNELWlFOHF2SGpXS0REcnJTUzY1Tkg5Z0dxcmVZOVg1NFVRR0I0d1lwUUtyWEJ0REpMYnBrdXRRV3RHUUFtTmVRZUk?oc=5",
+    "source": "Investor's Business Daily",
+    "published": "2026-08-24T15:41+00:00",
+    "score": 5,
+    "tags": [
+     "contract"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "8d5d474df72d6767",
     "title": "Nvidia Reports Earnings Wednesday. Here’s How Much Traders Expect the Stock to Move",
     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMHVLQU03THBfMGZYMl9KSERlRFBLTnJBMHc5dE9VVGppMnd6T3pucENWN0lpOTNET2Q1UGtIenEyblVuaFVmekh1Ujl6OU00TFB6SDVTb0F2RUYzOE9rMmRzaFJQV2J1VkJadVl0NElDNng2czFfaWtHdHg2djZYNmRqUGRYZmFJN0U0YWVUSEgtd0pZRmtmSjBDVW52ekM2Z0drUTdxQi1LYWhWeEVRRTFud0pVai1xeWJzbVlsRFhNY3UwemtOVGV4VjlSMHd6Znl5WU81azBRS1E?oc=5",
@@ -797,6 +810,19 @@
     "primary": false
    },
    {
+    "id": "fd66a6a59b9f3edf",
+    "title": "Focus on Mid-Week: NVIDIA Earnings, PCE Report",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVnpxMzN4eU1hY2JyQTJ3NWZ6Sk01aU5rbzBiRTk0ZWVUQXBwanJfMHRTcm1wbFUwS3ZwUUNheHpReGxIdWxsUC1DanBBR242RlZIdzA4VVlyd3N2NDF4NGpYcHA1SkpHTWZ1Tk5mLUtSRU95X0ZvZkJvMzBjSUZ3d194OER5TGhSVW14MDFyNVhOUXR5VUFLRVJFMTkwbG9PZlE?oc=5",
+    "source": "TradingView",
+    "published": "2026-08-24T14:29+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "9210c17321b60700",
     "title": "Better Than Nvidia: 3 AI Dividend Stocks Leaving It in the Dust",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObXZyWmt0ZVJFWW1pNFduNW0wY3FWUTdsN1NhTWwzanFKUjMtWS1FVHFhZjVCOVBEdEVCb2t4WENaLWdMNURhS2lNaDBnZzFnNzdscnozbERweE9aQjAteTFLOE9fc0NfcmItNmRRMUx2UVpTVUp5ckRuT0VCWFd1VE5Bd2o0X3FKU0JiWEtJRW5SNGdWNXRQWXBnal9JYW5NVWJBM1pEVEYyZw?oc=5",
@@ -808,35 +834,22 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "3065960616508bbd",
-    "title": "Dan Ives Says Investors Still Underestimate Nvidia Days Before Earnings",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRE9ac0xBQ0V0RGxVRWhRaGpfSXROV1pCeUpmY0oxMzV0VW1TUE5EMnZYNlJTQnVMMW5ZWk5KY2F1Y1JhdldEaEdSYzAxYnM5VFF2SlE4di1CblRfUkZUeHdsVVNmZWZVaVlzWjUxWS03VDRTMlBwLVFJa21xaWhXTVJFS2cxbFNGcGVWMG9IYWNUY05BR1VnZUR3?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-24T13:40+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "2950ac7bc556d6cc",
-    "title": "Cantor Fitzgerald reiterates Nvidia stock rating on AI demand outlook",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbzQ4N1VIbmotVDFTa0FCbEFWZk5OZVNxMDdHZG1GQ2cxVUhfU3NLTERiUHZMenZPNDNJbmdhNFQzaGZlaW8xUHAzeVptd2Z0TUxVNjh0UDVzUmg2eDNOOTlnRlVRTTloampiMWczM1R5Z1VNcUktemlCOVAtVUgteXZyWDZKX0s5Wnc2cTc0QjdXb2k2bS1OY005bHlnTUZFX3g1b1hyU2wwbUhGOVVpRHpsTXp4S3FwTy1ubld5LUhTaUludVZMRQ?oc=5",
-    "source": "Investing.com",
-    "published": "2026-08-24T12:25+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "INTC": [
+   {
+    "id": "738c271c121c11ac",
+    "title": "$Intel (INTC.US)$ nancy buy",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUTMzRkltek9Bdl8zdFppSExweGJseXg2LXBrQk1SR2FualN1UzhyVTIwNDljRFNHaFJhSHlGRzVOdndMQ2dVWEliN25yTVk5TU5WY0lnWnZvdEJPMm81R3I2N2xXaGdWSnVaSXlObGdCS1RoZ1FZR3FpNDJ5dm9BYjFQOA?oc=5",
+    "source": "Moomoo",
+    "published": "2026-08-24T14:55+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "95c39a082053f225",
     "title": "Intel stock forecast: Weak momentum after institutional sale",
@@ -949,19 +962,6 @@
     "source": "Ad-hoc-news.de",
     "published": "2026-08-24T06:37+00:00",
     "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "2ab4ebace09d9829",
-    "title": "Why Is Intel (INTC) Stock Volatile After Earnings? Revenue Beat Overshadowed by $11 Billion Loss",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdGVhdUdOWHYwd0I2OHRLRjlFVE9KTkNud09aOHhCOTZGY2NDZVM4VjFnTTZKdkpKdlBORHo1OG5RWENLVFg4VUZoYVdVWVRpaWFCSWtxY2dHX280ZFFsaDlvSldKQm9NdTdWTjlueks4V3V3RUVJQ2pqYVFtNi0xVU9zY2V3MGdONjRFaHJqU1RRaVZZMm9GZndlNVRSaWpveDlMWG41WG5qUk52T0tRcGl1bklGZ2twMmQyQnJxdkM0YzU1d1J2Wg?oc=5",
-    "source": "TradingKey",
-    "published": "2026-08-24T00:40+00:00",
-    "score": 9,
     "tags": [
      "earnings"
     ],
@@ -1161,19 +1161,6 @@
     "primary": false
    },
    {
-    "id": "246d26201aad022c",
-    "title": "Meta Stock Price Forecast 2026-2030: Can META Hit $1,000?",
-    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTnpGV296NEJTWWFiTlR3UDJEVzJQanM2dy00VDJZSXNHMkx2Tmx3bGNUYUtncnRaTVhOdU85bEE5SDNtRFVMT05LVTRTZnljcnl4T2JNdEJDWmRManowN1U1bHFBbHBrNEplNV9TdHVwdW8yN2FzTzlSbnhya0h6bFVtaEM2Y0pfZU5TQmI2RHVKUEVxNXZmNW9lSmlOTmV6VHZKX1cxbTFZTERTTFBaRXdzOFlSMV95YXp1V2ZGVDNwOVU4UlRianZQYlkzMzIyQzdDXy13YjJ5Tm8?oc=5",
-    "source": "TradingKey",
-    "published": "2026-08-23T19:06+00:00",
-    "score": 9,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "bb570be50aeefbea",
     "title": "SA Asks: How concerned should Meta investors be about child safety lawsuits? (META:NASDAQ)",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVElxSG5jb3l1UjV1T2hId3EtekoyaDlYSFk3RFBoVlZfT3A1dFd3Z3RVUThpdUtBaWs5d0Y5TnAzNU01NXJ6eTlDTnF6M215RUd3NzFRdzBJUWFibzFyMzVKdXZOcXNPS3NHNXAzWS1NY3lUZGVsd3dHZDBGNEZSOWRBeU1mMHpGRlh0aEhybHgtd2xwS2xLZlZNcHF2ZjdyR08wamxaQkZWeGhUY01aUzl3?oc=5",
@@ -1239,5 +1226,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 89
+ "count": 88
 }
