@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-24T07:36:36+00:00",
- "changed": "2026-08-24T07:36:36+00:00",
+ "checked": "2026-08-24T08:24:33+00:00",
+ "changed": "2026-08-24T08:24:33+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -15,6 +15,19 @@
      "earnings"
     ],
     "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "e8135b4f17571843",
+    "title": "Apple (AAPL.US) is about to change its CEO, Tim Cook delivers a “stunning” report card: Market cap increased by $32 million per hour, repurchased $877 billion—ranked first in the world",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xTDNFTjIwNmpuSFYyeWRKY3VuLXBOTU4zU3BtSkRnelozUkdfTUFJZTQwX1NKckNpTlN1eGt6c0tGbGdoU0V0MDNJNlROVnZRRU4zMXd3amFRbk5RZThJRjNjSnBNdU41enfSAWpBVV95cUxPcUwzRU4yMDZqbkhWMnlkSmN1bi1wTk1OM1NwbUpEZ3paM1JHX01BSWU0MF9TSnJDaU5TdXhrenNLRmxnaFNFdDAzSTZUTlZ2UUVOMzF3d2phUW5OUWU4SUYzY0pwTXVONXp3?oc=5",
+    "source": "Bitget",
+    "published": "2026-08-24T03:10+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
     "primary": false
    },
    {
@@ -120,32 +133,44 @@
     ],
     "direction": "negative",
     "primary": false
-   },
+   }
+  ],
+  "AMZN": [
    {
-    "id": "62f100c6de640fcb",
-    "title": "Intel Lands a Preliminary Apple Chip Deal and an SK Hynix Packaging Partnership — Is INTC Still a Buy at $124?",
-    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNTGpHN3o3WGJhaU1Nbld3bC03TnZpTlhfRXNCeU1Oc0QzRTlyelo3VjNvN0Nucjd5UWpkTDB5S1VPMVlRcHhfekg0U01ZbnoxNTRrbU1UdE11R3FQX3lIX3J3eFN0OUFjaENlM2ZlSjg0UkFIbGoxMGNPdXRrZFdVcEIxWTZfNlNRRG1fQXA5X1VoLUNMQklucVppVl9mVFc1cVBsNV95V1FqUWpLdEExZHZQTm5NM0RVQzRucC12MGthOVVXdEhsTUVWR1FNWjVhdDRXelNuTzNVbHpqSWJiamFFVmI0NTFGRjdwQTFR?oc=5",
-    "source": "TradingKey",
-    "published": "2026-08-22T23:34+00:00",
-    "score": 13,
+    "id": "4d5623fcfa1edfd8",
+    "title": "Why is Novo Nordisk stock up today? Amazon Web Services deal and resistance levels in focus",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYUQ0Q0N0cmhSM19jNlF5dGo3elBVc09uZGpFS0swOTNvZUZPcnFoaDdLTEtDNTROcnQ5Y1UwRFBVeG9IaHVMREZGTi1UVElwbnBGamlNaW5jOWx2cHFmQ2RaVEQ4TnI1czYtTXIwaU93MTg1WWRwMUR5dWFWZWphNlBPa21rSmdDMnFvUw?oc=5",
+    "source": "Traders Union",
+    "published": "2026-08-24T08:02+00:00",
+    "score": 5,
     "tags": [
-     "ma",
      "contract"
     ],
     "direction": "neutral",
     "primary": false
-   }
-  ],
-  "AMZN": [
+   },
    {
     "id": "e3aa1aa1b0d3081c",
     "title": "Iran strikes Amazon Web Services facility in Bahrain, causes temporary disruption to services",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNHBERFF1YmpYWjh4dkUzdjdybGFPZjVlUW5yc2dzSzU0cTZKOVN0Ykl4bVJ4LXp4b09vcHJITDZfa3hPaUMtU1I4bGtNLTBpVTRucUVwY2U1ck95RzcwYzFMUlkwaGEyX1FZSXJuNHBJQnhHQTBUUXZ2ZEJTNGgzR1Z1VjJ2OTUzTzNEYkdoYW1MSjNsY0pCQ01FQlJ6S213R0dnOUFQTWNPV3JvT1p3UXlNbzdlVjdDQnc?oc=5",
     "source": "News On AIR",
-    "published": "2026-08-23T20:09+00:00",
+    "published": "2026-08-24T07:31+00:00",
     "score": 5,
     "tags": [
      "operations"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "7d91a03f0d96edc2",
+    "title": "Jeff Bezos Remains Amazon's Largest Individual Shareholder With Roughly 900 Million Shares. Here's Why That Stake Still Anchors the Stock.",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV1c1aHI5aHU2aGI5ZG96TzZRU2NCR2lWOEhBYVdIRm5iMHRqN0p4YjNSTjVQZDRlNWpzN25HSFgyRlZuWEVtSXdCYjRTQmdObWdUQUNWU29VNV8wN0g5WUZfUXVRNWM3d2pEMm9lU2ZSX2hsZUZINC1xRlU3eDRTajFLTQ?oc=5",
+    "source": "AOL.ca",
+    "published": "2026-08-23T21:44+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
     ],
     "direction": "neutral",
     "primary": false
@@ -187,6 +212,19 @@
      "ma"
     ],
     "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "46a0d9f88819d481",
+    "title": "Amazon Q2 EPS $5.75 beats estimates; analysts see $1 trillion AWS opportunity",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeEUwclE1bG1LcGkzd1Q4VU5rMmt5bW5qRVJBbEpPMS1mN0R3aEJjT3NTTlowckJYR1ExN1pnbGotMjZwZUFrV1VJa2pwOEwtZnEyMWFfOXBWdGlLOXFpb0Z6ck1YWm9hUHZ4NS1IbmdpaUpmcXlqRWo5ZHZOcWgxX2JNTU15dEtpRno1M2hXclo3YlZmTXBMNWtCUUJtRnhYT0tRU19ab2dzc2Q5SHc?oc=5",
+    "source": "scanx.trade",
+    "published": "2026-08-23T08:24+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
     "primary": false
    },
    {
@@ -272,20 +310,6 @@
     "primary": false
    },
    {
-    "id": "7a84f10d83494ddb",
-    "title": "Tesla Recalls Nearly 3 Million Cars in China Over Hidden Door Handles Linked to Multiple Deaths Amid New Ban",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcTdya196d2NaNVpoT3l3QVV4OTJWdmR1Z1FmS0c1V09rQS1CbFBsUEZqYk1mX01pSzNIMzFfZ1NONmRvbFBWSl9LUFE3WVd2enVSQUhMWUpBWnhxZmZ2V0tHdGNraDBob2d6Q3NET0xfajdHNUR3Y1Q2SlN4c29IOUoxMUJoX3FrLVNGM09kTzc4ZjMxaEZF?oc=5",
-    "source": "International Business Times Australia",
-    "published": "2026-08-23T13:48+00:00",
-    "score": 9,
-    "tags": [
-     "operations",
-     "policy"
-    ],
-    "direction": "negative",
-    "primary": false
-   },
-   {
     "id": "524ff2ba0d890bcc",
     "title": "GM, Tesla Pivot to Software Subscription Revenue",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNT1lhVkROd1RaemNsV1lTdW5hRjdWZUtqcjdycUNEM3pNc2JQM2tnNkh5QW1jbm1lVXV3ekRxdk94VlBZT3AzSXdKc1owTHRtRFhWQU1zQWVKbFZMM25XQjB1N3FKN1BWZ0hlaTZuY3J1WTRBQ190MHhBdHE2VVF6bUlNVmpTS0huQ2VHbEtILWotQQ?oc=5",
@@ -296,19 +320,6 @@
      "earnings"
     ],
     "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "53ef71f81e0d195e",
-    "title": "Tesla Surges Over 5% on Cybercab Launch and Robotaxi Permits Despite Recall Headwinds",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPS3BvUjBKU0QyenEzVW9jWXlOWTF5aUxBU3E2UUZpakZQSVk0bWg3LThGN0dlZ0JMdVpSWG5KMmpfVUdMbFZhLTYtcTR4UElodmZNTEp4OTAxMDhId2tzZmJSZXZraTYwc0tzTDNQeGlCVGZpeWNjVm1FaHMxa0FicTdrUE5XLXNSMWgteDdXbUh5alY4cWlMdzVjV19fOFNtenBjc3J6V1A3LTdRdkc2OTRhaXRKTkJuTzRvVjJhZlpyT09SX0E?oc=5",
-    "source": "InteractiveCrypto",
-    "published": "2026-08-23T05:09+00:00",
-    "score": 5,
-    "tags": [
-     "operations"
-    ],
-    "direction": "positive",
     "primary": false
    },
    {
@@ -338,16 +349,16 @@
     "primary": false
    },
    {
-    "id": "f16e106205c6575e",
-    "title": "Musk's Tesla, SpaceX Confirm $16.8 Billion 'Terafab' Chip Plant as World's Largest Building in Texas",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeS1DR1hOMHZmOUtKQzl6Mlc4eUNGcW1nd2hYX0NqSE5HRWxLcExBaGExSjFBZ01GeEJWaUVpNnF5Q2l4eDVCVjJlMk1qbU5LaFZFM3lib1VhU081MFF2WlFEdDRtM2t4UDlvdEhrcjZnZUwzalc5QUVhVDA4TXpVcG9iRWlFb0VUOUpfLQ?oc=5",
-    "source": "International Business Times Australia",
-    "published": "2026-08-22T11:55+00:00",
-    "score": 8,
+    "id": "e174ad8c472765e1",
+    "title": "Tesla Recalls 3M Vehicles in China Over Door Handles",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSU5XNUl4OWpQVjZGWmRobnl2YU9mWDRUNEl0V3hqU0lsdm04Q1BDVTBZc2NQUnM4VnF2NXVHN1FiRVc0c2pkM21fM3hHWXlEeUNJNzZhQUlTRFV2bzEyaU5Pb3lpSEZqejVwUzRYTHhGcEVEMm1lVjA2QkhWYkZNUXJqYzExUFZtenlhWk5VVEZsZw?oc=5",
+    "source": "Briefs Finance",
+    "published": "2026-08-22T10:52+00:00",
+    "score": 5,
     "tags": [
      "operations"
     ],
-    "direction": "neutral",
+    "direction": "negative",
     "primary": false
    }
   ],
@@ -636,6 +647,19 @@
   ],
   "HOOD": [
    {
+    "id": "4935814f361f425c",
+    "title": "Vlad Tenev urges regulators to greenlight tokenized stocks as Robinhood adds approximately $12 billion in market capitalization.",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZFZnTjNIWFlGX2tacldJWjZuLS1lb0NTT2tRWUZxY3NCZk1Ka1pIb0d5NXhwNVdhYXcyVC1tZ2Y1WFFxQmtHME91a0hfakRMVDdPMXkwT2Jtb1JpV1ZCMWRtamNxZm43QTZuTlhPSHZzUDBoQ2VzV2FkTnB4eEhqVWIyQUJuMFlNX3hVUHMxVk9mazgxdjMxcDlQSWpmZWVVd2J3YkJaNTdmV2FDTUNiNGlXUQ?oc=5",
+    "source": "Moomoo",
+    "published": "2026-08-24T08:16+00:00",
+    "score": 8,
+    "tags": [
+     "legal"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "7c74bbe49aca372f",
     "title": "Trump Sells Strategy Stock and Buys Coinbase, Robinhood Shares",
     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5lQnVfSThzWFI0OGFaLWtURzJpQTVzei1ROUk0WHpLeVNNUG5Oa0lXYXJZZllfVUk5cjNiTWJrbGEzaHN4UWk2aGc0SUNGeFJvWTVyTmdmVnYzT0VHTEpYNTFmaw?oc=5",
@@ -654,19 +678,6 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSlRWalhCMThQZFBjWE9PYWJONlFoODh4ZWtaTjhabm5LUncwdkE1N1lxM0E3NzgydFBNcTBwa2JYODFYcWNmbHRfU0pyZkhzLW52U0lOVTZtWldrb045VDFfZHhlMHh4OEtxWFBRbW0wTDNXNnE1d1RlajhPZmhLUXN0RUxaajlLLVlfUkk4bW5UdHhDMEtxdmlOQQ?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-08-24T06:26+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "88f2dbd4e207d5ee",
-    "title": "Robinhood’s 2026 Outlook: Strategic Evolution and Valuation After a 280% Surge",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOLURfLWtteE1pT05DVzhfb0FCWVR3Qm51VVlHMkNUdWthUV9pclBrVGJmamdDMWV4eW82eGxDaUZzSEtzc3lpZkFuVFNtdjRrazFmdmJDcG40eWM4N3M5Z0ZWZ3V1dWJIRzU3ajRzbzhFTl9wM29oSFJwTTM2cHBkUlRRX2hFQ3hEbEhzNjQ3VTRaU19fZHBzWGUzaFRXRUVXTDU4Vlctcm1rOEpuSE1JdWJWNDBvYVIwV0VJV0JoTQ?oc=5",
-    "source": "TradingKey",
-    "published": "2026-08-22T22:54+00:00",
     "score": 6,
     "tags": [
      "earnings"
@@ -729,8 +740,8 @@
   ],
   "NVDA": [
    {
-    "id": "eb058c7846cc295f",
-    "title": "Nvidia set to hike AI server prices over 15% as memory chip costs soar - report",
+    "id": "22ec93564330bf24",
+    "title": "Nvidia to hike AI server prices over 15% as memory chip costs soar - report",
     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBDSGtpM0thdWhpWlVqcVlzaHo3dFg2THVjNkI1dFNHSlFBTDNEYjczX3VQVHROVmFsdW1WNVI5eWQ5UVZ3T3I1b1phTGtJc0JwMjVnM05kdkVTeEVzQU1jYmEzSzlBY3V1WHJsUWViYTJBTnhC?oc=5",
     "source": "Seeking Alpha",
     "published": "2026-08-24T07:29+00:00",
@@ -739,20 +750,6 @@
      "earnings"
     ],
     "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "3420759123ad390c",
-    "title": "Nvidia Is Coming for OpenAI and DeepSeek With $6 Billion Poolside Deal to Build a Powerful Open-Weight AI Model: Report",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObHdqS2NYN3FlajFEOXJpdWNMX2l6OERrd1N3ZlVtT0JHeURTM1JkME9oYWpDdF9uUGhMaUpDaGVKOGYyWjRfeTJFRGRDQkRYaUxGeEszTWJKclpCOGdKOHR6dzUydTAzS2tleDhVOFNRTDFoS05VQ0VTdV9EU3FaUw?oc=5",
-    "source": "AOL.com",
-    "published": "2026-08-24T06:34+00:00",
-    "score": 14,
-    "tags": [
-     "earnings",
-     "contract"
-    ],
-    "direction": "neutral",
     "primary": false
    },
    {
@@ -858,6 +855,19 @@
     ],
     "direction": "negative",
     "primary": false
+   },
+   {
+    "id": "ad6dea00da40ea1f",
+    "title": "Nvidia Reportedly Raising Prices 15%; This Week's Earnings and Fed Speech Key to US Stock Market Direction",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Lb2ZFNTVaZDNEQU1aZFdDV1o0Ukxrc1IzT1REYm1XUExfaTRoNW84Ulp5X09pQi03eVYwNm1pLWhHTElwU0p5cGJtSnN3YmhEejRNdkNCc1F1cVREbHVxQ3BVZVhfcGJGb1dTZktLNUFVNDlwbEE?oc=5",
+    "source": "finance.biggo.com",
+    "published": "2026-08-24T00:00+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
    }
   ],
   "INTC": [
@@ -894,19 +904,6 @@
     "source": "TradingKey",
     "published": "2026-08-23T15:08+00:00",
     "score": 9,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "0fb4ccc8a5eb645b",
-    "title": "Intel to report second-quarter 2026 results on July 23",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVUV2TFVRSlo5bmp3RFNwa3JJc0VUSE9KNU1CRERFSEwzVVpxeUl5c3VBY2hOeFpBZ2VPSk1tY2xDUFUyNEhON1ozUGUwWXprZmlxODZWdjVRV0dzUkNUNzlaWDY4UVZMRGRMQUYyWjBRbWdyYjNPNl9ESWxnZmp0Y2NHdGl6dUdmNlVhTjlTUnVIVlN5Y2VaUTRTMTlQY0hFMlNOZWZQMXpQTmVLQzYzMw?oc=5",
-    "source": "scanx.trade",
-    "published": "2026-08-23T14:28+00:00",
-    "score": 6,
     "tags": [
      "earnings"
     ],
@@ -982,6 +979,19 @@
    }
   ],
   "NBIS": [
+   {
+    "id": "ac53ed8262e89ffb",
+    "title": "Nebius Earnings Ignite AI Cloud Trade: Can the Momentum Continue?",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOXJmNkNpV21OcFQ2VTZKRlRKZTNBcFZJOUtzN0ZJN1FtY3NZcUVhZWNfeVViRlBQZnBVZk45Nm95OS11ZUoydl91WDFvNWRVUHR6ak5Ja2VERFZGbE1POFp4YXpxM3B4Q1g1YlBleWtsOU94LW1kdlNjd1JFSlVyTXNJZnh5cUdyZGYySjN3bjhHTlNVUVA5S2gxTGhGYUkxRnNySTlzZFBWR1NRYjZpa1BMY3ZPMEJUeWc?oc=5",
+    "source": "Moomoo",
+    "published": "2026-08-24T07:03+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "3a8d890ea32a676a",
     "title": "Nebius Stock Forecast: How Did NBIS Secure $44B in Contracts and What's Next?",
@@ -1104,22 +1114,22 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
+   }
+  ],
+  "META": [
    {
-    "id": "e78ce8bcda60040e",
-    "title": "Marvell stock rises on report of TSMC 1.4-nm AI chip plans",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ05fN3VDa1BtbnZndXhEZXNiZmtDUlJLOERmOV9zcE9LVVJyb2xINC1fUERmeV9VME1UTDhYZzEybHB1YjczQkNodVdNTkhjdG43ak0taDlRRTJEWXU5RjNVcThiNW44aEJoa1phNlFhdDhOOW9vemZCQ1hWZXRLZzdUeEQ1X0JuNm1aSnM4Ni15SkV4LUhGRTFkVFgyLWhBUmpsR2tkemNaekkwZll5ZnFXajU0dw?oc=5",
-    "source": "scanx.trade",
-    "published": "2026-08-22T08:22+00:00",
-    "score": 6,
+    "id": "246d26201aad022c",
+    "title": "Meta Stock Price Forecast 2026-2030: Can META Hit $1,000?",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTnpGV296NEJTWWFiTlR3UDJEVzJQanM2dy00VDJZSXNHMkx2Tmx3bGNUYUtncnRaTVhOdU85bEE5SDNtRFVMT05LVTRTZnljcnl4T2JNdEJDWmRManowN1U1bHFBbHBrNEplNV9TdHVwdW8yN2FzTzlSbnhya0h6bFVtaEM2Y0pfZU5TQmI2RHVKUEVxNXZmNW9lSmlOTmV6VHZKX1cxbTFZTERTTFBaRXdzOFlSMV95YXp1V2ZGVDNwOVU4UlRianZQYlkzMzIyQzdDXy13YjJ5Tm8?oc=5",
+    "source": "TradingKey",
+    "published": "2026-08-23T19:06+00:00",
+    "score": 9,
     "tags": [
      "earnings"
     ],
     "direction": "neutral",
     "primary": false
-   }
-  ],
-  "META": [
+   },
    {
     "id": "bb570be50aeefbea",
     "title": "SA Asks: How concerned should Meta investors be about child safety lawsuits? (META:NASDAQ)",
@@ -1144,19 +1154,6 @@
      "earnings"
     ],
     "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "246d26201aad022c",
-    "title": "Meta Stock Price Forecast 2026-2030: Can META Hit $1,000?",
-    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTnpGV296NEJTWWFiTlR3UDJEVzJQanM2dy00VDJZSXNHMkx2Tmx3bGNUYUtncnRaTVhOdU85bEE5SDNtRFVMT05LVTRTZnljcnl4T2JNdEJDWmRManowN1U1bHFBbHBrNEplNV9TdHVwdW8yN2FzTzlSbnhya0h6bFVtaEM2Y0pfZU5TQmI2RHVKUEVxNXZmNW9lSmlOTmV6VHZKX1cxbTFZTERTTFBaRXdzOFlSMV95YXp1V2ZGVDNwOVU4UlRianZQYlkzMzIyQzdDXy13YjJ5Tm8?oc=5",
-    "source": "TradingKey",
-    "published": "2026-08-23T09:13+00:00",
-    "score": 9,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
     "primary": false
    },
    {
