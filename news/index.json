@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-24T04:08:22+00:00",
- "changed": "2026-08-24T04:08:22+00:00",
+ "checked": "2026-08-24T04:59:28+00:00",
+ "changed": "2026-08-24T04:59:28+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -179,9 +179,9 @@
    {
     "id": "2e1224dec8221b63",
     "title": "Billionaire David Tepper Has 16% of His $7.5 Billion Appaloosa Portfolio in Amazon Stock. Is It Still a Buy?",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE95bE1GcTlaREV4Y01YNzZvSUExaW8xNXNkTUl5YW95cEwzaUwzYlZSbzZ0Q2RFcjRzZ2M3NFhuOFJoNkZpczRZemYyNFFEMjEtTjE1LWZzRDFrSDhBX1FUY3JwQVlVaS0xU3Zoa0JUM3o4V0VGRUtjWVBXNnZCZw?oc=5",
-    "source": "AOL.com",
-    "published": "2026-08-23T10:39+00:00",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQ2liakk2RWZoVkpuSVNWVGxzYnYzcnA1TFJtUTc1Nm9zbGdTZ2lMOFFmdWtGNEdFRUtkOXFfMjNYWE5RcmxHMU1uNXZGOGtINUZwbUNLY2wxQnFrLXFRU3lqcWprQ25ESy1QZGJ3ajRUZ1hqSnJxc3FLTTFzUnpMN1hlRGJRcElGSWVUSU1oNkxiNkNsRkRWQTl3?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-23T10:22+00:00",
     "score": 8,
     "tags": [
      "ma"
@@ -245,6 +245,33 @@
   ],
   "TSLA": [
    {
+    "id": "83607a8025defed8",
+    "title": "Tesla China Recall Amounts to 1.8x Its Expected 2025 Worldwide Deliveries",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWGlwZW45Njk5cTBiZFBPTWZtY19rZzB6Y1pTREs4cUJfaE1yeFpDWGtwV3p2VWxCR05Xc1NqdGktblo5V1o3eTJmVDF3UlVRb1NWVXJPQU9ldnQ2WVUzQkJaVF80YzRBM053aE9qN29Zb2VJNTc4RzNFemsxb2pwakRLMlkzYldmNTh3?oc=5",
+    "source": "TechStock²",
+    "published": "2026-08-24T04:33+00:00",
+    "score": 11,
+    "tags": [
+     "earnings",
+     "operations"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "8129e969a19f5ea6",
+    "title": "Is Tesla’s (TSLA) China Recall Slowing or Accelerating Its Shift Toward Software and AI?",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVzBueHMybUhjWlZMcldRNVZ6OExOczRjd205Xzh6VEFwajh2MDFiUXRXLXF2bmNyWFVPVHV3MnlScTNsMV9RcWcweVFIQTVtN2FIRmdyb0Q2VlBMSmh3R3g4Z2hRYVU5TWFKd1J4cEprcXhpNTh0bmxsbEVSMUtWaEpRMzRka2kydXVFcE5UaG9RX25Jamp2QnlIbURZNmpPS0l5M09lZTZwRVU3Z19GMkQ1b2w2eXhxNU8zYkhiNm0zWmIzN3J2bGpiNNIBywFBVV95cUxQVzBueHMybUhjWlZMcldRNVZ6OExOczRjd205Xzh6VEFwajh2MDFiUXRXLXF2bmNyWFVPVHV3MnlScTNsMV9RcWcweVFIQTVtN2FIRmdyb0Q2VlBMSmh3R3g4Z2hRYVU5TWFKd1J4cEprcXhpNTh0bmxsbEVSMUtWaEpRMzRka2k",
+    "source": "simplywall.st",
+    "published": "2026-08-24T00:37+00:00",
+    "score": 5,
+    "tags": [
+     "operations"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "7a84f10d83494ddb",
     "title": "Tesla Recalls Nearly 3 Million Cars in China Over Hidden Door Handles Linked to Multiple Deaths Amid New Ban",
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcTdya196d2NaNVpoT3l3QVV4OTJWdmR1Z1FmS0c1V09rQS1CbFBsUEZqYk1mX01pSzNIMzFfZ1NONmRvbFBWSl9LUFE3WVd2enVSQUhMWUpBWnhxZmZ2V0tHdGNraDBob2d6Q3NET0xfajdHNUR3Y1Q2SlN4c29IOUoxMUJoX3FrLVNGM09kTzc4ZjMxaEZF?oc=5",
@@ -282,19 +309,6 @@
      "operations"
     ],
     "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "ac94710d18aab169",
-    "title": "What Is Tesla (TSLA) Telling Investors With Its 3 Million Vehicle China Recall?",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOa2wzTXJpRl9ERUM1S3phbW0wc0o1VWdrXzNQa0pfZG8zeFZ2Sm9BaTluV3Z6dzBEeEY4ZlYzb2s5b19Wb1dPdWF6QVJ5ZENVdW1BdG14VDZTbHFsZmp1T2FfdHdKQ2VKczFrcmNFdGpKNnBpM25wcmJhQ3RMNlpZNDZrb0JhdWdXcHN6RW9Xal9jTkRwVzRWdUo5aXpaMm9oZzhDQmptNzNVVkZGUTg5amMyMlB1Rlg0Mmw1bWdQOURrczdtSVHSAcsBQVVfeXFMTzhfTHNteGtWSkhjSFYyQjRxc0VDMTRqMllQbGRBMXdlY19lTmZGcDlqdUtQM2tITC02ZjAwcXJ4SllPeEJnWV9OamR1ZDBMYlRnY0U5aXhGMmluajdZSmxxMC1nb01KaGJCT2RpUGtfTGxMUFhTUFBCX1NaQkZuV0hQVkNPTlJWVE9YZnk",
-    "source": "simplywall.st",
-    "published": "2026-08-22T23:36+00:00",
-    "score": 5,
-    "tags": [
-     "operations"
-    ],
-    "direction": "negative",
     "primary": false
    },
    {
@@ -390,22 +404,23 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "7dd6a74c40f8928f",
-    "title": "Palantir stock holds high valuation as AI-fueled growth lifts guidance",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNYW1NTlJWZW1DUHVTZ2VnRHJEWUZPTkhaVkNIUG5GcVZZMU1SeG4zUzEyQ0xiQ0ZWTnNDNHY3cXJCM0o1RDNQVUJhdm1WbS1yUnAzNVJpNEZiTmVkbVJxSEtBTjRkUk5Pd0JiRGI2NGVURmtvNkg3QmdNNmpZZnZXdUxPVlViMkpiRVhYbDhPdUE5di1UcmdFTGNWUWRGR2xxNmUtaGdNaWItVWdhaU5hNF9pRE9xRFFHbENXN2t2MWdLek41dmRKbFJtMGxrUQ?oc=5",
-    "source": "Ad-hoc-news.de",
-    "published": "2026-08-22T04:42+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
    }
   ],
   "MSFT": [
+   {
+    "id": "1ce2c52ae6f8b69c",
+    "title": "Microsoft Stock Forecast: Is Spending $190 Billion on AI Infrastructure in 2026 — Is MSFT a Buy at $452?",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSzQzUHo1QjF5QktqWDB4dWJVLXhIYldVYlQ5TW14ai12WG0yQlhGcjUxSW5ZMHBtZExmNkMzVXBqd3E1Wk1vcjBsQlhDelBZQXNLQWtfTDhIZUdGVjRKYXNjZUw5RlFlMmpsNUE3Y3AxWGJIYnlVcUs3Ym1JX21CSTZfT1FkSEdHR0FjTW1MSXkyYWNicXV1Zm1nZ1VUNm1ydHMwbVl3TExqaVpjQTl3QzBaZV8tTVRtN3RmX3dGSWVTdjl6NmQtN0NNNGNwV0E?oc=5",
+    "source": "TradingKey",
+    "published": "2026-08-23T15:11+00:00",
+    "score": 14,
+    "tags": [
+     "earnings",
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "1e07fb94bfe55022",
     "title": "Microsoft's Split Screen: AI Momentum, Legal Headwinds, and a Stock Caught in Between",
@@ -578,19 +593,6 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "c276de438332c5ec",
-    "title": "Alphabet stock rises as AI users and ad revenue grow",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbW9XSk1jSzY0YmxTT3g1QlFNeFVpTTRzd1QxSmdGQlhXWk04TDFiVzJueVBDZndkVDFWYm10aThYTkVzNHpDenItcjFleGpONFVRUXF4OXRFaVZKaWl2ZjlLdktFc09iT3VSZ0hNSlJLd2djcTdUUWYwdGZOMVhkcmYzVndOMGcyS0hfYUszY1ZYcjdBM19qMWNvbUdMWHB0aWF6YzdWMWNVNG1rd3c3aDdjaGptZw?oc=5",
-    "source": "Ad-hoc-news.de",
-    "published": "2026-08-22T04:50+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "HOOD": [
@@ -662,6 +664,45 @@
   ],
   "NVDA": [
    {
+    "id": "a6954900e7f0044f",
+    "title": "Nvidia in talks to invest in Perplexity at over $30B valuation, The Information reports (NVDA:NASDAQ)",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbjJIOEZnOUhfdWFyZEM4elZvd2hEX1JEN3ZiYUdSd1l5cmlqNU16cXVFVjQ2MThTQVh1cUlsYXFqN2hGN2stSFY1eFY3LVF1dHlXV3poelgxT05Mc3VhTTFTQjVtQUhFSktwd2EtQlhmZHRnT3p0bGdwRFF5ZUpSZWw0OVUzVExwYnZsbVpab1VkMFZfX3FrWldyaEt1cWpEWTgzcmtOVW5hcGdxbTVlT1JGVzNqZzktUXhubXRBZ04?oc=5",
+    "source": "Seeking Alpha",
+    "published": "2026-08-24T04:43+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "6ad20d339aaa9f5a",
+    "title": "Nvidia Q2 Earnings Report Expected to Reach $92 Billion, Impacting AI Market",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTERneFZOcm13MU9CQkEzaW5DNWNNajdIX0JQZ3Zza29RNDE3YXlrU0NKWXFQT2U2NVU1SXliZlI0SG1maUxCbWxfLVluc1VlNXV4T3RHVDk5OE0wRWY1ajczREJicFFHNGw5cW5kS0VNNGd1VXQtNTJVTl85VklHdWxvRXNVNGJhbDhBVTc4Wi1TRFVsVFRYc3VLS0wzeG52REhsVEcybVRqMVc2?oc=5",
+    "source": "KuCoin",
+    "published": "2026-08-24T04:12+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "176446924eb038b1",
+    "title": "Nvidia Reports Wednesday. Bonds Already Softened the Week.",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9zU3k2OElVNF9MMkNaak91aVl2VlFaLVBSdzVrdlV0Z0k4VEtxdVhCZUJlMnZYbGw1RlRnNDJ0b2pPQUJza0ZRUDNXbkJGZHRWMTBJQW12WWtBQVdQNUp3ZnJGYjhiTk1ELVNZTFgzaWpFVVNiM2lza253?oc=5",
+    "source": "Money Morning",
+    "published": "2026-08-24T04:12+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "bdf60c8f3f8928e3",
     "title": "$92 Billion Nvidia Earnings Could Make or Break the AI Trade",
     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1nS0NOaktCSFZRQ3RWd1ZDXzdjYzM5YUd5ZS1VOHNBRTlUMEI2OTYzWkJpMEZVaFFYSnJLRzVOcGhWZHFCNjRiWE85TmN1dTdJeDZ5RzZVLVpLeDFaY0FUaVd6QVQxWjE5d2tv?oc=5",
@@ -688,11 +729,11 @@
     "primary": false
    },
    {
-    "id": "4f954f7aeb88a6b9",
-    "title": "Nvidia Reports Earnings Wednesday. Here’s How Much the Stock Is Expected to Move",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOYzA4M3hqNTB6Q0ZXdHhZcmx3eDlKcGdaX1FIbGdwNXFBakJPY0ROV2tzLWlzWWJxMUhOX3NDbWk4b2RSWjBnVm9tTDhhOVc4MDd2b294WVdsRkNjWFBGWW5hN3M3YmdiZVRsVnFBUUVRX3ladDg0Y1hoREdkcndLTmozb3FFQmluWXc?oc=5",
-    "source": "AOL.com",
-    "published": "2026-08-24T01:20+00:00",
+    "id": "e574eefd836e254b",
+    "title": "NVIDIA Earnings Test Semiconductor Stocks' Rebound Potential",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZFlZQ2M5QUtZZXByZzkwZVVVdkJ5VXdmajQ0SnNqSFNoeDhKRzB4bzFIU292N2FKLV9CTlRjcmlJX1M5MjlCbmlRUjcydk8ybXd5MDIxRl9nU3k2c2ZaaDV6OEM0OGVuSjgzN3RVYjlfNVlVU0VqV25JeWNOQkdDMlhSaUppSnRQX2IzdVBB?oc=5",
+    "source": "조선일보",
+    "published": "2026-08-24T00:19+00:00",
     "score": 6,
     "tags": [
      "earnings"
@@ -727,63 +768,24 @@
     "primary": false
    },
    {
+    "id": "f4d36121da2ad4b1",
+    "title": "Why One Company's Earnings Can Move the Entire Stock Market for NASDAQ:NVDA by VertexQore",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRTBTYTctMjV0Vno0V2ZRWGdHVFRDV0stQ2dMQXNOSDY2cGcxWVFNUFg2aWxDMzQ4cmVialI2aVNscTNMNWtfQnNsRG9yYTVKRll2M1Rtdi1OeWhYXzE0VXFhZy02R3VMN3A0RGpFc1ZLRXhjTl9ocEQxdWliUHBYNG9jZFNXR1Z5WThLS21QMjR0c0V0TGczWXZNMW1HRzVoRzgtU2pHa3Y5a3E1?oc=5",
+    "source": "TradingView",
+    "published": "2026-08-23T21:22+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "12bae9443d33ce64",
     "title": "Goldman Sachs spots huge twist ahead of Nvidia’s earnings",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbVVoUVVtdnI1LTJFb3BCQjZ0MDRaWGxXclBCTnZvQm84Sk5sSkdyR1g1WEFMa3AzcEVEd2xJVzBHamRqNFlCb1QtWGM2aFJnZWZWV2w4S3FpSmdiNFpKWGQxMEtDdmRiQndFZnBxRjZfR2IyN1puSkJaSmZJSWJPcFdiVHpKSnowRThZSjlhYzExLXdWeW9jc1d3UlVqdw?oc=5",
     "source": "thestreet.com",
     "published": "2026-08-23T19:17+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "599a0de64f8f7e20",
-    "title": "Your Last Chance to Buy Nvidia Stock for Cheap in 2026 May Be Near",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRGJPaGFQQy1JdHFsMmk3OWlMOVhtc0ZvcUhJaUxmdVhGLU9vX2dINWZIMU9NX3FNX2VOZ09TZy1mUjI5cE81NzlWbzVLd1E2b1I0V1dyOEFraVdtUDY5bE5lQmdhSHhLT2Y3N2NBb3dqR2pQcU5UWU96WkFFWGd5VWNZcHBSdw?oc=5",
-    "source": "Currently.com",
-    "published": "2026-08-23T16:55+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "0535051627729f90",
-    "title": "Nvidia to compete with US, Chinese AI models under $6B Poolside deal",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTVdmbXdBR1FrbGFycmtqcDFIMEd5alNZQkYzemdxa3RwUXlJeDFuaF9OdDVZam1kWXdiaXZhYnozN1VDdHl2LTNsZUwyaHRxOVpEc3RTQ19tVTNhdWhRbGlOTmptUmhoSm5rUU9pN25rVl9Pam9HT2plVFJsSllQTUVXWUxLRUl1YnBaS1ZYdUJKNW8wOU1PVXM0c2o?oc=5",
-    "source": "Seeking Alpha",
-    "published": "2026-08-23T15:05+00:00",
-    "score": 8,
-    "tags": [
-     "contract"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "13ac09d68aa16269",
-    "title": "Nvidia earnings and Jackson Hole: What to watch this week",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWEpad09WSDNLcmI4VU9WY25VOFczSzJqMm16bEFpSTFJbE0ybVEtS01wbzcxWl9TdzlOdmlIYlFPYm1HOWRtUU9wNk5YeVUwUzE0NG1WZTU4eEhfZEFTcFpRY3VTRDVMVU9TM2QyQzBkUl9vRVVuU2thU0VBdWtEbHN1OUI3NkRmclJxcWtiNUxnMEVuc3lWNy1rOGN5dEhpdlJNNUpfaEFwUVJPNE1VWDM3RQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-23T10:00+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "277599e1fdde9351",
-    "title": "Nvidia stock in focus as earnings loom and GPU price hikes approach",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUlhLRXM4bU1tVlByY1dEejFJVFFhZUZlaW44U3pTWnRhWk5IZDY2S3dlTzBUcnA1eTVOWEg0NExwSHZuWFdiVTFIU0hCTmloWWhQY3B3NUZhNE1RbDVYRzFJSEtFamp6UEFsS3V4bUMzS1AwNXRfaV9hVnBhVDFNQi16QmZiVVYwU2JPRkhHTTVfN3ZLNEd0bHBwNU9EVEk4M25VZ1cxSURsY25NazBaS29lbjVGaWh5am1pMEdiS0M?oc=5",
-    "source": "TradingView",
-    "published": "2026-08-23T05:13+00:00",
     "score": 6,
     "tags": [
      "earnings"
@@ -804,6 +806,32 @@
      "filing"
     ],
     "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "2e6b6ff094672ddc",
+    "title": "Intel Price Forecast: Nvidia Picked Xeon 6, Invested $5B, Yet Analysts Still Trail INTC",
+    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPUTJ0M002eEJBWW5ocUl6ai1nTkJ1WjFMMktJRWtzekFRcktQd1d1MTFOd1RwbVFQWk9hU25UUC16RzBnbXBXdWZwcE5pS2ROeVN1YXhFZlNjVVctMWg4SWI1Y2FJazZTOTg2OVd0OWpmMGFKczk0ejdZX090Mkg2TU1Tc2Z4b2EwaUJ5MkxITm1NLWxic2JFdDVJRGZjdTBwbVNETDFURk1jMHBQN0ZQV3BhYVcyT2JDYWR2S1hLMERJNWc1bmVwODBxcUN1YUdxMlNQemdJbktvdzQxV0pmZXVIX1Zfam5N?oc=5",
+    "source": "TradingKey",
+    "published": "2026-08-23T15:08+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "0fb4ccc8a5eb645b",
+    "title": "Intel to report second-quarter 2026 results on July 23",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVUV2TFVRSlo5bmp3RFNwa3JJc0VUSE9KNU1CRERFSEwzVVpxeUl5c3VBY2hOeFpBZ2VPSk1tY2xDUFUyNEhON1ozUGUwWXprZmlxODZWdjVRV0dzUkNUNzlaWDY4UVZMRGRMQUYyWjBRbWdyYjNPNl9ESWxnZmp0Y2NHdGl6dUdmNlVhTjlTUnVIVlN5Y2VaUTRTMTlQY0hFMlNOZWZQMXpQTmVLQzYzMw?oc=5",
+    "source": "scanx.trade",
+    "published": "2026-08-23T14:28+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
     "primary": false
    },
    {
@@ -828,19 +856,6 @@
     "score": 5,
     "tags": [
      "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "2e6b6ff094672ddc",
-    "title": "Intel Price Forecast: Nvidia Picked Xeon 6, Invested $5B, Yet Analysts Still Trail INTC",
-    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPUTJ0M002eEJBWW5ocUl6ai1nTkJ1WjFMMktJRWtzekFRcktQd1d1MTFOd1RwbVFQWk9hU25UUC16RzBnbXBXdWZwcE5pS2ROeVN1YXhFZlNjVVctMWg4SWI1Y2FJazZTOTg2OVd0OWpmMGFKczk0ejdZX090Mkg2TU1Tc2Z4b2EwaUJ5MkxITm1NLWxic2JFdDVJRGZjdTBwbVNETDFURk1jMHBQN0ZQV3BhYVcyT2JDYWR2S1hLMERJNWc1bmVwODBxcUN1YUdxMlNQemdJbktvdzQxV0pmZXVIX1Zfam5N?oc=5",
-    "source": "TradingKey",
-    "published": "2026-08-23T01:54+00:00",
-    "score": 9,
-    "tags": [
-     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -1157,5 +1172,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 83
+ "count": 84
 }
