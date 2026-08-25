@@ -1,9 +1,22 @@
 {
- "checked": "2026-08-25T19:26:07+00:00",
- "changed": "2026-08-25T19:26:07+00:00",
+ "checked": "2026-08-25T19:55:47+00:00",
+ "changed": "2026-08-25T19:55:47+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
+   {
+    "id": "2d86008898e73b11",
+    "title": "AAPL Stock : Buy Apple Stock, Sell Or Wait? Angels - Blue Jays (uJsgGdHI8x)",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBIRjZhUHBjS05id2dUWU9Hbzc0ZVkxX19MU1o1cFNKbjljR0tnbzB4bVpJN3VXMUpzenVvbW16dERHTWJhdUx4U1hHdl93cWJoU2xZTlIwWV9IeU0?oc=5",
+    "source": "Mshale",
+    "published": "2026-08-25T17:43+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "30bff4c0b35bcfec",
     "title": "Significance Of AAPL & AVGO $30B Deal As AI Chip Trade Sees Pressure Carburant (ke6Sb8Iu4n)",
@@ -123,22 +136,22 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
+   }
+  ],
+  "AMZN": [
    {
-    "id": "fa657276fd904a83",
-    "title": "Watch Apple Mac Mini Revamp; Dick's Sporting Goods Falls on Outlook | Stock Movers",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMjlUZ3cwMW42dFphTkVWX0lKdWxKS0RRRnQycE9TcHlMM1JyRXNZODhQZXkxX1RmR0x4NGJSN2tLZVVpMXowdW9EUWZqYnEwR1BydDlRMy1vZDhlOWlSQlV1U0dkTmVxZ1hiNE5yNkJXWjZvbldLXzRUa05kRTlyc1NLZHMyZmszTHozUUIzR0ZXekNsdFg4dXdscjR4TENuWGRwSnpSY0Ffdw?oc=5",
-    "source": "Bloomberg",
-    "published": "2026-08-25T00:00+00:00",
+    "id": "8a445fb758a84288",
+    "title": "If Amazon Is a Top Growth Stock, Then Why Does It Trade at Just 21.3x Forward Earnings While the S&P 500 Trades at 20.4x? This Is the Only Answer I Can Think Of.",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1EQVZKVHNKd3Z5c21ITW1JNVo3QmxnbHQ3ZVdjSmtDNjZrc2laUWNaanNmV05xWlBJRE9qS1FNZTk3MlN5TzNSTjAzOUs3NDZUQVpsX2R1TE1kN3NGM0UzdUE4N1ppRzdaYnJEaWhpS1A1c2NyVVhSSE1pVjk?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-25T17:15+00:00",
     "score": 6,
     "tags": [
      "earnings"
     ],
-    "direction": "negative",
+    "direction": "positive",
     "primary": false
-   }
-  ],
-  "AMZN": [
+   },
    {
     "id": "ff103b887fa77531",
     "title": "Amazon's Stake in Anthropic Could Be Worth Over $400 Billion If the AI Start-Up's Reported IPO Valuation Holds. Should Jeff Bezos' Amazon Investors Care?",
@@ -276,6 +289,19 @@
   ],
   "PLTR": [
    {
+    "id": "104bb61f64e71aea",
+    "title": "Palantir loses $875M contract, raising questions about sky-high stock valuation",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE92RTVJU25PV3NHd1VWN1M5dXlJbXlnNVQ1YXlIWG10S1EtSXM0NHZ5SXBNbmJHZDYzOU81UEhxZFBRamVNN0JGb3A5cTdCUTVJcEtTSXRCX29fVU16OVRVSGJsX2JMQm1UX21rNXYtVU8tNEdKX055MkxoUQ?oc=5",
+    "source": "Crypto Briefing",
+    "published": "2026-08-25T19:26+00:00",
+    "score": 8,
+    "tags": [
+     "contract"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "b518cbdefe77f68b",
     "title": "Palantir's Summer of Contradictions: Explosive Growth, Stubborn Valuation, and a Market Split Down t",
     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQWxoMUpkRENWdDR2N1lvVGUzeVpmU0F5YUF2aXFsbEpuMkY4SDdyM3M3NVl3NTduR0dWcXE0VHFaLXRGa1B2ZkFOTklFQUtZMURpazR1dEpyNkYzMjMtMnZNZGo0RG5YS2pnZXM5WlJFT1B3QW9WdXJhZ253VFZpalRHWlMtcGFtQzJZSEJRSmhqV2twUHd3RHRhSDRfRlJzU21zb3BfdW1MRE0yNWRfdTVnRHJ4SUxON2M1Q05raVJ6R2Q1RlNiSEhuR05xdmoxUklPME1ZckpYemc?oc=5",
@@ -388,19 +414,6 @@
     "score": 6,
     "tags": [
      "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "2c31519f4f99be89",
-    "title": "Can ARK Invest stake sale trigger further downside for Palantir stock?",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbERoNkY2UDJYTUFrTlhmZFVZTVhtYjdrR0lzT0JmX2NpbEcwVkpjTmFxNHlITnF4Mksza0NzMjVSR3lCOUNiNXpWbTZPaHVYYkZLRTY4TGdONDZrUjlrN0g0WEJmSGVNNUdzbjJPdl8tOGhFUE9sblFHZ3FFX2xTV3Fya3BkUFEzT2J4dDE3MElxekYw?oc=5",
-    "source": "Traders Union",
-    "published": "2026-08-24T14:57+00:00",
-    "score": 5,
-    "tags": [
-     "capital"
     ],
     "direction": "neutral",
     "primary": false
@@ -542,19 +555,6 @@
   ],
   "GOOGL": [
    {
-    "id": "a0f32d8bd6672eed",
-    "title": "Should I BUY Alphabet Now? GOOG Stock Analysis In 2022 Cisco Stock (hV3YkIlWwj)",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB6S0djWW1fNTAxMVdLVlpTWXZHNXc1QXhxYXA0SVI4Z09SZ2NxSjZtWVdBNE54bWlweUJFUVZrNUVZR0t0b3gwQmJtaGNHQjN6OGtyUkRES0RLOEU?oc=5",
-    "source": "Mshale",
-    "published": "2026-08-25T12:35+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "840be5feb30472fe",
     "title": "Alphabet A stock holds above $348 as Q2 2026 AI and cloud surge reshape guidance",
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWmZDMnpROGQ5WlNLMndtSUJPTVBmSV96SHZFZklmdXRPYU1nUktnTXJhYTYwSHV0a1d0YlVoOHk5cnJuNGx6aVRYUWk0UF9rUzZGYjhoanlMcEVXbkNNNm5jTmtOV0dlM1pJYWtZZ3FoSG9HbFNPelI5WWVPZUtVVzA4bGk4RzBORk4yTXRlLUdRNnNLTG1OTVBQdU1JLWlZZW51SEJWZlQ4ZG9JdzdtdmpDamZyXy1rWEsxejFBV1lyYWJ5bnpsYW4wekVtZw?oc=5",
@@ -576,6 +576,19 @@
     "score": 6,
     "tags": [
      "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "6963a216c98b2e73",
+    "title": "Should I BUY Alphabet Now? GOOG Stock Analysis In 2022 Cisco Stock (ihV3YkIlWw)",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9PTk1DVlFYbFZXZWtialNvSHBWMHB0ZWdrVFFMbmduME9PN1RRWDlUV0lIV0JsbGtTcjRZbkREdXhjQzM2V3BaUko5OW84V3UyNUotRUNiMmp6UVZ6OHNGXw?oc=5",
+    "source": "Mshale",
+    "published": "2026-08-24T23:26+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
     ],
     "direction": "neutral",
     "primary": false
@@ -728,6 +741,19 @@
     "primary": false
    },
    {
+    "id": "d12beb44949d55dd",
+    "title": "AMD Stock Gets a ‘Strong Buy’ Upgrade: Why It Could Outperform Nvidia",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZUVRQy1Xb3Brb3haWUNuTHhibXVHNFdoQlZNb3lyY01qQVhHdlVqc0sydDc3ZVZGbnBfMEJWaUhyU0pYQkk0UjZJVGgzaFZhS0NiZHp5dGhUT3A4ZERQSXNBeWh0UUpvc0ZSdTU0clpnSVE1YVU1VTR0SXRuSlQ0TFdrQ0tvek9BMkNJ?oc=5",
+    "source": "Barron's",
+    "published": "2026-08-25T18:38+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
     "id": "49b0cd32e16dbdbe",
     "title": "Why AMD can beat rivals Intel and Nvidia in the market for data-center CPUs",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaHhPeDdLRkk2QkVJc0tqLXNmUVNoeGRfNjgxbDlRajBNSUFmb1hXTXdzS29vNHh4cm84UE1mREJVYm82clhtWUxXNU9FbDhkM1EwMV9xQWRRQmQ1VzJycG1ESmpDTUNOWm5LOThRT1ZuclY2STF0SXR6cGxnT3hPdWFabEZDS3psMXViQjZfakJHZFBuMjZVYnp0RDhkU2wyM19ySFZROE1Ld1hOczNEbXpkQnBWeWg4bFE?oc=5",
@@ -762,19 +788,6 @@
     "score": 6,
     "tags": [
      "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "486289946615c0a7",
-    "title": "CoreWeave: Why Nvidia's Price Hikes Could Be Good News - Buy Under $90 (NASDAQ:CRWV)",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdlVJRE8zVnVtVTNKdTZNMWo2eGFidk9aS0hMb1JGa0diX2paaTVZMnZVSEkyNExDTzVWdmhpa3VHMVlTY0JCTkYwaHBEaDBGX2dTMVJpaVNnbGVNRUpHQzZsNzBLYWhIallsdEdOTmNZeXlZZHNsTlNuOHB3QlVmM0JWVVFBbzFMVkZsVktRTVowMVE5cDZtOVE0QUgwU3FoNld4MFcxbVY?oc=5",
-    "source": "Seeking Alpha",
-    "published": "2026-08-25T17:46+00:00",
-    "score": 8,
-    "tags": [
-     "ma"
     ],
     "direction": "neutral",
     "primary": false
@@ -863,9 +876,9 @@
    {
     "id": "fa8b296cb2fc278d",
     "title": "AMD and Intel Rise 3% on a Strong Buy Upgrade and a Pelosi Disclosure, NVIDIA and Broadcom Tick Up",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeDVnRk05bVFFWThDTmotRWxaM1Q2SXBUZG1mWHlRaVQxNnF2N1FPaWx1cHkzTGZDUzZxQ1JPSWtaR3I0QkdnWVcyY2V5dDBmcnVJbW9VMFpoZWh5OXdGMDUxenRhMWFaVVRjRm9YdUxoZ19JTTJnR0dweHdsNmx1TUVpV0kwUmdreWNDazFNZTE5QQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-25T13:18+00:00",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5XNlptR1RsbEstWDk3b2Ywa1pIVEtEVGZ2WjlDS1BtLVB2QlMxNF9VVXRfVWx3U09NaEFySERqbXNEdVZIZW9WWFhWbTY5aHpXS01mNUJ3WlJIa2xxakM2UUJOSVlEeUVzY3R3cnVlUGtiY0FRcHc?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-25T13:29+00:00",
     "score": 5,
     "tags": [
      "ma"
@@ -1129,6 +1142,19 @@
     "primary": false
    },
    {
+    "id": "40224d093284c54f",
+    "title": "Earnings Options Strategy | Marvell's Results Imminent: Beating Estimates Is Just the Baseline, Who Holds the Winning Hand Amid >10% Expected Volatility?",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNzVRQjVRQ0JsVHhQZXJDc1ZPU1NFNHB2VE1FWmVmSnRHMFJQREpTVmh3MFdHU2JaWkFhNmRPQW9lekhyNGJhN2lneG12RURqZUpXUkJNSk5jU2IwU185Z0hvYXBOQXMwU0o4VFVaeEdOUm1NYVlLS2F6c3dfZFFub01wZXA4NGIyYk9Za2xtUEJMZXpEX3VHOWUtMzFha1dTdll3eWQ5RnB3NmJaQUQ4UHZ4eW5YRWVFbDRrQzRRdm9rdw?oc=5",
+    "source": "Moomoo",
+    "published": "2026-08-25T09:40+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
     "id": "b77e6be03614aa58",
     "title": "Marvell Falls 4% Ahead of August 27 Earnings, Broadcom Slips as Semi-Sector Positioning Shifts",
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE92SEJ0a1BCUlhGdnV6OHU3UzBKYTYzaV9MVVlGMjlzR21RNGtvcWt2WDA1QVRBSHoxaXZ4dHRIM0NVSG9YR29Obi1RY3JXMHJJOE1PMnhrdHM2NDlqUXk3a1lmSHJ2MVZydTdhM1c3UjFMRkNJdWVoSXd6TzA?oc=5",
@@ -1287,5 +1313,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 93
+ "count": 95
 }
