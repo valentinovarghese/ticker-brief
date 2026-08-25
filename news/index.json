@@ -1,9 +1,23 @@
 {
- "checked": "2026-08-25T06:26:25+00:00",
- "changed": "2026-08-25T06:26:25+00:00",
+ "checked": "2026-08-25T07:25:11+00:00",
+ "changed": "2026-08-25T07:25:11+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
+   {
+    "id": "c3abe3840786a9da",
+    "title": "Apple stock steadies as record Q3 revenue and iPhone strength offset Vision Pro layoffs",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRFFzaExKY0F3QWFISUV1aFFyUE1WeGZYY2dnR3R1QmdrZkNVR21MMFlJQUtUdGY5NXNNZ0s0MzVQbWkwOHJtdnh1aTVqZ0tBYUM2V3ZTd1d3WkZyaGV0U0hWU2Z5TTJGbzlVLS1JV2VUR1VHS1N3UlZJT3FQbXVwLU9GN3FqOF9NSlEtWlVJejBfRF9DXzZVYjluckdDM1NSVlp2YjBsRWpxN1I3RFpmZ0lrZFg0S0NXY2FqX2REaTh6cnlNNG8wMWJwcw?oc=5",
+    "source": "Ad-hoc-news.de",
+    "published": "2026-08-25T07:13+00:00",
+    "score": 11,
+    "tags": [
+     "earnings",
+     "operations"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "daf67f3ec44368ad",
     "title": "Apple Stock Outlook: AAPL CEO Transition, Foldable iPhone and EU Deal",
@@ -43,19 +57,6 @@
      "ma"
     ],
     "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "0274a2e9661dae42",
-    "title": "New Layoffs Just Hit Apple’s Vision Pro Staff. What That Means for AAPL Stock.",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOU3RYZEkxSjB6Mnh3WkYydUtrTVZQUXczSXNlVzd6eDJhamV2Q2dqZHF4eV9RM1VUa3JUQjdIN3I3RVo3SFBjYUdBV1NlMGlOZE9MaGNaOEFPR1ZvVzdaUjhMN3FKcmozaFItbk1rMXROMjF6ZHhIUE1rQ3pUY2NqUzNURUstZl92cTdmTmpuUGVIVUZ2UmhmdVQ1OFh6SUFyM3ZDLVVyWlJsYkdzclVhQkRjaU9hbDFldXF3?oc=5",
-    "source": "Barchart.com",
-    "published": "2026-08-24T18:55+00:00",
-    "score": 5,
-    "tags": [
-     "operations"
-    ],
-    "direction": "negative",
     "primary": false
    },
    {
@@ -139,6 +140,19 @@
   ],
   "AMZN": [
    {
+    "id": "3cdba7971f7c7438",
+    "title": "AMZN STOCK: This New $25B Anthropic Deal Changes Everything Clive Owen (yfkD0laYzS)",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBnd1FYZ3ZUYkhCUzh5TzNkVTdtSkktUWY1TjI0djNkSHVacE9iNURIbERVbGV1MlV1NHlQRTd0SVQtQng0X1RiTmpXWGl1YUNiYm1BMUJ0OVplZw?oc=5",
+    "source": "Mshale",
+    "published": "2026-08-24T22:05+00:00",
+    "score": 8,
+    "tags": [
+     "contract"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "fecb4296b67edafd",
     "title": "Amazon Has Been Lagging the S&P 500 in 2026. This Is the Only Reason I'd Need to Buy the Stock in August Without Hesitation.",
     "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPaUhFT3dhSkdXMWxCNGVJdVRyRUJqZWpTeUdveFZMN2ZtSnpLMHU3a2lQQjM3RzA3UmJsZC05V0Q4V3NWTXJVQzAwZjBzVDBJY3ROOWFZbmYzQkpTNGpXeU91eUVqektucXFQa1NTWlZzcXpadDFTZjQ1RHphZFFfWnRaUDZqZGs3am9hbGJZRTZ1NWNmWDMxaVA4RnI3d1hhTWY5SFJCWF9WODdnNWhNZUx3ZGlvZHFXTlJrOWlUUnBucWR4SUxMSHI3cUhxWjJEN1VlV2syZnNJWmVXMkVSS1lzcHhETmFPbW82VzBQZERmdllmMWVrMUNPazRrODRaZ0RxSU5lMWdmNmYxX1hFVnl4WnhYR0JNTEhPUGZKT1R2SVlMM256S1RnN0hUMmRETVE?oc=5",
@@ -147,19 +161,6 @@
     "score": 5,
     "tags": [
      "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "3cdba7971f7c7438",
-    "title": "AMZN STOCK: This New $25B Anthropic Deal Changes Everything Clive Owen (yfkD0laYzS)",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0tcExLb1hQSm03dDhiM0VTZENhQklFc3VwTnMzeFIxVnlzVzNUY09pbUxXS1I3b19TekdsZzcyOWFpZkdxdXRYQmxLWDRkdkZtaTBaeVR4VHpQU1E?oc=5",
-    "source": "Mshale",
-    "published": "2026-08-24T18:24+00:00",
-    "score": 8,
-    "tags": [
-     "contract"
     ],
     "direction": "neutral",
     "primary": false
@@ -201,19 +202,6 @@
      "earnings"
     ],
     "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "77b3014e73590930",
-    "title": "Amazon Web Services Backlog Reaches $496 Billion: Does That Make Amazon Stock a No Brainer Buy?",
-    "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNb1FuMDFHMC0yVlIzaWpfMGEwZGd3dWp5UWNNTXZKaGg0SlpZRXJXRkZWVXRQVkppRHNaalh0YVNtSHZNQ0hMZVNtVDFpanBLdXhsYkJlQ2ZHcFoxeVRwUGNQV0xXQWhqbWRFOENsUDVBWERUb3MyMzZ5Y191NXU5VFVUeUNOOTVia3NHcEJhcWtvLW1BU3V5cXBlbllCTHhHOVVmQ0g4RTBhSFNKUXltV1NRMEhGdldobEdQWmxFN2VuZ2dNZV96VUNYaDFUTU84VmttTzhqb013My1zTG9FQVdYbUN0N2QyVk1QaGtyUFpPXzBEWHo0N09hcm9RZENQQ1FpOTRwNW0?oc=5",
-    "source": "The Globe and Mail",
-    "published": "2026-08-23T07:00+00:00",
-    "score": 8,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
     "primary": false
    }
   ],
@@ -535,22 +523,35 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "1e07fb94bfe55022",
-    "title": "Microsoft's Split Screen: AI Momentum, Legal Headwinds, and a Stock Caught in Between",
-    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeTNkSXo1eWFFN251Q1RBTmRtWnNiYk96Q3ozbUhlXzVNbDMwRkcyaVZWcS1KUmF1RVl5bVNLRE9PRmhZeS1LQzNTb0xlSHUxaDJyTmpnU04tV25oSmpYMXJoZXBldDNNU2h2Vm82NmpnMHNqbmpXTTNHQ0E5aVdDcnhSV2NoeHpJSTk5SVVCNzRDRndxcDBKeWtHaVdNNExDend6M3RORnZrc0FJVjl3dWJVQVJmRUNrMURLTVRhM3g4ODBtWWRVS0Z6bUZweHppZkNJWU1HSjcxMU0?oc=5",
-    "source": "Ad-hoc-news.de",
-    "published": "2026-08-23T06:41+00:00",
-    "score": 5,
-    "tags": [
-     "capital"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "GOOGL": [
+   {
+    "id": "65cc5cee8c285776",
+    "title": "GOOG Stock | Alphabet Q2 2020 Earnings Call Livenation (rRd8ityaij)",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5pSERKWVpRcnFCN1dMbFRzUnY5SEtxUzZSVk51ZmlGV1FMSmE2NGROMy03ajhXV2RxX2FIR3dvV0pvTVVOZktHUDVPOUFPQlZNUE5QRnN4ZnJLOEVKcnBHTw?oc=5",
+    "source": "Mshale",
+    "published": "2026-08-24T23:43+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "6963a216c98b2e73",
+    "title": "Should I BUY Alphabet Now? GOOG Stock Analysis In 2022 Cisco Stock (ihV3YkIlWw)",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9PTk1DVlFYbFZXZWtialNvSHBWMHB0ZWdrVFFMbmduME9PN1RRWDlUV0lIV0JsbGtTcjRZbkREdXhjQzM2V3BaUko5OW84V3UyNUotRUNiMmp6UVZ6OHNGXw?oc=5",
+    "source": "Mshale",
+    "published": "2026-08-24T23:26+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "08cdafba07e40979",
     "title": "Alphabet’s (GOOG) Sustainable Growth Outlook Appears Stronger Than Expectations",
@@ -599,20 +600,6 @@
     "score": 6,
     "tags": [
      "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "53ff077e49732937",
-    "title": "Alphabet (GOOGL) Stock Price Forecast 2026: Cloud Hit $20B But FCF Collapsed — Buy or Short?",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeXNna0FPVFVzVTBlNUM5NVVCNU9TLVhBazdFMVhkaFpBelZTMHBGV2ZqWTBwdFhwUVp3ajJLWXVaNTZURlFrRlhVQ010NDZzVTFhblZESDlvME0wWkhhemJBaXlyREZDLXhpckVRM3QxUlA2dW1idHlFQkEtT3FlbEdIb05UT1QtOFcySkRlc0pwRzc2Z25JQXE2YU8zS2JvLUh1ZUxEd3c5a2lETlItcXo3UEN6ZnA0c185SjNlN1J1QzI2VkE?oc=5",
-    "source": "TradingKey",
-    "published": "2026-08-23T22:38+00:00",
-    "score": 14,
-    "tags": [
-     "earnings",
-     "ma"
     ],
     "direction": "neutral",
     "primary": false
@@ -765,6 +752,19 @@
     "primary": false
    },
    {
+    "id": "a5a7a3318945fdaa",
+    "title": "[Stocks in Focus] Advantest extends sharp decline ahead of NVIDIA earnings release",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMHVBTFI2TGVyVkNzb3hRRDY2cU54VF9sS1dSemM1eGh3YzJaZk1jc3lpTFdYdGZsWVBYTWFCSHBhbnZZci14NWc5VHNyMW1RSnRMV3k0Q1VMU3Bhd1g5Vnh0eEN3dHkyam91Rkc3SHpHTEs1d0JSa2lFakE1MDgwcjlCOXVuMmxza2I4eWxuQTk4SFIwN293Z2pCZ0JwUWNZWkQ5S0xwLVc?oc=5",
+    "source": "Moomoo",
+    "published": "2026-08-25T02:25+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
     "id": "337548c8fbc20deb",
     "title": "Wall St futures steady as investors brace for Nvidia results, Fed signals By Investing.com",
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbkNQZVZCVUJNYUlsVWZKek9MOThDek50T00tU2Y4a3JPZmNvem1tRDRHNlJkQmtxa2x1MWtCSko1b1dScmdRekF6MS1VNU83b1pBd2ZaX1NpRmRKN1NCYV9rTGV5Zk9PNUFnYXVxUnZTWDBlZEgzYklWanBtbXJQYjlpRkZYbVU4MDM2dkllNmZNX1lYRm92V255dTI1QXVmR2h1VDA0bEtMTkt5NTZXbHNscjNhWEVBNk0wX1Y3R00tTHFmTlpONg?oc=5",
@@ -784,6 +784,19 @@
     "source": "Yahoo Finance",
     "published": "2026-08-24T22:09+00:00",
     "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "f8a1fb49e49ee142",
+    "title": "NVDA Stock Heads to $200 as Nvidia Prepares to Report Q2 Earnings, on China Threat and Perplexity Backing",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPYU5GX2RNM013QXRiTU9mc1lSbnVUZ19JUGFWX1dSeUk0Q3dTSGo3akZydkdtRVNsXzJaOEhCcGstcm9iZDZ1TG9fd0c1amtrMWd6SmxwdHM1b0x1Xzg5dERPV2RBS1pINXZxQmV3MEpNRFBuYldlRWdXemRhQUwxc2U5M3NzOEZwYzVrdzlJUUpEbVZJQXUwRXdaVDVtemlvb0lVWUpQVHhFd3JFVVJIRlFCNDMtcXBKSk5velVaeHlMRzhMa292U19MbkV3WGdnYmJ2ZFJZdnJuVEZoZ01Z?oc=5",
+    "source": "FXLeaders",
+    "published": "2026-08-24T21:11+00:00",
+    "score": 9,
     "tags": [
      "earnings"
     ],
@@ -843,32 +856,6 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "f5bbb1c71a04768c",
-    "title": "Nvidia Signed a $1.5 Billion Deal With This Chip Stock. Then the Stock Crashed 25%",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbXNwalY0RDdZeVB3aFRpZUdKdEF5UVpod3ZKcTl3eGgzYVF1QzktbHc2V1pJaGN3ZUNMYWdLV3dDdERjWjZHRDdDdjB4Wmh1YVNtNFpaSWZMdk9yNVoycWhaYzc2V25mbngtcEw0UHg2d0M2Qk9PaGxDVXlRekNRZW9xQWEtaFdvdlpWRVpXSWlmMGZT?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-24T18:16+00:00",
-    "score": 8,
-    "tags": [
-     "contract"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "4caa60990eedcec0",
-    "title": "AI, chip stocks fall ahead of Nvidia earnings",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUXBFVWZnSUl1U2R2dDRvTFpCVW5SWnBzVm03WlhTMDZvSTdCUEpwOWdPeFlVblJMZjgyU2E2WE1kZC15VURibWlvNWIxX0lxbmt6UjNBX2drLUNQSmdIbm1vTHNpUHhBdS1xREgzQTdrck1vSnZVRjFqUHE1VDlKampDZEZHelF5RGc?oc=5",
-    "source": "Seeking Alpha",
-    "published": "2026-08-24T17:54+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "negative",
-    "primary": false
    }
   ],
   "INTC": [
@@ -886,11 +873,11 @@
     "primary": false
    },
    {
-    "id": "e34144b450676acf",
-    "title": "Semiconductor Stocks Slide Ahead of NVIDIA Earnings: Intel Falls 5%, AMD Slides 4%, Taiwan Semiconductor Slips 3%",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaDBmM0FRUG1yQU9HbC1CQmkycUNUTkp2XzVpY0F6ZW01c2F2RTdxOC1LSHNsMW9weUtDLU9jZVY0aFlBMi1MLXBUV2p3TmFMa2JjMzYtUXhZVHFYVGFDUC1CSVRmRkRBeHRpc0p3ZnowV0xOU1Bqak1kNXdjZm5EZHNBSU90ekdadElkMEprbEJyTVJFVE94N2pMWXpGZ3N0QWNwM1lzVQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-24T14:43+00:00",
+    "id": "95c39a082053f225",
+    "title": "Intel stock forecast: Weak momentum after institutional sale",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOLS0wcWxKN21yS0Q5dXc1MVVOdmpqbG94UGNjMEpKS0J2V0xaSVd2WGQtOTFwMnMzYV9Ndi1nWExRbldFV2pXenVpVXR2bmN6VGJlQkNCb2RhdmF0TDV1bXUzUHJYdjJkcFRGUW9MN0QtNHowN05wWGxESzZlMy1HcC1CV2NLaUQtbEFVVS04N0I?oc=5",
+    "source": "Traders Union",
+    "published": "2026-08-24T14:45+00:00",
     "score": 6,
     "tags": [
      "earnings"
@@ -899,16 +886,16 @@
     "primary": false
    },
    {
-    "id": "a6b781f80f340693",
-    "title": "Nvidia, AMD, and Intel: Wall Street Says to Buy 2 and Avoid 1. I Disagree.",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1uaG9ncGNiN1JESTl6RDloRlQyQ3BFTkZwenlSYlVsb2QzQVZGenJFRFhYTXNET1BwU05OYUktY1R1NDZZOFZUZHFuMEJGZUw1Q1daZlhKTkRYQWZhLVlZWWkwUHFOZmkyanJWX1hTYXRfLUhJNWwwb2RiTHg?oc=5",
-    "source": "AOL.com",
-    "published": "2026-08-24T13:55+00:00",
-    "score": 5,
+    "id": "c80f448834119e69",
+    "title": "LIVE | US Stock Market Today: Dow Jones Gains 0.31%, S&P 500 & Nasdaq Drops 0.94% as Oil Prices Falls; Nvidia Earnings, Micron, Intel & AMD Lead Tech Sell-Off — What Investors Should Watch",
+    "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxNdElvZ1BXYnhYUVQ5TmVkWHAtTUxYYm92cnhyYmRxbW9YdjR3LWtTQkNESXhJS1B3eHlmNWVLZXdybXBOT0pobWtwV0JzakN1NEJkdW9ISVM3UG9tUkF2cnNhRDFLNk12S3JoTml0US14d2JZU0p1cWE2LUxub2pMaUNxYkpnN1k1OFpZdTNEYXFWbC0yWkFzeEJhUVdya1JETFVRRDJlNmQwelNnVG9mVmljZVlhSTdnN04xcTZhcHdqV1hBelpQZ3lWbG9PVlh0SVNfYXhKZV9rU2FkWWp6NHc2TGpsS1dqS2xua0RJLXZ0alN5ZkNHMHRDZEgzZVdUVUVSbHN2R3VxU3RfTU5rdU9zZFRNMDU5UzhIbjNKYjExcDBacUlNUEk4MGFvYzhPbGRzZzNGRzZHVmp2OHcw0gHEAkFVX3lxTE5yYmxfZmpXbG41OWt",
+    "source": "The Sunday Guardian",
+    "published": "2026-08-24T14:33+00:00",
+    "score": 6,
     "tags": [
-     "ma"
+     "earnings"
     ],
-    "direction": "neutral",
+    "direction": "negative",
     "primary": false
    },
    {
@@ -951,6 +938,20 @@
     "primary": false
    },
    {
+    "id": "ece6f54da5670200",
+    "title": "Intel's Split Personality: A CEO Buys In, Institutions Cash Out, and $20 Billion Changes the Math",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRWxCMEhHRDdxWUE5S1BVWHhlWUE0TjgySzdwYVFuQ3QyaVpPMDdwUHVRWmtGMHNxNHZCeVZJdVdnTTZXS19sV2RiNkNQdk9ZRnBoMWUzejVxSlk5TTdpekgweEI4SFRfb2MyWkJqZnBXZ2dlNDVINFBtdkVteHhRTks0bnNlX3pGRDVJWkstRFM3TFJHcEVOQUFIWkprbVJFY0oxQVpGclYzM1NyYzhBU2J6OVUxT0s4XzhxTTd4ZHpaVGEydldUZUY2d0NUSklac1BSRDBNUQ?oc=5",
+    "source": "Ad-hoc-news.de",
+    "published": "2026-08-24T11:02+00:00",
+    "score": 13,
+    "tags": [
+     "capital",
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "8fd958f6ba159703",
     "title": "US Government to Take 9.9% Intel Stake in $8.9 Bln Investment",
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9uTm9YcXBoSG1HSEdGS3IzLW4xdlUxQkVqQTh5QkNWT05pNFBMbUJRd2lhQ1QtSnVGRVFPSUwtR1pRT3pQalM1eFVXUkVKZ2xpS2tUSjBwSkJobWxSRlpRbklHdm9tSENKbUE?oc=5",
@@ -964,12 +965,12 @@
     "primary": false
    },
    {
-    "id": "2ab4ebace09d9829",
-    "title": "Why Is Intel (INTC) Stock Volatile After Earnings? Revenue Beat Overshadowed by $11 Billion Loss",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdGVhdUdOWHYwd0I2OHRLRjlFVE9KTkNud09aOHhCOTZGY2NDZVM4VjFnTTZKdkpKdlBORHo1OG5RWENLVFg4VUZoYVdVWVRpaWFCSWtxY2dHX280ZFFsaDlvSldKQm9NdTdWTjlueks4V3V3RUVJQ2pqYVFtNi0xVU9zY2V3MGdONjRFaHJqU1RRaVZZMm9GZndlNVRSaWpveDlMWG41WG5qUk52T0tRcGl1bklGZ2twMmQyQnJxdkM0YzU1d1J2Wg?oc=5",
-    "source": "TradingKey",
-    "published": "2026-08-24T00:40+00:00",
-    "score": 9,
+    "id": "6e00e5439f521549",
+    "title": "Intel stock holds high valuation as AI demand drives guidance",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYnBnTzhQTVRJQmk3NTlubXpRTENqVW9KMlhiT3dpYXFsR09Yd2M0Z0g2TFpoRXlJb25WNjYtSUNQcm5BcER5c3RDS1RubTNTcGF5RW5rcHZ1OHFyNHZYUG41MkhRMWxkczRKcDJWdWk1ckt4bGsxaHhUbncwak1FVXJ0OVQ4UXNjSmZPTFpjVV9scFpfc3hYMWptcWNMb1JHcGtyOVNHNVZWWUlJYXR3VG9pREhHZUhDcm53R0daTnlhQQ?oc=5",
+    "source": "Ad-hoc-news.de",
+    "published": "2026-08-24T06:37+00:00",
+    "score": 6,
     "tags": [
      "earnings"
     ],
@@ -977,24 +978,11 @@
     "primary": false
    },
    {
-    "id": "f183b48bdfc875f9",
-    "title": "Intel and AMD Fall 4% as 13F Filings Reveal Concentrated Chip Bets",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE10VU1SZ3NFclB5MWQzTkhvajl2VTU4YV8yb0owMlI0YlVOSmM2Q3BIR2NES3VpZlFlTXMtV29PeUNyQ0Q3Y0hEVGdOME1mcjZQUGtGR0Y0c0h2eEd0VWNEOG5wcldmYVI0bVV4NndaMmlsZw?oc=5",
-    "source": "AOL.com",
-    "published": "2026-08-23T19:46+00:00",
-    "score": 6,
-    "tags": [
-     "filing"
-    ],
-    "direction": "negative",
-    "primary": false
-   },
-   {
-    "id": "2e6b6ff094672ddc",
-    "title": "Intel Price Forecast: Nvidia Picked Xeon 6, Invested $5B, Yet Analysts Still Trail INTC",
-    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPUTJ0M002eEJBWW5ocUl6ai1nTkJ1WjFMMktJRWtzekFRcktQd1d1MTFOd1RwbVFQWk9hU25UUC16RzBnbXBXdWZwcE5pS2ROeVN1YXhFZlNjVVctMWg4SWI1Y2FJazZTOTg2OVd0OWpmMGFKczk0ejdZX090Mkg2TU1Tc2Z4b2EwaUJ5MkxITm1NLWxic2JFdDVJRGZjdTBwbVNETDFURk1jMHBQN0ZQV3BhYVcyT2JDYWR2S1hLMERJNWc1bmVwODBxcUN1YUdxMlNQemdJbktvdzQxV0pmZXVIX1Zfam5N?oc=5",
+    "id": "2ab4ebace09d9829",
+    "title": "Why Is Intel (INTC) Stock Volatile After Earnings? Revenue Beat Overshadowed by $11 Billion Loss",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdGVhdUdOWHYwd0I2OHRLRjlFVE9KTkNud09aOHhCOTZGY2NDZVM4VjFnTTZKdkpKdlBORHo1OG5RWENLVFg4VUZoYVdVWVRpaWFCSWtxY2dHX280ZFFsaDlvSldKQm9NdTdWTjlueks4V3V3RUVJQ2pqYVFtNi0xVU9zY2V3MGdONjRFaHJqU1RRaVZZMm9GZndlNVRSaWpveDlMWG41WG5qUk52T0tRcGl1bklGZ2twMmQyQnJxdkM0YzU1d1J2Wg?oc=5",
     "source": "TradingKey",
-    "published": "2026-08-23T15:08+00:00",
+    "published": "2026-08-24T00:40+00:00",
     "score": 9,
     "tags": [
      "earnings"
@@ -1056,20 +1044,6 @@
      "earnings"
     ],
     "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "3a8d890ea32a676a",
-    "title": "Nebius Stock Forecast: How Did NBIS Secure $44B in Contracts and What's Next?",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONWJFd1lDUXI2WFZ3UUVWNDFaVVRMTnNSYWtYSmJpbi1sY2RpUkFtaUFmUFZhdV9Pc2VTOHFWSUFwaXlsWEJJWW42V25lZDJ5RDc4NE1aX0d6eGgyYkxlaXV3dXFYUWlrc0hWbWpxdmV6UWY1Q1hsNjV1cUlpaEJXemZpOFVWQTFYYUdGRFM5S2g3SnVqTE5rWktyQ3dsZTZUcWtLUEo3RFF6LWtXclV6dHZUc2h3Ui1FM3lieGwzVmdfeXdQb1BDTGl2M3ZabVZrVEE?oc=5",
-    "source": "TradingKey",
-    "published": "2026-08-23T16:52+00:00",
-    "score": 14,
-    "tags": [
-     "earnings",
-     "contract"
-    ],
-    "direction": "positive",
     "primary": false
    },
    {
@@ -1260,19 +1234,6 @@
     "primary": false
    },
    {
-    "id": "a25523cdb3b409f4",
-    "title": "META Stock Quote Price and Forecast",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB6MTBTRVJOWEZmLUltcHFiVV9kTkdHRF80N1lHYXFqcm9NS3ZYRzR0TGVqdXY4Qy1JVHBNdE5OZlpBX1ZhaVQ1LVpxMFFCV1F1?oc=5",
-    "source": "CNN",
-    "published": "2026-08-24T00:11+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "bb570be50aeefbea",
     "title": "SA Asks: How concerned should Meta investors be about child safety lawsuits? (META:NASDAQ)",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVElxSG5jb3l1UjV1T2hId3EtekoyaDlYSFk3RFBoVlZfT3A1dFd3Z3RVUThpdUtBaWs5d0Y5TnAzNU01NXJ6eTlDTnF6M215RUd3NzFRdzBJUWFibzFyMzVKdXZOcXNPS3NHNXAzWS1NY3lUZGVsd3dHZDBGNEZSOWRBeU1mMHpGRlh0aEhybHgtd2xwS2xLZlZNcHF2ZjdyR08wamxaQkZWeGhUY01aUzl3?oc=5",
@@ -1338,5 +1299,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 97
+ "count": 94
 }
