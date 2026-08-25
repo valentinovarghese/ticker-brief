@@ -1,6 +1,6 @@
 {
- "checked": "2026-08-25T14:07:36+00:00",
- "changed": "2026-08-25T14:07:36+00:00",
+ "checked": "2026-08-25T15:01:53+00:00",
+ "changed": "2026-08-25T15:01:53+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -53,6 +53,19 @@
     "tags": [
      "earnings",
      "operations"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "46458db591755c5a",
+    "title": "Stock Market Today: Fade From All-Time Highs; AAPL, AMZN Earnings Reaction Miles Mcbride (MuvqWBLBkW)",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBtTzJVLVgyRVVwczN0cDdzZGw4UEF0RDdaWVBsTGlUcTNVQnQzXzMta2NSOG9uZlR4aWNHNlRDZ2NpWEx3Q29abEZOcTZHT0RReFJOaE41dzdkNmxBeWU1aQ?oc=5",
+    "source": "Mshale",
+    "published": "2026-08-25T07:00+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -112,33 +125,34 @@
     "primary": false
    },
    {
-    "id": "91b80ec6065fcf0d",
-    "title": "Apple Tokenized Stock (Robinhood) Analytics: Price Dynamics, Quarterly Returns, and Annual Price Changes in USD",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5aN2pZVGVmSlhHWVE5bEpEOWlrTVBJeElxVGZ4WU9jSklQRlYxNEFPdWk4X2l3MmhPWGlLeFNQR2w1bHo4MVhtOEphbDE0MldWY2ptYV9PVXVIdFVrZGJ6Q28zOGc2T0ktSC1aTzVLbEhneVZPenk5dw?oc=5",
-    "source": "CryptoRank",
-    "published": "2026-08-24T13:33+00:00",
+    "id": "568e16735ffa7c05",
+    "title": "Memory Stocks Slide on Report Apple May Source Chinese Chips: SanDisk Down 9%, Micron and Western Digital Down 7%",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOb0NIQll1YTlpOU5MZk82SlA4bENYTjdjbE0weGtjVFRqMmpzaDZnSFJrcXFDUUtIdzVCUk5nOXZGVG1oSkM2R3Y0RFQzRUdrLTJvelVaTi1TaGxkQTdtc0lpblMtSzBJR1FBQjJLN3pLeE9uTUI5cFdJdndWbWJvSVpEVVNXeERCM2tNbWpGTHZjb29UX09BZWlhRXNVUQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-24T15:29+00:00",
     "score": 6,
     "tags": [
      "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "8e1e17ed0c0fb6b3",
-    "title": "Tech layoffs August 2026 update: Apple, TikTok, LinkedIn, Netflix join the list of companies slashing jobs",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZFJvMlJSMWhqemszV3pUMUJobzhSWUl2ajRNcFcxSnVYWVBjOEJtXzBaREVHUTVHYVdpZERqQ1VtTmlXemxUZlBnbzUycWdvNGRENmlKeGtRNDdUYjRTMzFMdGdhQVpZWUxZVDNjaFVmT1o0VnBvMFZyVzNqUTRTTEtjUVUtR3Y5ZldjUDFrUzBZc0s2UUhDVC1EdUcxcDM0?oc=5",
-    "source": "Fast Company",
-    "published": "2026-08-24T12:26+00:00",
-    "score": 5,
-    "tags": [
-     "operations"
     ],
     "direction": "negative",
     "primary": false
    }
   ],
   "AMZN": [
+   {
+    "id": "ff103b887fa77531",
+    "title": "Amazon's Stake in Anthropic Could Be Worth Over $400 Billion If the AI Start-Up's Reported IPO Valuation Holds. Should Jeff Bezos' Amazon Investors Care?",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQldGLTVxUEpodHktZjU0Q3RzUTctcW1QNlJPOUNCbnlaWUx1a0JjZHNNY21QbFVtWFIyR1V4SDl6dkJ4OFczR1ItbTJ3M3NsYVBEMkRpNGNpUnF3N0xvNDNoTGVZLWZYMEN0ZVpQTUlUWlFadWZydG5mcGRseWRhaW1MWGtnQQ?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-25T13:35+00:00",
+    "score": 14,
+    "tags": [
+     "earnings",
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "55211409d3d6384d",
     "title": "Amazon's Stake in Anthropic Is Now Big Enough to Move Its Earnings. Here's How That Compares to Alphabet's Stake in SpaceX.",
@@ -154,11 +168,37 @@
     "primary": false
    },
    {
+    "id": "9d72550169faa112",
+    "title": "Druckenmiller dumps Micron and Intel, boosts Amazon stake 11X in Q2",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA1OTg5Zl9zQVVCZ1VnVFBrU00td1lLWS02R3NCYTNmQjFsc3JwdEFXUlBQbkdSWHpmYmNKWmhFdU1VMDZFeHFLRVJhM3RhQ2JSb0l6c3Vtb29MY1hhN25rSVRWMA?oc=5",
+    "source": "eciks.org",
+    "published": "2026-08-25T10:33+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "c74cbaf8b33774bc",
     "title": "Will Amazon Stock Continue Running Into 2026? - Q3 Earnings Analysis Nebraska Baseball (ft7mMxuNRa)",
     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNZVR6UUp6RXFHZXZNV1czdGZ4bW5pdkxxelJyenVDUWtWdnhJcXM1eFNuVFdlUy1zb3V0aFNPa0owZEZpWVhwNnM2OGM2Zlh0a2N6eUtJRUs2RGJpWEpoSw?oc=5",
     "source": "Mshale",
     "published": "2026-08-25T07:17+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "46458db591755c5a",
+    "title": "Stock Market Today: Fade From All-Time Highs; AAPL, AMZN Earnings Reaction Miles Mcbride (MuvqWBLBkW)",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBtTzJVLVgyRVVwczN0cDdzZGw4UEF0RDdaWVBsTGlUcTNVQnQzXzMta2NSOG9uZlR4aWNHNlRDZ2NpWEx3Q29abEZOcTZHT0RReFJOaE41dzdkNmxBeWU1aQ?oc=5",
+    "source": "Mshale",
+    "published": "2026-08-25T07:00+00:00",
     "score": 6,
     "tags": [
      "earnings"
@@ -208,9 +248,9 @@
    {
     "id": "fecb4296b67edafd",
     "title": "Amazon Has Been Lagging the S&P 500 in 2026. This Is the Only Reason I'd Need to Buy the Stock in August Without Hesitation.",
-    "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPaUhFT3dhSkdXMWxCNGVJdVRyRUJqZWpTeUdveFZMN2ZtSnpLMHU3a2lQQjM3RzA3UmJsZC05V0Q4V3NWTXJVQzAwZjBzVDBJY3ROOWFZbmYzQkpTNGpXeU91eUVqektucXFQa1NTWlZzcXpadDFTZjQ1RHphZFFfWnRaUDZqZGs3am9hbGJZRTZ1NWNmWDMxaVA4RnI3d1hhTWY5SFJCWF9WODdnNWhNZUx3ZGlvZHFXTlJrOWlUUnBucWR4SUxMSHI3cUhxWjJEN1VlV2syZnNJWmVXMkVSS1lzcHhETmFPbW82VzBQZERmdllmMWVrMUNPazRrODRaZ0RxSU5lMWdmNmYxX1hFVnl4WnhYR0JNTEhPUGZKT1R2SVlMM256S1RnN0hUMmRETVE?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxOTDV4U2NEbG1LeHZnMVcxSFRRRTE0U0NsSUVXdmV4RWZQdExGYXp2dG5DdGM5aDllVWxyOXZfNjJaQjJ1U0pRVkNQR3hvTDdjR1MwNktqVzg5d194WGxEdDdlMFUxWE1QRVlfX2JMNFN3a0RrcjhQQy1leEdtX3NMVGJHc0UyNUVWcUF1bGJqYTVvNTdFSHY5ZTdkMUtSRDhOaTNoNzExQ3g0SDcyT3g4Ykx1TWwwNUs2WmJHVUU0SlE3cExLR1JmWHBid2sta1RRemxvZzA5dl9xcDZweGhoYUU4Y0YyVTRzOGtEbDkxRmx5Yzh5aVh4d1dnZG9Qb1JaNlBIMkdyU2s4OVQwMGNXWi1mZ1lYTUdfYWg2ekpENzRGQkFRTU5j?oc=5",
     "source": "The Globe and Mail",
-    "published": "2026-08-24T20:25+00:00",
+    "published": "2026-08-24T20:37+00:00",
     "score": 5,
     "tags": [
      "ma"
@@ -395,6 +435,20 @@
   ],
   "MSFT": [
    {
+    "id": "359804f940cdefff",
+    "title": "Microsoft stock weekly forecast: Trend holds firm amid strong buy signals from MACD",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNX2hpQkpUWmdPcU0zQzBTMmhKWldqXzB5MFByZEo5b1NOMjJsaWlRM2dwVzFwUEFnWmJZdnlNNkdhMnZhQklVamRTaXBTRENUWVVrdnA1bUQ1LS1qMU9lMXpmb3RYZ3BkcjV0OG4yOTZZOF9Qb2lIRHF6NE9TNzFwdXl2S0xoYnNQMjZLdUVVaw?oc=5",
+    "source": "Traders Union",
+    "published": "2026-08-25T14:47+00:00",
+    "score": 11,
+    "tags": [
+     "earnings",
+     "ma"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
     "id": "3e7171fcf5989dcf",
     "title": "Microsoft compensation data reveals salaries, bonuses and stock awards across key businesses",
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWXkyUEgtMU5ITUR6Y012dEp6cHRCelgwOWY5ajdrdUJ1NWVzXzNLVUVPYmFGSEVzUGdYcC0zSldtUmYyVjZ2clI4WFdFbDBsMEpEaXBIaktKV0pWejZtcmpvbVJLcG5FdjJMR2FReUVGZzR5MENZZUpOMTg0cFpoalJLSm1fRXVDLWdkWEt6LXdXUFhkejZVZDhURE12YjBKNURRcWdIcy1tYTNXNGpLOG9qb0pyTEtIajlOUk53?oc=5",
@@ -512,19 +566,6 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "74eb69b366e26ac1",
-    "title": "Microsoft stock consolidates after AI-driven earnings surge",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaDZBZElJeTFRZnpySHNrRERQNUZZOFVjY20tMTNIT3ROeVFmRjM4ZmtXeFRocndNRTcxblNuY1h6Mkk4QjVRb0tmenhZYlE4WjlhbVE2WFJpRnRWRkRHbFM1MDJ1NjBlaUNCVTk0MDdsT2U0QmQ2SmZHSTRtX1pTREZXVUJSOEU4RndvV3FHYWJMSTBxNnJLa0dWcy05eDZNRDctLUI5UmVRa2V6MkRhd3h3RXpzUFgwTUpWdWNQVQ?oc=5",
-    "source": "Ad-hoc-news.de",
-    "published": "2026-08-24T06:45+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
    }
   ],
   "GOOGL": [
@@ -563,6 +604,20 @@
     "score": 6,
     "tags": [
      "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "37db95ecb169d7f9",
+    "title": "Marvell Technology stock rises nearly 7% as partnership with Alphabet drives AI-chip outlook",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQW1vSHRWTWRVeFBzTV9yTzdUMTZ5aUZ5NjNmVEQ1REFIemMybXozc08wcDZjMXFUSXA5NG1BZ09qRWR4YXFyb19JaXlxeGdaNWRReThiODV0Snc4UUZLRElhR0xPeFAwX3FUcTEycGpua3pmSHppcWREbTdSU0pRQ1psQVNGQXJZZThKMnVwYw?oc=5",
+    "source": "Traders Union",
+    "published": "2026-08-24T16:29+00:00",
+    "score": 11,
+    "tags": [
+     "earnings",
+     "contract"
     ],
     "direction": "neutral",
     "primary": false
@@ -618,19 +673,6 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "3c6ea98201c96f88",
-    "title": "Alphabet stock edges higher as Q2 2026 earnings and AI momentum support valuation",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNEFOcHpYdW5Oak00Q01QSHdNWkRHeUZQWmFlZ19QRGtteUtUZUt2ZktrTEM3cGRlanUyQklyZ0s1T0dNZU5weE8yUUlGM3MwX185ME9hd0xJcHhKYy1OOWxxTktlZGtlWUhRT1VIR1VvOS1XUzlHWHdWM2dSbWJ3ZkplMWJyX2ZRNzhIMlpNNEEtcHlWSDh6UEhfdE5MMFV6a3dnRjY1elVPb0ROWGlfUXIyQjBnN3VqbllTVnl4ZXlNTFlubDBDNUFWalJ0QjA?oc=5",
-    "source": "Ad-hoc-news.de",
-    "published": "2026-08-23T14:09+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "HOOD": [
@@ -648,19 +690,6 @@
     "primary": false
    },
    {
-    "id": "ea3f30ea36e7b6bc",
-    "title": "Apple Tokenized Stock (Robinhood) Exchanges AAPL Markets | Buy & Sell & Trade",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBmS0VDS19hVWxyX2hPajU1YnJ2bTRVdmM5UXc0c01jS05YM2RZVWExQ2g5b3ozRHNyWkJPRkQ5SWpxSGFuSl9YS1pwSjY2cjdHVl9JN2VrdXBlZk1DXzZMTTlQWV9tNjRKQnhBX0xBRmxzd1JEUkFRQQ?oc=5",
-    "source": "CryptoRank",
-    "published": "2026-08-24T13:35+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "90b2a11f178f306d",
     "title": "Robinhood Shares Lose Momentum Post 13.7% Surge as Crypto Regulation Presents Revenue Challenge",
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNa1JaQ0gyWHpVX3pzLXhXUnRSbzFWMFU2b2JtX1M2OVprRU9FWHFfdnRnZDlfdThic2ZPdTNRSU5qV21YWGQ2MGhqTXA2ODVzLTRab2NCOXc0TzRfa29ORldDb29XS1Rna09TYzI5VVhybUwyVkpoRkU3TU55TTlvQk9UanpIZmRQU2xCeXZ1ZXFXSzlzb3VZUVVCSQ?oc=5",
@@ -669,6 +698,19 @@
     "score": 6,
     "tags": [
      "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "fe1aefc91470a981",
+    "title": "Roblox Tokenized Stock (Robinhood) Exchanges RBLX Markets | Buy & Sell & Trade",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5Cc2tNR2o2X0t4d2NjTU9meG1WZTZJLVcwWElkNzlIbVRHQnFadzFwc2R1Z1NmbUhZYmk1QnpxZ1RtcDhQZHBQZThjSWhOaTZOVnRQTjdMbVlrZG5KdHVOLU9leGdDeU9pRndxckFzdkVTZG9ZcWlrQ25R?oc=5",
+    "source": "CryptoRank",
+    "published": "2026-08-24T09:03+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
     ],
     "direction": "neutral",
     "primary": false
@@ -728,11 +770,64 @@
   ],
   "NVDA": [
    {
+    "id": "c8639fde42fae9ed",
+    "title": "Stocks with the highest exposure to Nvidia earnings",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTXFZZHZKNVVvdERsRG43aFcxTkJlRS1VRVVwblFoRDA0QkZsdDVWdVJkaHZmVXlJWEdQWlo1VGtoVk1QWTIzNHFqUzg3OEtpYXkySVpMR1pycVo0Y0hFRnpHYlRCN3Q4bG5IVUNHRl9qblYxdW04cDFqb0xsWC04a09ReDl2Tmd1b3JLUC1kVDBxeU5VV2U1SC1tUTAxZldxYndjNUEtQ3lqRXRwT1J2eWo0dw?oc=5",
+    "source": "Investing.com",
+    "published": "2026-08-25T14:24+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "d462cddb653b3e0f",
+    "title": "Nvidia Stock Falls to $208.48, Breaks Below Key Averages Before Earnings",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5aWWFOcXFHUGNTcFhtV1R4bEdLZUpMMXFVemltY1VGazEyZFZBM0JrR0lEMkJMNWtSRWxzTUFRTk1TM3BndThxVGtVQ2hXMUlUUTFrOVVCWnFhMXc?oc=5",
+    "source": "Cryptonews.net",
+    "published": "2026-08-25T14:22+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "c5a3b518bd6c01b7",
+    "title": "Bet on These 5 Dividend Growth Stocks Ahead of NVIDIA's Q2 Earnings Report",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWkxCTmdFU0g2WVBPaktLWVdlMVZLUzFqUGxqVElGREhacDJMWFhONTlOZXFuYkFWVVl2bFpIQUl4bjkzb19jX0YxN3RabVVZMWNuU2pZZWM2QklBX1RzZHhrTkJQcWhxRTJiTjFsRHJtaDlFT01FN3c2MUJsV1BELTR6MmxSaHRncE0wd2FzS01aVEhNN2hGaw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-25T14:18+00:00",
+    "score": 11,
+    "tags": [
+     "earnings",
+     "capital"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "66574a9c31998fc3",
+    "title": "One AI Stock I’d Watch Before Nvidia’s Earnings",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQN0xxZjFTU2tRMmxVWDd5RlFOUDFnck1Nc0U4X2JlclRGd0kwY0VFeWhxdjl0TGlhRmJJU3pTTVFvOWZTNng2R0phY1JqWlNSRF9VZENiRlVMOURWd3U2eExZVjc4R254VmFhakZBS25pTkpfanNBWlMwWkczalV5RkNDX01aOXAyQ3BWZHV3?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-25T14:15+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "7056765defc104d5",
     "title": "Nvidia Stock Bulls Get Punished in the Run-Up to Earnings",
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSVBNRWxrS1JqeWFwS3pCcnNmNUxic1dxZGhtS1ZsZnYxSkpqdWtpbDk4SmpSaU5zZGtEMXpLNFhSbExRWFhQb3hEV0FyTTRKXzhhd3lNRTUyWXZicEY1c1BuMmNvLXB5VlNnUVVHY3FyMjV2UTFYZjRoUng3a3JLRDBremxhaG9qTWNhNFBJTUQ3SG5QdElCdGxaa0ZoN2RPM3BXWnRzNE9JeEVmUE5Haw?oc=5",
     "source": "Bloomberg",
-    "published": "2026-08-25T14:01+00:00",
+    "published": "2026-08-25T14:11+00:00",
     "score": 6,
     "tags": [
      "earnings"
@@ -754,29 +849,16 @@
     "primary": false
    },
    {
-    "id": "95c61645a47a62e3",
-    "title": "Wall St opens higher as tech stocks rebound before Nvidia results, data",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdmhxOE10Q2J5RzR6U1lxZjRCX0FUYmdxdkl5SE5fT1N2SG5RSmMxb0xPekZ2eDNjbVhyVE54N0FIOTByZEdrMFUtSmp0U3A0R2RLVldRczJ2aW5PU2QzUzZ6Y0FYUThQU01jdEJOdzdtbndvdThwXzhUbDAzQ2lHeVIwbHE4dkZITlhxZ0JLLWVEVHdzZmcxYTdub3dWRjh1QnRNUzRhU0V3bnJZV2c?oc=5",
-    "source": "Reuters",
-    "published": "2026-08-25T13:35+00:00",
+    "id": "bed2dca79e86d984",
+    "title": "Wall Street rises as Nvidia results, inflation data loom (COMP:IND:)",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRjdsUllPSW84bWdaSXIydWhLT2IxS29VaWV2WnBmTGJwb2FaU3hQTTdwcGR0REZRWXZVSnRFMVRqMzYzSTBjWXBPZHpraXF4cVpOODV2c1k0MzZ3TTctZlV0Qm1zZ2VQVkVZYzJhNElRUmdKTmo5bUxKYlJzcGp2ZmtMZ3hjVTdU?oc=5",
+    "source": "Seeking Alpha",
+    "published": "2026-08-25T13:31+00:00",
     "score": 6,
     "tags": [
      "earnings"
     ],
     "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "0fbac09e7d459221",
-    "title": "Cisco partners with Supermicro to expand Secure AI Factory with NVIDIA (CSCO:NASDAQ)",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaEkxT1NfTlB2N0NUR2dYX2ZheFZuRnhYLW9sVDZrVm10cHBLMFpWN1lvWG52ZzR0bXlSamt5RHNyakszeVplejNYa1RLRTVRNjB0TG9wREJFaXh6dGVoSWMyZm44c3dMVzhyalY1Z2g5MWhYMWdZYkJSU2RaYU4tYkV4Zzhoalgwd2NWMDBZampnclJtZHNJV2ZMVEZHRWtwVGR4dGhqNzEzVm9n?oc=5",
-    "source": "Seeking Alpha",
-    "published": "2026-08-25T12:25+00:00",
-    "score": 5,
-    "tags": [
-     "operations"
-    ],
-    "direction": "positive",
     "primary": false
    },
    {
@@ -806,19 +888,6 @@
     "primary": false
    },
    {
-    "id": "2b3bf39aeccef644",
-    "title": "Bitcoin Beats Nvidia to Become Top-Performing Major Asset Over 10 Years as BTC Surges Above $80,000",
-    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQLUNmbU5hb294RmpnZ05hbVZYaGR6cC1TNDlVclNCdjZ6NDdKYkU1R0JMV1lMYlYzaHcwWTlTVzlUa2NpcHA0UHJiYk5UNUZDNHQ2SUJYZEdqblUybkNNWWtfOVZLZmhDWEtiTWdPaU5NeWVWV0k0aGV0X0FrVHZ6eVJSS3lLZnJxOS1kVUZ3UGtqZDhVVzRZcThNRFBSbHRhbC1ZN1BhRDNCdnVsUENFY3ZoYnA3QWlHM05PQW5SZmNIc3RkTVNqbzJsZDEtRGt1ZFB5YjI2QmRNb1pvZjVzWXJnc3RPZmxVUXVpWXBB?oc=5",
-    "source": "TradingView",
-    "published": "2026-08-25T09:56+00:00",
-    "score": 9,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
     "id": "8d8e63030c7ec837",
     "title": "Nvidia's valuation looks surprisingly cheap heading into earnings. Could it be an issue for the stock?",
     "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxORWdvNG1VdTNjdk9ZcDNpTW11aUdGMmNMOVZ6WE5QbE9GV0Y4bE1hdXhmUUJUS3ZuRVpZTUNFbWxTVVZXZXJmUVZNMHBKbllQTWlrVGIybG1YeUtPTE5QMGhYVlkta19kV2JnOU1KcUFhYkgzQVlMRG5Md3YxLTJDNnhGazNUaVBnMGJ0Z3ZuZ0t2bUxVZTNqRjdJSFctY3dRZkRqNUV2a1ZpRHRLZTM2MHkzWktVNXM0aE9HdU9WWldwMEVlNGVyUmlJbFFXQzJIZkxtLU1PcmZYYlJKSlNJMTd0ZXlaS2NqQ3dJcnc0TWdWWFZ4eHc?oc=5",
@@ -830,35 +899,22 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
+   }
+  ],
+  "INTC": [
    {
-    "id": "d055859b29212794",
-    "title": "Options Market Eyes Big Nvidia Valuation Jolt on Results",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQU05fYXh2Qk5aTUhPWEpvUlppUDhsOHhERVNjUUFWZE00Z0YxYlo3UEFfZjBvS295NHpuc1NXRHB6LXV3XzhsYVo3LWpkMG9zN1k5bDNidDN0SzRnRk5sZzhvQUtwMFUxYUZzZzA4a2gxUjFjdmdYYWxtTW43TVhuUlZrZUdSUUNobEhmU2NUUHBlOXhLVTg5MVZXV2o3QQ?oc=5",
-    "source": "TradingPedia",
-    "published": "2026-08-25T08:16+00:00",
-    "score": 6,
+    "id": "05a386f3c8ece234",
+    "title": "A $20 Billion Reason to Buy Intel Stock as Its Biggest Comeback Gets Real",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUEN5Y0RSdUpsRXMtQnl4bjIwQVBuc0tvQkNkakZMbkxvLUNwWXZ2a0tCaU45V0dkcTJCNThOdGRZNUU4TmJNSnJGeUtibG1zYzRQbFc4ajZsTzB1V0JXU2lfel9zejVZLUpkRm1VdmJiT1RXaWhsQ2I2ZEFNSzdMcTlmbm0xZGpZcVBGT2tnX2RWamctQVFnSG1WTWdsbXNBNS1JYlhfUlIySzRBTVd1OUIzZlBLOGc?oc=5",
+    "source": "Barchart.com",
+    "published": "2026-08-25T14:42+00:00",
+    "score": 8,
     "tags": [
-     "earnings"
+     "ma"
     ],
     "direction": "neutral",
     "primary": false
    },
-   {
-    "id": "550ba51f7efdfead",
-    "title": "NVDA Stock In For ‘Very, Very Fast’ Rally: Analysts Shrug Off Price-Hike Buzz Ahead Of Most-Watched Earnings Report",
-    "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOOU9sMVZ1S0lXV0hnZTJXdWo2djdKLV95VlpKYzBWVjdvczRXQXRkYzJJMkwydTFTZy1uWDJVMWRmX1dzLW9ZcHJlQVZIVmktU2dxNGlUWXdnUTVvREk0QVZPQlRHR3o4VC1DRFlwVTN4VWhIcS05LS00M1FKc0xoWUNfaVFpdmpLM1hzVUlqNVV5aGlLU1R3cmlsLXhwc2d3RTFFLW5oOGdFTHEwd09WQl9kcURmMHE3Q0tyclI3N0dCcWRGaEdYSVF6RkZMNG55d0xCeDluMWNwek8zMWZkdGdvOXF6RUh0aG5weEZ5a3R2MFROV1VjbmlrUkwtQ2JoUEE?oc=5",
-    "source": "TradingView",
-    "published": "2026-08-25T08:14+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
-   }
-  ],
-  "INTC": [
    {
     "id": "fa8b296cb2fc278d",
     "title": "AMD and Intel Rise 3% on a Strong Buy Upgrade and a Pelosi Disclosure, NVIDIA and Broadcom Tick Up",
@@ -917,6 +973,19 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNGlCTXRCMmFXbkhISzY4aEhURW1PSnRCMURQMWdEclBhai02ZjNYbG9sN3RkYTR0Sld6NjZlZTh5TUw5b01US3UwaWpETkZ2a0JiclNXR1pDcGpVb0ZON0Qybi10a2JHVnR5T0gxb0RFdG9PWWI4Sy1ZdldBUk9PR0RiMEtsRG5jTkpHWl90bEhmb0dIblBmQVg1SXUxS2tTQW1sbXl6elBaZw?oc=5",
     "source": "CNBC",
     "published": "2026-08-25T10:53+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "bf58165aeb478f20",
+    "title": "Masayoshi Son Has 67% of SoftBank's U.S. Stock Portfolio in Intel. He Didn't Buy a Single Share Last Quarter.",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9GZXVBSmVjUXNmaWFYU0EydVEtWFlJM3hBWWJOMVpBRkZhTktKRWdBMEMyZG1ibFZRVGxUOXYtVHlsRk02QjlXNTJjcld3LUViWmQzdW9kb2d2b1I0aUpOem9lUGlWYTNqRW5nN1l0aGJvZk1yNFZ6OVM2UTM?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-25T09:05+00:00",
     "score": 5,
     "tags": [
      "ma"
@@ -1017,6 +1086,20 @@
      "capital"
     ],
     "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "e4cde815cf8c349b",
+    "title": "Nebius Group Falls 4% as $5B Convertible Settles, Datadog Drops 3%, Cloudflare Slips",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOODFkOV9meDZ4NlczbG0xclRXR1AyT1R6MjdCcUJVcmRSRW1qMkRnWnEtN0REaW1abHVCcG1JNlRxZjJFdS02N09QeVhhalN2OVB4anQxVkZhTUQtczdSblgydlk3VGFuRjliaTlEaUJqSkJPakJJWWJaSzlObE1YWHY4alJLV0VSNDRvYUVkSUh0dw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-24T17:43+00:00",
+    "score": 13,
+    "tags": [
+     "legal",
+     "capital"
+    ],
+    "direction": "negative",
     "primary": false
    },
    {
@@ -1205,32 +1288,6 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "bb570be50aeefbea",
-    "title": "SA Asks: How concerned should Meta investors be about child safety lawsuits? (META:NASDAQ)",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVElxSG5jb3l1UjV1T2hId3EtekoyaDlYSFk3RFBoVlZfT3A1dFd3Z3RVUThpdUtBaWs5d0Y5TnAzNU01NXJ6eTlDTnF6M215RUd3NzFRdzBJUWFibzFyMzVKdXZOcXNPS3NHNXAzWS1NY3lUZGVsd3dHZDBGNEZSOWRBeU1mMHpGRlh0aEhybHgtd2xwS2xLZlZNcHF2ZjdyR08wamxaQkZWeGhUY01aUzl3?oc=5",
-    "source": "Seeking Alpha",
-    "published": "2026-08-23T15:00+00:00",
-    "score": 5,
-    "tags": [
-     "legal"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "52a7c75f0683faae",
-    "title": "Meta Platforms stock steadies as investors weigh heavy AI capex and strong Q2 2026 earnings",
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQktpWlNBbTFXZUxQYmo2WG5uQ2Jpa1diS1Q4Q0FNalN6M1kzMllmbFdtMVlpYnBiVmZNTGFaRjFDRVptNHlpNHc0MmJ1aUJRZzhuUGJzZ3h2SG5FYWROUjdvOXhreVVCOHBPQUQtZjFTQWZzVmRfSlV6ODNKYmxrWk9iUTRvQWs5T1MwalJJb3VPb3BOUGxjV2hkT3p4Vk5TZjZZaXdYenRIdHZvRW5vTmMwYkMteWp6NkQ2Tk1KSHVhaXJVdDBwbl8tbkZlX1VwekdJ?oc=5",
-    "source": "Ad-hoc-news.de",
-    "published": "2026-08-23T14:44+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
    }
   ]
  },
@@ -1272,5 +1329,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 92
+ "count": 96
 }
