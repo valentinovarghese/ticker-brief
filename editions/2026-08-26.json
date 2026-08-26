@@ -1,0 +1,474 @@
+{
+ "date": "2026-08-26",
+ "weekday": "Wed",
+ "headline": "NVDA rose 2.19% to end a seven-session slide, and reports tonight after the close.",
+ "gauge": [
+  {
+   "text": "QQQ +0.62% Tuesday close",
+   "tone": "up"
+  },
+  {
+   "text": "updated 07:00 ET &middot; before the open",
+   "tone": "flat"
+  },
+  {
+   "text": "12 tickers &middot; session of Tuesday 25 August",
+   "tone": "flat"
+  },
+  {
+   "text": "premarket to 07:05 ET &middot; provisional",
+   "tone": "flat"
+  }
+ ],
+ "quick": [
+  "<b>Tuesday reversed Monday almost exactly, and the bond market did it.</b> The 10-year Treasury yield fell to <b>4.625%</b> from <b>4.71%</b>, and eight of the twelve rose against five on Monday. Chip funds led at about <b>+1.65%</b> against <b>+0.94%</b> for broad technology, the mirror image of Monday. Only <b>PLTR</b> fell more than <b>0.4%</b>.",
+  "<b>NVDA reports tonight, and Tuesday was the market getting out of its own way.</b> It rose <b>2.19%</b> on the heaviest volume of the twelve, ending a seven-session slide worth <b>7.5%</b>, its longest since 2022. Guidance was <b>$91.0bn</b> plus or minus 2% and consensus sits near <b>$92bn</b>. July core PCE lands first, at 08:30 ET today.",
+  "<b>Two of the loudest stories on the tape yesterday were months old.</b> The <b>$875m</b> FAA contract <b>PLTR</b> is said to have lost was awarded to Air Space Intelligence on <b>22 June</b>. The <b>INTC</b> and <b>AAPL</b> chip-making talks were reported in <b>May</b> and described by President Trump on <b>18 June</b>. Neither is news from the past 24 hours."
+ ],
+ "macro": [
+  {
+   "dt": "<b>The 10-year Treasury yield fell more than 7 basis points to 4.625%, from 4.71% on Monday.</b> The two-year fell with it. West Texas Intermediate crude dropped more than <b>3%</b>. The S&P 500 closed <b>+0.32%</b>, the Nasdaq Composite <b>+0.66%</b>, and the Dow added <b>160</b> points",
+   "lead": "One number moved, and it moved everything on this list",
+   "dd": "A long bond yield is the rate at which investors discount profits expected years from now. Monday's edition set out how a rising yield marks distant earnings down hardest. Tuesday ran the same machinery backwards. The gauge agrees rather than contradicts: QQQ closed <b>+0.62%</b> against SPY at <b>+0.32%</b>, a gap of <b>0.30pp</b> in favour of the growth index. Only Nebius had a company announcement in the window big enough to explain its own price."
+  },
+  {
+   "dt": "<b>July core PCE, the inflation gauge the Fed watches most, is published today at 08:30 ET.</b> Consensus is <b>3.2%</b> to <b>3.3%</b> against a year earlier, after <b>3.3%</b> in June. Monday's edition noted CME's FedWatch putting the odds of a September rate rise near <b>42%</b>. Tuesday's fall in oil takes one input off the inflation case",
+   "lead": "This is the number that decides whether Tuesday holds",
+   "dd": "Tuesday's rally was borrowed from a single afternoon in the bond market, not earned by any company on this list. A core reading at or below <b>3.2%</b> pushes the September hike question further away and lets the discount rate stay lower, which is worth more to <b>PLTR</b>, <b>NBIS</b> and <b>MRVL</b> than to <b>AAPL</b> or <b>MSFT</b>. A reading above <b>3.3%</b> hands Monday's session straight back. It lands ten hours before Nvidia reports, so today carries both risks in sequence."
+  }
+ ],
+ "entries": [
+  {
+   "ticker": "HOOD",
+   "dir": "bullish",
+   "strength": "major",
+   "strength_label": "Major move &middot; sector, not company &middot; crypto beta",
+   "move": "+8.17% &middot; Tuesday close, settled",
+   "move_tone": "up",
+   "happened": "Robinhood rose 8.17%, the largest gain of the twelve, as bitcoin cleared $80,000, with no company announcement dated 25 August.",
+   "figures": [
+    "Closed <b>$112.09</b>, <b>+8.17%</b>, the largest gain of the twelve. That recovers Monday's <b>$4.51</b> loss and adds <b>$3.96</b> on top",
+    "Its intraday range of <b>8.61%</b> was the widest of the twelve, almost twice the next widest. Volume was <b>113%</b> of average",
+    "Bitcoin passed <b>$80,000</b> for the first time since mid-May, touching <b>$81,257</b> before easing back to about <b>$78,800</b>",
+    "Robinhood's own crypto notional volume was <b>$10.9bn</b> in July, down <b>33%</b> from June",
+    "At <b>$112.09</b> the stock is <b>27.15%</b> below its 52-week high of <b>$153.86</b>"
+   ],
+   "why": "The gap between those last two numbers is the whole point. Robinhood is paid on how much its customers trade, not on what bitcoin is worth, and in July those two lines moved in opposite directions. So a session like Tuesday's reprices sentiment towards the stock rather than anything in the revenue line. What that buys is a higher multiple resting on a crowd's mood, which is the least durable reason for investors to pay more per dollar of earnings.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "This is Tuesday's settled close, and it is a crypto move, not a company one. The extended-hours quote available to this run was stamped late on Tuesday rather than this morning, so there is no premarket read for Robinhood in this edition. Treat the open as the first new information.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "August monthly operating data shows crypto notional volumes still falling while the coin rises. That would confirm the stock and the business have come apart.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Monthly operating data in mid-September. Third-quarter results, late October, no date confirmed.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "NBIS",
+   "dir": "bullish",
+   "strength": "major",
+   "strength_label": "Major move &middot; company &middot; hardware first-mover",
+   "move": "+5.24% &middot; Tuesday close, settled",
+   "move_tone": "up",
+   "happened": "Nebius said on 25 August it is the first AI cloud to deploy Nvidia's Groq 3 LPX, three days after closing $5.75bn of convertible notes.",
+   "figures": [
+    "Closed <b>$221.97</b>, <b>+5.24%</b>, snapping a six-session slide",
+    "Nvidia said on <b>24 August</b> that the Groq 3 LPX is in full production. Nebius is putting it into its Token Factory platform",
+    "Artificial Analysis benchmarked the part at <b>3,400</b> output tokens per second for a single user on Gemma 4 31B, the fastest recorded for that model",
+    "Each rack couples <b>256</b> LPU accelerators with <b>128GB</b> of on-chip memory and <b>640 TB/s</b> of scale-up bandwidth",
+    "Volume was <b>45%</b> of average, the lightest of the twelve, so this was a thin move. The stock is <b>25.98%</b> below its 52-week high"
+   ],
+   "why": "Rented compute is close to a commodity, and a neocloud that cannot differentiate it competes only on price. Being first to scarce new inference silicon is one of the few ways to escape that, because inference is billed per token generated: faster chips turn directly into more revenue from the same rack, floor space and power contract. That is what the $5.75bn raised last week was for, and it converts a financing story into an operating one much sooner than a datacentre build would.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "The rise began in Tuesday's premarket and held to the close, so the tape did react. But it came on the lightest volume of the twelve, which is a weak vote. Premarket this morning is <b>-0.89%</b>, giving part of it back. That is provisional and the open will settle it.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "Nebius names no committed customer or capacity for the deployment. A first-mover claim with nothing contracted behind it is marketing.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Third-quarter results in November. Before that, Nvidia tonight prices the hardware Nebius has just committed to buy.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "MRVL",
+   "dir": "bullish",
+   "strength": "major",
+   "strength_label": "Major move &middot; sector plus target raises &middot; not a company event",
+   "move": "+4.84% &middot; Tuesday close, settled",
+   "move_tone": "up",
+   "happened": "Marvell rose 4.84% with the chip sector and on raised broker targets, two days before results, with no company announcement dated 25 August.",
+   "figures": [
+    "Closed <b>$240.38</b>, <b>+4.84%</b>, on <b>82%</b> of average volume, below normal",
+    "Semiconductor funds rose about <b>1.65%</b> against about <b>0.94%</b> for broad technology, so Marvell ran roughly three times its own sector",
+    "Guidance for tomorrow's quarter is <b>$2.70bn</b> plus or minus 5%, with non-GAAP EPS of <b>$0.93</b> plus or minus <b>$0.05</b>. Consensus sits near <b>$2.72bn</b> and <b>$0.93</b>, implying about <b>35%</b> revenue and <b>39%</b> earnings growth against a year earlier",
+    "Options price a post-earnings move of about <b>13.6%</b> in either direction, roughly three times Tuesday's rise",
+    "The stock is <b>27.13%</b> below its 52-week high"
+   ],
+   "why": "Broker target changes are not information about the business, and a stock that outruns its own sector threefold on below-average volume is being repositioned rather than revalued. The number that decides Thursday is the quarter after next. Management has already pointed at <b>$3bn</b> of quarterly revenue one quarter earlier than its previous plan, and confirming that pulls the entire revenue curve forward. That is worth more to the multiple than any beat on the quarter just gone.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Barely. Using Tuesday's settled close, a 4.84% rise into an event that options price at 13.6% leaves the bulk of the outcome unpriced in either direction. Premarket is <b>+0.67%</b>, provisional and thin.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "Third-quarter guidance lands below $3bn. That undoes the pull-forward management has already promised.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "27 August, after the close.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "NVDA",
+   "dir": "bullish",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; positioning before results &middot; product milestone",
+   "move": "+2.19% &middot; Tuesday close, settled",
+   "move_tone": "up",
+   "happened": "Nvidia rose 2.19% on the heaviest volume of the twelve, ending a seven-session slide, and reports today after the close.",
+   "figures": [
+    "Closed <b>$213.05</b>, <b>+2.19%</b>, on <b>118%</b> of average volume, the heaviest of the twelve",
+    "The seven-session slide it ended was worth <b>7.5%</b> and was its longest since <b>2022</b>",
+    "Results come today after the close. Guidance was <b>$91.0bn</b> plus or minus 2%, and consensus sits near <b>$92bn</b>, about <b>1%</b> above the midpoint",
+    "On <b>24 August</b> Nvidia said its Groq 3 LPX inference part is in full production, benchmarked at <b>3,400</b> output tokens per second on a single model. Nebius named itself the first cloud to take it the next day",
+    "At <b>$213.05</b> the stock is <b>9.93%</b> below its 52-week high, the second-smallest gap of the twelve"
+   ],
+   "why": "The production milestone matters more to the price than one quarter will. Training silicon sells against how many new models are being built, which is a burst of spending that can stop. Inference silicon sells against how much those models are then used, which recurs and grows with adoption. Investors paying today's multiple are paying for growth that outlasts the build-out, so evidence that the second engine is real and has a paying customer supports the multiple in a way a revenue beat cannot.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "No. Tuesday's settled close reversed a seven-day slide rather than anticipating a result, and it happened on a day the whole list rose on falling yields. Premarket is <b>+0.38%</b>, which is provisional and tells you nothing about tonight. Monday's edition noted options pricing a 5.4% move for the day after.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "October-quarter guidance fails to step up from the July quarter. Growth that flattens is the one outcome this multiple does not allow for.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Today, 26 August, after the close.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "PLTR",
+   "dir": "bearish",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; no new company event &middot; the day's asymmetry",
+   "move": "-1.80% &middot; Tuesday close, settled",
+   "move_tone": "down",
+   "happened": "Palantir fell 1.80%, the largest decline of the twelve, on a day when falling yields lifted every comparable stock and nothing new was announced.",
+   "figures": [
+    "Closed <b>$172.73</b>, <b>-1.80%</b>, the largest decline of the twelve. The next largest was <b>AMZN</b> at <b>-0.39%</b>, so the drop was more than four times the second-worst",
+    "The <b>$875m</b> FAA contract behind Tuesday's coverage was awarded to Air Space Intelligence on <b>22 June</b>, a 12-year deal. Palantir and Thales both lost it then",
+    "Chief executive Alex Karp's <b>$86.06m</b> Form 4 was disclosed <b>24 August</b> and covered in yesterday's edition. Nothing new was filed",
+    "Volume was <b>78%</b> of average, below normal, and the intraday range was <b>4.44%</b>",
+    "The stock is <b>16.76%</b> below its 52-week high"
+   ],
+   "why": "The absence of an explanation is the finding. Every other stock on this list priced on distant profits rose when the discount rate fell, and this one went the other way on no fresh news. When a stock stops responding to the input that has been driving it, the people setting its price have changed, and they are weighing something the tape does not show. That is worth flagging precisely because no headline accounts for it.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "It moved opposite, which is the flag. Using Tuesday's settled close, Palantir fell while the yield relief that lifted its peers was in force. Premarket is <b>-1.29%</b>, the weakest premarket of the twelve, which is provisional but points the same way.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "Palantir announces a US government award of comparable size to the FAA work it lost in June.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Third-quarter results, early November.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "META",
+   "dir": "bullish",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; drift on a Monday report &middot; leads premarket",
+   "move": "+1.97% &middot; Tuesday close, settled &middot; +1.46% premarket",
+   "move_tone": "up",
+   "happened": "Meta rose 1.97% on a second day of drift after Monday's report that it will launch a paid AI agent platform called Hatch.",
+   "figures": [
+    "Closed <b>$570.05</b>, <b>+1.97%</b>, after <b>+1.66%</b> on Monday. Volume was <b>66%</b> of average, well below normal",
+    "The Information reported on <b>24 August</b> that Hatch launches within weeks, with a top tier at <b>$199.99</b> a month. A WhatsApp agent platform is also being prepared",
+    "Meta has not confirmed the product, the pricing or the timing",
+    "Premarket this morning is <b>+1.46%</b>, the largest premarket gain of the twelve",
+    "At <b>$570.05</b> the stock is <b>27.91%</b> below its 52-week high"
+   ],
+   "why": "Meta earns almost everything it earns from advertising, and its AI spending has so far been a cost with no separate revenue line attached. A subscription at $199.99 a month would be the first, and subscription income is valued differently from advertising: it recurs, it is not tied to the ad cycle, and it turns the capital spending from a drag into an investment with a visible return. That is a change in what the spending means, not in this year's numbers.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Partly, and the sequence matters. The report landed Monday and the stock has now risen on two consecutive days, both on below-average volume. Premarket <b>+1.46%</b> extends it, but that is provisional and thin, and Meta has confirmed nothing.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "Meta launches Hatch without the paid tier, or prices it far below the reported $199.99. The revenue line is the entire point.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "No launch date announced. Third-quarter results, late October.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "TSLA",
+   "dir": "neutral",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; company &middot; pricing",
+   "move": "+0.37% &middot; Tuesday close, settled",
+   "move_tone": "flat",
+   "happened": "Tesla raised Cybertruck prices by $5,000 on two trims, updating its configurator on the night of 24 August without changing any specification.",
+   "figures": [
+    "Dual Motor AWD goes to <b>$74,990</b> from <b>$69,990</b>, a rise of <b>7.1%</b>. Premium AWD goes to <b>$84,990</b> from <b>$79,990</b>, a rise of <b>6.2%</b>",
+    "The Cyberbeast is unchanged at <b>$99,990</b>. No specification changed on any trim",
+    "First-half US Cybertruck sales are estimated at <b>7,263</b>, after a <b>45%</b> fall in the first quarter",
+    "Closed <b>$350.25</b>, <b>+0.37%</b>. Premarket is <b>-0.05%</b>",
+    "The stock is <b>29.79%</b> below its 52-week high"
+   ],
+   "why": "Raising price into falling volume is a decision about margin rather than a signal about demand. Tesla is taking more gross profit per truck and accepting fewer trucks. On a product selling in the single-digit thousands, neither choice registers in group revenue. What it does say is that Tesla has stopped treating Cybertruck volume as something worth discounting for, which quietly retires it from the growth case investors were once asked to pay for.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "There was no reaction to price. Tuesday's <b>+0.37%</b> is the tape. Note the sequence: Monday's <b>-3.83%</b> came before the configurator changed and was the China door-handle recall plus the sector, not this.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "Tesla reverses the increase or adds incentives within a quarter. That would make it a test rather than a decision.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Third-quarter deliveries, early October.",
+     "flag": false
+    }
+   ]
+  }
+ ],
+ "readthrough": {
+  "title": "One chip in full production reaches three tickers on this list, and one Reuters story reaches three more.",
+  "body": "<b>The hardware chain.</b> Nvidia said on <b>24 August</b> that its Groq 3 LPX inference part is in full production. <b>NBIS</b> said the next day it is the first cloud to deploy it. That is one announcement doing two different jobs: for Nvidia it is evidence that inference silicon is a second revenue engine alongside training; for Nebius it is a way to charge above commodity rates for rented compute. <b>MRVL</b> sits on the other side of the same trade, because custom silicon designed for one buyer competes for the budget that catalogue parts like the LPX are winning. All three report or are priced off results within 48 hours.<br><br><b>The cloud chain.</b> Reuters reported this morning, <b>26 August</b>, that China's Moonshot AI is in talks with <b>MSFT</b>, <b>AMZN</b> and <b>GOOGL</b> to host its Kimi K3 model on Azure, AWS and Google Cloud. Moonshot is said to be seeking up to a <b>30%</b> share of the revenue such services generate. Nothing is signed and the talks are unresolved on revenue splits, data access and token auditing. If one is done it would be the first large revenue-sharing pact between a Chinese AI developer and a US cloud, and it would set the rate at which every hyperscaler pays for third-party models. US officials have accused Moonshot of copying Anthropic's work and of acquiring Nvidia chips illegally, so this carries political risk the three buyers will price.<br><br><b>The asymmetry.</b> <b>MRVL</b> rose <b>4.84%</b> on raised broker targets and <b>NVDA</b> rose <b>2.19%</b> on a production milestone and its own imminent results. The smaller move belongs to the company with the harder evidence. Marvell ran roughly three times its own sector on below-average volume, which is positioning ahead of Thursday. Nvidia ran on the heaviest volume of the twelve. Volume is the part of that contrast worth keeping."
+ },
+ "nothing_material": {
+  "tickers": [
+   "AAPL",
+   "AMZN",
+   "MSFT",
+   "GOOGL",
+   "INTC"
+  ],
+  "note": {
+   "title": "What was quiet, what did not survive dating, and one gap in this edition",
+   "body": "<b>Nothing material.</b> <b>MSFT +0.90%</b>, <b>INTC +0.25%</b>, <b>AAPL -0.14%</b>, <b>GOOGL -0.32%</b> and <b>AMZN -0.39%</b> had no company announcement dated <b>25 August</b>. Their moves are the yield reversal described above. One routine filing: Amazon chief executive Andy Jassy sold <b>20,000</b> shares on <b>21 August</b> at an average <b>$259.01</b>, about <b>$5.18m</b>, under a Rule 10b5-1 plan adopted in advance. It was disclosed on <b>25 August</b> and is neutral.<br><br><b>Excluded as old.</b> Three items were prominent on the tape and are not news from the past 24 hours. Palantir's <b>$875m</b> FAA loss dates to the award to Air Space Intelligence on <b>22 June</b>. The Intel and Apple chip-making talks were reported by the Wall Street Journal in <b>May</b> and described by President Trump on <b>18 June</b>; neither company has confirmed the scope. Alphabet's <b>$84.75bn</b> equity raise priced on <b>2 June</b> and its <b>$25bn</b> bond sale came on <b>6 August</b>. Marvell's Google warrant was <b>19 August</b> and Nebius's convertible pricing was <b>19 August</b>, both already covered here.<br><br><b>One gap, stated plainly.</b> Premarket data was available this morning for eleven of the twelve, quoted to about <b>07:05 ET</b>. Robinhood's extended-hours quote came back stamped late on Tuesday rather than this morning, so it has been left null rather than passed off as a premarket read. Separately, <b>sec.gov remains blocked by this environment</b>, so the Jassy Form 4 and the Groq 3 LPX release are taken from coverage and company statements rather than read from the primary source directly."
+  }
+ },
+ "earnings_ahead": [
+  {
+   "when": "26 Aug",
+   "what": "<b>Macro</b> July core PCE at 08:30 ET. Consensus <b>3.2%</b> to <b>3.3%</b> year on year, after <b>3.3%</b> in June"
+  },
+  {
+   "when": "26 Aug",
+   "what": "<b>NVDA</b> Q2 FY27 after the close. Guidance <b>$91.0bn</b> plus or minus 2%, consensus near <b>$92bn</b>"
+  },
+  {
+   "when": "27 Aug",
+   "what": "<b>MRVL</b> Q2 FY27 after the close. Guidance <b>$2.70bn</b> plus or minus 5%, EPS <b>$0.93</b> plus or minus <b>$0.05</b>"
+  },
+  {
+   "when": "28 Aug",
+   "what": "<b>Macro</b> Fed chair Kevin Warsh speaks at Jackson Hole"
+  },
+  {
+   "when": "1 Sep",
+   "what": "<b>AAPL</b> John Ternus becomes chief executive, Tim Cook becomes executive chairman"
+  },
+  {
+   "when": "8 Sep",
+   "what": "<b>Macro</b> Canada's matching tariffs on US goods are due to start"
+  },
+  {
+   "when": "17 Sep",
+   "what": "<b>Macro</b> FOMC decision, 17 to 18 September"
+  },
+  {
+   "when": "25 Sep",
+   "what": "<b>TSLA</b> the China door-handle remedy programme begins"
+  },
+  {
+   "when": "1 Jan 2027",
+   "what": "<b>TSLA</b> China's GB 48001-2026 bans fully hidden door handles"
+  }
+ ],
+ "data": {
+  "session": "2026-08-25",
+  "source": "twelvedata quote endpoint, prepost=true",
+  "fetched": "2026-08-26T11:09Z",
+  "tickers": {
+   "AAPL": {
+    "close": 309.89999,
+    "pct": -0.14178077,
+    "open": 310.935,
+    "high": 313.57999,
+    "low": 308.20999,
+    "volume": 25666176,
+    "avg_volume": 40051168,
+    "high_52w": 344.57001,
+    "premarket_pct": -0.1291
+   },
+   "AMZN": {
+    "close": 261.059998,
+    "pct": -0.38539693,
+    "open": 262.60001,
+    "high": 263.87189,
+    "low": 259.82999,
+    "volume": 25452240,
+    "avg_volume": 31981304,
+    "high_52w": 287.20001,
+    "premarket_pct": 0.1685
+   },
+   "TSLA": {
+    "close": 350.25,
+    "pct": 0.3725427,
+    "open": 349.63,
+    "high": 357.0,
+    "low": 349.20029,
+    "volume": 29715710,
+    "avg_volume": 35850791,
+    "high_52w": 498.82999,
+    "premarket_pct": -0.0457
+   },
+   "PLTR": {
+    "close": 172.73,
+    "pct": -1.79658,
+    "open": 176.655,
+    "high": 179.87,
+    "low": 172.20039,
+    "volume": 24473108,
+    "avg_volume": 31228611,
+    "high_52w": 207.52,
+    "premarket_pct": -1.291
+   },
+   "MSFT": {
+    "close": 491.70999,
+    "pct": 0.90291476,
+    "open": 485.565,
+    "high": 492.435,
+    "low": 484.29999,
+    "volume": 19144017,
+    "avg_volume": 22084982,
+    "high_52w": 553.71997,
+    "premarket_pct": -0.7545
+   },
+   "GOOGL": {
+    "close": 346.95999,
+    "pct": -0.31603922,
+    "open": 349.375,
+    "high": 350.16,
+    "low": 345.60999,
+    "volume": 20600170,
+    "avg_volume": 20431917,
+    "high_52w": 408.60999,
+    "premarket_pct": 0.0115
+   },
+   "HOOD": {
+    "close": 112.089996,
+    "pct": 8.17409,
+    "open": 103.22,
+    "high": 112.45,
+    "low": 102.8,
+    "volume": 24546627,
+    "avg_volume": 21715673,
+    "high_52w": 153.86,
+    "premarket_pct": null
+   },
+   "NVDA": {
+    "close": 213.050003,
+    "pct": 2.19206,
+    "open": 211.024994,
+    "high": 214.7291,
+    "low": 210.11,
+    "volume": 120441439,
+    "avg_volume": 102389094,
+    "high_52w": 236.53999,
+    "premarket_pct": 0.3755
+   },
+   "INTC": {
+    "close": 87.48,
+    "pct": 0.25212149,
+    "open": 89.9,
+    "high": 90.18,
+    "low": 87.29,
+    "volume": 81194224,
+    "avg_volume": 105094912,
+    "high_52w": 142.35001,
+    "premarket_pct": 0.4915
+   },
+   "NBIS": {
+    "close": 221.97,
+    "pct": 5.24394,
+    "open": 217.96001,
+    "high": 223.44,
+    "low": 213.55,
+    "volume": 13455173,
+    "avg_volume": 30084217,
+    "high_52w": 299.85999,
+    "premarket_pct": -0.8875
+   },
+   "MRVL": {
+    "close": 240.38,
+    "pct": 4.83667,
+    "open": 237.355,
+    "high": 246.69501,
+    "low": 235.92999,
+    "volume": 20064201,
+    "avg_volume": 24347230,
+    "high_52w": 329.88,
+    "premarket_pct": 0.6739
+   },
+   "META": {
+    "close": 570.049988,
+    "pct": 1.97309,
+    "open": 563.75,
+    "high": 570.79999,
+    "low": 561.40009,
+    "volume": 9719248,
+    "avg_volume": 14783135,
+    "high_52w": 790.79999,
+    "premarket_pct": 1.4648
+   }
+  }
+ }
+}
