@@ -59,6 +59,20 @@ METRICS = (
     ("gap", "gap", -1),
     ("discount", "gap", -1),
     ("premarket", "premarket_pct", +1),
+    # Extended hours is two different sessions and the feed serves whichever
+    # one is current. On a morning the premarket tape has not opened, the
+    # only extended print is the previous evening's, and a claim about it
+    # must not be checked against the regular session's column. The
+    # compound phrases come first only because the longest match wins:
+    # "after-hours fall" has to beat both "after-hours" and "fall".
+    ("after-hours fall", "afterhours_pct", -1),
+    ("after-hours decline", "afterhours_pct", -1),
+    ("after-hours drop", "afterhours_pct", -1),
+    ("after-hours loss", "afterhours_pct", -1),
+    ("after-hours gain", "afterhours_pct", +1),
+    ("after-hours rise", "afterhours_pct", +1),
+    ("after-hours move", "afterhours_pct", +1),
+    ("after-hours", "afterhours_pct", +1),
     ("participation", "volratio", +1),
     ("volume", "volratio", +1),
     ("fall", "pct", -1),
@@ -81,6 +95,7 @@ def columns(data):
             "gap": v["close"] / v["high_52w"] * 100 - 100,
             "volratio": v["volume"] / v["avg_volume"] * 100 - 100,
             "premarket_pct": pre,
+            "afterhours_pct": v.get("afterhours_pct"),
         }
     return out
 

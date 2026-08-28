@@ -25,8 +25,17 @@ table, from the output.
 ## Every edition carries its evidence
 
 Each edition JSON has a `data` block: per-ticker `close`, `pct`, `open`,
-`high`, `low`, `volume`, `avg_volume`, `high_52w`, `premarket_pct`, plus
-the session date and the source. It is the morning's fetch, preserved.
+`high`, `low`, `volume`, `avg_volume`, `high_52w`, `premarket_pct`,
+`afterhours_pct`, plus the session date and the source. It is the
+morning's fetch, preserved.
+
+The last two are the same feed at different hours and only one of them is
+ever populated. Twelve Data's `extended_*` fields carry whichever extended
+session is current, so read the `extended_timestamp` before deciding which
+column the number belongs in. On 2026-08-28 the feed served 19:59 ET the
+previous evening for all twelve tickers, so there was no premarket read at
+all that morning. Record the null rather than filing an evening print as a
+premarket one.
 
 Populate it from the same fetch used to write the prose. Never hand-type
 it, and never copy figures from press coverage into it: the point of the
