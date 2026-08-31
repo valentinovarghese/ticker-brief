@@ -1,0 +1,484 @@
+{
+ "date": "2026-08-31",
+ "weekday": "Mon",
+ "headline": "MRVL fell 10.28% on Friday, the largest fall of the twelve, after its raised $18bn target proved smaller than the raise already in the price.",
+ "gauge": [
+  {
+   "text": "QQQ -0.65% Friday close",
+   "tone": "down"
+  },
+  {
+   "text": "updated 07:00 ET &middot; before the open",
+   "tone": "flat"
+  },
+  {
+   "text": "12 tickers &middot; session of Friday 28 August",
+   "tone": "flat"
+  },
+  {
+   "text": "after-hours to 19:59 ET for eight &middot; no premarket feed",
+   "tone": "flat"
+  }
+ ],
+ "quick": [
+  "<b>Marvell's after-hours fall became a rout.</b> Marvell closed <b>-10.28%</b>, the largest fall of the twelve. Marvell traded <b>167%</b> of average volume, the heaviest volume of the twelve. Thursday's raise took the fiscal 2028 revenue target to about <b>$18bn</b> from <b>$16.5bn</b>, but the shares had already run about <b>178%</b> this year, and the Google money does not arrive in force until fiscal 2029.",
+  "<b>The Fed chair opened the door to a rate rise, and the list split down the middle.</b> Kevin Warsh told Jackson Hole on Friday that inflation is still too high and that the Fed may have work to do. Futures moved the odds of a September increase from about a third to roughly even. Six of these twelve rose and six fell, and the dividing line was not size or valuation. It was who pays for the AI build.",
+  "<b>Robinhood lost 5.01% on a court ruling, the second-largest fall of the twelve.</b> The Ninth Circuit held on Friday that states may regulate prediction markets as gambling, and refused Robinhood's request for relief. A Third Circuit ruling in April said the opposite, so the Supreme Court is likely to settle it."
+ ],
+ "macro": [
+  {
+   "dt": "<b>Fed chair Kevin Warsh told the Jackson Hole symposium on Friday 28 August that inflation remains too high and that the Fed may have work to do on rates.</b> Futures tracked by CME moved the probability of an increase at the 15 to 16 September meeting from about a third to roughly even",
+   "lead": "A rate rise is now a live case, and it reaches the AI build before it reaches the index",
+   "dd": "Higher rates do two separate things to this list. They shrink the present value of profits expected years out, which weighs on the richest valuations. They also raise the cost of the debt and convertible paper that funds data centres, which weighs on the companies borrowing to build them. On Friday the second effect dominated. Nebius, which closed a <b>$5.75bn</b> convertible on 24 August, fell <b>4.26%</b>. Nvidia fell <b>4.57%</b>. The megacaps that fund capacity from operating cash rose."
+  },
+  {
+   "dt": "<b>QQQ fell 0.65% on Friday, a mild close for a hawkish surprise.</b> The Nasdaq Composite fell <b>0.52%</b> to 26,402.42 and the S&amp;P 500 fell <b>0.25%</b> to 7,711.76. All three main indexes still finished the week higher",
+   "lead": "The gauge contradicts the macro read, and the split underneath explains why",
+   "dd": "A rate-hike warning should hit the richest valuations hardest. It did not. Amazon, Alphabet, Microsoft, Apple and Meta all rose, and Palantir held. The six that fell were the AI hardware and financing names plus Robinhood, which had its own court ruling. So Friday was a rotation about who funds the build, not a general de-rating of technology. Read a quiet QQQ as two large opposite moves cancelling, not as a calm session."
+  }
+ ],
+ "entries": [
+  {
+   "ticker": "MRVL",
+   "dir": "bearish",
+   "strength": "major",
+   "strength_label": "Major move &middot; company &middot; the settled reaction",
+   "move": "-10.28% Friday close, settled &middot; -0.11% after hours",
+   "move_tone": "down",
+   "happened": "Friday was the market's full verdict on Thursday evening's results. Marvell beat on revenue and earnings and raised both forward years, and the shares fell anyway.",
+   "figures": [
+    "Close <b>$216.62</b>, down <b>10.28%</b>, the largest fall of the twelve",
+    "Volume <b>48.86m</b> shares against a <b>29.29m</b> average, <b>167%</b> of normal and the heaviest volume of the twelve",
+    "Fiscal 2028 revenue target about <b>$18bn</b>, raised <b>$1.5bn</b> from the <b>$16.5bn</b> set a quarter ago, roughly <b>50%</b> growth",
+    "Third-quarter guidance <b>$3.15bn</b> plus or minus 5%, against about <b>$3.03bn</b> expected",
+    "The Google warrant issued <b>19 August</b> covers <b>58.97m</b> shares at <b>$206.58</b>, about <b>$12.2bn</b>, vesting in 240 tranches toward a <b>$120bn</b> ceiling through fiscal 2033",
+    "Management has said the larger Google contribution arrives in fiscal <b>2029</b>, and that revenue covered by the agreement through fiscal 2028 was already inside the old forecast",
+    "Marvell now sits <b>34.33%</b> below its 52-week high of <b>$329.88</b>, the second-widest gap to its 52-week high of the twelve"
+   ],
+   "why": "What matters is not the raise, it is the distance between the raise and the expectation. Investors had already marked fiscal 2028 up when the Google agreement surfaced in August, so adding <b>$1.5bn</b> confirmed less than the price had assumed. What repriced was the premium, not the business. The second problem is timing. Revenue already under contract through fiscal 2028 sat in the old forecast, and the incremental Google money starts a year later. A year of waiting is a year of discounting, and investors pay less per dollar of earnings for growth that arrives later.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "This is a settled close, not a premarket guess, and it is the cleanest read in the edition. Thursday evening's print was <b>-7.64%</b> and the regular session took it to <b>-10.28%</b>, on <b>167%</b> of average volume. A deeper fall on full liquidity means the overnight reaction understated the damage rather than overshooting it. Friday evening added nothing more, at <b>-0.11%</b>.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "Marvell puts a number on fiscal 2029 custom silicon at its 6 October investor day and it clears <b>$10bn</b>. That moves the argument back from timing to size.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "6 October, investor day. Third-quarter results follow in early December.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "HOOD",
+   "dir": "bearish",
+   "strength": "major",
+   "strength_label": "Major move &middot; company &middot; a legal ruling with no dollar figure",
+   "move": "-5.01% Friday close, settled &middot; -0.25% after hours",
+   "move_tone": "down",
+   "happened": "The Ninth Circuit ruled on Friday that Kalshi's sports event contracts are gambling rather than swaps, and that states may regulate prediction market platforms. It refused Robinhood's request for injunctive relief.",
+   "figures": [
+    "Close <b>$104.26</b>, down <b>5.01%</b>, the second-largest fall of the twelve",
+    "The court held that the sports event contracts were not swaps because they were sports bets, and that the substance of the product is sports gambling whatever it is called",
+    "It rejected appeals by Kalshi and Crypto.com against Nevada halting their operations, and denied Robinhood injunctive relief",
+    "The Third Circuit ruled in April 2026 that event contracts are swaps under CFTC oversight. The split between circuits points to the Supreme Court",
+    "Robinhood traded on <b>75%</b> of average volume and sits <b>32.24%</b> below its 52-week high"
+   ],
+   "why": "The ruling attacks the structure of a new revenue line rather than its current size. Under one federal regulator, prediction markets scale nationally at low marginal cost. Under state gambling regimes they need licences one state at a time, and some states can bar them outright. That turns a fast, cheap national rollout into a slow and expensive patchwork, and it caps how large the business can get. Investors have been paying a higher multiple for a third engine beside equities and crypto trading. Friday cut the odds that engine ever runs at full size.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Partly, and the window is clean. The ruling landed during Friday's session and the stock fell <b>5.01%</b> into a settled close. But that prices a legal risk, not an outcome. No dollar figure exists yet, because Robinhood has never broken out prediction-market revenue, so the market is guessing at the size of what it just marked down. Friday evening's <b>-0.25%</b> adds nothing.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "The Supreme Court takes the case and stays the Ninth Circuit ruling, or Robinhood discloses that prediction markets are immaterial to revenue.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "No date is set. Watch for a petition to the Supreme Court, and for third-quarter results in late October.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "NVDA",
+   "dir": "bearish",
+   "strength": "major",
+   "strength_label": "Major move &middot; sector, not company &middot; giving back Thursday",
+   "move": "-4.57% Friday close, settled",
+   "move_tone": "down",
+   "happened": "Nvidia fell 4.57% with no filing, contract or company announcement dated 28 August. It had risen 8.74% on Thursday after results.",
+   "figures": [
+    "Close <b>$217.55</b>, down <b>4.57%</b>, the third-largest fall of the twelve",
+    "Volume <b>137%</b> of average, heavy for a session with no company news",
+    "Thursday's gain was <b>8.74%</b>. Across the two days Nvidia is up <b>3.77%</b>, so Friday gave back about <b>57%</b> of the earnings move",
+    "Nvidia is <b>8.03%</b> below its 52-week high",
+    "The paused revenue-share programme reported by the Wall Street Journal is dated <b>27 August</b> and is not Friday news"
+   ],
+   "why": "Nothing in the business changed on Friday, so read this as positions being trimmed into a hawkish Fed rather than a verdict on the quarter. The useful detail is which stocks the selling found. Nvidia, Marvell, Intel and Nebius fell while the megacaps that buy their chips rose. That pattern prices a slower or costlier build, not weaker demand now. Nvidia's own quarter argued against that and the shares fell regardless, which says the market is pricing the funding rather than the orders.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "There is no company news to price. This is a settled close and a sector move, and it reads better against Thursday's <b>8.74%</b> gain than on its own. Volume at <b>137%</b> of average says real selling rather than drift. Nvidia's extended print came back stamped <b>11:00 ET Saturday</b>, which is not a trading time, so there is no usable after-hours read.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "Nvidia restores the revenue-share financing, or a hyperscaler raises capital spending guidance and shows the build is not rate-constrained.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Broadcom's results on 3 September are the near-term read on custom AI silicon demand.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "NBIS",
+   "dir": "bearish",
+   "strength": "major",
+   "strength_label": "Major move &middot; sector, not company &middot; the borrower in a hawkish week",
+   "move": "-4.26% Friday close, settled &middot; -0.18% after hours",
+   "move_tone": "down",
+   "happened": "Nebius fell 4.26% with no filing, contract or company announcement dated 28 August.",
+   "figures": [
+    "Close <b>$209.18</b>, down <b>4.26%</b>",
+    "Volume <b>62%</b> of average, the lightest volume of the twelve",
+    "The <b>$5.75bn</b> convertible closed <b>24 August</b>: <b>$3.45bn</b> of 0.50% notes due 2030 and <b>$2.3bn</b> of 4.50% notes due 2034",
+    "Nebius sits <b>30.24%</b> below its 52-week high"
+   ],
+   "why": "Nebius sits at the sharp end of a rate move, because it funds data centres with borrowed money rather than with cash from operations. The 2034 notes already carry a 4.50% coupon. A Fed that raises rather than cuts lifts the cost of the next tranche and lowers what buyers will pay for the conversion option, which is how a rented cost of capital turns into an equity problem. Nothing about the business changed on Friday. What changed is the price of the fuel.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Partly, but on thin evidence. This is a settled close, yet Nebius traded <b>62%</b> of average volume, the lightest volume of the twelve. A large fall on light participation is a few sellers moving an empty book, not a considered repricing. Treat the size of the move as weak information and the direction as the signal.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "Nebius announces a contract that covers the 2034 coupon out of committed revenue rather than out of future fundraising.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Third-quarter results expected around 10 November. The FOMC decision on 16 September matters more.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "AMZN",
+   "dir": "bullish",
+   "strength": "major",
+   "strength_label": "Major move &middot; no qualifying company event",
+   "move": "+3.97% Friday close, settled",
+   "move_tone": "up",
+   "happened": "Amazon rose 3.97%, the largest gain of the twelve, with no filing, contract or company announcement dated 28 August.",
+   "figures": [
+    "Close <b>$266.43</b>, up <b>3.97%</b> from <b>$256.26</b> on Thursday",
+    "Volume <b>147%</b> of average",
+    "The only item dated 28 August was a broker raising its target price. This brief excludes price targets, and a target change is not a company event",
+    "Amazon is <b>7.23%</b> below its 52-week high"
+   ],
+   "why": "A 4% day in a company this size with no announcement is worth naming as such, because the alternative is inventing a cause. The honest read is rotation. Money left the companies that must borrow to build AI capacity and moved into the ones that fund it from operating cash, and Amazon funds its build from operating cash. If borrowing gets dearer, capacity paid for out of the till is worth more relative to capacity paid for with debt. That is a genuine repricing even with nothing announced.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "There is nothing company-specific to price. This is a settled close on <b>147%</b> of average volume, so the buying was real, but it was a rotation rather than a reaction to Amazon news. Amazon's extended print came back stamped <b>11:00 ET Saturday</b>, which is not a trading time, so there is no usable after-hours read.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "Amazon raises capital spending in a way that shifts it from cash-funded to debt-funded building. The rotation that helped it on Friday would then work against it.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Third-quarter results in late October. No company date falls before then.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "INTC",
+   "dir": "bearish",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; sector Friday, a weekend report since",
+   "move": "-2.85% Friday close, settled",
+   "move_tone": "down",
+   "happened": "Intel fell 2.85% on Friday with the rest of the semiconductor complex. Over the weekend Korea's Herald Economy reported that SK Hynix is weighing Intel Foundry for HBM4E base dies.",
+   "figures": [
+    "Close <b>$89.47</b>, down <b>2.85%</b>, on <b>92%</b> of average volume",
+    "Intel sits <b>37.15%</b> below its 52-week high, the widest gap to its 52-week high of the twelve",
+    "The Herald Economy report is dated <b>30 August</b>. SK Hynix has said parts of the story are inaccurate, without saying which parts",
+    "No dollar value, wafer volume or start date has been attached to any arrangement",
+    "SK Hynix uses TSMC's 12nm-class process for HBM4 base dies today. Industry estimates put that die at three to four times the cost of the core memory die"
+   ],
+   "why": "Intel's foundry arm is valued on whether an outside customer of consequence actually commits. The fabs are built and the losses are already being taken, so each new customer lands on a fixed cost base and the margin effect is large. Memory base dies would be a credible fit rather than a stretch, and they are a high-cost part SK Hynix has reason to second-source. But a newspaper report that the supposed customer partly denies is not a commitment. It carries no volume, no price and no date, so it changes the odds and not the forecast.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "No, and the windows do not line up. Friday's <b>2.85%</b> fall was a semiconductor move and it happened before the SK Hynix report existed. The report landed on Sunday, when nothing trades, so Monday's open is the first chance to price it. Intel's extended print came back stamped <b>11:00 ET Saturday</b> and tells you nothing.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "Either company confirms an agreement with a volume or a start date, or SK Hynix issues a full denial rather than a partial one.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Third-quarter results expected 22 October.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "TSLA",
+   "dir": "bearish",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; no company event",
+   "move": "-1.71% Friday close, settled",
+   "move_tone": "down",
+   "happened": "Tesla fell 1.71% with no filing, contract or company announcement dated 28 August.",
+   "figures": [
+    "Close <b>$348.75</b>, down <b>1.71%</b>, on <b>96%</b> of average volume",
+    "Tesla is <b>30.09%</b> below its 52-week high",
+    "The dated items in the past 24 hours were commentary on Full Self-Driving safety and robotaxi expansion, which this brief excludes"
+   ],
+   "why": "Tesla was the one faller with neither a company event nor a clear link to the AI funding trade. On a day when rate expectations moved, a large purchase usually bought on credit is a straightforward loser: higher rates raise the monthly payment and thin the pool of buyers who qualify. That is a defensible reading, and it is still a reading rather than a fact. Volume slightly below average argues for drift rather than a decision.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "There is nothing company-specific to price. This is a settled close on below-average volume, which is weak evidence either way. Tesla's extended print came back stamped <b>11:00 ET Saturday</b>, which is not a trading time, so there is no usable after-hours read.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "Tesla changes US prices or financing terms, which would show the rate environment reaching demand rather than only sentiment.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Third-quarter deliveries in the first days of October. The China door-handle remedy programme begins 25 September.",
+     "flag": false
+    }
+   ]
+  }
+ ],
+ "readthrough": {
+  "title": "The market bought the companies that fund AI from cash and sold the ones that borrow to build it.",
+  "body": "<b>The split was not about valuation.</b> A hawkish Fed is supposed to punish the dearest shares first. Instead Amazon, Alphabet, Microsoft, Apple and Meta rose, and Palantir held. Nvidia, Marvell, Intel and Nebius fell. Those two groups are the customers and the suppliers of the same construction project.<br><br><b>The read-through runs one way.</b> If rates rise, the next data centre costs more to finance. The hyperscalers absorb that out of operating cash and keep spending. The chip suppliers and the neoclouds wear the timing risk, because their revenue depends on somebody else's borrowing decision. Nebius is the sharp end: it closed a <b>$5.75bn</b> convertible on 24 August and fell <b>4.26%</b> on Friday with no news of its own.<br><br><b>The asymmetry worth keeping.</b> Nvidia reported a record quarter on Wednesday and still fell <b>4.57%</b> on Friday. Marvell raised its fiscal 2028 target by <b>$1.5bn</b> and fell <b>10.28%</b>. In both cases the results were good and the shares fell, which means the market is not arguing with demand today. It is arguing about who pays for the next three years of it, and at what rate of interest."
+ },
+ "nothing_material": {
+  "tickers": [
+   "AAPL",
+   "MSFT",
+   "GOOGL",
+   "META",
+   "PLTR"
+  ],
+  "note": {
+   "title": "What was quiet, what did not survive dating, and the gaps in this edition",
+   "body": "<b>Nothing material.</b> <b>AAPL +1.63%</b>, <b>MSFT +1.68%</b>, <b>GOOGL +1.74%</b>, <b>META +1.21%</b> and <b>PLTR +0.19%</b> had no filing, contract or company announcement dated 28 August. All five rose, which is the rotation described above rather than five separate stories. Apple's chief executive handover to John Ternus takes effect on 1 September and its launch event is 9 September, both confirmed on 26 August and covered here already.<br><br><b>Earnings.</b> None of the twelve reports within fourteen days. The next scheduled result is Intel, expected 22 October.<br><br><b>Excluded as old.</b> Meta's child-safety settlement of up to <b>$16.68bn</b> was agreed <b>26 August</b> and covered here on 27 and 28 August. Nvidia's paused revenue-share programme was reported <b>27 August</b>. Nebius's <b>$5.75bn</b> convertible closed <b>24 August</b>, and its director share sales were filed <b>18 August</b> for trades dated 14 August. Marvell's Google warrant was issued <b>19 August</b>. A report that Iran struck an AWS facility in Bahrain recirculated this weekend with a fresh timestamp: the underlying item is dated <b>3 April 2026</b> and is not news.<br><br><b>Correction.</b> Friday's edition gave the September FOMC meeting as 17 to 18 September. It is <b>15 to 16 September</b>, with the decision on Wednesday 16 September.<br><br><b>Gaps in the data.</b> The extended-hours feed served no premarket prices this morning, so every price in this edition is Friday's settled close. Eight tickers carried a genuine after-hours print stamped <b>19:59 ET Friday</b>. For <b>AMZN</b>, <b>TSLA</b>, <b>NVDA</b> and <b>INTC</b> the feed returned a stamp of <b>11:00 ET Saturday</b>, which is not a trading time, so those after-hours figures are recorded as null rather than guessed. sec.gov remains blocked from this environment, so filings are attributed to coverage rather than read directly."
+  }
+ },
+ "earnings_ahead": [
+  {
+   "when": "1 Sep",
+   "what": "<b>AAPL</b> John Ternus becomes chief executive, Tim Cook becomes executive chairman"
+  },
+  {
+   "when": "3 Sep",
+   "what": "<b>Macro</b> Broadcom third-quarter results. The near-term read on custom AI silicon, so it matters for MRVL and NVDA"
+  },
+  {
+   "when": "4 Sep",
+   "what": "<b>Macro</b> August employment report, 08:30 ET. The last jobs print before the FOMC"
+  },
+  {
+   "when": "8 Sep",
+   "what": "<b>Macro</b> Canada's matching tariffs on US goods are due to start"
+  },
+  {
+   "when": "9 Sep",
+   "what": "<b>AAPL</b> launch event, Steve Jobs Theater, 10:00 PT"
+  },
+  {
+   "when": "16 Sep",
+   "what": "<b>Macro</b> FOMC decision, meeting 15 to 16 September. An increase is priced near even"
+  },
+  {
+   "when": "25 Sep",
+   "what": "<b>TSLA</b> the China door-handle remedy programme begins"
+  },
+  {
+   "when": "6 Oct",
+   "what": "<b>MRVL</b> investor day. Sizing fiscal 2029 custom silicon is the question"
+  },
+  {
+   "when": "22 Oct",
+   "what": "<b>INTC</b> third-quarter results expected"
+  }
+ ],
+ "data": {
+  "session": "2026-08-28",
+  "source": "twelvedata quote endpoint, prepost=true. Extended field returned 19:59 ET Friday after-hours for AAPL, PLTR, MSFT, GOOGL, HOOD, NBIS, MRVL and META. For AMZN, TSLA, NVDA and INTC it returned a stamp of 11:00 ET Saturday, which is not a trading time, so those are recorded null. No premarket prices were served for any ticker.",
+  "fetched": "2026-08-31T11:10Z",
+  "tickers": {
+   "AAPL": {
+    "close": 319.70001,
+    "pct": 1.62758,
+    "open": 316.85001,
+    "high": 322.37,
+    "low": 315.45001,
+    "volume": 38609800.0,
+    "avg_volume": 39553230.0,
+    "high_52w": 344.57001,
+    "premarket_pct": null,
+    "afterhours_pct": 0.093834151
+   },
+   "AMZN": {
+    "close": 266.42999,
+    "pct": 3.96862,
+    "open": 258.32001,
+    "high": 267.56,
+    "low": 257.78,
+    "volume": 49475500.0,
+    "avg_volume": 33747970.0,
+    "high_52w": 287.20001,
+    "premarket_pct": null,
+    "afterhours_pct": null
+   },
+   "TSLA": {
+    "close": 348.75,
+    "pct": -1.70796,
+    "open": 357.10001,
+    "high": 358.79999,
+    "low": 345.20001,
+    "volume": 32913300.0,
+    "avg_volume": 34138710.0,
+    "high_52w": 498.82999,
+    "premarket_pct": null,
+    "afterhours_pct": null
+   },
+   "PLTR": {
+    "close": 186.28999,
+    "pct": 0.19362159,
+    "open": 184.95,
+    "high": 188.37,
+    "low": 184.38,
+    "volume": 24995400.0,
+    "avg_volume": 31023310.0,
+    "high_52w": 207.52,
+    "premarket_pct": null,
+    "afterhours_pct": -0.17177159
+   },
+   "MSFT": {
+    "close": 513.53003,
+    "pct": 1.67703,
+    "open": 505.32999,
+    "high": 517.78003,
+    "low": 504.87,
+    "volume": 29178300.0,
+    "avg_volume": 23159270.0,
+    "high_52w": 553.71997,
+    "premarket_pct": null,
+    "afterhours_pct": -0.095423689
+   },
+   "GOOGL": {
+    "close": 346.59,
+    "pct": 1.74373,
+    "open": 340.70999,
+    "high": 349.14001,
+    "low": 340.26999,
+    "volume": 25317400.0,
+    "avg_volume": 21281110.0,
+    "high_52w": 408.60999,
+    "premarket_pct": null,
+    "afterhours_pct": -0.15003213
+   },
+   "HOOD": {
+    "close": 104.26,
+    "pct": -5.010933,
+    "open": 108.655,
+    "high": 110.5,
+    "low": 104.15,
+    "volume": 16236400.0,
+    "avg_volume": 21660350.0,
+    "high_52w": 153.86,
+    "premarket_pct": null,
+    "afterhours_pct": -0.2493786
+   },
+   "NVDA": {
+    "close": 217.55,
+    "pct": -4.57496,
+    "open": 227.36,
+    "high": 229.25999,
+    "low": 216.81,
+    "volume": 194586600.0,
+    "avg_volume": 141582320.0,
+    "high_52w": 236.53999,
+    "premarket_pct": null,
+    "afterhours_pct": null
+   },
+   "INTC": {
+    "close": 89.47,
+    "pct": -2.84504,
+    "open": 90.27,
+    "high": 93.7,
+    "low": 89.050003,
+    "volume": 86001600.0,
+    "avg_volume": 93924810.0,
+    "high_52w": 142.35001,
+    "premarket_pct": null,
+    "afterhours_pct": null
+   },
+   "NBIS": {
+    "close": 209.17999,
+    "pct": -4.25668,
+    "open": 211.96001,
+    "high": 214.28,
+    "low": 205.48,
+    "volume": 13088800.0,
+    "avg_volume": 21185270.0,
+    "high_52w": 299.85999,
+    "premarket_pct": null,
+    "afterhours_pct": -0.18165823
+   },
+   "MRVL": {
+    "close": 216.62,
+    "pct": -10.2837,
+    "open": 225.25999,
+    "high": 228.88,
+    "low": 215.55,
+    "volume": 48858000.0,
+    "avg_volume": 29285720.0,
+    "high_52w": 329.88,
+    "premarket_pct": null,
+    "afterhours_pct": -0.10617446
+   },
+   "META": {
+    "close": 578.02002,
+    "pct": 1.2117,
+    "open": 571.54999,
+    "high": 589.19,
+    "low": 571.0,
+    "volume": 16018300.0,
+    "avg_volume": 17442810.0,
+    "high_52w": 790.79999,
+    "premarket_pct": null,
+    "afterhours_pct": -0.0034634668
+   }
+  }
+ }
+}
