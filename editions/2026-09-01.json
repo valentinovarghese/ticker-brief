@@ -1,0 +1,563 @@
+{
+ "date": "2026-09-01",
+ "weekday": "Tue",
+ "headline": "AMZN closed down 2.50%, the largest fall of the twelve, after the FTC and 22 states sued Amazon over more than $20bn in secret advertising surcharges.",
+ "gauge": [
+  {
+   "text": "QQQ +0.05% Monday close",
+   "tone": "flat"
+  },
+  {
+   "text": "QQQ -1.00% premarket",
+   "tone": "down"
+  },
+  {
+   "text": "updated 07:00 ET &middot; before the open",
+   "tone": "flat"
+  },
+  {
+   "text": "12 tickers &middot; session of Monday 31 August",
+   "tone": "flat"
+  },
+  {
+   "text": "premarket to 07:01 ET for all twelve",
+   "tone": "flat"
+  }
+ ],
+ "quick": [
+  "<b>The FTC and 22 states sued Amazon on Monday over its advertising auctions.</b> The complaint alleges Amazon secretly inflated prices and took more than <b>$20bn</b> from over <b>1.2m</b> advertisers. Amazon closed <b>-2.50%</b>, the largest fall of the twelve. But the shares were already down <b>2.01%</b> before the complaint landed at 14:00 ET, so the market charged about half a point for the lawsuit itself.",
+  "<b>Tesla rose 5.51% on nothing the company filed or said.</b> Tesla posted the largest gain of the twelve. Tesla also traded the heaviest volume of the twelve, at <b>162%</b> of average. The dated catalyst is an invitation-only Cybercab event in Austin on <b>3 September</b>. That is anticipation, not a disclosure, and premarket has already given back <b>1.07%</b>.",
+  "<b>Overnight the tape turned, and the reason is not on this list.</b> Two oil tankers were hit in the Strait of Hormuz on Monday night as US and Iranian hostilities resumed. Oil and bond yields rose, the US 10-year reached its highest since January 2025, and QQQ is <b>-1.00%</b> premarket. Eleven of these twelve are down before the open. Robinhood is the exception."
+ ],
+ "macro": [
+  {
+   "dt": "<b>Two oil tankers, one Saudi and one South Korean-owned, were hit by projectiles in the Strait of Hormuz on Monday night 31 August, as US and Iranian hostilities resumed.</b> Oil rose and bond yields rose with it. The US 10-year Treasury yield reached a level last seen in January 2025",
+   "lead": "An oil shock reaches these twelve through the bond market, not through the petrol pump",
+   "dd": "None of these companies buys much oil. The transmission is the discount rate. Dearer energy raises expected inflation, expected inflation lifts long yields, and a higher long yield shrinks the present value of profits expected years out. That is a bigger deduction for a company earning the bulk of its value in 2032 than for one earning it in 2027. It compounds the Jackson Hole problem from Friday, when the Fed chair said a September increase was live. Rates and oil are now pushing the same way."
+  },
+  {
+   "dt": "<b>QQQ closed at 716.76 on Monday, up 0.05%, and is 709.57 in premarket, down 1.00%.</b> The S&amp;P 500 tracker fell <b>0.30%</b> on Monday and is <b>-0.46%</b> premarket. Monday was the last session of a month all three main indexes finished higher",
+   "lead": "The gauge and the news are on different clocks, so read them separately",
+   "dd": "Monday's flat QQQ is not evidence of calm. Underneath it Tesla rose <b>5.51%</b> and Amazon fell <b>2.50%</b>, which is a rotation cancelling itself out at the index level. The premarket number is the one carrying the macro, and it is provisional: premarket volume is thin and frequently reverses at the open. Do not treat this morning's <b>-1.00%</b> as a decision. The open will settle it."
+  }
+ ],
+ "entries": [
+  {
+   "ticker": "AMZN",
+   "dir": "bearish",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; company &middot; the fall preceded the news",
+   "move": "-2.50% Monday close, settled &middot; -0.87% premarket",
+   "move_tone": "down",
+   "happened": "The Federal Trade Commission and 22 state attorneys general sued Amazon on Monday, alleging it secretly inflated the prices advertisers paid in its own ad auctions.",
+   "figures": [
+    "Close <b>$259.77</b>, down <b>2.50%</b>, the largest fall of the twelve",
+    "Volume <b>45.42m</b> shares against a <b>33.91m</b> average, <b>134%</b> of normal and the third-heaviest volume of the twelve",
+    "The complaint alleges more than <b>$20bn</b> taken from over <b>1.2m</b> advertisers, and was filed in the US District Court for the Western District of Washington",
+    "Three products are named: Sponsored Products, Sponsored Brands and Sponsored Display. The FTC says Amazon began overriding its auction prices in <b>2018</b> and added an undisclosed floor it called a soft reserve price in <b>2019</b>",
+    "Regulators say pay-per-click prices rose by as much as <b>50%</b> during major shopping events. Reports differ on the period, describing it as five years or seven",
+    "Amazon's advertising revenue was <b>$19.8bn</b> in the June quarter, up <b>26%</b> on a year earlier, on about <b>$180bn</b> of group revenue. Some reports put that growth at 24%",
+    "Amazon called the suit misguided and said it strongly disagrees",
+    "Intraday: Amazon traded near <b>$261</b> until the 14:00 ET half-hour, then fell to <b>$257.14</b> on <b>5.85m</b> shares, roughly six times the volume of the preceding bar"
+   ],
+   "why": "Advertising is where Amazon's margin comes from, not where its revenue comes from. Retail is a low-margin business and ads are close to pure profit, which is why investors will pay more per dollar of Amazon's earnings than the retail operation alone would justify. The suit does not attack the size of that business, it attacks the mechanism that sets the price of a single ad. If auctions have to run transparently, the take per ad falls, and that lands on operating margin directly rather than showing up as lost sales. The second effect is slower and larger. A regulator now has discovery rights over how Amazon prices its highest-margin product, and what surfaces in that process tends to outlive the case itself.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "This is a settled close, and the sequence matters more than the total. From Friday's <b>$266.43</b>, Amazon had already fallen to <b>$261.07</b> by 13:30 ET, down <b>2.01%</b> on the AI capex mood rather than on any lawsuit. The complaint moved it to <b>$257.14</b>, down <b>3.49%</b> at the low, and it recovered into the close at <b>-2.50%</b>. Net, the market paid about half a percentage point for the case and faded a third of the shock the same afternoon. That is what a market pricing a long antitrust fight, not an earnings miss, looks like. Premarket adds <b>-0.87%</b> and is provisional.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "The FTC seeks disgorgement of the full <b>$20bn</b> rather than an injunction and future conduct rules. Damages that size are a one-off cash item and would be priced quite differently from a change to how auctions run.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Amazon's response is due in the Western District of Washington. Third-quarter results are expected <b>29 October</b>.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "TSLA",
+   "dir": "neutral",
+   "strength": "major",
+   "strength_label": "Major move &middot; no company event",
+   "move": "+5.51% Monday close, settled &middot; -1.07% premarket",
+   "move_tone": "up",
+   "happened": "Tesla rose 5.51% on Monday with no filing, contract or company announcement dated 31 August. The move tracked anticipation of an invitation-only Cybercab event in Austin on 3 September.",
+   "figures": [
+    "Close <b>$367.95</b>, up <b>5.51%</b>, the largest gain of the twelve",
+    "Volume <b>61.16m</b> shares against a <b>37.66m</b> average, <b>162%</b> of normal and the heaviest volume of the twelve",
+    "Tesla trades <b>26.24%</b> below its 52-week high of <b>$498.83</b>",
+    "The dated items in the past 24 hours were an Autopilot crash report and remarks about SpaceX building gas turbine parts in-house. Neither is a Tesla financial disclosure",
+    "Premarket <b>-1.07%</b>, returning about a fifth of Monday's gain"
+   ],
+   "why": "This is a sentiment move and should be read as one. Nothing changed on Monday in what Tesla sells, at what price, or at what cost. What changed is how many investors want to hold the shares into a scheduled demonstration. That distinction is the whole point, because a price that rises on positioning falls back on positioning: it has no earnings figure underneath it to defend the level. The Cybercab matters to Tesla's valuation because the robotaxi case is what justifies paying more for Tesla than for a carmaker. But a case is only worth something once it comes with a production date and a cost per vehicle, and Monday supplied neither.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "There is nothing company-specific to price. That is the finding, not a gap in the reporting. A settled close, the largest gain of the twelve, the heaviest volume of the twelve, and no disclosure to attach any of it to. Premarket has already returned <b>1.07%</b>, which is what a crowded position ahead of a date looks like when the tape turns.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "Tesla gives a production date and a unit cost for the Cybercab on 3 September. That converts an anticipation trade into a number people can model.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "<b>3 September</b>, Cybercab event, Austin. Third-quarter deliveries in the first days of October, results <b>21 October</b>.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "GOOGL",
+   "dir": "bearish",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; no company event &middot; sector",
+   "move": "-2.09% Monday close, settled &middot; -0.90% premarket",
+   "move_tone": "down",
+   "happened": "Alphabet fell 2.09% on heavy volume with no filing, contract or company announcement dated 31 August.",
+   "figures": [
+    "Close <b>$339.35</b>, down <b>2.09%</b>",
+    "Volume <b>33.32m</b> shares against a <b>22.79m</b> average, <b>146%</b> of normal and the second-heaviest volume of the twelve",
+    "Alphabet is guided to capital spending of roughly <b>$175bn</b> to <b>$185bn</b> in 2026",
+    "The dated item was press reporting that meaningful YouTube creator revenue from newer AI features is not expected in force until <b>2029</b>. That is coverage, not a company statement",
+    "Alphabet's <b>&pound;260m</b> UK Play Store settlement, which some outlets ran on Monday, was agreed <b>27 August</b> and is not news"
+   ],
+   "why": "Heavy volume with no company event is the signature of a sector decision rather than a company one, and the sector here is AI capital spending. Alphabet is the purest case on this list: it is spending at an annual rate close to its own operating profit, and the return arrives on someone else's schedule. When long yields rise, as they did on Monday, the market reprices exactly that gap between spending now and earning later. What moves is not the growth rate but how many years of it investors are willing to underwrite, which is the same thing as what they pay per dollar of earnings.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Settled close, and it moved without an event, which is the flag. On a session when QQQ finished flat at <b>+0.05%</b>, a <b>2.09%</b> fall on <b>146%</b> of average volume is a real decision by real size, not drift. The market is weighting the capex bill above the search and cloud results it liked a month ago.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "Alphabet caps or defers 2027 capital spending. A spending ceiling is the one thing that resolves the argument in the market's favour without needing the revenue to arrive first.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Third-quarter results <b>28 October</b>, where the 2027 capex frame is the number to watch.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "NVDA",
+   "dir": "bullish",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; company &middot; a customer Nvidia helped fund",
+   "move": "+1.48% Monday close, settled &middot; -1.27% premarket",
+   "move_tone": "up",
+   "happened": "Anthropic signed a six-year, $35bn cloud computing deal with Lambda, a provider Nvidia backs, reported on Monday by Bloomberg, Reuters and the Wall Street Journal.",
+   "figures": [
+    "Close <b>$220.78</b>, up <b>1.48%</b>, on <b>86%</b> of average volume",
+    "The Anthropic and Lambda agreement is <b>$35bn</b> over six years",
+    "Capacity sits in a Hut 8 data centre in Nueces County, Texas. Nvidia contracted with Hut 8 for that capacity several weeks earlier",
+    "Anthropic separately committed <b>$45bn</b> over six years to Nscale, also Nvidia-backed, earlier in August",
+    "Nvidia trades <b>6.66%</b> below its 52-week high, the narrowest gap to its 52-week high of the twelve",
+    "Neither Nvidia nor Anthropic is a direct counterparty to the other in this agreement. It was reported by news organisations, not announced by Nvidia"
+   ],
+   "why": "The figure people should watch is not the $35bn, it is who is standing behind the buyer. Nvidia's growth case rests on demand it does not have to finance. Each deal where an Nvidia-backed provider signs an Nvidia-supplied customer converts an Nvidia investment into Nvidia revenue, which is real cash but a weaker signal about the rest of the market. The practical consequence is to the multiple, not the earnings: investors discount revenue whose collectability depends on the seller's own balance sheet. That is why several outlets called the structure circular, and why a good headline number produced only a <b>1.48%</b> rise on below-average volume.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Settled close, and the evidence is weak in both directions. A <b>$35bn</b> compute commitment naming Nvidia silicon would normally do more than <b>1.48%</b>, and it did it on <b>86%</b> of average volume, which is weak confirmation. The market appears to be discounting the deal for its circularity rather than ignoring it. Premarket <b>-1.27%</b> has already erased Monday's gain, but that is the macro, not the deal.",
+     "flag": false
+    },
+    {
+     "k": "Would flip if",
+     "v": "Anthropic or another large buyer signs comparable capacity with a provider Nvidia has no stake in. That would show the demand standing on its own funding.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Broadcom's third-quarter results on <b>3 September</b> are the nearest independent read on AI silicon demand. Nvidia's own results are expected <b>18 November</b>.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "MRVL",
+   "dir": "bearish",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; no new event &middot; Friday continuing",
+   "move": "-2.29% Monday close, settled &middot; -2.67% premarket",
+   "move_tone": "down",
+   "happened": "Marvell fell a further 2.29% with no filing or announcement dated 31 August, extending Friday's 10.28% fall after results.",
+   "figures": [
+    "Close <b>$211.66</b>, down <b>2.29%</b>, on <b>80%</b> of average volume",
+    "Marvell sits <b>35.84%</b> below its 52-week high of <b>$329.88</b>, the second-widest gap to its 52-week high of the twelve",
+    "Premarket <b>-2.67%</b>, the weakest premarket print of the twelve",
+    "The dated coverage repeated Thursday's raise, to about <b>$18bn</b> of fiscal 2028 revenue from <b>$16.5bn</b>, and the timing problem: the larger Google contribution arrives in fiscal <b>2029</b>"
+   ],
+   "why": "Two sessions of falling on no new information is how a stock finishes repricing an expectation rather than a business. Friday established that the raise was smaller than what the price already assumed. Monday and this morning are the position adjustment that follows, on below-average volume, which is consistent with sellers working out rather than new sellers arriving. Nothing here changes the fiscal 2028 forecast. It changes who owns the shares at what cost.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Settled close on light volume, extending a settled fall. Two thirds of the damage was done on Friday. Premarket <b>-2.67%</b> is provisional and thin, and this morning it is hard to separate from the general risk-off in the twelve.",
+     "flag": false
+    },
+    {
+     "k": "Would flip if",
+     "v": "Marvell puts a number on fiscal 2029 custom silicon at its <b>6 October</b> investor day and it clears <b>$10bn</b>.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "<b>3 September</b>, Broadcom's results, the nearest comparable read on custom AI silicon. Investor day <b>6 October</b>.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "INTC",
+   "dir": "neutral",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; a report and a denial in one session",
+   "move": "+0.04% Monday close, settled &middot; -2.36% premarket",
+   "move_tone": "flat",
+   "happened": "A South Korean report on Monday said SK Hynix was weighing Intel Foundry for the base dies in its next high-bandwidth memory. SK Hynix denied it the same day.",
+   "figures": [
+    "Close <b>$89.51</b>, up <b>0.04%</b>, on <b>71%</b> of average volume",
+    "The Herald Economy report named HBM4E base dies. SK Hynix said it is not considering Intel Foundry for that work and that parts of the reporting contradict the facts",
+    "No agreement was announced by either company",
+    "Intel trades <b>37.12%</b> below its 52-week high of <b>$142.35</b>, the widest gap to its 52-week high of the twelve",
+    "Premarket <b>-2.36%</b>, the second-weakest premarket print of the twelve"
+   ],
+   "why": "Intel's foundry case rests entirely on named external customers, because the fabs are already built and the losses are already being taken. A committed customer converts fixed cost into a utilisation rate, which is the single variable that decides whether the foundry ever earns its cost of capital. That is why a rumour like this moves the stock at all. A denial the same day returns the value to zero, and a flat close on light volume says the market priced the round trip correctly.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Settled close, and <b>+0.04%</b> on <b>71%</b> of average volume is as close to no reaction as this list gets. The market treated report and denial as cancelling. This morning's <b>-2.36%</b> is the macro reaching a high-beta name, not the SK Hynix story, and it is provisional.",
+     "flag": false
+    },
+    {
+     "k": "Would flip if",
+     "v": "Either company confirms a base-die agreement. A named HBM customer is the first external validation Intel Foundry would have at that node.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Third-quarter results expected <b>22 October</b>.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "AAPL",
+   "dir": "neutral",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; a scheduled handover, known since April",
+   "move": "-0.89% Monday close, settled &middot; -0.27% premarket",
+   "move_tone": "down",
+   "happened": "Monday was Tim Cook's last day as chief executive. John Ternus takes over today, 1 September, with Cook becoming executive chairman.",
+   "figures": [
+    "Close <b>$316.85</b>, down <b>0.89%</b>, on <b>102%</b> of average volume",
+    "The succession was disclosed in <b>April 2026</b> and reconfirmed <b>26 August</b>. Today is the effective date, not the announcement",
+    "Ternus is 50, joined Apple in 2001 and has led hardware engineering since 2021. The board approved the transition unanimously",
+    "Cook's remit as executive chairman is reported to centre on relationships with the US administration and the Chinese government",
+    "Separately, Apple accused OpenAI of destroying evidence in its trade-secrets suit, in a filing reported early Tuesday. No damages figure attaches to that motion"
+   ],
+   "why": "A handover disclosed four months ahead carries almost no information on the day it happens, which is the point of announcing it that way. What it does change is where the risk now sits. Apple's China exposure and its tariff position have been managed personally by Cook, and keeping him as executive chairman explicitly for those relationships tells you the board thinks that work does not transfer. The valuation consequence is small and one-directional: the succession risk investors had been discounting since April is now resolved, and nothing new was added.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Fully, and for four months. A <b>0.89%</b> fall on average volume on the last day of the outgoing chief executive's tenure is the market saying it already knew. Premarket <b>-0.27%</b> is a shallower decline than the other ten that are down before the open, which fits Apple's limited exposure to both the oil shock and the AI capex argument.",
+     "flag": false
+    },
+    {
+     "k": "Would flip if",
+     "v": "Ternus changes the capital return policy or the China manufacturing plan at the 9 September event. Either would make the handover a real event after the fact.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "<b>9 September</b>, launch event, Steve Jobs Theater. Fourth-quarter results <b>29 October</b>.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "HOOD",
+   "dir": "neutral",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; premarket unexplained",
+   "move": "+0.53% Monday close, settled &middot; +2.61% premarket",
+   "move_tone": "up",
+   "happened": "Robinhood rose 0.53% on Monday and is up 2.61% premarket. Robinhood has the strongest premarket print of the twelve. It is the only one of the twelve above water before the open.",
+   "figures": [
+    "Close <b>$104.81</b>, up <b>0.53%</b>, on <b>73%</b> of average volume",
+    "Premarket <b>+2.61%</b>, stamped 06:35 ET",
+    "The only dated company item in the past 24 hours is a Form 144 covering <b>4.1m</b> shares of Robinhood Ventures Fund I, reported early Tuesday. sec.gov is blocked from this environment, so it could not be read directly",
+    "Robinhood trades <b>31.88%</b> below its 52-week high of <b>$153.86</b>",
+    "Friday's <b>5.01%</b> fall on the Ninth Circuit prediction-markets ruling has not been recovered"
+   ],
+   "why": "This is flagged because the move has no explanation this brief can stand behind. A Form 144 is notice of an intended sale, which is mildly negative if anything, and it does not account for a stock rising while eleven others fall. Robinhood is the highest-beta name on this list and its revenue tracks retail risk appetite directly, so a risk-off morning normally takes it down hard rather than up. Going up while oil spikes and yields rise is the opposite of what its business model implies. Until something dated explains it, treat it as thin premarket noise rather than information.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Unknowable, and marked as such. The only evidence is a premarket print on thin volume, which this brief treats as provisional by default. It is contradicted by the macro and unsupported by any release. The open will settle it.",
+     "flag": true
+    },
+    {
+     "k": "Would flip if",
+     "v": "The Supreme Court takes the prediction-markets question, or Robinhood discloses August trading volumes. Either would give the price something real to attach to.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Monthly operating data for August, usually published in the second week. Third-quarter results expected <b>4 November</b>.",
+     "flag": false
+    }
+   ]
+  },
+  {
+   "ticker": "META",
+   "dir": "neutral",
+   "strength": "minor",
+   "strength_label": "Minor move &middot; a dismissal with no figure attached",
+   "move": "-0.98% Monday close, settled &middot; -0.93% premarket",
+   "move_tone": "down",
+   "happened": "A US magistrate judge in San Jose dismissed an antitrust claim over Instagram Shopping on Monday, brought by the London startup Ollywan.",
+   "figures": [
+    "Close <b>$572.34</b>, down <b>0.98%</b>, on <b>78%</b> of average volume",
+    "Judge Virginia DeMarchi held the claims were filed too late and did not plausibly show harm to competition, and that antitrust law does not stop Meta enforcing its trademark",
+    "The dismissal comes with leave to amend, so the case is not finished",
+    "No damages figure was attached to the claim in the coverage",
+    "Meta trades <b>27.63%</b> below its 52-week high of <b>$790.80</b>"
+   ],
+   "why": "A dismissal with leave to amend removes a small tail risk and creates no value, which is why the shares did not move on it. It matters only as a marker in a longer pattern: Meta has now cleared the FTC structural case and this one, and each win reduces the probability investors assign to a forced divestiture. That probability is a discount applied to the whole company, so it is worth more than the size of any individual claim. On Monday it was worth nothing, because the claim was small and the ruling is provisional.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Settled close, on below-average volume, and the shares fell anyway. That is the correct response to a minor procedural win: the market weighted the sector tape above it.",
+     "flag": false
+    },
+    {
+     "k": "Would flip if",
+     "v": "Ollywan files an amended complaint that survives, or the FTC's appeal of the Instagram and WhatsApp ruling advances.",
+     "flag": false
+    },
+    {
+     "k": "Next date",
+     "v": "Third-quarter results <b>28 October</b>.",
+     "flag": false
+    }
+   ]
+  }
+ ],
+ "readthrough": {
+  "title": "Monday sold the companies that buy AI compute and bought the one that sells it. Overnight, that stopped mattering.",
+  "body": "<b>The Monday split was about who pays.</b> Amazon, Alphabet, Microsoft and Meta all fell. Nvidia rose <b>1.48%</b>. Those are the customers and the supplier of the same construction project, and money moved from the spenders to the one being paid. Alphabet is the clean version. It traded the second-heaviest volume of the twelve. It fell <b>2.09%</b> with no company release dated 31 August, on renewed argument about capex of roughly <b>$175bn</b> to <b>$185bn</b> this year and when it earns anything back.<br><br><b>The Nvidia item complicates its own good day.</b> Anthropic's <b>$35bn</b> deal is with Lambda, which Nvidia backs, for capacity in a Hut 8 data centre Nvidia had already contracted. Earlier in August Anthropic committed <b>$45bn</b> to Nscale, also Nvidia-backed. Nvidia is increasingly a party to the financing of its own demand. That does not make the revenue fake. It does mean the backlog is worth less as an independent signal, because the customer's ability to pay is partly Nvidia's own balance sheet.<br><br><b>The asymmetry worth keeping.</b> Alphabet fell <b>2.09%</b> on no company news. Amazon fell <b>2.50%</b> with a federal lawsuit alleging more than <b>$20bn</b> of overcharging. Nearly the same fall, and only one had an event. Either the market thinks a slow antitrust case is worth about as much as a bad afternoon of sentiment, which is defensible given how long these run, or Alphabet's fall was oversized. Both readings say the same thing: on Monday the AI capital cycle mattered more to these prices than the regulator did."
+ },
+ "nothing_material": {
+  "tickers": [
+   "MSFT",
+   "PLTR",
+   "NBIS"
+  ],
+  "note": {
+   "title": "What was quiet, what did not survive dating, and the gaps in this edition",
+   "body": "<b>Nothing material.</b> <b>MSFT -1.22%</b> had a multi-hour Outlook and Exchange Online outage on 31 August, traced to an authentication component, with reports starting about 11:30. An outage is an operational event, not a financial disclosure, and no filing followed. Microsoft's September dividend increase is expected, not announced. <b>PLTR +0.05%</b> and <b>NBIS -1.37%</b> had no filing, contract or announcement dated 31 August.<br><br><b>Excluded as old.</b> Palantir's Pentagon coverage recirculated on Monday, but the underlying items are the <b>4 August</b> memo directing up to <b>$243.9m</b> of no-bid work through March 2027, the Maven program-of-record designation in late August worth up to <b>$2.30bn</b> over five years, and the <b>$10bn</b> ten-year Army agreement from July. None is news. Alphabet's <b>&pound;260m</b> UK Play Store settlement was agreed <b>27 August</b>. Nvidia's <b>$20bn</b> buyback authorisation came with its late-August results. Anthropic's <b>$45bn</b> Nscale commitment was earlier in August. Marvell's Google warrant was issued <b>19 August</b>.<br><br><b>Earnings.</b> None of the twelve reports within fourteen days. The next scheduled results are Tesla on <b>21 October</b> and Intel on <b>22 October</b>.<br><br><b>Gaps in the data.</b> The extended-hours feed served a genuine premarket print for all twelve this morning, stamped between <b>04:13</b> and <b>07:01 ET</b>. Microsoft's is the oldest at 04:13 and the thinnest. No after-hours figures are recorded, because the feed carries only the current extended session. sec.gov is blocked from this environment, so the FTC complaint, Apple's OpenAI filing and Robinhood's Form 144 are attributed to coverage rather than read directly. The FTC's own press release is also blocked here."
+  }
+ },
+ "earnings_ahead": [
+  {
+   "when": "1 Sep",
+   "what": "<b>AAPL</b> John Ternus becomes chief executive today. Tim Cook becomes executive chairman"
+  },
+  {
+   "when": "3 Sep",
+   "what": "<b>TSLA</b> invitation-only Cybercab event, Austin"
+  },
+  {
+   "when": "3 Sep",
+   "what": "<b>Macro</b> Broadcom third-quarter results, the near-term read on custom AI silicon, so it matters for MRVL and NVDA"
+  },
+  {
+   "when": "4 Sep",
+   "what": "<b>Macro</b> August employment report, 08:30 ET. The last jobs print before the FOMC"
+  },
+  {
+   "when": "9 Sep",
+   "what": "<b>AAPL</b> launch event, Steve Jobs Theater, 10:00 PT"
+  },
+  {
+   "when": "9 Sep",
+   "what": "<b>Macro</b> Treasury's larger long-end buybacks begin, doubling to $4bn"
+  },
+  {
+   "when": "16 Sep",
+   "what": "<b>Macro</b> FOMC decision, meeting 15 to 16 September. An increase is priced near even"
+  },
+  {
+   "when": "6 Oct",
+   "what": "<b>MRVL</b> investor day. Sizing fiscal 2029 custom silicon is the question"
+  },
+  {
+   "when": "21 Oct",
+   "what": "<b>TSLA</b> third-quarter results. Deliveries in the first days of October"
+  },
+  {
+   "when": "22 Oct",
+   "what": "<b>INTC</b> third-quarter results expected"
+  }
+ ],
+ "data": {
+  "session": "2026-08-31",
+  "source": "twelvedata quote endpoint, prepost=true, fetched 07:00 ET 1 September. The extended field carried a genuine premarket print for all twelve, stamped between 04:13 and 07:01 ET on 1 September, so every extended figure is recorded as premarket and after-hours is null throughout. AMZN 30-minute bars fetched separately from the same source to time the FTC news against the session.",
+  "fetched": "2026-09-01T11:02Z",
+  "tickers": {
+   "AAPL": {
+    "close": 316.85001,
+    "pct": -0.89146262,
+    "open": 319.56,
+    "high": 321.23499,
+    "low": 312.79999,
+    "volume": 40667429.0,
+    "avg_volume": 39807003.0,
+    "high_52w": 344.57001,
+    "premarket_pct": -0.26826766,
+    "afterhours_pct": null
+   },
+   "AMZN": {
+    "close": 259.76999,
+    "pct": -2.49972,
+    "open": 263.82501,
+    "high": 264.35999,
+    "low": 257.14999,
+    "volume": 45422317.0,
+    "avg_volume": 33907742.0,
+    "high_52w": 287.20001,
+    "premarket_pct": -0.87384575,
+    "afterhours_pct": null
+   },
+   "TSLA": {
+    "close": 367.95001,
+    "pct": 5.50538,
+    "open": 347.14999,
+    "high": 368.92001,
+    "low": 347.14999,
+    "volume": 61157428.0,
+    "avg_volume": 37656633.0,
+    "high_52w": 498.82999,
+    "premarket_pct": -1.073519,
+    "afterhours_pct": null
+   },
+   "PLTR": {
+    "close": 186.38,
+    "pct": 0.048317999,
+    "open": 184.495,
+    "high": 187.94,
+    "low": 183.78999,
+    "volume": 25633590.0,
+    "avg_volume": 31134059.0,
+    "high_52w": 207.52,
+    "premarket_pct": -1.63644,
+    "afterhours_pct": null
+   },
+   "MSFT": {
+    "close": 507.29001,
+    "pct": -1.21512,
+    "open": 510.32501,
+    "high": 512.19,
+    "low": 506.39999,
+    "volume": 26637042.0,
+    "avg_volume": 22862294.0,
+    "high_52w": 553.71997,
+    "premarket_pct": -0.50070147,
+    "afterhours_pct": null
+   },
+   "GOOGL": {
+    "close": 339.35001,
+    "pct": -2.088921,
+    "open": 343.698,
+    "high": 344.59,
+    "low": 337.15601,
+    "volume": 33315062.0,
+    "avg_volume": 22786466.0,
+    "high_52w": 408.60999,
+    "premarket_pct": -0.89583205,
+    "afterhours_pct": null
+   },
+   "HOOD": {
+    "close": 104.81,
+    "pct": 0.52752293,
+    "open": 103.325,
+    "high": 105.47,
+    "low": 100.69,
+    "volume": 16232073.0,
+    "avg_volume": 22142957.0,
+    "high_52w": 153.86,
+    "premarket_pct": 2.61426,
+    "afterhours_pct": null
+   },
+   "NVDA": {
+    "close": 220.78,
+    "pct": 1.48471,
+    "open": 218.862,
+    "high": 221.3,
+    "low": 216.21001,
+    "volume": 124033835.0,
+    "avg_volume": 144670814.0,
+    "high_52w": 236.53999,
+    "premarket_pct": -1.27276,
+    "afterhours_pct": null
+   },
+   "INTC": {
+    "close": 89.51,
+    "pct": 0.044708746,
+    "open": 90.0,
+    "high": 91.8431,
+    "low": 88.97,
+    "volume": 64515383.0,
+    "avg_volume": 91531768.0,
+    "high_52w": 142.35001,
+    "premarket_pct": -2.35728,
+    "afterhours_pct": null
+   },
+   "NBIS": {
+    "close": 206.32001,
+    "pct": -1.36724,
+    "open": 205.735,
+    "high": 208.88,
+    "low": 201.53,
+    "volume": 10491543.0,
+    "avg_volume": 20265524.0,
+    "high_52w": 299.85999,
+    "premarket_pct": -2.093838,
+    "afterhours_pct": null
+   },
+   "MRVL": {
+    "close": 211.66,
+    "pct": -2.28972,
+    "open": 216.13,
+    "high": 218.2205,
+    "low": 209.53,
+    "volume": 23518678.0,
+    "avg_volume": 29538428.0,
+    "high_52w": 329.88,
+    "premarket_pct": -2.66938,
+    "afterhours_pct": null
+   },
+   "META": {
+    "close": 572.34003,
+    "pct": -0.98266366,
+    "open": 576.77002,
+    "high": 578.67499,
+    "low": 569.13861,
+    "volume": 13275274.0,
+    "avg_volume": 17050187.0,
+    "high_52w": 790.79999,
+    "premarket_pct": -0.93476371,
+    "afterhours_pct": null
+   }
+  }
+ }
+}
