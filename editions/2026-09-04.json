@@ -1,0 +1,656 @@
+{
+ "date": "2026-09-04",
+ "weekday": "Fri",
+ "headline": "HOOD rose 16.57% on Thursday, the largest gain of the twelve, on analyst work about prediction markets rather than any company announcement.",
+ "gauge": [
+  {
+   "text": "QQQ +1.19% Thursday close",
+   "tone": "up"
+  },
+  {
+   "text": "QQQ +0.60% premarket",
+   "tone": "up"
+  },
+  {
+   "text": "updated 07:00 ET &middot; before the open",
+   "tone": "flat"
+  },
+  {
+   "text": "12 tickers &middot; session of Thursday 3 September",
+   "tone": "flat"
+  },
+  {
+   "text": "premarket to 07:01 ET &middot; MSFT and META carry Thursday evening prints instead",
+   "tone": "flat"
+  }
+ ],
+ "quick": [
+  "<b>All twelve rose, and the reason was the Fed rather than any of them.</b> Fed Governor Christopher Waller said on Thursday he would support holding the policy rate steady if inflation keeps easing toward 2%. Market-implied odds of a September rate <i>hike</i> fell from about <b>63%</b> to about <b>50%</b>, and the 10-year Treasury yield eased to <b>4.74%</b> from <b>4.81%</b> earlier in the week. QQQ rose <b>1.19%</b>. Oil kept climbing anyway, Brent above <b>$96</b>, so this was the rate channel beating the oil channel, not oil relief.",
+  "<b>Robinhood rose 16.57% on no company announcement.</b> Two brokerages published work on its prediction-markets business and the stock gained <b>$17.73</b> a share on <b>207%</b> of average volume, the heaviest relative participation of the twelve. The underlying number is not new: event-contract revenue of <b>$156m</b> in the second quarter, reported on <b>29 July</b>, more than <b>10x</b> a year earlier and ahead of crypto revenue for the first time.",
+  "<b>Three real corporate events, all bunched into Wednesday evening and Thursday morning.</b> Nvidia confirmed a <b>$12.9bn</b> agreement to buy Hugging Face. Microsoft said it will publish Azure revenue in dollars every quarter from this autumn, ending a decade of percentages. PwC and Palantir expanded their alliance, and Palantir rose <b>7.71%</b>. Tesla rose <b>5.42%</b> <i>before</i> its Cybercab event, which ran after the close; it is down <b>2.02%</b> premarket."
+ ],
+ "macro": [
+  {
+   "dt": "<b>Fed Governor Christopher Waller said on Thursday that he is willing to support holding the policy rate at its current level if there is continued progress toward the 2% inflation goal.</b> Market-implied odds of a September rate <i>hike</i> fell from roughly <b>63%</b> on Wednesday to roughly <b>50%</b>. The US 10-year Treasury yield fell to <b>4.74%</b>, from <b>4.81%</b> earlier in the week, which was its highest since October 2023",
+   "lead": "The argument this week was about a rate rise, not a cut, and that is why the relief was so broad",
+   "dd": "Chair Kevin Warsh's Jackson Hole speech and the oil spike had left the market pricing a coin-flip chance of the Fed tightening again in September. A rate rise raises the yield on safe money, which is the rate at which profits expected years from now get discounted back. Waller taking a hike off the table by half removes that deduction. It is worth most to the companies whose earnings arrive latest, and least to those earning today, which is exactly the shape of Thursday's ranking: Robinhood, Palantir, Tesla and Nebius at the top, Apple at the bottom."
+  },
+  {
+   "dt": "<b>Initial jobless claims rose by 2,000 to 206,000 for the week, slightly above the roughly 205,000 economists expected.</b> The August employment report lands this morning at <b>08:30 ET</b>, with consensus around <b>53,000</b> new jobs and unemployment holding at <b>4.1%</b>",
+   "lead": "A soft labour market is now good news for these stocks, which is a reversal from earlier in the year",
+   "dd": "When the risk was recession, weak jobs data hurt the companies that sell to consumers and to corporate IT budgets. With the Fed debating a rise, weak jobs data instead argues against tightening. Claims at 206,000 are historically low and describe a market where firms neither hire nor fire much. That is soft enough to support Waller's case and not soft enough to threaten the advertising and consumer spending that Meta, Alphabet, Amazon and Apple live on."
+  },
+  {
+   "dt": "<b>Brent crude rose again on Thursday, trading above $96, after the strikes around the Strait of Hormuz earlier in the week.</b> QQQ rose <b>1.19%</b> regardless, and the Nasdaq Composite gained <b>1.4%</b> to <b>26,584.06</b>",
+   "lead": "The gauge and the oil price point opposite ways, and the gauge is the one to follow",
+   "dd": "On Tuesday the same oil move knocked ten of the twelve lower, because dearer crude lifts expected inflation and therefore long yields. On Thursday the yield fell anyway, because Waller outweighed the barrel. Oil only ever reached these companies through the bond market, none of them being a large energy buyer. When the bond market stops listening to oil, the oil price stops mattering to them. Watch the 10-year, not Brent."
+  }
+ ],
+ "entries": [
+  {
+   "ticker": "HOOD",
+   "dir": "bullish",
+   "strength": "major",
+   "strength_label": "Major move &middot; analyst work, not company &middot; settled close",
+   "move": "+16.57% Thursday close, settled &middot; -1.15% premarket",
+   "move_tone": "up",
+   "happened": "Robinhood rose 16.57% with no filing, contract or company announcement dated 3 September, after two brokerages published work on its prediction-markets business.",
+   "figures": [
+    "Close <b>$124.72</b>, up <b>16.57%</b> from <b>$106.99</b>, the largest gain of the twelve",
+    "Volume <b>51.38m</b> shares against a <b>24.80m</b> average, <b>207%</b> of normal and the heaviest relative participation of the twelve",
+    "Opened <b>6.37%</b> higher and then rose a further <b>9.60%</b> from there, so most of the day was made after the open rather than at it",
+    "Deutsche Bank's Brian Bedell argued contracts on companies' own KPIs could become the largest category in the business, and put US company-KPI contract volume above <b>$1 trillion</b> by 2028",
+    "Piper Sandler's Patrick Moley kept a <b>$145</b> target and pointed to the NFL and NCAA football seasons after strong engagement around the 2026 World Cup",
+    "The company figure underneath is from results dated <b>29 July</b>: event-contract revenue <b>$156m</b> in the second quarter, more than <b>10x</b> a year earlier, on a record <b>13.6bn</b> contracts, and ahead of crypto revenue for the first time",
+    "Total second-quarter net revenue was <b>$1.31bn</b>, up <b>32%</b>, so event contracts were about <b>12%</b> of the company",
+    "Closed <b>18.94%</b> below its 52-week high of <b>$153.86</b>"
+   ],
+   "why": "Robinhood has been priced as a geared bet on retail trading volume, and investors pay little per dollar of earnings for revenue that swings with the market. Prediction markets are a different kind of revenue: exchange economics, driven by sporting and political calendars rather than by share prices, so it does not fall when equity volumes fall. Revenue that is uncorrelated and repeatable carries a much higher multiple than revenue that is cyclical. Thursday was investors starting to underwrite a 2028 revenue line that does not exist yet, which is why the move dwarfs anything in the current quarter.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "The opposite: it moved far more than the facts did. Settled close, not a premarket read. Nothing about Robinhood changed on Thursday. The <b>$156m</b> quarter was reported on <b>29 July</b> and the shares fell <b>1.24%</b> on Tuesday. What the gap and the drift say is which kind of buying this was: a <b>6.37%</b> gap on the analyst work, then a further <b>9.60%</b> built through the session, on <b>207%</b> of average volume. That is momentum joining a re-rating, not a reaction to a fact. Premarket is <b>-1.15%</b>, thin and provisional, and the open will settle whether Thursday holds."
+    },
+    {
+     "k": "Would flip if",
+     "v": "The CFTC advances its proposal to restrict event contracts. Every dollar of this re-rating assumes the category stays legal at US scale, and that is a regulatory decision rather than a product one. Robinhood has already filed against the proposal."
+    },
+    {
+     "k": "Next date",
+     "v": "Third-quarter results expected in early November, the first quarter to carry a full football season of event-contract volume."
+    }
+   ]
+  },
+  {
+   "ticker": "PLTR",
+   "dir": "bullish",
+   "strength": "major",
+   "strength_label": "Major move &middot; company &middot; settled close",
+   "move": "+7.71% Thursday close, settled &middot; -0.64% premarket",
+   "move_tone": "up",
+   "happened": "PwC US and Palantir announced on 3 September that they are expanding their strategic alliance, initially across enterprise AI, mergers and acquisitions, and ERP modernisation.",
+   "figures": [
+    "Close <b>$182.53</b>, up <b>7.71%</b> from <b>$169.46</b>, the second-largest gain of the twelve",
+    "Volume <b>38.01m</b> shares against a <b>32.29m</b> average, <b>118%</b> of normal",
+    "Opened <b>1.71%</b> higher and then rose <b>5.91%</b> from there, so the session, not the gap, carried it",
+    "The centrepiece is an AI-native deals platform PwC and Palantir say executes transactions up to <b>50%</b> faster and cuts one-time costs by up to <b>45%</b>. No contract value or revenue-share was disclosed",
+    "This recovers Wednesday's fall. Palantir closed at <b>$179.92</b> on Tuesday and <b>$169.46</b> on Wednesday, a <b>5.81%</b> drop, so Thursday's close is still <b>1.45%</b> above where it stood on Tuesday",
+    "Closed <b>12.04%</b> below its 52-week high of <b>$207.52</b>"
+   ],
+   "why": "Palantir's constraint has never been demand, it is the cost of delivery: every deployment needs its own engineers, so revenue growth has always dragged headcount and services cost along with it. A Big Four firm doing the implementation work changes the shape of the business, not the size of one contract. It converts Palantir toward selling a platform that someone else installs, which is the difference between a consultancy that scales linearly and software that does not. That is a gross-margin argument and a sales-reach argument at once, and it is the thing that would justify what investors already pay per dollar of Palantir's earnings.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Priced as a reversal rather than as news, which is the tell. Settled close. The stock had fallen <b>5.81%</b> on Wednesday on a widely circulated bear case, and Thursday's <b>7.71%</b> only just clears that. Investors bought a partnership with no disclosed dollar value, which means they were buying relief from the Wednesday argument as much as the alliance. Premarket <b>-0.64%</b>, thin and provisional. Note reports differ on the close: some quote <b>$183.03</b> and <b>8.01%</b> against this feed's <b>$182.53</b> and <b>7.71%</b>, from the same <b>$169.46</b> prior close."
+    },
+    {
+     "k": "Would flip if",
+     "v": "The alliance produces no named customer with a contract value by the third-quarter call. Announcements of this shape are cheap to make. Until a jointly delivered deployment shows up in revenue, it is a press release."
+    },
+    {
+     "k": "Next date",
+     "v": "Third-quarter results expected in early November."
+    }
+   ]
+  },
+  {
+   "ticker": "TSLA",
+   "dir": "bullish",
+   "strength": "major",
+   "strength_label": "Major move &middot; the move came BEFORE the event &middot; settled close",
+   "move": "+5.42% Thursday close, settled &middot; -2.02% premarket",
+   "move_tone": "up",
+   "happened": "Tesla unveiled the production Cybercab at an invitation-only event in Austin on the evening of 3 September, after the market had closed.",
+   "figures": [
+    "Close <b>$376.36</b>, up <b>5.42%</b> from <b>$357.01</b>, the third-largest gain of the twelve",
+    "Volume <b>62.84m</b> shares against a <b>41.46m</b> average, <b>152%</b> of normal",
+    "The entire <b>5.42%</b> was made before the event: a <b>2.49%</b> gap at the open and <b>2.86%</b> more during the session, all of it in regular trading hours",
+    "Cybercab is a two-seat robotaxi with no steering wheel, no pedals and no mirrors, at a <b>$25,000</b> starting price and a stated <b>418</b> mile range. Production began at Gigafactory Texas in the first half of 2026",
+    "The NHTSA said it is in contact with Tesla and is evaluating the Texas rollout, because federal safety standards normally require controls the Cybercab does not have",
+    "Tesla did not livestream the event publicly, which drew complaints from retail holders",
+    "Premarket <b>-2.02%</b>, the weakest premarket of the twelve",
+    "Closed <b>24.55%</b> below its 52-week high of <b>$498.83</b>"
+   ],
+   "why": "Tesla's share price stopped being a car multiple some time ago. What investors are paying for is the option that a fleet of driverless vehicles earns fare revenue at software margins with no driver to pay. The two numbers that decide whether that option is worth anything are how many cars are actually carrying paying passengers, and whether a regulator lets them. A vehicle with no steering wheel is the cheapest possible robotaxi to build and the hardest one to get approved, so the NHTSA's evaluation is the live variable, not the unveiling.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "This is the one to be careful about. The <b>5.42%</b> happened <i>before</i> the event and is not a reaction to it. It is a bet placed into the event, on top of an <b>18%</b> rise during August. The event's own verdict is the premarket, and that is <b>-2.02%</b>, the weakest of the twelve, after the NHTSA comment and the absence of a public livestream. Premarket is thin and reverses often, so treat this as provisional. The open settles it."
+    },
+    {
+     "k": "Would flip if",
+     "v": "Paying passengers ride Cybercabs in Austin within a few weeks. A demonstration without deployment is what the sceptics expected; cars carrying fares is the only thing that converts the option into revenue."
+    },
+    {
+     "k": "Next date",
+     "v": "Third-quarter deliveries in early October, then third-quarter results on <b>21 October</b>. Any NHTSA action on the Texas rollout is the nearer trigger."
+    }
+   ]
+  },
+  {
+   "ticker": "NBIS",
+   "dir": "bullish",
+   "strength": "major",
+   "strength_label": "Major move &middot; sector, not company &middot; settled close",
+   "move": "+3.20% Thursday close, settled &middot; +1.85% premarket",
+   "move_tone": "up",
+   "happened": "Nebius rose 3.20% with no filing, contract or announcement dated 3 September beyond a routine director Form 4 disclosing 5,885 shares after an RSU grant.",
+   "figures": [
+    "Close <b>$210.63</b>, up <b>3.20%</b> from <b>$204.09</b>",
+    "Volume <b>10.64m</b> shares against a <b>13.33m</b> average, <b>80%</b> of normal, so this was a small crowd",
+    "Opened <b>0.64%</b> lower and rose <b>3.87%</b> from there, the third-largest recovery from the open of the twelve",
+    "Closed <b>29.76%</b> below its 52-week high of <b>$299.86</b>",
+    "Its <b>$5.75bn</b> convertible raise, widely recirculated in coverage on 4 September, closed on <b>24 August</b> and is not new"
+   ],
+   "why": "This is the rate trade in its purest form. Nebius sells AI compute it has not built yet, funded with convertible debt, against contracts that pay out over years. Almost all of its value sits in cash flows a long way out, so what moves it is not demand for GPUs but the rate at which 2029 cash gets valued today. Waller shaving the odds of a rate rise is worth far more to Nebius than to a company earning its money today, and Thursday's ranking sorted almost exactly that way.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Nothing company-specific to price. Settled close on <b>80%</b> of average volume, the second-lightest participation of the twelve, which is what a sector move without a company event looks like. Do not read this as anything about Nebius. It is up <b>1.85%</b> premarket, thin and provisional."
+    },
+    {
+     "k": "Would flip if",
+     "v": "The August jobs report at <b>08:30 ET</b> today comes in hot and puts the September hike back on the table. The same leverage that lifted Nebius on Thursday works in reverse and works fastest here."
+    },
+    {
+     "k": "Next date",
+     "v": "The August employment report today at <b>08:30 ET</b>, then the FOMC decision on <b>16 September</b>."
+    }
+   ]
+  },
+  {
+   "ticker": "META",
+   "dir": "bullish",
+   "strength": "major",
+   "strength_label": "Major move &middot; company &middot; settled close",
+   "move": "+3.01% Thursday close, settled &middot; -0.01% after-hours",
+   "move_tone": "up",
+   "happened": "Meta released Muse Spark 1.3, its new AI model, late on Wednesday 2 September, claiming gains in coding and in agentic tasks.",
+   "figures": [
+    "Close <b>$610.68</b>, up <b>3.01%</b> from <b>$592.85</b>",
+    "Volume <b>19.69m</b> shares against a <b>16.47m</b> average, <b>120%</b> of normal, the third-heaviest relative participation of the twelve",
+    "Opened <b>1.96%</b> higher and added <b>1.02%</b> during the session, so the news was mostly in the gap",
+    "Benchmark scores put it alongside leading models from OpenAI and Anthropic, on the company's own account. Meta AI chief Alexandr Wang framed it as groundwork for personal AI assistants",
+    "Closed <b>22.78%</b> below its 52-week high of <b>$790.80</b>, further below its high than any of the twelve except Marvell, Intel, Nebius and Tesla",
+    "Its <b>$17.1bn</b> multistate teen-safety settlement, still circulating in coverage, was approved on <b>26 August</b> and is not new"
+   ],
+   "why": "Meta has spent two years asking investors to fund capital expenditure on AI without showing a model that competes at the frontier, and the share price carries the doubt: it sits further below its high than any of the twelve except Tesla, Nebius, Intel and Marvell. A credible frontier model does not add revenue next quarter. What it changes is whether the capex is an asset or a write-off, and therefore whether investors keep applying a discount to Meta's earnings for money they think is being wasted. That discount, not advertising growth, is the swing factor in the multiple.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Largely priced on Thursday, and the shape says so. Settled close, then a flat after-hours print at <b>-0.01%</b> stamped <b>16:12 ET</b>. Nearly two-thirds of the move was the opening gap, which is what a Wednesday-evening release should produce. There is no premarket read for Meta this morning: the feed's most recent extended print is from Thursday's close, not this morning."
+    },
+    {
+     "k": "Would flip if",
+     "v": "Independent evaluations fail to reproduce the benchmark claims. Meta has published strong internal scores before that outside testers could not match, and the credibility of the capex case rests on this one holding up."
+    },
+    {
+     "k": "Next date",
+     "v": "Third-quarter results expected in late October, where the 2027 capital expenditure guide is the number that matters."
+    }
+   ]
+  },
+  {
+   "ticker": "MSFT",
+   "dir": "bullish",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; company &middot; settled close",
+   "move": "+2.68% Thursday close, settled &middot; -0.08% after-hours",
+   "move_tone": "up",
+   "happened": "Microsoft said on Wednesday 2 September that it will report Azure revenue in dollars every quarter and will cut its operating segments from three to two.",
+   "figures": [
+    "Close <b>$510.12</b>, up <b>2.68%</b> from <b>$496.82</b>, on <b>107%</b> of average volume",
+    "Opened <b>1.07%</b> higher and added <b>1.59%</b> during the session",
+    "On the restated basis, Azure revenue was <b>$29.42bn</b> in the June quarter, up <b>42%</b> year on year, and about <b>33%</b> of total company revenue",
+    "The narrower Azure definition excludes GitHub cloud, developer cloud services, Security Copilot, and healthcare and life-sciences cloud",
+    "Intelligent Cloud and Productivity and Business Processes merge into <b>Agents and Infra</b>; More Personal Computing becomes <b>Devices and Consumer</b>. The change takes effect in the first quarter of fiscal 2027, this autumn",
+    "Guidance on the new basis: Agents and Infra <b>$75.15bn</b> to <b>$75.75bn</b>, Devices and Consumer <b>$14.7bn</b> to <b>$15.2bn</b>",
+    "Closed <b>7.87%</b> below its 52-week high of <b>$553.72</b>, the third-smallest gap to its high of the twelve",
+    "The <b>$678bn</b> backlog and Azure passing <b>$100bn</b> for the year, both recirculating this week, came with results on <b>29 July</b> and are not new"
+   ],
+   "why": "For more than a decade Microsoft gave a growth percentage for Azure and no dollars, so nobody outside could tell how big it actually was or what it earned. That opacity has a price: investors apply a discount when they cannot separate the fast-growing business from the slow one bundled with it. Putting a dollar figure on Azure lets the market value it against AWS and Google Cloud directly, at cloud multiples rather than at a blended Microsoft multiple. Nothing about the business changed on Wednesday. What changed is how much of it investors can see, and visibility is worth a re-rating on its own.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Priced on Thursday, a day after the announcement. Settled close. Microsoft actually fell <b>0.84%</b> on Wednesday, when the news landed, and rose <b>2.68%</b> on Thursday once it had been read. A <b>1.07%</b> gap and <b>1.59%</b> more intraday is a market working through a disclosure change rather than reacting to a headline. The after-hours print is <b>-0.08%</b> and stamped <b>17:43 ET</b> Thursday, so there is no premarket read for Microsoft this morning."
+    },
+    {
+     "k": "Would flip if",
+     "v": "The restated Azure line grows more slowly than the old one implied. A narrower definition can flatter or deflate the growth rate, and the first reported quarter on the new basis is the first chance to check."
+    },
+    {
+     "k": "Next date",
+     "v": "First-quarter fiscal 2027 results in late October, the first on the two-segment basis with a dollar Azure figure."
+    }
+   ]
+  },
+  {
+   "ticker": "NVDA",
+   "dir": "bullish",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; company &middot; settled close",
+   "move": "+1.80% Thursday close, settled &middot; +1.25% premarket",
+   "move_tone": "up",
+   "happened": "Nvidia confirmed on 3 September that it will acquire Hugging Face, the open-model hosting platform, for about $12.9bn. The definitive agreement is dated 2 September.",
+   "figures": [
+    "Close <b>$228.45</b>, up <b>1.80%</b> from <b>$224.41</b>, on <b>86%</b> of average volume",
+    "Deal terms: about <b>$11.9bn</b> payable to Hugging Face stockholders, subject to adjustment, plus an equity retention pool of up to about <b>$1.0bn</b> for employees joining Nvidia",
+    "Against Hugging Face's <b>$4.5bn</b> valuation at its <b>$235m</b> round in 2023, that is roughly <b>2.9x</b> in three years",
+    "Hugging Face hosts about <b>3m</b> models, <b>1m</b> applications and <b>500,000</b> datasets, used by more than <b>18m</b> developers",
+    "Expected to close in the first half of <b>2027</b>, subject to regulatory approval. Jensen Huang said Hugging Face stays open and that Nvidia compute will not be required to build or deploy there",
+    "Closed <b>3.42%</b> below its 52-week high of <b>$236.54</b>, the smallest gap to its high of the twelve"
+   ],
+   "why": "Nvidia's risk has never been this year's orders, it is that its customers design their way off its chips. Hugging Face is where open models are published and pulled, so whoever runs it sits at the point where a developer picks the hardware their model will run on by default. Buying the distribution layer is a defence of pricing power, not an addition to revenue: <b>$12.9bn</b> is under a fortnight of Nvidia's sales. The commitment to stay hardware-neutral is the price of not driving developers away, and it is also what makes regulatory approval plausible.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Almost entirely, which is why a deal this size moved the stock less than <b>2%</b>. Settled close on <b>86%</b> of average volume, below-average participation for a confirmed acquisition. Reports of the talks appeared on <b>26</b> and <b>27 August</b>, so Thursday only added the terms and the certainty. Premarket <b>+1.25%</b>, thin and provisional."
+    },
+    {
+     "k": "Would flip if",
+     "v": "Antitrust review blocks or conditions the deal. A chip monopolist buying the neutral catalogue of models that run on chips is the shape of case regulators take, and the deal does not close until 2027."
+    },
+    {
+     "k": "Next date",
+     "v": "Third-quarter fiscal 2027 results expected in mid-November. Regulatory filings on the acquisition come first."
+    }
+   ]
+  },
+  {
+   "ticker": "INTC",
+   "dir": "bullish",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; sector, not company &middot; settled close",
+   "move": "+1.80% Thursday close, settled &middot; +1.56% premarket",
+   "move_tone": "up",
+   "happened": "Intel rose 1.80% with no filing, contract or announcement dated 3 September, on the same semiconductor and rate-relief bid that lifted the group.",
+   "figures": [
+    "Close <b>$91.67</b>, up <b>1.80%</b> from <b>$90.05</b>, on <b>98%</b> of average volume",
+    "Opened <b>0.78%</b> lower and rose <b>2.60%</b> from there, so the whole move was made after the open",
+    "Now <b>3.55%</b> below the <b>$95</b> price of its <b>$20bn</b> equity offering, which priced on <b>10 August</b>, against <b>6.35%</b> below it on Tuesday",
+    "Closed <b>35.60%</b> below its 52-week high of <b>$142.35</b>, the second-widest gap to its high of the twelve"
+   ],
+   "why": "Intel is the one name here where the discount rate barely matters, because almost nothing in the price is a bet on profits far in the future. What sets the price is the August equity offering: buyers at <b>$95</b> are still underwater, and that unsold stock hangs over the shares until it clears. Every dollar closer to <b>$95</b> shrinks that overhang, which is why Intel trades on its distance from the offering price rather than on the macro.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Nothing company-specific to price. Settled close, ordinary volume at <b>98%</b> of average. Read it as sector, not company. Premarket <b>+1.56%</b>, thin and provisional."
+    },
+    {
+     "k": "Would flip if",
+     "v": "A named external foundry customer signs with a dollar value attached. That is still the single thing that would revalue Intel Foundry, and it has not happened."
+    },
+    {
+     "k": "Next date",
+     "v": "Third-quarter results expected <b>22 October</b>."
+    }
+   ]
+  },
+  {
+   "ticker": "GOOGL",
+   "dir": "bullish",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; company, dated Wednesday &middot; settled close",
+   "move": "+1.59% Thursday close, settled &middot; +0.39% premarket",
+   "move_tone": "up",
+   "happened": "Judge Leonie Brinkema ruled on 2 September that Google need not sell its AdX ad exchange, imposing behavioural remedies instead. Google shipped Gemini 3.8 Flash the same day.",
+   "figures": [
+    "Close <b>$342.48</b>, up <b>1.59%</b> from <b>$337.12</b>, on <b>87%</b> of average volume",
+    "The court rejected divestiture of AdX, rejected open-sourcing the DFP final auction logic, and rejected the contingent divestiture of DFP Remainder",
+    "Remedies instead require interoperability, including opening real-time bidding on AdX to rival ad servers. Both sides must file a jointly proposed final judgment within <b>30 days</b>, and the full opinion stays sealed for <b>14 days</b> for redaction requests",
+    "Gemini 3.8 Flash is the third Flash release in six weeks, priced unchanged at <b>$0.75</b> per million input tokens and <b>$3.75</b> per million output tokens. Both prices double on <b>1 January 2027</b>",
+    "A security variant, Gemini 3.8 Flash Cyber, is limited to Google's new Fairwind Program for government and critical-infrastructure users",
+    "Closed <b>16.18%</b> below its 52-week high of <b>$408.61</b>"
+   ],
+   "why": "Ad tech is roughly a tenth of Alphabet's revenue, so a forced sale of AdX would have cost less in earnings than in precedent. What the market has been discounting is the tail risk that a court breaks the company up, and this is the second time in about a year that a judge has declined to. Behavioural remedies leave the business intact and merely constrain how the auction runs. Removing a structural risk does not raise next year's profits by a cent; it raises what investors will pay for those profits, because the range of bad outcomes just narrowed.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Split across two sessions, which understates it. Settled close. The ruling landed on Wednesday, when Alphabet rose only <b>0.62%</b>, and the larger <b>1.59%</b> came on Thursday alongside the market. Volume at <b>87%</b> of average is below normal, so this was not a crowd repricing a legal outcome. That is a modest reaction for a breakup risk being lifted, and it may say the market had already assumed Google would win. Premarket <b>+0.39%</b>, thin and provisional."
+    },
+    {
+     "k": "Would flip if",
+     "v": "The sealed opinion, or the joint final judgment due within 30 days, contains interoperability requirements that materially cut AdX take rates. The remedies are not yet specified in public."
+    },
+    {
+     "k": "Next date",
+     "v": "Jointly proposed final judgment within <b>30 days</b>, so by about <b>2 October</b>. Third-quarter results expected late October."
+    }
+   ]
+  },
+  {
+   "ticker": "AMZN",
+   "dir": "bullish",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; sector, not company &middot; settled close",
+   "move": "+1.54% Thursday close, settled &middot; +0.62% premarket",
+   "move_tone": "up",
+   "happened": "Amazon rose 1.54% with no filing or announcement dated 3 September, while AWS took a partial outage and reported disruption at a Bahrain facility.",
+   "figures": [
+    "Close <b>$258.90</b>, up <b>1.54%</b> from <b>$254.98</b>, on <b>83%</b> of average volume, the third-lightest participation of the twelve",
+    "Opened <b>0.53%</b> higher and added <b>1.01%</b> during the session",
+    "Down Detector user reports pointed to AWS problems in the US during Thursday's session, coinciding with outages at several large AI services. Separately, Iranian strikes were reported to have caused temporary disruption at an AWS facility in Bahrain",
+    "Neither event drew an Amazon filing or a service-credit disclosure, and neither is sized",
+    "Closed <b>9.85%</b> below its 52-week high of <b>$287.20</b>, the smallest gap to its high of the twelve after Nvidia, Apple and Microsoft"
+   ],
+   "why": "The interesting thing about Thursday is what the market ignored. An AWS outage and a physical strike on a data-centre region are precisely the risks that should trouble a business whose customers pay for availability, and the stock rose anyway. That tells you investors treat regional outages as noise against a cloud business growing revenue at <b>37%</b>, and that Amazon is currently being traded as a rates-and-capex story rather than an operations one. Microsoft's Azure disclosure matters here too: once Azure is reported in dollars, AWS growth gets compared line against line every quarter.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Nothing company-specific to price, and the outage was not priced at all. Settled close on <b>83%</b> of average volume. This is a sector move. Premarket <b>+0.62%</b>, thin and provisional."
+    },
+    {
+     "k": "Would flip if",
+     "v": "The Bahrain disruption proves more than temporary. A cloud region taken offline by military action is a new category of risk for AWS pricing and for where customers agree to put workloads."
+    },
+    {
+     "k": "Next date",
+     "v": "Third-quarter results expected late October. The <b>$220bn</b> 2026 capital expenditure figure set in July is the number to watch."
+    }
+   ]
+  },
+  {
+   "ticker": "MRVL",
+   "dir": "bullish",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; sector, and a recovery from Broadcom &middot; settled close",
+   "move": "+1.14% Thursday close, settled &middot; +2.45% premarket",
+   "move_tone": "up",
+   "happened": "Marvell rose 1.14% with nothing dated 3 September, after opening lower on Broadcom's results and recovering through the session.",
+   "figures": [
+    "Close <b>$208.83</b>, up <b>1.14%</b> from <b>$206.48</b>, the second-smallest gain of the twelve",
+    "Volume <b>18.71m</b> shares against a <b>25.26m</b> average, <b>74%</b> of normal, the lightest relative participation of the twelve",
+    "Opened <b>1.15%</b> lower, the worst opening gap of the twelve, then rose <b>2.31%</b> from there",
+    "Broadcom fell about <b>6%</b> on Thursday on soft guidance, despite AI revenue up <b>221%</b>. Marvell finished higher on the same day",
+    "Closed <b>36.70%</b> below its 52-week high of <b>$329.88</b>, the widest gap to its high of the twelve",
+    "Its second-quarter results, record revenue of <b>$2.739bn</b> up <b>37%</b>, and the raised fiscal 2027 and 2028 outlook, are dated <b>27 August</b> and are not new",
+    "Premarket <b>+2.45%</b>, the strongest premarket of the twelve"
+   ],
+   "why": "Broadcom and Marvell both sell custom AI silicon, so a weak guide from the larger one normally drags the smaller one with it. Thursday broke that link, and the reason is what each guide contains. Broadcom's disappointment was about the pace of its existing programmes; Marvell's own raised outlook, a week old, points at fiscal 2028 and 2029 revenue that has not been booked yet. When the rate on future money falls, the company whose revenue is further out benefits more, and that was enough to offset a bad read-across. Same industry, opposite treatment, and the difference is entirely timing.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Half-priced, and the intraday path is the evidence. Settled close. Marvell opened <b>1.15%</b> lower on the Broadcom read-across, the worst gap of the twelve, then climbed <b>2.31%</b> to finish up. That is the market rejecting the comparison over the course of a session. Volume was the lightest of the twelve at <b>74%</b> of average, so conviction was low. Premarket <b>+2.45%</b> is the strongest of the twelve and is thin and provisional."
+    },
+    {
+     "k": "Would flip if",
+     "v": "The 6 October investor day fails to size the fiscal 2029 custom-silicon opportunity in dollars. The stock sits further below its high than any of the twelve precisely because that number is still a promise."
+    },
+    {
+     "k": "Next date",
+     "v": "<b>6 October</b>, investor day. Third-quarter results expected in early December."
+    }
+   ]
+  },
+  {
+   "ticker": "AAPL",
+   "dir": "bullish",
+   "strength": "notable",
+   "strength_label": "Notable move &middot; sector, not company &middot; settled close",
+   "move": "+1.00% Thursday close, settled &middot; -0.72% premarket",
+   "move_tone": "up",
+   "happened": "Apple rose 1.00% with no filing or announcement dated 3 September, the smallest gain of the twelve.",
+   "figures": [
+    "Close <b>$328.21</b>, up <b>1.00%</b> from <b>$324.96</b>, on <b>98%</b> of average volume",
+    "Opened flat, within a cent of Tuesday's close, then rose <b>1.00%</b> during the session",
+    "Closed <b>4.75%</b> below its 52-week high of <b>$344.57</b>, the second-smallest gap to its high of the twelve",
+    "A <b>&pound;2bn</b> UK class action over App Tracking Transparency was reported on 3 September. The claim is not new litigation filed that day and Apple has not filed on it",
+    "Omdia reported that Apple has dropped plans for two MacBook models. Apple has not confirmed this"
+   ],
+   "why": "Apple is the shortest-duration story on this list: its cash arrives now, from products already selling, so a change in the discount rate barely touches it. That is why Thursday's rate news did so little for Apple, and why the same insulation helped it when yields were climbing on Tuesday. What actually moves Apple is the product cycle, and the next reading on that arrives in five days.",
+   "foot": [
+    {
+     "k": "Already priced in?",
+     "v": "Nothing company-specific to price. Settled close, ordinary volume. Apple opened flat when eight of the twelve gapped higher, which is what a stock unaffected by the rate news looks like. Premarket <b>-0.72%</b>, thin and provisional."
+    },
+    {
+     "k": "Would flip if",
+     "v": "The <b>9 September</b> launch disappoints. The multiple carries both a product cycle and a leadership premium from the Ternus succession, and a weak reception undercuts both at once."
+    },
+    {
+     "k": "Next date",
+     "v": "<b>9 September</b>, launch event, 10:00 PT. Fiscal fourth-quarter results expected <b>29 October</b>."
+    }
+   ]
+  }
+ ],
+ "readthrough": {
+  "title": "A rate day dressed as a news day. The events were real; the ranking was set by the bond market.",
+  "body": "<b>Read Thursday by duration and it sorts itself.</b> All twelve rose, and the order is almost exactly how far out each company's cash sits. Robinhood, Palantir, Tesla and Nebius, the four longest-dated stories, took the four largest gains. Apple and Marvell, one earning today and one waiting on a fiscal 2029 promise, took the two smallest. Waller did more work than any of the announcements did.<br><br><b>The asymmetry worth keeping is Marvell against Broadcom.</b> Broadcom fell about <b>6%</b> on soft guidance while its AI revenue grew <b>221%</b>. Marvell, the obvious read-across, opened <b>1.15%</b> lower, the worst gap of the twelve, then climbed <b>2.31%</b> to finish up <b>1.14%</b>. The market decided within a session that a disappointing guide about programmes already running says nothing about programmes that start in 2028. Whether that holds is the entire question at Marvell's <b>6 October</b> investor day.<br><br><b>Microsoft's disclosure change reaches Amazon and Alphabet.</b> Once Azure is reported in dollars each quarter, AWS and Google Cloud get measured against a hard number rather than against a growth percentage. That helps whichever of the three is being under-credited and hurts the other two. Amazon's AWS grew <b>37%</b> in the June quarter against Azure's restated <b>42%</b>, so the comparison starts unfavourably for Amazon.<br><br><b>Nvidia's purchase is a read-through for everyone who buys chips.</b> Hugging Face is where open models get published and pulled, and Nvidia has promised to keep it hardware-neutral. If that promise holds, nothing changes for Microsoft, Amazon, Meta or Intel. If it erodes, the default path from an open model to a running model runs through Nvidia silicon, and every alternative accelerator gets harder to adopt. That is worth watching more closely than the <b>$12.9bn</b>, which is under a fortnight of Nvidia's sales."
+ },
+ "nothing_material": {
+  "tickers": [
+   "AAPL",
+   "AMZN",
+   "HOOD",
+   "INTC",
+   "NBIS",
+   "MRVL"
+  ],
+  "note": {
+   "title": "What was quiet, what did not survive dating, and the gaps in this edition",
+   "body": "<b>Nothing material.</b> Six of the twelve had no material filing, contract, result or announcement dated 3 September: Apple, Amazon, Robinhood, Intel, Nebius and Marvell. Robinhood is the striking one, because it moved <b>16.57%</b> anyway. Nebius's only filing was a director's Form 4 disclosing <b>5,885</b> shares after an RSU grant, which is routine vesting and not a signal.<br><br><b>Excluded as old.</b> Marvell's second-quarter results and its raised fiscal 2027 and 2028 outlook are dated <b>27 August</b>. Nebius's <b>$5.75bn</b> convertible offering priced on <b>19 August</b> and closed on <b>24 August</b>. Meta's <b>$17.1bn</b> multistate teen-safety settlement was approved on <b>26 August</b>. Microsoft's <b>$678bn</b> commercial backlog, up <b>84%</b>, and Azure passing <b>$100bn</b> for fiscal 2026 came with results on <b>29 July</b>. Robinhood's <b>$156m</b> event-contract quarter is from results on <b>29 July</b>. Intel's <b>$20bn</b> equity offering priced on <b>10 August</b> at <b>$95</b>. Amazon's <b>$220bn</b> 2026 capital expenditure figure is from <b>30 July</b>. First reports that Nvidia was buying Hugging Face appeared on <b>26</b> and <b>27 August</b>; only the confirmation and the terms are new. All of these recirculated in coverage over the past 24 hours. None of them happened in it.<br><br><b>Dated Wednesday, not Thursday.</b> Three of the items written up here landed on <b>2 September</b> and were priced on Thursday: the Google ad-tech ruling, Microsoft's segment and Azure disclosure change, and Meta's Muse Spark 1.3 release. Each block says so. Nvidia's definitive agreement is dated <b>2 September</b> and was confirmed publicly on <b>3 September</b>.<br><br><b>Not treated as news.</b> Omdia's report that Apple has scrapped two MacBook models is a research-firm claim with no company confirmation. Reports that Nvidia-backed Thinking Machines is in talks at a <b>$40bn</b> valuation are unconfirmed. The <b>&pound;2bn</b> UK App Tracking Transparency class action against Apple surfaced in coverage on 3 September but is not new litigation filed that day.<br><br><b>Earnings.</b> None of the twelve reports within fourteen days. The next scheduled results are Tesla on <b>21 October</b> and Intel on <b>22 October</b>.<br><br><b>Gaps in this edition.</b> There is no edition dated <b>3 September</b> in this archive, so the <b>2 September</b> session was never written up. That matters here, because several of Thursday's drivers were dated Wednesday and their first-day price effect is not recorded anywhere on this page. The extended-hours feed carried genuine premarket prints for ten of the twelve this morning, stamped between <b>04:54</b> and <b>07:01 ET</b> on 4 September. Microsoft and Meta carry Thursday evening prints instead, stamped <b>17:43</b> and <b>16:12 ET</b> on 3 September, so those two are recorded as after-hours and their premarket is null. Intraday charts for AMZN, GOOGL, META, NBIS, NVDA and PLTR redrew from cache because the intraday fetch was throttled; all twelve daily series are current to 3 September, so nothing on this page silently omits a session. sec.gov is blocked from this environment, so Nvidia's 8-K, Microsoft's 8-K and Nebius's Form 4 are attributed to coverage of them rather than read directly. Reports differ on Palantir's close, quoting <b>$183.03</b> and <b>8.01%</b> against this feed's <b>$182.53</b> and <b>7.71%</b>; the feed figure is used throughout and both agree on the <b>$169.46</b> prior close."
+  }
+ },
+ "earnings_ahead": [
+  {
+   "when": "4 Sep",
+   "what": "<b>Macro</b> August employment report, 08:30 ET. Consensus about <b>53,000</b> jobs, unemployment <b>4.1%</b>. The last jobs print before the FOMC"
+  },
+  {
+   "when": "9 Sep",
+   "what": "<b>AAPL</b> launch event, 10:00 PT. Ternus's first as chief executive"
+  },
+  {
+   "when": "11 Sep",
+   "what": "<b>Macro</b> August CPI. The other half of the case Waller made on Thursday"
+  },
+  {
+   "when": "16 Sep",
+   "what": "<b>Macro</b> FOMC decision, meeting 15 to 16 September. The market now splits about evenly on a hike"
+  },
+  {
+   "when": "by 2 Oct",
+   "what": "<b>GOOGL</b> jointly proposed final judgment in the ad-tech case, due within 30 days of the 2 September ruling"
+  },
+  {
+   "when": "6 Oct",
+   "what": "<b>MRVL</b> investor day. Sizing fiscal 2029 custom silicon in dollars is the question"
+  },
+  {
+   "when": "early Oct",
+   "what": "<b>TSLA</b> third-quarter deliveries, and the first read on whether Cybercabs carry paying passengers in Austin"
+  },
+  {
+   "when": "21 Oct",
+   "what": "<b>TSLA</b> third-quarter results"
+  },
+  {
+   "when": "22 Oct",
+   "what": "<b>INTC</b> third-quarter results expected"
+  },
+  {
+   "when": "late Oct",
+   "what": "<b>MSFT</b> first-quarter fiscal 2027 results, the first with Azure reported in dollars on the two-segment basis"
+  },
+  {
+   "when": "29 Oct",
+   "what": "<b>AAPL</b> fiscal fourth-quarter results expected"
+  },
+  {
+   "when": "H1 2027",
+   "what": "<b>NVDA</b> Hugging Face acquisition expected to close, subject to regulatory approval"
+  }
+ ],
+ "data": {
+  "session": "2026-09-03",
+  "source": "twelvedata quote endpoint, prepost=true, fetched 07:00 ET 4 September. Ten of the twelve carried a genuine premarket print stamped between 04:54 and 07:01 ET on 4 September. MSFT (17:43 ET) and META (16:12 ET) carried 3 September evening prints instead, so those two are recorded as after-hours and their premarket is null.",
+  "fetched": "2026-09-04T11:03Z",
+  "tickers": {
+   "AAPL": {
+    "close": 328.20999,
+    "pct": 1.00012312,
+    "open": 324.94769,
+    "high": 330.81,
+    "low": 324.10999,
+    "volume": 37197362.0,
+    "avg_volume": 37789716.0,
+    "high_52w": 344.57001,
+    "premarket_pct": -0.71600241,
+    "afterhours_pct": null
+   },
+   "AMZN": {
+    "close": 258.89999,
+    "pct": 1.53737,
+    "open": 256.32001,
+    "high": 259.5,
+    "low": 256.0,
+    "volume": 26809147.0,
+    "avg_volume": 32495925.0,
+    "high_52w": 287.20001,
+    "premarket_pct": 0.6180016,
+    "afterhours_pct": null
+   },
+   "TSLA": {
+    "close": 376.36499,
+    "pct": 5.42141,
+    "open": 365.91501,
+    "high": 384.040009,
+    "low": 365.91,
+    "volume": 62838720.0,
+    "avg_volume": 41462942.0,
+    "high_52w": 498.82999,
+    "premarket_pct": -2.017985,
+    "afterhours_pct": null
+   },
+   "PLTR": {
+    "close": 182.53,
+    "pct": 7.71273,
+    "open": 172.35001,
+    "high": 185.83,
+    "low": 171.9375,
+    "volume": 38010148.0,
+    "avg_volume": 32286645.0,
+    "high_52w": 207.52,
+    "premarket_pct": -0.64098986,
+    "afterhours_pct": null
+   },
+   "MSFT": {
+    "close": 510.12,
+    "pct": 2.67702,
+    "open": 502.14001,
+    "high": 515.64001,
+    "low": 500.79999,
+    "volume": 24108434.0,
+    "avg_volume": 22561593.0,
+    "high_52w": 553.71997,
+    "premarket_pct": null,
+    "afterhours_pct": -0.082332612
+   },
+   "GOOGL": {
+    "close": 342.48001,
+    "pct": 1.58994,
+    "open": 340.35501,
+    "high": 344.66,
+    "low": 340.059998,
+    "volume": 20685797.0,
+    "avg_volume": 23710100.0,
+    "high_52w": 408.60999,
+    "premarket_pct": 0.38542075,
+    "afterhours_pct": null
+   },
+   "HOOD": {
+    "close": 124.72,
+    "pct": 16.57165,
+    "open": 113.8,
+    "high": 124.88,
+    "low": 113.040001,
+    "volume": 51380900.0,
+    "avg_volume": 24796260.0,
+    "high_52w": 153.86,
+    "premarket_pct": -1.15459,
+    "afterhours_pct": null
+   },
+   "NVDA": {
+    "close": 228.45,
+    "pct": 1.80027,
+    "open": 226.020004,
+    "high": 230.39999,
+    "low": 224.75,
+    "volume": 133890362.0,
+    "avg_volume": 155574576.0,
+    "high_52w": 236.53999,
+    "premarket_pct": 1.24754,
+    "afterhours_pct": null
+   },
+   "INTC": {
+    "close": 91.67,
+    "pct": 1.799,
+    "open": 89.35,
+    "high": 92.37,
+    "low": 87.73,
+    "volume": 79724500.0,
+    "avg_volume": 81333880.0,
+    "high_52w": 142.35001,
+    "premarket_pct": 1.55995,
+    "afterhours_pct": null
+   },
+   "NBIS": {
+    "close": 210.63,
+    "pct": 3.20447,
+    "open": 202.78999,
+    "high": 211.668,
+    "low": 196.63,
+    "volume": 10639270.0,
+    "avg_volume": 13329217.0,
+    "high_52w": 299.85999,
+    "premarket_pct": 1.84684,
+    "afterhours_pct": null
+   },
+   "MRVL": {
+    "close": 208.83,
+    "pct": 1.13813,
+    "open": 204.112,
+    "high": 212.77,
+    "low": 201.1021,
+    "volume": 18712337.0,
+    "avg_volume": 25263874.0,
+    "high_52w": 329.88,
+    "premarket_pct": 2.45175,
+    "afterhours_pct": null
+   },
+   "META": {
+    "close": 610.67999,
+    "pct": 3.0075091,
+    "open": 604.48999,
+    "high": 619.44,
+    "low": 604.34998,
+    "volume": 19692164.0,
+    "avg_volume": 16471336.0,
+    "high_52w": 790.79999,
+    "premarket_pct": null,
+    "afterhours_pct": -0.013098951
+   }
+  }
+ }
+}
