@@ -398,7 +398,7 @@ def render_live(editions):
 
     return (
         '<section class="band reveal">'
-        '<h2>Live news &middot; refreshed every few minutes</h2>'
+        '<h2>Live news &middot; checked every 5 minutes</h2>'
         '<div class="nstatus" data-news-status>'
         '<span class="ndot" data-dot></span>'
         '<span data-stamp>Loading the feed&hellip;</span>'

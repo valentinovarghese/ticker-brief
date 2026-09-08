@@ -12,10 +12,15 @@ name: news
 # Expect most refreshes inside 5-15 minutes and occasional longer gaps. The
 # page shows the true age of the data and marks itself stale rather than
 # implying a freshness it does not have.
+#
+# Do not use */5 here. That includes minute 00, when GitHub documents the
+# scheduler as being under its heaviest load and liable to delay or drop jobs.
+# Starting at minute 3 preserves the five-minute interval while moving every
+# run away from the busiest boundary.
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "3,8,13,18,23,28,33,38,43,48,53,58 * * * *"
   workflow_dispatch:        # lets a run be triggered by hand for testing
 
 # Two overlapping runs would race on the same commit. Let the newer one win:
