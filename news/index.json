@@ -1,6 +1,6 @@
 {
- "checked": "2026-09-08T09:05:44+00:00",
- "changed": "2026-09-08T09:05:44+00:00",
+ "checked": "2026-09-08T13:32:40+00:00",
+ "changed": "2026-09-08T13:32:40+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -9,12 +9,25 @@
     "title": "Dow Futures Fall, Oil Jumps With Apple, Inflation Ahead; Nvidia, Micron, Sandisk Flash Buy Signals",
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVkNwTzBSQWNTTHV3eXJqNld3RExCMTdvV2RxamFLZXA4cWljTTk2UHp4STkyRU5fcmZQNm51NzBINXVfdG9GZm9ZOXVhcWc2TDJETW1hWU9CUkxHUlJOS2lGN3BWeDFpdWZ5aW4teFk3bkJBMlFiUDNRX0tRdlBMT09GNkw3TElWallla2Z3SWRjcXFGRVJwXzFWcmNRdXNSWTJVZGpPNzJCb1hQVzdpTHlqWjVTcFJsMzg4aGpxSmpNWGhP?oc=5",
     "source": "Investor's Business Daily",
-    "published": "2026-09-08T08:09+00:00",
+    "published": "2026-09-08T11:31+00:00",
     "score": 5,
     "tags": [
      "ma"
     ],
     "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "6f6f996793bf7c10",
+    "title": "Foldable iPhone to launch with limited stock after Apple pushes producers on quality standards - report",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPeUp0UjlmeDhjSEZCWEtFQVI1cW1NRzRscmZXNDRoUTFRS1NLcC03RS16VmJRTDJxRUhNdVV4UlJSR2duMkJCLWp4RGJOVF9iTWZSUkZLZzFkTWRKSjdEbjFHdDloTEIwM3lCOVhPZ1BpMmhmUFBxb3BKejhvT2NYMGVrQlN1S2VVdG5QYlFxY3hyTDNQdWRLVy1YY2I4UXNSaEVsbG5zRlB0U2FKVnAwMU5LUjdsQzBMU3pIUVY3NVJNSjhOTHhBOVM4MHlLeG8yaUVQM1lHcFVwdnh1?oc=5",
+    "source": "Telecompaper",
+    "published": "2026-09-08T10:42+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
     "primary": false
    },
    {
@@ -98,6 +111,45 @@
    }
   ],
   "AMZN": [
+   {
+    "id": "9ed53d3adc34e853",
+    "title": "Qualcomm stock pops 10% on data center infrastructure deal with Amazon",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRV8zb0t6akRzdWkxb3lvRmxFUExhc2F2Tk5EOFJURTdfTzF2M2JZSXR2LU9EQVJSVXNwSVJWLTVpa2xXQVU4VlZjU21RZ2M1QmlKekd3cDJrUnhqVjBzLS0zVVRNeUU5dE5SMXRHV1RSVTN4MlBCWFlkWFRNTUxadWxOQ3JpZUh1N3JsU9IBkgFBVV95cUxOLVJPVjlLVVlKN20yWm5XbnpkbmV3X1VtQzdFazhVTld2cFpWVW92OUZlYjd6LUlRQmhDekI4X3NqN3JXY09ZMjJrTkc3dXMwdXFoT0pLc1RGbEFtVXpuY0ZlMHV2V0hSSzFOTUl1YlZJSkFzcjIxWGoyRlRUZ1VDV0ZjX1lDRk84elk5UWduaS0wUQ?oc=5",
+    "source": "CNBC",
+    "published": "2026-09-08T13:09+00:00",
+    "score": 5,
+    "tags": [
+     "contract"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "4511c940dccb3fea",
+    "title": "Amazon now carries a plant-based product for dogs with loose stools",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObzRvaldmOEhHRXRFQ3NlTWxQT053Mko4M04ydTE3UHNmRW9EV0Z6U0hhcUZvRkQxVGRuTVJCT0VfbVlWRXNBMEl6US1PUngxb2pERWd0a2xrRVN0ZWl3UFpxYkdtVFF0WTR6RklXelZLQzRSQ2FJbzhLWndkM1RfVnZTbjBoMml3RWhrZ3gtVTE1RVBGWlBITXIwLWZ4YWY5QkE0Y2d0QmRjenVnVmxuemZtbFBVN190NEJPb3Fxalc?oc=5",
+    "source": "Stock Titan",
+    "published": "2026-09-08T13:00+00:00",
+    "score": 5,
+    "tags": [
+     "operations"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "1713bde102eac920",
+    "title": "Amazon, Boeing Stocks Fall as Investigation Into Fatal Miami Plane Crash Ramps Up",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAza3NoTUFzMFJpcHEwZ2tBWFRMRnFjQ1dTTjlSZjdlS2hYMkdzcFBZemlGTHRURkpjX0tUdVU1RG9UUkM1Qmxzam80WXd5RzE2QUM1NmJFY2thRVRYeHMybEpqY0dnbFdTUnNUN0RXNkNuMElkdmQ5MGtzTk10UQ?oc=5",
+    "source": "Barron's",
+    "published": "2026-09-08T10:35+00:00",
+    "score": 5,
+    "tags": [
+     "legal"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
    {
     "id": "ec6002091ab5d085",
     "title": "Peter Thiel's Fund's Single Biggest Reported Position Is Amazon. $10,000 Invested in Amazon 10 Years Ago Is Worth About $66,000 Today.",
@@ -218,19 +270,6 @@
     "primary": false
    },
    {
-    "id": "d580f94088257115",
-    "title": "TSLA Stock Quote Price and Forecast",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9qejEtbzhHOHJnMXJRWUVEbUxyUFF0RnJuNEtEN0U4Mk4wTlIycHNTejNyYTJYQlRDMFRCMllMcGJtNV81S0RNME9IZFBSZkRJ?oc=5",
-    "source": "CNN",
-    "published": "2026-09-07T03:44+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "7d598c5d6727a4a8",
     "title": "Is Tesla a Buy in 2026? Why AI and Robotaxis Now Define TSLA’s $1.5T Valuation",
     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQSGlRZERfNUN5bFVLYWVyZTlqdXpMc0o5QXhuTm4zQlI0UDBTU3NoVjVaTnhUeTZ1U2RDM0dxdWVQQ2VlMk9XdjE4UXhUTFR2LWgzTG45Z0RlcEY0MnEwZkhmSjREMjJJNEhQTW00SmxsMFpzZ2hFLVcwcUljcUhXNFA4aUJzR0NZVTl4V3VWMWF3NGZnZlkyTWpaWXZkaHVlNDFodWg4TFk5bEJCLUhVb3lLMXNhbzUzYlV0bkc3cWhVX0RQUzFjRVltSFJCSWxjVkNfYnJlYzFacUxxNW1NcUpR?oc=5",
@@ -314,6 +353,19 @@
     "primary": false
    },
    {
+    "id": "b5373dad1b80afdd",
+    "title": "AMD shares advance on strategic agreement with Microsoft around Helios system",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONWZSbnZNd2l6MkhJa2xJa0ZWaHRZNXJaOWhxNzhndG5XWHJUSUNRcERMNnc1eEx3ZzZsQmM1TWUtSlBZSlUtS3dsY2l2VmVuSkdEV09nVWRvNWZ2b2RsOWNVbl9qbFNITVRENzZOOXlpbHNJZ0tabGp5Zkx3Y3hYbVZIb1ZwUENVc0tFa0NSZlljYzk0b2lzV25Fakt6VjdtTzNVV3RGckxrVUpqVVpwU1VXTVhUTHBZcmRNeWEwOWo3UDQ?oc=5",
+    "source": "equiti.com",
+    "published": "2026-09-07T06:38+00:00",
+    "score": 5,
+    "tags": [
+     "contract"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "433aff9122605cdf",
     "title": "Microsoft (MSFT)’s Outlook and OpenAI’s ChatGPT Work Both Broke the Same Day",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPd25kUWt2VTdtRHFKMVNxbEpfcnVZejVncVp4MzRrQ05paXA4ai1wZldJenZiUnJvSU83a2g4d3d1RmdGTHBweUR6VHY2VHpZaEw3eXpWeEIzd0xBZkI0R0tTamNjMXRaNjNMTnM0VWNpTEdxZFJmUTMxSzN3am1DQTJSMGdEdkhaaldIZnNNUQ?oc=5",
@@ -341,6 +393,19 @@
    }
   ],
   "GOOGL": [
+   {
+    "id": "952b186272701589",
+    "title": "GOOGL Stock Quote Price and Forecast",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5UbkhMMngyaG5RbUxmS1ZGOGtMZGpWMi1GZWM4TGdVUV9kT0wwRjhITEVWVERVZnY4ekZhU0lFbWtMNWhjZGpJdm1iek5wS0lrZUE?oc=5",
+    "source": "CNN",
+    "published": "2026-09-08T07:03+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "833fb7079e4b99e1",
     "title": "Alphabet C stock heads into the open after an ex-dividend move",
@@ -384,7 +449,7 @@
     "id": "1d77cc525116c9a4",
     "title": "Weekly Recap: Berkshire stake in Alphabet Inc. Class C and Q2 revenue +24%",
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcHRpZWFLc010VHl3bjlhaWNKSVBJV1BjRUhnMTl5X0NDSlAwSmtsRTBicVo4cWpLTnFreWE0bDE2SldYeFd0eFBKTXFQYlU4UDNvNFQxMEZmeS1pWEk5SkUyYzVYMDI0MFQxRHNPQW1jMzF6UWUwbUpQVWh6N1FITmtGazBsU1FJUU1zeTBIOU55VElUN3RUVWtacS1RQUx4NDJxdlljamlJOUFmOWh4Y1RMbklxejBVNUx0QXBMNUlyNDNhaDhmWHkycmQ?oc=5",
-    "source": "TradingView",
+    "source": "tradingview.com",
     "published": "2026-09-07T11:22+00:00",
     "score": 11,
     "tags": [
@@ -422,23 +487,10 @@
     "primary": false
    },
    {
-    "id": "952b186272701589",
-    "title": "GOOGL Stock Quote Price and Forecast",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5UbkhMMngyaG5RbUxmS1ZGOGtMZGpWMi1GZWM4TGdVUV9kT0wwRjhITEVWVERVZnY4ekZhU0lFbWtMNWhjZGpJdm1iek5wS0lrZUE?oc=5",
-    "source": "CNN",
-    "published": "2026-09-07T01:20+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "a6b3fcbcca0c0373",
     "title": "Martin Chavez Reports 1,181-Share Gift in Alphabet Filing",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTktvYV9wbTdfN3RySi1TMHAtMHJqVmRYRVhHMUd0ekRSbGx6UzMtWWROSlJRNVRyd3hYQ2xScXdfTkJpbWdDam1aNE9RMEVVQ2lLeFl1ZnBEZUFzNGE3Z1hvWTc1T0dWQXZ5Y29HOFM1TUR3dW1hQ0N6SHduNmdDal9OY1k1dnlPQjVFRzlJNHQxd1Vjdmc?oc=5",
-    "source": "TechGraph",
+    "source": "techgraph.co",
     "published": "2026-09-06T17:43+00:00",
     "score": 6,
     "tags": [
@@ -466,7 +518,7 @@
     "id": "c19713b1e266cb54",
     "title": "Robinhood Wins a New Role in the Oura IPO: Underwriter",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ1NkcUxrengxdF9DdlRIOHlsNzk4eTQ1N09KaW5wdnJrUVZaaHBCYm1xOG1uSDJaaENxLTJEckwwanNtaHcxNUZiSUpRVld6U2ZJaEdfOTJqM0ZNcHo1Y3NPQ1hpOTBQNHpKcE9sZ0ZrTEdTMTRFckoxNGloWkN6UUhOeGJDMXN0ZmpmQkNaRGYySVY0?oc=5",
-    "source": "WSJ",
+    "source": "wsj.com",
     "published": "2026-09-07T20:08+00:00",
     "score": 5,
     "tags": [
@@ -489,6 +541,19 @@
     "primary": false
    },
    {
+    "id": "bf1bdab0da01f574",
+    "title": "Cathie Wood Buys The Dip In Robinhood Stock, Solana ETF As Jobs Data Sparks Market Crash",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1SMUstUU9PbDB2VlJDM3Nra1VzUnNuV3l1SjB0TkhLM3Y3NXJiTmNLNzVOM1pfbUgzQUpoM0RCZzc4MVF6WHZhOGd6Qkp3SXVXRUV6SjdKNlA?oc=5",
+    "source": "cryptonews.net",
+    "published": "2026-09-07T11:00+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "0cda34aaecef47f4",
     "title": "Robinhood Chain Reports Record DEX Trading Volume As Tokenized Stocks Gain Traction",
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbkIyR2l3THE3aGRNVEt6djhDa3JUS1ItVzI4QjliQ2JlSEJLSlF2OC1HRFJXcWtrNEFueUItX2llV2ZTNmFlbFlJS1JiZFd6bTMtRW1UZm9TRFJXY0pRb1c5YlBVNVJobVgtdi1Dd2JJNkhJOWxJQ016Yjd5OW9PaDhzcFlhM054QlJja0x4SWxWSGtSQnRPb2hjM3hFb2NVVlF0ZWZYX29rbEgyM0dWTGdxcHFjRmtUT1hrc0FUMnlIRkNoY3NIbGFhLVM?oc=5",
@@ -499,19 +564,6 @@
      "earnings"
     ],
     "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "bf1bdab0da01f574",
-    "title": "Cathie Wood Buys The Dip In Robinhood Stock, Solana ETF As Jobs Data Sparks Market Crash",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVUlEN2d2RlJPT3N4Y0pCYUxpY2xSQUo0bkgyeUptaExpYjdYR1dERVBCcnRkVC1lOXZQNG52QWQzYmI2aVpYUUN5U0tsMHZBdDlSMUFSYzFyNy1lV1JSX3ByQmNhNkJWWjlLV0NOSzlZMFptRXVVYnZOODZZTHhpYTVFaXhOVFFncWFubEVGZThHSnZSYU9nejctQm9vdXotSGd0UlJsR01menVpeWc?oc=5",
-    "source": "CoinGape",
-    "published": "2026-09-06T20:48+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
     "primary": false
    },
    {
@@ -526,28 +578,15 @@
     ],
     "direction": "positive",
     "primary": false
-   },
-   {
-    "id": "e147839e757bcb84",
-    "title": "Should You Forget Robinhood and Buy Webull Instead?",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSDdjeWdtcjVDaVExMHNyUmJEQnlCNWVadGpGQ0JjRk9DQU9FejVHU1Joakg1U0JmUDBXdk9VWXBCaFItYlRZMk9DWGhFc2pfN2NSOVpWZlpWd2p2TFZjeFVkRzU0QW9vZFBqTkhYcjk1eVRUR3FuLXpWZFFtQWFCSUQyT01ZcmJEMUZRNFpCZmxTczIxN09paW9CWG84QTQ5Q3c?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-06T10:20+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "NVDA": [
    {
-    "id": "cac325e2e9417713",
-    "title": "Huang calls Nvidia compute as 'highly rentable' revenue-generating asset (NVDA:NASDAQ)",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOY3NfTzVvSGlrc2N5Zk5YYzh6NlpVX1N3VFlXWnpRVkZVdERIelVRYzNZcnItQWJBR0pkREN2VWlrM1FoTmxHZFRDVVJpYVMtMzRKWDJHN0NYT3FHazlUT0RLM0lTLWRQY2J0ZUMyTmNsa0FkUy0zMG9icFZOUHVpRkY1aFd2a0RRWENWLXFZakFGLTRIRW9IR1k5cTdjWGRjdFZ5ZHlIc0RwT010?oc=5",
-    "source": "Seeking Alpha",
-    "published": "2026-09-08T08:20+00:00",
+    "id": "2950ac7bc556d6cc",
+    "title": "Cantor Fitzgerald reiterates Nvidia stock rating on AI demand outlook",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTXlwaGRua0dLSllMWWlSOHVHaU9vT2tlN0RIUnEzUUU4NkI1LXYyRXVYak5XTXZBTVJxV3NEZEYtRnZwUWlFMzJscDZUVks2MW1rWVhqaXhKNmVqNW8tV3lMTTRmMmpXQWswSGV4NklZT2pnVjlxdlFmWnNwQzI3QllraTBwUGdfd3dwUENfcmFpazkwM19ZRU9QSkllUlBBNDVMWEdXNHJuRkZfcWxRWGRhVU1DUXVtcTBxeHpFTHllS1g0RHppaQ?oc=5",
+    "source": "Investing.com",
+    "published": "2026-09-08T13:08+00:00",
     "score": 6,
     "tags": [
      "earnings"
@@ -560,10 +599,23 @@
     "title": "Dow Futures Fall, Oil Jumps With Apple, Inflation Ahead; Nvidia, Micron, Sandisk Flash Buy Signals",
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVkNwTzBSQWNTTHV3eXJqNld3RExCMTdvV2RxamFLZXA4cWljTTk2UHp4STkyRU5fcmZQNm51NzBINXVfdG9GZm9ZOXVhcWc2TDJETW1hWU9CUkxHUlJOS2lGN3BWeDFpdWZ5aW4teFk3bkJBMlFiUDNRX0tRdlBMT09GNkw3TElWallla2Z3SWRjcXFGRVJwXzFWcmNRdXNSWTJVZGpPNzJCb1hQVzdpTHlqWjVTcFJsMzg4aGpxSmpNWGhP?oc=5",
     "source": "Investor's Business Daily",
-    "published": "2026-09-08T08:09+00:00",
+    "published": "2026-09-08T11:31+00:00",
     "score": 5,
     "tags": [
      "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "585abc3303cdabad",
+    "title": "Huang calls Nvidia compute a 'highly rentable' revenue-generating asset (NVDA:NASDAQ)",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOY3NfTzVvSGlrc2N5Zk5YYzh6NlpVX1N3VFlXWnpRVkZVdERIelVRYzNZcnItQWJBR0pkREN2VWlrM1FoTmxHZFRDVVJpYVMtMzRKWDJHN0NYT3FHazlUT0RLM0lTLWRQY2J0ZUMyTmNsa0FkUy0zMG9icFZOUHVpRkY1aFd2a0RRWENWLXFZakFGLTRIRW9IR1k5cTdjWGRjdFZ5ZHlIc0RwT010?oc=5",
+    "source": "Seeking Alpha",
+    "published": "2026-09-08T08:20+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -579,19 +631,6 @@
      "capital"
     ],
     "direction": "negative",
-    "primary": false
-   },
-   {
-    "id": "f25a57d7b170a69f",
-    "title": "Top M&A Deals In September: Nvidia, Dominion Energy, Nextera Energy, Vertiv In Focus",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNT3hiWHNPenhQa2QySzVaNFc3Y09ZM09nYTZyVUZndnV2LWR4aTN5X0tFcWR2VXkwbGNwQTl3M0xuMUk2bXhHeHNWaVUtRkhPdS1ZOHFNY29PY3lMZ3MtbHBlRGl3c01lNXpEZnJIMlhkd0dNR0hBZk5IdmNaVHJSVzV4RDdldE9zS3JYOWQzZUF0NkRNY19hSw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-08T06:12+00:00",
-    "score": 5,
-    "tags": [
-     "contract"
-    ],
-    "direction": "neutral",
     "primary": false
    },
    {
@@ -675,6 +714,58 @@
   ],
   "INTC": [
    {
+    "id": "162a54d4e9d89a8a",
+    "title": "Intel shares rise nearly 5% before trading amid reports of possible price increases",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTEVfRFZVejhGbHY0bGxsSmstVXBzbUM3ZlFkWWlzUjlGN3NoNWRsQVd1R3NFU2IxemlnRWpTcXk5OVlKQkE0S0RkVDNlNFFkYTc4QmUwTW53WVBuZkNKYUoyRmdqN1d1NEY1RFYwdUxKb1czQlltUFZoMEhjMlNneEk3ZHBKVmFzZFVpY3RBQXZiNFlKZzFIVkwwZXMwQVZoT2pVZjNKdnNSRUY1cGRndE15UnBIaHdTUGhhMERHUFFxSHM?oc=5",
+    "source": "UA.NEWS",
+    "published": "2026-09-08T13:29+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "358f12382c5de63c",
+    "title": "Intel Stock Tops $100 Pre-Market as High-NA EUV Enters Mass Production, Trump Posts INTC Stock Chart Again",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZ09qYTBvUW53RS12OUFtSWRjeFZfRDh3RFMyNDNCWVNHazFpRFNhT1N2MDNvY0tfWmxCOVRqMmpPOWhQZnFTczlTbElyZ0hUd24zYzVYX01rakRibkpWSTVfVDFuaUVXcnpwOW5OU2FIUDZROGFOOFJBY1hKRk84cC1xWlR6aEtlRkFwWU5aaEtyNGlnLXJ2NnNrQ2ZsSmVadngwd0l3UHJzb0ZtdDFmTk1TTzBFX1JUZWh5OUk4Y2s4Uk45TTBIMUVTaEtjajNrb1E4djR1SQ?oc=5",
+    "source": "TradingKey",
+    "published": "2026-09-08T12:08+00:00",
+    "score": 8,
+    "tags": [
+     "operations"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "5f5d263325b1a901",
+    "title": "Intel rises amid Northland Securities upgrade, price hike report (INTC:NASDAQ)",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcE9KaElNakExSm9uVUJGM2pGcU5iQ3gyM2U3bkswZVZBTEhXS3FGaXVaZjV0R1pLUnBOQUlGdFFMV0hHSkM5aEZGbTFFenN6ZVlkVWw1REZudGpTd1ppc2RoS1V6WGdtamJoRFZ4RWxUMGxNSEMxS2VvbWNqQks4Zkw1SnJFYzgwTlVIWTFiMHZkX0hfV0dhZkR5OXhIemtzdWhz?oc=5",
+    "source": "Seeking Alpha",
+    "published": "2026-09-08T11:53+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "f7e8b138733a9a1b",
+    "title": "Intel Shares Jump Premarket After Report on Price Hikes",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZkwxdHZHWXhXZDMyRFdyU1lmNWpwbWJoOUYweXV6b1VKTWJENTRlM3h6VGhVT04zOEFEeU5UWWlycGtYNW0tVEhCeFFTWm0tYWVoUGdqMnY4UU56OG5PWkhVQzB2U1k1ekhtUlY4LVQxWEIxTWNNcFBNZG41cEZYTWlIWl8wMFE4dVdNQmgtek1SeTNfRDRGSERpZXRSNkpKNXJOclFlR1VvMFFS?oc=5",
+    "source": "marketscreener.com",
+    "published": "2026-09-08T10:30+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
     "id": "b43f6791d9022f82",
     "title": "Intel Stock: A Reported 10% CPU Hike Can Offset a 9.1% Volume Drop",
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQW5HQ3NUakYyYnJSZnNDcW9BTXFBTkZDZVF0RFlPR3BjcjM1R19IcUVrUThrY3FoOFAycVVVVXpPdnpSMVAzT0ZuTkxKTEVFRHc0bXA5WDJzVFlldkllLS1PNVJkTnJxVzF6NTBqQlJTMnVELVNtZWd0eE04a0gzbU5KN1FseExmLWpkYg?oc=5",
@@ -704,7 +795,7 @@
     "id": "b86a23dc25336e95",
     "title": "Donald Trump Latest News: ‘Hundreds of Billions of Dollars’ – Trump Claims Stock and Investment Gains for US as AI-Generated Truth Social Posts Put Intel Deal Under Spotlight",
     "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxQOXVUYWFxQjFwQ0o5N1EwMjhobkdKSFNRTTAxMUdCYmNCOG9rRGlOQmNjRU9WaElJcVdoVmRLZnFJZTZHZE9JYTdIeWNDT2dPNnZidkNURWlZbW9WYjhscVFOdElERVlYSUN6QnBjTVUtZHpyOUhLbVkteXFCQVg0SzhIOE00aXZIaVdlbVFBQXBkcm1SNmtFLTVaYUdMYkE2aGhROFVRZVA4dS1ScVYza3lfZ29heE1uUFBPVmxzZF90SEczcFFDT3h6VXBJWUZSYU9pUVJNRlh1WHkyMVRHV3VUek9YNnRJUnRIWC1saXZwNldXMElhSkN5WExmYnAwTEFxd1I4LUJqODRnUjhnUEd3aEpxVC1WOWxsRlJoYWVjM2ZtYXdUQjNfLTU0MmxGWFpxMzVabFU4d9IBvwJBVV95cUxNdS1PRXRLVnFoc0drdmFaaDR",
-    "source": "The Sunday Guardian",
+    "source": "sundayguardianlive.com",
     "published": "2026-09-07T14:06+00:00",
     "score": 5,
     "tags": [
@@ -837,5 +928,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 59
+ "count": 66
 }
