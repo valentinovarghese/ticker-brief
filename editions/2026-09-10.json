@@ -1,0 +1,673 @@
+{
+  "date": "2026-09-10",
+  "weekday": "Thursday",
+  "headline": "Meta gained 6.55% on Muse and Marvell rose 4.26% on AI-connectivity positioning while oil above $100 pulled the index lower.",
+  "gauge": [
+    {
+      "text": "QQQ -0.29% Wednesday close",
+      "tone": "down"
+    },
+    {
+      "text": "QQQ -0.30% premarket",
+      "tone": "down"
+    },
+    {
+      "text": "updated 07:02 ET &middot; before the open",
+      "tone": "flat"
+    },
+    {
+      "text": "12 tickers &middot; session of Wednesday 9 September",
+      "tone": "flat"
+    },
+    {
+      "text": "premarket prints stamped 04:43-07:02 ET on 10 September",
+      "tone": "flat"
+    }
+  ],
+  "quick": [
+    "<b>Meta +6.55%:</b> the largest gain of the twelve and the settled reaction to Muse, the personal agent launched late Tuesday.",
+    "<b>Marvell +4.26%:</b> the second-largest gain of the twelve as the company set out the connectivity and memory products it will show at next week's AI Infra Summit.",
+    "<b>Alphabet -2.28%:</b> the largest fall of the twelve as Google committed a minimum of EUR13bn to Finland infrastructure while higher oil and Treasury yields pressured the wider market.",
+    "The tape split <b>3 advancers and 9 decliners</b>. Thursday premarket splits <b>4 higher and 8 lower</b>, with QQQ down 0.30% before PPI."
+  ],
+  "macro": [
+    {
+      "dt": "<b>The S&amp;P 500 fell 0.5%, the Dow lost 0.8% and the Nasdaq composite declined 0.6% on Wednesday.</b> Brent crude jumped <b>3.4%</b> and moved back above <b>$100</b>",
+      "lead": "Oil, inflation expectations and bond yields outweighed two large company-specific rallies",
+      "dd": "AP reported that traffic through the Strait of Hormuz remains constrained. Higher energy and freight costs raise near-term inflation expectations, while the ten-year Treasury yield reached <b>4.85%</b> before ending at 4.84%, up from 4.80%. Nine of these twelve stocks declined even though Meta and Marvell advanced sharply."
+    },
+    {
+      "dt": "<b>The two-year Treasury yield rose to 4.43% from 4.39%.</b> AP put the probability of a September Fed increase at <b>62%</b>",
+      "lead": "The discount-rate channel is visible in the breadth, not in every stock",
+      "dd": "A higher short yield raises the required return on future profits and can weigh heavily on long-duration technology shares. The regular-session split and a 0.29% QQQ decline fit that mechanism. Meta's product launch and Marvell's AI narrative were strong enough to run against it."
+    },
+    {
+      "dt": "<b>August PPI is due today at 08:30 ET and CPI follows Friday at 08:30 ET.</b> Brent was <b>$101.52</b> early Thursday while QQQ was down <b>0.30%</b> premarket",
+      "lead": "The next two inflation prints can turn an oil shock into a rate decision",
+      "dd": "A hot producer-price result would reinforce the rise in yields and the case for tightening at the 15-16 September FOMC meeting. A softer result would separate the current energy shock from broader inflation. The premarket snapshot was taken before the release and should not be read as its verdict."
+    }
+  ],
+  "entries": [
+    {
+      "ticker": "META",
+      "dir": "bullish",
+      "strength": "major",
+      "strength_label": "Major move &middot; first full-session Muse reaction &middot; settled close",
+      "move": "+6.55% Wednesday close, settled &middot; +1.42% premarket",
+      "move_tone": "up",
+      "happened": "Meta rose 6.55%, the largest gain of the twelve, in the first full cash session after its late-Tuesday launch of Muse.",
+      "figures": [
+        "Close <b>$653.69</b>, <b>+6.55%</b> from <b>$613.48</b>",
+        "Traded from <b>$638.56</b> to <b>$657.86</b>, a <b>3.02%</b> low-to-high range",
+        "Volume <b>35.84m</b> shares against a <b>19.89m</b> average, <b>180%</b> of normal",
+        "Premarket <b>+1.42%</b> at <b>$663.00</b>, a provisional extended-hours print",
+        "Closed <b>17.34%</b> below its 52-week high of <b>$790.80</b>",
+        "Volume reached <b>180%</b> of normal, the heaviest volume of the twelve",
+        "It gained <b>0.78%</b> from the open and added <b>+1.42%</b> premarket",
+        "Muse runs in a dedicated Secure VM, works in WhatsApp and can use Stripe Link for purchases",
+        "The US rollout covers <b>iOS, Android and muse.ai</b>; core use is free with paid plans for more"
+      ],
+      "why": "Muse moves Meta from embedded chatbots toward an agent that can browse, fill forms, book travel and complete purchases. That expands the consumer product surface, but Meta disclosed neither user targets nor subscription pricing, revenue or inference cost. Wednesday's reaction therefore prices an option on adoption rather than a measured earnings contribution.",
+      "foot": [
+        {
+          "k": "Already priced in?",
+          "v": "The first settled reaction is large and came on <b>180%</b> of average volume. A further <b>1.42%</b> premarket gain says enthusiasm remains, while the business model is still undisclosed."
+        },
+        {
+          "k": "Would flip if",
+          "v": "Adoption, paid conversion or retention disappoints, or inference, safety and support costs make the service uneconomic."
+        },
+        {
+          "k": "Source and date",
+          "v": "Meta company announcement dated <b>8 September</b>; AP market coverage dated <b>9 September</b>."
+        }
+      ]
+    },
+    {
+      "ticker": "MRVL",
+      "dir": "bullish",
+      "strength": "major",
+      "strength_label": "Major move &middot; AI-connectivity product positioning &middot; settled close",
+      "move": "+4.26% Wednesday close, settled &middot; -1.45% premarket",
+      "move_tone": "up",
+      "happened": "Marvell gained 4.26%, the second-largest gain of the twelve, as it detailed the connectivity and memory portfolio it will show at AI Infra Summit next week.",
+      "figures": [
+        "Close <b>$235.01</b>, <b>+4.26%</b> from <b>$225.41</b>",
+        "Traded from <b>$223.60</b> to <b>$241.88</b>, a <b>8.18%</b> low-to-high range",
+        "Volume <b>20.44m</b> shares against a <b>24.93m</b> average, <b>82%</b> of normal",
+        "Premarket <b>-1.45%</b> at <b>$231.60</b>, a provisional extended-hours print",
+        "Closed <b>28.76%</b> below its 52-week high of <b>$329.88</b>",
+        "It gained <b>5.01%</b> from the open across an <b>8.18%</b> range",
+        "The portfolio includes a <b>102 Tbps</b> Ethernet switch and a <b>256-lane PCIe 6.0</b> switch",
+        "Marvell also listed Photonic Fabric, RELIANT telemetry, CXL memory and PCIe 6.0 NVMe storage",
+        "AI Infra Summit runs <b>15-17 September</b> in Santa Clara"
+      ],
+      "why": "The release puts Marvell across switch, optical, memory and storage links that determine accelerator utilization. It names products but no customer, order value or guidance increase. That makes the 4.26% move a strong vote on positioning rather than a response to newly quantified revenue.",
+      "foot": [
+        {
+          "k": "Already priced in?",
+          "v": "The price reaction is substantial despite no new order or guidance. Premarket is <b>1.45%</b> lower, giving back part of Wednesday's gain."
+        },
+        {
+          "k": "Would flip if",
+          "v": "The summit produces no customer evidence, or product timing, power and interoperability limits delay revenue."
+        },
+        {
+          "k": "Source and date",
+          "v": "Marvell company release dated <b>9 September</b>."
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "dir": "neutral",
+      "strength": "notable",
+      "strength_label": "Notable move &middot; €13bn Finland infrastructure plan &middot; settled close",
+      "move": "-2.28% Wednesday close, settled &middot; +0.01% premarket",
+      "move_tone": "down",
+      "happened": "Alphabet fell 2.28%, the largest fall of the twelve, as Google announced a minimum of EUR13bn of Finland digital and AI infrastructure investment for 2027-2028.",
+      "figures": [
+        "Close <b>$330.65</b>, <b>-2.28%</b> from <b>$338.36</b>",
+        "Traded from <b>$327.90</b> to <b>$331.85</b>, a <b>1.20%</b> low-to-high range",
+        "Volume <b>33.08m</b> shares against a <b>24.85m</b> average, <b>133%</b> of normal",
+        "Premarket <b>+0.01%</b> at <b>$330.67</b>, a provisional extended-hours print",
+        "Closed <b>19.08%</b> below its 52-week high of <b>$408.61</b>",
+        "The plan covers Hamina, Kajaani, Muhos and Vaala across <b>2027-2028</b>",
+        "Volume was <b>133%</b> of normal",
+        "Premarket is effectively flat at <b>+0.01%</b>"
+      ],
+      "why": "The programme expands capacity in four Finnish locations and supports long-run AI supply, but it also adds a large capital commitment before the return is visible. Oil, higher yields and a lower QQQ provide a common negative backdrop, so the close cannot isolate how much of the fall belongs to spending concerns.",
+      "foot": [
+        {
+          "k": "Already priced in?",
+          "v": "Wednesday supplied a settled negative reaction, but the macro sell-off prevents a clean company-only read. The premarket is flat."
+        },
+        {
+          "k": "Would flip if",
+          "v": "Google discloses contracted demand or returns that justify the spending, or the programme materially exceeds its current cost and timing."
+        },
+        {
+          "k": "Source and date",
+          "v": "Google company announcement dated <b>9 September</b>."
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "dir": "neutral",
+      "strength": "notable",
+      "strength_label": "Notable move &middot; Texas manufacturing expansion and air-crash update &middot; settled close",
+      "move": "-1.78% Wednesday close, settled &middot; +0.08% premarket",
+      "move_tone": "down",
+      "happened": "Amazon fell 1.78%, the second-largest decline of the twelve, despite announcing a Wiwynn server-rack manufacturing expansion in Socorro, Texas.",
+      "figures": [
+        "Close <b>$252.40</b>, <b>-1.78%</b> from <b>$256.97</b>",
+        "Traded from <b>$250.65</b> to <b>$254.69</b>, a <b>1.61%</b> low-to-high range",
+        "Volume <b>33.01m</b> shares against a <b>32.89m</b> average, <b>100%</b> of normal",
+        "Premarket <b>+0.08%</b> at <b>$252.60</b>, a provisional extended-hours print",
+        "Closed <b>12.12%</b> below its 52-week high of <b>$287.20</b>",
+        "Wiwynn said its investment in the facility exceeds <b>$1.6bn</b>",
+        "The partners expect nearly <b>1,000</b> new jobs by the end of 2027 and more than <b>2,500</b> workers next year",
+        "Amazon's 9 September update said the NTSB investigation continues and that 21 Air operated the flight"
+      ],
+      "why": "Domestic rack production can shorten supply chains for AWS, but the disclosed $1.6bn is Wiwynn's investment and the release gives no Amazon purchase commitment. Retailers also weakened as fuel costs rose, while Amazon updated its response to the 21 Air-operated fatal cargo crash. The close combines all three channels.",
+      "foot": [
+        {
+          "k": "Already priced in?",
+          "v": "The stock closed lower on normal volume and is nearly flat premarket. No standalone financial value for the facility or crash exposure is disclosed."
+        },
+        {
+          "k": "Would flip if",
+          "v": "Amazon discloses material purchase commitments, schedule savings or crash liabilities not visible in the current releases."
+        },
+        {
+          "k": "Source and date",
+          "v": "Amazon company announcements dated <b>9 September</b>; the board elected Kevin Mandia on 8 September and disclosed it on 9 September."
+        }
+      ]
+    },
+    {
+      "ticker": "HOOD",
+      "dir": "neutral",
+      "strength": "notable",
+      "strength_label": "Notable move &middot; conference update, monthly metrics ahead &middot; settled close",
+      "move": "-1.76% Wednesday close, settled &middot; -0.57% premarket",
+      "move_tone": "down",
+      "happened": "Robinhood fell 1.76% as CEO Vlad Tenev discussed prediction markets, crypto and product integration at Goldman Sachs.",
+      "figures": [
+        "Close <b>$115.28</b>, <b>-1.76%</b> from <b>$117.34</b>",
+        "Traded from <b>$115.09</b> to <b>$121.42</b>, a <b>5.50%</b> low-to-high range",
+        "Volume <b>18.50m</b> shares against a <b>21.92m</b> average, <b>84%</b> of normal",
+        "Premarket <b>-0.57%</b> at <b>$114.62</b>, a provisional extended-hours print",
+        "Closed <b>25.07%</b> below its 52-week high of <b>$153.86</b>",
+        "Opened at <b>$120.77</b> and fell <b>4.55%</b> to the close",
+        "Tenev said sports is a wedge that can broaden use into more prediction-market categories",
+        "August monthly metrics are anticipated today at <b>16:05 ET</b>"
+      ],
+      "why": "The conference reiterated prediction markets as a customer-acquisition wedge and part of an active-trader stack, but it did not replace a reported monthly operating dataset. The shares fell 4.55% from the open, so investors did not reward the narrative ahead of August metrics due today.",
+      "foot": [
+        {
+          "k": "Already priced in?",
+          "v": "The market rejected the conference narrative on Wednesday. The quantitative test arrives after today's close."
+        },
+        {
+          "k": "Would flip if",
+          "v": "Monthly customers, deposits or trading activity materially beat or miss the trend implied at the conference."
+        },
+        {
+          "k": "Source and date",
+          "v": "Robinhood investor event and conference transcript dated <b>9 September</b>; the Crypto.com and OG.com agreement was announced 8 September."
+        }
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "dir": "neutral",
+      "strength": "notable",
+      "strength_label": "Notable move &middot; second-day response to unconfirmed report &middot; settled close",
+      "move": "+1.69% Wednesday close, settled &middot; -1.32% premarket",
+      "move_tone": "up",
+      "happened": "Intel rose 1.69% without a newly dated Wednesday company announcement, extending Tuesday's 9.05% gain on a reported PC-CPU price increase.",
+      "figures": [
+        "Close <b>$106.24</b>, <b>+1.69%</b> from <b>$104.47</b>",
+        "Traded from <b>$102.70</b> to <b>$106.69</b>, a <b>3.89%</b> low-to-high range",
+        "Volume <b>96.61m</b> shares against a <b>87.77m</b> average, <b>110%</b> of normal",
+        "Premarket <b>-1.32%</b> at <b>$104.84</b>, a provisional extended-hours print",
+        "Closed <b>25.37%</b> below its 52-week high of <b>$142.35</b>",
+        "It gained <b>3.45%</b> from its <b>$102.70</b> open",
+        "The DigiTimes report is dated <b>8 September</b> and points to an early-October change"
+      ],
+      "why": "A roughly 10% price increase can support gross margin if demand holds, but the report remains unconfirmed by Intel and does not quantify unit elasticity. Wednesday's smaller gain looks like follow-through rather than new evidence, and the stock is 1.32% lower premarket.",
+      "foot": [
+        {
+          "k": "Already priced in?",
+          "v": "Two settled gains total <b>10.90%</b> on a compounded basis, while the premarket gives back 1.32%. The company still has not supplied the missing economics."
+        },
+        {
+          "k": "Would flip if",
+          "v": "Intel rejects the report, demand weakens enough to offset price, or confirmed terms differ materially."
+        },
+        {
+          "k": "Source and date",
+          "v": "DigiTimes supply-chain report dated <b>8 September</b>; no corresponding Intel announcement dated 9 September was found."
+        }
+      ]
+    },
+    {
+      "ticker": "NBIS",
+      "dir": "bullish",
+      "strength": "notable",
+      "strength_label": "Notable move &middot; Palantir partnership and Citi appearance &middot; market rejected",
+      "move": "-1.45% Wednesday close, settled &middot; -2.64% premarket",
+      "move_tone": "down",
+      "happened": "Nebius fell 1.45% after Palantir named it the preferred sovereign AI infrastructure partner for eligible commercial customers and its CEO spoke at Citi.",
+      "figures": [
+        "Close <b>$240.35</b>, <b>-1.45%</b> from <b>$243.88</b>",
+        "Traded from <b>$240.20</b> to <b>$250.27</b>, a <b>4.19%</b> low-to-high range",
+        "Volume <b>11.34m</b> shares against a <b>13.57m</b> average, <b>84%</b> of normal",
+        "Premarket <b>-2.64%</b> at <b>$234.00</b>, a provisional extended-hours print",
+        "Closed <b>19.85%</b> below its 52-week high of <b>$299.86</b>",
+        "It fell <b>3.05%</b> from the open",
+        "The partners said Nebius endpoints will become available inside Palantir's enterprise perimeter after integration",
+        "The <b>-2.64%</b> move is the weakest premarket reading of the twelve"
+      ],
+      "why": "The partnership creates a route for Nebius compute and inference inside Palantir's enterprise perimeter, but it discloses no contract value, capacity commitment or minimum spend. Management again described demand above supply. The stock's decline after Tuesday's 7.73% gain says investors did not add another premium for the new detail.",
+      "foot": [
+        {
+          "k": "Already priced in?",
+          "v": "The partnership was public before Wednesday's session, which closed lower; premarket is down a further <b>2.64%</b>. The market needs contracted economics, not another demand description."
+        },
+        {
+          "k": "Would flip if",
+          "v": "The partnership converts into disclosed capacity, price and term commitments, or fails to produce customer demand after integration."
+        },
+        {
+          "k": "Source and date",
+          "v": "Palantir-Nebius company release dated <b>8 September</b>; Nebius Citi event and transcript dated <b>9 September</b>."
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "dir": "bullish",
+      "strength": "minor",
+      "strength_label": "Minor move &middot; Australian ecosystem capacity announcement &middot; market rejected",
+      "move": "-0.91% Wednesday close, settled &middot; -0.30% premarket",
+      "move_tone": "down",
+      "happened": "Nvidia fell 0.91% as it announced an Australian ecosystem buildout designed to host up to 2 GW of AI infrastructure by 2027.",
+      "figures": [
+        "Close <b>$223.67</b>, <b>-0.91%</b> from <b>$225.73</b>",
+        "Traded from <b>$223.46</b> to <b>$226.18</b>, a <b>1.22%</b> low-to-high range",
+        "Volume <b>82.74m</b> shares against a <b>154.12m</b> average, <b>54%</b> of normal",
+        "Premarket <b>-0.30%</b> at <b>$223.00</b>, a provisional extended-hours print",
+        "Closed <b>5.44%</b> below its 52-week high of <b>$236.54</b>",
+        "Partners named include Firmus, Sharon AI, IREN, Megaport, ResetData, CDC, NEXTDC and AirTrunk",
+        "The target is <b>up to 2 GW by 2027</b>",
+        "The close sits <b>5.44%</b> below its 52-week high, the smallest gap of the twelve"
+      ],
+      "why": "The release broadens land, power and shell capacity around Nvidia's DSX platform, but 'up to' 2 GW is an ecosystem target rather than an Nvidia order or recognised revenue. The negative close alongside higher yields suggests the strategic headline did not override macro pressure.",
+      "foot": [
+        {
+          "k": "Already priced in?",
+          "v": "No disclosed system count, purchase schedule or contract value allows a revenue calculation. Premarket is down another <b>0.30%</b>."
+        },
+        {
+          "k": "Would flip if",
+          "v": "Partners convert the capacity target into orders and energized sites, or power and permitting constraints delay the buildout."
+        },
+        {
+          "k": "Source and date",
+          "v": "Nvidia company announcement dated <b>9 September</b>."
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "dir": "neutral",
+      "strength": "minor",
+      "strength_label": "Minor move &middot; enforceable school AI standard &middot; settled close",
+      "move": "-0.47% Wednesday close, settled &middot; -0.03% premarket",
+      "move_tone": "down",
+      "happened": "Microsoft fell 0.47% as it agreed with the AFT and UFT on a National AI Safety and Privacy Standard that school districts can add to Microsoft contracts.",
+      "figures": [
+        "Close <b>$491.65</b>, <b>-0.47%</b> from <b>$493.95</b>",
+        "Traded from <b>$489.80</b> to <b>$494.39</b>, a <b>0.94%</b> low-to-high range",
+        "Volume <b>12.88m</b> shares against a <b>21.62m</b> average, <b>60%</b> of normal",
+        "Premarket <b>-0.03%</b> at <b>$491.50</b>, a provisional extended-hours print",
+        "Closed <b>11.21%</b> below its 52-week high of <b>$553.72</b>",
+        "The standard says student and educator data will not train AI models, be sold or be repurposed",
+        "Districts can add the provisions directly to Microsoft customer agreements"
+      ],
+      "why": "The standard may reduce adoption friction by making privacy protections enforceable, but it also adds contractual obligations and gives districts remedies. The release contains no customer count or revenue impact, so the stock's small decline is not evidence for either side of that trade-off.",
+      "foot": [
+        {
+          "k": "Already priced in?",
+          "v": "The rules are public; adoption and economics are not. Premarket is nearly flat at <b>-0.03%</b>."
+        },
+        {
+          "k": "Would flip if",
+          "v": "Districts adopt the language widely and accelerate purchases, or compliance and remedy costs outweigh new demand."
+        },
+        {
+          "k": "Source and date",
+          "v": "AFT, UFT and Microsoft joint announcement dated <b>9 September</b>."
+        }
+      ]
+    },
+    {
+      "ticker": "PLTR",
+      "dir": "bullish",
+      "strength": "minor",
+      "strength_label": "Minor move &middot; Nebius sovereign infrastructure partnership &middot; market rejected",
+      "move": "-0.45% Wednesday close, settled &middot; -0.31% premarket",
+      "move_tone": "down",
+      "happened": "Palantir fell 0.45% in the first full session after naming Nebius its preferred sovereign AI infrastructure partner.",
+      "figures": [
+        "Close <b>$169.53</b>, <b>-0.45%</b> from <b>$170.30</b>",
+        "Traded from <b>$168.61</b> to <b>$171.86</b>, a <b>1.93%</b> low-to-high range",
+        "Volume <b>20.29m</b> shares against a <b>29.50m</b> average, <b>69%</b> of normal",
+        "Premarket <b>-0.31%</b> at <b>$169.00</b>, a provisional extended-hours print",
+        "Closed <b>18.31%</b> below its 52-week high of <b>$207.52</b>",
+        "It fell <b>1.13%</b> from the open",
+        "The companies said eligible customers will access Nebius cloud and inference endpoints after integration"
+      ],
+      "why": "Embedding Nebius capacity can widen Palantir's infrastructure choice for customers that need control over compute, data and models. The release gives no contract value or minimum volume, and both stocks fell Wednesday, so the market withheld a financial premium.",
+      "foot": [
+        {
+          "k": "Already priced in?",
+          "v": "The partnership was public before the session and the shares closed lower. Premarket is down another <b>0.31%</b>."
+        },
+        {
+          "k": "Would flip if",
+          "v": "The companies disclose customer uptake and contracted economics, or integration fails to produce demand."
+        },
+        {
+          "k": "Source and date",
+          "v": "Palantir-Nebius joint announcement dated <b>8 September</b>."
+        }
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "dir": "neutral",
+      "strength": "minor",
+      "strength_label": "Minor move &middot; iPhone Duo launch and wider hardware event &middot; settled close",
+      "move": "-0.28% Wednesday close, settled &middot; +1.16% premarket",
+      "move_tone": "down",
+      "happened": "Apple fell 0.28% after unveiling iPhone Duo, iPhone 18 Pro, Apple Watch Series 12 and AirPods 5 during Wednesday's session.",
+      "figures": [
+        "Close <b>$315.34</b>, <b>-0.28%</b> from <b>$316.22</b>",
+        "Traded from <b>$309.90</b> to <b>$319.15</b>, a <b>2.98%</b> low-to-high range",
+        "Volume <b>65.37m</b> shares against a <b>41.10m</b> average, <b>159%</b> of normal",
+        "Premarket <b>+1.16%</b> at <b>$319.01</b>, a provisional extended-hours print",
+        "Closed <b>8.48%</b> below its 52-week high of <b>$344.57</b>",
+        "Volume reached <b>159%</b> of normal, the second-heaviest volume of the twelve",
+        "iPhone Duo starts at <b>$1,999</b>, with pre-orders on <b>16 October</b> and availability on <b>23 October</b>",
+        "The foldable has a <b>7.6-inch</b> inner display and uses the A20 Pro, N1 wireless chip and C2 modem",
+        "AirPods 5 start at <b>$129</b>; Apple Watch Series 12 starts at <b>$399</b>"
+      ],
+      "why": "Duo opens a premium foldable category and brings a $1,999 starting price, but its 23 October availability delays the demand read. A nearly flat close on elevated volume means the event changed Apple's product map without producing a decisive same-day valuation move.",
+      "foot": [
+        {
+          "k": "Already priced in?",
+          "v": "The same-day close was nearly flat, while premarket is up <b>1.16%</b>. Orders will not begin for more than a month, leaving demand and mix unresolved."
+        },
+        {
+          "k": "Would flip if",
+          "v": "Pre-orders show stronger or weaker demand than the $1,999 price and delayed launch imply, or component cost changes the margin outcome."
+        },
+        {
+          "k": "Source and date",
+          "v": "Apple product announcements dated <b>9 September</b>."
+        }
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "dir": "neutral",
+      "strength": "minor",
+      "strength_label": "Minor move &middot; no newly dated company catalyst &middot; settled close",
+      "move": "-0.10% Wednesday close, settled &middot; -0.52% premarket",
+      "move_tone": "flat",
+      "happened": "Tesla closed almost flat, down 0.10%, without a material company announcement dated 9 September in the sources reviewed.",
+      "figures": [
+        "Close <b>$367.81</b>, <b>-0.10%</b> from <b>$368.16</b>",
+        "Traded from <b>$366.00</b> to <b>$375.44</b>, a <b>2.58%</b> low-to-high range",
+        "Volume <b>32.49m</b> shares against a <b>43.58m</b> average, <b>75%</b> of normal",
+        "Premarket <b>-0.52%</b> at <b>$365.90</b>, a provisional extended-hours print",
+        "Closed <b>26.27%</b> below its 52-week high of <b>$498.83</b>",
+        "It moved <b>-0.12%</b> from the open to the close",
+        "Wednesday's close remained <b>2.27%</b> below the 3 September close of <b>$376.36</b>"
+      ],
+      "why": "The latest identified company-specific facts remain the 3 September Cybercab launch and the NHTSA investigation opened on 4 September. A nearly unchanged close and a 0.52% premarket decline do not establish a new operating verdict.",
+      "foot": [
+        {
+          "k": "Already priced in?",
+          "v": "The shares have partially recovered from the investigation-led fall, but remain below the pre-investigation close."
+        },
+        {
+          "k": "Would flip if",
+          "v": "NHTSA narrows or expands the investigation, or Tesla discloses a remedy, timetable or operating impact."
+        },
+        {
+          "k": "Next date",
+          "v": "Third-quarter deliveries are due in early October; results are scheduled for <b>21 October</b>."
+        }
+      ]
+    }
+  ],
+  "readthrough": {
+    "title": "Wednesday was a broad macro decline with two exceptions strong enough to overpower it.",
+    "body": "<b>Meta had the cleanest event-to-price connection.</b> Muse was announced late Tuesday, leaving Wednesday as the first full cash session to assess it. Meta delivered the largest gain of the twelve. Meta also traded the heaviest volume of the twelve, then added another 1.42% in the premarket snapshot. The market is assigning value to a consumer agent before Meta has disclosed adoption, subscription pricing or compute cost.<br><br><b>Marvell was the second exception.</b> Its 4.26% gain accompanied a company release describing a 102 Tbps Ethernet switch, a 256-lane PCIe 6.0 switch, photonic fabric, telemetry and CXL memory products for next week's AI Infra Summit. That is product positioning, not a new order or guidance change, so the strength of the reaction exceeds the amount of new financial evidence.<br><br><b>The rest of the list mostly followed oil and yields.</b> Alphabet fell 2.28% while committing a minimum of EUR13bn to Finland infrastructure. Amazon fell 1.78% despite a Texas manufacturing expansion. Palantir and Nebius declined after their preferred sovereign-infrastructure partnership, and Nvidia declined despite an Australian ecosystem announcement. Positive strategic headlines did not defeat the higher-rate tape.<br><br><b>Apple was the quiet exception in price, not in news.</b> Its first foldable iPhone starts at $1,999 and will not ship until 23 October. The stock closed down only 0.28% on elevated volume and is 1.16% higher premarket. That says the launch reset the product map without yet settling the demand or margin question."
+  },
+  "nothing_material": {
+    "tickers": [
+      "TSLA",
+      "INTC"
+    ],
+    "note": {
+      "title": "Two moves lacked a newly dated Wednesday operating announcement",
+      "body": "<b>No material Tesla or Intel company announcement dated 9 September was found in the sources reviewed.</b> Tesla's Cybercab service began on 3 September and NHTSA opened its investigation on 4 September; Wednesday's 0.10% decline is not a new event. Intel's 1.69% advance followed the unconfirmed DigiTimes report dated 8 September that another roughly 10% PC-CPU price increase is planned for early October. Intel had not issued corresponding guidance.<br><br><b>Fresh versus carried forward.</b> Meta's Muse release and the Palantir-Nebius partnership are dated <b>8 September</b>, but Wednesday was their first full session after publication. Robinhood's Crypto.com and OG.com deal is also dated 8 September; Wednesday's new information came from its 13:50 ET conference appearance. Apple's product releases, Google's Finland investment, Marvell's summit release, Microsoft's school standard, Nvidia's Australia release and Amazon's Texas expansion are dated <b>9 September</b>.<br><br><b>Evidence limits.</b> Prices and Thursday premarket prints come from one Twelve Data quote fetch. Every extended timestamp was checked and falls on 10 September between <b>04:43</b> and <b>07:02 ET</b>. Company releases describe product capability and planned capacity, not guaranteed revenue. No unsupported dollar effect is assigned to any item."
+    }
+  },
+  "earnings_ahead": [
+    {
+      "when": "10 Sep",
+      "what": "<b>Macro</b> August Producer Price Index, 08:30 ET"
+    },
+    {
+      "when": "10 Sep",
+      "what": "<b>HOOD</b> August monthly metrics anticipated after the close, 16:05 ET"
+    },
+    {
+      "when": "11 Sep",
+      "what": "<b>Macro</b> August Consumer Price Index, 08:30 ET"
+    },
+    {
+      "when": "15-16 Sep",
+      "what": "<b>Macro</b> FOMC meeting and decision"
+    },
+    {
+      "when": "15-17 Sep",
+      "what": "<b>MRVL</b> product demonstrations and executive sessions at AI Infra Summit"
+    },
+    {
+      "when": "18 Sep",
+      "what": "<b>AAPL</b> Apple Watch Series 12 and AirPods 5 availability"
+    },
+    {
+      "when": "by 2 Oct",
+      "what": "<b>GOOGL</b> jointly proposed final judgment in the ad-tech case"
+    },
+    {
+      "when": "6 Oct",
+      "what": "<b>MRVL</b> investor day"
+    },
+    {
+      "when": "16 Oct",
+      "what": "<b>AAPL</b> iPhone Duo pre-orders; availability begins 23 October"
+    },
+    {
+      "when": "21 Oct",
+      "what": "<b>TSLA</b> third-quarter results"
+    },
+    {
+      "when": "22 Oct",
+      "what": "<b>INTC</b> third-quarter results expected"
+    },
+    {
+      "when": "29 Oct",
+      "what": "<b>AAPL</b> fiscal fourth-quarter results expected"
+    }
+  ],
+  "data": {
+    "session": "2026-09-09",
+    "source": "Twelve Data quote endpoint with prepost=true, fetched 07:02 ET on 10 September. Regular prices are for Wednesday 9 September. All twelve extended prints are genuine 10 September premarket observations stamped from 04:43 to 07:02 ET; after-hours is null for every ticker.",
+    "tickers": {
+      "AAPL": {
+        "close": 315.34,
+        "pct": -0.27828881,
+        "open": 315.48999,
+        "high": 319.14999,
+        "low": 309.89999,
+        "volume": 65371600,
+        "avg_volume": 41096100,
+        "high_52w": 344.57001,
+        "premarket_pct": 1.16382,
+        "afterhours_pct": null
+      },
+      "AMZN": {
+        "close": 252.39999,
+        "pct": -1.77842,
+        "open": 253.12,
+        "high": 254.69,
+        "low": 250.64999,
+        "volume": 33011800,
+        "avg_volume": 32885760,
+        "high_52w": 287.20001,
+        "premarket_pct": 0.079241723,
+        "afterhours_pct": null
+      },
+      "TSLA": {
+        "close": 367.81,
+        "pct": -0.095069019,
+        "open": 368.25,
+        "high": 375.44,
+        "low": 366.0,
+        "volume": 32494900,
+        "avg_volume": 43575240,
+        "high_52w": 498.82999,
+        "premarket_pct": -0.51928919,
+        "afterhours_pct": null
+      },
+      "PLTR": {
+        "close": 169.53,
+        "pct": -0.45214578,
+        "open": 171.47,
+        "high": 171.86,
+        "low": 168.61,
+        "volume": 20289400,
+        "avg_volume": 29504880,
+        "high_52w": 207.52,
+        "premarket_pct": -0.31262832,
+        "afterhours_pct": null
+      },
+      "MSFT": {
+        "close": 491.64999,
+        "pct": -0.46563787,
+        "open": 493.070007,
+        "high": 494.39001,
+        "low": 489.79999,
+        "volume": 12875900,
+        "avg_volume": 21623280,
+        "high_52w": 553.71997,
+        "premarket_pct": -0.030508268,
+        "afterhours_pct": null
+      },
+      "GOOGL": {
+        "close": 330.64999,
+        "pct": -2.27864,
+        "open": 331.64999,
+        "high": 331.85001,
+        "low": 327.89999,
+        "volume": 33081300,
+        "avg_volume": 24849080,
+        "high_52w": 408.60999,
+        "premarket_pct": 0.006050538,
+        "afterhours_pct": null
+      },
+      "HOOD": {
+        "close": 115.28,
+        "pct": -1.75558,
+        "open": 120.77,
+        "high": 121.42,
+        "low": 115.089996,
+        "volume": 18500600,
+        "avg_volume": 21924200,
+        "high_52w": 153.86,
+        "premarket_pct": -0.57251803,
+        "afterhours_pct": null
+      },
+      "NVDA": {
+        "close": 223.67,
+        "pct": -0.91259363,
+        "open": 225.28,
+        "high": 226.17999,
+        "low": 223.46001,
+        "volume": 82737000,
+        "avg_volume": 154122640,
+        "high_52w": 236.53999,
+        "premarket_pct": -0.29954763,
+        "afterhours_pct": null
+      },
+      "INTC": {
+        "close": 106.24,
+        "pct": 1.69426,
+        "open": 102.7,
+        "high": 106.69,
+        "low": 102.7,
+        "volume": 96611700,
+        "avg_volume": 87765010,
+        "high_52w": 142.35001,
+        "premarket_pct": -1.31777,
+        "afterhours_pct": null
+      },
+      "NBIS": {
+        "close": 240.35001,
+        "pct": -1.44743,
+        "open": 247.905,
+        "high": 250.272,
+        "low": 240.2,
+        "volume": 11340600,
+        "avg_volume": 13567120,
+        "high_52w": 299.85999,
+        "premarket_pct": -2.64198,
+        "afterhours_pct": null
+      },
+      "MRVL": {
+        "close": 235.0099945,
+        "pct": 4.2589,
+        "open": 223.8,
+        "high": 241.88,
+        "low": 223.60001,
+        "volume": 20435500,
+        "avg_volume": 24930210,
+        "high_52w": 329.88,
+        "premarket_pct": -1.451,
+        "afterhours_pct": null
+      },
+      "META": {
+        "close": 653.69,
+        "pct": 6.55441,
+        "open": 648.64001,
+        "high": 657.85999,
+        "low": 638.56,
+        "volume": 35843200,
+        "avg_volume": 19886970,
+        "high_52w": 790.79999,
+        "premarket_pct": 1.42422,
+        "afterhours_pct": null
+      }
+    }
+  }
+}
