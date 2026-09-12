@@ -1,9 +1,22 @@
 {
- "checked": "2026-09-12T19:07:41+00:00",
- "changed": "2026-09-12T19:07:41+00:00",
+ "checked": "2026-09-12T21:25:26+00:00",
+ "changed": "2026-09-12T21:25:26+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
+   {
+    "id": "33962046a355904a",
+    "title": "Key deals this week: META, ADI, BSP, AAPL, and more (META:NASDAQ)",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNmd2dzRNVmxpSXNGbHEtOGtXMVNZX2dKMjRNUjlLTFkxeWhaa2JiZG9jc2tESTNIbWNiS20xbnc2QXRXZVBkTXNMalo2UFR4YUJCQU8yQ2ktaTJ1VUFYQ3YtcHpOVXlFOWljRGxoQ3ZvOXJsRDFxRUdFbnYwcVhFSnBtM2puOXRENFFQOA?oc=5",
+    "source": "Seeking Alpha",
+    "published": "2026-09-12T19:15+00:00",
+    "score": 5,
+    "tags": [
+     "contract"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "8bb9cd2981a6349d",
     "title": "Dow Jones Futures: Fed Rate Hike Seen As Oil, Yields Pressure Stocks; Apple, Moderna Are New Buys",
@@ -168,7 +181,7 @@
     "id": "bf3cac669a5af1c8",
     "title": "Tesla Shares Suffer Slow Summer After SpaceX IPO, Earnings Rout",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSUNSdDdROUtRU3lNUE1xY3Frb2NrTTVZQ1ZWSk5WQWpfQTBHWllyd1B5S2UxM2R1T1lWcU1RZi13TXNTTkdpRG1RMmJDbzRWZFZBUkh1ZXQ1VEI0YVdtUFc2NlRiTk42WnNodFphSzR4ZkpaZDc5aUh4N3dnT1VwNk40aGRONGtqa0FRWE13SmNFSDAxRGd1MDFSeGxNUWxwUG8yUmdMd2N6aWhraGZlTFdyNA?oc=5",
-    "source": "Bloomberg.com",
+    "source": "bloomberg.com",
     "published": "2026-09-11T13:15+00:00",
     "score": 6,
     "tags": [
@@ -186,19 +199,6 @@
     "score": 5,
     "tags": [
      "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "d580f94088257115",
-    "title": "TSLA Stock Quote Price and Forecast",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9qejEtbzhHOHJnMXJRWUVEbUxyUFF0RnJuNEtEN0U4Mk4wTlIycHNTejNyYTJYQlRDMFRCMllMcGJtNV81S0RNME9IZFBSZkRJ?oc=5",
-    "source": "CNN",
-    "published": "2026-09-10T20:15+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -272,6 +272,19 @@
     "primary": false
    },
    {
+    "id": "e91db8800f221336",
+    "title": "Palantir (PLTR) Stock Price, News & Forecasts",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8xa1F2TExlNThkYXlMTDVTR0FodGM5OUFZdHlKVHVja1JqOVM0c3BCOFdVby03bldPZ0pYMTRqbGx5OVh0c3JJVVozOA?oc=5",
+    "source": "blockchain.news",
+    "published": "2026-09-11T07:00+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "da1254737a4173ec",
     "title": "PLTR Stock Wins Whether We’re In An AI Bubble Or Not? Wall Street Analyst Explains Why",
     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSjdUNjJMM0IySVZNbkVQT1JiM1Q2QWNNMU51LWhHNWlFc1Q3UnJ6QWNWajBrWVFhLTlMMHM3dU82bmVwZlpwZV94V2tTX1lKazNqcFFQM0lvTzFRYmNVcTdSODhXQ05wLV9RY0FodXlPUW1kS001c3pRRVZ6V1hNYlRQcG5BX2NkQmIyRE1FOVhnMk1IZ3VFaHJEMUZrcmZKYzQ3dFppU1p2bnpOazE2WHBNV3BDM1c2cHczYjJIT3BKaXpJdDVFYlAxQTh2cTVMRE41NUtneWhGVE1renc?oc=5",
@@ -296,19 +309,6 @@
      "contract"
     ],
     "direction": "negative",
-    "primary": false
-   },
-   {
-    "id": "27afc1f0a53686cd",
-    "title": "Palantir cofounder and GOP donor says Trump's proposed $5,000 dividend is a 'bribe'",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMDdkQnpYckJzLW9GV3EtM0c2aWlrNGMtUXFLck1FcTZ5WnFpb3BET1hyRnhPQ3RweFphLTN2eXktRW5PdGJjSnNLclF4T0NrSHJYcUpLdVZKTXVjWmpaeDdhLXpZS2Z1blV4cnhHdDE2LTB4bGJxVk9RWUpnTnhEMy1peEN4SVg2?oc=5",
-    "source": "Business Insider",
-    "published": "2026-09-10T19:55+00:00",
-    "score": 8,
-    "tags": [
-     "capital"
-    ],
-    "direction": "neutral",
     "primary": false
    }
   ],
@@ -343,7 +343,7 @@
     "id": "d4f7cd235aae1034",
     "title": "Dividend stock grant lifts Microsoft (NASDAQ: MSFT) director's stake",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQmtKYmhTNm51aW1SYzAza2RXUjZOak04ajJTOThOOElJYklLQV9kT1d1dFk1NDROOEdCRWNPcGdHQ1BvazdPLXFHWW1SYzJEOThCZGswby1QZjVNUDJVaTlxUFlTc0ZVZ0lYcDZ0YWtRVkN1OGptX3Z6YXRCSThFaHFnZlRCRkp5ZXVxV2lCUnJOMU14NFZlWWJfanZXaXlwNEdKRU5EUFlOenlH?oc=5",
-    "source": "Stock Titan",
+    "source": "stocktitan.net",
     "published": "2026-09-11T22:03+00:00",
     "score": 5,
     "tags": [
@@ -423,7 +423,7 @@
     "id": "056029cfebe68951",
     "title": "Securities Fraud Investigation Into Alphabet Inc. (GOOGL)",
     "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxOdWVKdU9FQ2ZuT2xENVZqRXhFQmJLOGlhc0NKbVdwd3V0Zy1EcTlzVmg1aVZKdVRxSHdKX21OMTZQcFdRQnNwYWkwRHhwWGZWTzk0ZDBLUjBVYnV2cGQxcUN2b0lXVDhLNmZDMjNoTGpFWi1JUTg1cWdSRHpUVDh4TVpkc1pkSFRzMVh5Yjh1MTZDQjlydlIzQjJRZVk3dFpuUnF6dXhjR24zYkRteEVmRHpacjZEblphNVdweWV6LXF5eDk4cWFwcWxtY2hpRzRTbXdXVlh3RlZRQnFkMElrWGRoUmlnbEFVWkxjVnBNb1hGcHoxQ1hXY3FfeVdMSjQySFljRkJ3dUxfYmFOQTc4R3FTdWhXSVoyZzBZaF94S2hmeEhQb05RMU9UQThhaGxsQ0s5SUtGa0k?oc=5",
-    "source": "globenewswire.com",
+    "source": "GlobeNewswire",
     "published": "2026-09-11T19:52+00:00",
     "score": 5,
     "tags": [
@@ -490,7 +490,7 @@
     "id": "a8fb2e42711f3618",
     "title": "HOOD Stock Gets $165 Target as Analyst Predicts Robinhood Chain Revenue to Hit $365M",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcEFDd2VKMVJUMm5lSkx4THViVlB2WlV1X0NhMzVoWVpLYnM5YVUyT3pvM2xqenNBa01sSk9ERm1RSEtmNDQ5elFXUXBTLU4yc2NuWE9tQmluTkdjakNVbFpXcFJVRnJ5X3dHenYyMXZNSGNNbklWOVIzSnBXVXp2VzQ3cnZfVWJrTzFPd19mRmYydnJYeE82ZlRvcElicEFpQ3lHSi1JNA?oc=5",
-    "source": "coingape.com",
+    "source": "CoinGape",
     "published": "2026-09-11T17:35+00:00",
     "score": 9,
     "tags": [
@@ -516,7 +516,7 @@
     "id": "672dce4ff9bc0d02",
     "title": "Crypto Morning Briefing: Robinhood Chain Daily Revenue Falls Below $1 Million, Binance Stock Trading Launches Dollar-Co…",
     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE10UmxFb0hOSXJiZkxBZXJ1dV91N0VteWhDZGFyWmFSSGVqTC1PWGhZcERuZmxnRVA5cXVFVHNtc0NYVU5hRzRFZWVpTmwxaDlJbnFuNVZwZW9mbVpk?oc=5",
-    "source": "深潮TechFlow",
+    "source": "techflowpost.com",
     "published": "2026-09-11T03:28+00:00",
     "score": 9,
     "tags": [
@@ -536,19 +536,6 @@
      "contract"
     ],
     "direction": "negative",
-    "primary": false
-   },
-   {
-    "id": "bb6dd7869eea7824",
-    "title": "Robinhood Markets, Inc. Reports August 2026 Operating Data",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOT3BuNmVUUkM4cS1zM2tjYmt0ejNPSVg4aHB4VjZ2REdHUWRWUGExLW51TTZTZ1N2cFhoXzI0OWdFTDhUZEJlSm03ek1Ha1YwMks4alBXQ3p3eTRTWC1jVkxieHFLcDQ0X0pkRmVNSThjOXpHbmcxQkhZdjZCX3kyRklqM2VhOWdwWHVmRU1sUFFOeU5xS1JtcENSOTRNNHVLS3JRSWlVV0tLRUVXNFFRWFFmRWF0Wk5aRnlnaE5WcUpPMUxLX1MtWDV2NzlHdE3SAc8BQVVfeXFMTk9wbjZlVFJDOHEtczNrY2JrdHozT0lYOGhweFY2dkRHR1FkVlBhMS1udU02U2dTdnBYaF8yNDlnRUw4VGRCZUptN3pNR2tWMDJLOGpQV0N6d3k0U1gtY1ZMYnhxS3A0NF9KZEZlTUk4Yzl6R25nMUJIWXY2Ql95MkZJajN",
-    "source": "The Manila Times",
-    "published": "2026-09-10T20:07+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
     "primary": false
    }
   ],
@@ -623,7 +610,7 @@
     "id": "092660d5fbff4884",
     "title": "Executive at NVIDIA (NASDAQ: NVDA) receives 172,507-share stock award",
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOWRjWDFFU2prUnkwRktVVS1iSS1TaDlEVlRaV2RMUjVuX2F5NTZkb2xhVE9CSE1zcmROLXhBeS1IckhwM1paSVYtSFpKdVZ4VjNnOFpTXzAxeVlmMGlFVzBaTXM2VmtqZHJEU2Nhc3JDZHlqQzdNX0pYcTl3MXU5VU5vZWcxbE8wSFExQ3VWaEk4T0JBZHhDTTNQLWQyand0WVNGb0hscGE?oc=5",
-    "source": "Stock Titan",
+    "source": "stocktitan.net",
     "published": "2026-09-11T21:05+00:00",
     "score": 5,
     "tags": [
@@ -729,8 +716,8 @@
    {
     "id": "779f3b72f5cd7ff6",
     "title": "Intel May Raise Chip Prices 10% and the Stock Took Off. Why Most Analysts Still Refuse to Buy.",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9GdllteXRaNXI5QVA4TFJkQ09SRTItUXFESGI2bUVKcjMzakN5QWE0OHpZM1FHbTJVUUozWUtBa1BVbzdIY1RvMzBFZUN2ellGeS1wVFlKQWViNlBjYmtEOVR4dENJamxNYURoZWpwVWVLWFphQ0dic1lRVQ?oc=5",
-    "source": "AOL.com",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUG1fUkFtT3JkU1EwM1B2enIta0oyMzFyMHdEcTZaMjNrS1c4R2tsUVFHdWRHTFNldmVXdnhNZ2tYcXlua0RlMzB0VTB2YmRMQk0zUDgwVTVvNTJzNjhvS1dVeWFJRWd4NkRtR0NnVnM3YjBUOGRtU2xoYVdjQVhZa3RvU3Z1c1ItRlNyczhuZ0ctWGVVWURr?oc=5",
+    "source": "Yahoo Finance",
     "published": "2026-09-11T12:51+00:00",
     "score": 5,
     "tags": [
@@ -750,19 +737,6 @@
      "earnings"
     ],
     "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "1fbe7ce76a7eb637",
-    "title": "Silker Lake, Intel-backed Altera prepares for IPO as early as this year - report",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPX0RNLXE0bjRNMzIwRUx3ZUxoQUpQYXdJVEo3VENFYk42RWJ5ekpIY3Jab0Z5bVRTem1CMWd3ZVFIZm81Y0NmZkh2YnlyUzJkNHl5N2Y2TmpIVnJqYmVidFpySnZBTF9xMFVkVjItYWE3QU9SVVRDUXEyZGNsVlVOVnJ1aFlmRHNULVlLM3dYcmZSMHptam9xaHg1Zl96Z051T2FwbWRBY0xRQnJNMUJjdjJpanFnQQ?oc=5",
-    "source": "Seeking Alpha",
-    "published": "2026-09-10T20:24+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
     "primary": false
    }
   ],
@@ -839,7 +813,7 @@
     "id": "0f5e5b60f7da5352",
     "title": "Marvell (MRVL) Stock Surges as Piper Sandler Highlights Transformative Google Partnership",
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSHRvdjEzSTBXZFJqT2dNVXRmX3JSb0dZOVZXY0RmWGFrN3k3ckRkcWF4YmFZcVRHNExxcWFFRmZlT1NjR29PTTE2RUctRy1GVDd6MlV3RmFMSVdqclEzbUl1bGdSb0tqVklXaHYwTjR0RE9MRzROMkZVcUJpclFrdUpOdXlmTTFyUU1PeWduZXRydHhCUk1vRkN4bWRNSXl6OVY5YUg3T0gzcGRqMW8zMw?oc=5",
-    "source": "blockonomi.com",
+    "source": "Blockonomi",
     "published": "2026-09-11T08:27+00:00",
     "score": 5,
     "tags": [
@@ -847,22 +821,22 @@
     ],
     "direction": "positive",
     "primary": false
-   },
-   {
-    "id": "98dc1d53478651a4",
-    "title": "MRVL Stock Quote Price and Forecast",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE40VFZrblZ3RzNzZVM3Y01XNVNTV3hNTGpjbGRhZ1dHUGRSNDMwOVh4VC12Z0FKeDdlOTVxcnlPX25Pb1hYZ3c2RXlJWTVKUzh6?oc=5",
-    "source": "CNN",
-    "published": "2026-09-10T20:15+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "META": [
+   {
+    "id": "33962046a355904a",
+    "title": "Key deals this week: META, ADI, BSP, AAPL, and more (META:NASDAQ)",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNmd2dzRNVmxpSXNGbHEtOGtXMVNZX2dKMjRNUjlLTFkxeWhaa2JiZG9jc2tESTNIbWNiS20xbnc2QXRXZVBkTXNMalo2UFR4YUJCQU8yQ2ktaTJ1VUFYQ3YtcHpOVXlFOWljRGxoQ3ZvOXJsRDFxRUdFbnYwcVhFSnBtM2puOXRENFFQOA?oc=5",
+    "source": "Seeking Alpha",
+    "published": "2026-09-12T19:15+00:00",
+    "score": 5,
+    "tags": [
+     "contract"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "524a255e27102863",
     "title": "Top Stock Reports for Meta Platforms, Marvell & Amphenol",
@@ -969,5 +943,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 69
+ "count": 67
 }
