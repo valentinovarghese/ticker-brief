@@ -1,0 +1,586 @@
+{
+  "date": "2026-09-16",
+  "weekday": "Wednesday",
+  "headline": "Robinhood fell 3.39% after the crypto bill stalled; Intel rose 3.62% premarket on reported SK Hynix talks.",
+  "gauge": [
+    {
+      "text": "Tuesday session: S&amp;P 500 -0.4%, Nasdaq -0.8%",
+      "tone": "down"
+    },
+    {
+      "text": "Premarket snapshot 09:17-09:18 ET, 16 September",
+      "tone": "flat"
+    }
+  ],
+  "quick": [
+    "<b>Robinhood -3.39% Tuesday:</b> the largest fall of the twelve.",
+    "<b>Marvell +1.32% Tuesday:</b> the largest gain of the twelve.",
+    "<b>Intel +3.62% Wednesday premarket:</b> the strongest premarket reading of the twelve.",
+    "<b>Palantir -0.71% Wednesday premarket:</b> the weakest premarket reading of the twelve.",
+    "Tuesday had <b>3 advancers and 9 decliners</b>. The Wednesday premarket snapshot had <b>10 higher and 2 lower</b> readings."
+  ],
+  "macro": [
+    {
+      "dt": "<b>US shares fell Tuesday, 15 September.</b>",
+      "lead": "Higher oil and Treasury yields weighed on the market",
+      "dd": "The S&amp;P 500 lost 0.4%, the Dow 0.6% and Nasdaq 0.8%. <a href=\"https://apnews.com/article/b1b1bc9f943da62c6a639a8761b4eca3\">AP closing report, 15 September</a>"
+    },
+    {
+      "dt": "<b>Wednesday futures attempted a recovery.</b>",
+      "lead": "Oil eased ahead of the Federal Reserve decision",
+      "dd": "Reuters reported on 16 September that lower oil offered relief following a two-day equity slide. The policy decision remains a major risk to both discount rates and spending expectations. <a href=\"https://www.investing.com/news/economy-news/wall-st-futures-edge-higher-in-countdown-to-fed-decision-4903179\">Reuters premarket report, 16 September</a>"
+    }
+  ],
+  "entries": [
+    {
+      "ticker": "HOOD",
+      "dir": "bearish",
+      "strength": "major",
+      "strength_label": "Major Tuesday move &middot; Crypto legislation blocked",
+      "move": "-3.39% Tuesday close &middot; +0.19% Wednesday premarket",
+      "move_tone": "down",
+      "happened": "On 15 September, Senate Democrats blocked advancement of cryptocurrency legislation, according to AP. This is a regulatory setback rather than a new Robinhood operating result.",
+      "figures": [
+        "Tuesday close <b>$110.45</b>, <b>-3.39%</b>",
+        "Session range <b>$105.86 to $112.85</b>",
+        "Volume <b>28.63m</b> against a <b>24.16m</b> average, <b>118%</b> of average",
+        "Wednesday premarket <b>+0.19%</b> at <b>$110.66</b>; timestamp <b>2026-09-16 09:17 EDT</b>",
+        "Close was <b>28.21%</b> below the 52-week high"
+      ],
+      "why": "A delayed regulatory framework keeps uncertainty around crypto products and transaction activity. The stock reaction does not itself measure a change in trading revenue.",
+      "foot": [
+        {
+          "k": "Source and date",
+          "v": "<a href=\"https://apnews.com/article/e3caf262dc138147941787299e5f0a66\">AP, 15 September</a>"
+        },
+        {
+          "k": "Price context",
+          "v": "Tuesday 15 September is the completed session. Wednesday premarket is provisional and may change before the open."
+        }
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "dir": "bullish",
+      "strength": "minor",
+      "strength_label": "Minor Tuesday move &middot; Reported SK Hynix talks",
+      "move": "-0.05% Tuesday close &middot; +3.62% Wednesday premarket",
+      "move_tone": "down",
+      "happened": "Reuters reported on 16 September that SK Hynix is discussing US memory-chip production with Intel. Leasing part of the Ohio facility is one option; SK Hynix said no decision has been made.",
+      "figures": [
+        "Tuesday close <b>$97.14</b>, <b>-0.05%</b>",
+        "Session range <b>$96.52 to $100.48</b>",
+        "Volume <b>84.84m</b> against a <b>91.54m</b> average, <b>93%</b> of average",
+        "Wednesday premarket <b>+3.62%</b> at <b>$100.66</b>; timestamp <b>2026-09-16 09:18 EDT</b>",
+        "Close was <b>31.76%</b> below the 52-week high"
+      ],
+      "why": "A lease could help monetize infrastructure and spread fixed costs. These are reported negotiations, with no signed deal, disclosed economics or confirmed production timetable.",
+      "foot": [
+        {
+          "k": "Source and date",
+          "v": "<a href=\"https://www.marketscreener.com/news/sk-hynix-in-talks-with-intel-about-deal-to-make-memory-chips-in-the-us-for-the-first-time-sources-s-ce785bd2d881f52c\">Reuters, 16 September</a>"
+        },
+        {
+          "k": "Price context",
+          "v": "Tuesday 15 September is the completed session. Wednesday premarket is provisional and may change before the open."
+        }
+      ]
+    },
+    {
+      "ticker": "META",
+      "dir": "bullish",
+      "strength": "minor",
+      "strength_label": "Minor Tuesday move &middot; Meta One subscription launch",
+      "move": "+0.70% Tuesday close &middot; +0.96% Wednesday premarket",
+      "move_tone": "up",
+      "happened": "On 15 September, Meta introduced Meta One and reported 15 million subscriptions and trials combined. Core and Premium plans are listed at $7.99 and $19.99 monthly, with regional variation.",
+      "figures": [
+        "Tuesday close <b>$670.24</b>, <b>+0.70%</b>",
+        "Session range <b>$656.20 to $678.87</b>",
+        "Volume <b>19.49m</b> against a <b>20.01m</b> average, <b>97%</b> of average",
+        "Wednesday premarket <b>+0.96%</b> at <b>$676.65</b>; timestamp <b>2026-09-16 09:15 EDT</b>",
+        "Close was <b>15.25%</b> below the 52-week high"
+      ],
+      "why": "Subscriptions can diversify revenue beyond advertising, but trials are not paying subscribers. Without the paid share, retention and service costs, the announcement cannot support a reliable profit estimate.",
+      "foot": [
+        {
+          "k": "Source and date",
+          "v": "<a href=\"https://about.fb.com/news/2026/09/introducing-meta-one-subscription-service-more-features-ai/\">Meta, 15 September</a>"
+        },
+        {
+          "k": "Price context",
+          "v": "Tuesday 15 September is the completed session. Wednesday premarket is provisional and may change before the open."
+        }
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "dir": "bearish",
+      "strength": "minor",
+      "strength_label": "Minor Tuesday move &middot; Cybercab certification questions",
+      "move": "-0.67% Tuesday close &middot; +0.34% Wednesday premarket",
+      "move_tone": "down",
+      "happened": "Reuters reported on 15 September that NHTSA ordered Tesla to answer Cybercab certification questions by 30 September, including how temporary human controls satisfy existing standards.",
+      "figures": [
+        "Tuesday close <b>$356.58</b>, <b>-0.67%</b>",
+        "Session range <b>$354.05 to $362.39</b>",
+        "Volume <b>30.27m</b> against a <b>40.50m</b> average, <b>75%</b> of average",
+        "Wednesday premarket <b>+0.34%</b> at <b>$357.78</b>; timestamp <b>2026-09-16 09:15 EDT</b>",
+        "Close was <b>28.52%</b> below the 52-week high"
+      ],
+      "why": "The request adds execution uncertainty to autonomous deployment. It is not an announced recall or operating ban; the financial consequence depends on any required design or launch changes.",
+      "foot": [
+        {
+          "k": "Source and date",
+          "v": "<a href=\"https://www.marketscreener.com/news/us-agency-orders-tesla-to-answer-questions-on-cybercab-certification-ce785bddde80f524\">Reuters, 15 September; filing not read directly</a>"
+        },
+        {
+          "k": "Price context",
+          "v": "Tuesday 15 September is the completed session. Wednesday premarket is provisional and may change before the open."
+        }
+      ]
+    },
+    {
+      "ticker": "NBIS",
+      "dir": "neutral",
+      "strength": "notable",
+      "strength_label": "Notable Tuesday move &middot; Earlier Palantir agreement remains context",
+      "move": "-2.27% Tuesday close &middot; +2.38% Wednesday premarket",
+      "move_tone": "down",
+      "happened": "The Palantir partnership was announced on 8 September and names Nebius a preferred sovereign AI infrastructure partner. The newsroom review did not identify a fresh 15 September financial announcement.",
+      "figures": [
+        "Tuesday close <b>$207.37</b>, <b>-2.27%</b>",
+        "Session range <b>$206.85 to $216.56</b>",
+        "Volume <b>10.42m</b> against a <b>13.39m</b> average, <b>78%</b> of average",
+        "Wednesday premarket <b>+2.38%</b> at <b>$212.30</b>; timestamp <b>2026-09-16 08:32 EDT</b>",
+        "Close was <b>30.84%</b> below the 52-week high"
+      ],
+      "why": "Customer access can support future infrastructure utilization, but integration and actual consumption determine revenue. The prior agreement should not be counted again as a new order today.",
+      "foot": [
+        {
+          "k": "Source and date",
+          "v": "<a href=\"https://nebius.com/newsroom/palantir-and-nebius-partner-to-deliver-a-complete-sovereign-ai-stack-to-palantir-customers\">Nebius and Palantir, 8 September</a>"
+        },
+        {
+          "k": "Price context",
+          "v": "Tuesday 15 September is the completed session. Wednesday premarket is provisional and may change before the open."
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "dir": "neutral",
+      "strength": "notable",
+      "strength_label": "Notable Tuesday move &middot; AWS expands enterprise distribution",
+      "move": "-2.02% Tuesday close &middot; +0.14% Wednesday premarket",
+      "move_tone": "down",
+      "happened": "AWS and Cognition announced a multiyear collaboration on 15 September covering autonomous engineering and enterprise modernization. Devin is available through AWS Marketplace.",
+      "figures": [
+        "Tuesday close <b>$248.42</b>, <b>-2.02%</b>",
+        "Session range <b>$247.22 to $253.27</b>",
+        "Volume <b>36.20m</b> against a <b>29.86m</b> average, <b>121%</b> of average",
+        "Wednesday premarket <b>+0.14%</b> at <b>$248.76</b>; timestamp <b>2026-09-16 09:11 EDT</b>",
+        "Close was <b>13.50%</b> below the 52-week high"
+      ],
+      "why": "The collaboration could expand cloud consumption and distribution, but the announcement does not disclose contract value or minimum spending. It cannot be converted directly into incremental AWS revenue.",
+      "foot": [
+        {
+          "k": "Source and date",
+          "v": "<a href=\"https://press.aboutamazon.com/aws/2026/9/cognition-and-aws-sign-multi-year-collaboration-agreement\">AWS, 15 September</a>"
+        },
+        {
+          "k": "Price context",
+          "v": "Tuesday 15 September is the completed session. Wednesday premarket is provisional and may change before the open."
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "dir": "neutral",
+      "strength": "notable",
+      "strength_label": "Notable Tuesday move &middot; LinkedIn privacy case",
+      "move": "-1.64% Tuesday close &middot; -0.44% Wednesday premarket",
+      "move_tone": "down",
+      "happened": "Microsoft said on 15 September that LinkedIn presented arguments in the Fourth Circuit over government data requests and secrecy requirements. No new financial penalty was quantified in that update.",
+      "figures": [
+        "Tuesday close <b>$497.12</b>, <b>-1.64%</b>",
+        "Session range <b>$495.54 to $505.90</b>",
+        "Volume <b>17.77m</b> against a <b>18.18m</b> average, <b>98%</b> of average",
+        "Wednesday premarket <b>-0.44%</b> at <b>$494.93</b>; timestamp <b>2026-09-16 09:16 EDT</b>",
+        "Close was <b>10.22%</b> below the 52-week high"
+      ],
+      "why": "The issue concerns customer trust and legal access to data. The available disclosure does not establish a measurable change to Microsoft earnings or cloud demand.",
+      "foot": [
+        {
+          "k": "Source and date",
+          "v": "<a href=\"https://blogs.microsoft.com/on-the-issues/2026/09/15/protecting-customer-privacy-means-standing-up-for-transparency/\">Microsoft, 15 September</a>"
+        },
+        {
+          "k": "Price context",
+          "v": "Tuesday 15 September is the completed session. Wednesday premarket is provisional and may change before the open."
+        }
+      ]
+    },
+    {
+      "ticker": "MRVL",
+      "dir": "neutral",
+      "strength": "notable",
+      "strength_label": "Notable Tuesday move &middot; AI infrastructure summit continues",
+      "move": "+1.32% Tuesday close &middot; +1.92% Wednesday premarket",
+      "move_tone": "up",
+      "happened": "Marvell is participating in the 15-17 September AI Infra Summit. Its programme lists an AI inference presentation on 16 September; the underlying event announcement was dated 9 September.",
+      "figures": [
+        "Tuesday close <b>$221.70</b>, <b>+1.32%</b>",
+        "Session range <b>$220.92 to $227.62</b>",
+        "Volume <b>12.70m</b> against a <b>18.73m</b> average, <b>68%</b> of average",
+        "Wednesday premarket <b>+1.92%</b> at <b>$225.96</b>; timestamp <b>2026-09-16 09:13 EDT</b>",
+        "Close was <b>32.79%</b> below the 52-week high"
+      ],
+      "why": "Connectivity and inference infrastructure remain central to the business. Event demonstrations are not booked revenue, and no revised outlook was identified in the reviewed event material.",
+      "foot": [
+        {
+          "k": "Source and date",
+          "v": "<a href=\"https://www.marvell.com/company/events/ai-infra-summit-2026.html\">Marvell, 15-17 September event programme</a>"
+        },
+        {
+          "k": "Price context",
+          "v": "Tuesday 15 September is the completed session. Wednesday premarket is provisional and may change before the open."
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "dir": "neutral",
+      "strength": "notable",
+      "strength_label": "Notable Tuesday move &middot; Workspace adds business-tool integrations",
+      "move": "-1.26% Tuesday close &middot; +0.19% Wednesday premarket",
+      "move_tone": "down",
+      "happened": "On 15 September, Google announced Gemini in Workspace integrations with business tools including Asana, Salesforce and HubSpot, with administrator controls.",
+      "figures": [
+        "Tuesday close <b>$344.98</b>, <b>-1.26%</b>",
+        "Session range <b>$342.70 to $348.07</b>",
+        "Volume <b>21.90m</b> against a <b>25.20m</b> average, <b>87%</b> of average",
+        "Wednesday premarket <b>+0.19%</b> at <b>$345.63</b>; timestamp <b>2026-09-16 09:04 EDT</b>",
+        "Close was <b>15.57%</b> below the 52-week high"
+      ],
+      "why": "Broader workflow access may support enterprise adoption and retention. Google supplied no incremental revenue or margin forecast in this product update.",
+      "foot": [
+        {
+          "k": "Source and date",
+          "v": "<a href=\"https://workspaceupdates.googleblog.com/2026/09/connect-to-more-tools-with-gemini-in-Google-Workspace.html\">Google Workspace, 15 September</a>"
+        },
+        {
+          "k": "Price context",
+          "v": "Tuesday 15 September is the completed session. Wednesday premarket is provisional and may change before the open."
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "dir": "neutral",
+      "strength": "minor",
+      "strength_label": "Minor Tuesday move &middot; CUDA-Q platform expanded on Monday",
+      "move": "+0.57% Tuesday close &middot; +0.77% Wednesday premarket",
+      "move_tone": "up",
+      "happened": "Nvidia announced CUDA-Q Logical on 14 September to support development of fault-tolerant quantum applications. It is a software ecosystem announcement, not a newly reported Tuesday chip order.",
+      "figures": [
+        "Tuesday close <b>$212.17</b>, <b>+0.57%</b>",
+        "Session range <b>$211.16 to $213.94</b>",
+        "Volume <b>87.73m</b> against a <b>115.76m</b> average, <b>76%</b> of average",
+        "Wednesday premarket <b>+0.77%</b> at <b>$213.80</b>; timestamp <b>2026-09-16 09:17 EDT</b>",
+        "Close was <b>10.30%</b> below the 52-week high"
+      ],
+      "why": "Tools can strengthen the surrounding computing ecosystem, but the release does not quantify near-term revenue. Tuesday price action alone does not establish a change to AI accelerator demand.",
+      "foot": [
+        {
+          "k": "Source and date",
+          "v": "<a href=\"https://nvidianews.nvidia.com/news/nvidia-expands-open-source-cuda-q-platform-for-fault-tolerant-quantum-computing\">Nvidia, 14 September</a>"
+        },
+        {
+          "k": "Price context",
+          "v": "Tuesday 15 September is the completed session. Wednesday premarket is provisional and may change before the open."
+        }
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "dir": "neutral",
+      "strength": "minor",
+      "strength_label": "Minor Tuesday move &middot; Software rollout is dated 14 September",
+      "move": "-0.52% Tuesday close &middot; +0.40% Wednesday premarket",
+      "move_tone": "down",
+      "happened": "Apple released Siri AI and its major software-platform updates on 14 September. The initial Siri AI rollout includes language and regional restrictions. This is earlier product news, not a new Tuesday earnings disclosure.",
+      "figures": [
+        "Tuesday close <b>$331.34</b>, <b>-0.52%</b>",
+        "Session range <b>$328.35 to $331.78</b>",
+        "Volume <b>31.69m</b> against a <b>45.66m</b> average, <b>69%</b> of average",
+        "Wednesday premarket <b>+0.40%</b> at <b>$332.67</b>; timestamp <b>2026-09-16 09:15 EDT</b>",
+        "Close was <b>3.84%</b> below the 52-week high"
+      ],
+      "why": "More capable software may support device engagement and upgrades. Adoption, paid conversion and delivery costs still determine the eventual financial return.",
+      "foot": [
+        {
+          "k": "Source and date",
+          "v": "<a href=\"https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here/\">Apple, 14 September</a>"
+        },
+        {
+          "k": "Price context",
+          "v": "Tuesday 15 September is the completed session. Wednesday premarket is provisional and may change before the open."
+        }
+      ]
+    },
+    {
+      "ticker": "PLTR",
+      "dir": "neutral",
+      "strength": "minor",
+      "strength_label": "Minor Tuesday move &middot; Sovereign AI partnership remains prior context",
+      "move": "-0.43% Tuesday close &middot; -0.71% Wednesday premarket",
+      "move_tone": "down",
+      "happened": "Palantir and Nebius announced their sovereign AI partnership on 8 September. It remains relevant background, but it is not a fresh 15 September contract award. No newly quantified Tuesday catalyst was identified in the reviewed sources.",
+      "figures": [
+        "Tuesday close <b>$172.56</b>, <b>-0.43%</b>",
+        "Session range <b>$169.45 to $176.59</b>",
+        "Volume <b>31.20m</b> against a <b>27.25m</b> average, <b>114%</b> of average",
+        "Wednesday premarket <b>-0.71%</b> at <b>$171.34</b>; timestamp <b>2026-09-16 09:16 EDT</b>",
+        "Close was <b>16.85%</b> below the 52-week high"
+      ],
+      "why": "The integration may widen deployment options for customers with sovereignty requirements. The announcement supplies no minimum purchase commitment to turn directly into a revenue estimate.",
+      "foot": [
+        {
+          "k": "Source and date",
+          "v": "<a href=\"https://nebius.com/newsroom/palantir-and-nebius-partner-to-deliver-a-complete-sovereign-ai-stack-to-palantir-customers\">Nebius and Palantir, 8 September</a>"
+        },
+        {
+          "k": "Price context",
+          "v": "Tuesday 15 September is the completed session. Wednesday premarket is provisional and may change before the open."
+        }
+      ]
+    }
+  ],
+  "readthrough": {
+    "title": "Separate confirmed launches, reported negotiations and market prices.",
+    "body": "<b>Intel has a fresh, conditional catalyst:</b> reported memory-production discussions are not a signed contract. <b>Meta has a new subscription offering:</b> its headline user figure combines subscriptions and trials. <b>Robinhood faces a legislative setback:</b> Tuesday trading does not directly quantify future transaction revenue.<br><br>The complete quote snapshot records 3 positive and 9 negative Tuesday returns. Wednesday premarket records 10 positive and 2 negative returns. Those two observations describe different sessions; the latter is not a forecast of the close."
+  },
+  "nothing_material": {
+    "tickers": [
+      "PLTR",
+      "NBIS"
+    ],
+    "note": {
+      "title": "Timing and evidence limits",
+      "body": "The Palantir-Nebius agreement is dated 8 September and is retained as background. Company product announcements and event programmes are not treated as earnings guidance.<br><br>Quotes were refreshed around 09:17-09:18 ET on 16 September after a delayed publication run. Extended observations range from 08:32 to 09:18 ET. All twelve are Wednesday premarket observations; no prior-evening print is labeled premarket. Regulatory details are attributed to reporting where the underlying filing was not read directly.<br><br><b>Chart freshness:</b> daily charts for all 12 tickers include 15 September. Some intraday intervals for AAPL, HOOD, INTC, META, MRVL, MSFT, NVDA, PLTR and TSLA fell back to cached bars and may lag the quote snapshot."
+    }
+  },
+  "earnings_ahead": [
+    {
+      "when": "16 Sep",
+      "what": "<b>Macro</b> Federal Reserve decision and press conference; <a href=\"https://www.federalreserve.gov/newsevents/2026-september.htm\">official calendar</a>"
+    },
+    {
+      "when": "15-17 Sep",
+      "what": "<b>MRVL / INTC</b> AI Infra Summit continues"
+    },
+    {
+      "when": "30 Sep",
+      "what": "<b>TSLA</b> deadline to answer NHTSA Cybercab questions, per Reuters"
+    }
+  ],
+  "data": {
+    "session": "2026-09-15",
+    "source": "Twelve Data quote endpoint, prepost=true; two rate-limited batches fetched 16 September 2026 around 09:17-09:18 ET. Regular session is 15 September; extended timestamps are preserved per ticker.",
+    "batches": [
+      {
+        "symbols": [
+          "AAPL",
+          "AMZN",
+          "TSLA",
+          "PLTR",
+          "MSFT",
+          "GOOGL",
+          "HOOD",
+          "NVDA"
+        ],
+        "received_at_utc": "2026-09-16T13:17:32.019151+00:00"
+      },
+      {
+        "symbols": [
+          "INTC",
+          "NBIS",
+          "MRVL",
+          "META"
+        ],
+        "received_at_utc": "2026-09-16T13:18:38.370987+00:00"
+      }
+    ],
+    "tickers": {
+      "AAPL": {
+        "close": 331.34,
+        "pct": -0.52239411,
+        "open": 330.14001,
+        "high": 331.78,
+        "low": 328.35001,
+        "volume": 31694100,
+        "avg_volume": 45658560,
+        "high_52w": 344.57001,
+        "premarket_pct": 0.40140148,
+        "afterhours_pct": null,
+        "extended_price": 332.67,
+        "extended_timestamp_et": "2026-09-16 09:15 EDT"
+      },
+      "AMZN": {
+        "close": 248.42,
+        "pct": -2.019403,
+        "open": 252.24001,
+        "high": 253.27,
+        "low": 247.22,
+        "volume": 36199500,
+        "avg_volume": 29856950,
+        "high_52w": 287.20001,
+        "premarket_pct": 0.13686572,
+        "afterhours_pct": null,
+        "extended_price": 248.76,
+        "extended_timestamp_et": "2026-09-16 09:11 EDT"
+      },
+      "TSLA": {
+        "close": 356.57999,
+        "pct": -0.66579788,
+        "open": 358.75,
+        "high": 362.39001,
+        "low": 354.049988,
+        "volume": 30272800,
+        "avg_volume": 40497830,
+        "high_52w": 498.82999,
+        "premarket_pct": 0.33653415,
+        "afterhours_pct": null,
+        "extended_price": 357.78,
+        "extended_timestamp_et": "2026-09-16 09:15 EDT"
+      },
+      "PLTR": {
+        "close": 172.56,
+        "pct": -0.43275057,
+        "open": 170.5,
+        "high": 176.59,
+        "low": 169.45,
+        "volume": 31204200,
+        "avg_volume": 27254610,
+        "high_52w": 207.52,
+        "premarket_pct": -0.70699906,
+        "afterhours_pct": null,
+        "extended_price": 171.34,
+        "extended_timestamp_et": "2026-09-16 09:16 EDT"
+      },
+      "MSFT": {
+        "close": 497.12,
+        "pct": -1.64025,
+        "open": 500.059998,
+        "high": 505.89999,
+        "low": 495.54001,
+        "volume": 17774000,
+        "avg_volume": 18179780,
+        "high_52w": 553.71997,
+        "premarket_pct": -0.44053652,
+        "afterhours_pct": null,
+        "extended_price": 494.93,
+        "extended_timestamp_et": "2026-09-16 09:16 EDT"
+      },
+      "GOOGL": {
+        "close": 344.98001,
+        "pct": -1.2622,
+        "open": 346.79999,
+        "high": 348.070007,
+        "low": 342.70001,
+        "volume": 21895900,
+        "avg_volume": 25197580,
+        "high_52w": 408.60999,
+        "premarket_pct": 0.18841353,
+        "afterhours_pct": null,
+        "extended_price": 345.63,
+        "extended_timestamp_et": "2026-09-16 09:04 EDT"
+      },
+      "HOOD": {
+        "close": 110.45,
+        "pct": -3.39369,
+        "open": 111.715,
+        "high": 112.85,
+        "low": 105.859,
+        "volume": 28628800,
+        "avg_volume": 24162590,
+        "high_52w": 153.86,
+        "premarket_pct": 0.19013405,
+        "afterhours_pct": null,
+        "extended_price": 110.66,
+        "extended_timestamp_et": "2026-09-16 09:17 EDT"
+      },
+      "NVDA": {
+        "close": 212.17,
+        "pct": 0.57356438,
+        "open": 213.38,
+        "high": 213.94,
+        "low": 211.16,
+        "volume": 87726200,
+        "avg_volume": 115763750,
+        "high_52w": 236.53999,
+        "premarket_pct": 0.76825274,
+        "afterhours_pct": null,
+        "extended_price": 213.8,
+        "extended_timestamp_et": "2026-09-16 09:17 EDT"
+      },
+      "INTC": {
+        "close": 97.14,
+        "pct": -0.051448761,
+        "open": 98.83,
+        "high": 100.48,
+        "low": 96.52,
+        "volume": 84839200,
+        "avg_volume": 91543580,
+        "high_52w": 142.35001,
+        "premarket_pct": 3.62364,
+        "afterhours_pct": null,
+        "extended_price": 100.66,
+        "extended_timestamp_et": "2026-09-16 09:18 EDT"
+      },
+      "NBIS": {
+        "close": 207.37,
+        "pct": -2.27155,
+        "open": 211.029999,
+        "high": 216.56,
+        "low": 206.847,
+        "volume": 10422300,
+        "avg_volume": 13389550,
+        "high_52w": 299.85999,
+        "premarket_pct": 2.3774,
+        "afterhours_pct": null,
+        "extended_price": 212.3,
+        "extended_timestamp_et": "2026-09-16 08:32 EDT"
+      },
+      "MRVL": {
+        "close": 221.7,
+        "pct": 1.31615,
+        "open": 221.62,
+        "high": 227.62,
+        "low": 220.92,
+        "volume": 12701700,
+        "avg_volume": 18726840,
+        "high_52w": 329.88,
+        "premarket_pct": 1.92152,
+        "afterhours_pct": null,
+        "extended_price": 225.96,
+        "extended_timestamp_et": "2026-09-16 09:13 EDT"
+      },
+      "META": {
+        "close": 670.23999,
+        "pct": 0.69711761,
+        "open": 659.29999,
+        "high": 678.87,
+        "low": 656.20001,
+        "volume": 19485700,
+        "avg_volume": 20013820,
+        "high_52w": 790.79999,
+        "premarket_pct": 0.95637531,
+        "afterhours_pct": null,
+        "extended_price": 676.65,
+        "extended_timestamp_et": "2026-09-16 09:15 EDT"
+      }
+    }
+  }
+}
