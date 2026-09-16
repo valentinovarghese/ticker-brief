@@ -1,6 +1,6 @@
 {
- "checked": "2026-09-16T01:44:03+00:00",
- "changed": "2026-09-16T01:44:03+00:00",
+ "checked": "2026-09-16T06:48:19+00:00",
+ "changed": "2026-09-16T06:48:19+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -110,11 +110,24 @@
     "primary": false
    },
    {
-    "id": "ceaf1b1d2d795c34",
-    "title": "Apple stock trades flat after antitrust case settlement with X Corp/SpaceXAI",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObGhsNU84N2dvZmI5NnZIanZvTUdqeWNFRTAwaWxycHp3NVV2SU0zUlU0RU9xX3FabG9iS2ZvUzJvMGRtQmJybndhOW10MXhhRFJkUUxOMTRQSXkwUXZxNUxSaExLVU5KVnpqWG5lb01oai1oamt4bW42ZWZaQm85VWV1NXBzMVVhTDU0?oc=5",
-    "source": "Traders Union",
-    "published": "2026-09-14T15:04+00:00",
+    "id": "7d07a33289772119",
+    "title": "Apple's Siri Upgrade Does Not Require Every User to Buy Another iPhone",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRGtIQlNncE9SZjYwUmZhMnNUeU9mLVBleVhIRXpybmk2bzJjLXdDcmxkTzc2LWh5WE1kQmxzR0taVktWNGtuVzB6Z1hhTi1Ka2NDRUVHWmtsamoyc0J5NWJMVGkycW5RNW9DeHp1cEt2N1lER1RFT19SY2NLaUZCUjJab1pKQU1ncDBzalBadmVmanBBQVNz?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-14T18:21+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "8be8d0aa97229ee5",
+    "title": "Musk’s xAI and X Corp. settle antitrust case against Apple",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbks5elVQZXBjd0RFeTh2aVdIbUFKV0Y1NW1kbG1XOFZaanJCU3RCTU8yRHhVZnJkYTh4X0tYRGo1VWpmbVpPeWNtOV8zT2dQRVF5VmVJSWVBcUNnRDVIOXNhTjI5UnlrWWo3S2VCMFNGM1NGQWVidzRhUzJ2UG1FMGZfRER0akdqR095NUhFZlVLN1psb3dobGN2V3p0c2QtWXV2czRhaU1qYWdhbUR3YVJFcFU4YWs2NEE?oc=5",
+    "source": "Investing.com",
+    "published": "2026-09-14T15:38+00:00",
     "score": 9,
     "tags": [
      "legal",
@@ -122,35 +135,9 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "d1f56d5dee9f4c3c",
-    "title": "Morgan Stanley Doubles Down on Apple Stock as New Offerings Become ‘More Exciting’",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLUFGU3Btal9WY3ZyYm9KaFd5NUhVWHF3VFhNUXp1YzRFRWRCa3BCWXZMMF9jWWxFMXdtY1duaUdGZ3pQMWFsOGRISTd2anBJVnNGVVJ6X1ZiNnFMdGUyeWViQUdqSDFIVHhKNGo5VTlkUkh4eHJSbHRiSmpSa2dFb2VCZURwUm1MMzdzbmplYUlCanJOOGEyV2VSRnp1OHk1SlJEOWxnSF94R3BzYnI0bVI4NDk2UGN5SVgwSUJ5RGxWdw?oc=5",
-    "source": "Barchart.com",
-    "published": "2026-09-14T14:24+00:00",
-    "score": 5,
-    "tags": [
-     "capital"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "AMZN": [
-   {
-    "id": "30820ed0e6f46008",
-    "title": "Best Amazon Haul deals: Stock up on $2 items at Amazon Haul",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Xb2RGX2JlOExCTXViVEVvY1N4cm5Nc2JyMHZzdVJnV1JOcDNfTVVpU28wRHZMbW1UNE5QZHA2dGpPem83UklYTWdNZHJrREFrNHB4bzlHUXRNdzQ0d2NYTE0xVzQ?oc=5",
-    "source": "Mashable",
-    "published": "2026-09-15T23:19+00:00",
-    "score": 8,
-    "tags": [
-     "contract"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
    {
     "id": "d72b4c89ae34502f",
     "title": "Amazon Stock Is 14% Off Its High as AWS Battles a Gulf Region Outage",
@@ -165,29 +152,17 @@
     "primary": false
    },
    {
-    "id": "7a71e6bb3ca0c46f",
-    "title": "AMZN Stock Slips as AWS Bahrain Damage Weighs While Qualcomm QCOM Gains on Amazon Deal",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPT0pCdlpfcFVZdTVQUTR2UGQxdktocFdQRVdOU2RVcDVOMkU4WHNmdnVHLW9oRUx4SEVjSERaTlhrUS1OZnFubG5qX2pqek96ODQ5aGxDaGh3OUJTV29EWVp6OVZuTHZJelJzampNdlV6UmpUT2Q5NzI0M2duTG5lVGRYLTNxdWxvYXZ6NU5LdmprZ3E4d0l0Y3FNdGh5NVBfOGxpV0duZEJRSGxZZkFnR2U2NWFuMTZOaDU4LUhlRXNvTHU5NW1kYw?oc=5",
-    "source": "FXLeaders",
-    "published": "2026-09-15T21:55+00:00",
-    "score": 5,
+    "id": "d666ea2dd50d066d",
+    "title": "Qualcomm Stock Forecast: Can QCOM Hit $200 After Amazon AI Chip Partnership?",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxON1YzM1Q4dUN3ck0yVnpkMkxjaFpFLXRreW1vRXRzODFQUWpUSWE4VURhb0MtRFRWV01RLXF3bEk1NlZIU1pEYndSN01jd2N3cnBnSllHTDMxWGFEYU5vUnYtZlRtS2RvZHBMSXFtSTRnd0N4SGVxUmNhUjJCbERrbDFZVmZxcjlwMTFERWJSMDI5Zkd3b3p3WW5RcGx3WGtXLVktbXZmb2xOZk5JNnFHaU4yMzRiVTZmb1hfRXZxQmpTelpHSG9DNA?oc=5",
+    "source": "TradingKey",
+    "published": "2026-09-15T21:45+00:00",
+    "score": 14,
     "tags": [
+     "earnings",
      "contract"
     ],
     "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "029e2422b1d18d1e",
-    "title": "Amazon Pauses 21 Air Cargo Flights as Stock Slides Nearly 2%",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1PUVdrZG0zeXg1ZXhEaGcwSEZOSm9HbEtrWjJXYm5CZXdidUQ4ai1XVE5ITFlxbkpVRTZXR184OHYxb0VHMW5MMUFqSWIzZnVMZXdyaVY3bTZTTU9qUGhfTFQzd00yY2pVZlgyM1JyYkh3Yk5QUHZjWHN3?oc=5",
-    "source": "AOL.com",
-    "published": "2026-09-15T20:24+00:00",
-    "score": 5,
-    "tags": [
-     "operations"
-    ],
-    "direction": "negative",
     "primary": false
    },
    {
@@ -196,6 +171,19 @@
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcEJUdkJCZGFBUEdrOGVHbDRibUNCbGwxVDhDUERRRC1GeTJrZWU5Vy1rcS1Lb0pSWHN4OWVnX1VIaVYxZjgySzMtUUlNZTNVNl93Z1haWHpDTDdOWFdBemtoYS1Wd3J4Vk9lVjNGbWh6bzROaG9lYkJmWVNfVFNMX2tDYk51WXdPS1FoSnVpcFh4dnc2REo2bjdNckRsdDRqTmdZekVsR1RHMGRqYU56c0dB?oc=5",
     "source": "CryptoRank",
     "published": "2026-09-15T12:07+00:00",
+    "score": 5,
+    "tags": [
+     "operations"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "6321336fb5e0aff1",
+    "title": "Amazon Stock Drops as Tech Giant Pauses Air Cargo Operations Following Fatal Crash",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBRMnZUUno4dGFWV2NiMFh1WXdxWlJWX25iQ05kdExSNThpSHFVV1pTVm5ZYlBpMl9qak5mMEVUZ2xwWE9NSEN1V2NXNzhEemY1WFpfNkRBSFJWcVRVaWo3aVN1emtCWTRJMDZBcTVZMXhtRUw1V0h0RUljQ3hEdk0?oc=5",
+    "source": "TIKR.com",
+    "published": "2026-09-15T10:59+00:00",
     "score": 5,
     "tags": [
      "operations"
@@ -219,9 +207,9 @@
    {
     "id": "4a315735c3dd270b",
     "title": "What a $10,000 Investment in Amazon Now Would Be Worth if Its Anthropic Stake Gets Marked at $2 Trillion",
-    "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQQm4zYXpNY0N1a3NNTkVJeEpBSVQ4bE1CUTQxclp6a1BodDFER3hqVDF4c1l5ejJpWjFOODlFUUItRHFrSnNud01ZV3hVR2JWRUNORkV3eWw0ejBzZjkyRG82WHIxMXFlMUpSeTdkUkdzdDhRRGFtRENMWGp2eW5zaV9peXZfSm9WT1VtdC05aVZNT2RONU5nbFdzUFVZSEdHM2xPUkJGR0haSHFPa1VMM1g0b0VlbmRWaVJYdXpaUnYxM3dFa01LdzBQS21WWGs1RnM4bk1KcUpXZEpYanJVc1BUdFhvclRUR3ZXMWFGNFNydXhvOVJLOXFMN2s0Zjd6ZGxjdUlTWEd4RHNtOE5ocWtkQXBXTFE?oc=5",
-    "source": "The Globe and Mail",
-    "published": "2026-09-15T10:25+00:00",
+    "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOaGNCeE9jYUVNQzAzYV9VYndfY0tuenNHM3VaWThwMTJ5RDROU3F4VUlvcUFLa09DS3U0NmYzclREeWs3SER3VnBSTkdZbHhtQ1NGeTlsUzNGS2ZLV1JXMkF4NWp6cjJqeVAyZXdveHJiWTM1cnNMYjJtam16WC1JTlAyR3BvSVliaFh2blhrREdYSzQzTzM3VWsyb3RHTFV6dncwSklMZ0ZUSXJNSEZySE9TMVZhZUtkb0JrLTdWX1lmYzRacHNjdWQ5UHYwVXR6Y01nVGJ3aFEzZWQ3R3JIZmNYY3RTZHlxMHMtY2pqQjNZcVdCVzJZSGc2RDVuckJRdjV1S2VGMFJXZ2ZkWHlNT3d2VTY?oc=5",
+    "source": "theglobeandmail.com",
+    "published": "2026-09-15T09:40+00:00",
     "score": 8,
     "tags": [
      "capital"
@@ -243,6 +231,19 @@
     "primary": false
    },
    {
+    "id": "9a0bba4f0d7bf675",
+    "title": "Amazon Could Buy Up to $60 Billion From Qualcomm Just as Apple Brings Modems In-House. Is the AI Pivot Real?",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSV9XTDVGbk42R1R6bTl3enY4RzdsT2pqRjJOWTBmT1gxaVlMYUFjRjhoWWVwcVlqUkVYeEY5MHJMcURlMmgybEJyUG1pWEU4dmtwb3lMWkRhVlVDNjVQUktTdDJ5aWRzSUFUN3RzWjV1VVF2djJzWUZWVWpNQXdyR3hDWTRCRWVTRmZ6YmtQN1hJQWFYWmc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-15T04:11+00:00",
+    "score": 8,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "26ccb58814995511",
     "title": "Qualcomm Has an Up-to-$60 Billion Deal With Amazon. Here’s What It Could Mean for the Stock.",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRVh6bE9FYWMtYWRWbTFLX2E1MzVORzFsMzNPX2ItWXd3TllxVVRWaFAtNnFFdlR2a2ZhSkFjZzNNeDJKNTd6czNkajF2S3hFUXJVLTFsOG9SOVBKSktpOWlaWUtnNW80VlVqd2VwQnZ1a1duWXdrUUgwWDgyTV84UnlfeW1Idi1RSVpNUWowWkJuZGdteS1pU3ZrWkxvQW15Nk94anJGa3FwR29Hek45M2JiOXU?oc=5",
@@ -259,7 +260,7 @@
     "id": "2595859cae4b10f6",
     "title": "Amazon Stock Analysis: Key Resistance & Momentum Outlook 2026",
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOS1pMzY4LXlqN05kZjBtZVZ3Y29pV1pRTlBRQXBhYWk4ZXFuZEdWVEh5bmpVN1lDWnE0NU5mNGYyanl1MWwwaGYxNGtSZkFRY0p4YlNVMVdyeTJYMDNZY0RFOThYZ3VhUVg2Ynptb2hpUC1oN2pBTHZuRDZkcVRtbTl5Yy05cWVUYl9Yb3pIdlNJdEllcTBsQ1ZwTmY0RUlld0NaRTJhUWU?oc=5",
-    "source": "en.cryptonomist.ch",
+    "source": "The Cryptonomist",
     "published": "2026-09-14T07:52+00:00",
     "score": 6,
     "tags": [
@@ -364,19 +365,6 @@
     "primary": false
    },
    {
-    "id": "1cdd9a9caba306f5",
-    "title": "Tesla, Microsoft and Amazon Forecast: Tech Stocks Diverge",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdUQwTl9vMDE3eWl5c3RDU2NzS2hVQjMtZUxJenZLdGgyc2VVblVRT3p4aE03QU5BbHNWYVlCclFxcXhMeHRkdVJDenJnSHkyRWVtWWNGTDduendkT3FqZzdYZFNLX2NWRldGdDFWb0k2Tjd5NDNTSXFSX01xWXNzYk9DRjBkbWlFY0RKdE5CdnNFNDhQU3F0VGhEZl9DbE42U3hBUG9GMkRiUQ?oc=5",
-    "source": "FXEmpire",
-    "published": "2026-09-14T13:11+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "8e8ce0a36130774d",
     "title": "Tesla sets up Vietnam unit to tap fast-growing EV market - report (TSLA:NASDAQ)",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRlRCeE1PQkhobW9oLWNNREllRGlPZWMtaktsWmhvWjRLa2NNZ2RSUmVFX0lCR2NvX3hfdXR0TzkwOWVKSWRUS1ZpQVNEcF9jMVc2NWRjcTdRZU9JT1NzbVFlZlpVcGc3blozUFlpbHVkVFlGYnloSUV6eHpGeUtsemdLWjd4SU9QT2pCc1lwR3BqbkdCeVMwcUFuOVh2TU51ZEZoN2lB?oc=5",
@@ -473,7 +461,7 @@
     "id": "4185d6c370495335",
     "title": "Palantir stock may win even if AI boom slows: why Wall Street sees 50% upside",
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNR1owdHdXcHhSaGhZNC1RSTFtN0w4VU9wd3cxY2ZtZ3M0bXFCSjl3LWM1NjM5YnZjZFpiRllCcl9KemNaVXRXWGt1V080YjduVlJnakQ2c3lESnNZWjgwQnV6aWcySDZlVjJzd0ExaDdBeDFBS3RfNE5ZUWFJVzNSV0k3c2ZaR1BsYUUyN191UzJlRVZmZ3ZDSElxNzk5T0s0cExrNW9xWnRIU2steHJTZg?oc=5",
-    "source": "invezz.com",
+    "source": "Invezz",
     "published": "2026-09-14T08:55+00:00",
     "score": 5,
     "tags": [
@@ -511,6 +499,32 @@
    }
   ],
   "MSFT": [
+   {
+    "id": "e390e8d0d8556d61",
+    "title": "Microsoft’s Dividend Payouts Surpass Stock Buybacks, With Room for Further Hikes",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRVVkcGhMSXRWYWZtRDA4ODhZMTlpYnAxSV90VjdwTDVCNEJSamNDcjRKcDBqM1c1S2w1VHdDbnFrT3liT2JHQl9PdGl6U1JMNTVfeUtTZlV5SVBKVHRESjBUNmpvZlg1cUpnSFk2cDEyWl9ZWGJJcURDXzlwZXRVTWJIQ0JFYWxYbDItNnM2SEwyZGpZZ29aY2hnbFlaYzRCOTI0TkhtempReEJIQjBtaw?oc=5",
+    "source": "NAI500",
+    "published": "2026-09-16T01:49+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "4fb225a4af10551e",
+    "title": "Microsoft EVP Amy Coleman Reports Sale of 35.943 Shares on September 15, 2026",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSXU3elZrcDRwRzA3SzlVaUE4MXNEVHdJNUZ2Ql96TDI5c0RNTjJubGZPZlp1U0EtRnNmNVJZZHZXbmhOUGtvZFdTY3otbHQ5SzF0NjN3UE9FX2ZycVhuT282aDFNMnliNEE0cm1FRDlQRTFhTVYxQVZlckctLXphY3VmUDBxUmhEV3lYbTlZSUFmWlJaY200dG9TZ1JUNFdYNU4xSnJRUV91OTJyVEtLbXprbWZNOUR5STFyc0pENA?oc=5",
+    "source": "Kalkine Media",
+    "published": "2026-09-15T23:10+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "f2909b4e9223219d",
     "title": "Microsoft Raises Dividend 8%",
@@ -616,19 +630,6 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "1cdd9a9caba306f5",
-    "title": "Tesla, Microsoft and Amazon Forecast: Tech Stocks Diverge",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdUQwTl9vMDE3eWl5c3RDU2NzS2hVQjMtZUxJenZLdGgyc2VVblVRT3p4aE03QU5BbHNWYVlCclFxcXhMeHRkdVJDenJnSHkyRWVtWWNGTDduendkT3FqZzdYZFNLX2NWRldGdDFWb0k2Tjd5NDNTSXFSX01xWXNzYk9DRjBkbWlFY0RKdE5CdnNFNDhQU3F0VGhEZl9DbE42U3hBUG9GMkRiUQ?oc=5",
-    "source": "FXEmpire",
-    "published": "2026-09-14T13:11+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "GOOGL": [
@@ -650,7 +651,7 @@
     "id": "7f9a2d925b181f41",
     "title": "Alphabet stock weekly forecast: Consolidation expected with technical barriers in focus",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaDJqUE52cHJDQjJFNC1QWUdyVGhneWQ3UnFZajhoV0tIUmd0NzAzSmxXVGxnQ29NSVA3VTFybmtlMDhHUm0tVjlsOWdqYXFCM2l6dFBGRmlaNUhPMTJVYU85b25sdHFQa2JoS2JzU1RlRHZkcnlTX2k2eWxhaThfQU1aT3RqNTlfTmJsdF9qSHFkZWNQ?oc=5",
-    "source": "Traders Union",
+    "source": "tradersunion.com",
     "published": "2026-09-15T14:41+00:00",
     "score": 6,
     "tags": [
@@ -690,7 +691,7 @@
     "id": "18d6b0cf2070ca01",
     "title": "Can Alphabet stock break resistance after quarterly dividend payment completed?",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUGZzanNMZHZZbTFJV2ltQzNlMld3ZWlLV2ltWDZtYTBUeDJRZTY0b2V3TDg4TzEwWUFRbWlON2h6S3JFbzVfM1JVMl9EM1lzTGo5SV9pQzU0alVMN1hfRXJGZUNZWGNFYUVyUFNEaEg1UlhUaUNUNnNOWWYtdVVJeTZXWU82b2lMYXE5d0xXb3RLdjZp?oc=5",
-    "source": "Traders Union",
+    "source": "tradersunion.com",
     "published": "2026-09-14T14:29+00:00",
     "score": 11,
     "tags": [
@@ -717,7 +718,7 @@
    {
     "id": "25c536d9543a9e58",
     "title": "Cathie Wood's Ark weekly recap: buys Meta, gene-editing stocks while cutting Alphabet",
-    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTWRKN3FsSUEyY2F4RkNrNFVUYnRla0FNM0ZMd296ZVNSNmxab0djSUhCMUw5MTdocFlGM25fN2hFTkM5dVFVc3R0ZWhzWlg4MWhCNDNTalJHcERXMUxfb3Q3QXZIVS1rZnF6ZlozUW5SVFBNZldab0Nod3MzV2xPSEViN1JXOTRfblZFUEZicWhFX1F6OXFEOEZIaUFrZGZEYTVvWXlQd2Z6X1FqUnhBTk8wdFVUcWpZVU9tSzFKNXZKZEN1T0hDYnlYWXdOcThOa3dXLTdLcGV6ZGh5MG5n?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPV1VTYV9DeWdxbTJ1c1p0bjRoUWEyX21uQjAySEt1MVJHRFU3aExZVmg2a2w1YkRlQXFkUlNpcmNPaFBKYlJ6UFE2clJyNC1UNlNjWHBiMlRnSndpZmQyQjFnUGZYNnJoU2VOLW9vRjltY0RxS0FybEJHeUtIbzEtdGZqdDdQOF9jYnQ0V2ZISEFqTllqa1dJQVE3OTJvd2twQkxONU95OVl6d09vUEh2cE9kZ1U4dng5elhRdnppNHBLM25hMkRiU0Z3VmtiWmhSdW5mXzVzTkRCamowcVE?oc=5",
     "source": "TradingView",
     "published": "2026-09-14T11:10+00:00",
     "score": 5,
@@ -771,8 +772,8 @@
    {
     "id": "c970bc8778f555ac",
     "title": "Robinhood's New Blockchain Is Now Making More Money Than Ethereum. Does That Make Robinhood Stock a Buy?",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcVNYT2tKWXBZR2pkR0oyNjJWYkJWVUV0c0FsR2ZPd2FPSUltNzVaQ3M5ZHhlYnJ0WGxDdERhWWFrREtobUF3VmFtbThwZW1DWG9vM01ZQjUxbEswZW9DVHNWaEdEOUpzTlQwM0wzcTU1X0cyMGRVMkFUZHZVRFB0TXpOZVQzVFRXa3otNTN6Y0dDZw?oc=5",
-    "source": "Currently.com",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOa2IzNGpUZXpSMDFMUjBlYy1xWlM3VkRGQ1QyMW5rcGdua3hFRm40TTg4dkVoVzRiX2dQTVYxTGkwa0dndjBRZ3FQSXhFNHctTm5hOTVYRzZ4Z19UYkVjQlEyeU0tMWxpeUlwQ0dvYngtY0ZhRm5URmVxR281dWpoWmVJMzZtdEdTZFRScjRETTVTWTN0MW1LSWxGbjZiMnl3QW45Tw?oc=5",
+    "source": "Yahoo Finance",
     "published": "2026-09-14T09:56+00:00",
     "score": 5,
     "tags": [
@@ -784,10 +785,36 @@
   ],
   "NVDA": [
    {
+    "id": "aff9aae8f187bb95",
+    "title": "Trump, Xi Jinping Dinner to Include Nvidia's Jensen Huang Amid Chip War Tensions: Report",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVjA1QmM4Wm4taER5U20zZXlhWHRNSk1LQ281MFdXcm1Xb2RoNE5BeGpqX29sNV9qSHhwUWZ1Mko0UXlHVjlkNkx4MkVIbUw3X0ZWVnlVU2taWUtodDFZTDdpcEtXcE5qbTh0RW40bUpjbk1Xd0RQeng3OXE0cDNSNGk3X3M2MElWelVqQVgydm9td1hYdDRj?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-16T03:11+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "091e9fd52cc0f063",
+    "title": "Nvidia Spent $26 Billion on Buybacks and Dividends in a Single Quarter. Its Board Is Betting Today's Profits Last 3 More Years.",
+    "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOeWc2T2dkX3dvcGFFZHNZQXpUQ29FY2lCbzhJaG1BOVRTa3Z4UTJtemRZa0RReElKRmxHRGRkTURWZHpPMXZJR2RXVzAwQVgwc0ZpdU10SnRVZmFReXJ6STJNVnIzNGVXVmRyM1RWQVZZR3Y1SXN4WmtMMG1OMXlzOTU3VGFTYWxzWnFWUUhQdUlNOWxhSjcyc0JNQ05KelJ3UHBTcHQyWWFZOVFVMld4M3lhb0V2aUZ5OWUyRzBIR3Y2UmZNX2Z6MHdjWm9jdEFtNzI5QVotc0FMbVVlaTI2SFBIYnl1TUh2ak90cWVESU80Umoydy1va3lyNVhvOVRiMjI5bGJ6QXRvV002TXpnaXdiQkwtaHY1ODdEaXFvdUNqRzR1Y0d1Z2ZhRQ?oc=5",
+    "source": "theglobeandmail.com",
+    "published": "2026-09-16T03:03+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "566a8b8fc79b13ac",
     "title": "Nvidia May Have Won the AI Training Race, but the Bigger Opportunity Is Likely Still Ahead",
     "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPV2xSeERRSUlGNno0QkdzUlFLNUFvaktvV1JoVUxQaGlJbmdYM1pUcGxnOGVoR202WlZiQUxkLU5BY1l1Vmc3SUY5QUpyRmhGVUFHMW9YU0FpaDVJZXJfM1RBLVZWRjZKNXZPcTlvamlQS3ZTLTA1U2V0ZjdVTWxOUU8zM1Q3ZGJhbm1EN2FCdzd0c1pORndxZ3VJUXppM0VpZks1X3RsclVnYmRHbWF5eEJhRVJHX0tJSUx4NzAyQkRxMWVmdXk2VVpBRmxUNkE3STZqamZycGI2TzNSaWFyM0g2d2VtVk5FemEweVc0dXBmbGJaRVhCV2N4djBCR3ZId2VMSg?oc=5",
-    "source": "The Globe and Mail",
+    "source": "theglobeandmail.com",
     "published": "2026-09-15T21:59+00:00",
     "score": 5,
     "tags": [
@@ -799,8 +826,8 @@
    {
     "id": "39e7c4e79d857ebf",
     "title": "Nvidia Bought Hugging Face for $12.9 Billion. This Software Acquisition Changes Everything.",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbnFPUWN6REdPaXU3c1BUY0taN0hJWTlmQnlJOHo5cE8zUGxPcXZzNklGbVdOYXd1N2hUYzV4ZXY2QzhMNk4zRWxTZnFyZ3llTjYxY0JXZHRzVTZyaXdZNkZlRzdyV1AtYkMxNkFLZTBkVDBJc0s4bmtQWWNvR0s3N09hdEZGWG1Rb0dBUERxWHBXRFhZel9uSA?oc=5",
-    "source": "Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQSmlja2UtSzlCVHBqNDBnd2d3MXhQaTVBNkE5T05jY2tCcFA5U0Z6ZGFGWTZGNng4R0tXYm1QYlEtQ01nZnI2YXduckNjVU1RS1RiR0F4LXI3cm1GejhPWEpnckZ4QTRpWHB5d0RYa2tWU3o2YzJESjFxaTBfdUlpc1RkNVg3TndxUmNYbTZOTm1SSEoySVM1RFA0N1E1Q0tPSXVVYlhKdjJ5V1FObG5fMGt2cHRQb3h4M3Myc1Nvd3AzVVhFblNIRnBjVjBtWVludDJpZ0JmeEdYV0ZIZFZFbVFnWFAzenE5dmdsTUVRd2xpb0h0OXh6Vkl4VG9sQmI0OXc?oc=5",
+    "source": "theglobeandmail.com",
     "published": "2026-09-15T21:32+00:00",
     "score": 8,
     "tags": [
@@ -865,7 +892,7 @@
     "id": "b5dc5160f07d3fa4",
     "title": "Buy TI and NVIDIA for Exposure to Semiconductor Boom",
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbktCQ2pUbnJqcTVPdmhIVVM5MGpUWVlzeVVmZ2xDTkliLTlvZDdEU0NQakR3dFg5WTlvcFdHM1RkWldrS2Zabi1PLTRfajVXa01ETmx1Z1VSSGVGR3VhRjZBWS1XNzM5bERTQnVidTdtT0txQXNuc2owUjZtendzSENtVmN0SWFfZ21xbUl3a3VMMmVBQzFkWXFCdE9uaXBoZUpwOGNONkJxa0dscDhTUUtIWjAycURJWExUemxhS0pmRld3YmNCQ2RiVGlodDBTWGc?oc=5",
-    "source": "The Globe and Mail",
+    "source": "theglobeandmail.com",
     "published": "2026-09-15T16:36+00:00",
     "score": 5,
     "tags": [
@@ -877,44 +904,45 @@
    {
     "id": "7b6224cecd6b3904",
     "title": "Nvidia To Curb A.I. Model Use As Concerns Grow",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBTdXoxN0tXamRGZldoaHJNN1NtNlVlbzFYUER0TXRtRjNYNFc0ZXp2b0QzNzBqajB2VmQ0RElhMWhRN3d4cm4yR3FmaU11WUQ1ZzkyTTRQQTNjWFVZMXhUTldWdWpZTWkwUVkyNDJEMzJNbGlOeVpnUkRsalDSAXxBVV95cUxQU3V6MTdLV2pkRmZXaGhyTTdTbTZVZW8xWFBEdE10bUYzWDRXNGV6dm9EMzcwamowdlZkNERJYTFoUTd3eHJuMkdxZmlNdVlENWc5Mk00UEEzY1hVWTF4VE5XVnVqWU1pMFFZMjQyRDMyTWxpTnlaZ1JEbGpQ?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1kSU5VWUVaSmQ0MDh3b0g4a3RTRUNnQ2VEZTJZOW5ibkJsUmNGWVB6MHl5aC1wVkVKY1c2VW9vQVlwdkwwLXhWSnpDa1UzX0J5UUVfS19pamVReFJUSTZPYlJMaDBDNGYyQlNMcjhVbEVobXBZeVdj0gF8QVVfeXFMUFN1ejE3S1dqZEZmV2hock03U202VWVvMVhQRHRNdG1GM1g0VzRlenZvRDM3MGpqMHZWZDRESWExaFE3d3hybjJHcWZpTXVZRDVnOTJNNFBBM2NYVVkxeFROV1Z1allNaTBRWTI0MkQzMk1saU55WmdSRGxqUA?oc=5",
     "source": "Baystreet.ca",
-    "published": "2026-09-15T14:55+00:00",
+    "published": "2026-09-15T14:04+00:00",
     "score": 5,
     "tags": [
      "operations"
     ],
     "direction": "neutral",
     "primary": false
-   },
+   }
+  ],
+  "INTC": [
    {
-    "id": "d0f5ad5eb064252b",
-    "title": "This Unassuming Stock is Trouncing Nvidia in 2026. Here’s Why It’s a No-Brainer Buy.",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWmcwQnBNZ0YtQkR1RW1ZTm9RSHNubldSVVZocUp0MVRnQXNRNk01anA1NnJDajJfTEV5ekh4VUJXOHlwZXg2ZWFRc2ZkX0tXekx5cmJqcXduek50MjAwRUowaVlqVmNVQ05zeGVpejNTellPN3ltSDZsMmFxamZRVzRwX0hyNi12OGNjSm42a0g4ZEVKR0NuSmJLNkdCYTlHeXQxdlFn?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-15T08:32+00:00",
+    "id": "a0aa4d1cac3c94bb",
+    "title": "Exclusive-SK Hynix in talks with Intel about deal to make memory chips in the US for the first time, sources say",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbXR1YVh1dmFma1lrOGlHdmdDNXhGTUpLcXcxalViNldzS2xTdmN3eTEtTUtwTGFIVU53dmVKV2NuazdxUGxXcVMzSjhtcFRUYmpFNE12TjQ5MFZ4VHgwbHVXSHVVdzFyWGhvUTE1bEdSYjBzN2h2UUc0ZmJyWU5ic3hCTHBLSS1zYjVjZjRvVnE1bkZ5YTJHT1prX2ZyMEx4SVo2dHE0X2F4YkJGdnZxRkdUSkZ1dWFLd3hwVnNmTW02bXc?oc=5",
+    "source": "Euronext Markets: Real-time Stock Market Data | live",
+    "published": "2026-09-16T05:31+00:00",
     "score": 5,
     "tags": [
-     "ma"
+     "contract"
     ],
     "direction": "neutral",
     "primary": false
    },
    {
-    "id": "5051a84e88be52d6",
-    "title": "JPMorgan double upgraded a data center stock that struck a deal with Nvidia earlier this year",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZDNCekNDRXFHY1Y1bWdCSW5vd0ctZ0tWYy1mX3ZlVTdJMXZxQVdBVjVsc3RfekZsbUZudndLOVVVamNkZXQ4ZmRLbVJnck4zZ25MVS1pa3BCa2hQV3BlczFPcmV6bklHWFlwX1R6bWFnVnlvMjFMSXo3bjFIMDNhYXlJeGRSb0xLdS02Q25qa2lVNVR1UDFtMG5hbmxvYUFfdTRrSm5GRzl5LVBtVDJ3Z2RR?oc=5",
-    "source": "CNBC",
-    "published": "2026-09-14T14:03+00:00",
-    "score": 5,
+    "id": "6caeb09a81df1d59",
+    "title": "Intel CPU Supply Can Only Meet 50% of Demand — Lip-Bu Tan Reveals 14A Production Next Year, New Architecture Dramatically Cuts Power Consumption",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JSDRBd1Q5S09heWt3dVVtVzN2ZzhYS0ZCZkp1dEZuMXpOX3c1WGRPZTJpUVBBczJwUVBkSXVoWkd4M3lFYmZJUmtQQW9ZQllram85QmxPSE9LS1UxS3FWU2QyQVhCU18zN0xnRWlZdUtiQnRfc2c?oc=5",
+    "source": "finance.biggo.com",
+    "published": "2026-09-16T02:35+00:00",
+    "score": 10,
     "tags": [
-     "contract"
+     "contract",
+     "operations"
     ],
-    "direction": "positive",
+    "direction": "negative",
     "primary": false
-   }
-  ],
-  "INTC": [
+   },
    {
     "id": "39e9861b2496750b",
     "title": "Intel Rallies as Altera IPO Unlocks Its 49% Chip Stake",
@@ -968,6 +996,19 @@
     "primary": false
    },
    {
+    "id": "106fe635576c4c6d",
+    "title": "Intel stock slides as AI leaders urge AI development slowdown: Buy the pullback? By Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPQ2FtVEN1cnlpQ1pFNXJfUDJRTVJGN2gwYzdCUjVoaEhlZzJZeHN1bkFCY3hqVkVjcWo4ZVhPczIwZExVRXYwa3RUYnNjMzJpSFJPZmtZQkN6ZUlaZUpKVFlSVVluUE5mT3RrLTY3VVREdm1QVXczRHFFTVYxZDlsM01yYjhsel9vRVpuczhYSVpybkRrWGNISjdPM1pfME5kTEpHU1h6RHZPSzIzSko4dDgyOGRzb21XUW5JUXlVT1pRTEpDQWlnZXhfOFpCYmRRX3JoYXZ3?oc=5",
+    "source": "Investing.com South Africa",
+    "published": "2026-09-14T15:26+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
     "id": "bb0e5e8152d50d3f",
     "title": "Intel Falls 5.3%, but Its Government-Stake Warning Is Seven Months Old",
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVGRrV0hMSEk1TVJCdzNXZ1VEZHdmZS00bEstU2pYQm03eEwwLTdWTkIwRTNBaW5feE5hbHN1clRSTk1oc2RGMk5ndmVGcHg4SUplVjdmQVRzTHhPc1ZqV3NxMmRCREpTaEJPZHpubFdBaF9SX084SWpkTlE4dHBBa1BTSTM4X05RWG8wYkVoLVJPMkE?oc=5",
@@ -991,19 +1032,6 @@
      "operations"
     ],
     "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "131a0dece7e3c9a2",
-    "title": "Intel stock slides as AI leaders urge AI development slowdown: Buy the pullback?",
-    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNb0gxc1luUTFpaEhPdVBGZGxSMXdlMUw1blJUdzJqVTB5RHZEX1ByUmVIVDNVUGxYYVMzUjJjbG8zWEI0S3hYQW5sekhrUVNwSFdvRkt0amZGdVAxMHpBNFBoMXZKV0FYWjY0X004ZnJpV2VoWWN4RFhZVzQ3SmZyVm1lMmE4Sk9rYmMyc21nQmdERmlmdC00UWtXX1E5Si1NaVQ4UkZxVXlxbHd5LUM1QmVzakJWeFU5RDhhMGtOS1VLcmdaY0JMZ1o0MF9uRVV1ZWhTdzZB?oc=5",
-    "source": "Investing.com India",
-    "published": "2026-09-14T11:09+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "negative",
     "primary": false
    }
   ],
@@ -1065,7 +1093,7 @@
     "id": "4fbcc3aa36be859a",
     "title": "Will Palantir stock test $168.43 resistance as Nebius AI partnership expands commercial infrastructure?",
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOd2UwMDdCRUE1Q3haajRrdnFSN29Kam9Lc0lCZXpHQm9oTm5mRGpwWTRRbm1KZUVFWFFBWF9SNDVWb0t1WWJiMTFubV9xSUxHZXVySE9kaDdrMXkwLWJHcGh4T2hNdzB6NW4zbFpDNmV4X09VZEIyQmtsZlNaRnlBQm9YSE5JM0kt?oc=5",
-    "source": "Traders Union",
+    "source": "tradersunion.com",
     "published": "2026-09-14T14:58+00:00",
     "score": 8,
     "tags": [
@@ -1197,5 +1225,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 86
+ "count": 88
 }
