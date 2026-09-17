@@ -1,0 +1,623 @@
+{
+  "date": "2026-09-17",
+  "weekday": "Thursday",
+  "headline": "The Fed raised rates; Robinhood fell 5.46%, Intel gained 4.03%, and Nebius indicated +11.05% Thursday premarket.",
+  "gauge": [
+    {
+      "text": "Fed raised rates 0.25 points to 3.75%-4.00% on Wednesday",
+      "tone": "flat"
+    },
+    {
+      "text": "Wednesday: S&amp;P 500 -0.4%, Dow -1.2%, Nasdaq down less than 0.1%",
+      "tone": "down"
+    },
+    {
+      "text": "Snapshot fetched 07:02-07:03 ET Thursday",
+      "tone": "flat"
+    }
+  ],
+  "quick": [
+    "<b>Robinhood -5.46% Wednesday:</b> the largest fall of the twelve.",
+    "<b>Intel +4.03% Wednesday:</b> the largest gain of the twelve.",
+    "<b>Nebius +11.05% Thursday premarket:</b> the strongest premarket reading in the available snapshot.",
+    "Wednesday finished with <b>8 advancers and 4 decliners</b>. All <b>10 available Thursday premarket readings were positive</b>.",
+    "<b>Palantir and Robinhood have no Thursday premarket print in this fetch.</b> Their extended quotes are Wednesday 19:59 ET after-hours observations."
+  ],
+  "macro": [
+    {
+      "dt": "<b>The FOMC decision is now a completed event: 16 September.</b>",
+      "lead": "A unanimous quarter-point hike lifted the target to 3.75%-4.00%",
+      "dd": "The 12-0 vote accompanied a statement describing solid activity and elevated inflation. <a href=\"https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm\">Federal Reserve statement, 16 September</a>"
+    },
+    {
+      "dt": "<b>The projections point to further tightening, not a promise.</b>",
+      "lead": "The median projected year-end policy rate is 4.1% in both 2026 and 2027",
+      "dd": "That compares with June projections of 3.8% and 3.6%, respectively. The 2026 PCE inflation projection rose to 3.7%. These are policymakers' conditional projections, not a committed path. <a href=\"https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm\">Official projections, 16 September</a>"
+    },
+    {
+      "dt": "<b>Wednesday closed lower for the broad US indexes.</b>",
+      "lead": "The S&amp;P 500 fell 0.4%, Dow 1.2%, and Nasdaq less than 0.1%",
+      "dd": "AP reported that stocks reversed earlier gains during the press conference. These are closing changes, distinct from larger intraday declines. <a href=\"https://apnews.com/article/b082e78c9b572b6b0a94b8033a0ee96b\">AP closing report, 16 September</a>"
+    },
+    {
+      "dt": "<b>Thursday futures recovered ahead of the open.</b>",
+      "lead": "Reuters reported S&amp;P futures +0.74% and Nasdaq 100 futures +0.96% around its 05:31 ET update",
+      "dd": "The recovery followed Wednesday's policy decision and is provisional. It does not reverse the rate increase or confirm the closing direction for Thursday. <a href=\"https://ca.investing.com/news/economy-news/wall-st-futures-rise-as-fed-rate-hike-lifts-longstanding-overhang-4842958\">Reuters, 17 September</a>"
+    },
+    {
+      "dt": "<b>The House passed a data-center energy-cost bill on 16 September.</b>",
+      "lead": "The measure asks state regulators to consider who pays for added power infrastructure",
+      "dd": "AP reported a 417-3 vote. This is House passage, not enacted law or an immediate uniform charge; its relevance is potential infrastructure-cost allocation. <a href=\"https://apnews.com/article/f073380caa61b720fa424590b5bc7c87\">AP, 16 September</a>"
+    }
+  ],
+  "entries": [
+    {
+      "ticker": "HOOD",
+      "dir": "bearish",
+      "strength": "major",
+      "strength_label": "Major Wednesday move &middot; Fraud allegations and crypto-policy uncertainty",
+      "move": "-5.46% Wednesday close &middot; +0.61% Wednesday after-hours",
+      "move_tone": "down",
+      "happened": "Robinhood fell 5.46% Wednesday. The DOJ announcement is dated 15 September: two engineers were charged with allegedly trading cryptocurrency futures using confidential listing information. Wednesday coverage revisited those charges alongside the prior day's stalled crypto legislation.",
+      "figures": [
+        "Wednesday close <b>$104.42</b>, <b>-5.46%</b>",
+        "Session range <b>$101.70 to $111.05</b>, <b>9.19%</b> low to high",
+        "Volume <b>33.49m</b> against <b>25.26m</b> average, <b>133%</b> of average",
+        "Wednesday after-hours <b>+0.61%</b> at <b>$105.06</b>; <b>2026-09-16 19:59 EDT</b>; no Thursday premarket reading in this snapshot",
+        "Closed <b>32.13%</b> below its 52-week high"
+      ],
+      "why": "The allegations concern individuals, not a finding that Robinhood committed fraud. DOJ thanked the company for cooperating; the defendants are presumed innocent. Potential damage to trust and compliance costs is distinct from a demonstrated loss of customer assets or revenue.",
+      "foot": [
+        {
+          "k": "Source and date",
+          "v": "<a href=\"https://www.justice.gov/usao-sdny/pr/two-robinhood-employees-charged-fraud\">DOJ, 15 September; Wednesday price reaction, 16 September</a>"
+        },
+        {
+          "k": "Evidence limit",
+          "v": "The settled session is Wednesday 16 September. Extended-hours prices are provisional, with the observation time shown above. The interpretation is not a forecast."
+        }
+      ]
+    },
+    {
+      "ticker": "NBIS",
+      "dir": "neutral",
+      "strength": "minor",
+      "strength_label": "Minor Wednesday move &middot; Large provisional premarket rise",
+      "move": "+0.96% Wednesday close &middot; +11.05% Thursday premarket",
+      "move_tone": "up",
+      "happened": "Nebius gained 0.96% Wednesday and indicated an 11.05% rise at 07:03 ET Thursday. No new company release explaining that Thursday jump was identified in the sources reviewed. The newsroom still leads with the Palantir partnership announced on 8 September.",
+      "figures": [
+        "Wednesday close <b>$209.37</b>, <b>+0.96%</b>",
+        "Session range <b>$208.46 to $220.40</b>, <b>5.73%</b> low to high",
+        "Volume <b>13.36m</b> against <b>13.65m</b> average, <b>98%</b> of average",
+        "Thursday premarket <b>+11.05%</b> at <b>$232.50</b>; <b>2026-09-17 07:03 EDT</b>",
+        "Closed <b>30.18%</b> below its 52-week high"
+      ],
+      "why": "The move is a price observation, not evidence of a newly signed contract. AI cloud capacity remains sensitive to financing costs, power availability and customer utilization. The 8 September partnership is prior context and must not be counted again as fresh revenue.",
+      "foot": [
+        {
+          "k": "Source and date",
+          "v": "<a href=\"https://nebius.com/newsroom\">Nebius newsroom reviewed 17 September; latest listed partnership, 8 September</a>"
+        },
+        {
+          "k": "Evidence limit",
+          "v": "The settled session is Wednesday 16 September. Extended-hours prices are provisional, with the observation time shown above. The interpretation is not a forecast."
+        }
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "dir": "bullish",
+      "strength": "major",
+      "strength_label": "Major Wednesday move &middot; Reported US memory-production talks",
+      "move": "+4.03% Wednesday close &middot; +2.92% Thursday premarket",
+      "move_tone": "up",
+      "happened": "Intel rose 4.03% Wednesday after Reuters reported on 16 September that SK Hynix was discussing US memory production with Intel, potentially using part of its Ohio facility. SK Hynix said no decision had been made.",
+      "figures": [
+        "Wednesday close <b>$101.05</b>, <b>+4.03%</b>",
+        "Session range <b>$99.29 to $104.42</b>, <b>5.17%</b> low to high",
+        "Volume <b>119.11m</b> against <b>96.07m</b> average, <b>124%</b> of average",
+        "Thursday premarket <b>+2.92%</b> at <b>$104.00</b>; <b>2026-09-17 07:01 EDT</b>",
+        "Closed <b>29.01%</b> below its 52-week high"
+      ],
+      "why": "A lease or partnership could improve the economics of idle or planned infrastructure. No signed transaction, price or production timetable was disclosed, so the market is valuing a possibility rather than committed earnings.",
+      "foot": [
+        {
+          "k": "Source and date",
+          "v": "<a href=\"https://ca.marketscreener.com/news/sk-hynix-in-talks-with-intel-about-deal-to-make-memory-chips-in-the-us-for-the-first-time-sources-s-ce785bd2d881f52c\">Reuters, 16 September</a>"
+        },
+        {
+          "k": "Evidence limit",
+          "v": "The settled session is Wednesday 16 September. Extended-hours prices are provisional, with the observation time shown above. The interpretation is not a forecast."
+        }
+      ]
+    },
+    {
+      "ticker": "MRVL",
+      "dir": "neutral",
+      "strength": "major",
+      "strength_label": "Major Wednesday move &middot; Connectivity rebound during the summit",
+      "move": "+3.61% Wednesday close &middot; +2.79% Thursday premarket",
+      "move_tone": "up",
+      "happened": "Marvell rose 3.61% Wednesday during the 15-17 September AI Infra Summit. Its event programme includes inference and connectivity presentations; the underlying summit release was dated 9 September. No fresh financial outlook was identified in the reviewed programme.",
+      "figures": [
+        "Wednesday close <b>$229.71</b>, <b>+3.61%</b>",
+        "Session range <b>$224.58 to $233.77</b>, <b>4.09%</b> low to high",
+        "Volume <b>16.27m</b> against <b>18.13m</b> average, <b>90%</b> of average",
+        "Thursday premarket <b>+2.79%</b> at <b>$236.12</b>; <b>2026-09-17 06:53 EDT</b>",
+        "Closed <b>30.37%</b> below its 52-week high"
+      ],
+      "why": "Inference infrastructure demand supports the business case for optical links, networking and memory connectivity. A product demonstration is not a booked order, and the share-price recovery alone does not establish a change in expected sales.",
+      "foot": [
+        {
+          "k": "Source and date",
+          "v": "<a href=\"https://www.marvell.com/company/events/ai-infra-summit-2026.html\">Marvell event programme, 15-17 September; announcement, 9 September</a>"
+        },
+        {
+          "k": "Evidence limit",
+          "v": "The settled session is Wednesday 16 September. Extended-hours prices are provisional, with the observation time shown above. The interpretation is not a forecast."
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "dir": "neutral",
+      "strength": "minor",
+      "strength_label": "Minor Wednesday move &middot; Higher workforce pay and data-center investment",
+      "move": "-0.99% Wednesday close &middot; +1.39% Thursday premarket",
+      "move_tone": "down",
+      "happened": "On 16 September Amazon announced more than $1.5 billion of investment in higher US operations pay: eligible employees receive a $1 hourly increase, with minimum starting pay of $20 and average pay near $24. The increase takes effect 27 September, according to AP.",
+      "figures": [
+        "Wednesday close <b>$245.96</b>, <b>-0.99%</b>",
+        "Session range <b>$244.30 to $249.26</b>, <b>2.03%</b> low to high",
+        "Volume <b>33.32m</b> against <b>30.03m</b> average, <b>111%</b> of average",
+        "Thursday premarket <b>+1.39%</b> at <b>$249.39</b>; <b>2026-09-17 06:50 EDT</b>",
+        "Closed <b>14.36%</b> below its 52-week high"
+      ],
+      "why": "Higher pay raises operating costs before any offset from retention, productivity or sales. Separately, Dow Jones reported a $2.4 billion Generac backup-generator agreement on 16 September, reinforcing the scale of data-center investment. The underlying filing could not be read directly. Neither announcement by itself establishes an earnings revision.",
+      "foot": [
+        {
+          "k": "Source and date",
+          "v": "<a href=\"https://www.aboutamazon.com/news/workplace/amazon-raises-minimum-starting-pay-adds-grocery-banking-benefits\">Amazon announcement, 16 September</a>"
+        },
+        {
+          "k": "Evidence limit",
+          "v": "The settled session is Wednesday 16 September. Extended-hours prices are provisional, with the observation time shown above. The interpretation is not a forecast."
+        },
+        {
+          "k": "Additional sources",
+          "v": "<a href=\"https://apnews.com/article/cecdedb344297a2886513bbcc0360535\">AP, 16 September: pay effective 27 September</a>; <a href=\"https://www.marketscreener.com/news/amazon-signs-2-4-billion-data-center-generator-deal-with-generac-ce785bd2d088f326\">Dow Jones, 16 September: Generac agreement</a>"
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "dir": "neutral",
+      "strength": "notable",
+      "strength_label": "Notable Wednesday move &middot; Dividend increase is dated Tuesday",
+      "move": "-1.37% Wednesday close &middot; +0.96% Thursday premarket",
+      "move_tone": "down",
+      "happened": "Microsoft fell 1.37% Wednesday despite its 15 September announcement of a $0.98 quarterly dividend, up $0.07 or 8%. It is payable 10 December to holders of record on 19 November; the ex-dividend date is also 19 November.",
+      "figures": [
+        "Wednesday close <b>$490.30</b>, <b>-1.37%</b>",
+        "Session range <b>$487.23 to $495.97</b>, <b>1.79%</b> low to high",
+        "Volume <b>16.61m</b> against <b>17.74m</b> average, <b>94%</b> of average",
+        "Thursday premarket <b>+0.96%</b> at <b>$495.00</b>; <b>2026-09-17 06:30 EDT</b>",
+        "Closed <b>11.45%</b> below its 52-week high"
+      ],
+      "why": "The increase is a concrete capital-return decision, but it is not a Wednesday earnings upgrade. A larger cash distribution does not remove sensitivity to higher discount rates or the capital costs of AI infrastructure.",
+      "foot": [
+        {
+          "k": "Source and date",
+          "v": "<a href=\"https://news.microsoft.com/source/2026/09/15/microsoft-announces-quarterly-dividend-increase-7/\">Microsoft, 15 September</a>"
+        },
+        {
+          "k": "Evidence limit",
+          "v": "The settled session is Wednesday 16 September. Extended-hours prices are provisional, with the observation time shown above. The interpretation is not a forecast."
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "dir": "bullish",
+      "strength": "minor",
+      "strength_label": "Minor Wednesday move &middot; Vera Rubin benchmark preview",
+      "move": "+0.82% Wednesday close &middot; +1.43% Thursday premarket",
+      "move_tone": "up",
+      "happened": "Nvidia published its Vera Rubin NVL72 MLPerf Inference v6.1 preview on 16 September, reporting up to 3.7 times the throughput of GB300 NVL72 in the highlighted comparison. This is a company-reported benchmark result, not a customer revenue figure.",
+      "figures": [
+        "Wednesday close <b>$213.90</b>, <b>+0.82%</b>",
+        "Session range <b>$212.50 to $216.76</b>, <b>2.00%</b> low to high",
+        "Volume <b>96.08m</b> against <b>114.43m</b> average, <b>84%</b> of average",
+        "Thursday premarket <b>+1.43%</b> at <b>$216.95</b>; <b>2026-09-17 06:59 EDT</b>",
+        "Closed <b>9.57%</b> below its 52-week high"
+      ],
+      "why": "Better inference throughput can strengthen customer economics and demand for new systems. The eventual financial benefit still depends on price, deployment costs, availability and actual utilization; the benchmark maximum is not a universal workload result.",
+      "foot": [
+        {
+          "k": "Source and date",
+          "v": "<a href=\"https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/\">Nvidia, 16 September</a>"
+        },
+        {
+          "k": "Evidence limit",
+          "v": "The settled session is Wednesday 16 September. Extended-hours prices are provisional, with the observation time shown above. The interpretation is not a forecast."
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "dir": "neutral",
+      "strength": "minor",
+      "strength_label": "Minor Wednesday move &middot; AI shopping tools expand",
+      "move": "-0.61% Wednesday close &middot; +1.50% Thursday premarket",
+      "move_tone": "down",
+      "happened": "On 16 September Google announced expanded agentic-commerce tools, including Merchant Center AI performance insights, a Business Agent beta for YouTube ads, and simpler integration of its Universal Commerce Protocol.",
+      "figures": [
+        "Wednesday close <b>$342.87</b>, <b>-0.61%</b>",
+        "Session range <b>$340.64 to $348.40</b>, <b>2.28%</b> low to high",
+        "Volume <b>18.86m</b> against <b>24.75m</b> average, <b>76%</b> of average",
+        "Thursday premarket <b>+1.50%</b> at <b>$348.00</b>; <b>2026-09-17 05:55 EDT</b>",
+        "Closed <b>16.09%</b> below its 52-week high"
+      ],
+      "why": "The products aim to preserve discovery and checkout activity within Google as shopping becomes more conversational. Revenue depends on merchant adoption and conversion; the announcement supplies no quantified incremental advertising earnings.",
+      "foot": [
+        {
+          "k": "Source and date",
+          "v": "<a href=\"https://blog.google/products-and-platforms/products/shopping/google-shopping-updates-holiday-shopping/\">Google, 16 September</a>"
+        },
+        {
+          "k": "Evidence limit",
+          "v": "The settled session is Wednesday 16 September. Extended-hours prices are provisional, with the observation time shown above. The interpretation is not a forecast."
+        }
+      ]
+    },
+    {
+      "ticker": "META",
+      "dir": "neutral",
+      "strength": "minor",
+      "strength_label": "Minor Wednesday move &middot; Threads adds podcast tools",
+      "move": "+0.46% Wednesday close &middot; +0.99% Thursday premarket",
+      "move_tone": "up",
+      "happened": "Meta announced new Threads podcast tools on 16 September, including episode cards, reminders and audience insights. Meta One was introduced on 15 September; an updated article date does not make that subscription launch a second new event.",
+      "figures": [
+        "Wednesday close <b>$673.31</b>, <b>+0.46%</b>",
+        "Session range <b>$671.91 to $685.31</b>, <b>1.99%</b> low to high",
+        "Volume <b>17.17m</b> against <b>20.15m</b> average, <b>85%</b> of average",
+        "Thursday premarket <b>+0.99%</b> at <b>$680.00</b>; <b>2026-09-17 07:01 EDT</b>",
+        "Closed <b>14.86%</b> below its 52-week high"
+      ],
+      "why": "The Threads tools may support engagement and creator retention but include no revenue guidance. For Meta One, the reported 15 million figure combines subscriptions and trials, so it cannot be treated as a paid-subscriber count.",
+      "foot": [
+        {
+          "k": "Source and date",
+          "v": "<a href=\"https://about.fb.com/news/2026/09/threads-expands-podcast-toolkit-for-creators-and-listeners/\">Meta, 16 September; Meta One background, 15 September</a>"
+        },
+        {
+          "k": "Evidence limit",
+          "v": "The settled session is Wednesday 16 September. Extended-hours prices are provisional, with the observation time shown above. The interpretation is not a forecast."
+        },
+        {
+          "k": "Earlier launch",
+          "v": "<a href=\"https://about.fb.com/news/2026/09/introducing-meta-one-subscription-service-more-features-ai/\">Meta One, 15 September</a>"
+        }
+      ]
+    },
+    {
+      "ticker": "PLTR",
+      "dir": "neutral",
+      "strength": "notable",
+      "strength_label": "Notable Wednesday move &middot; Software gain without a new quantified contract",
+      "move": "+1.03% Wednesday close &middot; +0.09% Wednesday after-hours",
+      "move_tone": "up",
+      "happened": "Palantir gained 1.03% Wednesday. The 8 September Nebius partnership remains prior context; no newly quantified 16 September contract or financial outlook was identified in the reviewed sources.",
+      "figures": [
+        "Wednesday close <b>$174.34</b>, <b>+1.03%</b>",
+        "Session range <b>$168.96 to $174.76</b>, <b>3.44%</b> low to high",
+        "Volume <b>20.90m</b> against <b>26.89m</b> average, <b>78%</b> of average",
+        "Wednesday after-hours <b>+0.09%</b> at <b>$174.50</b>; <b>2026-09-16 19:59 EDT</b>; no Thursday premarket reading in this snapshot",
+        "Closed <b>15.99%</b> below its 52-week high"
+      ],
+      "why": "The partnership may widen sovereign AI deployment options, but it includes no minimum purchase commitment that can be turned directly into revenue. Wednesday's positive return does not establish a new operating catalyst.",
+      "foot": [
+        {
+          "k": "Source and date",
+          "v": "<a href=\"https://nebius.com/newsroom/palantir-and-nebius-partner-to-deliver-a-complete-sovereign-ai-stack-to-palantir-customers\">Nebius and Palantir, 8 September</a>"
+        },
+        {
+          "k": "Evidence limit",
+          "v": "The settled session is Wednesday 16 September. Extended-hours prices are provisional, with the observation time shown above. The interpretation is not a forecast."
+        }
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "dir": "neutral",
+      "strength": "minor",
+      "strength_label": "Minor Wednesday move &middot; Cybercab regulatory deadline remains ahead",
+      "move": "+0.42% Wednesday close &middot; +1.35% Thursday premarket",
+      "move_tone": "up",
+      "happened": "Tesla gained 0.42% Wednesday. Reuters' 15 September report on NHTSA questions about Cybercab certification remains relevant, with responses due 30 September. No new financial guidance was identified in the reviewed 16 September reporting.",
+      "figures": [
+        "Wednesday close <b>$358.08</b>, <b>+0.42%</b>",
+        "Session range <b>$354.89 to $365.10</b>, <b>2.88%</b> low to high",
+        "Volume <b>32.03m</b> against <b>40.09m</b> average, <b>80%</b> of average",
+        "Thursday premarket <b>+1.35%</b> at <b>$362.90</b>; <b>2026-09-17 05:37 EDT</b>",
+        "Closed <b>28.22%</b> below its 52-week high"
+      ],
+      "why": "Higher borrowing costs can weigh on vehicle affordability, while autonomy valuation depends on deployment and regulatory progress. The earlier information request is not an announced recall or operating ban and should not be relabeled as a new Wednesday action.",
+      "foot": [
+        {
+          "k": "Source and date",
+          "v": "<a href=\"https://www.marketscreener.com/news/us-agency-orders-tesla-to-answer-questions-on-cybercab-certification-ce785bddde80f524\">Reuters, 15 September; underlying filing not read directly</a>"
+        },
+        {
+          "k": "Evidence limit",
+          "v": "The settled session is Wednesday 16 September. Extended-hours prices are provisional, with the observation time shown above. The interpretation is not a forecast."
+        }
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "dir": "neutral",
+      "strength": "minor",
+      "strength_label": "Minor Wednesday move &middot; Product launch approaches",
+      "move": "+0.32% Wednesday close &middot; +0.55% Thursday premarket",
+      "move_tone": "up",
+      "happened": "Apple gained 0.32% Wednesday. Its 16 September newsroom item showcased iPhone 18 Pro photography; it did not supply sales or financial guidance. The previously announced 18 September product availability remains the next near-term milestone.",
+      "figures": [
+        "Wednesday close <b>$332.41</b>, <b>+0.32%</b>",
+        "Session range <b>$330.70 to $335.48</b>, <b>1.45%</b> low to high",
+        "Volume <b>35.92m</b> against <b>43.94m</b> average, <b>82%</b> of average",
+        "Thursday premarket <b>+0.55%</b> at <b>$334.25</b>; <b>2026-09-17 06:29 EDT</b>",
+        "Closed <b>3.53%</b> below its 52-week high"
+      ],
+      "why": "Marketing ahead of availability is not evidence of actual unit demand. Upgrade conversion, product mix and margins will determine the financial effect of the new devices and the 14 September software rollout.",
+      "foot": [
+        {
+          "k": "Source and date",
+          "v": "<a href=\"https://images.apple.com/newsroom/2026/09/celebrating-what-holds-us-on-iphone-18-pro/\">Apple, 16 September; product-availability announcement, 11 September</a>"
+        },
+        {
+          "k": "Evidence limit",
+          "v": "The settled session is Wednesday 16 September. Extended-hours prices are provisional, with the observation time shown above. The interpretation is not a forecast."
+        }
+      ]
+    }
+  ],
+  "readthrough": {
+    "title": "The index decline hid a mixed twelve-stock session.",
+    "body": "<b>Eight tracked shares gained and four fell Wednesday.</b> Intel and Marvell gained 4.03% and 3.61%, while Robinhood lost 5.46%. The dataset therefore does not support describing every tracked stock as having fallen after the Fed.<br><br><b>Interpretation:</b> higher interest rates can reduce what investors pay for distant profits and raise financing costs, while company-specific news can still dominate individual shares. Intel's reported talks, Amazon's pay investment and Nvidia's benchmark release should be distinguished from the common monetary-policy backdrop.<br><br><b>Thursday is a new session:</b> the available premarket observations are all positive, but Nebius's 11.05% indication lacks a verified new company catalyst in the reviewed sources. A price surge is not proof of a contract or a durable reversal."
+  },
+  "nothing_material": {
+    "tickers": [
+      "AAPL",
+      "PLTR",
+      "TSLA",
+      "NBIS"
+    ],
+    "note": {
+      "title": "Earlier news retains its original date",
+      "body": "The 8 September Palantir-Nebius agreement, 15 September DOJ charges, Microsoft dividend announcement and Tesla information-request report are dated explicitly. Wednesday coverage does not make those events new.<br><br>Prices come from the same Twelve Data fetch preserved below: 07:02-07:03 ET on 17 September. Regular prices are for 16 September. Ten extended timestamps fall on Thursday from 05:37 to 07:03 ET; PLTR and HOOD are Wednesday 19:59 ET and are classified as after-hours. No premarket reading is invented for either ticker.<br><br><b>Chart freshness:</b> all twelve daily charts include 16 September. Some intraday intervals for AAPL, HOOD, INTC, META, MRVL, MSFT, NVDA, PLTR and TSLA used cached bars and may lag the quote snapshot."
+    }
+  },
+  "earnings_ahead": [
+    {
+      "when": "17 Sep",
+      "what": "<b>MRVL / INTC</b> final day of the 15-17 September AI Infra Summit"
+    },
+    {
+      "when": "18 Sep",
+      "what": "<b>AAPL</b> previously announced new-product availability; <a href=\"https://www.apple.com/newsroom/2026/09/get-ready-to-experience-iphone-18-pro-the-new-apple-watch-lineup-and-airpods-5/\">Apple, 11 September</a>"
+    },
+    {
+      "when": "27 Sep",
+      "what": "<b>AMZN</b> operations pay increase takes effect, per AP"
+    },
+    {
+      "when": "30 Sep",
+      "what": "<b>TSLA</b> response deadline for Cybercab certification questions, per Reuters"
+    },
+    {
+      "when": "19 Nov",
+      "what": "<b>MSFT</b> dividend record and ex-dividend date; payment 10 December"
+    }
+  ],
+  "data": {
+    "session": "2026-09-16",
+    "source": "Twelve Data quote endpoint with prepost=true, fetched in two rate-limited batches at 07:02 and 07:03 ET on 17 September 2026. Regular session: 16 September. Extended observations classified by timestamp; PLTR and HOOD are prior-evening after-hours.",
+    "batches": [
+      {
+        "symbols": [
+          "AAPL",
+          "AMZN",
+          "TSLA",
+          "PLTR",
+          "MSFT",
+          "GOOGL",
+          "HOOD",
+          "NVDA"
+        ],
+        "received_at_utc": "2026-09-17T11:02:15.388102+00:00"
+      },
+      {
+        "symbols": [
+          "INTC",
+          "NBIS",
+          "MRVL",
+          "META"
+        ],
+        "received_at_utc": "2026-09-17T11:03:21.759241+00:00"
+      }
+    ],
+    "tickers": {
+      "AAPL": {
+        "close": 332.41,
+        "pct": 0.32293334,
+        "open": 332.53,
+        "high": 335.48001,
+        "low": 330.70001,
+        "volume": 35920400,
+        "avg_volume": 43939270,
+        "high_52w": 344.57001,
+        "premarket_pct": 0.55353218,
+        "afterhours_pct": null,
+        "extended_price": 334.25,
+        "extended_timestamp_et": "2026-09-17 06:29 EDT"
+      },
+      "AMZN": {
+        "close": 245.96001,
+        "pct": -0.990255,
+        "open": 248.10001,
+        "high": 249.25999,
+        "low": 244.3,
+        "volume": 33318500,
+        "avg_volume": 30026380,
+        "high_52w": 287.20001,
+        "premarket_pct": 1.39453,
+        "afterhours_pct": null,
+        "extended_price": 249.39,
+        "extended_timestamp_et": "2026-09-17 06:50 EDT"
+      },
+      "TSLA": {
+        "close": 358.079987,
+        "pct": 0.42066298,
+        "open": 357.92999,
+        "high": 365.10001,
+        "low": 354.89001,
+        "volume": 32031100,
+        "avg_volume": 40086040,
+        "high_52w": 498.82999,
+        "premarket_pct": 1.34607,
+        "afterhours_pct": null,
+        "extended_price": 362.9,
+        "extended_timestamp_et": "2026-09-17 05:37 EDT"
+      },
+      "PLTR": {
+        "close": 174.34,
+        "pct": 1.031525,
+        "open": 170.39,
+        "high": 174.765,
+        "low": 168.96001,
+        "volume": 20903600,
+        "avg_volume": 26891650,
+        "high_52w": 207.52,
+        "premarket_pct": null,
+        "afterhours_pct": 0.091776796,
+        "extended_price": 174.5,
+        "extended_timestamp_et": "2026-09-16 19:59 EDT"
+      },
+      "MSFT": {
+        "close": 490.29999,
+        "pct": -1.3719,
+        "open": 493.029999,
+        "high": 495.97,
+        "low": 487.23001,
+        "volume": 16612700,
+        "avg_volume": 17738420,
+        "high_52w": 553.71997,
+        "premarket_pct": 0.95859929,
+        "afterhours_pct": null,
+        "extended_price": 495.0,
+        "extended_timestamp_et": "2026-09-17 06:30 EDT"
+      },
+      "GOOGL": {
+        "close": 342.87,
+        "pct": -0.61163424,
+        "open": 347.079987,
+        "high": 348.39999,
+        "low": 340.64001,
+        "volume": 18860000,
+        "avg_volume": 24752580,
+        "high_52w": 408.60999,
+        "premarket_pct": 1.4962,
+        "afterhours_pct": null,
+        "extended_price": 348.0,
+        "extended_timestamp_et": "2026-09-17 05:55 EDT"
+      },
+      "HOOD": {
+        "close": 104.42,
+        "pct": -5.45948,
+        "open": 110.27,
+        "high": 111.050003,
+        "low": 101.705,
+        "volume": 33485200,
+        "avg_volume": 25259140,
+        "high_52w": 153.86,
+        "premarket_pct": null,
+        "afterhours_pct": 0.61291117,
+        "extended_price": 105.06,
+        "extended_timestamp_et": "2026-09-16 19:59 EDT"
+      },
+      "NVDA": {
+        "close": 213.89999,
+        "pct": 0.81538188,
+        "open": 214.14,
+        "high": 216.75999,
+        "low": 212.5,
+        "volume": 96079300,
+        "avg_volume": 114429410,
+        "high_52w": 236.53999,
+        "premarket_pct": 1.4259,
+        "afterhours_pct": null,
+        "extended_price": 216.95,
+        "extended_timestamp_et": "2026-09-17 06:59 EDT"
+      },
+      "INTC": {
+        "close": 101.050003,
+        "pct": 4.025122,
+        "open": 101.37,
+        "high": 104.42,
+        "low": 99.29,
+        "volume": 119111400,
+        "avg_volume": 96074520,
+        "high_52w": 142.35001,
+        "premarket_pct": 2.91934,
+        "afterhours_pct": null,
+        "extended_price": 104.0,
+        "extended_timestamp_et": "2026-09-17 07:01 EDT"
+      },
+      "NBIS": {
+        "close": 209.37,
+        "pct": 0.96445968,
+        "open": 212.49001,
+        "high": 220.39999,
+        "low": 208.461,
+        "volume": 13355100,
+        "avg_volume": 13646140,
+        "high_52w": 299.85999,
+        "premarket_pct": 11.047431,
+        "afterhours_pct": null,
+        "extended_price": 232.5,
+        "extended_timestamp_et": "2026-09-17 07:03 EDT"
+      },
+      "MRVL": {
+        "close": 229.71001,
+        "pct": 3.61299,
+        "open": 226.73,
+        "high": 233.77,
+        "low": 224.58,
+        "volume": 16266600,
+        "avg_volume": 18129200,
+        "high_52w": 329.88,
+        "premarket_pct": 2.79047,
+        "afterhours_pct": null,
+        "extended_price": 236.12,
+        "extended_timestamp_et": "2026-09-17 06:53 EDT"
+      },
+      "META": {
+        "close": 673.31,
+        "pct": 0.45804598,
+        "open": 679.90997,
+        "high": 685.31,
+        "low": 671.90997,
+        "volume": 17168100,
+        "avg_volume": 20152650,
+        "high_52w": 790.79999,
+        "premarket_pct": 0.99359915,
+        "afterhours_pct": null,
+        "extended_price": 680.0,
+        "extended_timestamp_et": "2026-09-17 07:01 EDT"
+      }
+    }
+  }
+}
