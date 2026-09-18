@@ -1,0 +1,2907 @@
+{
+  "date": "2026-09-18",
+  "weekday": "Friday",
+  "headline": "All twelve rose Thursday; Intel led, Marvell secured capacity, and Nebius raised cloud prices.",
+  "gauge": [
+    {
+      "text": "Delayed edition: prepared after Friday's US market open",
+      "tone": "flat"
+    },
+    {
+      "text": "Thursday: S&amp;P 500 +1.14%, Nasdaq +1.69%, Dow +0.62%",
+      "tone": "up"
+    },
+    {
+      "text": "Historical Friday premarket retrieval unavailable; no live prices relabeled",
+      "tone": "flat"
+    }
+  ],
+  "quick": [
+    "<b>12 of the twelve rose Thursday.</b> 4 gained at least 3%.",
+    "<b>Intel +7.67%:</b> the largest gain of the twelve.",
+    "<b>Robinhood +5.16%, Marvell +4.81%, Nebius +4.12%.</b> These follow Intel in descending Thursday return order.",
+    "<b>Fresh Thursday events:</b> Marvell capacity agreement, Nebius price increases, Palantir Army delivery order and Tesla-linked charging expansion.",
+    "<b>Timing warning:</b> this run started at 10:55 ET Friday. It reports the completed Thursday close; a reliable per-stock Friday premarket snapshot was not returned."
+  ],
+  "macro": [
+    {
+      "dt": "<b>Thursday 17 September: broad recovery.</b>",
+      "lead": "Stocks rose as oil and Treasury yields eased",
+      "dd": "Reuters reported closing gains of 1.14% for the S&amp;P 500, 1.69% for Nasdaq and 0.62% for the Dow. This is the completed Thursday session, not Friday live trading. Reuters closing report, 17 September (https://www.kitco.com/news/off-the-wire/2026-09-17/tech-leads-wall-st-higher-close-oil-eases-treasury-yields-dip)"
+    },
+    {
+      "dt": "<b>Friday 18 September: earlier premarket context.</b>",
+      "lead": "Reuters' 05:19 ET update described higher Nasdaq 100 futures as oil retreated",
+      "dd": "That report predates the opening bell. It is background, not a current market quote or a substitute for unavailable individual-stock premarket observations. Reuters, 18 September, 05:19 ET update (https://www.investing.com/news/economy-news/nasdaq-futures-lead-wall-st-gains-as-oil-retreat-eases-inflation-worries-4906888)"
+    },
+    {
+      "dt": "<b>The Fed decision remains dated 16 September.</b>",
+      "lead": "The target rate rose a quarter point to 3.75%-4.00%",
+      "dd": "Thursday's recovery does not undo Wednesday's hike. Interpretation: lower market yields and oil can support valuations even while the policy rate is higher. Federal Reserve statement, 16 September (https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm)"
+    }
+  ],
+  "entries": [
+    {
+      "ticker": "INTC",
+      "dir": "neutral",
+      "strength": "major",
+      "strength_label": "Major Thursday move &middot; Rally continues; talks are not a signed deal",
+      "move": "+7.67% Thursday close &middot; Friday premarket unavailable from the historical feed request",
+      "move_tone": "up",
+      "happened": "Thursday 17 September extended Intel's advance after the 16 September Reuters report of talks with SK Hynix about US memory production. Bloomberg reported on 17 September that SK Hynix said no company-specific cooperation or US production arrangement had been finalized.",
+      "figures": [
+        "Thursday close <b>$108.80</b>, <b>+7.67%</b>",
+        "Thursday range <b>$104.70 to $111.37</b>",
+        "Volume <b>148.93m</b>; prior-20-session mean <b>91.48m</b>; <b>163%</b> of that mean",
+        "Friday premarket unavailable from the historical feed request",
+        "Close <b>23.57%</b> below the high over the fetched trailing 52-week window"
+      ],
+      "why": "A potential Ohio arrangement could improve infrastructure utilization, but the price move should not be mistaken for contracted revenue. Thursday coverage largely revisits Wednesday's negotiations; no signed agreement was verified.",
+      "foot": [
+        {
+          "k": "Source and event date",
+          "v": "Bloomberg, 17 September; talks first reported 16 September (https://www.moneycontrol.com/news/business/sk-hynix-says-exploring-options-after-report-of-intel-tie-up-14031654.html)"
+        },
+        {
+          "k": "Price timing",
+          "v": "Regular prices are the completed 17 September session. This edition was prepared after the 18 September open, not at the scheduled premarket time. Current intraday quotes are not substituted for premarket."
+        }
+      ]
+    },
+    {
+      "ticker": "HOOD",
+      "dir": "bullish",
+      "strength": "major",
+      "strength_label": "Major Thursday move &middot; Tokenization relief supports the sector",
+      "move": "+5.16% Thursday close &middot; Friday premarket unavailable from the historical feed request",
+      "move_tone": "up",
+      "happened": "On 17 September the SEC announced temporary conditional relief for certain tokenized-stock trading venues and liquidity providers. Reuters linked a rally in crypto-related shares, including Robinhood, to the announcement.",
+      "figures": [
+        "Thursday close <b>$109.81</b>, <b>+5.16%</b>",
+        "Thursday range <b>$106.08 to $110.55</b>",
+        "Volume <b>21.85m</b>; prior-20-session mean <b>24.15m</b>; <b>90%</b> of that mean",
+        "Friday premarket unavailable from the historical feed request",
+        "Close <b>28.63%</b> below the high over the fetched trailing 52-week window"
+      ],
+      "why": "The new framework may expand regulated onchain activity, but it is not blanket approval of every Robinhood product or a quantified earnings benefit. This is distinct from the 15 September allegations against two employees, which have not become findings of guilt.",
+      "foot": [
+        {
+          "k": "Source and event date",
+          "v": "Reuters closing report, 17 September (https://www.kitco.com/news/off-the-wire/2026-09-17/tech-leads-wall-st-higher-close-oil-eases-treasury-yields-dip)"
+        },
+        {
+          "k": "Price timing",
+          "v": "Regular prices are the completed 17 September session. This edition was prepared after the 18 September open, not at the scheduled premarket time. Current intraday quotes are not substituted for premarket."
+        },
+        {
+          "k": "Regulator",
+          "v": "SEC announcement, 17 September (https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment)"
+        }
+      ]
+    },
+    {
+      "ticker": "MRVL",
+      "dir": "bullish",
+      "strength": "major",
+      "strength_label": "Major Thursday move &middot; Optical connectivity capacity agreement",
+      "move": "+4.81% Thursday close &middot; Friday premarket unavailable from the historical feed request",
+      "move_tone": "up",
+      "happened": "GlobalFoundries and Marvell announced an expanded multi-year agreement on 17 September to increase silicon-germanium manufacturing capacity at Burlington, Vermont. The capacity supports optical interconnect products, including pluggable transceivers and near-packaged and co-packaged optics.",
+      "figures": [
+        "Thursday close <b>$240.76</b>, <b>+4.81%</b>",
+        "Thursday range <b>$240.00 to $247.89</b>",
+        "Volume <b>20.91m</b>; prior-20-session mean <b>23.67m</b>; <b>88%</b> of that mean",
+        "Friday premarket unavailable from the historical feed request",
+        "Close <b>27.02%</b> below the high over the fetched trailing 52-week window"
+      ],
+      "why": "Securing manufacturing capacity reduces a potential supply constraint as AI systems need faster links between processors. The announcement does not disclose a contract value or revise Marvell's revenue outlook; manufacturing availability is not the same as realized customer demand.",
+      "foot": [
+        {
+          "k": "Source and event date",
+          "v": "GlobalFoundries company release, 17 September (https://gf.gcs-web.com/news-releases/news-release-details/globalfoundries-and-marvell-expand-collaboration-next-generation)"
+        },
+        {
+          "k": "Price timing",
+          "v": "Regular prices are the completed 17 September session. This edition was prepared after the 18 September open, not at the scheduled premarket time. Current intraday quotes are not substituted for premarket."
+        }
+      ]
+    },
+    {
+      "ticker": "NBIS",
+      "dir": "bullish",
+      "strength": "major",
+      "strength_label": "Major Thursday move &middot; Higher AI cloud list prices from October",
+      "move": "+4.12% Thursday close &middot; Friday premarket unavailable from the historical feed request",
+      "move_tone": "up",
+      "happened": "Reuters reported on 17 September that Nebius will raise pay-as-you-go prices for selected Nvidia GPUs by 17%-21% from 1 October. Some CPU-only instances rise 25% and memory offerings about 41%; longer commitments can receive discounts.",
+      "figures": [
+        "Thursday close <b>$217.99</b>, <b>+4.12%</b>",
+        "Thursday range <b>$209.65 to $232.85</b>",
+        "Volume <b>30.68m</b>; prior-20-session mean <b>16.39m</b>; <b>187%</b> of that mean",
+        "Friday premarket unavailable from the historical feed request",
+        "Close <b>27.30%</b> below the high over the fetched trailing 52-week window"
+      ],
+      "why": "Higher realized rental prices could improve revenue per deployed chip if utilization holds. List-price changes are not equivalent to the same percentage increase in company revenue: hardware mix, customer discounts, operating costs and occupancy all matter. This is fresh pricing news, not a relabeling of the 8 September Palantir partnership.",
+      "foot": [
+        {
+          "k": "Source and event date",
+          "v": "Reuters, 17 September; effective 1 October (https://www.investing.com/news/stock-market-news/nebius-hikes-ai-cloud-prices-again-as-demand-for-computing-power-soars-4906125)"
+        },
+        {
+          "k": "Price timing",
+          "v": "Regular prices are the completed 17 September session. This edition was prepared after the 18 September open, not at the scheduled premarket time. Current intraday quotes are not substituted for premarket."
+        }
+      ]
+    },
+    {
+      "ticker": "PLTR",
+      "dir": "bullish",
+      "strength": "notable",
+      "strength_label": "Notable Thursday move &middot; Army awards ammunition software order",
+      "move": "+1.09% Thursday close &middot; Friday premarket unavailable from the historical feed request",
+      "move_tone": "up",
+      "happened": "The US Army announced a $48,094,071 firm-fixed-price delivery order to Palantir USG on 17 September for ammunition-management software replacing nine legacy systems. The award has a 12-month base period and up to five optional years.",
+      "figures": [
+        "Thursday close <b>$176.24</b>, <b>+1.09%</b>",
+        "Thursday range <b>$172.61 to $177.88</b>",
+        "Volume <b>23.71m</b>; prior-20-session mean <b>28.86m</b>; <b>82%</b> of that mean",
+        "Friday premarket unavailable from the historical feed request",
+        "Close <b>15.07%</b> below the high over the fetched trailing 52-week window"
+      ],
+      "why": "This is a quantified new delivery order, not an open-ended partnership announcement. Implementation supports the defense software pipeline, but optional years are not guaranteed purchases and the award is not immediate recognized revenue.",
+      "foot": [
+        {
+          "k": "Source and event date",
+          "v": "US Army, 17 September (https://www.army.mil/article/295461/u_s_army_awards_contract_to_modernize_ammunition_management)"
+        },
+        {
+          "k": "Price timing",
+          "v": "Regular prices are the completed 17 September session. This edition was prepared after the 18 September open, not at the scheduled premarket time. Current intraday quotes are not substituted for premarket."
+        }
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "dir": "bullish",
+      "strength": "notable",
+      "strength_label": "Notable Thursday move &middot; Public Semi charging network expands",
+      "move": "+2.27% Thursday close &middot; Friday premarket unavailable from the historical feed request",
+      "move_tone": "up",
+      "happened": "Forum Mobility announced four planned California charging depots on 17 September, adding 30 MW of heavy-duty capacity. Tesla will operate public Megacharging at three sites: Ontario and two Oakland locations. Forum also reported reservations for more than 330 Tesla Semis.",
+      "figures": [
+        "Thursday close <b>$366.20</b>, <b>+2.27%</b>",
+        "Thursday range <b>$363.22 to $374.12</b>",
+        "Volume <b>38.83m</b>; prior-20-session mean <b>39.32m</b>; <b>99%</b> of that mean",
+        "Friday premarket unavailable from the historical feed request",
+        "Close <b>26.59%</b> below the high over the fetched trailing 52-week window"
+      ],
+      "why": "Charging coverage can reduce an adoption barrier for electric trucks and support fleet utilization. The announced capacity is planned rather than fully operational, and reservations should not be counted as delivered trucks or recognized Tesla revenue.",
+      "foot": [
+        {
+          "k": "Source and event date",
+          "v": "Forum Mobility company release, 17 September, 07:00 ET (https://www.prnewswire.com/news-releases/forum-mobility-will-bring-additional-30-mw-of-heavy-duty-ev-truck-charging-online-with-four-new-california-depots-cementing-its-position-as-one-of-the-largest-hd-infrastructure-providers-in-the-us-302881287.html)"
+        },
+        {
+          "k": "Price timing",
+          "v": "Regular prices are the completed 17 September session. This edition was prepared after the 18 September open, not at the scheduled premarket time. Current intraday quotes are not substituted for premarket."
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "dir": "neutral",
+      "strength": "notable",
+      "strength_label": "Notable Thursday move &middot; AWS adds energy-sector AI workflows",
+      "move": "+2.13% Thursday close &middot; Friday premarket unavailable from the historical feed request",
+      "move_tone": "up",
+      "happened": "AWS announced ready-to-use energy and utilities workflows for Amazon Quick on 17 September. Integrations from industry partners aim to connect business data for tasks such as grid planning, asset management and drilling exploration.",
+      "figures": [
+        "Thursday close <b>$251.19</b>, <b>+2.13%</b>",
+        "Thursday range <b>$249.24 to $252.73</b>",
+        "Volume <b>30.34m</b>; prior-20-session mean <b>31.94m</b>; <b>95%</b> of that mean",
+        "Friday premarket unavailable from the historical feed request",
+        "Close <b>12.54%</b> below the high over the fetched trailing 52-week window"
+      ],
+      "why": "Industry-specific software can deepen enterprise usage of AWS, but this release provides no quantified sales commitment. The 16 September operations-pay increase and Generac generator agreement remain earlier context, not new Thursday announcements.",
+      "foot": [
+        {
+          "k": "Source and event date",
+          "v": "AWS company release, 17 September (https://press.aboutamazon.com/aws/2026/9/aws-announces-new-energy-industry-workflows-for-amazon-quick)"
+        },
+        {
+          "k": "Price timing",
+          "v": "Regular prices are the completed 17 September session. This edition was prepared after the 18 September open, not at the scheduled premarket time. Current intraday quotes are not substituted for premarket."
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "dir": "bearish",
+      "strength": "notable",
+      "strength_label": "Notable Thursday move &middot; Newly public copyright-case material",
+      "move": "+1.52% Thursday close &middot; Friday premarket unavailable from the historical feed request",
+      "move_tone": "up",
+      "happened": "Reuters reported after the close on 17 September that newly unredacted court filings contained executive comments publishers say undermine Microsoft and OpenAI's fair-use defense. Microsoft said the testimony was consistent with its defense and did not settle the copyright questions before the court.",
+      "figures": [
+        "Thursday close <b>$497.75</b>, <b>+1.52%</b>",
+        "Thursday range <b>$493.17 to $501.47</b>",
+        "Volume <b>17.82m</b>; prior-20-session mean <b>20.18m</b>; <b>88%</b> of that mean",
+        "Friday premarket unavailable from the historical feed request",
+        "Close <b>10.11%</b> below the high over the fetched trailing 52-week window"
+      ],
+      "why": "This is litigation evidence and opposing parties' argument, not a new infringement judgment or damages award. It adds uncertainty around licensing economics, but the after-close report cannot be presented as the demonstrated cause of Thursday's regular-session gain. The filing was not read directly.",
+      "foot": [
+        {
+          "k": "Source and event date",
+          "v": "Reuters, 17 September, 17:47 ET; filing made public Thursday (https://ca.investing.com/news/stock-market-news/openai-microsoft-executives-quotes-on-ai-training-threaten-copyright-defense-news-outlets-argue-4844240)"
+        },
+        {
+          "k": "Price timing",
+          "v": "Regular prices are the completed 17 September session. This edition was prepared after the 18 September open, not at the scheduled premarket time. Current intraday quotes are not substituted for premarket."
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "dir": "bearish",
+      "strength": "notable",
+      "strength_label": "Notable Thursday move &middot; Ad-tech remedy details, not a fresh breakup ruling",
+      "move": "+1.30% Thursday close &middot; Friday premarket unavailable from the historical feed request",
+      "move_tone": "up",
+      "happened": "DOJ's 16 September announcement details ad-tech remedies including interoperability with competing tools, publisher data access, non-discriminatory bidding and monitoring. The detailed opinion was unsealed on 16 September; the earlier decision rejecting a breakup was on 2 September.",
+      "figures": [
+        "Thursday close <b>$347.33</b>, <b>+1.30%</b>",
+        "Thursday range <b>$343.89 to $349.50</b>",
+        "Volume <b>19.20m</b>; prior-20-session mean <b>23.99m</b>; <b>80%</b> of that mean",
+        "Friday premarket unavailable from the historical feed request",
+        "Close <b>15.00%</b> below the high over the fetched trailing 52-week window"
+      ],
+      "why": "The operating restrictions may make it easier for publishers to switch providers and can add compliance costs. Avoiding a breakup does not mean there is no business impact. These are Wednesday disclosures discussed on Thursday, not a new 17 September judgment.",
+      "foot": [
+        {
+          "k": "Source and event date",
+          "v": "DOJ, 16 September; initial ruling, 2 September (https://www.justice.gov/opa/pr/department-justice-again-wins-substantial-relief-against-google)"
+        },
+        {
+          "k": "Price timing",
+          "v": "Regular prices are the completed 17 September session. This edition was prepared after the 18 September open, not at the scheduled premarket time. Current intraday quotes are not substituted for premarket."
+        },
+        {
+          "k": "Earlier ruling",
+          "v": "AP, 2 September: breakup rejected before detailed opinion (https://apnews.com/article/d294d31fee27c45b14d5ce2196cdd80a)"
+        }
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "dir": "neutral",
+      "strength": "notable",
+      "strength_label": "Notable Thursday move &middot; New devices become available Friday",
+      "move": "+1.38% Thursday close &middot; Friday premarket unavailable from the historical feed request",
+      "move_tone": "up",
+      "happened": "Apple's store-arrival update says iPhone 18 Pro, Apple Watch Series 12, Apple Watch Ultra 4 and AirPods 5 became available on Friday 18 September. The page carries a 17 September update label, but explicitly dates the retail event to 18 September.",
+      "figures": [
+        "Thursday close <b>$337.00</b>, <b>+1.38%</b>",
+        "Thursday range <b>$330.18 to $338.34</b>",
+        "Volume <b>36.63m</b>; prior-20-session mean <b>41.89m</b>; <b>87%</b> of that mean",
+        "Friday premarket unavailable from the historical feed request",
+        "Close <b>2.20%</b> below the high over the fetched trailing 52-week window"
+      ],
+      "why": "Availability turns the launch into an actual sales opportunity, not proof of demand. Store photographs and marketing descriptions do not establish shipment volumes, a revenue beat or a change in margins.",
+      "foot": [
+        {
+          "k": "Source and event date",
+          "v": "Apple update labeled 17 September; retail event 18 September (https://images.apple.com/newsroom/2026/09/the-latest-iphone-apple-watch-and-airpods-lineups-arrive-in-stores-worldwide/)"
+        },
+        {
+          "k": "Price timing",
+          "v": "Regular prices are the completed 17 September session. This edition was prepared after the 18 September open, not at the scheduled premarket time. Current intraday quotes are not substituted for premarket."
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "dir": "neutral",
+      "strength": "notable",
+      "strength_label": "Notable Thursday move &middot; Chip rebound with prior benchmark context",
+      "move": "+2.54% Thursday close &middot; Friday premarket unavailable from the historical feed request",
+      "move_tone": "up",
+      "happened": "Nvidia participated in Thursday's semiconductor rally. Its company newsroom lists a 17 September GeForce NOW gaming update, while the Vera Rubin MLPerf Inference benchmark preview and flexible-data-center alliance remain dated 16 September.",
+      "figures": [
+        "Thursday close <b>$219.34</b>, <b>+2.54%</b>",
+        "Thursday range <b>$217.15 to $219.91</b>",
+        "Volume <b>93.96m</b>; prior-20-session mean <b>129.94m</b>; <b>72%</b> of that mean",
+        "Friday premarket unavailable from the historical feed request",
+        "Close <b>7.27%</b> below the high over the fetched trailing 52-week window"
+      ],
+      "why": "The prior benchmark release supports the product-performance narrative, but it is not a new Thursday order or revenue revision. Sector strength and easing market yields are context; the reviewed sources do not isolate a single cause for Nvidia's daily return.",
+      "foot": [
+        {
+          "k": "Source and event date",
+          "v": "Nvidia newsroom reviewed 18 September; releases dated 16-17 September (https://nvidianews.nvidia.com/)"
+        },
+        {
+          "k": "Price timing",
+          "v": "Regular prices are the completed 17 September session. This edition was prepared after the 18 September open, not at the scheduled premarket time. Current intraday quotes are not substituted for premarket."
+        }
+      ]
+    },
+    {
+      "ticker": "META",
+      "dir": "neutral",
+      "strength": "notable",
+      "strength_label": "Notable Thursday move &middot; Gain without a new financial announcement",
+      "move": "+1.34% Thursday close &middot; Friday premarket unavailable from the historical feed request",
+      "move_tone": "up",
+      "happened": "The reviewed Meta newsroom still lists the 16 September Threads podcast toolkit and the Meta One launch dated 15 September, updated 16 September. No new quantified 17 September company outlook was identified in those sources.",
+      "figures": [
+        "Thursday close <b>$682.31</b>, <b>+1.34%</b>",
+        "Thursday range <b>$667.05 to $683.20</b>",
+        "Volume <b>15.89m</b>; prior-20-session mean <b>18.04m</b>; <b>88%</b> of that mean",
+        "Friday premarket unavailable from the historical feed request",
+        "Close <b>13.72%</b> below the high over the fetched trailing 52-week window"
+      ],
+      "why": "Product engagement and subscription conversion remain relevant, but a positive stock session does not establish an earnings upgrade. Earlier launch coverage retains its original event date rather than being counted as fresh Thursday news.",
+      "foot": [
+        {
+          "k": "Source and event date",
+          "v": "Meta newsroom reviewed 18 September; product events 15-16 September (https://about.fb.com/news/)"
+        },
+        {
+          "k": "Price timing",
+          "v": "Regular prices are the completed 17 September session. This edition was prepared after the 18 September open, not at the scheduled premarket time. Current intraday quotes are not substituted for premarket."
+        }
+      ]
+    }
+  ],
+  "readthrough": {
+    "title": "A broad rebound with several concrete company developments",
+    "body": "<b>All twelve tracked shares rose Thursday.</b> Intel led the regular-session gains, followed by Robinhood, Marvell and Nebius. That ranking is calculated from the full twelve-stock daily-bar fetch.<br><br><b>Interpretation:</b> easing yields can support valuations, but the company stories differ. Marvell added manufacturing capacity, Nebius raised selected list prices and Palantir won a quantified Army delivery order. None of those should be converted mechanically into an earnings forecast.<br><br><b>Do not confuse the clocks:</b> Microsoft's copyright report appeared after Thursday's close, Apple's retail event is Friday, and the Google remedy details were disclosed Wednesday. This delayed edition does not describe Friday intraday returns."
+  },
+  "nothing_material": {
+    "tickers": [
+      "NVDA",
+      "META"
+    ],
+    "note": {
+      "title": "Data timing and evidence limits",
+      "body": "No fresh quantified Thursday financial announcement was identified for NVDA or META in the company newsrooms reviewed. Earlier releases are dated explicitly.<br><br>This run began after the US open on 18 September. Twelve Data daily bars were explicitly bounded to 17 September. Historical premarket requests targeted 04:00-09:29:59 ET on 18 September but returned no usable per-ticker bars; premarket and after-hours fields remain null, not zero. Volume averages are calculated from the preceding 20 completed sessions, and 52-week highs from fetched daily highs within the trailing 52-week window. These calculated baselines are not the quote endpoint's rolling-average fields.<br><br><b>Chart freshness:</b> all 12 daily charts include the completed 17 September session. Some intraday intervals use cached data for AMZN, GOOGL, INTC, META, MSFT, NBIS, NVDA and PLTR; they are not a reliable live Friday feed. Check the timestamp shown on the chart."
+    }
+  },
+  "earnings_ahead": [
+    {
+      "when": "18 Sep",
+      "what": "<b>AAPL</b> retail availability of the new devices; an availability milestone, not earnings."
+    },
+    {
+      "when": "1 Oct",
+      "what": "<b>NBIS</b> selected AI cloud list-price increases take effect, per Reuters."
+    },
+    {
+      "when": "19 Nov",
+      "what": "<b>MSFT</b> previously announced dividend record and ex-dividend date; payment 10 December. Microsoft announcement, 15 September: https://news.microsoft.com/source/2026/09/15/microsoft-announces-quarterly-dividend-increase-7/"
+    }
+  ],
+  "data": {
+    "session": "2026-09-17",
+    "source": "Twelve Data time_series, daily bars ending 2026-09-17 23:59:59 America/New_York; fetched after the Friday open. pct calculated from Sep17/Sep16 closes. avg_volume is mean of 20 sessions preceding Sep17. high_52w is maximum daily high over dates greater than Sep17 minus 52 weeks through Sep17. Historical one-minute prepost request for Sep18 04:00-09:29:59 returned no usable bars.",
+    "fetched_at_utc": "2026-09-18T14:59:15.140369+00:00",
+    "tickers": {
+      "AAPL": {
+        "close": 337.0,
+        "open": 334.76999,
+        "high": 338.34,
+        "low": 330.17999,
+        "volume": 36632800.0,
+        "pct": 1.3808248849312532,
+        "avg_volume": 41892075.0,
+        "high_52w": 344.57001,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "premarket_timestamp_et": null,
+        "premarket_price": null,
+        "evidence": {
+          "regular_bar": {
+            "datetime": "2026-09-17",
+            "open": "334.76999",
+            "high": "338.34000",
+            "low": "330.17999",
+            "close": "337",
+            "volume": "36632800"
+          },
+          "previous_bar": {
+            "datetime": "2026-09-16",
+            "open": "332.53000",
+            "high": "335.48001",
+            "low": "330.70001",
+            "close": "332.41000",
+            "volume": "35981000"
+          },
+          "volume_baseline_bars": [
+            {
+              "datetime": "2026-09-16",
+              "open": "332.53000",
+              "high": "335.48001",
+              "low": "330.70001",
+              "close": "332.41000",
+              "volume": "35981000"
+            },
+            {
+              "datetime": "2026-09-15",
+              "open": "330.14001",
+              "high": "331.78000",
+              "low": "328.35001",
+              "close": "331.34000",
+              "volume": "31748200"
+            },
+            {
+              "datetime": "2026-09-14",
+              "open": "334.79001",
+              "high": "335.5",
+              "low": "331.34000",
+              "close": "333.079987",
+              "volume": "39269100"
+            },
+            {
+              "datetime": "2026-09-11",
+              "open": "327.45001",
+              "high": "336.22000",
+              "low": "326.29999",
+              "close": "332.26999",
+              "volume": "50716900"
+            },
+            {
+              "datetime": "2026-09-10",
+              "open": "316.67001",
+              "high": "326.73999",
+              "low": "316.51001",
+              "close": "326.57001",
+              "volume": "70011900"
+            },
+            {
+              "datetime": "2026-09-09",
+              "open": "315.48999",
+              "high": "319.14999",
+              "low": "309.89999",
+              "close": "315.34000",
+              "volume": "65640000"
+            },
+            {
+              "datetime": "2026-09-08",
+              "open": "317.10001",
+              "high": "320.70001",
+              "low": "314.89999",
+              "close": "316.22000",
+              "volume": "35477100"
+            },
+            {
+              "datetime": "2026-09-04",
+              "open": "328.31000",
+              "high": "328.92999",
+              "low": "317.85999",
+              "close": "319.97000",
+              "volume": "39606900"
+            },
+            {
+              "datetime": "2026-09-03",
+              "open": "324.87000",
+              "high": "330.81000",
+              "low": "324.10999",
+              "close": "328.20999",
+              "volume": "37225800"
+            },
+            {
+              "datetime": "2026-09-02",
+              "open": "326.87000",
+              "high": "328.39999",
+              "low": "323.53000",
+              "close": "324.95999",
+              "volume": "33776400"
+            },
+            {
+              "datetime": "2026-09-01",
+              "open": "316.98001",
+              "high": "327.29999",
+              "low": "314.73001",
+              "close": "325.13000",
+              "volume": "53167400"
+            },
+            {
+              "datetime": "2026-08-31",
+              "open": "319.60001",
+              "high": "321.23999",
+              "low": "312.79999",
+              "close": "316.85001",
+              "volume": "41242700"
+            },
+            {
+              "datetime": "2026-08-28",
+              "open": "316.85001",
+              "high": "322.37000",
+              "low": "315.45001",
+              "close": "319.70001",
+              "volume": "38649400"
+            },
+            {
+              "datetime": "2026-08-27",
+              "open": "310.54999",
+              "high": "315.39999",
+              "low": "309.39999",
+              "close": "314.57999",
+              "volume": "32419200"
+            },
+            {
+              "datetime": "2026-08-26",
+              "open": "310.29999",
+              "high": "315.42999",
+              "low": "308.79999",
+              "close": "313.45001",
+              "volume": "34024500"
+            },
+            {
+              "datetime": "2026-08-25",
+              "open": "310.79001",
+              "high": "313.59000",
+              "low": "308.20999",
+              "close": "309.89999",
+              "volume": "25869800"
+            },
+            {
+              "datetime": "2026-08-24",
+              "open": "311.47000",
+              "high": "313.35999",
+              "low": "309.97000",
+              "close": "310.34000",
+              "volume": "34673600"
+            },
+            {
+              "datetime": "2026-08-21",
+              "open": "312.049988",
+              "high": "312.38000",
+              "low": "307.010010",
+              "close": "309.35001",
+              "volume": "46876800"
+            },
+            {
+              "datetime": "2026-08-20",
+              "open": "317.45999",
+              "high": "320.28000",
+              "low": "310.64999",
+              "close": "311.29999",
+              "volume": "40959200"
+            },
+            {
+              "datetime": "2026-08-19",
+              "open": "310.14001",
+              "high": "319.28000",
+              "low": "309.60001",
+              "close": "316.82999",
+              "volume": "50505600"
+            }
+          ],
+          "high_52w_bar": {
+            "datetime": "2026-07-29",
+            "open": "339.73001",
+            "high": "344.57001",
+            "low": "337.35001",
+            "close": "338.19000",
+            "volume": "56090800"
+          },
+          "high_52w_window_start": "2025-09-19",
+          "high_52w_sessions": 250,
+          "premarket_response": {}
+        }
+      },
+      "AMZN": {
+        "close": 251.19,
+        "open": 251.070007,
+        "high": 252.73,
+        "low": 249.24001,
+        "volume": 30336700.0,
+        "pct": 2.126357857929828,
+        "avg_volume": 31935355.0,
+        "high_52w": 287.20001,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "premarket_timestamp_et": null,
+        "premarket_price": null,
+        "evidence": {
+          "regular_bar": {
+            "datetime": "2026-09-17",
+            "open": "251.070007",
+            "high": "252.73000",
+            "low": "249.24001",
+            "close": "251.19000",
+            "volume": "30336700"
+          },
+          "previous_bar": {
+            "datetime": "2026-09-16",
+            "open": "248.10001",
+            "high": "249.25999",
+            "low": "244.30000",
+            "close": "245.96001",
+            "volume": "33488500"
+          },
+          "volume_baseline_bars": [
+            {
+              "datetime": "2026-09-16",
+              "open": "248.10001",
+              "high": "249.25999",
+              "low": "244.30000",
+              "close": "245.96001",
+              "volume": "33488500"
+            },
+            {
+              "datetime": "2026-09-15",
+              "open": "252.24001",
+              "high": "253.27000",
+              "low": "247.22000",
+              "close": "248.42000",
+              "volume": "36275400"
+            },
+            {
+              "datetime": "2026-09-14",
+              "open": "253.14999",
+              "high": "255.95000",
+              "low": "250.74001",
+              "close": "253.53999",
+              "volume": "34352800"
+            },
+            {
+              "datetime": "2026-09-11",
+              "open": "254.089996",
+              "high": "257.59000",
+              "low": "253.14000",
+              "close": "256.78000",
+              "volume": "26724100"
+            },
+            {
+              "datetime": "2026-09-10",
+              "open": "250.11000",
+              "high": "253.14999",
+              "low": "249.58000",
+              "close": "251.89000",
+              "volume": "25484800"
+            },
+            {
+              "datetime": "2026-09-09",
+              "open": "253.12000",
+              "high": "254.69000",
+              "low": "250.64999",
+              "close": "252.39999",
+              "volume": "33055500"
+            },
+            {
+              "datetime": "2026-09-08",
+              "open": "256.67999",
+              "high": "257.98999",
+              "low": "254.75",
+              "close": "256.97000",
+              "volume": "29398000"
+            },
+            {
+              "datetime": "2026-09-04",
+              "open": "259.070007",
+              "high": "261.12000",
+              "low": "255.28999",
+              "close": "258.51001",
+              "volume": "30749900"
+            },
+            {
+              "datetime": "2026-09-03",
+              "open": "256.20001",
+              "high": "259.5",
+              "low": "256",
+              "close": "258.89999",
+              "volume": "26891500"
+            },
+            {
+              "datetime": "2026-09-02",
+              "open": "254.25999",
+              "high": "256.23999",
+              "low": "253.39999",
+              "close": "254.98000",
+              "volume": "24013300"
+            },
+            {
+              "datetime": "2026-09-01",
+              "open": "254.83000",
+              "high": "255.82001",
+              "low": "251.92999",
+              "close": "254.92000",
+              "volume": "31700100"
+            },
+            {
+              "datetime": "2026-08-31",
+              "open": "263.82999",
+              "high": "264.35999",
+              "low": "257.12000",
+              "close": "259.76999",
+              "volume": "46089400"
+            },
+            {
+              "datetime": "2026-08-28",
+              "open": "258.32001",
+              "high": "267.56000",
+              "low": "257.78000",
+              "close": "266.42999",
+              "volume": "49547400"
+            },
+            {
+              "datetime": "2026-08-27",
+              "open": "259.23001",
+              "high": "259.66000",
+              "low": "255.020004",
+              "close": "256.26001",
+              "volume": "35927800"
+            },
+            {
+              "datetime": "2026-08-26",
+              "open": "261.28000",
+              "high": "262.049988",
+              "low": "258.23999",
+              "close": "260.28000",
+              "volume": "21528400"
+            },
+            {
+              "datetime": "2026-08-25",
+              "open": "262.51001",
+              "high": "263.89001",
+              "low": "259.82999",
+              "close": "261.059998",
+              "volume": "25550200"
+            },
+            {
+              "datetime": "2026-08-24",
+              "open": "259.60001",
+              "high": "263.32001",
+              "low": "259.049988",
+              "close": "262.070007",
+              "volume": "28070500"
+            },
+            {
+              "datetime": "2026-08-21",
+              "open": "260.73999",
+              "high": "261.089996",
+              "low": "257.040009",
+              "close": "258.63000",
+              "volume": "35723000"
+            },
+            {
+              "datetime": "2026-08-20",
+              "open": "263.16000",
+              "high": "263.84000",
+              "low": "259.51999",
+              "close": "260.10999",
+              "volume": "28374100"
+            },
+            {
+              "datetime": "2026-08-19",
+              "open": "260.85001",
+              "high": "266.39999",
+              "low": "258.57999",
+              "close": "265.84000",
+              "volume": "35762400"
+            }
+          ],
+          "high_52w_bar": {
+            "datetime": "2026-08-03",
+            "open": "278.29001",
+            "high": "287.20001",
+            "low": "278",
+            "close": "284.019989",
+            "volume": "90830200"
+          },
+          "high_52w_window_start": "2025-09-19",
+          "high_52w_sessions": 250,
+          "premarket_response": {}
+        }
+      },
+      "TSLA": {
+        "close": 366.20001,
+        "open": 367.48001,
+        "high": 374.12,
+        "low": 363.22,
+        "volume": 38828500.0,
+        "pct": 2.2676561926930683,
+        "avg_volume": 39317365.0,
+        "high_52w": 498.82999,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "premarket_timestamp_et": null,
+        "premarket_price": null,
+        "evidence": {
+          "regular_bar": {
+            "datetime": "2026-09-17",
+            "open": "367.48001",
+            "high": "374.12000",
+            "low": "363.22000",
+            "close": "366.20001",
+            "volume": "38828500"
+          },
+          "previous_bar": {
+            "datetime": "2026-09-16",
+            "open": "357.92999",
+            "high": "365.10001",
+            "low": "354.89001",
+            "close": "358.079987",
+            "volume": "32177400"
+          },
+          "volume_baseline_bars": [
+            {
+              "datetime": "2026-09-16",
+              "open": "357.92999",
+              "high": "365.10001",
+              "low": "354.89001",
+              "close": "358.079987",
+              "volume": "32177400"
+            },
+            {
+              "datetime": "2026-09-15",
+              "open": "358.75",
+              "high": "362.39001",
+              "low": "354.049988",
+              "close": "356.57999",
+              "volume": "30317700"
+            },
+            {
+              "datetime": "2026-09-14",
+              "open": "359.78000",
+              "high": "367.73001",
+              "low": "357.040009",
+              "close": "358.97000",
+              "volume": "32477200"
+            },
+            {
+              "datetime": "2026-09-11",
+              "open": "364.20001",
+              "high": "368.66000",
+              "low": "361.60001",
+              "close": "365.44000",
+              "volume": "30153000"
+            },
+            {
+              "datetime": "2026-09-10",
+              "open": "360.60001",
+              "high": "369.20999",
+              "low": "357.67999",
+              "close": "363.56000",
+              "volume": "29667200"
+            },
+            {
+              "datetime": "2026-09-09",
+              "open": "368.25",
+              "high": "375.44000",
+              "low": "366",
+              "close": "367.81000",
+              "volume": "32564300"
+            },
+            {
+              "datetime": "2026-09-08",
+              "open": "357.10001",
+              "high": "370",
+              "low": "355.75",
+              "close": "368.16000",
+              "volume": "51078800"
+            },
+            {
+              "datetime": "2026-09-04",
+              "open": "362.070007",
+              "high": "364.69000",
+              "low": "351.32001",
+              "close": "354.079987",
+              "volume": "65018200"
+            },
+            {
+              "datetime": "2026-09-03",
+              "open": "365.82001",
+              "high": "384.040009",
+              "low": "365.82001",
+              "close": "376.37000",
+              "volume": "63601000"
+            },
+            {
+              "datetime": "2026-09-02",
+              "open": "360.41000",
+              "high": "360.62000",
+              "low": "349.92001",
+              "close": "357.010010",
+              "volume": "33951900"
+            },
+            {
+              "datetime": "2026-09-01",
+              "open": "360.89999",
+              "high": "362.70001",
+              "low": "352.95999",
+              "close": "356.089996",
+              "volume": "36193900"
+            },
+            {
+              "datetime": "2026-08-31",
+              "open": "347.20999",
+              "high": "368.92001",
+              "low": "347.14999",
+              "close": "367.95001",
+              "volume": "61732300"
+            },
+            {
+              "datetime": "2026-08-28",
+              "open": "357.10001",
+              "high": "358.79999",
+              "low": "345.20001",
+              "close": "348.75",
+              "volume": "32972200"
+            },
+            {
+              "datetime": "2026-08-27",
+              "open": "346.16000",
+              "high": "355.73999",
+              "low": "345.45001",
+              "close": "354.81000",
+              "volume": "30136200"
+            },
+            {
+              "datetime": "2026-08-26",
+              "open": "345.26999",
+              "high": "351.92999",
+              "low": "342.53000",
+              "close": "345.82001",
+              "volume": "28573000"
+            },
+            {
+              "datetime": "2026-08-25",
+              "open": "349.57999",
+              "high": "357",
+              "low": "349.20001",
+              "close": "350.25",
+              "volume": "29816700"
+            },
+            {
+              "datetime": "2026-08-24",
+              "open": "361.41000",
+              "high": "363.23999",
+              "low": "348.26001",
+              "close": "348.95001",
+              "volume": "39190500"
+            },
+            {
+              "datetime": "2026-08-21",
+              "open": "349.88000",
+              "high": "366.5",
+              "low": "346.89999",
+              "close": "362.85999",
+              "volume": "59224000"
+            },
+            {
+              "datetime": "2026-08-20",
+              "open": "346.20001",
+              "high": "347.5",
+              "low": "338.95999",
+              "close": "345.13000",
+              "volume": "30766400"
+            },
+            {
+              "datetime": "2026-08-19",
+              "open": "338.89001",
+              "high": "351.62000",
+              "low": "335.70001",
+              "close": "351.12000",
+              "volume": "36735400"
+            }
+          ],
+          "high_52w_bar": {
+            "datetime": "2025-12-22",
+            "open": "489.88000",
+            "high": "498.82999",
+            "low": "485.32999",
+            "close": "488.73001",
+            "volume": "86916100"
+          },
+          "high_52w_window_start": "2025-09-19",
+          "high_52w_sessions": 250,
+          "premarket_response": {}
+        }
+      },
+      "PLTR": {
+        "close": 176.24001,
+        "open": 175.95,
+        "high": 177.88,
+        "low": 172.60699,
+        "volume": 23711700.0,
+        "pct": 1.089830216817722,
+        "avg_volume": 28856510.0,
+        "high_52w": 207.52,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "premarket_timestamp_et": null,
+        "premarket_price": null,
+        "evidence": {
+          "regular_bar": {
+            "datetime": "2026-09-17",
+            "open": "175.95000",
+            "high": "177.88000",
+            "low": "172.60699",
+            "close": "176.24001",
+            "volume": "23711700"
+          },
+          "previous_bar": {
+            "datetime": "2026-09-16",
+            "open": "170.39000",
+            "high": "174.76500",
+            "low": "168.96001",
+            "close": "174.34000",
+            "volume": "20984000"
+          },
+          "volume_baseline_bars": [
+            {
+              "datetime": "2026-09-16",
+              "open": "170.39000",
+              "high": "174.76500",
+              "low": "168.96001",
+              "close": "174.34000",
+              "volume": "20984000"
+            },
+            {
+              "datetime": "2026-09-15",
+              "open": "170.5",
+              "high": "176.59000",
+              "low": "169.45000",
+              "close": "172.56000",
+              "volume": "31238200"
+            },
+            {
+              "datetime": "2026-09-14",
+              "open": "169.69501",
+              "high": "174.36000",
+              "low": "166.42000",
+              "close": "173.31000",
+              "volume": "29149500"
+            },
+            {
+              "datetime": "2026-09-11",
+              "open": "168.10001",
+              "high": "168.61000",
+              "low": "165.39999",
+              "close": "167.23000",
+              "volume": "15410400"
+            },
+            {
+              "datetime": "2026-09-10",
+              "open": "167.35001",
+              "high": "169",
+              "low": "164.55000",
+              "close": "165.86000",
+              "volume": "21330700"
+            },
+            {
+              "datetime": "2026-09-09",
+              "open": "171.47000",
+              "high": "171.86000",
+              "low": "168.61000",
+              "close": "169.53000",
+              "volume": "20356800"
+            },
+            {
+              "datetime": "2026-09-08",
+              "open": "173.60001",
+              "high": "175.82001",
+              "low": "170",
+              "close": "170.30000",
+              "volume": "24582300"
+            },
+            {
+              "datetime": "2026-09-04",
+              "open": "180.0099945",
+              "high": "182.19000",
+              "low": "173.67000",
+              "close": "174.33000",
+              "volume": "27963000"
+            },
+            {
+              "datetime": "2026-09-03",
+              "open": "172.5",
+              "high": "185.83000",
+              "low": "171.91000",
+              "close": "182.53000",
+              "volume": "38108000"
+            },
+            {
+              "datetime": "2026-09-02",
+              "open": "176.99001",
+              "high": "177.57001",
+              "low": "165.71001",
+              "close": "169.46001",
+              "volume": "39874000"
+            },
+            {
+              "datetime": "2026-09-01",
+              "open": "182.98000",
+              "high": "186.55000",
+              "low": "179.75",
+              "close": "179.92000",
+              "volume": "24567200"
+            },
+            {
+              "datetime": "2026-08-31",
+              "open": "184.49500",
+              "high": "187.94000",
+              "low": "183.78999",
+              "close": "186.38000",
+              "volume": "25941200"
+            },
+            {
+              "datetime": "2026-08-28",
+              "open": "184.95000",
+              "high": "188.37000",
+              "low": "184.38000",
+              "close": "186.28999",
+              "volume": "25060200"
+            },
+            {
+              "datetime": "2026-08-27",
+              "open": "178.75",
+              "high": "186.86000",
+              "low": "178.0099945",
+              "close": "185.92999",
+              "volume": "40739300"
+            },
+            {
+              "datetime": "2026-08-26",
+              "open": "170.60001",
+              "high": "178.49001",
+              "low": "168.89999",
+              "close": "177.5",
+              "volume": "27924200"
+            },
+            {
+              "datetime": "2026-08-25",
+              "open": "176.63000",
+              "high": "179.87000",
+              "low": "172.20000",
+              "close": "172.73000",
+              "volume": "24558500"
+            },
+            {
+              "datetime": "2026-08-24",
+              "open": "177.39000",
+              "high": "178.75",
+              "low": "171.31000",
+              "close": "175.89000",
+              "volume": "35115500"
+            },
+            {
+              "datetime": "2026-08-21",
+              "open": "173.98000",
+              "high": "182.44000",
+              "low": "172.55000",
+              "close": "179.94000",
+              "volume": "41076200"
+            },
+            {
+              "datetime": "2026-08-20",
+              "open": "175.88000",
+              "high": "176.46001",
+              "low": "172.029999",
+              "close": "173.96001",
+              "volume": "27018400"
+            },
+            {
+              "datetime": "2026-08-19",
+              "open": "172.61000",
+              "high": "176.82001",
+              "low": "169.77100",
+              "close": "175.19000",
+              "volume": "36132600"
+            }
+          ],
+          "high_52w_bar": {
+            "datetime": "2025-11-03",
+            "open": "205.044998",
+            "high": "207.52000",
+            "low": "201.82001",
+            "close": "207.17999",
+            "volume": "81016800"
+          },
+          "high_52w_window_start": "2025-09-19",
+          "high_52w_sessions": 250,
+          "premarket_response": {}
+        }
+      },
+      "MSFT": {
+        "close": 497.75,
+        "open": 497.79999,
+        "high": 501.47,
+        "low": 493.17001,
+        "volume": 17819200.0,
+        "pct": 1.5194799412498572,
+        "avg_volume": 20179795.0,
+        "high_52w": 553.71997,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "premarket_timestamp_et": null,
+        "premarket_price": null,
+        "evidence": {
+          "regular_bar": {
+            "datetime": "2026-09-17",
+            "open": "497.79999",
+            "high": "501.47000",
+            "low": "493.17001",
+            "close": "497.75",
+            "volume": "17819200"
+          },
+          "previous_bar": {
+            "datetime": "2026-09-16",
+            "open": "493.029999",
+            "high": "495.97000",
+            "low": "487.23001",
+            "close": "490.29999",
+            "volume": "16670300"
+          },
+          "volume_baseline_bars": [
+            {
+              "datetime": "2026-09-16",
+              "open": "493.029999",
+              "high": "495.97000",
+              "low": "487.23001",
+              "close": "490.29999",
+              "volume": "16670300"
+            },
+            {
+              "datetime": "2026-09-15",
+              "open": "500.059998",
+              "high": "505.89999",
+              "low": "495.54001",
+              "close": "497.12000",
+              "volume": "17794600"
+            },
+            {
+              "datetime": "2026-09-14",
+              "open": "497.059998",
+              "high": "509.95001",
+              "low": "495.34000",
+              "close": "505.41000",
+              "volume": "23091900"
+            },
+            {
+              "datetime": "2026-09-11",
+              "open": "495.64999",
+              "high": "498.97000",
+              "low": "492.57999",
+              "close": "495.63000",
+              "volume": "14510500"
+            },
+            {
+              "datetime": "2026-09-10",
+              "open": "488.32001",
+              "high": "494.51999",
+              "low": "486",
+              "close": "492.44000",
+              "volume": "16038800"
+            },
+            {
+              "datetime": "2026-09-09",
+              "open": "493.070007",
+              "high": "494.39001",
+              "low": "489.79999",
+              "close": "491.64999",
+              "volume": "12889600"
+            },
+            {
+              "datetime": "2026-09-08",
+              "open": "493.010010",
+              "high": "495.19000",
+              "low": "490.14999",
+              "close": "493.95001",
+              "volume": "18882300"
+            },
+            {
+              "datetime": "2026-09-04",
+              "open": "510",
+              "high": "511",
+              "low": "499.35999",
+              "close": "499.70001",
+              "volume": "18101800"
+            },
+            {
+              "datetime": "2026-09-03",
+              "open": "501.66000",
+              "high": "515.65002",
+              "low": "500.79999",
+              "close": "510.12000",
+              "volume": "24125900"
+            },
+            {
+              "datetime": "2026-09-02",
+              "open": "499.85001",
+              "high": "500.26999",
+              "low": "493.81000",
+              "close": "496.82001",
+              "volume": "15336100"
+            },
+            {
+              "datetime": "2026-09-01",
+              "open": "497.51999",
+              "high": "505.97000",
+              "low": "496.78000",
+              "close": "501.019989",
+              "volume": "21046900"
+            },
+            {
+              "datetime": "2026-08-31",
+              "open": "510.38000",
+              "high": "512.19000",
+              "low": "506.39001",
+              "close": "507.29001",
+              "volume": "27208900"
+            },
+            {
+              "datetime": "2026-08-28",
+              "open": "505.32999",
+              "high": "517.78003",
+              "low": "504.87000",
+              "close": "513.53003",
+              "volume": "29207300"
+            },
+            {
+              "datetime": "2026-08-27",
+              "open": "494.88000",
+              "high": "506.48001",
+              "low": "490.079987",
+              "close": "505.059998",
+              "volume": "28688800"
+            },
+            {
+              "datetime": "2026-08-26",
+              "open": "487.85001",
+              "high": "497.39999",
+              "low": "487.31000",
+              "close": "496.37000",
+              "volume": "20758900"
+            },
+            {
+              "datetime": "2026-08-25",
+              "open": "485.44000",
+              "high": "492.44000",
+              "low": "484.29999",
+              "close": "491.70999",
+              "volume": "19519000"
+            },
+            {
+              "datetime": "2026-08-24",
+              "open": "483.20999",
+              "high": "490.60999",
+              "low": "481.85999",
+              "close": "487.31000",
+              "volume": "17230800"
+            },
+            {
+              "datetime": "2026-08-21",
+              "open": "479.88000",
+              "high": "486.35999",
+              "low": "478.53000",
+              "close": "483.23999",
+              "volume": "22510800"
+            },
+            {
+              "datetime": "2026-08-20",
+              "open": "483.29999",
+              "high": "484.16000",
+              "low": "479.5",
+              "close": "481.14999",
+              "volume": "20020800"
+            },
+            {
+              "datetime": "2026-08-19",
+              "open": "480.070007",
+              "high": "489.29999",
+              "low": "479.35999",
+              "close": "484.31000",
+              "volume": "19961900"
+            }
+          ],
+          "high_52w_bar": {
+            "datetime": "2025-10-28",
+            "open": "550",
+            "high": "553.71997",
+            "low": "540.77002",
+            "close": "542.070007",
+            "volume": "29986700"
+          },
+          "high_52w_window_start": "2025-09-19",
+          "high_52w_sessions": 250,
+          "premarket_response": {}
+        }
+      },
+      "GOOGL": {
+        "close": 347.32999,
+        "open": 348.67999,
+        "high": 349.5,
+        "low": 343.89001,
+        "volume": 19203100.0,
+        "pct": 1.300781637355275,
+        "avg_volume": 23986590.0,
+        "high_52w": 408.60999,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "premarket_timestamp_et": null,
+        "premarket_price": null,
+        "evidence": {
+          "regular_bar": {
+            "datetime": "2026-09-17",
+            "open": "348.67999",
+            "high": "349.5",
+            "low": "343.89001",
+            "close": "347.32999",
+            "volume": "19203100"
+          },
+          "previous_bar": {
+            "datetime": "2026-09-16",
+            "open": "347.079987",
+            "high": "348.39999",
+            "low": "340.64001",
+            "close": "342.87000",
+            "volume": "18928900"
+          },
+          "volume_baseline_bars": [
+            {
+              "datetime": "2026-09-16",
+              "open": "347.079987",
+              "high": "348.39999",
+              "low": "340.64001",
+              "close": "342.87000",
+              "volume": "18928900"
+            },
+            {
+              "datetime": "2026-09-15",
+              "open": "346.79999",
+              "high": "348.070007",
+              "low": "342.70001",
+              "close": "344.98001",
+              "volume": "21928600"
+            },
+            {
+              "datetime": "2026-09-14",
+              "open": "343.12000",
+              "high": "349.91000",
+              "low": "342.14001",
+              "close": "349.39001",
+              "volume": "35905400"
+            },
+            {
+              "datetime": "2026-09-11",
+              "open": "335.029999",
+              "high": "342.98001",
+              "low": "335.029999",
+              "close": "338.5",
+              "volume": "24708300"
+            },
+            {
+              "datetime": "2026-09-10",
+              "open": "328.23001",
+              "high": "333.23001",
+              "low": "327.73999",
+              "close": "332.60001",
+              "volume": "23557600"
+            },
+            {
+              "datetime": "2026-09-09",
+              "open": "331.64999",
+              "high": "331.85001",
+              "low": "327.89999",
+              "close": "330.64999",
+              "volume": "33151600"
+            },
+            {
+              "datetime": "2026-09-08",
+              "open": "335.42001",
+              "high": "339.67999",
+              "low": "333.22000",
+              "close": "338.35999",
+              "volume": "22915800"
+            },
+            {
+              "datetime": "2026-09-04",
+              "open": "342.47000",
+              "high": "343.53000",
+              "low": "337.089996",
+              "close": "338.45999",
+              "volume": "23189300"
+            },
+            {
+              "datetime": "2026-09-03",
+              "open": "340.56000",
+              "high": "344.67999",
+              "low": "340.059998",
+              "close": "342.48001",
+              "volume": "20726900"
+            },
+            {
+              "datetime": "2026-09-02",
+              "open": "334.059998",
+              "high": "340",
+              "low": "332.82001",
+              "close": "337.12000",
+              "volume": "22582300"
+            },
+            {
+              "datetime": "2026-09-01",
+              "open": "336",
+              "high": "337.20001",
+              "low": "333.049988",
+              "close": "335.019989",
+              "volume": "23342700"
+            },
+            {
+              "datetime": "2026-08-31",
+              "open": "343.82999",
+              "high": "344.59000",
+              "low": "337.16000",
+              "close": "339.35001",
+              "volume": "33493600"
+            },
+            {
+              "datetime": "2026-08-28",
+              "open": "340.70999",
+              "high": "349.14001",
+              "low": "340.26999",
+              "close": "346.59000",
+              "volume": "25347200"
+            },
+            {
+              "datetime": "2026-08-27",
+              "open": "339.67001",
+              "high": "341.69000",
+              "low": "338.51999",
+              "close": "340.64999",
+              "volume": "23391400"
+            },
+            {
+              "datetime": "2026-08-26",
+              "open": "346.62000",
+              "high": "346.88000",
+              "low": "340.17999",
+              "close": "342",
+              "volume": "20420300"
+            },
+            {
+              "datetime": "2026-08-25",
+              "open": "349.64001",
+              "high": "350.16000",
+              "low": "345.60001",
+              "close": "346.95999",
+              "volume": "20649700"
+            },
+            {
+              "datetime": "2026-08-24",
+              "open": "343.62000",
+              "high": "351.60001",
+              "low": "342.48999",
+              "close": "348.059998",
+              "volume": "26338200"
+            },
+            {
+              "datetime": "2026-08-21",
+              "open": "342.57999",
+              "high": "346.20001",
+              "low": "340.39999",
+              "close": "344.82001",
+              "volume": "20849800"
+            },
+            {
+              "datetime": "2026-08-20",
+              "open": "343.059998",
+              "high": "343.89999",
+              "low": "338.57001",
+              "close": "340.67001",
+              "volume": "18570400"
+            },
+            {
+              "datetime": "2026-08-19",
+              "open": "342.45999",
+              "high": "346.73001",
+              "low": "340.66000",
+              "close": "344.72000",
+              "volume": "19733800"
+            }
+          ],
+          "high_52w_bar": {
+            "datetime": "2026-05-18",
+            "open": "395.69000",
+            "high": "408.60999",
+            "low": "394.53000",
+            "close": "396.94000",
+            "volume": "26837200"
+          },
+          "high_52w_window_start": "2025-09-19",
+          "high_52w_sessions": 250,
+          "premarket_response": {}
+        }
+      },
+      "HOOD": {
+        "close": 109.81,
+        "open": 110.099998,
+        "high": 110.55,
+        "low": 106.080002,
+        "volume": 21849300.0,
+        "pct": 5.161846389580549,
+        "avg_volume": 24145195.0,
+        "high_52w": 153.86,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "premarket_timestamp_et": null,
+        "premarket_price": null,
+        "evidence": {
+          "regular_bar": {
+            "datetime": "2026-09-17",
+            "open": "110.099998",
+            "high": "110.55000",
+            "low": "106.080002",
+            "close": "109.81000",
+            "volume": "21849300"
+          },
+          "previous_bar": {
+            "datetime": "2026-09-16",
+            "open": "110.27000",
+            "high": "111.050003",
+            "low": "101.70500",
+            "close": "104.42000",
+            "volume": "33627300"
+          },
+          "volume_baseline_bars": [
+            {
+              "datetime": "2026-09-16",
+              "open": "110.27000",
+              "high": "111.050003",
+              "low": "101.70500",
+              "close": "104.42000",
+              "volume": "33627300"
+            },
+            {
+              "datetime": "2026-09-15",
+              "open": "111.71500",
+              "high": "112.85000",
+              "low": "105.85900",
+              "close": "110.45000",
+              "volume": "28745300"
+            },
+            {
+              "datetime": "2026-09-14",
+              "open": "112.26000",
+              "high": "116.34500",
+              "low": "111.96000",
+              "close": "114.33000",
+              "volume": "17093000"
+            },
+            {
+              "datetime": "2026-09-11",
+              "open": "113.35000",
+              "high": "116.40000",
+              "low": "111.019997",
+              "close": "112.57000",
+              "volume": "19731100"
+            },
+            {
+              "datetime": "2026-09-10",
+              "open": "112.69000",
+              "high": "116.30000",
+              "low": "111.95000",
+              "close": "113.33000",
+              "volume": "16570000"
+            },
+            {
+              "datetime": "2026-09-09",
+              "open": "120.77000",
+              "high": "121.42000",
+              "low": "115.089996",
+              "close": "115.28000",
+              "volume": "18687100"
+            },
+            {
+              "datetime": "2026-09-08",
+              "open": "125.070000",
+              "high": "125.25",
+              "low": "117.080002",
+              "close": "117.34000",
+              "volume": "26061000"
+            },
+            {
+              "datetime": "2026-09-04",
+              "open": "120.47500",
+              "high": "124.70000",
+              "low": "119.82000",
+              "close": "122.11000",
+              "volume": "23732600"
+            },
+            {
+              "datetime": "2026-09-03",
+              "open": "113.80000",
+              "high": "124.88000",
+              "low": "113.040001",
+              "close": "124.72000",
+              "volume": "51637300"
+            },
+            {
+              "datetime": "2026-09-02",
+              "open": "103.72000",
+              "high": "107.46000",
+              "low": "101.89000",
+              "close": "106.99000",
+              "volume": "16848800"
+            },
+            {
+              "datetime": "2026-09-01",
+              "open": "105.34000",
+              "high": "106.96000",
+              "low": "102.45000",
+              "close": "103.51000",
+              "volume": "22636200"
+            },
+            {
+              "datetime": "2026-08-31",
+              "open": "103.42000",
+              "high": "105.47000",
+              "low": "100.68000",
+              "close": "104.81000",
+              "volume": "16327100"
+            },
+            {
+              "datetime": "2026-08-28",
+              "open": "108.65500",
+              "high": "110.5",
+              "low": "104.15000",
+              "close": "104.26000",
+              "volume": "16287200"
+            },
+            {
+              "datetime": "2026-08-27",
+              "open": "110.70000",
+              "high": "112.070000",
+              "low": "107.51000",
+              "close": "109.76000",
+              "volume": "13757900"
+            },
+            {
+              "datetime": "2026-08-26",
+              "open": "110.10500",
+              "high": "111.59000",
+              "low": "108.25",
+              "close": "108.54000",
+              "volume": "13453300"
+            },
+            {
+              "datetime": "2026-08-25",
+              "open": "103.20000",
+              "high": "112.45000",
+              "low": "102.80000",
+              "close": "112.089996",
+              "volume": "24663500"
+            },
+            {
+              "datetime": "2026-08-24",
+              "open": "106.85500",
+              "high": "109.125",
+              "low": "103.14000",
+              "close": "103.62000",
+              "volume": "22147500"
+            },
+            {
+              "datetime": "2026-08-21",
+              "open": "101.099998",
+              "high": "109.71000",
+              "low": "98.77000",
+              "close": "108.13000",
+              "volume": "50460200"
+            },
+            {
+              "datetime": "2026-08-20",
+              "open": "100.85000",
+              "high": "101.61000",
+              "low": "93.65000",
+              "close": "95.099998",
+              "volume": "25193700"
+            },
+            {
+              "datetime": "2026-08-19",
+              "open": "92.90000",
+              "high": "99.43000",
+              "low": "92.19000",
+              "close": "95.77000",
+              "volume": "25243800"
+            }
+          ],
+          "high_52w_bar": {
+            "datetime": "2025-10-06",
+            "open": "153",
+            "high": "153.86000",
+            "low": "144.11900",
+            "close": "144.25999",
+            "volume": "28117000"
+          },
+          "high_52w_window_start": "2025-09-19",
+          "high_52w_sessions": 250,
+          "premarket_response": {}
+        }
+      },
+      "NVDA": {
+        "close": 219.34,
+        "open": 218.38,
+        "high": 219.91,
+        "low": 217.14999,
+        "volume": 93960500.0,
+        "pct": 2.5432493007596646,
+        "avg_volume": 129939170.0,
+        "high_52w": 236.53999,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "premarket_timestamp_et": null,
+        "premarket_price": null,
+        "evidence": {
+          "regular_bar": {
+            "datetime": "2026-09-17",
+            "open": "218.38000",
+            "high": "219.91000",
+            "low": "217.14999",
+            "close": "219.34000",
+            "volume": "93960500"
+          },
+          "previous_bar": {
+            "datetime": "2026-09-16",
+            "open": "214.14000",
+            "high": "216.75999",
+            "low": "212.5",
+            "close": "213.89999",
+            "volume": "96563600"
+          },
+          "volume_baseline_bars": [
+            {
+              "datetime": "2026-09-16",
+              "open": "214.14000",
+              "high": "216.75999",
+              "low": "212.5",
+              "close": "213.89999",
+              "volume": "96563600"
+            },
+            {
+              "datetime": "2026-09-15",
+              "open": "213.38000",
+              "high": "213.94000",
+              "low": "211.16000",
+              "close": "212.17000",
+              "volume": "88059700"
+            },
+            {
+              "datetime": "2026-09-14",
+              "open": "211.24001",
+              "high": "212.77000",
+              "low": "208.92999",
+              "close": "210.96001",
+              "volume": "132267200"
+            },
+            {
+              "datetime": "2026-09-11",
+              "open": "221.24001",
+              "high": "222",
+              "low": "218.14999",
+              "close": "218.28999",
+              "volume": "89060100"
+            },
+            {
+              "datetime": "2026-09-10",
+              "open": "220.53000",
+              "high": "220.99001",
+              "low": "217.20000",
+              "close": "218.36000",
+              "volume": "105768000"
+            },
+            {
+              "datetime": "2026-09-09",
+              "open": "225.28000",
+              "high": "226.17999",
+              "low": "223.46001",
+              "close": "223.67000",
+              "volume": "82955500"
+            },
+            {
+              "datetime": "2026-09-08",
+              "open": "233.11000",
+              "high": "233.71001",
+              "low": "224.85001",
+              "close": "225.73000",
+              "volume": "122965600"
+            },
+            {
+              "datetime": "2026-09-04",
+              "open": "231.089996",
+              "high": "234.75999",
+              "low": "229.63000",
+              "close": "230.36000",
+              "volume": "135352400"
+            },
+            {
+              "datetime": "2026-09-03",
+              "open": "226.020004",
+              "high": "230.39999",
+              "low": "224.75",
+              "close": "228.45000",
+              "volume": "134681600"
+            },
+            {
+              "datetime": "2026-09-02",
+              "open": "218.78999",
+              "high": "227.95000",
+              "low": "218.48000",
+              "close": "224.41000",
+              "volume": "157104700"
+            },
+            {
+              "datetime": "2026-09-01",
+              "open": "216.75",
+              "high": "220.41000",
+              "low": "215.10001",
+              "close": "217.44000",
+              "volume": "109756200"
+            },
+            {
+              "datetime": "2026-08-31",
+              "open": "218.87000",
+              "high": "221.30000",
+              "low": "216.21001",
+              "close": "220.78000",
+              "volume": "124702700"
+            },
+            {
+              "datetime": "2026-08-28",
+              "open": "227.36000",
+              "high": "229.25999",
+              "low": "216.81000",
+              "close": "217.55000",
+              "volume": "195116400"
+            },
+            {
+              "datetime": "2026-08-27",
+              "open": "222.86000",
+              "high": "230.47000",
+              "low": "220.89999",
+              "close": "227.98000",
+              "volume": "298909800"
+            },
+            {
+              "datetime": "2026-08-26",
+              "open": "212.64000",
+              "high": "213.60001",
+              "low": "209.23000",
+              "close": "209.66000",
+              "volume": "179900000"
+            },
+            {
+              "datetime": "2026-08-25",
+              "open": "211.029999",
+              "high": "214.73000",
+              "low": "210.11000",
+              "close": "213.050003",
+              "volume": "122309000"
+            },
+            {
+              "datetime": "2026-08-24",
+              "open": "215.53000",
+              "high": "215.59000",
+              "low": "207.25",
+              "close": "208.48000",
+              "volume": "135187300"
+            },
+            {
+              "datetime": "2026-08-21",
+              "open": "218.42000",
+              "high": "218.74001",
+              "low": "214.5",
+              "close": "214.72000",
+              "volume": "98869300"
+            },
+            {
+              "datetime": "2026-08-20",
+              "open": "218.36000",
+              "high": "219.86000",
+              "low": "215.66000",
+              "close": "216.85001",
+              "volume": "92457000"
+            },
+            {
+              "datetime": "2026-08-19",
+              "open": "221.67000",
+              "high": "222.87000",
+              "low": "216.75999",
+              "close": "217.56000",
+              "volume": "96797300"
+            }
+          ],
+          "high_52w_bar": {
+            "datetime": "2026-05-14",
+            "open": "229.85001",
+            "high": "236.53999",
+            "low": "229.30000",
+            "close": "235.74001",
+            "volume": "180782900"
+          },
+          "high_52w_window_start": "2025-09-19",
+          "high_52w_sessions": 250,
+          "premarket_response": {}
+        }
+      },
+      "INTC": {
+        "close": 108.8,
+        "open": 104.7,
+        "high": 111.37,
+        "low": 104.7,
+        "volume": 148929100.0,
+        "pct": 7.669467362608584,
+        "avg_volume": 91477025.0,
+        "high_52w": 142.35001,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "premarket_timestamp_et": null,
+        "premarket_price": null,
+        "evidence": {
+          "regular_bar": {
+            "datetime": "2026-09-17",
+            "open": "104.70000",
+            "high": "111.37000",
+            "low": "104.70000",
+            "close": "108.80000",
+            "volume": "148929100"
+          },
+          "previous_bar": {
+            "datetime": "2026-09-16",
+            "open": "101.37000",
+            "high": "104.42000",
+            "low": "99.29000",
+            "close": "101.050003",
+            "volume": "119923600"
+          },
+          "volume_baseline_bars": [
+            {
+              "datetime": "2026-09-16",
+              "open": "101.37000",
+              "high": "104.42000",
+              "low": "99.29000",
+              "close": "101.050003",
+              "volume": "119923600"
+            },
+            {
+              "datetime": "2026-09-15",
+              "open": "98.83000",
+              "high": "100.48000",
+              "low": "96.52000",
+              "close": "97.14000",
+              "volume": "84999300"
+            },
+            {
+              "datetime": "2026-09-14",
+              "open": "95.82000",
+              "high": "98.86000",
+              "low": "94.52000",
+              "close": "97.19000",
+              "volume": "96459700"
+            },
+            {
+              "datetime": "2026-09-11",
+              "open": "102.47000",
+              "high": "104.90000",
+              "low": "101.070000",
+              "close": "102.94000",
+              "volume": "86990400"
+            },
+            {
+              "datetime": "2026-09-10",
+              "open": "102.45000",
+              "high": "103.23000",
+              "low": "99.34000",
+              "close": "100.32000",
+              "volume": "96887100"
+            },
+            {
+              "datetime": "2026-09-09",
+              "open": "102.70000",
+              "high": "106.69000",
+              "low": "102.70000",
+              "close": "106.24000",
+              "volume": "96891400"
+            },
+            {
+              "datetime": "2026-09-08",
+              "open": "100.80000",
+              "high": "106.089996",
+              "low": "100.35000",
+              "close": "104.47000",
+              "volume": "140269300"
+            },
+            {
+              "datetime": "2026-09-04",
+              "open": "92.45000",
+              "high": "95.94000",
+              "low": "91.87000",
+              "close": "95.80000",
+              "volume": "97654300"
+            },
+            {
+              "datetime": "2026-09-03",
+              "open": "89.35000",
+              "high": "92.37000",
+              "low": "87.73000",
+              "close": "91.67000",
+              "volume": "79927800"
+            },
+            {
+              "datetime": "2026-09-02",
+              "open": "88.85000",
+              "high": "90.43000",
+              "low": "87.5",
+              "close": "90.050003",
+              "volume": "61554500"
+            },
+            {
+              "datetime": "2026-09-01",
+              "open": "86.84000",
+              "high": "89.41000",
+              "low": "85.72000",
+              "close": "88.97000",
+              "volume": "73962100"
+            },
+            {
+              "datetime": "2026-08-31",
+              "open": "90",
+              "high": "91.85000",
+              "low": "88.97000",
+              "close": "89.51000",
+              "volume": "65188200"
+            },
+            {
+              "datetime": "2026-08-28",
+              "open": "90.27000",
+              "high": "93.70000",
+              "low": "89.050003",
+              "close": "89.47000",
+              "volume": "86172600"
+            },
+            {
+              "datetime": "2026-08-27",
+              "open": "89.91000",
+              "high": "92.95000",
+              "low": "88.46000",
+              "close": "92.089996",
+              "volume": "100556800"
+            },
+            {
+              "datetime": "2026-08-26",
+              "open": "86.81000",
+              "high": "88.28000",
+              "low": "85.63000",
+              "close": "88.24000",
+              "volume": "75752800"
+            },
+            {
+              "datetime": "2026-08-25",
+              "open": "90.059998",
+              "high": "90.18000",
+              "low": "87.29000",
+              "close": "87.48000",
+              "volume": "81853800"
+            },
+            {
+              "datetime": "2026-08-24",
+              "open": "88.86000",
+              "high": "88.91000",
+              "low": "85.14000",
+              "close": "87.26000",
+              "volume": "96903400"
+            },
+            {
+              "datetime": "2026-08-21",
+              "open": "92.71000",
+              "high": "92.77000",
+              "low": "89.75",
+              "close": "90.070000",
+              "volume": "91670100"
+            },
+            {
+              "datetime": "2026-08-20",
+              "open": "91.87000",
+              "high": "92.68000",
+              "low": "89.85000",
+              "close": "92.13000",
+              "volume": "85654700"
+            },
+            {
+              "datetime": "2026-08-19",
+              "open": "97.41000",
+              "high": "98.20000",
+              "low": "91.28000",
+              "close": "92.80000",
+              "volume": "110268600"
+            }
+          ],
+          "high_52w_bar": {
+            "datetime": "2026-06-30",
+            "open": "131.99001",
+            "high": "142.35001",
+            "low": "131.52000",
+            "close": "139.63000",
+            "volume": "116996700"
+          },
+          "high_52w_window_start": "2025-09-19",
+          "high_52w_sessions": 250,
+          "premarket_response": {}
+        }
+      },
+      "NBIS": {
+        "close": 217.99001,
+        "open": 230.020004,
+        "high": 232.85001,
+        "low": 209.64999,
+        "volume": 30682400.0,
+        "pct": 4.117118020728849,
+        "avg_volume": 16388785.0,
+        "high_52w": 299.85999,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "premarket_timestamp_et": null,
+        "premarket_price": null,
+        "evidence": {
+          "regular_bar": {
+            "datetime": "2026-09-17",
+            "open": "230.020004",
+            "high": "232.85001",
+            "low": "209.64999",
+            "close": "217.99001",
+            "volume": "30682400"
+          },
+          "previous_bar": {
+            "datetime": "2026-09-16",
+            "open": "212.49001",
+            "high": "220.39999",
+            "low": "208.46100",
+            "close": "209.37000",
+            "volume": "13917900"
+          },
+          "volume_baseline_bars": [
+            {
+              "datetime": "2026-09-16",
+              "open": "212.49001",
+              "high": "220.39999",
+              "low": "208.46100",
+              "close": "209.37000",
+              "volume": "13917900"
+            },
+            {
+              "datetime": "2026-09-15",
+              "open": "211.029999",
+              "high": "216.56000",
+              "low": "206.84700",
+              "close": "207.37000",
+              "volume": "10489000"
+            },
+            {
+              "datetime": "2026-09-14",
+              "open": "204.98000",
+              "high": "219.32001",
+              "low": "203.87000",
+              "close": "212.19000",
+              "volume": "13725100"
+            },
+            {
+              "datetime": "2026-09-11",
+              "open": "234.80000",
+              "high": "234.95000",
+              "low": "223.64000",
+              "close": "224.55000",
+              "volume": "11228300"
+            },
+            {
+              "datetime": "2026-09-10",
+              "open": "232",
+              "high": "238.33000",
+              "low": "226.029999",
+              "close": "228.11000",
+              "volume": "13059400"
+            },
+            {
+              "datetime": "2026-09-09",
+              "open": "247.90500",
+              "high": "250.27200",
+              "low": "240.20000",
+              "close": "240.35001",
+              "volume": "11439000"
+            },
+            {
+              "datetime": "2026-09-08",
+              "open": "234.84500",
+              "high": "254.74001",
+              "low": "234.32500",
+              "close": "243.88000",
+              "volume": "26697300"
+            },
+            {
+              "datetime": "2026-09-04",
+              "open": "210.19000",
+              "high": "226.58000",
+              "low": "209.40500",
+              "close": "226.39000",
+              "volume": "14970700"
+            },
+            {
+              "datetime": "2026-09-03",
+              "open": "202.88000",
+              "high": "211.67000",
+              "low": "196.63000",
+              "close": "210.63000",
+              "volume": "10679600"
+            },
+            {
+              "datetime": "2026-09-02",
+              "open": "195.65500",
+              "high": "205.21001",
+              "low": "195.14999",
+              "close": "204.089996",
+              "volume": "10817900"
+            },
+            {
+              "datetime": "2026-09-01",
+              "open": "199.91000",
+              "high": "202.80800",
+              "low": "194.80000",
+              "close": "199.53999",
+              "volume": "10855900"
+            },
+            {
+              "datetime": "2026-08-31",
+              "open": "205.73500",
+              "high": "208.88000",
+              "low": "201.5",
+              "close": "206.32001",
+              "volume": "10556100"
+            },
+            {
+              "datetime": "2026-08-28",
+              "open": "211.96001",
+              "high": "214.28000",
+              "low": "205.48000",
+              "close": "209.17999",
+              "volume": "13122100"
+            },
+            {
+              "datetime": "2026-08-27",
+              "open": "223.37000",
+              "high": "228.5",
+              "low": "215.41000",
+              "close": "218.48000",
+              "volume": "16068200"
+            },
+            {
+              "datetime": "2026-08-26",
+              "open": "215.5",
+              "high": "221.47000",
+              "low": "213.60001",
+              "close": "213.92999",
+              "volume": "10562800"
+            },
+            {
+              "datetime": "2026-08-25",
+              "open": "217.96001",
+              "high": "223.44000",
+              "low": "213.55000",
+              "close": "221.97000",
+              "volume": "13547900"
+            },
+            {
+              "datetime": "2026-08-24",
+              "open": "211.20200",
+              "high": "213.75",
+              "low": "201.89101",
+              "close": "210.91000",
+              "volume": "16882300"
+            },
+            {
+              "datetime": "2026-08-21",
+              "open": "226.36000",
+              "high": "230.81000",
+              "low": "217.85001",
+              "close": "219.13000",
+              "volume": "20239700"
+            },
+            {
+              "datetime": "2026-08-20",
+              "open": "223",
+              "high": "223",
+              "low": "212.039993",
+              "close": "220.11000",
+              "volume": "28477900"
+            },
+            {
+              "datetime": "2026-08-19",
+              "open": "232.32001",
+              "high": "236.20000",
+              "low": "213.75",
+              "close": "223.89999",
+              "volume": "50438600"
+            }
+          ],
+          "high_52w_bar": {
+            "datetime": "2026-06-22",
+            "open": "289.95999",
+            "high": "299.85999",
+            "low": "278",
+            "close": "283.60999",
+            "volume": "14697600"
+          },
+          "high_52w_window_start": "2025-09-19",
+          "high_52w_sessions": 250,
+          "premarket_response": {}
+        }
+      },
+      "MRVL": {
+        "close": 240.75999,
+        "open": 240.070007,
+        "high": 247.89,
+        "low": 240.0,
+        "volume": 20910000.0,
+        "pct": 4.81040421355603,
+        "avg_volume": 23667135.0,
+        "high_52w": 329.88,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "premarket_timestamp_et": null,
+        "premarket_price": null,
+        "evidence": {
+          "regular_bar": {
+            "datetime": "2026-09-17",
+            "open": "240.070007",
+            "high": "247.89000",
+            "low": "240",
+            "close": "240.75999",
+            "volume": "20910000"
+          },
+          "previous_bar": {
+            "datetime": "2026-09-16",
+            "open": "226.73000",
+            "high": "233.77000",
+            "low": "224.58000",
+            "close": "229.71001",
+            "volume": "16377400"
+          },
+          "volume_baseline_bars": [
+            {
+              "datetime": "2026-09-16",
+              "open": "226.73000",
+              "high": "233.77000",
+              "low": "224.58000",
+              "close": "229.71001",
+              "volume": "16377400"
+            },
+            {
+              "datetime": "2026-09-15",
+              "open": "221.62000",
+              "high": "227.62000",
+              "low": "220.92000",
+              "close": "221.70000",
+              "volume": "12742900"
+            },
+            {
+              "datetime": "2026-09-14",
+              "open": "215.81000",
+              "high": "224.10001",
+              "low": "213.63000",
+              "close": "218.82001",
+              "volume": "22196800"
+            },
+            {
+              "datetime": "2026-09-11",
+              "open": "234.63000",
+              "high": "240.20000",
+              "low": "229.28000",
+              "close": "236.10001",
+              "volume": "17310200"
+            },
+            {
+              "datetime": "2026-09-10",
+              "open": "228.029999",
+              "high": "234.49001",
+              "low": "226.14999",
+              "close": "226.96001",
+              "volume": "16467600"
+            },
+            {
+              "datetime": "2026-09-09",
+              "open": "223.80000",
+              "high": "241.88000",
+              "low": "223.60001",
+              "close": "235.0099945",
+              "volume": "20477900"
+            },
+            {
+              "datetime": "2026-09-08",
+              "open": "227",
+              "high": "231.89000",
+              "low": "222.53000",
+              "close": "225.41000",
+              "volume": "20618200"
+            },
+            {
+              "datetime": "2026-09-04",
+              "open": "211.66000",
+              "high": "223.67000",
+              "low": "210.87000",
+              "close": "223.55000",
+              "volume": "21218100"
+            },
+            {
+              "datetime": "2026-09-03",
+              "open": "204.35001",
+              "high": "212.77000",
+              "low": "201.10001",
+              "close": "208.83000",
+              "volume": "18768900"
+            },
+            {
+              "datetime": "2026-09-02",
+              "open": "205.25",
+              "high": "208.49001",
+              "low": "203.5",
+              "close": "206.48000",
+              "volume": "15224800"
+            },
+            {
+              "datetime": "2026-09-01",
+              "open": "205.11000",
+              "high": "210.45000",
+              "low": "200.62000",
+              "close": "210.39000",
+              "volume": "22284200"
+            },
+            {
+              "datetime": "2026-08-31",
+              "open": "216.30000",
+              "high": "218.22000",
+              "low": "209.53000",
+              "close": "211.66000",
+              "volume": "23650800"
+            },
+            {
+              "datetime": "2026-08-28",
+              "open": "225.25999",
+              "high": "228.88000",
+              "low": "215.55000",
+              "close": "216.62000",
+              "volume": "48979900"
+            },
+            {
+              "datetime": "2026-08-27",
+              "open": "253.44000",
+              "high": "254.60001",
+              "low": "240.38000",
+              "close": "241.45000",
+              "volume": "41014700"
+            },
+            {
+              "datetime": "2026-08-26",
+              "open": "240",
+              "high": "245.17000",
+              "low": "236.78999",
+              "close": "245.11000",
+              "volume": "17107000"
+            },
+            {
+              "datetime": "2026-08-25",
+              "open": "237.38000",
+              "high": "246.70000",
+              "low": "235.92999",
+              "close": "240.38000",
+              "volume": "21347000"
+            },
+            {
+              "datetime": "2026-08-24",
+              "open": "229.22000",
+              "high": "231.70000",
+              "low": "220.42000",
+              "close": "229.28999",
+              "volume": "18791400"
+            },
+            {
+              "datetime": "2026-08-21",
+              "open": "252.39000",
+              "high": "252.52000",
+              "low": "233.28000",
+              "close": "237.039993",
+              "volume": "25526600"
+            },
+            {
+              "datetime": "2026-08-20",
+              "open": "237.57001",
+              "high": "251.73000",
+              "low": "234.53000",
+              "close": "251.0099945",
+              "volume": "29226500"
+            },
+            {
+              "datetime": "2026-08-19",
+              "open": "240.13000",
+              "high": "245.49001",
+              "low": "228.10001",
+              "close": "237.27000",
+              "volume": "44011800"
+            }
+          ],
+          "high_52w_bar": {
+            "datetime": "2026-06-18",
+            "open": "305.47000",
+            "high": "329.88000",
+            "low": "302.35999",
+            "close": "310.57999",
+            "volume": "250989400"
+          },
+          "high_52w_window_start": "2025-09-19",
+          "high_52w_sessions": 250,
+          "premarket_response": {}
+        }
+      },
+      "META": {
+        "close": 682.31,
+        "open": 682.44,
+        "high": 683.20001,
+        "low": 667.049988,
+        "volume": 15888400.0,
+        "pct": 1.336679983959832,
+        "avg_volume": 18044430.0,
+        "high_52w": 790.79999,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "premarket_timestamp_et": null,
+        "premarket_price": null,
+        "evidence": {
+          "regular_bar": {
+            "datetime": "2026-09-17",
+            "open": "682.44000",
+            "high": "683.20001",
+            "low": "667.049988",
+            "close": "682.31000",
+            "volume": "15888400"
+          },
+          "previous_bar": {
+            "datetime": "2026-09-16",
+            "open": "679.90997",
+            "high": "685.31000",
+            "low": "671.90997",
+            "close": "673.31000",
+            "volume": "17217800"
+          },
+          "volume_baseline_bars": [
+            {
+              "datetime": "2026-09-16",
+              "open": "679.90997",
+              "high": "685.31000",
+              "low": "671.90997",
+              "close": "673.31000",
+              "volume": "17217800"
+            },
+            {
+              "datetime": "2026-09-15",
+              "open": "659.29999",
+              "high": "678.87000",
+              "low": "656.20001",
+              "close": "670.23999",
+              "volume": "19502800"
+            },
+            {
+              "datetime": "2026-09-14",
+              "open": "657.83002",
+              "high": "668.59998",
+              "low": "649.21997",
+              "close": "665.59998",
+              "volume": "19332300"
+            },
+            {
+              "datetime": "2026-09-11",
+              "open": "653.51001",
+              "high": "664.23999",
+              "low": "646.20001",
+              "close": "648.030029",
+              "volume": "16925000"
+            },
+            {
+              "datetime": "2026-09-10",
+              "open": "653.71002",
+              "high": "663.5",
+              "low": "642.14001",
+              "close": "644.38000",
+              "volume": "21531900"
+            },
+            {
+              "datetime": "2026-09-09",
+              "open": "648.64001",
+              "high": "657.85999",
+              "low": "638.56000",
+              "close": "653.69000",
+              "volume": "35900700"
+            },
+            {
+              "datetime": "2026-09-08",
+              "open": "616.21002",
+              "high": "624.79999",
+              "low": "609.73999",
+              "close": "613.47998",
+              "volume": "18909700"
+            },
+            {
+              "datetime": "2026-09-04",
+              "open": "612.34998",
+              "high": "617.46002",
+              "low": "605.27002",
+              "close": "616.77002",
+              "volume": "15966200"
+            },
+            {
+              "datetime": "2026-09-03",
+              "open": "604.48999",
+              "high": "619.46002",
+              "low": "604.34998",
+              "close": "610.67999",
+              "volume": "19737100"
+            },
+            {
+              "datetime": "2026-09-02",
+              "open": "578.78998",
+              "high": "600.38000",
+              "low": "577",
+              "close": "592.84998",
+              "volume": "16552700"
+            },
+            {
+              "datetime": "2026-09-01",
+              "open": "558.34998",
+              "high": "584.95001",
+              "low": "556.099976",
+              "close": "578.53998",
+              "volume": "15796900"
+            },
+            {
+              "datetime": "2026-08-31",
+              "open": "577.63000",
+              "high": "578.67999",
+              "low": "569.14001",
+              "close": "572.34003",
+              "volume": "13383800"
+            },
+            {
+              "datetime": "2026-08-28",
+              "open": "571.54999",
+              "high": "589.19000",
+              "low": "571",
+              "close": "578.020020",
+              "volume": "16042400"
+            },
+            {
+              "datetime": "2026-08-27",
+              "open": "576.47998",
+              "high": "588.39001",
+              "low": "567.62000",
+              "close": "571.099976",
+              "volume": "15221400"
+            },
+            {
+              "datetime": "2026-08-26",
+              "open": "590.31000",
+              "high": "593.34003",
+              "low": "561.88000",
+              "close": "576.14001",
+              "volume": "31416300"
+            },
+            {
+              "datetime": "2026-08-25",
+              "open": "563.88000",
+              "high": "570.79999",
+              "low": "561.40002",
+              "close": "570.049988",
+              "volume": "9769100"
+            },
+            {
+              "datetime": "2026-08-24",
+              "open": "550.20001",
+              "high": "561.41998",
+              "low": "546.29999",
+              "close": "559.020020",
+              "volume": "12990600"
+            },
+            {
+              "datetime": "2026-08-21",
+              "open": "546.89001",
+              "high": "553.87000",
+              "low": "543.22998",
+              "close": "549.90002",
+              "volume": "13848000"
+            },
+            {
+              "datetime": "2026-08-20",
+              "open": "546.95001",
+              "high": "549.98999",
+              "low": "539.31000",
+              "close": "545.83002",
+              "volume": "13872200"
+            },
+            {
+              "datetime": "2026-08-19",
+              "open": "541.34003",
+              "high": "554.070007",
+              "low": "537.27002",
+              "close": "546.030029",
+              "volume": "16971700"
+            }
+          ],
+          "high_52w_bar": {
+            "datetime": "2025-09-19",
+            "open": "786.41998",
+            "high": "790.79999",
+            "low": "769.19000",
+            "close": "778.38000",
+            "volume": "23696800"
+          },
+          "high_52w_window_start": "2025-09-19",
+          "high_52w_sessions": 250,
+          "premarket_response": {}
+        }
+      }
+    },
+    "manual_claim_review": {
+      "advancers": 12,
+      "decliners": 0,
+      "gains_at_least_3pct": 4,
+      "descending_return_order": [
+        "INTC",
+        "HOOD",
+        "MRVL",
+        "NBIS",
+        "NVDA",
+        "TSLA",
+        "AMZN",
+        "MSFT",
+        "AAPL",
+        "META",
+        "GOOGL",
+        "PLTR"
+      ],
+      "unmapped_review": "The two count notices were recomputed over all twelve records and confirmed. The remaining notice is the Forum Mobility source URL containing one-of-the-largest; no ranking of the twelve tickers is asserted by that URL.",
+      "historical_notices": "Older archived editions retain existing unmapped-claim notices; no historical edition was changed."
+    },
+    "chart_refresh": {
+      "daily_session": "2026-09-17",
+      "daily_current_count": 12,
+      "cached_intraday_tickers": [
+        "AMZN",
+        "GOOGL",
+        "INTC",
+        "META",
+        "MSFT",
+        "NBIS",
+        "NVDA",
+        "PLTR"
+      ]
+    }
+  }
+}
