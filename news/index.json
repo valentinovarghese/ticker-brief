@@ -1,15 +1,28 @@
 {
- "checked": "2026-09-19T16:47:59+00:00",
- "changed": "2026-09-19T16:47:59+00:00",
+ "checked": "2026-09-19T18:58:38+00:00",
+ "changed": "2026-09-19T18:58:38+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
+   {
+    "id": "1bc51e3dc5c44348",
+    "title": "Apple (AAPL) Stock Price, News & Forecasts",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9SeWpUS09jM3VEN0xGejBibHZLQ09VMmN0QVdfZjlxN3liN3A5U3pQdHRvY29hckQtSHIxcS13b1d2bGUzOUJzY3Y0Zw?oc=5",
+    "source": "blockchain.news",
+    "published": "2026-09-19T07:02+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "cc5ba54a5c172a73",
     "title": "Apple Cider Recall Could Be A Big Test For Weis Markets Stock",
     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPRVRQMkF3emV4UXg3YjVOaTNVYmRMUFM1dm5qQXg3MUROYnhCUGYxRU1MM2U0MEl0aHBaWDg3RTBYb2VCRHFJRUZBZFRkZHVEN1o5eHk0SlRnNmVlWlhfZmhSOWpKcGdXMTJhZVZGZVBoYXVleEdia3NTR1B2NkJUaVpwWDdQc0ZzWkpXOHc5YXlEa3FyXzgyS2draVRZcHVULTBUeVhPWjJCZWswQVNiLW9OYTEwOGdjdGdKNEFQU05Ga0NMcnZhTGFEQ0ZOTnpwX1g2cdIB2gFBVV95cUxQUWRLaUE5MWFSenhac2lob1FYNnZqclRWdl9OQ25DUXlFTjFVUkdDM2E3ZjZjWjVMMmlTUUxtMF9TNTRrby1LY0dtdWZ1bTJWeXBwRXhHVVg0N0p0bzR0TVlwQjhkXzQ2eXhrWjdWSUdTN2hvaXdEbFlrb0J6LTR",
     "source": "simplywall.st",
-    "published": "2026-09-19T01:33+00:00",
+    "published": "2026-09-19T01:53+00:00",
     "score": 5,
     "tags": [
      "operations"
@@ -96,6 +109,19 @@
     "primary": false
    },
    {
+    "id": "6bc60b1dc5d2eef0",
+    "title": "Apple (AAPL) Stock: Wireless Carriers Absorb iPhone 18 Price Increases With Enhanced Trade-In Deals",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVXFlRmxoeEZNYWdxT2wtZHdNUk9jbnFOZXZoT252QUEzS3dKZWNDTWFkZnVBVkpodlVoSUtZczlnQktqek1NUmo2Zk9DVERjN1NZZmdVN0JFZjR5V1B6akp3VWJrWjd1Z0JzWkUxSF9ORGpUNGhKS0ZqQ19QQlZWM0hLNHdDTWtvTl9jaG9jZHktUmNRYnNwaHc0bm5oY3NoMGdzRGNVSjFOYWlTYTFUMkdKS1JxS3ZrNVpWZQ?oc=5",
+    "source": "blockonomi.com",
+    "published": "2026-09-18T09:42+00:00",
+    "score": 5,
+    "tags": [
+     "contract"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "544ee8bd904f6a6c",
     "title": "Apple Hospitality REIT stock holds steady as investors eye dividend income and recent results",
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOeldNQUhwYk5sdldvbjBWa3JQcldKTDVtSklaWUdyZWFXcExqQUhiSmF6TUZuaU1SZWltMTJ3ZGtjMlhEMndTNFVlRVBINTBMQjJza1lZNW1uUmN6R2V1VHdVamlFOFBXRHdYOUpWLXMxaURFNUlua2pSejhoQ3JLNE5TakZEVlhkQkEzMEhWbENyRHBOR0ZjXzRucnJPTENRYWlPS0M2ZkxFVkxHakl0eV9ITEt6VFB3ODROeGF2Tk9RS3NxQXozWTVSNmZOQQ?oc=5",
@@ -105,32 +131,6 @@
     "tags": [
      "earnings",
      "capital"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "07032db21c2e5dc9",
-    "title": "Apple Pay set for India launch next month with Axis Bank credit cards: Report",
-    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOa0dzYXpoaE1HZTFvcF9zczhjTzg2eUp6bTB0X29zZy1IMzRYUlF6djE1OHpwb1RjNjF0Z2xoT2NGeW1ZRXVmWno3Qk8xYTcwZGxKSUdoWExzcXZLUVV0WHVVdXdfOHJKYWU0ZTE5bkVMTzdReXhqT0g2bWtOVFdGTEVIXzVLNkR2Q1RmVlYtWG8zX0hudlBKSlBYTDdMN1pWZi15TnZYVmM1cm82RWpGVUYzZ3YyUkhuODhyUnpURnNFM3lsVl9TMk1iQ3ZUUlN3V3duZGVYaXNwdzJmZUNfb1Mtd2VwYlZ1aFoteElQa3h6d9IB8gFBVV95cUxOa0dzYXpoaE1HZTFvcF9zczhjTzg2eUp6bTB0X29zZy1IMzRYUlF6djE1OHpwb1RjNjF0Z2xoT2NGeW1ZRXVmWno3Qk8xYTcwZGxKSUdoWExzcXZLUVV0WHV",
-    "source": "The Economic Times",
-    "published": "2026-09-18T05:01+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "87b86f8dd66851bb",
-    "title": "AAPL Stock Quote Price and Forecast",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE00U3JoRzhkckt5aVFxb1NVNnBndWhrcDM5N0NqUzZGUk8xQk04OF9jVWRULXh2RmlJaGpTS1FJWEREaUlNUnhfSHk2cm53NllX?oc=5",
-    "source": "CNN",
-    "published": "2026-09-17T20:19+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -154,7 +154,7 @@
     "id": "878178b6a72fa183",
     "title": "Amazon’s Oct. 6–7 Prime Big Deal Days Tests a 7.9% Retail Margin",
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTNrUzJwamdETUZBNDhTYklsbXJIbTZfdk40VDJRbi15WE1Fek16d0NzUExoYUZzZGpWNnBTbjliRzNiZnVKUkVidlEydFh2Z3Q4VXRSX0tmbC1CYjVFYjVmUTF1VVltY19BY1lPR0EzWUpQUDVmOGhWYnZPcW56eUNzX2RmS3owdXc?oc=5",
-    "source": "TechStock²",
+    "source": "ts2.tech",
     "published": "2026-09-19T07:05+00:00",
     "score": 5,
     "tags": [
@@ -177,16 +177,29 @@
     "primary": false
    },
    {
-    "id": "7081ea0eca639c69",
-    "title": "Amazon, Walmart Face FTC Probe Call Over AI Chatbots And ‘Made In USA’ Claims — AMZN, WMT Stocks In Focus",
-    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOUmJILUtVUW9PNWlHQ1FybElqZVZkSUJydmI2Z052cmxteUl4MFB3Znlwd0wyX2ljNUc3cnRFUUJURF9QUHJqWUxLWFRoMkQ4Mld2WWdNS3BxeWpJU1pIVHhDTjFTLURxdk54ZTV4Wmtkdi1TUTBVcC1ualN5VXg5TTM1cmRUSjBuQU1xUFVsbThkb3V6dUZSMU85cXpBLTNrMGdLT1VZVFdWbFVUS0o2NnBlUHBCUTE1UUdoYXg1X2QyZWdsZUJzVTE0ZVpBNVRjMTFIRHpqNFJVbEhoUGhLc2R4cjN2WTBJQnVLQ3dPR2xqUQ?oc=5",
-    "source": "TradingView",
-    "published": "2026-09-17T20:21+00:00",
-    "score": 5,
+    "id": "1c71220fda8eaedb",
+    "title": "This AI-picked stock jumps 18% on Amazon’s $8 billion power deal",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbno5MGVtd01wQ01QX0UzLUc2eUY5XzZvVVg3R1FCQmhfd2tzQTlVTnAxZVRWb1dFZFNwdEg3aXZ2b3dzSTRaRmFjQ2ZQdkV0XzNhWmljbU1ZS1ozNzBQRmxDQXJ6OWxUODVNR05vR1VfNGJZYV9HeTkxN0Z1dzF1VlpFVG1Od2JNdWh4NGk4WGlqRTZtYzllbzl4c01DSDR2VDRlR29zLVAzeWVESzN5WEtWV0NqMTRC?oc=5",
+    "source": "Investing.com",
+    "published": "2026-09-18T02:42+00:00",
+    "score": 8,
     "tags": [
-     "legal"
+     "contract"
     ],
-    "direction": "negative",
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "3a44ad1e03030566",
+    "title": "Generac makes $8 billion deal with Amazon to support its data centers",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaldyLVM1c0ZCMjM5SG9hck4wNXQ1bWFoSndWZkc0X09LM2gyb09UbFVhYjFYX0lsWERWVEtoQUZlWW4td0R0TFNhTWN6Q1k3WHlQeUpiWDRRWFJFak5CT0l1eVFfbFRPTG44RHFGS3B4bTlWNHI4SDN0bTdlZmxaMXIxN3FELTV6TGdjNjdHYkJTdExuZWdOM20wLXRETS1Va2prWmhhSGtIVmFoRHNmMTBnVUtUVldCbUV0aXVIOEVOejM2WGF5a1lDcjNBV3daLXVlMA?oc=5",
+    "source": "Milwaukee Journal Sentinel",
+    "published": "2026-09-17T23:06+00:00",
+    "score": 8,
+    "tags": [
+     "contract"
+    ],
+    "direction": "neutral",
     "primary": false
    },
    {
@@ -201,61 +214,22 @@
     ],
     "direction": "negative",
     "primary": false
-   },
-   {
-    "id": "21f1521fe7e814ef",
-    "title": "Amazon Jumps 2.5% While $2.4 Billion Buys Backup Power--and Equity",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcVFNbE96TG53d0VaamMyd3pxelVWbnVYSXRnM1RySkNQOTZIdFVidEN0eUV5dGR2YW9EQ2s3b0FLVFo2YVM1V01IYWExTUJzQ282c1lVWHNvOXB6eUJtcndkLXZJaEVuMGs5emtlbEZjS01qcEc2aGhfdlJsbHpKWklsYk5RdnJ1SHhvMlJDS3E?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-17T18:19+00:00",
-    "score": 8,
-    "tags": [
-     "ma"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "bfd3c901b976ff19",
-    "title": "Reduce time-to-hire for quality candidates with AI-powered Amazon Connect Talent",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYlczRzZvdFZNbl9PSEpMYmJZY3NGM0stUGxXdmozdjRNOEFFSlNpdDVEbEdBTmlOdTFMSnpiNG9JQXEtV0h5aEhVNXIydFVUR0NET013RGFRSDE2RWU0MjdoVERvRWVUOHNjV21pTXZXYzJ2SmZfbGVfRUhoWEhyTkVnTWZ4NkhhSGR3TnJGQ0EwcjdjbEJRM1l3cUg0U3Q2d1RSOURUQ09LZTNMNU5wNGVuZTNhcUJyclBQUkNKTXBsWGhBRnc?oc=5",
-    "source": "Amazon Web Services (AWS)",
-    "published": "2026-09-17T17:55+00:00",
-    "score": 5,
-    "tags": [
-     "operations"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "f574970897a769fe",
-    "title": "Amazon ordered to expand payment and eligibility threshold under Prime settlement (AMZN:NASDAQ)",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONlpQVWY2WklYd3U4SGtuX2Q4bEFOVE45a1FkY3JyYUtFLWp3R3pyMTBKLUVKZnZRY1NsdWlyYkJmSEhVM3dla2ppWlRaTEZaY0RFNk0yTEZIWkh5RTZOOEhPVzFWdTJ5NHFpekdndFZ0bGdRdC1MOVpmS3RWWVEtT2NxOXpfNUo1YktDVm90RmQ5U0M5S3hlT29IRDBZbWVZcnktcFFrbFZMaW9jc2s4SUc2ZmsyRlpqd2xj?oc=5",
-    "source": "Seeking Alpha",
-    "published": "2026-09-17T17:46+00:00",
-    "score": 5,
-    "tags": [
-     "legal"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "3302237e1bc43287",
-    "title": "Generac enters into $8B deal with Amazon to supply generators for data centers",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPOFNtMnhmeGpUSFN4V2lRbnFzVURzY0hPaHA5WXdSUW8yLW5DcnVFdnZmUFh1RXA5Q0NLOWMwWWNRN0JTSGtxYkt6YWwzdTd6bWExSHVDVk5nb2dkRF9qS3piZzYwaDAzUEdwU1RiQXZPYmJSMktSZ2haQko4MnY1VWdKS1E4cFVHZU5SaA?oc=5",
-    "source": "WPR",
-    "published": "2026-09-17T17:00+00:00",
-    "score": 8,
-    "tags": [
-     "contract"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "TSLA": [
+   {
+    "id": "61137942f0904c30",
+    "title": "Delivery Outlook Shows Tesla (TSLA)’s Core Business Under Pressure. Its Next Growth Engine Must Deliver",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPalIxdFRlWXJtU2hrZ1JVNnpPalJDVTJJd2VuaTVpR2I0MW01QkozSXNIUl9nM1dRVVR3cEQ0bGxsdktLdkMtZHRDU1R3MkFpa2JTQlFyX1JnV3RyR3A1eVpOZTFfWWYyOHFLbDE1bnNpczRqR0dKM2p1aGlTNkZTb2wzWTRfQ29ZcEM5VjlaejdTWnV0VUNUWmNSb19YcWs?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-19T17:14+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
    {
     "id": "f07cbb828a00261c",
     "title": "Coinbase Files With CFTC To List US Single-Stock Perpetual Futures, Including AAPL And TSLA Contracts",
@@ -299,7 +273,7 @@
     "id": "4a5422f31998fba3",
     "title": "Tesla (TSLA) Stock: Optimus Production Facility Advances Rapidly as 5,000-Unit Order Materializes",
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxON3hrLW1VcmlNbG1EcDl0XzkwNjdvSXhabVF5cFF2MG1Lc244cnVCb0Nya3ljdXZRMTFBZUJJZXFJbGJjYUl1T0lRdS12aVJfdTRjZmVPOXRxWDBGUHBZWDVlWG9qTDJvTlFjWXVCdDNYRjdLakp5RlZLcUdqclBqS0hVdWFmV0YtUG1IcEJsc3hqRFM4clZLR3JNUFM1bzBDVTl5VDZGTnE3d0pMYno2VUwyRjZMWmUt?oc=5",
-    "source": "Blockonomi",
+    "source": "blockonomi.com",
     "published": "2026-09-18T11:34+00:00",
     "score": 10,
     "tags": [
@@ -350,6 +324,19 @@
    }
   ],
   "PLTR": [
+   {
+    "id": "fd36a51731ea388e",
+    "title": "Nebius Stock: October GPU Price Hikes Cement Pricing Power as Palantir Deal and Insider Sale Draw Sc",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOODBWYWZkSDZmWDVxRHJMUkhYMHh3VmhJOHhvWTJWNzFmSlN4NG50aXNRR01KdkI4VVVNWVVwZjExbks1b19INUdYMGt4Vll6UUo2R1pfRm5xTWNxeWp1QVdrUzVnSWJVWkJvSERGZ195dHNOanNRWDVRMWdHVlp3bG5XZ0ZOZldRVWpfcm0yRGxyRm1VSzlqaDVPd1dfNFh6SGtaNHl4U083XzdnS05pYWhhY2dPMXlYUUxYdGZEQjBSbm43N1BUYTZVQmhNc1BURE1ubTRwWGs?oc=5",
+    "source": "AD HOC NEWS",
+    "published": "2026-09-19T16:50+00:00",
+    "score": 5,
+    "tags": [
+     "contract"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "271ee8a324ae890b",
     "title": "PLTR's 110% Commercial Revenue Surge Defines Its Q2 Growth",
@@ -406,7 +393,7 @@
     "id": "fc57272915b2895c",
     "title": "Alex Karp Backs AI-Lab Liability; Palantir’s Filing Shows the Risk Cuts Both Ways",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQLXhaNzFzOWU1TkFVZFVOdFljS2RBN2toZGNGakRoVTY3a2FYakRPS0xMMVV2eXNWekthdFZsTC1QdGsyWHE4a19UcER6U095a21TeDFQbVBWWlJ1R3ZYWjVqc1EzeHdoUHV4VU8wcDNBZWxJdG1UeUF3UGkzdFZLX01Kd1MyOUEtSFFYRFJ2dWtPekUyZDluWFppU1JtNnBBbkE?oc=5",
-    "source": "TechStock²",
+    "source": "ts2.tech",
     "published": "2026-09-18T00:13+00:00",
     "score": 5,
     "tags": [
@@ -485,19 +472,6 @@
     "primary": false
    },
    {
-    "id": "c55c6a2c8a903c1b",
-    "title": "Microsoft Stock Falls After More Publishers Join OpenAI Lawsuit",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdTlSa0RsN3hScDQzVUhJRFhwQWVzR090WlF3VWI5RnFKTUZlV0ZqYnpIREZvYmV4X04zMk9CUlBvTmRWdk1fZ2UxZmhKZ2IxSnFjUnhfd3ZaZmRhNkVHQ0ZQc3kwNnFNd3hqcndDZXg2V3hFQ2tQS1hBUktCX2NLT3NB?oc=5",
-    "source": "JournalArta",
-    "published": "2026-09-18T02:29+00:00",
-    "score": 5,
-    "tags": [
-     "legal"
-    ],
-    "direction": "negative",
-    "primary": false
-   },
-   {
     "id": "305c855e6a52d352",
     "title": "Microsoft (NASDAQ: MSFT) EVP gets 29,077-share award vesting over four years",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWHFBZVZ3S2ZlcHBfOW5RWUtkY1RfYVdSS0FqNmpRXzMtbEx2N0d1alJWSndiY2RvanJ1TlAxYU5qQjVPVGlmSmhWUjdURnFqNzE1M0g2WUprMTUxdHVYWERPQzhIeXBhSjR3NmlZVXF2cGZLVmY2UmpNTWZsVk9CVDhIUms2Q3NTY2JLcTljSXhCTmpFOGZGdDBjb0FQNk04SUdMZkZPcG05aFFv?oc=5",
@@ -523,6 +497,19 @@
      "earnings"
     ],
     "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "7e3215caab26a57a",
+    "title": "US federal judge rejects ad tech breakup, lifting Alphabet stock amid rebound",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSlYtWFhSNF9lNUxsY3YtV1BuaG9OZTlpQzlwRGk3RGZWTTJlbWZ5NGxveWo4Uk1EYl85LUFVMnJFdjF1clhzYTl4QkpaV2JCazU2VHdsXzhrSXdjV0ZxVnFpcnpKd2trTk5kRXRpLVNKN3Y5LWprZnlKN1Y5X0I3N2hKVThEeVpCSjJwQm9yMA?oc=5",
+    "source": "Traders Union",
+    "published": "2026-09-18T14:33+00:00",
+    "score": 5,
+    "tags": [
+     "legal"
+    ],
+    "direction": "negative",
     "primary": false
    },
    {
@@ -565,42 +552,16 @@
     "primary": false
    },
    {
-    "id": "9ba435aaf61c76f4",
-    "title": "Investment Outlook for Alphabet Stock",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9BTGZQdTIyaGVublN5cjgyQUZtMVo1NFVGUmR0dVVTU3hXZEVZNmVVdHJRcElfczNWcjFHRmdwVjlLWDF4cmEtUVRPRUlFWlRLYzEwRjBIbzctYVYtdXBBbFYtQW5IakpoaDBqdmhicGhadlNoNnhXV3FoNA?oc=5",
-    "source": "Intellectia AI",
-    "published": "2026-09-18T03:53+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "76b1f01c71dbb922",
-    "title": "Ashkenazi Anat Receives 82 Alphabet Shares, Total Holdings Reach 58,989 After September 2026 Award",
-    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTWtNQmhkV3FsQU5WbXdvZF9LdFlRWVNSNm9TYktUS2VBQzBrM3J6eWs0SXdvSlVPQlZJS3A0MVRGZWxyaTlZNnAzTTlUTFpzeUJ0OEFaQWJJbEtqbEhYU2xiX2NwWi1YT0t1SXowa0VZSWJBaDlsTVJzVFhCTFNGUmREb1lpaWdHaWg4Z3V2bWt3WVd1bDV0azRKZ2lfRUF0QTNSS3NBVFJaUDBDenhEVlpyd2lwZTNvVDc3VmV0QjI5a1V2eHJuT044eHVNTEllbEJMVzF3YXNwRms?oc=5",
-    "source": "Kalkine Media",
-    "published": "2026-09-17T18:10+00:00",
+    "id": "add888b69a3b9f3a",
+    "title": "Alphabet Stock Price Slips As Search Growth, AI Departures Weigh",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTV9wM2p5QmhCUjF6b2N1Z0N1dGttaHRHWmdaRGVqTmpRSzZvRHhXQzEwdjBEREtuT2tjUDNSS08tOUN0cV9QTmQwbjhWUGNwRWc1UHk2N2xGbHRmSm4xaVNvcmtaWjk3M0wtX1NYZEtPbnZtbmh5TFowM3dfNHJfeVBOZThDTGFxV0VlbWFHSGc?oc=5",
+    "source": "JournalArta",
+    "published": "2026-09-18T02:29+00:00",
     "score": 5,
     "tags": [
-     "contract"
+     "leadership"
     ],
     "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "3e435f566faec66d",
-    "title": "GOOGL Down 7% in the Past 3 Months: Buy, Sell or Hold the Stock?",
-    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPeWw1SEVCYUtsVnNZNmxiR0djcElmajFhb0dWVUZpZmdqSmhiMnE1WFlJZTgxS1JJQlFOc3lqVTNKblpuUl9RMVVYeDM1WkFiamFRb3NualpRd0t2ZmRYZ1hyclNQcE1WY1BvSHNBcTZsd0FYVHhPVGFIWFY5OTVGdlZ4azF3SUlvUGlWb25wd191Zm40ejM0dFNCTWNoY1lFeGZ5U1dIbU10ZEVUNm9ZRlhIWTJwdmRXb2tNRGE1SE5RWmdnclE4OXNKN3NuT3RWZWpoZHFKY1cyVzVYMVE?oc=5",
-    "source": "The Globe and Mail",
-    "published": "2026-09-17T17:05+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
     "primary": false
    }
   ],
@@ -645,19 +606,6 @@
     "primary": false
    },
    {
-    "id": "390d374a6338de63",
-    "title": "Robinhood CEO says ‘tokenization is coming to America’ after SEC ruling",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWG52TWt5NmhrbmE4NU9hWUlpNVM2SHpJOXdsd0lRLVF6NHhJWER4cVZvdmtDanNqV2p5dXlETEEwU0NvR0dYUU5Ldk0xRDY2VDJCQ1BrUENpVkJ4NVBGclJPUWxXdEtmbFBRaFFDT0U0NE1RQno2NlNLaDJLSkFOd0pvd3FZUFZZSGhQTl90bjBoS2F5akIyaTZtYm9teFR6VVhXY0lsZFB4RkNXYzYw?oc=5",
-    "source": "thestreet.com",
-    "published": "2026-09-18T15:45+00:00",
-    "score": 5,
-    "tags": [
-     "legal"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "ba3379a816361965",
     "title": "SEC Opens U.S. Door to Tokenized Stocks: Is Robinhood a Buy Now?",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaWszV1RrRDhRNHhMVU1rYVpSSnRxaUl3RzlxYTRPMXFoX2FyeHNPOXF0cVBodU9VYnJLNUVod3lZSmd1TlQteEFJWFBsRGtONXBIeG9MUXBneW44cTJoUHYyaG81N2RGbG5VblVnRkpxUmVQdEV6STZGTk9VSHRZRFRZcTRHR0hVYlljcVFnTnJNUDRjc0E?oc=5",
@@ -669,22 +617,22 @@
     ],
     "direction": "neutral",
     "primary": false
+   },
+   {
+    "id": "a98fd838fe038e0c",
+    "title": "'Tokenization Is Coming to America': Robinhood CEO Hails SEC's Historic Ruling",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0zdjU1aXBSS0sya05ERjNRcFg3VXlkY3FIdW5hQjB3cWc3T1RJVWgwWVEyb2QyQWZLSFZFMnh3ZTZmMVpSbTRqbXdoYTZobXdnaFJzZGd1YldCdw?oc=5",
+    "source": "Cryptonews.net",
+    "published": "2026-09-17T19:17+00:00",
+    "score": 5,
+    "tags": [
+     "legal"
+    ],
+    "direction": "neutral",
+    "primary": false
    }
   ],
   "NVDA": [
-   {
-    "id": "3ab03bf4309e9514",
-    "title": "Nvidia-Backed Nscale Files for IPO, Targets US$35 Billion Valuation After Revenue Surges 1,252%",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5McjhlQnNfWXBORnN3OElWMVI5WEZUWGctSkJlWGRsZUlual9DdkstVTBnYjFGMHVzVDVIUklMYW04WUVtSFE5YXktTHNjb0NZdFI4Ni1qSGkwMlNwLVhwdnQzV2tpV2FMZzNMdGhodFB1U012Y3c?oc=5",
-    "source": "Stocks Down Under",
-    "published": "2026-09-19T11:43+00:00",
-    "score": 9,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
    {
     "id": "a54bbb21981c4130",
     "title": "Nvidia stock gains as AI guidance and pricing outlook stay strong",
@@ -757,7 +705,7 @@
     "id": "5e68a484ede22b48",
     "title": "SK Hynix (SKHY) Stock Jumps 5% on U.S. Expansion News and Intel Partnership Discussions",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcXp4MGl0a29kaDVyQ3N1ZDB5LVdMUnB1amF4enFYRjJRWnBGc2lxOHY4WEhBbW5qUTZrYjRqbjdPX2NEcjVNd0hBUjZYMFpRUjFRR0dWSTd0ZzlaLTVtaHRDWDVHVkI5Y0tGS1VPQnFvWTBNTEJNMmZLWFBiMTJ1TmhOWFlsVzIyUkIwZmN1UEd4NVJnUnFfUk15T3ZkRm9oZk91VXF5S3VwZXM?oc=5",
-    "source": "Blockonomi",
+    "source": "blockonomi.com",
     "published": "2026-09-18T11:42+00:00",
     "score": 5,
     "tags": [
@@ -792,13 +740,15 @@
     ],
     "direction": "positive",
     "primary": false
-   },
+   }
+  ],
+  "NBIS": [
    {
-    "id": "b7f3a67f2490a73d",
-    "title": "Chip Stocks Power Wall Street Rebound as Intel Supply Warning Reignites AI Rally",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9MTlVwbHo0VEI4amc4dDZCYzhaekg1WFcxZlp2TTZVZ05vTTdDZzJFc1J3bGI0aWtQZFJONFdzRXpNWDJzbTlFaEFVVDV4b1M1U29ydEFxbUFwRG1nTDdsd2lNVWV6NjMwUHFqSW1ESmVrejc5WHc?oc=5",
-    "source": "finance.biggo.com",
-    "published": "2026-09-17T18:40+00:00",
+    "id": "fd36a51731ea388e",
+    "title": "Nebius Stock: October GPU Price Hikes Cement Pricing Power as Palantir Deal and Insider Sale Draw Sc",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOODBWYWZkSDZmWDVxRHJMUkhYMHh3VmhJOHhvWTJWNzFmSlN4NG50aXNRR01KdkI4VVVNWVVwZjExbks1b19INUdYMGt4Vll6UUo2R1pfRm5xTWNxeWp1QVdrUzVnSWJVWkJvSERGZ195dHNOanNRWDVRMWdHVlp3bG5XZ0ZOZldRVWpfcm0yRGxyRm1VSzlqaDVPd1dfNFh6SGtaNHl4U083XzdnS05pYWhhY2dPMXlYUUxYdGZEQjBSbm43N1BUYTZVQmhNc1BURE1ubTRwWGs?oc=5",
+    "source": "AD HOC NEWS",
+    "published": "2026-09-19T16:50+00:00",
     "score": 5,
     "tags": [
      "contract"
@@ -807,7 +757,6 @@
     "primary": false
    }
   ],
-  "NBIS": [],
   "MRVL": [
    {
     "id": "dfb5dcc4c56588c7",
@@ -823,37 +772,11 @@
     "primary": false
    },
    {
-    "id": "cdf29a1d6d0bfe7a",
-    "title": "MRVL Stock Climbs After AI Optical Capacity Deal, New Microsoft Security Platform Launch",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNT3V4ZVRoVWxjLVlIM2pucUJnQjhtUV81SG9ZYW52U2RuSC1SQTBJdEIyQjN6MGhYaG9CYUZUQngzd0VWSGFFYTkzWTgtUUhQSWliM0hMRGo3aWk4QlVRQS1TNmlmWGV1bmx2QW5XaERFS0JrdXFWMlBES24ydTl1Y2t4VExTb3FXWEo3SDZDTlk2RXdTeURTLW4yZTM2aDVVaTJWbWprUDFIUlZSQzZwOUNLcmF2RmZC?oc=5",
-    "source": "Menafn",
-    "published": "2026-09-19T08:07+00:00",
-    "score": 5,
-    "tags": [
-     "contract"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "331368646f9e96fc",
-    "title": "GlobalFoundries, Marvell expand chip capacity deal for AI data center connectivity By Reuters",
-    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNWlRPNTk2V2UyRk1SSk5lUHRFZ05OcTdjY3FGWVZ0TXN3bWh5Skk4Mnc2ZWlJdE5hVERaejhiZzdtSUxHTlZIVDNGQm1QeEhlNWVLRUtjYXJLcTZsOG0yanRETEtmdHRLejN6eE9KenA4Tl80VlVNUmlaRk1sc2JIRXhQWU9ub1dCcTlTZXFuMS12YkhmR2FNVWx0a3U2Z1Y5aF9DVzZ0ekZ3RXlYS0MxWHZQRVB4U1VuY1BFX2xXZVhGcEg5Vl9SUnNFbzk2bk1wSzR2Qw?oc=5",
-    "source": "Investing.com",
-    "published": "2026-09-18T01:18+00:00",
-    "score": 5,
-    "tags": [
-     "contract"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "c8e5e161843f0beb",
-    "title": "What Do Marvell Technology (MRVL) New Partnerships Mean For AI And Payments?",
-    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWDNGMWtYTmFYVmlNZFBKXzBoTHF4NGgyU0x6UkxQakNNUkxKdTdUbjlSZVlGdVE0NHJTRVBmdTIzZnRnc3RaemQta09EQzBxcGFpMno5NFVkSFB0Y1dUYWtac04zVTg0NjUwZnhaVTNCNHdFQWpaQlFhM212WVduMXZMM0RZSVBIZGhmM2l2MUdVNlp2eTh1Rjc3OXJwT2FzUXFuWjhYMmp4T0tkdkgzR0wybHBOOUJReURicFEtOGRsYzgzSmZ0dTduT2xuYjJ2RF96ZDZ0MmpjTGPSAeABQVVfeXFMTXRjclVhRUlmYWEwcFhxSDJMdnh4UGQtNEN2UEJZZVZDWUlhcG14R2lIanZ6MEJ2cWMwTjVHcUxQcVc4S1p1d0czbHNKVDNvSVUycHFOQnhyV1MwUEU5SHVWOVpYWkh3MkNuUldUbG9HeXRhd3AxdEx",
-    "source": "simplywall.st",
-    "published": "2026-09-17T18:42+00:00",
+    "id": "9fc2a95e7a3f0ab4",
+    "title": "Marvell Technology stock gains on AI capacity deal and payment security push",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObmk2WFRJMDgwVkkyc1BPdThsSU5UVTlnZFBaVW51X0JPSVVuQXdRQUtpOHNKNE9vU2ZVaGFMc3VWZGhVZnZ5WktXMVI5VmFtT1JvSGkzeTNlWVhHX2NYaTItTFNfZnZOaWgtQ0J2eS1vTnNuTGg4UUpwclZtLXUyTnhwVTIzWS1GNkhTREJSVlA1azJjVjBOajVhbVJqRTBONjJLYU1YTHpRZFJXbHcydDFVRHlPT0NGSmRXb2R6ZGZDUHdpNElyek0yQWEzRXM?oc=5",
+    "source": "AD HOC NEWS",
+    "published": "2026-09-18T11:23+00:00",
     "score": 5,
     "tags": [
      "contract"
@@ -862,16 +785,18 @@
     "primary": false
    },
    {
-    "id": "6a402ceab5797738",
-    "title": "Marvell Jumps 5.2% as AI Optics Win More U.S. Capacity",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNR2pNbE9jV1AxV2xKQzlvTUMyNFRpclF4MmFVZWNfZWI2Z3oyczhBVkg4M2NzSjhGeEVvcHdEZ0RVcDZzbGFkZHVtR1hNY2VSUm1nSTJURXZ4Ump4OWRIQllVT0Z6RGpfLTFuRmpoT3J2bHp5b3FFM1hYM2lUdTZuNWxFQ3AwRXpKaXlpWQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-17T18:07+00:00",
-    "score": 5,
+    "id": "d6423390d1a64f8c",
+    "title": "GlobalFoundries Rallies as Marvell Deal Expansion and Japan Fab Report Lift Sentiment",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYnZWbXdmVHVqbUZfalFtRXc4MDdpU2ZHc01ocXNQZkh3UThfNFZZRzQ3eUZRQmxnajlScFlVRU9jeDFsM2IwZ3RTVXFwSWlrc3FYMDhoVmZIUzhzQTNrSGhpQ3J2Rk9xRWZMQUZLQTdrb2Q1eG1sRGJFeUo3Ql9iV2hxNXhTeExLZ1JOelRTRDZkYTVmRnNWMGwya3RUX0pPRjg0dzVjd3FWSWRXNHJnYkxNc09nd3FSdFE?oc=5",
+    "source": "Quiver Quantitative",
+    "published": "2026-09-17T21:20+00:00",
+    "score": 16,
     "tags": [
-     "contract"
+     "earnings",
+     "contract",
+     "operations"
     ],
-    "direction": "positive",
+    "direction": "neutral",
     "primary": false
    }
   ],
@@ -955,5 +880,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 68
+ "count": 62
 }
