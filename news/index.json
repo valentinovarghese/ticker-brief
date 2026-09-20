@@ -1,6 +1,6 @@
 {
- "checked": "2026-09-19T23:14:56+00:00",
- "changed": "2026-09-19T23:14:56+00:00",
+ "checked": "2026-09-20T01:12:31+00:00",
+ "changed": "2026-09-20T01:12:31+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -99,7 +99,7 @@
     "id": "32da2eaa39e916ae",
     "title": "Apple Scores a Rare 'Buy the News' Moment",
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVHVQWGxkcDV1WUxrbXJ5VEtRSWdkNXlpdWlVSU1KdFpMdWZTa29xTFF5SWZwSEg1U2M3SXlLTGRIQVRSTWJuQmctcVY2TW5qeFZrZTlzVUY5SVl6Sk12VWxRY0xRX3RJUDZFN21aM0o2OG9iX0dCWHEteGd2UlNyYXZCNldDck1fNmFTWFEzdGI?oc=5",
-    "source": "chaikinanalytics.com",
+    "source": "Chaikin Analytics",
     "published": "2026-09-18T14:27+00:00",
     "score": 5,
     "tags": [
@@ -216,6 +216,19 @@
     "primary": false
    },
    {
+    "id": "dcf688aecdac9cdd",
+    "title": "What Amazon.com (AMZN)'s US$8 Billion Backup Power Deal With Generac Means For Shareholders",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNOGQ4Wmx5dHdJbXVJMlVyWHZ5anZ4dzVfaHpSa2V6S3ZvVVMtbUoxdnhFY1VBNG00blNvUU9FTVZFdTJNeWEyYno0U05EdGlPaFdBTlZMQ0lKSnVzUDNxLVhCRTZwYXliYXJzdnpCNFMzMTVfb0w1LXVvNGx4ZDc3ZHVZNHRCN2Rrai1taU1B?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-18T02:12+00:00",
+    "score": 8,
+    "tags": [
+     "contract"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "235f96ea4b481347",
     "title": "CPSC recalls 195,000 JKMAX heated blankets and pads sold on Amazon",
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNk94aFVjcmFrcTNoOTQzMDdodXlsOXo5M29IQTJGZ2EzQ1NwbXVObmN3QVpiMnhmcHR4ZVc1YTY2Y3ZJMzdRalFYMTFsNFNHOTNfNG1sN0lnMzl3bG45cnBPbDA2dlkwbnNPbVB2LVVJQ1g4Z1NTaFlWMGd5QXpONUxWQlROcUE?oc=5",
@@ -227,35 +240,9 @@
     ],
     "direction": "negative",
     "primary": false
-   },
-   {
-    "id": "3614e4f95dd8106a",
-    "title": "Amazon (NSDQ:AMZN) US$2.5B Prime Settlement Expands as Refunds Rise to US$200",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBZWUpWdE8zYUNRaXpRRzJzYzRkZTQxTU05Rks1emxrLVQzNmRhdHFlTXFPdEhyTzNUdUx4WGNoYTRQNURENDlNSXI4Q18tZk13MDhCckNtTkwtbFhMSzJhU1phVXN6aTBfODRWSjNnSWw?oc=5",
-    "source": "Stocks Down Under",
-    "published": "2026-09-18T00:21+00:00",
-    "score": 8,
-    "tags": [
-     "legal"
-    ],
-    "direction": "positive",
-    "primary": false
    }
   ],
   "TSLA": [
-   {
-    "id": "9f0b71315c287872",
-    "title": "Cathie Wood Never Sold Ark's Core Stake in Tesla Despite the Stock Trailing Every Other Magnificent Seven Name in 2026. Here's Why Her Multi-Year Conviction Hasn't Wavered.",
-    "link": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxQdmMwb0tBaUZJTEVEZHlfR1kxcFJsTG85OTI1UWxJZTl2djE3UWUza2R1anFBcXdVRGE4OVZjZDY2MTVYRkZHVWdJOGhqeVRHLVNTXzJjYWRLenhmOWtrSFQzQnFlamo2YXVSalNBRk0xUGtObTVfUTZRMXVEM2k0aWVKSVJudlNILVJoczRDNDZYXzJucW9PenROdDduajRQLVBRSEJXVnpubzhFWGZLZWNnRENuTVdqU3RwSVhoRnVCdXlrd3JoS3VWWUpqdUdqVl9VTGxKM193NExhOU0tV3NtY2xqRC1ObzhxZmhUYkU3eHpaVWx4NXhGcmZSV2FOY3RtZjZmNnBuY2ZPWjE4WE5SZTVnMVdvaU9sdUxOMTJnbWRHRnFLaE9uMnRhN0tuYTNQZkRuRG9RZmt0bjR4TnFEaUh3RkpSai1JaXBYNlppVnE4ZDN",
-    "source": "The Globe and Mail",
-    "published": "2026-09-19T21:45+00:00",
-    "score": 5,
-    "tags": [
-     "capital"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
    {
     "id": "b304909271169134",
     "title": "SpaceX-Tesla Merger: Ron Baron Told Elon Musk 'Whatever You Decide... Is What I'm Going to Support'",
@@ -265,6 +252,19 @@
     "score": 5,
     "tags": [
      "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "9f0b71315c287872",
+    "title": "Cathie Wood Never Sold Ark's Core Stake in Tesla Despite the Stock Trailing Every Other Magnificent Seven Name in 2026. Here's Why Her Multi-Year Conviction Hasn't Wavered.",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTEUxT2pZamhpdUxzNEl0UXZLMHJHSWNWdlFmRENfSEh2YjAxTF9rMzZQNXQ4LV9XYkVFRnNNWV9yaElFUE1RM3R5VmhVZWRzaFhzek5HNnFkWVVmdGtxSlpoZVNOXzJ1cEIxX1NxT2RDcGNhZTRJZ3JCWXh5UHY1S0R0UHA?oc=5",
+    "source": "Currently.com",
+    "published": "2026-09-19T21:25+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
     ],
     "direction": "neutral",
     "primary": false
@@ -403,6 +403,19 @@
     "primary": false
    },
    {
+    "id": "436cad9ac3965eb7",
+    "title": "Palantir Stock: Modeling a $5,000 Stake Through 2031",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BX044NjRDU2YwVi1aQ01pLWhsV2tLXzlubXBmWVd0ak9JbHd1bEprT2FhYzRvd3RjSFJDazE0QzNHR3JsSFRjRm00STJIQ21WaGI1MGo1ZFNONG4yUzE4aTBoN2pLRDRlejQzSVBZWUVKOVVIRHRXcVhUbl9WcTQ?oc=5",
+    "source": "kobaran.com",
+    "published": "2026-09-19T14:08+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "271ee8a324ae890b",
     "title": "PLTR's 110% Commercial Revenue Surge Defines Its Q2 Growth",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSmFqQW5GamQ1QXRfOE54QWMxM0U1RWNySERfWFBiUjlPVllmMG5OVGQ0MlFfM2pqVkJZQUFZQ2xXTllTSGtCVGl0X0FaSF9yS1FETUZ0QnZleGZLeGI4MFl0MGVWN1lpdGZ5R2p2dWY1UWJCVGktT0ZrSnBVY0hpa0N0TnNxd2wya1ZmWnNhV2JoUlY0YkswcGZpaDY2N3cw?oc=5",
@@ -442,33 +455,46 @@
     "primary": false
    },
    {
-    "id": "66d1374052817458",
-    "title": "Palantir Technologies (PLTR) AI Deal Rush Meets A Fair Value Debate",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdVRaQ05mTG1zNU9FYmFOLXJ3RkMxX1daRnMwaFNZdGFQeWc0OFpQaWJZWU41am54NmxwVTZFMk5OenMzc1J3U0lwa1BSbUN2TGEwVkRveHpNZER3LTdJQ3BkTjdWSHlSNVJSZVhaWlFTV2h6T3dpbUp3ajZyc1gwWjY5cU9hSURRUC0tZmRldy1VenJNeDhrTjBYVkdSSTdp?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-18T00:14+00:00",
-    "score": 5,
+    "id": "912513098ebb565b",
+    "title": "Palantir Technologies Insider Sold Shares Worth $2,762,292, According to a Recent SEC Filing",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPSXQwTUtIVURMWm4zdjhCaGZ1TDZvd3BudmdCSWlDUzNpbl9OMFN4YWRHTXRaak5HUEhzQ3YyYXl4Vl9OSTVZSWRxTzJWdmNmeFRTNFpLT3p6UmpTWDR1WmZzQW5QZy1kSGFldG5wMGI3WlVsZjhlV3pJTmF6UFlqNFBwWkJLNnh1YVFQSTlGVGNhc3d6d0pYZk9IMlNFaWxDWU5Ld2M4b1Rrbm0tVDZMcGJmN0tiT1pUVzZRZjA1ZDZ0aDI4VFlRNm9nNFM2cVJGdmZiZElPQjJGS0k?oc=5",
+    "source": "marketscreener.com",
+    "published": "2026-09-18T07:51+00:00",
+    "score": 9,
     "tags": [
-     "contract"
+     "filing"
+    ],
+    "direction": "neutral",
+    "primary": false
+   }
+  ],
+  "MSFT": [
+   {
+    "id": "c05f071ed18ce92c",
+    "title": "Microsoft reports $100 billion annualized Azure sales, reshapes segments",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSkZnQkxZaldIOU82VU1kSEtFd0twaXhDRFFDTFY0SnU3bXlnd28wSTFCa2lUVEhuX1k5ZHV2ZUxhX3pHajVjVmpIRVlYMjNWUWl6QjdKNnBobVJ2cUpmSmJ2NkdveXUtdUFyd0xtRktaWDdzNklKMEJtNmU1MGRHTXdUYXVBU05aM0U0NjhmMmh5dGplS0NPR1RhYTFZZ3Q3NG1SV2V0LWRRWXNmZjNTMlVtZ3BGaDNGclE?oc=5",
+    "source": "scanx.trade",
+    "published": "2026-09-19T14:53+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
     ],
     "direction": "neutral",
     "primary": false
    },
    {
-    "id": "fc57272915b2895c",
-    "title": "Alex Karp Backs AI-Lab Liability; Palantir’s Filing Shows the Risk Cuts Both Ways",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQLXhaNzFzOWU1TkFVZFVOdFljS2RBN2toZGNGakRoVTY3a2FYakRPS0xMMVV2eXNWekthdFZsTC1QdGsyWHE4a19UcER6U095a21TeDFQbVBWWlJ1R3ZYWjVqc1EzeHdoUHV4VU8wcDNBZWxJdG1UeUF3UGkzdFZLX01Kd1MyOUEtSFFYRFJ2dWtPekUyZDluWFppU1JtNnBBbkE?oc=5",
-    "source": "TechStock²",
-    "published": "2026-09-18T00:13+00:00",
-    "score": 5,
+    "id": "bf8cf5bcd3854a5f",
+    "title": "Microsoft (MSFT) Surged 8% After Earnings - Azure Hit 43%, Copilot 30M Seats, Capex Steady",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPaF9pM0tpSHRxU3cyUjR3cng0bElLN09DQlR0QmJLZkptZ3FSUDQwZG9BR3lCdGtyckdjenRQYjR3V2pFdFZsSjJ5aldIM1RiTXFDZjlzTy1XckdramlEZ0pSSmpNdG1jbktESU9JR25wVWQycHNWVnIxY183blRURzU2Q0l0SHlwcXRQNW9xdmcwRkJWWFlzeVBNVUpIcFYyVWVWQWxUc0lWTVpGVE5LejExUjJfcUVBT0NMel96ckpyWDVuSUdXX0FpLUlmekhRTi1YSUpB?oc=5",
+    "source": "TradingKey",
+    "published": "2026-09-19T12:21+00:00",
+    "score": 6,
     "tags": [
-     "operations"
+     "earnings"
     ],
-    "direction": "negative",
+    "direction": "positive",
     "primary": false
-   }
-  ],
-  "MSFT": [
+   },
    {
     "id": "bbd817404be15476",
     "title": "Microsoft Boosts Quarterly Dividend as Morgan Stanley Highlights Return Prospects",
@@ -548,9 +574,35 @@
     ],
     "direction": "neutral",
     "primary": false
+   },
+   {
+    "id": "c55c6a2c8a903c1b",
+    "title": "Microsoft Stock Falls After More Publishers Join OpenAI Lawsuit",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVDlUTDZ3VUdHQnBGTU5xMDI4RjNVX2I2LWdpYlMzdF9Fd2xJWlpLaExFYnZmTHhMS1VmZDN0Zms2OUxSUkQ2Znk5WFlLRFpXaVNlX0ktMlUwa0tHWkVzVFdTMUFDVHpmU1FoaHVLUmdsWnpsajVVa3NXWFVzQnBiN2Rla1hLUQ?oc=5",
+    "source": "JournalArta",
+    "published": "2026-09-18T07:06+00:00",
+    "score": 5,
+    "tags": [
+     "legal"
+    ],
+    "direction": "negative",
+    "primary": false
    }
   ],
   "GOOGL": [
+   {
+    "id": "bea47f60d4dbc34e",
+    "title": "Alphabet settles UK app store class action for £260 million",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTUY0YkFxLTRJZlNWYk1YcUtfS1p2ejdERWJJY1hXTmtYSldIZUxLejNHUWpiNFNQOGtHUVViMExRd19ybm9FRmRpVjkwSXRtbmpjRTd1Y2NJTEp4WEZNc1ltSU5lUFdUSkdnZHJmQ3I1bm9BOWw2ZkUxemxLZUpMWFdJNW42Z0hIc1ZNdUtiQXpsdGN2eEtQSnBqMncxdEJWTGc2S29wOE8zeF9xRWY5QQ?oc=5",
+    "source": "scanx.trade",
+    "published": "2026-09-19T14:27+00:00",
+    "score": 5,
+    "tags": [
+     "legal"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "5429a5e35d48c429",
     "title": "GOOGL’s Gemini Breached Three Real Companies During Cybersecurity Test, Says Report — Google Says AI Stopped Each Intrusion",
@@ -568,7 +620,7 @@
     "id": "7e3215caab26a57a",
     "title": "US federal judge rejects ad tech breakup, lifting Alphabet stock amid rebound",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSlYtWFhSNF9lNUxsY3YtV1BuaG9OZTlpQzlwRGk3RGZWTTJlbWZ5NGxveWo4Uk1EYl85LUFVMnJFdjF1clhzYTl4QkpaV2JCazU2VHdsXzhrSXdjV0ZxVnFpcnpKd2trTk5kRXRpLVNKN3Y5LWprZnlKN1Y5X0I3N2hKVThEeVpCSjJwQm9yMA?oc=5",
-    "source": "Traders Union",
+    "source": "tradersunion.com",
     "published": "2026-09-18T14:33+00:00",
     "score": 5,
     "tags": [
@@ -586,19 +638,6 @@
     "score": 5,
     "tags": [
      "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "bea47f60d4dbc34e",
-    "title": "Alphabet settles UK app store class action for £260 million",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTUY0YkFxLTRJZlNWYk1YcUtfS1p2ejdERWJJY1hXTmtYSldIZUxLejNHUWpiNFNQOGtHUVViMExRd19ybm9FRmRpVjkwSXRtbmpjRTd1Y2NJTEp4WEZNc1ltSU5lUFdUSkdnZHJmQ3I1bm9BOWw2ZkUxemxLZUpMWFdJNW42Z0hIc1ZNdUtiQXpsdGN2eEtQSnBqMncxdEJWTGc2S29wOE8zeF9xRWY5QQ?oc=5",
-    "source": "scanx.trade",
-    "published": "2026-09-18T09:27+00:00",
-    "score": 5,
-    "tags": [
-     "legal"
     ],
     "direction": "neutral",
     "primary": false
@@ -712,6 +751,19 @@
     "primary": false
    },
    {
+    "id": "3ab03bf4309e9514",
+    "title": "Nvidia-Backed Nscale Files for IPO, Targets US$35 Billion Valuation After Revenue Surges 1,252%",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5McjhlQnNfWXBORnN3OElWMVI5WEZUWGctSkJlWGRsZUlual9DdkstVTBnYjFGMHVzVDVIUklMYW04WUVtSFE5YXktTHNjb0NZdFI4Ni1qSGkwMlNwLVhwdnQzV2tpV2FMZzNMdGhodFB1U012Y3c?oc=5",
+    "source": "Stocks Down Under",
+    "published": "2026-09-19T11:48+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
     "id": "a54bbb21981c4130",
     "title": "Nvidia stock gains as AI guidance and pricing outlook stay strong",
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSUxtZjNlclJibWp4azBuNDhuSGwyaWtRUmw2QWRyVGhqLWpiZ0VCbUxpZHJxUzhHaEI3YnBjOHJrOENqRW1HazMxOEZYbmlIdWZrdVREcFFKMGlDLU1IUHpWRDdLcm8yV1NTUFNWMk93Y2NJX3RUeU1kM1B0ekx2azVId1dUTzFXSUV6T0J0YTQ4UU9JLUtHUk1KUlBVYVQ4bVVfSDY5LXI4MnVUQVBkTnluNHFsaUhyb3NtTmpBM01jT2hPRXpZ?oc=5",
@@ -755,9 +807,9 @@
    {
     "id": "73f030cef3d0d71d",
     "title": "Intel Can Supply Only About Half of What Its Customers Want. That's a Better Problem Than It Sounds.",
-    "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQUzZJNWl1Z0JfWF9DYldhNExyT0JFNWlFb1VtTUxac3otSjhyQmNMQ0RLNThtRmZjcjNVZE1GNFRaMnBNTFRpbGMxZG1TY0hDcW1MUHllRXRPS3BwX0tVMVdnMDlHN3oxQUphZHRDdDhheXZkT1hPUk9wREtFQS1pWmhTV0tlZkVaZmVTMXhLVzJxcGYxS09yeXRmU2ZfcUpCdW1weF9OWDV4QWw4Y1FEZmFTNnFUd21xTlN5YVpCSHgwR3BVWkVjT2lEZVhjcEJHVkJxNnd3NFp4Y0xFSGVKV2dhd1JzYXVFcV9WZ08zUnRVbjhlZUFrQmljdFJncmx5QmdPdFNTX01ybE1SV1Mw?oc=5",
-    "source": "The Globe and Mail",
-    "published": "2026-09-19T22:09+00:00",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNS21DcHIzT256cF9JZEVtd1ZyRnpiMk5CcGhWZ2ZteDE2ajdvampSdWxKeEx6aUFBYlAwa19NX0hFbU5XSmRJRTV6OGNsNFcwSmJwT0VzYVBRRG5LOGJLaGdodlozMjdadXgwSm0yQ2NsdEtDcktNNFBDUTFKNDBKRkR2V3VYX1g4cmZV?oc=5",
+    "source": "Currently.com",
+    "published": "2026-09-19T22:01+00:00",
     "score": 5,
     "tags": [
      "contract"
@@ -845,6 +897,19 @@
      "contract"
     ],
     "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "3572c1ee07753d5e",
+    "title": "CoreWeave and Nebius signal strong demand for AI chips with explosive revenue growth",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1RemtxbUV0ME03eXAtSEpnZDk5QmU0Zkt3WERmTzFmSlR4dHVsUlNZVFViSGxIVFdTbDhBQ0s0OVJJa1M3eWxUQlI1eUJRQmNrNm8yaHhmdlNxUGpRak5yXzdKQl92b0xDb0Uw?oc=5",
+    "source": "Crypto Briefing",
+    "published": "2026-09-18T17:08+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
     "primary": false
    }
   ],
@@ -969,5 +1034,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 69
+ "count": 74
 }
