@@ -1,0 +1,1022 @@
+{
+  "date": "2026-09-21",
+  "weekday": "Monday",
+  "headline": "Robinhood jumped 9.12% Friday; Intel rises early Monday as Marvell showcases optical technology.",
+  "gauge": [
+    {
+      "text": "Friday close: S&P 500 +0.2%, Nasdaq +0.4%, Dow -0.2%",
+      "tone": "flat"
+    },
+    {
+      "text": "Early Monday snapshot: fetched 04:59-05:00 ET",
+      "tone": "flat"
+    },
+    {
+      "text": "11 premarket observations; PLTR has Friday after-hours only",
+      "tone": "flat"
+    }
+  ],
+  "quick": [
+    "<b>Seven of the twelve rose Friday; five fell.</b>",
+    "<b>Robinhood +9.12%:</b> largest Friday gain of the twelve.",
+    "<b>Meta -2.43%:</b> largest Friday decline of the twelve.",
+    "<b>Monday indications:</b> Intel +5.43%, Robinhood +3.49%, Marvell +2.60%. Ten positive observations, Apple negative, and Palantir unavailable.",
+    "<b>Fresh Monday:</b> Marvell optical demonstrations. Earlier Intel talks and Nebius price changes keep their original dates."
+  ],
+  "macro": [
+    {
+      "dt": "18 September close",
+      "lead": "A mixed Friday finish",
+      "dd": "AP final closing report (https://apnews.com/article/da0dbe004b6f83c36e7d1626a9741a92) reported the S&P 500 at 7,650.50 (+0.2%), Nasdaq at 26,522.55 (+0.4%) and Dow at 51,682.64 (-0.2%)."
+    },
+    {
+      "dt": "18 September trading context",
+      "lead": "Expiration can distort volume comparisons",
+      "dd": "Reuters described semiconductor strength and quarterly derivatives expiration. Interpretation: unusually active trading need not represent a durable change in conviction. Reuters, 18 September (https://uk.marketscreener.com/news/wall-st-ends-mixed-as-oil-takes-a-pause-ce785adadc80f123)"
+    },
+    {
+      "dt": "21 September, early Asia/Europe hours",
+      "lead": "Trade talks and oil provide a different Monday backdrop",
+      "dd": "AP reported higher US futures after Sunday 20 September talks between Scott Bessent and He Lifeng. That is not evidence of a signed trade agreement. AP, 21 September (https://apnews.com/article/1f1a267bf4556c01513f506914eb6359) Reuters quoted Brent at $101.71, down 2.08%, at 02:13 GMT on 21 September amid hopes for diplomacy in the Iran war. This is a timestamped earlier observation, not a live quote. Reuters, 21 September (https://uk.marketscreener.com/news/oil-hits-over-1-week-low-on-hopes-of-boost-to-diplomacy-in-iran-war-ce785adad08df727)"
+    }
+  ],
+  "entries": [
+    {
+      "ticker": "HOOD",
+      "dir": "bullish",
+      "strength": "major",
+      "strength_label": "Major Friday move; Crypto-linked shares rally",
+      "move": "+9.12% Friday close; Monday premarket +3.49%; feed timestamp 2026-09-21 04:38 EDT",
+      "move_tone": "up",
+      "happened": "Reuters reported on 18 September that Robinhood, Coinbase and Strategy rallied as bitcoin rose. Robinhood closed Friday up 9.12%.",
+      "figures": [
+        "Friday close <b>$119.82</b>, <b>+9.12%</b>",
+        "Friday range <b>$111.06-$120.57</b>",
+        "Volume <b>39.22m</b>; feed average <b>24.54m</b>; <b>160%</b> of average",
+        "Monday premarket +3.49%; feed timestamp 2026-09-21 04:38 EDT",
+        "Close <b>22.12%</b> below the feed's 52-week high"
+      ],
+      "why": "Crypto trading activity can support transaction revenue, but a stock-price jump does not measure customer volumes or earnings. The 17 September tokenization announcement is earlier context, not a new Friday approval of a Robinhood product.",
+      "foot": [
+        {
+          "k": "Source and event date",
+          "v": "Reuters closing report, 18 September (https://uk.marketscreener.com/news/wall-st-ends-mixed-as-oil-takes-a-pause-ce785adadc80f123)"
+        },
+        {
+          "k": "Price timing",
+          "v": "Twelve Data regular session 18 September; extended observations timestamped individually. Early snapshot fetched 04:59-05:00 ET on 21 September."
+        }
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "dir": "neutral",
+      "strength": "minor",
+      "strength_label": "Minor Friday move; Early Monday rise; agreement still unverified",
+      "move": "-0.18% Friday close; Monday premarket +5.43%; feed timestamp 2026-09-21 04:54 EDT",
+      "move_tone": "down",
+      "happened": "Intel fell 0.18% on Friday 18 September. Earlier context remains the 16 September report of SK Hynix cooperation talks and its 17 September statement that nothing company-specific had been finalized.",
+      "figures": [
+        "Friday close <b>$108.60</b>, <b>-0.18%</b>",
+        "Friday range <b>$106.40-$110.49</b>",
+        "Volume <b>174.68m</b>; feed average <b>114.45m</b>; <b>153%</b> of average",
+        "Monday premarket +5.43%; feed timestamp 2026-09-21 04:54 EDT",
+        "Close <b>23.71%</b> below the feed's 52-week high"
+      ],
+      "why": "The early Monday quote shows a price increase, not proof of a signed agreement. The separate 18 September report about Solidigm considering a US NAND factory must not be relabeled as an Intel order.",
+      "foot": [
+        {
+          "k": "Source and event date",
+          "v": "Bloomberg, 17 September; discussions first reported 16 September (https://www.moneycontrol.com/news/business/sk-hynix-says-exploring-options-after-report-of-intel-tie-up-14031654.html)"
+        },
+        {
+          "k": "Price timing",
+          "v": "Twelve Data regular session 18 September; extended observations timestamped individually. Early snapshot fetched 04:59-05:00 ET on 21 September."
+        }
+      ]
+    },
+    {
+      "ticker": "MRVL",
+      "dir": "bullish",
+      "strength": "notable",
+      "strength_label": "Notable Friday move; Monday optical technology demonstrations",
+      "move": "+1.45% Friday close; Monday premarket +2.60%; feed timestamp 2026-09-21 04:59 EDT",
+      "move_tone": "up",
+      "happened": "Marvell announced its ECOC technology demonstrations on 21 September, including 2nm optical technologies for AI data-center connectivity. The program includes 400G-per-lane optical PAM4 and coherent optical technology demonstrations.",
+      "figures": [
+        "Friday close <b>$244.25</b>, <b>+1.45%</b>",
+        "Friday range <b>$235.96-$244.44</b>",
+        "Volume <b>23.55m</b>; feed average <b>19.19m</b>; <b>123%</b> of average",
+        "Monday premarket +2.60%; feed timestamp 2026-09-21 04:59 EDT",
+        "Close <b>25.96%</b> below the feed's 52-week high"
+      ],
+      "why": "This is a fresh Monday product-technology event. Demonstrations can help customer evaluation but are not purchase orders, shipments or revised revenue guidance. The 17 September GlobalFoundries capacity agreement is a separate, earlier development.",
+      "foot": [
+        {
+          "k": "Source and event date",
+          "v": "Marvell company announcement, 21 September (https://investor.marvell.com/news-events/press-releases/detail/1034/marvell-to-showcase-industry-first-2nm-optical-technology-demos-for-ai-data-center-infrastructure-at-ecoc-2026)"
+        },
+        {
+          "k": "Price timing",
+          "v": "Twelve Data regular session 18 September; extended observations timestamped individually. Early snapshot fetched 04:59-05:00 ET on 21 September."
+        }
+      ]
+    },
+    {
+      "ticker": "META",
+      "dir": "neutral",
+      "strength": "notable",
+      "strength_label": "Notable Friday move; Company responds on fraudulent advertising",
+      "move": "-2.43% Friday close; Monday premarket +2.44%; feed timestamp 2026-09-21 04:58 EDT",
+      "move_tone": "down",
+      "happened": "On 18 September Meta disputed a report about fraudulent advertisements in Poland and described its anti-scam controls. It said verification would be required of all financial-services advertisers targeting Poland.",
+      "figures": [
+        "Friday close <b>$665.75</b>, <b>-2.43%</b>",
+        "Friday range <b>$660.80-$690.15</b>",
+        "Volume <b>27.55m</b>; feed average <b>20.88m</b>; <b>132%</b> of average",
+        "Monday premarket +2.44%; feed timestamp 2026-09-21 04:58 EDT",
+        "Close <b>15.81%</b> below the feed's 52-week high"
+      ],
+      "why": "These are company statements, not independently established findings about the disputed report. Advertising integrity matters to trust and compliance costs, but this response supplies no quantified earnings revision and does not establish the cause of Friday's decline.",
+      "foot": [
+        {
+          "k": "Source and event date",
+          "v": "Meta company response, 18 September (https://about.fb.com/news/2026/09/prostujemy-fakty-o-walce-z-oszukanczymi-reklamami-w-polsce/)"
+        },
+        {
+          "k": "Price timing",
+          "v": "Twelve Data regular session 18 September; extended observations timestamped individually. Early snapshot fetched 04:59-05:00 ET on 21 September."
+        }
+      ]
+    },
+    {
+      "ticker": "NBIS",
+      "dir": "bullish",
+      "strength": "notable",
+      "strength_label": "Notable Friday move; September 17 pricing remains context",
+      "move": "+2.55% Friday close; Monday premarket +2.00%; feed timestamp 2026-09-21 04:05 EDT",
+      "move_tone": "up",
+      "happened": "Reuters reported on 17 September that Nebius will raise pay-as-you-go prices for selected Nvidia GPUs by 17%-21% from 1 October. Some CPU-only instances rise 25% and memory offerings about 41%; longer commitments can receive discounts.",
+      "figures": [
+        "Friday close <b>$223.54</b>, <b>+2.55%</b>",
+        "Friday range <b>$210.30-$224.65</b>",
+        "Volume <b>21.28m</b>; feed average <b>16.76m</b>; <b>127%</b> of average",
+        "Monday premarket +2.00%; feed timestamp 2026-09-21 04:05 EDT",
+        "Close <b>25.45%</b> below the feed's 52-week high"
+      ],
+      "why": "The 17 September pricing announcement is prior context for Friday trading, not a new Friday contract. Higher rental prices could improve revenue per chip if utilization holds, but discounts, hardware mix and costs affect realized margins.",
+      "foot": [
+        {
+          "k": "Source and event date",
+          "v": "Reuters, 17 September; effective 1 October (https://www.investing.com/news/stock-market-news/nebius-hikes-ai-cloud-prices-again-as-demand-for-computing-power-soars-4906125)"
+        },
+        {
+          "k": "Price timing",
+          "v": "Twelve Data regular session 18 September; extended observations timestamped individually. Early snapshot fetched 04:59-05:00 ET on 21 September."
+        }
+      ]
+    },
+    {
+      "ticker": "PLTR",
+      "dir": "neutral",
+      "strength": "minor",
+      "strength_label": "Minor Friday move; UK leadership appointment",
+      "move": "+0.79% Friday close; Friday after-hours +0.14%; Monday premarket unavailable; feed timestamp 2026-09-18 19:59 EDT",
+      "move_tone": "up",
+      "happened": "The Register reported on 18 September that former Labour deputy leader Tom Watson had joined Palantir as a UK senior vice president. The appointment comes amid scrutiny of its NHS data-platform work.",
+      "figures": [
+        "Friday close <b>$177.64</b>, <b>+0.79%</b>",
+        "Friday range <b>$172.00-$177.75</b>",
+        "Volume <b>39.23m</b>; feed average <b>25.40m</b>; <b>154%</b> of average",
+        "Friday after-hours +0.14%; Monday premarket unavailable; feed timestamp 2026-09-18 19:59 EDT",
+        "Close <b>14.40%</b> below the feed's 52-week high"
+      ],
+      "why": "The hire may help government relationships, but it is not a new contract award or evidence that the existing NHS contract has been cancelled. Friday evening trading must not be mistaken for Monday premarket.",
+      "foot": [
+        {
+          "k": "Source and event date",
+          "v": "The Register, 18 September (https://www.theregister.com/public-sector/2026/09/18/former-labour-deputy-tom-watson-joins-palantir-as-330m-nhs-deal-nears-break-point/5297426)"
+        },
+        {
+          "k": "Price timing",
+          "v": "Twelve Data regular session 18 September; extended observations timestamped individually. Early snapshot fetched 04:59-05:00 ET on 21 September."
+        }
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "dir": "neutral",
+      "strength": "minor",
+      "strength_label": "Minor Friday move; Industry trade-policy letter",
+      "move": "-0.53% Friday close; Monday premarket +1.39%; feed timestamp 2026-09-21 04:56 EDT",
+      "move_tone": "down",
+      "happened": "Reuters reported on 18 September that six auto-industry groups representing Tesla and other manufacturers urged President Trump to keep Chinese automakers out of the US market ahead of the expected meeting with Xi Jinping.",
+      "figures": [
+        "Friday close <b>$364.27</b>, <b>-0.53%</b>",
+        "Friday range <b>$360.75-$370.90</b>",
+        "Volume <b>51.82m</b>; feed average <b>39.42m</b>; <b>131%</b> of average",
+        "Monday premarket +1.39%; feed timestamp 2026-09-21 04:56 EDT",
+        "Close <b>26.98%</b> below the feed's 52-week high"
+      ],
+      "why": "This is a collective industry request, not a Tesla-only announcement or a new enacted restriction. Trade policy affects competition and supply chains, but the letter does not quantify Tesla demand or earnings.",
+      "foot": [
+        {
+          "k": "Source and event date",
+          "v": "Reuters, 18 September (https://ca.marketscreener.com/news/auto-industry-urges-trump-to-keep-chinese-automakers-out-ahead-of-xi-meeting-ce785adadd81f020)"
+        },
+        {
+          "k": "Price timing",
+          "v": "Twelve Data regular session 18 September; extended observations timestamped individually. Early snapshot fetched 04:59-05:00 ET on 21 September."
+        }
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "dir": "neutral",
+      "strength": "minor",
+      "strength_label": "Minor Friday move; New devices become available Friday",
+      "move": "-0.26% Friday close; Monday premarket -0.23%; feed timestamp 2026-09-21 04:29 EDT",
+      "move_tone": "down",
+      "happened": "Apple's store-arrival update says iPhone 18 Pro, Apple Watch Series 12, Apple Watch Ultra 4 and AirPods 5 became available on Friday 18 September. The page carries a 17 September update label, but explicitly dates the retail event to 18 September.",
+      "figures": [
+        "Friday close <b>$336.13</b>, <b>-0.26%</b>",
+        "Friday range <b>$332.53-$338.49</b>",
+        "Volume <b>86.43m</b>; feed average <b>49.16m</b>; <b>176%</b> of average",
+        "Monday premarket -0.23%; feed timestamp 2026-09-21 04:29 EDT",
+        "Close <b>2.45%</b> below the feed's 52-week high"
+      ],
+      "why": "Availability turns the launch into an actual sales opportunity, not proof of demand. Store photographs and marketing descriptions do not establish shipment volumes, a revenue beat or a change in margins.",
+      "foot": [
+        {
+          "k": "Source and event date",
+          "v": "Apple update labeled 17 September; retail event 18 September (https://images.apple.com/newsroom/2026/09/the-latest-iphone-apple-watch-and-airpods-lineups-arrive-in-stores-worldwide/)"
+        },
+        {
+          "k": "Price timing",
+          "v": "Twelve Data regular session 18 September; extended observations timestamped individually. Early snapshot fetched 04:59-05:00 ET on 21 September."
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "dir": "neutral",
+      "strength": "notable",
+      "strength_label": "Notable Friday move; Whole Foods pay coverage revisits September 10",
+      "move": "+1.00% Friday close; Monday premarket +0.90%; feed timestamp 2026-09-21 04:06 EDT",
+      "move_tone": "up",
+      "happened": "Amazon's Whole Foods pay-and-benefits announcement was published on 10 September, although fresh press coverage appeared on 18 September. The company plans more than $230 million of investment, with hourly pay changes from 28 September and expanded benefits from 1 January 2027.",
+      "figures": [
+        "Friday close <b>$253.71</b>, <b>+1.00%</b>",
+        "Friday range <b>$251.88-$255.43</b>",
+        "Volume <b>52.15m</b>; feed average <b>33.21m</b>; <b>157%</b> of average",
+        "Monday premarket +0.90%; feed timestamp 2026-09-21 04:06 EDT",
+        "Close <b>11.66%</b> below the feed's 52-week high"
+      ],
+      "why": "This is earlier news, not a new Friday spending commitment. Better compensation can support retention while adding costs; the announcement does not quantify the net operating-margin effect.",
+      "foot": [
+        {
+          "k": "Source and event date",
+          "v": "Amazon company announcement, 10 September; effective dates 28 September and 1 January 2027 (https://www.aboutamazon.com/news/workplace/whole-foods-market-pay-benefits-expansion)"
+        },
+        {
+          "k": "Price timing",
+          "v": "Twelve Data regular session 18 September; extended observations timestamped individually. Early snapshot fetched 04:59-05:00 ET on 21 September."
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "dir": "neutral",
+      "strength": "notable",
+      "strength_label": "Notable Friday move; Friday chip-sector strength",
+      "move": "+1.34% Friday close; Monday premarket +0.82%; feed timestamp 2026-09-21 04:45 EDT",
+      "move_tone": "up",
+      "happened": "Nvidia rose on Friday 18 September, when Reuters described semiconductor strength supporting the market. Its 16 September benchmark and data-center announcements remain earlier context.",
+      "figures": [
+        "Friday close <b>$222.27</b>, <b>+1.34%</b>",
+        "Friday range <b>$218.03-$222.73</b>",
+        "Volume <b>189.68m</b>; feed average <b>113.69m</b>; <b>167%</b> of average",
+        "Monday premarket +0.82%; feed timestamp 2026-09-21 04:45 EDT",
+        "Close <b>6.03%</b> below the feed's 52-week high"
+      ],
+      "why": "Sector performance provides context but does not identify a unique company-specific cause. No fresh quantified financial outlook was identified in the Nvidia newsroom reviewed for this edition.",
+      "foot": [
+        {
+          "k": "Source and event date",
+          "v": "Nvidia newsroom reviewed 21 September; earlier releases dated 16-17 September (https://nvidianews.nvidia.com/)"
+        },
+        {
+          "k": "Price timing",
+          "v": "Twelve Data regular session 18 September; extended observations timestamped individually. Early snapshot fetched 04:59-05:00 ET on 21 September."
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "dir": "bearish",
+      "strength": "minor",
+      "strength_label": "Minor Friday move; September 17 copyright report remains context",
+      "move": "-0.80% Friday close; Monday premarket +0.12%; feed timestamp 2026-09-21 04:50 EDT",
+      "move_tone": "down",
+      "happened": "Reuters reported after the close on 17 September that newly unredacted court filings contained executive comments publishers say undermine Microsoft and OpenAI's fair-use defense. Microsoft said the testimony was consistent with its defense and did not settle the copyright questions before the court.",
+      "figures": [
+        "Friday close <b>$493.78</b>, <b>-0.80%</b>",
+        "Friday range <b>$491.10-$498.65</b>",
+        "Volume <b>39.54m</b>; feed average <b>19.54m</b>; <b>202%</b> of average",
+        "Monday premarket +0.12%; feed timestamp 2026-09-21 04:50 EDT",
+        "Close <b>10.82%</b> below the feed's 52-week high"
+      ],
+      "why": "The report appeared after Thursday's close and was available for Friday trading. These are litigants' arguments, not an infringement judgment or damages award. The underlying filing was not read directly; the detail is attributed to Reuters.",
+      "foot": [
+        {
+          "k": "Source and event date",
+          "v": "Reuters, 17 September, 17:47 ET; filing made public Thursday (https://ca.investing.com/news/stock-market-news/openai-microsoft-executives-quotes-on-ai-training-threaten-copyright-defense-news-outlets-argue-4844240)"
+        },
+        {
+          "k": "Price timing",
+          "v": "Twelve Data regular session 18 September; extended observations timestamped individually. Early snapshot fetched 04:59-05:00 ET on 21 September."
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "dir": "neutral",
+      "strength": "minor",
+      "strength_label": "Minor Friday move; AI economics research team expands",
+      "move": "+0.64% Friday close; Monday premarket +1.23%; feed timestamp 2026-09-21 04:23 EDT",
+      "move_tone": "up",
+      "happened": "Google announced additions to its AI & Economy research program on 18 September, including academic advisers and new research leadership studying adoption, productivity and labor-market effects.",
+      "figures": [
+        "Friday close <b>$349.54</b>, <b>+0.64%</b>",
+        "Friday range <b>$348.45-$359.44</b>",
+        "Volume <b>47.53m</b>; feed average <b>27.11m</b>; <b>175%</b> of average",
+        "Monday premarket +1.23%; feed timestamp 2026-09-21 04:23 EDT",
+        "Close <b>14.46%</b> below the feed's 52-week high"
+      ],
+      "why": "This is a dated research investment, not new advertising or cloud revenue guidance. It should not be conflated with the separate ad-tech remedy details disclosed on 16 September.",
+      "foot": [
+        {
+          "k": "Source and event date",
+          "v": "Google company post, 18 September (https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/)"
+        },
+        {
+          "k": "Price timing",
+          "v": "Twelve Data regular session 18 September; extended observations timestamped individually. Early snapshot fetched 04:59-05:00 ET on 21 September."
+        }
+      ]
+    }
+  ],
+  "readthrough": {
+    "title": "Separate Friday performance from Monday headlines",
+    "body": "Robinhood led Friday's gains while Meta had the largest decline in this twelve-stock set. These rankings use the complete preserved daily snapshot.<br><br>Interpretation: crypto-sector activity, optical connectivity and trade-policy uncertainty are distinct themes. A technology demonstration is not an order, discussions are not a contract, and a company rebuttal is not an independent finding.<br><br>The early Monday feed is not the scheduled 07:00 ET snapshot. Palantir's Friday evening observation is explicitly separated from Monday premarket."
+  },
+  "nothing_material": {
+    "tickers": [
+      "NVDA",
+      "MSFT",
+      "NBIS",
+      "INTC"
+    ],
+    "note": {
+      "title": "Evidence and chart limits",
+      "body": "No fresh quantified Friday or Monday company financial announcement was verified for these names in the reviewed sources. Earlier developments are labeled by date, not recycled as new events.<br><br>All twelve daily chart series are current through 18 September. Some intraday intervals fell back to cached bars for AAPL, HOOD, INTC, META, MRVL, MSFT, NVDA, PLTR and TSLA. Those intraday charts may lag and must not be read as live prices."
+    }
+  },
+  "earnings_ahead": [
+    {
+      "when": "21 Sep",
+      "what": "<b>MRVL</b> ECOC optical technology demonstrations; not an earnings release."
+    },
+    {
+      "when": "28 Sep",
+      "what": "<b>AMZN</b> previously announced Whole Foods hourly pay changes take effect."
+    },
+    {
+      "when": "1 Oct",
+      "what": "<b>NBIS</b> previously reported selected cloud price increases take effect."
+    }
+  ],
+  "data": {
+    "session": "2026-09-18",
+    "source": "Twelve Data quote endpoint; regular-session fields for 2026-09-18 and timestamp-classified extended-session fields. Average volume and 52-week high are feed-provided values.",
+    "batches": [
+      {
+        "symbols": [
+          "AAPL",
+          "AMZN",
+          "TSLA",
+          "PLTR",
+          "MSFT",
+          "GOOGL",
+          "HOOD",
+          "NVDA"
+        ],
+        "received_at_utc": "2026-09-21T08:59:17.017293+00:00"
+      },
+      {
+        "symbols": [
+          "INTC",
+          "NBIS",
+          "MRVL",
+          "META"
+        ],
+        "received_at_utc": "2026-09-21T09:00:23.341276+00:00"
+      }
+    ],
+    "tickers": {
+      "AAPL": {
+        "close": 336.13,
+        "pct": -0.25815879,
+        "open": 337.91,
+        "high": 338.48999,
+        "low": 332.53,
+        "volume": 86433100,
+        "avg_volume": 49158440,
+        "high_52w": 344.57001,
+        "premarket_pct": -0.23205452,
+        "afterhours_pct": null,
+        "extended_price": 335.35,
+        "extended_timestamp_et": "2026-09-21 04:29 EDT"
+      },
+      "AMZN": {
+        "close": 253.71001,
+        "pct": 1.0032263,
+        "open": 252.92,
+        "high": 255.42999,
+        "low": 251.88,
+        "volume": 52148900,
+        "avg_volume": 33211670,
+        "high_52w": 287.20001,
+        "premarket_pct": 0.90260267,
+        "afterhours_pct": null,
+        "extended_price": 256.0,
+        "extended_timestamp_et": "2026-09-21 04:06 EDT"
+      },
+      "TSLA": {
+        "close": 364.26999,
+        "pct": -0.52704072,
+        "open": 369.0,
+        "high": 370.89999,
+        "low": 360.75,
+        "volume": 51819200,
+        "avg_volume": 39419710,
+        "high_52w": 498.82999,
+        "premarket_pct": 1.39457,
+        "afterhours_pct": null,
+        "extended_price": 369.35,
+        "extended_timestamp_et": "2026-09-21 04:56 EDT"
+      },
+      "PLTR": {
+        "close": 177.64,
+        "pct": 0.79436782,
+        "open": 177.17999,
+        "high": 177.75,
+        "low": 172.0,
+        "volume": 39228600,
+        "avg_volume": 25401960,
+        "high_52w": 207.52,
+        "premarket_pct": null,
+        "afterhours_pct": 0.13510505,
+        "extended_price": 177.88,
+        "extended_timestamp_et": "2026-09-18 19:59 EDT"
+      },
+      "MSFT": {
+        "close": 493.78,
+        "pct": -0.7975894,
+        "open": 497.97,
+        "high": 498.64999,
+        "low": 491.10001,
+        "volume": 39544100,
+        "avg_volume": 19536550,
+        "high_52w": 553.71997,
+        "premarket_pct": 0.12353705,
+        "afterhours_pct": null,
+        "extended_price": 494.39,
+        "extended_timestamp_et": "2026-09-21 04:50 EDT"
+      },
+      "GOOGL": {
+        "close": 349.54001,
+        "pct": 0.63628885,
+        "open": 357.31,
+        "high": 359.44,
+        "low": 348.45001,
+        "volume": 47526100,
+        "avg_volume": 27105000,
+        "high_52w": 408.60999,
+        "premarket_pct": 1.23305,
+        "afterhours_pct": null,
+        "extended_price": 353.85,
+        "extended_timestamp_et": "2026-09-21 04:23 EDT"
+      },
+      "HOOD": {
+        "close": 119.82,
+        "pct": 9.11575,
+        "open": 113.34,
+        "high": 120.57,
+        "low": 111.059998,
+        "volume": 39224600,
+        "avg_volume": 24538520,
+        "high_52w": 153.86,
+        "premarket_pct": 3.48857,
+        "afterhours_pct": null,
+        "extended_price": 124.0,
+        "extended_timestamp_et": "2026-09-21 04:38 EDT"
+      },
+      "NVDA": {
+        "close": 222.27,
+        "pct": 1.33583,
+        "open": 219.35001,
+        "high": 222.73,
+        "low": 218.029999,
+        "volume": 189683500,
+        "avg_volume": 113686690,
+        "high_52w": 236.53999,
+        "premarket_pct": 0.82332105,
+        "afterhours_pct": null,
+        "extended_price": 224.1,
+        "extended_timestamp_et": "2026-09-21 04:45 EDT"
+      },
+      "INTC": {
+        "close": 108.6,
+        "pct": -0.18382773,
+        "open": 109.8,
+        "high": 110.49,
+        "low": 106.4,
+        "volume": 174679000,
+        "avg_volume": 114448010,
+        "high_52w": 142.35001,
+        "premarket_pct": 5.43278,
+        "afterhours_pct": null,
+        "extended_price": 114.5,
+        "extended_timestamp_et": "2026-09-21 04:54 EDT"
+      },
+      "NBIS": {
+        "close": 223.53999,
+        "pct": 2.54598,
+        "open": 217.895,
+        "high": 224.64999,
+        "low": 210.3,
+        "volume": 21284200,
+        "avg_volume": 16757850,
+        "high_52w": 299.85999,
+        "premarket_pct": 1.99517,
+        "afterhours_pct": null,
+        "extended_price": 228.0,
+        "extended_timestamp_et": "2026-09-21 04:05 EDT"
+      },
+      "MRVL": {
+        "close": 244.25,
+        "pct": 1.44958,
+        "open": 242.059998,
+        "high": 244.44,
+        "low": 235.96001,
+        "volume": 23546400,
+        "avg_volume": 19192540,
+        "high_52w": 329.88,
+        "premarket_pct": 2.5957,
+        "afterhours_pct": null,
+        "extended_price": 250.59,
+        "extended_timestamp_et": "2026-09-21 04:59 EDT"
+      },
+      "META": {
+        "close": 665.75,
+        "pct": -2.42705,
+        "open": 688.62,
+        "high": 690.15002,
+        "low": 660.79999,
+        "volume": 27548000,
+        "avg_volume": 20876240,
+        "high_52w": 790.79999,
+        "premarket_pct": 2.44086,
+        "afterhours_pct": null,
+        "extended_price": 682.0,
+        "extended_timestamp_et": "2026-09-21 04:58 EDT"
+      }
+    },
+    "raw_quotes": {
+      "fetched_at_utc": "2026-09-21T08:59:14.433648+00:00",
+      "batches": [
+        {
+          "symbols": [
+            "AAPL",
+            "AMZN",
+            "TSLA",
+            "PLTR",
+            "MSFT",
+            "GOOGL",
+            "HOOD",
+            "NVDA"
+          ],
+          "received_at_utc": "2026-09-21T08:59:17.017293+00:00"
+        },
+        {
+          "symbols": [
+            "INTC",
+            "NBIS",
+            "MRVL",
+            "META"
+          ],
+          "received_at_utc": "2026-09-21T09:00:23.341276+00:00"
+        }
+      ],
+      "quotes": {
+        "AAPL": {
+          "symbol": "AAPL",
+          "name": "Apple Inc.",
+          "exchange": "NASDAQ",
+          "mic_code": "XNGS",
+          "currency": "USD",
+          "datetime": "2026-09-18",
+          "timestamp": 1789738200,
+          "last_quote_at": 1789761540,
+          "open": "337.91000",
+          "high": "338.48999",
+          "low": "332.53000",
+          "close": "336.13000",
+          "volume": "86433100",
+          "previous_close": "337",
+          "change": "-0.86999512",
+          "percent_change": "-0.25815879",
+          "average_volume": "49158440",
+          "is_market_open": false,
+          "fifty_two_week": {
+            "low": "236.64999",
+            "high": "344.57001",
+            "low_change": "99.48001",
+            "high_change": "-8.44000",
+            "low_change_percent": "42.036769",
+            "high_change_percent": "-2.44943",
+            "range": "236.649994 - 344.570007"
+          },
+          "extended_change": "-0.78000488",
+          "extended_percent_change": "-0.23205452",
+          "extended_price": "335.35",
+          "extended_timestamp": 1789979340
+        },
+        "AMZN": {
+          "symbol": "AMZN",
+          "name": "Amazon.com Inc.",
+          "exchange": "NASDAQ",
+          "mic_code": "XNGS",
+          "currency": "USD",
+          "datetime": "2026-09-18",
+          "timestamp": 1789738200,
+          "last_quote_at": 1789761540,
+          "open": "252.92000",
+          "high": "255.42999",
+          "low": "251.88000",
+          "close": "253.71001",
+          "volume": "52148900",
+          "previous_close": "251.19000",
+          "change": "2.52000",
+          "percent_change": "1.0032263",
+          "average_volume": "33211670",
+          "is_market_open": false,
+          "fifty_two_week": {
+            "low": "196",
+            "high": "287.20001",
+            "low_change": "57.71001",
+            "high_change": "-33.49001",
+            "low_change_percent": "29.44388",
+            "high_change_percent": "-11.66086",
+            "range": "196.000000 - 287.200012"
+          },
+          "extended_change": "2.28999",
+          "extended_percent_change": "0.90260267",
+          "extended_price": "256",
+          "extended_timestamp": 1789977960
+        },
+        "TSLA": {
+          "symbol": "TSLA",
+          "name": "Tesla, Inc.",
+          "exchange": "NASDAQ",
+          "mic_code": "XNGS",
+          "currency": "USD",
+          "datetime": "2026-09-18",
+          "timestamp": 1789738200,
+          "last_quote_at": 1789761540,
+          "open": "369",
+          "high": "370.89999",
+          "low": "360.75",
+          "close": "364.26999",
+          "volume": "51819200",
+          "previous_close": "366.20001",
+          "change": "-1.93002",
+          "percent_change": "-0.52704072",
+          "average_volume": "39419710",
+          "is_market_open": false,
+          "fifty_two_week": {
+            "low": "297.38000",
+            "high": "498.82999",
+            "low_change": "66.88998",
+            "high_change": "-134.56000",
+            "low_change_percent": "22.49310",
+            "high_change_percent": "-26.97512",
+            "range": "297.380005 - 498.829987"
+          },
+          "extended_change": "5.080011",
+          "extended_percent_change": "1.39457",
+          "extended_price": "369.35",
+          "extended_timestamp": 1789980960
+        },
+        "PLTR": {
+          "symbol": "PLTR",
+          "name": "Palantir Technologies Inc. Class A Common Stock",
+          "exchange": "NASDAQ",
+          "mic_code": "XNGS",
+          "currency": "USD",
+          "datetime": "2026-09-18",
+          "timestamp": 1789738200,
+          "last_quote_at": 1789761540,
+          "open": "177.17999",
+          "high": "177.75",
+          "low": "172",
+          "close": "177.64000",
+          "volume": "39228600",
+          "previous_close": "176.24001",
+          "change": "1.39999",
+          "percent_change": "0.79436782",
+          "average_volume": "25401960",
+          "is_market_open": false,
+          "fifty_two_week": {
+            "low": "106.37000",
+            "high": "207.52000",
+            "low_change": "71.27000",
+            "high_change": "-29.88000",
+            "low_change_percent": "67.0019694",
+            "high_change_percent": "-14.39861",
+            "range": "106.370003 - 207.520004"
+          },
+          "extended_change": "0.24000061",
+          "extended_percent_change": "0.13510505",
+          "extended_price": "177.88",
+          "extended_timestamp": 1789775940
+        },
+        "MSFT": {
+          "symbol": "MSFT",
+          "name": "Microsoft Corporation Common Stock",
+          "exchange": "NASDAQ",
+          "mic_code": "XNGS",
+          "currency": "USD",
+          "datetime": "2026-09-18",
+          "timestamp": 1789738200,
+          "last_quote_at": 1789761540,
+          "open": "497.97000",
+          "high": "498.64999",
+          "low": "491.10001",
+          "close": "493.78000",
+          "volume": "39544100",
+          "previous_close": "497.75",
+          "change": "-3.97000",
+          "percent_change": "-0.79758940",
+          "average_volume": "19536550",
+          "is_market_open": false,
+          "fifty_two_week": {
+            "low": "349.20001",
+            "high": "553.71997",
+            "low_change": "144.57999",
+            "high_change": "-59.93997",
+            "low_change_percent": "41.40320",
+            "high_change_percent": "-10.82496",
+            "range": "349.200012 - 553.719971"
+          },
+          "extended_change": "0.61000122",
+          "extended_percent_change": "0.12353705",
+          "extended_price": "494.39",
+          "extended_timestamp": 1789980600
+        },
+        "GOOGL": {
+          "symbol": "GOOGL",
+          "name": "Alphabet Inc. Class A Common Stock",
+          "exchange": "NASDAQ",
+          "mic_code": "XNGS",
+          "currency": "USD",
+          "datetime": "2026-09-18",
+          "timestamp": 1789738200,
+          "last_quote_at": 1789761540,
+          "open": "357.31000",
+          "high": "359.44000",
+          "low": "348.45001",
+          "close": "349.54001",
+          "volume": "47526100",
+          "previous_close": "347.32999",
+          "change": "2.21002",
+          "percent_change": "0.63628885",
+          "average_volume": "27105000",
+          "is_market_open": false,
+          "fifty_two_week": {
+            "low": "235.84000",
+            "high": "408.60999",
+            "low_change": "113.70001",
+            "high_change": "-59.069977",
+            "low_change_percent": "48.21066",
+            "high_change_percent": "-14.45632",
+            "range": "235.839996 - 408.609985"
+          },
+          "extended_change": "4.30999",
+          "extended_percent_change": "1.23305",
+          "extended_price": "353.85",
+          "extended_timestamp": 1789978980
+        },
+        "HOOD": {
+          "symbol": "HOOD",
+          "name": "Robinhood Markets Inc. Class A Common Stock",
+          "exchange": "NASDAQ",
+          "mic_code": "XNGS",
+          "currency": "USD",
+          "datetime": "2026-09-18",
+          "timestamp": 1789738200,
+          "last_quote_at": 1789761540,
+          "open": "113.34000",
+          "high": "120.57000",
+          "low": "111.059998",
+          "close": "119.82000",
+          "volume": "39224600",
+          "previous_close": "109.81000",
+          "change": "10.010002",
+          "percent_change": "9.11575",
+          "average_volume": "24538520",
+          "is_market_open": false,
+          "fifty_two_week": {
+            "low": "63.51500",
+            "high": "153.86000",
+            "low_change": "56.30500",
+            "high_change": "-34.040001",
+            "low_change_percent": "88.64835",
+            "high_change_percent": "-22.12401",
+            "range": "63.514999 - 153.860001"
+          },
+          "extended_change": "4.18000",
+          "extended_percent_change": "3.48857",
+          "extended_price": "124",
+          "extended_timestamp": 1789979880
+        },
+        "NVDA": {
+          "symbol": "NVDA",
+          "name": "NVIDIA Corporation",
+          "exchange": "NASDAQ",
+          "mic_code": "XNGS",
+          "currency": "USD",
+          "datetime": "2026-09-18",
+          "timestamp": 1789738200,
+          "last_quote_at": 1789761540,
+          "open": "219.35001",
+          "high": "222.73000",
+          "low": "218.029999",
+          "close": "222.27000",
+          "volume": "189683500",
+          "previous_close": "219.34000",
+          "change": "2.93001",
+          "percent_change": "1.33583",
+          "average_volume": "113686690",
+          "is_market_open": false,
+          "fifty_two_week": {
+            "low": "164.27000",
+            "high": "236.53999",
+            "low_change": "58.00000",
+            "high_change": "-14.26999",
+            "low_change_percent": "35.30772",
+            "high_change_percent": "-6.032802",
+            "range": "164.270004 - 236.539993"
+          },
+          "extended_change": "1.83000",
+          "extended_percent_change": "0.82332105",
+          "extended_price": "224.1",
+          "extended_timestamp": 1789980300
+        },
+        "INTC": {
+          "symbol": "INTC",
+          "name": "Intel Corporation",
+          "exchange": "NASDAQ",
+          "mic_code": "XNGS",
+          "currency": "USD",
+          "datetime": "2026-09-18",
+          "timestamp": 1789738200,
+          "last_quote_at": 1789761540,
+          "open": "109.80000",
+          "high": "110.49000",
+          "low": "106.40000",
+          "close": "108.60000",
+          "volume": "174679000",
+          "previous_close": "108.80000",
+          "change": "-0.20000458",
+          "percent_change": "-0.18382773",
+          "average_volume": "114448010",
+          "is_market_open": false,
+          "fifty_two_week": {
+            "low": "28.73000",
+            "high": "142.35001",
+            "low_change": "79.87000",
+            "high_change": "-33.75001",
+            "low_change_percent": "278.0020891",
+            "high_change_percent": "-23.70917",
+            "range": "28.730000 - 142.350006"
+          },
+          "extended_change": "5.90000",
+          "extended_percent_change": "5.43278",
+          "extended_price": "114.5",
+          "extended_timestamp": 1789980840
+        },
+        "NBIS": {
+          "symbol": "NBIS",
+          "name": "Nebius Group N.V. Class A Ordinary Shares",
+          "exchange": "NASDAQ",
+          "mic_code": "XNGS",
+          "currency": "USD",
+          "datetime": "2026-09-18",
+          "timestamp": 1789738200,
+          "last_quote_at": 1789761540,
+          "open": "217.89500",
+          "high": "224.64999",
+          "low": "210.30000",
+          "close": "223.53999",
+          "volume": "21284200",
+          "previous_close": "217.99001",
+          "change": "5.54999",
+          "percent_change": "2.54598",
+          "average_volume": "16757850",
+          "is_market_open": false,
+          "fifty_two_week": {
+            "low": "73.52000",
+            "high": "299.85999",
+            "low_change": "150.019997",
+            "high_change": "-76.31999",
+            "low_change_percent": "204.053324",
+            "high_change_percent": "-25.45188",
+            "range": "73.519997 - 299.859985"
+          },
+          "extended_change": "4.46001",
+          "extended_percent_change": "1.99517",
+          "extended_price": "228",
+          "extended_timestamp": 1789977900
+        },
+        "MRVL": {
+          "symbol": "MRVL",
+          "name": "Marvell Technology Inc.",
+          "exchange": "NASDAQ",
+          "mic_code": "XNGS",
+          "currency": "USD",
+          "datetime": "2026-09-18",
+          "timestamp": 1789738200,
+          "last_quote_at": 1789761540,
+          "open": "242.059998",
+          "high": "244.44000",
+          "low": "235.96001",
+          "close": "244.25",
+          "volume": "23546400",
+          "previous_close": "240.75999",
+          "change": "3.49001",
+          "percent_change": "1.44958",
+          "average_volume": "19192540",
+          "is_market_open": false,
+          "fifty_two_week": {
+            "low": "70.69000",
+            "high": "329.88000",
+            "low_change": "173.56000",
+            "high_change": "-85.63000",
+            "low_change_percent": "245.52269",
+            "high_change_percent": "-25.95793",
+            "range": "70.690002 - 329.880005"
+          },
+          "extended_change": "6.34000",
+          "extended_percent_change": "2.59570",
+          "extended_price": "250.59",
+          "extended_timestamp": 1789981140
+        },
+        "META": {
+          "symbol": "META",
+          "name": "Meta Platforms Inc. Class A Common Stock",
+          "exchange": "NASDAQ",
+          "mic_code": "XNGS",
+          "currency": "USD",
+          "datetime": "2026-09-18",
+          "timestamp": 1789738200,
+          "last_quote_at": 1789761540,
+          "open": "688.62000",
+          "high": "690.15002",
+          "low": "660.79999",
+          "close": "665.75",
+          "volume": "27548000",
+          "previous_close": "682.31000",
+          "change": "-16.56000",
+          "percent_change": "-2.42705",
+          "average_volume": "20876240",
+          "is_market_open": false,
+          "fifty_two_week": {
+            "low": "520.26001",
+            "high": "790.79999",
+            "low_change": "145.48999",
+            "high_change": "-125.049988",
+            "low_change_percent": "27.96486",
+            "high_change_percent": "-15.81310",
+            "range": "520.260010 - 790.799988"
+          },
+          "extended_change": "16.25",
+          "extended_percent_change": "2.44086",
+          "extended_price": "682",
+          "extended_timestamp": 1789981080
+        }
+      }
+    }
+  }
+}
