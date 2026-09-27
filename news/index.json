@@ -1,22 +1,9 @@
 {
- "checked": "2026-09-27T19:13:33+00:00",
- "changed": "2026-09-27T19:13:33+00:00",
+ "checked": "2026-09-27T22:12:43+00:00",
+ "changed": "2026-09-27T22:12:43+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
-   {
-    "id": "6077a3336cdafb22",
-    "title": "Jefferies downgrades Apple to Underperform on supply chain risks",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeFhTUTg4QUpna1hrd0RqYnU2UHhaSEpqYXAtWFp0Mmo5bDl2YnJlaGtLNFRJUDJNaUlZX0tzczVjNjN4VU5SbklZbGJVeEdudWhqU2VJMUFFV2lqeDY3N3o3VENUNWRDbnk2TXpsS2ozd3BvQ3RkUlF6dG5hMlJyLUxRd0FHTjllaXJqUDhUREx6VV80QUNRbnVkR3ZkUERId1FrT1NENGhQTFlSSUhoVHNTT3BZcE9qemc?oc=5",
-    "source": "scanx.trade",
-    "published": "2026-09-27T10:49+00:00",
-    "score": 5,
-    "tags": [
-     "contract"
-    ],
-    "direction": "negative",
-    "primary": false
-   },
    {
     "id": "a1ec1fd9e6ce6839",
     "title": "Amazon is blowing out Apple Watch Ultra 3 Milanese Loop supply at $200 off",
@@ -55,33 +42,46 @@
     ],
     "direction": "positive",
     "primary": false
-   },
-   {
-    "id": "87b86f8dd66851bb",
-    "title": "AAPL Stock Quote Price and Forecast",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE00U3JoRzhkckt5aVFxb1NVNnBndWhrcDM5N0NqUzZGUk8xQk04OF9jVWRULXh2RmlJaGpTS1FJWEREaUlNUnhfSHk2cm53NllX?oc=5",
-    "source": "CNN",
-    "published": "2026-09-25T20:18+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "AMZN": [
+   {
+    "id": "9b0b0072f9b4cae5",
+    "title": "I'd Buy Amazon Stock While It Sits 12% Below Its Record",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRFB2VVlIeENQTHcycjY0cVA5SGYtTHNyYXRaZ0NmcFU3SkhtV3VTM3Z5enEwWlIyalZmaUpPN21YZXZaN3hWTXA3ODB2MGdvbllMYVhVQVUtaFZfRVlaM2FFVThfSE1BdUdVZmh2ZXBpOW5zSVRBcUstbDIxRUFyOU1sdzM1NWMtSm5ld2VXcVE5M2Ju?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-27T21:34+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
    {
     "id": "ade5ad2bebdc5f3c",
     "title": "The Pokémon 30th Celebration Elite Trainer Box is way below market price — buy for $89.99 on Amazon",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV3M1WnF2YUtYRWRNc3MyZnBWcVBaRmt5ZlFmZHEtNmJzUFlIUFFFbEx6UTRscGJTMUdNalgxYlBwZk5tVEd2ZExqZWFfQ05tNVM1OFRELU5lNlJVdTNDOENKYzRIMjA2NnRhbnBzbzJ3STJQaDhsQVdYV2hBWHBCS241bnRCVGJsOTN3ek5B?oc=5",
     "source": "Mashable",
-    "published": "2026-09-27T16:31+00:00",
+    "published": "2026-09-27T19:31+00:00",
     "score": 8,
     "tags": [
      "ma"
     ],
     "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "4bdcaa019bc06b47",
+    "title": "【US Pre-Market】Three Major Index Futures Rise as Oil Falls Below $80; Amazon, Alphabet Gain as Market Focuses on PLTR Earnings",
+    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQTmhlZGhVbnBTaWRBWjlkcThIdGVMNzNacUZTa2hsZG9QMEQzYWk2V3VMSXhRN3NEMnh6MExNeGN6bzlHd1ZtRWROQUc1ZzV1X0dfV29RZkEzc1cyV051ZDNkQ0N4ZkcyUUJOcll3Sm9hdTc3TXNxaWZ2R2dyUEJJbWV1dW5OaDVWU0g5NXBzZEZLUUZJX1F2YXZGWW5pT1JWWkd6Wk41UmgyNWwtc1ctcFFnT245VWhsZFJmQjAtUnVVM2lYUlVWd0d4TU16YUIyXzMtMXFrN205Ym5LWnoyU0R2WXEtaDNRZG9CUFZrY2V1VDZCQ05tQw?oc=5",
+    "source": "TradingKey",
+    "published": "2026-09-27T13:19+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "negative",
     "primary": false
    },
    {
@@ -124,6 +124,19 @@
     "primary": false
    },
    {
+    "id": "6f7202e75882f1aa",
+    "title": "Kuehne+Nagel Scores 7-Year Amazon Deal",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONmZvci1KUDFKTm9xWFU3RW9OWXF2bHlXc184cTVIM3JuMEV5LXB5UTdBSEdabkIzbGpibWR6ZEpXN1c0THpzeENNRE1OWHJRUnE5SlVtUkJmeUpDMGI2cmdydHIxNzlLSExQT2lfRWpFd1JTUVpSUF85OVE5dExnanZhMDlyVkltOHhOd3lrMHg?oc=5",
+    "source": "Briefs Finance",
+    "published": "2026-09-26T11:25+00:00",
+    "score": 5,
+    "tags": [
+     "contract"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "17bdc00fdbb77160",
     "title": "Amazon Has No Dividend. Here's Why Long-Term Investors Should Own It Anyway.",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMWk4OUVqV000WmhFYlhYR1piR0ZTVUNRbGpBelhZWVZoSUpxTG40Z1BEVHJTWTRMZjEzQkRxUkhLeWNVMkxyTkZ2ZkJTd3JjMUFtQldCbjZxSGtfSDN1SUFIWFRvcU42ZzdiMWhVMVJwS1dNZ3dLcXY4NGNNVFBBNDRBRGhxYVp6THRxNmJ5ZmlCMzFXMFBYdQ?oc=5",
@@ -143,7 +156,7 @@
     "title": "Dow Jones Futures Due Amid Trump Iran Comments; Micron, SpaceX, Tesla Eye Buy Points",
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQ0huZkZtNEszTkRUY1NtZDBtZGR4NDdNbXpHSzg5UHdCMVNJS3NQTnQ4RGdvd1oxeGtwdGNNQng1cjJ1OUc2b2FZT2t3MldWd1hXV0tOMDB3NjJfeS1IRUtoNFF2NkpvTWdCbjRIRVB3NmVfVGtxbDNBYnNmMVhNb2pfN3RHby1walpzclpqODFKOF8tSThIRUNhYlduYXRpLVdLWllCN0w3ZG9GWEpiamJqYXAzVlAwX0c5RVJWWWRPbElldkdja0JR?oc=5",
     "source": "Investor's Business Daily",
-    "published": "2026-09-27T18:41+00:00",
+    "published": "2026-09-27T21:58+00:00",
     "score": 5,
     "tags": [
      "ma"
@@ -175,19 +188,6 @@
      "earnings"
     ],
     "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "7d598c5d6727a4a8",
-    "title": "Is Tesla a Buy in 2026? Why AI and Robotaxis Now Define TSLA’s $1.5T Valuation",
-    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQSGlRZERfNUN5bFVLYWVyZTlqdXpMc0o5QXhuTm4zQlI0UDBTU3NoVjVaTnhUeTZ1U2RDM0dxdWVQQ2VlMk9XdjE4UXhUTFR2LWgzTG45Z0RlcEY0MnEwZkhmSjREMjJJNEhQTW00SmxsMFpzZ2hFLVcwcUljcUhXNFA4aUJzR0NZVTl4V3VWMWF3NGZnZlkyTWpaWXZkaHVlNDFodWg4TFk5bEJCLUhVb3lLMXNhbzUzYlV0bkc3cWhVX0RQUzFjRVltSFJCSWxjVkNfYnJlYzFacUxxNW1NcUpR?oc=5",
-    "source": "TradingKey",
-    "published": "2026-09-26T21:50+00:00",
-    "score": 8,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
     "primary": false
    },
    {
@@ -227,6 +227,45 @@
      "earnings"
     ],
     "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "3958a4b76f92c669",
+    "title": "Tesla ramps Optimus production 10-fold but robot hands are holding Elon back",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE83bU95ZHVqQWNISF9rZkFsb2hYdmEtamNOeXJFRU9NSEpJMWlQN1REeE9nODgzeXR5QlFneEtvQkZVVEx3TlprZjUtMF9taF9Rd2dJTU9sOTUwQTVoNllNZWxCSVpseEhueEQycW9GbjRvZVptcFdjYW10RzQ1cXc?oc=5",
+    "source": "CryptoRank",
+    "published": "2026-09-26T07:33+00:00",
+    "score": 5,
+    "tags": [
+     "operations"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "f8f77f8c88ed0a49",
+    "title": "Tesla (TSLA) Sets an October 1 Roadster Unveiling. Can the Long-Delayed Car Restore Confidence?",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNFlQd1pHWE1XWUREbktlenBQd2k1Q0pkM2xXZ0tGUDZkVnA4RFdvNlVyWUc5RzFuMjZVcm1fVHJEVThlbjNqTTROcDRLM3VKZG0tMThRaktTX0JScnRJOTI5UENnR3l1OHE5bVByYXZqaXEtVXFsUnFHRndCa2VkLWxHRl81UEVMWWFuT2tZaUpOWFEt?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-26T03:18+00:00",
+    "score": 5,
+    "tags": [
+     "operations"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "bc55e410180179fb",
+    "title": "Tesla Opens New Semi Plant, Production Accelerates",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVERPbHdmT1Q1Vk9VVjZSSGkxc1o1bDZLbnlqU204R05LQ0Jtc2djMXl6Um1pcmxBNk9UUEc5Z0hKWUh4b0lnVTY5M3lWa0FtQUdpZFlwckhtcUdqcy1wNVBVRGhvVTRJdmNkSldCcUxFMmJoWThLemVRdXNXZU12ajdOMHZTRHFLVVFr?oc=5",
+    "source": "Intellectia AI",
+    "published": "2026-09-26T00:01+00:00",
+    "score": 5,
+    "tags": [
+     "operations"
+    ],
+    "direction": "positive",
     "primary": false
    }
   ],
@@ -325,6 +364,19 @@
   ],
   "MSFT": [
    {
+    "id": "98e8aaa7329667ce",
+    "title": "Super Micro Computer Q4 Results: Stock surges 8% on Microsoft AI capex",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVHd2WmdxS19oSm1CNkl0S2dqLUM2RXpyREllNVUyckNQYWJkUVdBVFZwaXpoWlhxeTdDajAyZVNTZzFvVmdlekEwU2ZHdUxwNy1fOWNvRWpJQTd1VEw5LVNnWDlnSnZ6ZHlyUGVmMjN6R0RicFo4d09VekVhQnRXbzc2d0FfVmUySEU1MUpSUGtCd3d0TjltMzhGX1ZIcHJJZ1VKTGZUOVJ4cHR5cmdZbW00dEpEb3hPRkRVZXJONjdOV2M?oc=5",
+    "source": "scanx.trade",
+    "published": "2026-09-27T05:24+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
     "id": "bf8cf5bcd3854a5f",
     "title": "Microsoft (MSFT) Surged 8% After Earnings - Azure Hit 43%, Copilot 30M Seats, Capex Steady",
     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPaF9pM0tpSHRxU3cyUjR3cng0bElLN09DQlR0QmJLZkptZ3FSUDQwZG9BR3lCdGtyckdjenRQYjR3V2pFdFZsSjJ5aldIM1RiTXFDZjlzTy1XckdramlEZ0pSSmpNdG1jbktESU9JR25wVWQycHNWVnIxY183blRURzU2Q0l0SHlwcXRQNW9xdmcwRkJWWFlzeVBNVUpIcFYyVWVWQWxUc0lWTVpGVE5LejExUjJfcUVBT0NMel96ckpyWDVuSUdXX0FpLUlmekhRTi1YSUpB?oc=5",
@@ -404,46 +456,33 @@
     "primary": false
    },
    {
-    "id": "b54c85ef05bfd61c",
-    "title": "Form 4 Microsoft Corporation For: 25 September",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSk80SUVvMVFhcTlVM3BHTXdMZXluUUY2b3Y4d3FxVWFBOWc4T21EbmJGaWpqbWRDclRBWklPQnk4ellRRktjTnRFcWtqcU9JUW5hYk1aSng1SGdWNVZLcmM2REZTTEFsUzN5Ri1HX1hHa0loZ1NoRWFsUkw1TVpIQkVBUHA1UGdvNzktRjBsN1RIUk1tM09DZi1iX2daVUNWdnU3dGdmVUkyUQ?oc=5",
-    "source": "Investing.com India",
-    "published": "2026-09-25T21:35+00:00",
-    "score": 6,
-    "tags": [
-     "filing"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "e24583c652dffb76",
-    "title": "Wall Street ends higher as investors buy AI stocks; Microsoft rallies",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNXhyLVFMLVBMbElKaXptNXd0Wlp3U1dEYmg0NDNfZG9IRUQ3amQ0dnc0OUUwTFdZbGQzUk9sdUxncjN3UlBIcjJZRzQ1UHlfWFNlQWhJX0s0REx6WExGdTljYk5vSTlTcEJrSXU1X2NvUnROWVlTY2dBNHNFazdTbkFBZ25CRjhZZzRFeFZiZWF5RFFwV1hRT3FPXzNGbEFJQzBPYXJPWDJYcWpZOVZzOUYwY2FXWG4xNmdKaXpR?oc=5",
-    "source": "marketscreener.com",
-    "published": "2026-09-25T20:01+00:00",
+    "id": "af4c7714750d02d0",
+    "title": "US stocks: Wall Street ends higher as investors buy AI stocks; Microsoft rallies",
+    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNaXhSVEw3ODJhUWpnS2xndWdnc0tNd3QtOGJDMm40NDJqNHNCOUx2UGttTGMzWnpkYnpkNllwcXNNeTl5TC1CVi1JVW1uOFNZYXpVRUFsM29sU3V0QV9vd3N2QzdFcmptRnR5YW5SMElQWHgtWUhhWlBFSlpGa0hCQ3JfQU55WWNENm5xbzZDZENHUGF2LXFvckdiMndad0w0Vko4WFRIbjN3Z0FzMkI0Mlo0WHlZQ0trRGtodDRodmU3bFlBazF6MjcxZGlsdDUyNjJxYWRsWWpGYVBJd1I5aTA2SDZGdXdy?oc=5",
+    "source": "The Business Times",
+    "published": "2026-09-25T23:35+00:00",
     "score": 5,
     "tags": [
      "ma"
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "1223704e24509abe",
-    "title": "Microsoft Just Raised Its Dividend by 8%: Is It the Best Magnificent Seven Dividend to Own?",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPU2piS21YME82Q180MmxhZkVrQnBBaFJOVUVHSkNhQzZrUW42amx5QWt6WTMxc1JGRTVaT0Z0RFFmUnJiM3N5bko2YlEwbTY3V3AwT3hCMFk2RS01U0ZTS0p0Q0l0WTR1UkxsUjhIMmM0bVAybkVLLUtwRFEzWE5Pdw?oc=5",
-    "source": "AOL.ca",
-    "published": "2026-09-25T19:50+00:00",
-    "score": 5,
-    "tags": [
-     "capital"
-    ],
-    "direction": "positive",
-    "primary": false
    }
   ],
   "GOOGL": [
+   {
+    "id": "bfddad15de19511a",
+    "title": "Is Gemini 4 the Catalyst Alphabet (GOOGL) Needs to Win the AI Race?",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOblYxVnBfSGlfTFdJWkZKWTlROGZsMXkyODgwRTlQOVN5TThhcjlwZ2Y4YnBnVTRwTjZxZUpZcVAtNFFQZ3ZpdDh6UmhNbXNELWtEY1dUR1JUanhmbEo0ZWhiajlGWEFHMnpUalNZbGRkOHhLTURWRHNUai1ESXJ6OGZjWEFIV1c0eVFOUDlSdmVWMWl2ODFDR2NoUnU?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-27T21:38+00:00",
+    "score": 5,
+    "tags": [
+     "contract"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
    {
     "id": "fb7a8d69afc9b20c",
     "title": "Greg Abel Deployed $10 Billion Into Alphabet's Private Placement, Building a $38 Billion Stake That's Now Berkshire Hathaway's Third-Largest Holding. Is Alphabet Becoming Berkshire's New Apple?",
@@ -524,21 +563,7 @@
     "primary": false
    }
   ],
-  "HOOD": [
-   {
-    "id": "88f2dbd4e207d5ee",
-    "title": "Robinhood’s 2026 Outlook: Strategic Evolution and Valuation After a 280% Surge",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOLURfLWtteE1pT05DVzhfb0FCWVR3Qm51VVlHMkNUdWthUV9pclBrVGJmamdDMWV4eW82eGxDaUZzSEtzc3lpZkFuVFNtdjRrazFmdmJDcG40eWM4N3M5Z0ZWZ3V1dWJIRzU3ajRzbzhFTl9wM29oSFJwTTM2cHBkUlRRX2hFQ3hEbEhzNjQ3VTRaU19fZHBzWGUzaFRXRUVXTDU4Vlctcm1rOEpuSE1JdWJWNDBvYVIwV0VJV0JoTQ?oc=5",
-    "source": "TradingKey",
-    "published": "2026-09-26T17:35+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
-   }
-  ],
+  "HOOD": [],
   "NVDA": [
    {
     "id": "b8611ac4576f00f2",
@@ -567,24 +592,11 @@
     "primary": false
    },
    {
-    "id": "abb7f08e68203bbf",
-    "title": "A $1,000 Investment Split Between Alphabet and Nvidia Will Be Worth This Much by 2030",
-    "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNc2dVWlVDcnZEUGpuSmtwM3NLQlE0bVV3bm5WVUxkeGdvcXo2aHVOcHlyNGYyQWlVYlNOczZJVVlMVGgzREktb1lGNi1ibVNWTWFlS0dSdC04TVJ2NGhkWnJBaldJSlhFSXBmeGZJekZDUlQydzRKeUhlVW1JUkZaai12cHlObkc5N2pVQ1U2eUlTMTh0M2hpNHAtVm9wczNlWkJUQVVGSDhka2E5SGE5aVN1cWhsQk9BYVNfLTFKZXpiT0M5Y2NmTVpaalR6MUIxdEVXZnF1M283N1Z5UEhGOVJNZnhsN3Z3MzFYY1YwMlJqMnJUMV9hcWp6UzJLUl9tX0E?oc=5",
-    "source": "The Globe and Mail",
-    "published": "2026-09-27T02:45+00:00",
-    "score": 8,
-    "tags": [
-     "capital"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "2e6b6ff094672ddc",
     "title": "Intel Price Forecast: Nvidia Picked Xeon 6, Invested $5B, Yet Analysts Still Trail INTC",
     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPUTJ0M002eEJBWW5ocUl6ai1nTkJ1WjFMMktJRWtzekFRcktQd1d1MTFOd1RwbVFQWk9hU25UUC16RzBnbXBXdWZwcE5pS2ROeVN1YXhFZlNjVVctMWg4SWI1Y2FJazZTOTg2OVd0OWpmMGFKczk0ejdZX090Mkg2TU1Tc2Z4b2EwaUJ5MkxITm1NLWxic2JFdDVJRGZjdTBwbVNETDFURk1jMHBQN0ZQV3BhYVcyT2JDYWR2S1hLMERJNWc1bmVwODBxcUN1YUdxMlNQemdJbktvdzQxV0pmZXVIX1Zfam5N?oc=5",
     "source": "TradingKey",
-    "published": "2026-09-26T22:02+00:00",
+    "published": "2026-09-27T06:09+00:00",
     "score": 9,
     "tags": [
      "earnings"
@@ -593,11 +605,37 @@
     "primary": false
    },
    {
+    "id": "abb7f08e68203bbf",
+    "title": "A $1,000 Investment Split Between Alphabet and Nvidia Will Be Worth This Much by 2030",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1sNXN4enpyZEFESEZZTk1McFpncG5mbXRPZ0VlUDZranBhTTBaSG94b2V1R2pMVDFRR18xS3F0MmgtQWdXdDVJVktJWmtyM252YmpEeFNZcTJsZElzdHBVd3BzNk0yRk40bXc2dEpKcVdKalhTM3BnSkppSC1fQlE?oc=5",
+    "source": "AOL.com",
+    "published": "2026-09-27T02:35+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "37d8f40e19ec5e02",
+    "title": "NVIDIA Stock Holds $215 Gap Support as MediaTek Deal Expands AI Reach",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMkpCYUJFU2M0QzVqaEE0MVNCc2RmZmFRVUR0anNzNm92THltcU82WEEzQXIzQy1PcVZqa1lyQktCYVQxOE9rYTJ4a0ltUERHRkdxSnAtY3BOaFJNam5MTnhuN3B5dTFFUHlieDRWREhmaUFWOHFYOU1WYjhCWW1wTTdBVldDWTQ3bl9aNDFKa0VmSG9BckZya0NYc3Q2aTVpNzFxakROQ3d3eGNiTWR2dFVtRExnbHhfbklESFQzU3NvRHNITWZnQQ?oc=5",
+    "source": "TradingKey",
+    "published": "2026-09-27T01:15+00:00",
+    "score": 8,
+    "tags": [
+     "contract"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
     "id": "e690338faf9b59a9",
     "title": "Nvidia Is Weighing a $10 Billion Stake in Anthropic's IPO. It Would Be Buying Its Own Demand.",
-    "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPOVdrWTllWXFRRTJtVEtJc3pTVkZ5SEdEWVVnRl9kREFOeFUxV0ZOLXBidGVpU3hJaFJ1Q2JtU1huQ2ZLY1d2eVRXMm1QV0NxbkdCQllGbVhaNXVnZHVGVG9qT0x1d3gycXQycnlTSEVGM2ZaMTNBS2l2V3UyeVNSUUgxbHJDWkFobm5GQ25BcXpDSTRYeHY5YnZSZGl6bDdEbHVrZDRUQmJBTFBDc090dzlwRWxhOHR0ZmlOb2otVjlVZ3NwX09hNzU2QU8ySTlEaG1TcHp3clc5UEM4N3Ffby1jb2l6aE1JdWVQMmJKdnZMS0NmZzg4bWNxRlpLZVEzRzNF?oc=5",
-    "source": "The Globe and Mail",
-    "published": "2026-09-26T20:02+00:00",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVjJSb3FOdWxESlUxTUpaR2pCaVUySFlRMVl1Y2ZVNmZ5T1NXdzltQk5BdGVFYXBwOFRyMmRObjd1TFlhTlhzMTBKck9acEFiNDZYaVlLRHJ1dDhwbktDT3RLdFVZUjVSanphRVUtUkdtLXdYeXVjWnZvajlELXlpQ1dB?oc=5",
+    "source": "AOL.com",
+    "published": "2026-09-26T19:57+00:00",
     "score": 8,
     "tags": [
      "capital"
@@ -638,7 +676,7 @@
     "title": "Intel Price Forecast: Nvidia Picked Xeon 6, Invested $5B, Yet Analysts Still Trail INTC",
     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPUTJ0M002eEJBWW5ocUl6ai1nTkJ1WjFMMktJRWtzekFRcktQd1d1MTFOd1RwbVFQWk9hU25UUC16RzBnbXBXdWZwcE5pS2ROeVN1YXhFZlNjVVctMWg4SWI1Y2FJazZTOTg2OVd0OWpmMGFKczk0ejdZX090Mkg2TU1Tc2Z4b2EwaUJ5MkxITm1NLWxic2JFdDVJRGZjdTBwbVNETDFURk1jMHBQN0ZQV3BhYVcyT2JDYWR2S1hLMERJNWc1bmVwODBxcUN1YUdxMlNQemdJbktvdzQxV0pmZXVIX1Zfam5N?oc=5",
     "source": "TradingKey",
-    "published": "2026-09-26T22:02+00:00",
+    "published": "2026-09-27T06:09+00:00",
     "score": 9,
     "tags": [
      "earnings"
@@ -675,20 +713,6 @@
    }
   ],
   "NBIS": [
-   {
-    "id": "3a8d890ea32a676a",
-    "title": "Nebius Stock Forecast: How Did NBIS Secure $44B in Contracts and What's Next?",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONWJFd1lDUXI2WFZ3UUVWNDFaVVRMTnNSYWtYSmJpbi1sY2RpUkFtaUFmUFZhdV9Pc2VTOHFWSUFwaXlsWEJJWW42V25lZDJ5RDc4NE1aX0d6eGgyYkxlaXV3dXFYUWlrc0hWbWpxdmV6UWY1Q1hsNjV1cUlpaEJXemZpOFVWQTFYYUdGRFM5S2g3SnVqTE5rWktyQ3dsZTZUcWtLUEo3RFF6LWtXclV6dHZUc2h3Ui1FM3lieGwzVmdfeXdQb1BDTGl2M3ZabVZrVEE?oc=5",
-    "source": "TradingKey",
-    "published": "2026-09-26T21:23+00:00",
-    "score": 14,
-    "tags": [
-     "earnings",
-     "contract"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
    {
     "id": "06d553effbc9dfab",
     "title": "Why Palantir (PLTR) Is Up 6.8% After Expanding AIP Deals And Announcing Nebius AI Partnership",
@@ -745,25 +769,12 @@
     "primary": false
    },
    {
-    "id": "98dc1d53478651a4",
-    "title": "MRVL Stock Quote Price and Forecast",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE40VFZrblZ3RzNzZVM3Y01XNVNTV3hNTGpjbGRhZ1dHUGRSNDMwOVh4VC12Z0FKeDdlOTVxcnlPX25Pb1hYZ3c2RXlJWTVKUzh6?oc=5",
-    "source": "CNN",
-    "published": "2026-09-25T20:15+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "2b66a666ef6c29c6",
-    "title": "Marvell declares $0.06 quarterly dividend payable in October By Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQWxsTVdKWW1oMklhVnRfOHVoNXJLclI2cHFLMUdKbGZ1d2ltTkpHTzU2MXg2MTJrcFpVcGJ0U1NORERuSEVfTlZ2b3loNkhxTWg1c3BSOW1aT2xSeS1FeWlUV2Rla1pJVUhuUnp6VTBYMzlBeHd3bTlVZ0ZKbHJWS2ZKNjBtWG85WjZPbFhZRElpajJvbkVRclh3MDgwMGo5WVIxd29xZ1hQR0pzbS1IOEViVFN3SUN3d2x3?oc=5",
-    "source": "Investing.com UK",
-    "published": "2026-09-25T20:14+00:00",
-    "score": 14,
+    "id": "2a31d77fa86e8584",
+    "title": "Marvell Technology, Inc. Declares Quarterly Dividend Payment",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdUFuSDQ2OV9TSGtGS1pHMkloTDgxaVRaTG40YjBtcXBIZEFiOUF2Q2xHMlJUaFBRX0dRN2RVU3pWZXBxSEhQTFlNNkFLX2oyOWpPczJ3dWRNc0RramltUUw0d1JGN3MtVS03YnAtZThFSGl0QktvTGl3MVRsZXJOeDJoZm1rUV9nV0E?oc=5",
+    "source": "01net",
+    "published": "2026-09-25T23:05+00:00",
+    "score": 11,
     "tags": [
      "earnings",
      "capital"
@@ -773,6 +784,19 @@
    }
   ],
   "META": [
+   {
+    "id": "697f3c75c2010559",
+    "title": "Muse Could Be the Third ‘S-Curve’ in AI So Buy Meta Platforms Stock Now",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdjdLVmJTWWYyYnVIemxhVXZkbXdnV1JUQkdtNHlHbmU5el9iWmhxUjh3Q2ttZmJ4UjBCTm5FeXNFdTFSUjRyVWVlZzNYNEZmVld1RXJXblFOVUwxWWd1b2NIRjUzaVdHY09VZVVZSEVJMlc1ei0ybllqNm1DYVMzeVFNOWNrZ1Vtc2JxTno0ZFhwSnJSRVVmZ3ViRTFyLWIzNndtQjIyOGtvRlhjNDhvamJUUQ?oc=5",
+    "source": "Barchart.com",
+    "published": "2026-09-27T20:30+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "8bc803f7cc083017",
     "title": "Meta (META) Stock Price Outlook 2026: $55B Ad Quarter, $145B AI Bet — Is $540 the Next Stop?",
@@ -826,5 +850,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 58
+ "count": 60
 }
