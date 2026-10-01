@@ -1,27 +1,28 @@
 name: Daily Ticker Brief
-
 on:
   workflow_dispatch:
   schedule:
     - cron: '0 13 * * 1-5'
-
 permissions:
   contents: write
-
 jobs:
   publish:
     runs-on: ubuntu-latest
+    env:
+      TWELVEDATA_KEY: ${{ secrets.TWELVEDATA_KEY }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Fetch fresh market data
+        run: python daily_brief.py
       - name: Validate and rebuild site
         run: python build.py --check && python build.py
-      - name: Commit rebuilt site
+      - name: Commit and publish
         run: |
           git config user.name 'ticker-brief bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add index.html site.html
+          git add editions index.html site.html
           git diff --cached --quiet || git commit -m 'brief: publish daily edition'
           git push
