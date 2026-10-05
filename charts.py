@@ -590,6 +590,19 @@ CHART_JS = r"""
     b.addEventListener('click', function () { pick(b.getAttribute('data-tf')); });
   });
   pick(TF);
+  function refreshLive() {
+    fetch('live/' + encodeURIComponent(TICKER) + '.json', {cache:'no-store'})
+      .then(function (r) { return r.ok ? r.json() : null; }).then(function (p) {
+        if (!p || !p.series) return;
+        Object.keys(p.series).forEach(function (tf) {
+          var rows=p.series[tf], old=SERIES[tf]||[]; if (!Array.isArray(rows)) return;
+          rows.forEach(function(r){if(!Array.isArray(r)||r.length<5||typeof r[0]!=='string'||!Number.isFinite(Number(r[4])))return; var i=old.length-1; if(i>=0&&old[i][0]===r[0])old[i]=r; else if(i<0||r[0]>old[i][0])old.push(r);});
+          SERIES[tf]=old.slice(-5000);
+        });
+        if(SERIES[TF]&&SERIES[TF].length){D=SERIES[TF];view={from:0,to:D.length};draw();}
+      }).catch(function(){});
+  }
+  refreshLive(); window.setInterval(refreshLive, 60000);
 
   // The backing store must follow the element's real box, not a guess made
   // before layout settles. Sizing on load alone leaves the canvas short (a
@@ -669,7 +682,7 @@ def render_html(ticker, series, csp_hash_fn):
     csp = ("default-src 'none'; "
            f"script-src '{csp_hash_fn(boot)}' '{csp_hash_fn(CHART_JS)}'; "
            f"style-src '{csp_hash_fn(CHART_CSS)}'; "
-           "img-src 'self'; base-uri 'none'; form-action 'none'")
+           "img-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'")
     buttons = "".join(
         f'<button class="tf" type="button" data-tf="{t}" '
         f'aria-pressed="false">{t}</button>' for t in labels)
@@ -791,3 +804,5 @@ def report_freshness(written, from_cache, demo):
 
 if __name__ == "__main__":
     sys.exit(main() or 0)
+
+
