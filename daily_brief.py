@@ -19,12 +19,19 @@ def main():
     key=os.environ.get('TWELVEDATA_KEY')
     if not key:raise SystemExit('TWELVEDATA_KEY is required')
     now=datetime.now(ZoneInfo('America/New_York')); session=now.date().isoformat()
-    if now.weekday()>=5 or session in HOLIDAYS:print(f'skip: {session} is not an NYSE session');return
+    market_open = now.weekday() < 5 and session not in HOLIDAYS
     quotes={s:quote(s,key) for s in SYMBOLS}; entries=[]
     for s in SYMBOLS:
         q=quotes[s]; pct=q['pct']; sign='up' if pct>=0 else 'down'
         entries.append({'ticker':s,'dir':sign,'strength':'major' if abs(pct)>=5 else 'notable','strength_label':'Large session move' if abs(pct)>=5 else 'Session move','move':f'{pct:+.2f}% close','move_tone':sign,'happened':f'{s} closed at {q["close"]:.2f} on {session}, according to Twelve Data.','figures':[f'Close <b>${q["close"]:.2f}</b>, <b>{pct:+.2f}%</b>',f'Session range <b>${q["low"]:.2f}-${q["high"]:.2f}</b>',f'Volume <b>{q["volume"]:,.0f}</b>; feed average <b>{q["avg_volume"]:,.0f}</b>'],'why':'This is a measured price and volume update. The move alone does not establish why the stock changed or predict the next session.','foot':[{'k':'Price evidence','v':f'Twelve Data quote captured after the {session} US session close.'}]})
-    edition={'date':session,'weekday':now.strftime('%A'),'headline':f'US market close, {now.strftime("%-d %B %Y")}: twelve-stock snapshot','gauge':[{'text':f'Session close captured after 16:00 ET on {session}','tone':'flat'}],'quick':[f'<b>{s}</b> {quotes[s]["pct"]:+.2f}% at {quotes[s]["close"]:.2f}' for s in SYMBOLS],'entries':entries,'data':{'session':session,'source':'Twelve Data','tickers':quotes}}
+    research={}
+    research_path=ROOT/'research.json'
+    if research_path.exists():
+        try: research=json.loads(research_path.read_text(encoding='utf-8'))
+        except json.JSONDecodeError: research={}
+    upcoming=research.get('upcoming',[]) if isinstance(research,dict) else []
+    label='market close' if market_open else 'weekend or market holiday update'
+    edition={'date':session,'weekday':now.strftime('%A'),'headline':f'US {label}, {now.strftime("%-d %B %Y")}: prices, news and earnings watch','gauge':[{'text':f'Latest available US market data for {session}' if market_open else f'US markets closed on {session}; latest available prices shown','tone':'flat'}],'quick':[f'<b>{s}</b> {quotes[s]["pct"]:+.2f}% at {quotes[s]["close"]:.2f}' for s in SYMBOLS],'entries':entries,'earnings_ahead':upcoming,'data':{'session':session,'source':'Twelve Data','tickers':quotes}}
     out=ROOT/'editions'/f'{session}.json'
     if out.exists():raise SystemExit(f'refusing to overwrite existing edition: {out.name}')
     out.write_text(json.dumps(edition,indent=2)+'\n',encoding='utf-8');print(out)
