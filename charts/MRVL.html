@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>MRVL chart | v2v.investing</title>
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-C2Z7iCeEDCZnOMyQX+ZdnHBLIKE23+EQkVPAataxxUs=' 'sha256-jBMQVHGa2dSYC3Uf4lxRsR4+5HEuiyR0bC+idPpklGc='; style-src 'sha256-GxOEqLuDf2gdZEeO+PUj2A1EgWmgIDcs5DjWodplmG0='; img-src 'self'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-C2Z7iCeEDCZnOMyQX+ZdnHBLIKE23+EQkVPAataxxUs=' 'sha256-QkCHc8fCyGVfAS99Uau7X4lB0lr2w30CNqgR6DbYkr8='; style-src 'sha256-GxOEqLuDf2gdZEeO+PUj2A1EgWmgIDcs5DjWodplmG0='; img-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'">
 <meta name="color-scheme" content="light">
 <style>
   * { box-sizing:border-box; }
@@ -289,6 +289,45 @@
     b.addEventListener('click', function () { pick(b.getAttribute('data-tf')); });
   });
   pick(TF);
+  var status = document.createElement('div');
+  status.setAttribute('role', 'status');
+  document.querySelector('header').appendChild(status);
+  var busy = false;
+  function refreshLive() {
+    if (busy || document.hidden) return;
+    busy = true;
+    fetch('live/' + encodeURIComponent(TICKER) + '.json', {cache:'no-store'})
+      .then(function (r) { if (!r.ok) throw Error('Unavailable'); return r.json(); })
+      .then(function (p) {
+        if (!p || p.ticker !== TICKER || !p.series) throw Error('Invalid data');
+        var next = {};
+        Object.keys(SERIES).forEach(function (tf) {
+          var rows = p.series[tf];
+          if (!Array.isArray(rows) || !rows.length) throw Error('Missing timeframe');
+          var last = '';
+          rows.forEach(function (r) {
+            if (!Array.isArray(r) || r.length !== 6 || typeof r[0] !== 'string' ||
+                !/^\d{4}-\d{2}-\d{2}( \d{2}:\d{2}:\d{2})?$/.test(r[0]) || r[0] <= last ||
+                !r.slice(1).every(function (v) { return typeof v === 'number' && Number.isFinite(v); }) ||
+                Math.min.apply(null,r.slice(1,5)) <= 0 || r[5] < 0 ||
+                r[2] < Math.max(r[1],r[3],r[4]) || r[3] > Math.min(r[1],r[4])) throw Error('Invalid bar');
+            last = r[0];
+          });
+          next[tf] = rows[rows.length-1][0] >= SERIES[tf][SERIES[tf].length-1][0] ? rows : SERIES[tf];
+        });
+        var width = view.to-view.from, atEnd = view.to === D.length, full = view.from === 0 && atEnd;
+        SERIES = next; D = SERIES[TF]; hover = null;
+        view = full ? {from:0,to:D.length} : atEnd ?
+          {from:Math.max(0,D.length-width),to:D.length} :
+          {from:Math.min(view.from,Math.max(0,D.length-1)),to:Math.min(view.to,D.length)};
+        draw();
+        status.textContent = 'Latest minute bar: ' + p.updated + ' ET · checks every minute · data refresh about 10 minutes during market hours';
+      }).catch(function () {
+        status.textContent = 'Refresh unavailable · showing saved data through ' + D[D.length-1][0];
+      }).finally(function () { busy = false; });
+  }
+  refreshLive(); window.setInterval(refreshLive, 60000);
+  document.addEventListener('visibilitychange', function () { if (!document.hidden) refreshLive(); });
 
   // The backing store must follow the element's real box, not a guess made
   // before layout settles. Sizing on load alone leaves the canvas short (a
@@ -306,3 +345,4 @@
 </script>
 </body>
 </html>
+
