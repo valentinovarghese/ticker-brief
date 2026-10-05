@@ -39,7 +39,8 @@ def main():
     if research_path.exists():
         try: research=json.loads(research_path.read_text(encoding='utf-8'))
         except json.JSONDecodeError: research={}
-    upcoming=research.get('upcoming',[]) if isinstance(research,dict) else []
+    upcoming_raw=research.get('upcoming',[]) if isinstance(research,dict) else []
+    upcoming=[{'when': r.get('date','date unknown'), 'what': f"{r.get('ticker','Company')} earnings watch"} for r in upcoming_raw]
     label='market close' if market_open else 'weekend or market holiday update'
     edition={'date':session,'weekday':now.strftime('%A'),'headline':f'US {label}, {now.strftime("%-d %B %Y")}: prices, news and earnings watch','gauge':[{'text':f'Latest available US market data for {session}' if market_open else f'US markets closed on {session}; latest available prices shown','tone':'flat'}],'quick':[f'<b>{s}</b> {quotes[s]["pct"]:+.2f}% at {quotes[s]["close"]:.2f}' for s in SYMBOLS],'entries':entries,'earnings_ahead':upcoming,'data':{'session':session,'source':'Twelve Data','tickers':quotes}}
     out=ROOT/'editions'/f'{session}.json'
