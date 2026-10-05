@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>AAPL chart | v2v.investing</title>
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-uwW4MkNk104ZkvOKF/ToyQ57LF4Jgx4PS6PesmHY7Vo=' 'sha256-jBMQVHGa2dSYC3Uf4lxRsR4+5HEuiyR0bC+idPpklGc='; style-src 'sha256-GxOEqLuDf2gdZEeO+PUj2A1EgWmgIDcs5DjWodplmG0='; img-src 'self'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'sha256-uwW4MkNk104ZkvOKF/ToyQ57LF4Jgx4PS6PesmHY7Vo=' 'sha256-jBMQVHGa2dSYC3Uf4lxRsR4+5HEuiyR0bC+idPpklGc='; style-src 'sha256-GxOEqLuDf2gdZEeO+PUj2A1EgWmgIDcs5DjWodplmG0='; img-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'">
 <meta name="color-scheme" content="light">
 <style>
   * { box-sizing:border-box; }
@@ -290,6 +290,8 @@
   });
   pick(TF);
 
+
+  function refreshLive(){fetch('live/'+encodeURIComponent(TICKER)+'.json',{cache:'no-store'}).then(function(r){return r.ok?r.json():null;}).then(function(p){if(!p||!p.series)return;Object.keys(p.series).forEach(function(tf){var rows=p.series[tf],old=SERIES[tf]||[];if(!Array.isArray(rows))return;rows.forEach(function(r){if(!Array.isArray(r)||r.length<5||typeof r[0]!=='string'||!Number.isFinite(Number(r[4])))return;var i=old.length-1;if(i>=0&&old[i][0]===r[0])old[i]=r;else if(i<0||r[0]>old[i][0])old.push(r);});SERIES[tf]=old.slice(-5000);});if(SERIES[TF]&&SERIES[TF].length){D=SERIES[TF];view={from:0,to:D.length};draw();}}).catch(function(){});}refreshLive();window.setInterval(refreshLive,60000);
   // The backing store must follow the element's real box, not a guess made
   // before layout settles. Sizing on load alone leaves the canvas short (a
   // dead band underneath) or tall (a clipped volume panel), depending on
