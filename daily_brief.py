@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import json, os, urllib.parse, urllib.request
+import json, os, time, urllib.parse, urllib.request
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -11,7 +11,13 @@ def num(v):
     except (TypeError,ValueError):return None
 def quote(s,key):
     q=urllib.parse.urlencode({'symbol':s,'apikey':key})
-    with urllib.request.urlopen('https://api.twelvedata.com/quote?'+q,timeout=30) as r:d=json.load(r)
+    for attempt in range(4):
+        try:
+            with urllib.request.urlopen('https://api.twelvedata.com/quote?'+q,timeout=30) as r:d=json.load(r)
+            break
+        except urllib.error.HTTPError as exc:
+            if exc.code != 429 or attempt == 3: raise
+            time.sleep(15 * (attempt + 1))
     if 'close' not in d or 'percent_change' not in d:raise RuntimeError(f'Incomplete Twelve Data quote for {s}: {d}')
     close,pct=num(d.get('close')),num(d.get('percent_change')); avg=num(d.get('average_volume')) or num(d.get('avg_volume')) or 0
     return {'close':close,'pct':pct,'open':num(d.get('open')),'high':num(d.get('high')),'low':num(d.get('low')),'volume':num(d.get('volume')) or 0,'avg_volume':avg,'high_52w':num(d.get('fifty_two_week_high')) or close,'premarket_pct':None,'afterhours_pct':None,'timestamp':d.get('timestamp'),'source':'Twelve Data'}
@@ -20,7 +26,11 @@ def main():
     if not key:raise SystemExit('TWELVEDATA_KEY is required')
     now=datetime.now(ZoneInfo('America/New_York')); session=now.date().isoformat()
     market_open = now.weekday() < 5 and session not in HOLIDAYS
-    quotes={s:quote(s,key) for s in SYMBOLS}; entries=[]
+    quotes={}
+    for i,s in enumerate(SYMBOLS):
+        if i: time.sleep(8)
+        quotes[s]=quote(s,key)
+    entries=[]
     for s in SYMBOLS:
         q=quotes[s]; pct=q['pct']; sign='up' if pct>=0 else 'down'
         entries.append({'ticker':s,'dir':sign,'strength':'major' if abs(pct)>=5 else 'notable','strength_label':'Large session move' if abs(pct)>=5 else 'Session move','move':f'{pct:+.2f}% close','move_tone':sign,'happened':f'{s} closed at {q["close"]:.2f} on {session}, according to Twelve Data.','figures':[f'Close <b>${q["close"]:.2f}</b>, <b>{pct:+.2f}%</b>',f'Session range <b>${q["low"]:.2f}-${q["high"]:.2f}</b>',f'Volume <b>{q["volume"]:,.0f}</b>; feed average <b>{q["avg_volume"]:,.0f}</b>'],'why':'This is a measured price and volume update. The move alone does not establish why the stock changed or predict the next session.','foot':[{'k':'Price evidence','v':f'Twelve Data quote captured after the {session} US session close.'}]})
