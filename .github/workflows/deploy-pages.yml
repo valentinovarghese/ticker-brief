@@ -2,25 +2,37 @@ name: Deploy site
 on:
   push:
     branches: [main]
+  workflow_run:
+    workflows: [news, Live chart refresh, Daily Ticker Brief]
+    types: [completed]
   workflow_dispatch:
 permissions:
   contents: read
   pages: write
   id-token: write
 concurrency:
-  group: pages
-  cancel-in-progress: true
+  group: ticker-site-deploy
+  cancel-in-progress: false
 jobs:
   deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Render saved chart data
+        run: python refresh_live.py --render
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .
       - id: deployment
         uses: actions/deploy-pages@v4
+
