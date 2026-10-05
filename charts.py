@@ -590,19 +590,45 @@ CHART_JS = r"""
     b.addEventListener('click', function () { pick(b.getAttribute('data-tf')); });
   });
   pick(TF);
+  var status = document.createElement('div');
+  status.setAttribute('role', 'status');
+  document.querySelector('header').appendChild(status);
+  var busy = false;
   function refreshLive() {
+    if (busy || document.hidden) return;
+    busy = true;
     fetch('live/' + encodeURIComponent(TICKER) + '.json', {cache:'no-store'})
-      .then(function (r) { return r.ok ? r.json() : null; }).then(function (p) {
-        if (!p || !p.series) return;
-        Object.keys(p.series).forEach(function (tf) {
-          var rows=p.series[tf], old=SERIES[tf]||[]; if (!Array.isArray(rows)) return;
-          rows.forEach(function(r){if(!Array.isArray(r)||r.length<5||typeof r[0]!=='string'||!Number.isFinite(Number(r[4])))return; var i=old.length-1; if(i>=0&&old[i][0]===r[0])old[i]=r; else if(i<0||r[0]>old[i][0])old.push(r);});
-          SERIES[tf]=old.slice(-5000);
+      .then(function (r) { if (!r.ok) throw Error('Unavailable'); return r.json(); })
+      .then(function (p) {
+        if (!p || p.ticker !== TICKER || !p.series) throw Error('Invalid data');
+        var next = {};
+        Object.keys(SERIES).forEach(function (tf) {
+          var rows = p.series[tf];
+          if (!Array.isArray(rows) || !rows.length) throw Error('Missing timeframe');
+          var last = '';
+          rows.forEach(function (r) {
+            if (!Array.isArray(r) || r.length !== 6 || typeof r[0] !== 'string' ||
+                !/^\d{4}-\d{2}-\d{2}( \d{2}:\d{2}:\d{2})?$/.test(r[0]) || r[0] <= last ||
+                !r.slice(1).every(function (v) { return typeof v === 'number' && Number.isFinite(v); }) ||
+                Math.min.apply(null,r.slice(1,5)) <= 0 || r[5] < 0 ||
+                r[2] < Math.max(r[1],r[3],r[4]) || r[3] > Math.min(r[1],r[4])) throw Error('Invalid bar');
+            last = r[0];
+          });
+          next[tf] = rows[rows.length-1][0] >= SERIES[tf][SERIES[tf].length-1][0] ? rows : SERIES[tf];
         });
-        if(SERIES[TF]&&SERIES[TF].length){D=SERIES[TF];view={from:0,to:D.length};draw();}
-      }).catch(function(){});
+        var width = view.to-view.from, atEnd = view.to === D.length, full = view.from === 0 && atEnd;
+        SERIES = next; D = SERIES[TF]; hover = null;
+        view = full ? {from:0,to:D.length} : atEnd ?
+          {from:Math.max(0,D.length-width),to:D.length} :
+          {from:Math.min(view.from,Math.max(0,D.length-1)),to:Math.min(view.to,D.length)};
+        draw();
+        status.textContent = 'Latest minute bar: ' + p.updated + ' ET · checks every minute · data refresh about 10 minutes during market hours';
+      }).catch(function () {
+        status.textContent = 'Refresh unavailable · showing saved data through ' + D[D.length-1][0];
+      }).finally(function () { busy = false; });
   }
   refreshLive(); window.setInterval(refreshLive, 60000);
+  document.addEventListener('visibilitychange', function () { if (!document.hidden) refreshLive(); });
 
   // The backing store must follow the element's real box, not a guess made
   // before layout settles. Sizing on load alone leaves the canvas short (a
@@ -804,5 +830,6 @@ def report_freshness(written, from_cache, demo):
 
 if __name__ == "__main__":
     sys.exit(main() or 0)
+
 
 
