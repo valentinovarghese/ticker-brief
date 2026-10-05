@@ -1,0 +1,31 @@
+name: Live chart refresh
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+permissions: {contents: write}
+concurrency: {group: charts-live, cancel-in-progress: true}
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - name: Refresh one ticker
+        env: {TWELVEDATA_KEY: ${{ secrets.TWELVEDATA_KEY }}}
+        run: |
+          tickers=(AAPL AMZN TSLA PLTR MSFT GOOGL HOOD NVDA INTC NBIS MRVL META)
+          index=$(( $(date -u +%s) / 300 % 12 ))
+          python refresh_live.py "${tickers[$index]}"
+      - name: Commit live data
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add charts/live
+          git diff --cached --quiet && exit 0
+          git commit -m "Refresh live chart data"
+          for attempt in 1 2 3 4; do git pull --rebase --autostash origin main && git push origin HEAD:main && exit 0; sleep 5; done
+          exit 1
+
