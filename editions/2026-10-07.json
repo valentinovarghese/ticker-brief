@@ -1,0 +1,503 @@
+{
+  "date": "2026-10-07",
+  "weekday": "Wednesday",
+  "headline": "US market close, 7 October 2026: prices, news and earnings watch",
+  "gauge": [
+    {
+      "text": "Latest available US market data for 2026-10-07",
+      "tone": "flat"
+    }
+  ],
+  "quick": [
+    "<b>AAPL</b> +1.00% at 336.97",
+    "<b>AMZN</b> +1.26% at 259.52",
+    "<b>TSLA</b> -1.02% at 376.81",
+    "<b>PLTR</b> +0.60% at 193.22",
+    "<b>MSFT</b> +0.31% at 530.94",
+    "<b>GOOGL</b> +0.36% at 348.93",
+    "<b>HOOD</b> -2.18% at 109.56",
+    "<b>NVDA</b> -1.17% at 236.43",
+    "<b>INTC</b> -0.04% at 112.45",
+    "<b>NBIS</b> -6.02% at 234.84",
+    "<b>MRVL</b> -1.48% at 282.75",
+    "<b>META</b> -2.15% at 723.00"
+  ],
+  "entries": [
+    {
+      "ticker": "AAPL",
+      "dir": "up",
+      "strength": "notable",
+      "strength_label": "Session move",
+      "move": "+1.00% close",
+      "move_tone": "up",
+      "happened": "AAPL closed at 336.97 on 2026-10-07, according to Twelve Data.",
+      "figures": [
+        "Close <b>$336.97</b>, <b>+1.00%</b>",
+        "Session range <b>$332.79-$338.60</b>",
+        "Volume <b>923,345</b>; feed average <b>31,135,784</b>"
+      ],
+      "why": "This is a measured price and volume update. The move alone does not establish why the stock changed or predict the next session.",
+      "foot": [
+        {
+          "k": "Price evidence",
+          "v": "Twelve Data quote captured after the 2026-10-07 US session close."
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "dir": "up",
+      "strength": "notable",
+      "strength_label": "Session move",
+      "move": "+1.26% close",
+      "move_tone": "up",
+      "happened": "AMZN closed at 259.52 on 2026-10-07, according to Twelve Data.",
+      "figures": [
+        "Close <b>$259.52</b>, <b>+1.26%</b>",
+        "Session range <b>$253.20-$259.85</b>",
+        "Volume <b>913,958</b>; feed average <b>31,642,266</b>"
+      ],
+      "why": "This is a measured price and volume update. The move alone does not establish why the stock changed or predict the next session.",
+      "foot": [
+        {
+          "k": "Price evidence",
+          "v": "Twelve Data quote captured after the 2026-10-07 US session close."
+        }
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "dir": "down",
+      "strength": "notable",
+      "strength_label": "Session move",
+      "move": "-1.02% close",
+      "move_tone": "down",
+      "happened": "TSLA closed at 376.81 on 2026-10-07, according to Twelve Data.",
+      "figures": [
+        "Close <b>$376.81</b>, <b>-1.02%</b>",
+        "Session range <b>$374.46-$382.30</b>",
+        "Volume <b>490,999</b>; feed average <b>34,015,230</b>"
+      ],
+      "why": "This is a measured price and volume update. The move alone does not establish why the stock changed or predict the next session.",
+      "foot": [
+        {
+          "k": "Price evidence",
+          "v": "Twelve Data quote captured after the 2026-10-07 US session close."
+        }
+      ]
+    },
+    {
+      "ticker": "PLTR",
+      "dir": "up",
+      "strength": "notable",
+      "strength_label": "Session move",
+      "move": "+0.60% close",
+      "move_tone": "up",
+      "happened": "PLTR closed at 193.22 on 2026-10-07, according to Twelve Data.",
+      "figures": [
+        "Close <b>$193.22</b>, <b>+0.60%</b>",
+        "Session range <b>$190.16-$194.62</b>",
+        "Volume <b>280,515</b>; feed average <b>16,306,092</b>"
+      ],
+      "why": "This is a measured price and volume update. The move alone does not establish why the stock changed or predict the next session.",
+      "foot": [
+        {
+          "k": "Price evidence",
+          "v": "Twelve Data quote captured after the 2026-10-07 US session close."
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "dir": "up",
+      "strength": "notable",
+      "strength_label": "Session move",
+      "move": "+0.31% close",
+      "move_tone": "up",
+      "happened": "MSFT closed at 530.94 on 2026-10-07, according to Twelve Data.",
+      "figures": [
+        "Close <b>$530.94</b>, <b>+0.31%</b>",
+        "Session range <b>$524.72-$531.73</b>",
+        "Volume <b>647,836</b>; feed average <b>20,894,214</b>"
+      ],
+      "why": "This is a measured price and volume update. The move alone does not establish why the stock changed or predict the next session.",
+      "foot": [
+        {
+          "k": "Price evidence",
+          "v": "Twelve Data quote captured after the 2026-10-07 US session close."
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "dir": "up",
+      "strength": "notable",
+      "strength_label": "Session move",
+      "move": "+0.36% close",
+      "move_tone": "up",
+      "happened": "GOOGL closed at 348.93 on 2026-10-07, according to Twelve Data.",
+      "figures": [
+        "Close <b>$348.93</b>, <b>+0.36%</b>",
+        "Session range <b>$343.09-$349.52</b>",
+        "Volume <b>561,677</b>; feed average <b>22,504,528</b>"
+      ],
+      "why": "This is a measured price and volume update. The move alone does not establish why the stock changed or predict the next session.",
+      "foot": [
+        {
+          "k": "Price evidence",
+          "v": "Twelve Data quote captured after the 2026-10-07 US session close."
+        }
+      ]
+    },
+    {
+      "ticker": "HOOD",
+      "dir": "down",
+      "strength": "notable",
+      "strength_label": "Session move",
+      "move": "-2.18% close",
+      "move_tone": "down",
+      "happened": "HOOD closed at 109.56 on 2026-10-07, according to Twelve Data.",
+      "figures": [
+        "Close <b>$109.56</b>, <b>-2.18%</b>",
+        "Session range <b>$107.52-$110.18</b>",
+        "Volume <b>457,869</b>; feed average <b>17,729,167</b>"
+      ],
+      "why": "This is a measured price and volume update. The move alone does not establish why the stock changed or predict the next session.",
+      "foot": [
+        {
+          "k": "Price evidence",
+          "v": "Twelve Data quote captured after the 2026-10-07 US session close."
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "dir": "down",
+      "strength": "notable",
+      "strength_label": "Session move",
+      "move": "-1.17% close",
+      "move_tone": "down",
+      "happened": "NVDA closed at 236.43 on 2026-10-07, according to Twelve Data.",
+      "figures": [
+        "Close <b>$236.43</b>, <b>-1.17%</b>",
+        "Session range <b>$236.40-$239.08</b>",
+        "Volume <b>2,390,429</b>; feed average <b>99,717,893</b>"
+      ],
+      "why": "This is a measured price and volume update. The move alone does not establish why the stock changed or predict the next session.",
+      "foot": [
+        {
+          "k": "Price evidence",
+          "v": "Twelve Data quote captured after the 2026-10-07 US session close."
+        }
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "dir": "down",
+      "strength": "notable",
+      "strength_label": "Session move",
+      "move": "-0.04% close",
+      "move_tone": "down",
+      "happened": "INTC closed at 112.45 on 2026-10-07, according to Twelve Data.",
+      "figures": [
+        "Close <b>$112.45</b>, <b>-0.04%</b>",
+        "Session range <b>$111.14-$115.29</b>",
+        "Volume <b>1,504,343</b>; feed average <b>89,647,814</b>"
+      ],
+      "why": "This is a measured price and volume update. The move alone does not establish why the stock changed or predict the next session.",
+      "foot": [
+        {
+          "k": "Price evidence",
+          "v": "Twelve Data quote captured after the 2026-10-07 US session close."
+        }
+      ]
+    },
+    {
+      "ticker": "NBIS",
+      "dir": "down",
+      "strength": "major",
+      "strength_label": "Large session move",
+      "move": "-6.02% close",
+      "move_tone": "down",
+      "happened": "NBIS closed at 234.84 on 2026-10-07, according to Twelve Data.",
+      "figures": [
+        "Close <b>$234.84</b>, <b>-6.02%</b>",
+        "Session range <b>$234.05-$243.45</b>",
+        "Volume <b>439,143</b>; feed average <b>13,744,484</b>"
+      ],
+      "why": "This is a measured price and volume update. The move alone does not establish why the stock changed or predict the next session.",
+      "foot": [
+        {
+          "k": "Price evidence",
+          "v": "Twelve Data quote captured after the 2026-10-07 US session close."
+        }
+      ]
+    },
+    {
+      "ticker": "MRVL",
+      "dir": "down",
+      "strength": "notable",
+      "strength_label": "Session move",
+      "move": "-1.48% close",
+      "move_tone": "down",
+      "happened": "MRVL closed at 282.75 on 2026-10-07, according to Twelve Data.",
+      "figures": [
+        "Close <b>$282.75</b>, <b>-1.48%</b>",
+        "Session range <b>$276.51-$284.95</b>",
+        "Volume <b>538,015</b>; feed average <b>17,137,712</b>"
+      ],
+      "why": "This is a measured price and volume update. The move alone does not establish why the stock changed or predict the next session.",
+      "foot": [
+        {
+          "k": "Price evidence",
+          "v": "Twelve Data quote captured after the 2026-10-07 US session close."
+        }
+      ]
+    },
+    {
+      "ticker": "META",
+      "dir": "down",
+      "strength": "notable",
+      "strength_label": "Session move",
+      "move": "-2.15% close",
+      "move_tone": "down",
+      "happened": "META closed at 723.00 on 2026-10-07, according to Twelve Data.",
+      "figures": [
+        "Close <b>$723.00</b>, <b>-2.15%</b>",
+        "Session range <b>$720.56-$738.00</b>",
+        "Volume <b>436,028</b>; feed average <b>18,503,353</b>"
+      ],
+      "why": "This is a measured price and volume update. The move alone does not establish why the stock changed or predict the next session.",
+      "foot": [
+        {
+          "k": "Price evidence",
+          "v": "Twelve Data quote captured after the 2026-10-07 US session close."
+        }
+      ]
+    }
+  ],
+  "earnings_ahead": [
+    {
+      "when": "2026-10-21",
+      "what": "TSLA earnings watch"
+    },
+    {
+      "when": "2026-10-22",
+      "what": "INTC earnings watch"
+    },
+    {
+      "when": "2026-10-28",
+      "what": "GOOGL earnings watch"
+    },
+    {
+      "when": "2026-10-29",
+      "what": "AAPL earnings watch"
+    },
+    {
+      "when": "2026-10-29",
+      "what": "AMZN earnings watch"
+    },
+    {
+      "when": "2026-11-02",
+      "what": "PLTR earnings watch"
+    },
+    {
+      "when": "2026-11-04",
+      "what": "MSFT earnings watch"
+    },
+    {
+      "when": "2026-11-04",
+      "what": "HOOD earnings watch"
+    },
+    {
+      "when": "2026-11-04",
+      "what": "META earnings watch"
+    },
+    {
+      "when": "2026-11-10",
+      "what": "NBIS earnings watch"
+    },
+    {
+      "when": "2026-11-18",
+      "what": "NVDA earnings watch"
+    },
+    {
+      "when": "2026-12-01",
+      "what": "MRVL earnings watch"
+    }
+  ],
+  "data": {
+    "session": "2026-10-07",
+    "source": "Twelve Data",
+    "tickers": {
+      "AAPL": {
+        "close": 336.97,
+        "pct": 1.0011075,
+        "open": 337.015,
+        "high": 338.6,
+        "low": 332.79,
+        "volume": 923345.0,
+        "avg_volume": 31135784.0,
+        "high_52w": 336.97,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "timestamp": 1791379800,
+        "source": "Twelve Data"
+      },
+      "AMZN": {
+        "close": 259.52,
+        "pct": 1.26029,
+        "open": 254.14,
+        "high": 259.845,
+        "low": 253.2,
+        "volume": 913958.0,
+        "avg_volume": 31642266.0,
+        "high_52w": 259.52,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "timestamp": 1791379800,
+        "source": "Twelve Data"
+      },
+      "TSLA": {
+        "close": 376.81,
+        "pct": -1.0166,
+        "open": 378.26,
+        "high": 382.3,
+        "low": 374.46,
+        "volume": 490999.0,
+        "avg_volume": 34015230.0,
+        "high_52w": 376.81,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "timestamp": 1791379800,
+        "source": "Twelve Data"
+      },
+      "PLTR": {
+        "close": 193.22,
+        "pct": 0.59873621,
+        "open": 192.735,
+        "high": 194.625,
+        "low": 190.155,
+        "volume": 280515.0,
+        "avg_volume": 16306092.0,
+        "high_52w": 193.22,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "timestamp": 1791379800,
+        "source": "Twelve Data"
+      },
+      "MSFT": {
+        "close": 530.94,
+        "pct": 0.3098455,
+        "open": 530.725,
+        "high": 531.73,
+        "low": 524.72,
+        "volume": 647836.0,
+        "avg_volume": 20894214.0,
+        "high_52w": 530.94,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "timestamp": 1791379800,
+        "source": "Twelve Data"
+      },
+      "GOOGL": {
+        "close": 348.93,
+        "pct": 0.35952812,
+        "open": 346.715,
+        "high": 349.52,
+        "low": 343.09,
+        "volume": 561677.0,
+        "avg_volume": 22504528.0,
+        "high_52w": 348.93,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "timestamp": 1791379800,
+        "source": "Twelve Data"
+      },
+      "HOOD": {
+        "close": 109.555,
+        "pct": -2.18304,
+        "open": 108.44,
+        "high": 110.18,
+        "low": 107.52,
+        "volume": 457869.0,
+        "avg_volume": 17729167.0,
+        "high_52w": 109.555,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "timestamp": 1791379800,
+        "source": "Twelve Data"
+      },
+      "NVDA": {
+        "close": 236.43,
+        "pct": -1.17456,
+        "open": 237.69,
+        "high": 239.08,
+        "low": 236.4,
+        "volume": 2390429.0,
+        "avg_volume": 99717893.0,
+        "high_52w": 236.43,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "timestamp": 1791379800,
+        "source": "Twelve Data"
+      },
+      "INTC": {
+        "close": 112.45,
+        "pct": -0.044444444,
+        "open": 111.65,
+        "high": 115.29,
+        "low": 111.14,
+        "volume": 1504343.0,
+        "avg_volume": 89647814.0,
+        "high_52w": 112.45,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "timestamp": 1791379800,
+        "source": "Twelve Data"
+      },
+      "NBIS": {
+        "close": 234.84,
+        "pct": -6.015126,
+        "open": 242.19,
+        "high": 243.45,
+        "low": 234.05,
+        "volume": 439143.0,
+        "avg_volume": 13744484.0,
+        "high_52w": 234.84,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "timestamp": 1791379800,
+        "source": "Twelve Data"
+      },
+      "MRVL": {
+        "close": 282.75,
+        "pct": -1.48427,
+        "open": 281.25,
+        "high": 284.95,
+        "low": 276.51,
+        "volume": 538015.0,
+        "avg_volume": 17137712.0,
+        "high_52w": 282.75,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "timestamp": 1791379800,
+        "source": "Twelve Data"
+      },
+      "META": {
+        "close": 723.005,
+        "pct": -2.14852,
+        "open": 737.07,
+        "high": 738.0,
+        "low": 720.56,
+        "volume": 436028.0,
+        "avg_volume": 18503353.0,
+        "high_52w": 723.005,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "timestamp": 1791379800,
+        "source": "Twelve Data"
+      }
+    }
+  }
+}
