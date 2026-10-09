@@ -135,11 +135,11 @@ def short_date(iso):
 def short_move(move):
     """Just the percentage, if there is one.
 
-    Entry moves range from '+16.6% &middot; best day since 2008' to
+    Entry moves range from '+16.6% &ndash; best day since 2008' to
     'reports after close'. The index is a price trail, so keep the number
     and drop both the commentary and the non-numeric placeholders.
     """
-    head = move.split("&middot;")[0]
+    head = move.split("&ndash;")[0]
     return next((w for w in head.split() if "%" in w), "")
 
 
@@ -154,43 +154,29 @@ def render_gauge(ed):
 
 
 def render_quick(ed):
-    """Turn raw ticker moves into a readable market-level takeaway."""
-    import re
-    moves = []
-    for q in ed.get("quick", []):
-        plain = re.sub(r"<[^>]+>", "", q)
-        m = re.search(r"([A-Z]{2,5})\s+([+-]\d+(?:\.\d+)?)%", plain)
-        if m: moves.append((m.group(1), float(m.group(2))))
-    up = sum(1 for _, v in moves if v > 0)
-    down = sum(1 for _, v in moves if v < 0)
-    lead = "The tape was broadly mixed"
-    if up > down: lead += f", with {up} of {len(moves)} tracked names higher"
-    elif down > up: lead += f", with {down} of {len(moves)} tracked names lower"
+    raw = ed.get("quick", [])
+    if raw and all(re.fullmatch(r"<b>[A-Z]+</b> [+-][\d.]+% at [\d.]+", q) for q in raw):
+        return ('<section class="band reveal"><h2>The 30-second version</h2>'
+                '<p>This edition contains a price snapshot. A researched market summary has not been supplied.</p></section>')
+    items = "".join(f"<li>{q}</li>" for q in ed.get("quick", []))
     return ('<section class="band reveal"><h2>The 30-second version</h2>'
-            f'<p class="quick-summary">{lead}.</p></section>')
+            f'<ul class="explanation-list">{items}</ul></section>')
+
+def render_explanation(value, title="Why it matters"):
+    # Authors can supply distinct arguments as a list. Keep legacy prose intact:
+    # splitting at full stops would corrupt abbreviations, numbers and citations.
+    points = value if isinstance(value, list) else [value]
+    items = "".join(f"<li>{point}</li>" for point in points if point)
+    return (f'<div class="why"><h3 class="explanation-title">{title}</h3>'
+            f'<ul class="explanation-list">{items}</ul></div>')
+
 def render_macro(ed):
     rows = ed.get("macro") or []
-    if not rows:
-        try:
-            feed = json.loads((ROOT / "news" / "index.json").read_text(encoding="utf-8"))
-            candidates = []
-            for ticker, items in (feed.get("tickers", {}) or {}).items():
-                for item in items:
-                    if item.get("primary") or item.get("score", 0) >= 10:
-                        candidates.append((item.get("published", ""), ticker, item))
-            for published, ticker, item in sorted(candidates, reverse=True)[:3]:
-                rows.append({
-                    "dt": html.escape(item.get("title", "")),
-                    "lead": "Why it matters",
-                    "dd": html.escape(f"{ticker} · {item.get('source', '')} · {published[:10]}. This is the freshest validated item in the news window; the ticker section below shows how the price responded.")
-                })
-        except (OSError, json.JSONDecodeError):
-            pass
     if not rows:
         return ""
     body = "".join(
         f'<dt>{m["dt"]}</dt>'
-        f'<dd><span class="lead">{m.get("lead", "Why it matters")}</span>{m["dd"]}</dd>'
+        f'<dd>{render_explanation(m["dd"], m.get("lead", "Why it matters"))}</dd>'
         for m in rows
     )
     return ('<section class="band reveal"><h2>Market-wide</h2>'
@@ -259,7 +245,7 @@ def render_entry(e):
     # template furniture and pushes the sentence down the card.
     head = [
         f'<span class="tick {e["dir"]}">'
-        f'<span class="arrow">{ {"up": "&#9650;", "down": "&#9660;"}.get(e["dir"], "&#9679;") }</span> '
+        f'<span class="arrow">{ {"up": "&#9650;", "down": "&#9660;"}.get(e["dir"], "&mdash;") }</span> '
         f'{e["ticker"]}</span>',
         chart_link(e["ticker"]),
     ]
@@ -274,7 +260,7 @@ def render_entry(e):
     if e.get("figures"):
         parts.append(f'<p class="figures">{"<br>".join(e["figures"])}</p>')
 
-    parts.append(f'<p class="why"><span class="lead">Why it matters</span>{e["why"]}</p>')
+    parts.append(render_explanation(e["why"]))
 
     foot = []
     for f in e.get("foot", []):
@@ -291,7 +277,7 @@ def render_entry(e):
 
 def render_entries(ed):
     body = "".join(render_entry(e) for e in ed["entries"])
-    return ('<section class="band reveal"><h2>Items &middot; sorted by size</h2>'
+    return ('<section class="band reveal"><h2>Items &ndash; sorted by size</h2>'
             f'<div class="entries">{body}</div></section>')
 
 
@@ -305,7 +291,7 @@ def render_nothing(ed):
     nm = ed.get("nothing_material")
     if not nm or not nm.get("tickers"):
         return ""
-    tickers = " &middot; ".join(nm["tickers"])
+    tickers = " &ndash; ".join(nm["tickers"])
     out = (f'<section class="band reveal"><h2>Nothing material</h2>'
            f'<p class="quiet"><b>{tickers}</b>, no company-specific '
            f'events in the past 24 hours.</p>')
@@ -369,7 +355,7 @@ def render_ticker_index(editions):
                     f'{chart_link(ticker)}</span>'
                     f'<span class="chips">{"".join(chips)}</span></div>')
 
-    return ('<section class="band reveal"><h2>By ticker &middot; every day on file</h2>'
+    return ('<section class="band reveal"><h2>By ticker &ndash; every day on file</h2>'
             f'<div class="tindex">{"".join(rows)}</div></section>')
 
 
@@ -421,7 +407,7 @@ def render_live(editions):
 
     return (
         '<section class="band reveal">'
-        '<h2>Live news &middot; checked every 5 minutes</h2>'
+        '<h2>Live news &ndash; checked every 5 minutes</h2>'
         '<div class="nstatus" data-news-status>'
         '<span class="ndot" data-dot></span>'
         '<span data-stamp>Loading the feed&hellip;</span>'
@@ -459,7 +445,7 @@ def render_archive(older):
             f'<span class="sum">{movers}</span></summary>'
             f'<div class="archive-body">{render_body(ed)}</div></details>'
         )
-    return (f'<section class="band reveal"><h2>Previous days &middot; {len(older)} '
+    return (f'<section class="band reveal"><h2>Previous days &ndash; {len(older)} '
             f'archived</h2>{"".join(blocks)}</section>')
 
 
@@ -641,9 +627,9 @@ def render_research(r):
     strips = "".join(
         f'<div class="sc"><div class="sh"><b>{tk}</b>'
         f'<span>{sum(1 for v in d["ev"] if v > 0)}/{len(d["ev"])} up '
-        f'&middot; <i class="{sign_class(d["median"])}">{pct(d["median"])}</i></span></div>'
+        f'&ndash; <i class="{sign_class(d["median"])}">{pct(d["median"])}</i></span></div>'
         f'{render_strip(d["ev"], d["first"], d["last"])}'
-        f'<div class="sm">usually {d["baseHit"]:.0f}% &middot; '
+        f'<div class="sm">usually {d["baseHit"]:.0f}% &ndash; '
         f'worst {pct(d["worst"])}</div></div>'
         for tk, d in sorted(w20.items(), key=lambda kv: -kv[1]["hit"])
     )
@@ -1077,7 +1063,7 @@ def main():
         print(f"ok — {len(editions)} edition(s), newest {editions[0]['date']}")
         return
     refresh_research()
-    page = render_page(editions)
+    page = render_page(editions).replace("&middot;", "&ndash;").replace("&#9679;", "&mdash;").replace(" · ", " — ")
     OUT.write_text(page, encoding="utf-8")
     PAGES_OUT.write_text(page, encoding="utf-8")
     print(f"wrote {OUT.name} and {PAGES_OUT.name} — {len(editions)} edition(s), "
@@ -1273,7 +1259,14 @@ CSS = """
              background:var(--wash); border:1px solid var(--line-2);
              border-radius:10px; padding:.9rem 1rem; margin:0; overflow-x:auto; }
   .figures b { color:var(--ink); font-weight:600; }
-  .why { margin:0; color:var(--ink-2); }
+  .why { margin:1.2rem 0; color:var(--ink-2); }
+  .explanation-title { font-family:var(--prose); font-size:1em; line-height:inherit;
+    font-weight:650; text-transform:none; letter-spacing:normal; margin:0 0 .6rem; color:var(--ink); }
+  .explanation-list { list-style:none; padding:0; margin:0; }
+  .explanation-list li { position:relative; padding-left:1.2rem; margin:.6rem 0; }
+  .explanation-list li::before { content:"–"; position:absolute; left:0; }
+  .lead { font-size:1em; text-transform:none; letter-spacing:normal; display:block; margin:0 0 .6rem; }
+
 
   .footline { display:flex; flex-direction:column; gap:.55rem; font-size:.93rem;
               color:var(--ink-2); padding-top:.55rem;
@@ -1854,11 +1847,11 @@ JS = """
       var stale = age > STALE;
       var txt = 'Checked ' + ago(age);
       if (lastChanged && lastChanged !== lastFetched) {
-        txt += ' · newest item ' + ago(Date.now() - lastChanged);
+        txt += ' — newest item ' + ago(Date.now() - lastChanged);
       }
       // Only claim the job is broken once the heartbeat itself is missing.
       // A quiet hour is a quiet hour, not a failure.
-      if (stale) txt += ' · overdue, the refresh job may not be running';
+      if (stale) txt += ' — overdue, the refresh job may not be running';
       stampEl.textContent = txt;
       newsRoot.classList.toggle('stale', stale);
       dotEl.classList.toggle('on', !stale);
@@ -1885,7 +1878,7 @@ JS = """
           dotEl.classList.remove('on');
           stampEl.textContent = lastFetched
             ? 'Checked ' + ago(Date.now() - lastFetched)
-              + ' · last refresh failed'
+              + ' — last refresh failed'
             : 'Could not load the feed (' + e.message + ')';
           // Nothing has ever loaded, so "Loading..." would sit there for
           // good. Say what actually happened instead.
@@ -1965,9 +1958,9 @@ PAGE = """<!doctype html>
   <footer class="colophon">
     <dl>
       <dt>Direction</dt>
-      <dd>&#9650; bullish &middot; &#9660; bearish &middot; &#9679; neutral. Describes what the data changes, not what the price will do.</dd>
+      <dd>&#9650; bullish &ndash; &#9660; bearish &ndash; &mdash; neutral. Describes what the data changes, not what the price will do.</dd>
       <dt>Strength</dt>
-      <dd>Major = 3%+ &middot; Notable = 1&ndash;3% &middot; Minor = under 1%.</dd>
+      <dd>Major = 3%+ &ndash; Notable = 1&ndash;3% &ndash; Minor = under 1%.</dd>
       <dt>Flagged</dt>
       <dd>Highlighted blocks mark items where the stock has <em>not</em> moved in line with the data. These are the cases worth a second look.</dd>
       <dt>Archive</dt>
@@ -1986,6 +1979,7 @@ PAGE = """<!doctype html>
 
 if __name__ == "__main__":
     main()
+
 
 
 
