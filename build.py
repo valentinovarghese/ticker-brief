@@ -176,7 +176,7 @@ def render_macro(ed):
             candidates = []
             for ticker, items in (feed.get("tickers", {}) or {}).items():
                 for item in items:
-                    if item.get("primary"):
+                    if item.get("primary") or item.get("score", 0) >= 10:
                         candidates.append((item.get("published", ""), ticker, item))
             for published, ticker, item in sorted(candidates, reverse=True)[:3]:
                 rows.append({
