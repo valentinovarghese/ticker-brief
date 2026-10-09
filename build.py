@@ -154,13 +154,22 @@ def render_gauge(ed):
 
 
 def render_quick(ed):
-    # The <span> matters: the li is a grid, so every inline child (<b>, <em>)
-    # would otherwise become its own grid item and break across cells.
-    items = "".join(f"<li><span>{q}</span></li>" for q in ed["quick"])
+    """Turn raw ticker moves into a readable market-level takeaway."""
+    import re
+    moves = []
+    for q in ed.get("quick", []):
+        plain = re.sub(r"<[^>]+>", "", q)
+        m = re.search(r"([A-Z]{2,5})\s+([+-]\d+(?:\.\d+)?)%", plain)
+        if m: moves.append((m.group(1), float(m.group(2))))
+    up = sum(1 for _, v in moves if v > 0)
+    down = sum(1 for _, v in moves if v < 0)
+    lead = "The tape was broadly mixed"
+    if up > down: lead = f"Buyers had the edge, with {up} of {len(moves)} tracked names higher"
+    elif down > up: lead = f"Sellers had the edge, with {down} of {len(moves)} tracked names lower"
+    strongest = sorted(moves, key=lambda x: abs(x[1]), reverse=True)[:2]
+    details = " The biggest moves came from " + " and ".join(f"{t} ({v:+.2f}%)" for t, v in strongest) + "." if strongest else "."
     return ('<section class="band reveal"><h2>The 30-second version</h2>'
-            f'<ol class="quick">{items}</ol></section>')
-
-
+            f'<p class="quick-summary">{lead}.{details}</p></section>')
 def render_macro(ed):
     rows = ed.get("macro") or []
     if not rows:
@@ -1194,7 +1203,7 @@ CSS = """
                margin:0; padding-bottom:.65rem; border-bottom:1px solid var(--line); }
 
   /* ---- the 30-second version ---- */
-  ol.quick { list-style:none; margin:0; padding:0; display:flex;
+  p.quick-summary { margin:0; max-width:42rem; font-size:1.2rem; line-height:1.5; letter-spacing:-.02em; }\n  ol.quick { list-style:none; margin:0; padding:0; display:flex;
              flex-direction:column; gap:.95rem; }
   ol.quick li { display:grid; grid-template-columns:.4rem 1fr; gap:.9rem;
                 align-items:start; }
@@ -1963,5 +1972,6 @@ PAGE = """<!doctype html>
 
 if __name__ == "__main__":
     main()
+
 
 
