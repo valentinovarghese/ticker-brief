@@ -171,6 +171,22 @@ def render_quick(ed):
 def render_macro(ed):
     rows = ed.get("macro") or []
     if not rows:
+        try:
+            feed = json.loads((ROOT / "news" / "index.json").read_text(encoding="utf-8"))
+            candidates = []
+            for ticker, items in (feed.get("tickers", {}) or {}).items():
+                for item in items:
+                    if item.get("primary"):
+                        candidates.append((item.get("published", ""), ticker, item))
+            for published, ticker, item in sorted(candidates, reverse=True)[:3]:
+                rows.append({
+                    "dt": html.escape(item.get("title", "")),
+                    "lead": "Why it matters",
+                    "dd": html.escape(f"{ticker} · {item.get('source', '')} · {published[:10]}. This is the freshest validated item in the news window; the ticker section below shows how the price responded.")
+                })
+        except (OSError, json.JSONDecodeError):
+            pass
+    if not rows:
         return ""
     body = "".join(
         f'<dt>{m["dt"]}</dt>'
