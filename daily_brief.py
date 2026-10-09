@@ -50,6 +50,19 @@ def main():
             if item.get('primary'):
                 primary.append((item.get('published',''), ticker, item.get('title',''), item.get('source','')))
     primary.sort(reverse=True)
+    by_ticker = {}
+    for published, ticker, title, source in primary:
+        by_ticker.setdefault(ticker, []).append((published, title, source))
+    for entry in entries:
+        stories = by_ticker.get(entry['ticker'], [])[:3]
+        if stories:
+            entry['happened'] = html.escape(stories[0][1])
+            entry['figures'].extend(html.escape(f'{title} — {source} ({published[:10]})') for published, title, source in stories[1:])
+            entry['why'] = [
+                html.escape(f'{title} was the strongest validated item in the news window ({source}, {published[:10]}).')
+                for published, title, source in stories
+            ]
+            entry['foot'] = [{'k': 'Source context', 'v': html.escape(f'{source}; published {published[:10]}. Price evidence remains the Twelve Data snapshot.')} for published, title, source in stories[:1]]
     macro = []
     for published, ticker, title, source in primary[:3]:
         macro.append({'dt': html.escape(title), 'lead': 'Why it matters', 'dd': html.escape(f'{ticker} · {source} · {published[:10]}. This is the freshest company-specific item in the validated news window; the price move shows whether the market treated it as material.')})
@@ -63,6 +76,7 @@ def main():
     if out.exists():raise SystemExit(f'refusing to overwrite existing edition: {out.name}')
     out.write_text(json.dumps(edition,indent=2)+'\n',encoding='utf-8');print(out)
 if __name__=='__main__':main()
+
 
 
 
