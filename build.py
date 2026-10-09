@@ -164,12 +164,10 @@ def render_quick(ed):
     up = sum(1 for _, v in moves if v > 0)
     down = sum(1 for _, v in moves if v < 0)
     lead = "The tape was broadly mixed"
-    if up > down: lead = f"Buyers had the edge, with {up} of {len(moves)} tracked names higher"
-    elif down > up: lead = f"Sellers had the edge, with {down} of {len(moves)} tracked names lower"
-    strongest = sorted(moves, key=lambda x: abs(x[1]), reverse=True)[:2]
-    details = " The biggest moves came from " + " and ".join(f"{t} ({v:+.2f}%)" for t, v in strongest) + "." if strongest else "."
+    if up > down: lead += f", with {up} of {len(moves)} tracked names higher"
+    elif down > up: lead += f", with {down} of {len(moves)} tracked names lower"
     return ('<section class="band reveal"><h2>The 30-second version</h2>'
-            f'<p class="quick-summary">{lead}.{details}</p></section>')
+            f'<p class="quick-summary">{lead}.</p></section>')
 def render_macro(ed):
     rows = ed.get("macro") or []
     if not rows:
