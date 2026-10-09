@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import json, os, time, urllib.parse, urllib.request
+import json, os, time, urllib.parse, urllib.request, html
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -39,11 +39,30 @@ def main():
     if research_path.exists():
         try: research=json.loads(research_path.read_text(encoding='utf-8'))
         except json.JSONDecodeError: research={}
+    news = {}
+    news_path = ROOT / 'news' / 'index.json'
+    if news_path.exists():
+        try: news = json.loads(news_path.read_text(encoding='utf-8'))
+        except json.JSONDecodeError: news = {}
+    primary = []
+    for ticker, items in (news.get('tickers', {}) if isinstance(news, dict) else {}).items():
+        for item in items:
+            if item.get('primary'):
+                primary.append((item.get('published',''), ticker, item.get('title',''), item.get('source','')))
+    primary.sort(reverse=True)
+    macro = []
+    for published, ticker, title, source in primary[:3]:
+        macro.append({'dt': html.escape(title), 'lead': 'Why it matters', 'dd': html.escape(f'{ticker} · {source} · {published[:10]}. This is the freshest company-specific item in the validated news window; the price move shows whether the market treated it as material.')})
+    breadth = sum(1 for q in quotes.values() if q['pct'] > 0)
+    readthrough = {'heading': 'What the tape is saying', 'body': f'{breadth} of {len(quotes)} tracked names were higher. Read the session as a market-wide measure of breadth first, then use the company entries below to separate company news from sector movement.'}
     upcoming_raw=research.get('upcoming',[]) if isinstance(research,dict) else []
     upcoming=[{'when': r.get('date','date unknown'), 'what': f"{r.get('ticker','Company')} earnings watch"} for r in upcoming_raw]
     label='market close' if market_open else 'weekend or market holiday update'
-    edition={'date':session,'weekday':now.strftime('%A'),'headline':f'US {label}, {now.strftime("%-d %B %Y")}: prices, news and earnings watch','gauge':[{'text':f'Latest available US market data for {session}' if market_open else f'US markets closed on {session}; latest available prices shown','tone':'flat'}],'quick':[f'<b>{s}</b> {quotes[s]["pct"]:+.2f}% at {quotes[s]["close"]:.2f}' for s in SYMBOLS],'entries':entries,'earnings_ahead':upcoming,'data':{'session':session,'source':'Twelve Data','tickers':quotes}}
+    edition={'date':session,'weekday':now.strftime('%A'),'headline':f'US {label}, {now.strftime("%-d %B %Y")}: prices, news and earnings watch','gauge':[{'text':f'Latest available US market data for {session}' if market_open else f'US markets closed on {session}; latest available prices shown','tone':'flat'}],'quick':[f'<b>{s}</b> {quotes[s]["pct"]:+.2f}% at {quotes[s]["close"]:.2f}' for s in SYMBOLS],'entries':entries,'macro':macro,'readthrough':readthrough,'earnings_ahead':upcoming,'data':{'session':session,'source':'Twelve Data','tickers':quotes}}
     out=ROOT/'editions'/f'{session}.json'
     if out.exists():raise SystemExit(f'refusing to overwrite existing edition: {out.name}')
     out.write_text(json.dumps(edition,indent=2)+'\n',encoding='utf-8');print(out)
 if __name__=='__main__':main()
+
+
+
