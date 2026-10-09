@@ -1071,24 +1071,24 @@ CSS = """
      carry a faint warm bias instead, so white reads as paper and not as
      an unpainted surface. */
   :root {
-    --paper:#FFFFFF;
-    --wash:#FAFAF8;
-    --ink:#0C0D0E;
-    --ink-2:#4C5157;
-    --ink-3:#6E747B;
+    --paper:#F5F6F2;
+    --wash:#E9ECE7;
+    --ink:#151817;
+    --ink-2:#3F4742;
+    --ink-3:#66716A;
     --topbar-h:2.62rem;
-    --line:#E7E6E1;
-    --line-2:#F0EFEB;
-    --up:#046A44;
-    --down:#B33124;
+    --line:#D7DDD7;
+    --line-2:#E2E8E2;
+    --up:#2F6B4F;
+    --down:#9B4F46;
     --amber:#8A6D1F;
     --amber-wash:#FCFAF1;
 
     /* Prose reads in a serif, structure and data in sans and mono. The
        split is not decoration: it marks reported fact apart from the
        sentence that interprets it. */
-    --prose:Charter,"Bitstream Charter","Source Serif 4",Cambria,Georgia,serif;
-    --ui:system-ui,-apple-system,"Segoe UI Variable Text","Segoe UI",Roboto,
+    --prose:Inter,"Segoe UI",Arial,sans-serif;
+    --ui:Inter,system-ui,-apple-system,"Segoe UI",Roboto,
          Helvetica,Arial,sans-serif;
     --mono:ui-monospace,SFMono-Regular,"SF Mono","Cascadia Mono",Menlo,
            Consolas,monospace;
@@ -1099,7 +1099,7 @@ CSS = """
 
   * { box-sizing:border-box; }
   html { scroll-behavior:smooth; color-scheme:light; background:var(--paper); }
-  body { background:var(--paper); color:var(--ink); font-family:var(--prose);
+  body { background:var(--paper); color:var(--ink); font-family:var(--prose); letter-spacing:-.005em;
          font-size:18px; line-height:1.65; margin:0;
          -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility; }
 
@@ -1963,3 +1963,5 @@ PAGE = """<!doctype html>
 
 if __name__ == "__main__":
     main()
+
+
