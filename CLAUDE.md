@@ -89,12 +89,21 @@ publishing a chart that quietly omits a session.
   matters, say the filing could not be read directly and attribute the
   detail to the coverage.
 
-## Dating
+## Dating and publication
 
-The brief runs at 07:00 ET, before the open. The edition is dated that
-day; the session it reports is the previous close. Both are correct at
-once and the page says so. Check the clock at the start of a run rather
-than assuming the schedule fired on time.
+The current publication runs on weekdays after 17:00 ET. The edition date
+and the session it reports are the same completed trading day. Check the
+clock and the NYSE holiday calendar before drafting. Run
+`session_snapshot.py` to fetch Twelve Data `1day` bars, and copy that
+snapshot's `tickers` block unchanged into the edition. The `/quote`
+endpoint has repeatedly returned a 09:30 ET timestamp after the close;
+do not use it as close evidence.
+
+The Codex post-close automation is the sole scheduled edition publisher.
+The GitHub `daily-brief.yml` workflow is a manual source check. Before
+publishing, run `edition_gate.py` against the saved snapshot, then
+`build.py --check`, then `build.py`. Preserve all prior editions and do not
+publish a price-only placeholder. See `PUBLICATION.md` for the full runbook.
 
 Date every item before writing it up. A fresh article about an old event
 is an old event, and this list attracts them: recycled coverage of the

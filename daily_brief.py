@@ -75,7 +75,8 @@ def main():
     out=ROOT/'editions'/f'{session}.json'
     if out.exists():raise SystemExit(f'refusing to overwrite existing edition: {out.name}')
     out.write_text(json.dumps(edition,indent=2)+'\n',encoding='utf-8');print(out)
-if __name__=='__main__':main()
+if __name__=='__main__':
+    raise SystemExit('The price-only generator is retired. Use PUBLICATION.md and session_snapshot.py for a researched post-close edition.')
 
 
 
