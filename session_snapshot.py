@@ -70,6 +70,9 @@ def fetch_series(symbol, key):
             with urllib.request.urlopen(url, timeout=30) as response:
                 payload = json.load(response)
             if payload.get('status') == 'error':
+                if str(payload.get('code')) == '429' and attempt < 3:
+                    time.sleep(15 * (attempt + 1))
+                    continue
                 raise ValueError(f'Twelve Data error for {symbol}: {payload.get("message")}')
             if not isinstance(payload.get('values'), list):
                 raise ValueError(f'Twelve Data returned no daily bars for {symbol}')
@@ -78,6 +81,10 @@ def fetch_series(symbol, key):
             if exc.code != 429 or attempt == 3:
                 raise
             time.sleep(15 * (attempt + 1))
+        except urllib.error.URLError:
+            if attempt == 3:
+                raise
+            time.sleep(5 * (attempt + 1))
     raise AssertionError('unreachable')
 
 
@@ -134,8 +141,8 @@ def main():
     if not key:
         raise SystemExit('TWELVEDATA_KEY is required')
     output = args.output or ROOT / 'work' / f'session-snapshot-{session}.json'
-    if output.exists():
-        raise SystemExit(f'refusing to overwrite evidence: {output}')
+    if (ROOT / 'editions') in output.resolve().parents:
+        raise SystemExit('snapshot evidence must not be written into editions/')
     quotes = {}
     for index, symbol in enumerate(SYMBOLS):
         if index:
@@ -146,7 +153,7 @@ def main():
         'session': session.isoformat(),
         'source': 'Twelve Data 1day time_series; exchange-local session',
         'source_url': 'https://twelvedata.com/docs',
-        'fetched_at_utc': now.isoformat(),
+        'fetched_at_utc': datetime.now(timezone.utc).isoformat(),
         'tickers': quotes,
     }
     output.parent.mkdir(parents=True, exist_ok=True)
