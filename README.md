@@ -1,7 +1,7 @@
 # Ticker Brief
 
 A daily, sourced Market report across assets and major international
-economies, plus a researched post-close brief on trading weekdays for
+economies, plus a researched brief of the most recent completed US session for
 twelve tickers: AAPL, AMZN, TSLA, PLTR, MSFT, GOOGL, HOOD, NVDA, INTC,
 NBIS, MRVL and META. Both sections explain what changed, why it matters,
 what remains uncertain and what to check next.

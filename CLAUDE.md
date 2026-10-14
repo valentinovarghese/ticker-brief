@@ -118,16 +118,19 @@ by `edition_gate.py` for new stock editions.
 
 ## Dating and publication
 
-The Market report runs every calendar day at 22:00 Europe/London. The
-stock edition runs only on eligible trading weekdays after 17:00 ET. Its date
-and the session it reports are the same completed trading day. Check the
-clock and the NYSE holiday calendar before drafting. Run
+The Market report runs every calendar day at 13:00 Europe/London. At
+that hour the current US session is not complete, so a stock edition
+uses the most recent completed NYSE session, even if that was Friday
+before a weekend or the day before a holiday. Create it only when its
+dated file is absent. Its date and the session it reports are the same
+completed trading day. Run `publication_calendar.py`, then verify its
+dates against the clock and official NYSE calendar before drafting. Run
 `session_snapshot.py` to fetch Twelve Data `1day` bars, and copy that
 snapshot's `tickers` block unchanged into the edition. The `/quote`
 endpoint has repeatedly returned a 09:30 ET timestamp after the close;
 do not use it as close evidence.
 
-The Codex post-close automation is the sole scheduled publisher.
+The Codex 13:00 London automation is the sole scheduled publisher.
 The GitHub `daily-brief.yml` workflow is a manual source check. Before
 publishing, run `market_gate.py` and, when applicable, `edition_gate.py`
 against the saved snapshot, then

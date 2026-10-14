@@ -5,6 +5,7 @@ from datetime import datetime, timezone
 import edition_gate
 import market_gate
 import session_snapshot
+import publication_calendar
 import build
 
 
@@ -32,6 +33,20 @@ class SnapshotTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, '17:00 ET'):
             session_snapshot.session_time(datetime(2026, 10, 13, 19, tzinfo=timezone.utc),
                                           datetime(2026, 10, 13).date())
+
+    def test_london_afternoon_uses_last_completed_session(self):
+        self.assertEqual(
+            publication_calendar.publication_dates(
+                datetime(2026, 10, 15, 12, tzinfo=timezone.utc)),
+            {'market_date': '2026-10-15', 'stock_session': '2026-10-14'})
+        self.assertEqual(
+            publication_calendar.publication_dates(
+                datetime(2026, 11, 28, 13, tzinfo=timezone.utc)),
+            {'market_date': '2026-11-28', 'stock_session': '2026-11-27'})
+        self.assertEqual(
+            publication_calendar.publication_dates(
+                datetime(2026, 11, 27, 13, tzinfo=timezone.utc)),
+            {'market_date': '2026-11-27', 'stock_session': '2026-11-25'})
 
 
 class EditionGateTests(unittest.TestCase):

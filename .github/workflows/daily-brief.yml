@@ -1,6 +1,6 @@
 name: Ticker Brief source check
 
-# The Codex weekday post-close automation owns publication. This manual job
+# The Codex daily 13:00 London automation owns publication. This manual job
 # verifies the source without creating a generic edition or racing it.
 on:
   workflow_dispatch:

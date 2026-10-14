@@ -1,19 +1,22 @@
 # Daily publication runbook
 
-The Codex automation runs daily at 22:00 Europe/London, after the regular
-US market close through UK/US daylight-saving transitions. It publishes a
+The Codex automation runs daily at 13:00 Europe/London. It publishes a
 dated Market report every calendar day, including weekends and US market
-holidays. On eligible trading days it also publishes the researched
-twelve-ticker edition after 17:00 ET. It is the sole scheduled publisher.
+holidays. At that hour the current US equity session has not closed, so
+the researched twelve-ticker edition always describes the most recent
+completed NYSE session. It creates that edition only if it does not
+already exist; a weekend or holiday run can catch up a missed session.
+It is the sole scheduled publisher.
 `.github/workflows/daily-brief.yml` is a manual source check; the
 five-minute news workflow is independent.
 
-1. Clone or fast-forward a clean `main`. Check the current New York date,
-   the official [NYSE calendar](https://www.nyse.com/trade/hours-calendars),
-   and whether today's market report and stock edition exist. On a weekend
-   or holiday, publish only the Market report. Never overwrite a prior
-   day's report or any stock edition. If today's Market report was drafted
-   before the US close, refresh that same day's report after the close.
+1. Clone or fast-forward a clean `main`. Run
+   `python3 publication_calendar.py` (use `py` on Windows) and verify its
+   `market_date` and `stock_session` against the current London/New York
+   clocks and the official
+   [NYSE calendar](https://www.nyse.com/trade/hours-calendars). Check whether
+   `market/<market_date>.json` and `editions/<stock_session>.json` already
+   exist. Never overwrite a prior day's report or any stock edition.
 2. Research and write `market/YYYY-MM-DD.json` with the schema in
    `market_gate.py`. Cover every General market category (equities,
    Treasuries and bonds, credit, currencies, crypto, commodities, housing,
@@ -25,12 +28,15 @@ five-minute news workflow is independent.
    and replace stale items when better evidence is available. Include
    other regions or assets when a material story warrants them. Avoid
    generic headlines, undated market direction, unsupported causal claims
-   and padding. On weekends or holidays, explain when a market is closed
-   and cover fresh policy, earnings or international developments; do not
-   manufacture a US closing move.
-3. On an eligible trading day after 17:00 ET, ensure Python 3.12+ and the
-   `tzdata` package on Windows. Run
-   `python3 session_snapshot.py --date YYYY-MM-DD` (use `py` on Windows).
+   and padding. At 13:00 London, describe the US equity market as open,
+   pre-open or closed according to the actual New York clock. On weekends
+   or holidays, explain when a market is closed and cover fresh policy,
+   earnings or international developments; do not manufacture a US
+   closing move. If today's Market report already exists, inspect it and
+   leave it in place.
+3. If `editions/<stock_session>.json` is absent, ensure Python 3.12+ and
+   the `tzdata` package on Windows. Run
+   `python3 session_snapshot.py --date <stock_session>` (use `py` on Windows).
    It writes ignored `work/session-snapshot-YYYY-MM-DD.json`. The script
    validates a dated completed daily bar for all twelve tickers, calculates
    the prior-close return and trailing volume average, and fails atomically.
@@ -55,20 +61,25 @@ five-minute news workflow is independent.
    what would change the reading, next date, and visible source links.
    `edition_gate.py` enforces minimum depth but a passing word count is
    not sufficient editorial review.
-6. Run `python3 market_gate.py --date YYYY-MM-DD` and, on a trading day,
-   `python3 edition_gate.py --date YYYY-MM-DD --snapshot
-   work/session-snapshot-YYYY-MM-DD.json`. Then run `python3 build.py --check`,
+6. Run `python3 market_gate.py --date <market_date>` and, if a new stock
+   edition was created, `python3 edition_gate.py --date <stock_session>
+   --snapshot work/session-snapshot-<stock_session>.json`. Then run
+   `python3 build.py --check`,
    then `python3 build.py`. Review every unmapped comparative claim reported
    by the checker. Verify `index.html` and `site.html` have matching hashes
-   and display the Market report and, if applicable, new stock edition.
+   and display today's Market report and, if applicable, new stock edition.
    Re-read source dates, figures, and the rendered page before committing.
-7. Stage only the new report, eligible stock edition, and generated
+7. Stage only today's new report, any new stock edition, and generated
    site/research outputs. Commit,
    `git pull --rebase origin main`, then push to `main`; retry a rejected push
-   after another fetch/rebase. Check the remote report, eligible edition,
-   site outputs and live deployment.
+   after another fetch/rebase. Check the remote report, any new edition,
+   site outputs and live deployment. If both dated files already exist,
+   report that fact without creating a duplicate commit.
 
 If source data, research, credentials, or repository access fail, stop and
-report the exact blocker. Do not publish a partial report or edition. This runbook
+report the exact blocker. If stock research or price data fail while a
+complete Market report is verified, the Market report may still publish;
+do not publish a partial stock edition. If Market sources fail, do not
+publish an incomplete Market report. This runbook
 cannot guarantee that a third-party API or news source will always be up;
 failing closed protects the archive when one is unavailable.
