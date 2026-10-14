@@ -1,0 +1,179 @@
+{
+  "date": "2026-10-14",
+  "as_of_utc": "2026-10-14T17:00:00Z",
+  "headline": "Inflation, energy and policy are setting the cross-market agenda",
+  "overview": "The September US inflation report arrived this morning while the October 14 US stock session was still open at this report's update time. Its headline acceleration was heavily influenced by gasoline, so the useful question is whether energy costs spread into services, wages and company margins. The latest completed Treasury and foreign-exchange observations should be read alongside that release rather than mistaken for a reaction to it. Abroad, central banks face different versions of the same energy and growth tension. This report separates new releases from older policy decisions still shaping the market; it does not claim a final October 14 US equity close.",
+  "general": [
+    {
+      "id": "equities",
+      "label": "Equities",
+      "items": [{
+        "headline": "US stocks face a fresh inflation test",
+        "detail": "The Bureau of Labor Statistics reported September consumer prices up 0.6% from August and 3.7% from a year earlier. This report was released before today's US equity close, so it is a new input for stock investors rather than an explanation of a finished October 14 session. Gasoline supplied more than half the monthly headline increase.",
+        "why": "An inflation surprise can change expected interest rates and the discount rate applied to future earnings. That mechanism matters especially for companies valued on cash flows far in the future. It can also squeeze consumers and operating margins, but a broad index move alone cannot identify which channel dominated.",
+        "watch": "Compare the final equity close and sector breadth with Treasury yields after the inflation release.",
+        "status": "new",
+        "as_of": "2026-10-14",
+        "sources": [{"title": "BLS September CPI", "url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm", "published": "2026-10-14"}]
+      }]
+    },
+    {
+      "id": "treasuries_bonds",
+      "label": "Treasuries and bonds",
+      "items": [{
+        "headline": "Inflation puts the bond discount rate back in focus",
+        "detail": "The US Treasury publishes a daily constant-maturity yield curve based on market quotations, while the BLS released September CPI today. The latest completed Treasury observations predate this morning's inflation release; this report therefore does not describe those older yields as a CPI reaction. Headline CPI rose 3.7% over twelve months and core CPI rose 2.6%.",
+        "why": "The short end of the curve is sensitive to the expected policy path, while longer maturities also reflect inflation risk, supply and term premium. A higher long-term yield raises financing costs and lowers the present value of future corporate earnings. Distinguishing a rate move from a stock-specific event helps explain valuation changes.",
+        "watch": "Check the dated post-release Treasury curve, especially two-year and ten-year yields, before assigning a bond-market response.",
+        "status": "new",
+        "as_of": "2026-10-14",
+        "sources": [{"title": "US Treasury daily yield curve", "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve", "published": "2026-10-13"}, {"title": "BLS September CPI", "url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm", "published": "2026-10-14"}]
+      }]
+    },
+    {
+      "id": "credit",
+      "label": "Corporate credit",
+      "items": [{
+        "headline": "Credit spreads are the risk appetite cross-check",
+        "detail": "The Federal Reserve Bank of St. Louis publishes the ICE BofA US High Yield Index option-adjusted spread, a measure of the extra yield on speculative-grade corporate bonds over comparable Treasuries. The last observation verified for this item was dated October 7; this report does not assert a current spread level. The series is a companion to equity and Treasury readings.",
+        "why": "If Treasury yields rise but credit spreads stay steady, financing costs may be responding mainly to rates. If spreads also widen, lenders may be demanding more compensation for default risk or liquidity. That distinction matters for companies with refinancing needs and for deciding whether equity weakness reflects a broad risk shock.",
+        "watch": "Compare the next published spread observation with its recent trend and the Treasury curve.",
+        "status": "carry_forward",
+        "as_of": "2026-10-07",
+        "sources": [{"title": "FRED high-yield spread series", "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2", "published": "2026-10-07"}]
+      }]
+    },
+    {
+      "id": "currencies",
+      "label": "Currencies",
+      "items": [{
+        "headline": "Dollar moves need a dated reading",
+        "detail": "The Federal Reserve's H.10 foreign-exchange release was last updated October 13. It provides a consistent reference for major currency pairs and broad dollar indexes, but those observations precede today's US inflation release. A claim that the dollar reacted to this CPI report needs a later quote, so no such direction is asserted here.",
+        "why": "A stronger dollar can reduce the translated value of foreign sales for US multinationals and tighten funding conditions abroad. Currency moves may also reflect differences between central-bank policy paths, not just one US release. Dated exchange-rate evidence is necessary before connecting the move to earnings or international capital flows.",
+        "watch": "Read the next H.10 release and compare major pairs with US and overseas rate changes.",
+        "status": "carry_forward",
+        "as_of": "2026-10-13",
+        "sources": [{"title": "Federal Reserve H.10 exchange rates", "url": "https://www.federalreserve.gov/releases/h10/current/", "published": "2026-10-13"}]
+      }]
+    },
+    {
+      "id": "crypto",
+      "label": "Crypto",
+      "items": [{
+        "headline": "Crypto custody rules remain a policy question",
+        "detail": "On October 1 the US Securities and Exchange Commission proposed rules and amendments addressing how registered investment advisers and regulated funds can custody crypto assets. The announcement is a proposal, not a final rule. It is relevant to institutional participation even though it does not establish today's Bitcoin or Ethereum price direction.",
+        "why": "Custody standards affect which institutions can hold crypto assets, what safeguards they need and the cost of offering exposure to clients. A final rule could change access and compliance costs, but price also depends on liquidity and investor demand. Treat the proposal as a policy development rather than a proven cause of a daily move.",
+        "watch": "Track the SEC comment process and any final rule, then compare dated crypto prices with broader risk assets.",
+        "status": "carry_forward",
+        "as_of": "2026-10-01",
+        "sources": [{"title": "SEC crypto custody proposal", "url": "https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal", "published": "2026-10-01"}]
+      }]
+    },
+    {
+      "id": "commodities",
+      "label": "Commodities and energy",
+      "items": [{
+        "headline": "Oil supply risk is feeding the inflation discussion",
+        "detail": "In its October Short-Term Energy Outlook, the US Energy Information Administration forecast Brent crude averaging $105 a barrel in the fourth quarter of 2026, $14 above its previous forecast. That is a forecast, not today's spot price. The BLS subsequently reported a 9.1% September rise in the gasoline component of US consumer prices.",
+        "why": "Energy costs reach households quickly through fuel and can later affect freight, manufacturing and travel costs. The duration of supply constraints matters more for monetary policy than a single commodity print. Higher energy costs can help producers while hurting energy-intensive businesses, so the impact on the stock market is uneven.",
+        "watch": "Compare actual Brent and gasoline prices with EIA's forecast and monitor later core inflation for pass-through.",
+        "status": "new",
+        "as_of": "2026-10-14",
+        "sources": [{"title": "EIA October Short-Term Energy Outlook", "url": "https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf", "published": "2026-10-06"}, {"title": "BLS September CPI", "url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm", "published": "2026-10-14"}]
+      }]
+    },
+    {
+      "id": "housing",
+      "label": "Housing and property",
+      "items": [{
+        "headline": "Mortgage rates are squeezing housing affordability",
+        "detail": "Freddie Mac's October 8 Primary Mortgage Market Survey put the average US thirty-year fixed mortgage rate at 7.40%, up from 7.28% the prior week and 6.30% a year earlier. The survey reflects applications submitted to lenders, not a mortgage quote available to every buyer. It is the latest verified weekly reading used in this report.",
+        "why": "A higher mortgage rate raises the monthly payment on a given home price and can keep prospective buyers on the sidelines. That affects homebuilders, real-estate brokers, household formation and the demand for furnishings and renovation. Housing can remain weak even if listed home prices do not immediately fall, because transactions and affordability adjust at different speeds.",
+        "watch": "Compare the next Freddie Mac weekly survey with home sales, listings and builder results.",
+        "status": "carry_forward",
+        "as_of": "2026-10-08",
+        "sources": [{"title": "Freddie Mac mortgage survey", "url": "https://www.freddiemac.com/pmms", "published": "2026-10-08"}]
+      }]
+    },
+    {
+      "id": "us_policy",
+      "label": "US economy and government",
+      "items": [{
+        "headline": "September CPI raises the policy stakes",
+        "detail": "US headline CPI increased 0.6% in September and 3.7% over twelve months, versus 3.4% annual inflation in August. Gasoline rose 9.1% for the month and accounted for more than half the headline monthly increase. Core prices, excluding food and energy, rose 0.3% monthly and 2.6% annually.",
+        "why": "The split between headline energy and core inflation matters for how persistent the shock may be. Federal Reserve decisions depend on the broader economic picture rather than one release, but sustained price pressure can affect expected rates, household purchasing power and government borrowing costs. A policy conclusion requires later data and official Fed communication.",
+        "watch": "Look for the next labor, spending and inflation releases and the Federal Reserve's own policy statement.",
+        "status": "new",
+        "as_of": "2026-10-14",
+        "sources": [{"title": "BLS September CPI", "url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm", "published": "2026-10-14"}]
+      }]
+    }
+  ],
+  "international": [
+    {
+      "id": "uk",
+      "label": "United Kingdom",
+      "items": [{
+        "headline": "Bank of England is balancing energy against weak demand",
+        "detail": "At its September meeting, the Bank of England held Bank Rate at 3.75% by a six-to-three vote; the dissenters favored an increase to 4%. The Bank said August UK CPI inflation reached 3.1% and warned that sustained energy pressure could raise it further. Its next decision is scheduled for November 5.",
+        "why": "The split vote shows the policy trade-off: higher fuel and utility costs threaten inflation, while tight financing and a softer labor market restrain growth. UK rate expectations affect gilts and sterling and can influence global bond pricing. This is still the September decision, so it should not be described as a new October action.",
+        "watch": "Monitor UK wage and inflation releases before the November 5 Bank Rate decision.",
+        "status": "carry_forward",
+        "as_of": "2026-09-17",
+        "sources": [{"title": "Bank of England September policy minutes", "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026", "published": "2026-09-17"}]
+      }]
+    },
+    {
+      "id": "euro_area",
+      "label": "Euro area",
+      "items": [{
+        "headline": "ECB has raised rates into an energy shock",
+        "detail": "The European Central Bank raised its three key interest rates by 25 basis points on September 10, setting the deposit rate at 2.50% from September 16. Its staff projected average euro-area inflation of 3.0% for 2026 and growth of 0.9%, while warning that energy disruption made the outlook unusually uncertain.",
+        "why": "Tighter euro-area policy can raise financing costs for companies and governments even as energy imports reduce household spending power. Differences between ECB and Fed expectations can influence the euro and multinational earnings translation. The figures are dated ECB projections, not October realized inflation or a fresh policy decision.",
+        "watch": "Compare the next euro-area inflation release and ECB decision with the September staff projections.",
+        "status": "carry_forward",
+        "as_of": "2026-09-10",
+        "sources": [{"title": "ECB September monetary policy decisions", "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html", "published": "2026-09-10"}]
+      }]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "items": [{
+        "headline": "Chinese consumer inflation remains modest",
+        "detail": "China's National Bureau of Statistics reported September consumer prices up 0.9% from a year earlier and 0.2% from August. Food prices were 1.7% lower than a year earlier, while non-food prices increased 1.5%. The release was published October 14 and offers a new demand and pricing signal for a major global market.",
+        "why": "China's price mix matters for consumer demand, producer margins and the global appetite for commodities. Modest headline inflation can coexist with very different conditions across food, services and manufactured goods. One CPI release does not establish the strength of overall growth, so industrial and trade figures remain necessary cross-checks.",
+        "watch": "Read the next Chinese industrial production, retail sales and trade releases before inferring a growth trend.",
+        "status": "new",
+        "as_of": "2026-10-14",
+        "sources": [{"title": "China NBS September CPI", "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261014_1965477.html", "published": "2026-10-14"}]
+      }]
+    },
+    {
+      "id": "japan",
+      "label": "Japan",
+      "items": [{
+        "headline": "Bank of Japan sees a different inflation path",
+        "detail": "The Bank of Japan's published summary of opinions from its September 17-18 meeting shows debate about the appropriate pace of rate increases. Some members pointed to underlying inflation approaching 2% and accommodative conditions; others urged caution because consumption and the broader economy were not uniformly strong.",
+        "why": "Japanese rates and the yen affect global bond flows, import costs and the foreign earnings of Japanese companies. A gradual shift away from easy policy can also change the appeal of yen-funded positions elsewhere. The summary records member views rather than a fresh October decision, so it cannot establish today's market direction.",
+        "watch": "Check the next Bank of Japan decision and Japanese inflation and wage releases for evidence of sustained pressure.",
+        "status": "carry_forward",
+        "as_of": "2026-09-18",
+        "sources": [{"title": "Bank of Japan September meeting opinions", "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/opinion_2026/opi260918.pdf", "published": "2026-09-18"}]
+      }]
+    },
+    {
+      "id": "other_world",
+      "label": "Wider world",
+      "items": [{
+        "headline": "IMF sees resilient but uneven world growth",
+        "detail": "At the October 13 release of its World Economic Outlook, the International Monetary Fund projected global growth of 3.1% in 2026 and 3.4% in 2027. It said the aggregate masks a growing divide: economies benefiting from AI investment or favorable trade terms are doing better than many energy importers and lower-income countries.",
+        "why": "For an international investor, the distribution of growth can matter more than the global average. Energy bills, sovereign borrowing costs, trade tensions and the durability of AI investment affect different regions and companies in different ways. The IMF projection is a scenario to test, not a guarantee about future returns.",
+        "watch": "Track revisions to IMF country forecasts and dated trade, energy and sovereign-yield releases.",
+        "status": "new",
+        "as_of": "2026-10-13",
+        "sources": [{"title": "IMF October World Economic Outlook briefing", "url": "https://mediacenter.imf.org/news/imf---world-economic-outlook-annual-meetings--2026/s/22f94667-d194-473b-87b2-34c692b5a5a3", "published": "2026-10-13"}]
+      }]
+    }
+  ]
+}

@@ -57,12 +57,27 @@ def validate(edition, snapshot):
             except (KeyError, ValueError, TypeError):
                 errors.append(f'{symbol}: source needs a valid event_date')
         matching = next((e for e in entries if isinstance(e, dict) and e.get('ticker') == symbol), {})
-        for field in ('happened', 'why'):
+        for field, minimum in (('happened', 20), ('why', 70),
+                               ('priced_in', 18), ('would_change', 12)):
             prose = matching.get(field, '')
             if isinstance(prose, list):
                 prose = ' '.join(prose)
-            if not isinstance(prose, str) or len(re.sub(r'<[^>]*>', '', prose).strip()) < 50:
-                errors.append(f'{symbol}: {field} needs substantive sourced prose')
+            count = len(re.findall(r"\b[\w'-]+\b", re.sub(r'<[^>]*>', '', str(prose))))
+            if count < minimum:
+                errors.append(f'{symbol}: {field} needs at least {minimum} words')
+        if len(matching.get('figures', [])) < 3:
+            errors.append(f'{symbol}: at least three concrete figures required')
+        analysis = matching.get('analysis', [])
+        if len(analysis) < 2 or any(
+                not isinstance(point, dict) or
+                len(re.findall(r"\b[\w'-]+\b", point.get('body', ''))) < 28
+                for point in analysis):
+            errors.append(f'{symbol}: two developed analysis points required')
+        if not matching.get('next_date'):
+            errors.append(f'{symbol}: next date or explicit unscheduled watch required')
+        if item.get('outcome') == 'dated_event' and not any(
+                foot.get('url') for foot in matching.get('foot', []) if isinstance(foot, dict)):
+            errors.append(f'{symbol}: dated event needs a visible source link')
     for symbol, row in snapshot.get('tickers', {}).items():
         pct = (row['close'] / row['previous_close'] - 1) * 100
         if not math.isclose(pct, row['pct'], abs_tol=0.0001):

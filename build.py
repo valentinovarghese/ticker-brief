@@ -183,6 +183,76 @@ def render_macro(ed):
             f'<dl class="macro">{body}</dl></section>')
 
 
+MARKET_REPORTS = ROOT / "market"
+
+
+def load_market_reports():
+    """Newest first; retain every dated market report in the public archive."""
+    reports = []
+    for path in sorted(MARKET_REPORTS.glob("[0-9]*.json"), reverse=True):
+        try:
+            report = json.loads(path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as exc:
+            sys.exit(f"{path.name} is not valid market JSON: {exc}")
+        if report.get("date") != path.stem:
+            sys.exit(f"{path.name}: market report date does not match filename")
+        reports.append(scrub(report))
+    return reports
+
+
+def external_link(source):
+    url = html.unescape(str(source.get("url", "")))
+    if not url.startswith("https://"):
+        return ""
+    label = source.get("title") or source.get("publisher") or "Source"
+    return (f'<a href="{html.escape(url, quote=True)}" target="_blank" '
+            f'rel="noopener noreferrer">{label}</a>')
+
+
+def render_market_item(item):
+    sources = " ".join(external_link(s) for s in item.get("sources", []))
+    kind = "Background" if item["status"] == "carry_forward" else "New"
+    return (f'<article class="market-item">'
+            f'<p class="market-asof">{kind} · As of {item["as_of"]}</p>'
+            f'<h4>{item["headline"]}</h4>'
+            f'<p>{item["detail"]}</p>'
+            f'<p class="market-why"><b>Why it matters.</b> {item["why"]}</p>'
+            f'<p class="market-watch"><b>Watch next.</b> {item["watch"]}</p>'
+            f'<p class="market-sources">{sources}</p></article>')
+
+
+def render_market_group(title, categories):
+    groups = []
+    for category in categories:
+        items = "".join(render_market_item(item) for item in category.get("items", []))
+        groups.append(f'<section class="market-category" id="market-{category["id"]}">'
+                      f'<h3>{category["label"]}</h3>{items}</section>')
+    return f'<section class="band reveal"><h2>{title}</h2>{"".join(groups)}</section>'
+
+
+def render_market_report(report):
+    updated = report["as_of_utc"].replace("T", " ").replace("Z", "")
+    return (f'<div class="market-report">'
+            f'<div class="market-intro"><p class="market-asof">{pretty_date(report["date"])}'
+            f' · Updated {updated} UTC</p>'
+            f'<h2>{report["headline"]}</h2><p>{report["overview"]}</p></div>'
+            f'{render_market_group("General market", report["general"])}'
+            f'{render_market_group("Wider market", report["international"])}'
+            f'</div>')
+
+
+def render_market_panel(reports):
+    if not reports:
+        return ""
+    older = "".join(
+        f'<details class="day"><summary>{pretty_date(report["date"])}</summary>'
+        f'<div class="archive-body">{render_market_report(report)}</div></details>'
+        for report in reports[1:])
+    archive = (f'<section class="band reveal"><h2>Earlier market reports</h2>{older}</section>'
+               if older else "")
+    return render_market_report(reports[0]) + archive
+
+
 def render_note(note):
     return (f'<div class="note"><h3>{note["title"]}</h3>'
             f'<p>{note["body"]}</p></div>')
@@ -262,10 +332,26 @@ def render_entry(e):
 
     parts.append(render_explanation(e["why"]))
 
+    if e.get("analysis"):
+        analysis = "".join(
+            f'<div class="entry-analysis"><h3>{point["heading"]}</h3>'
+            f'<p>{point["body"]}</p></div>' for point in e["analysis"])
+        parts.append(f'<div class="entry-analysis-list">{analysis}</div>')
+
+    lenses = [("Already priced in?", e.get("priced_in")),
+              ("Would change the view", e.get("would_change")),
+              ("Next date", e.get("next_date"))]
+    if any(value for _, value in lenses):
+        parts.append('<dl class="entry-lenses">' + ''.join(
+            f'<div><dt>{label}</dt><dd>{value}</dd></div>'
+            for label, value in lenses if value) + '</dl>')
+
     foot = []
     for f in e.get("foot", []):
         cls = "flag" if f.get("flag") else ""
-        foot.append(f'<div class="{cls}"><span class="k">{f["k"]}</span>{f["v"]}</div>')
+        link = external_link(f) if f.get("url") else ""
+        foot.append(f'<div class="{cls}"><span class="k">{f["k"]}</span>'
+                    f'{f["v"]}{(" " + link) if link else ""}</div>')
     if foot:
         parts.append(f'<div class="footline">{"".join(foot)}</div>')
 
@@ -950,6 +1036,7 @@ def csp():
 
 def render_page(editions):
     latest, older = editions[0], editions[1:]
+    market = render_market_panel(load_market_reports())
     research = render_research(load_research())
     about = render_about(load_about())
     live = render_live(editions)
@@ -960,8 +1047,9 @@ def render_page(editions):
         csp=csp(),
         dateline=render_gauge(latest),
         headline=latest["headline"],
-        tabs=render_tabs(editions, research, about, live),
+        tabs=render_tabs(editions, research, about, live, market),
         body=render_body(latest),
+        market=market,
         research=research,
         live=live,
         tindex=render_ticker_index(editions),
@@ -971,7 +1059,7 @@ def render_page(editions):
     )
 
 
-def render_tabs(editions, research, about, live_news):
+def render_tabs(editions, research, about, live_news, market):
     """The nav that splits the page into panels.
 
     A tab is only offered when there is something behind it, so a fresh
@@ -981,6 +1069,7 @@ def render_tabs(editions, research, about, live_news):
     been. With it, they switch.
     """
     tabs = [("brief", "Brief", True),
+            ("market", "Market", bool(market)),
             ("live", "Live news", bool(live_news)),
             ("earnings", "Earnings", bool(research)),
             ("tickers", "By ticker", len(editions) > 1),
@@ -1057,6 +1146,11 @@ def check_claims(editions):
 def main():
     editions = load_editions()
     if "--check" in sys.argv:
+        from market_gate import validate as validate_market
+        for report in load_market_reports():
+            errors = validate_market(report)
+            if errors:
+                sys.exit(f"market/{report['date']}.json failed:\n" + "\n".join(errors))
         if check_claims(editions):
             sys.exit("check failed: a comparative claim contradicts the "
                      "edition's own data. Fix the prose or the snapshot.")
@@ -1215,6 +1309,29 @@ CSS = """
   dl.macro dt { font-family:var(--ui); font-size:.94rem; font-weight:580;
                 line-height:1.5; letter-spacing:-.008em; }
   dl.macro dd { margin:.45rem 0 0; color:var(--ink-2); font-size:1rem; }
+  .market-report { display:flex; flex-direction:column; gap:2.7rem; }
+  .market-intro { border-bottom:1px solid var(--line); padding-bottom:1.4rem; }
+  .market-intro h2 { font:630 clamp(1.4rem,3vw,2rem)/1.25 var(--ui);
+                     letter-spacing:-.025em; margin:.35rem 0 .8rem; }
+  .market-intro > p:last-child { margin:0; color:var(--ink-2); font-size:1.08rem; }
+  .market-asof { font:550 .68rem/1.5 var(--mono); color:var(--ink-3);
+                 margin:0; text-transform:uppercase; letter-spacing:.035em; }
+  .market-category { display:flex; flex-direction:column; gap:1rem; }
+  .market-category h3 { font:650 1.15rem/1.35 var(--ui); margin:0;
+                        padding-bottom:.5rem; border-bottom:1px solid var(--line-2); }
+  .market-item { display:flex; flex-direction:column; gap:.7rem;
+                 padding:1.1rem 1.2rem; border:1px solid var(--line);
+                 border-radius:12px; background:var(--paper); }
+  .market-item h4 { font:640 1.05rem/1.35 var(--ui); margin:0; }
+  .market-item p { margin:0; color:var(--ink-2); }
+  .market-item .market-asof { color:var(--ink-3); }
+  .market-item b { color:var(--ink); font-weight:650; }
+  .market-sources { display:flex; gap:.6rem; flex-wrap:wrap;
+                    padding-top:.45rem; border-top:1px solid var(--line-2);
+                    font:550 .75rem/1.5 var(--ui); }
+  .market-sources a, .footline a { color:var(--ink-2);
+                                  text-decoration:underline; text-underline-offset:3px; }
+  .market-sources a:hover, .footline a:hover { color:var(--ink); }
   .lead { font-family:var(--ui); font-size:.63rem; font-weight:680;
           letter-spacing:.1em; text-transform:uppercase; color:var(--ink-3);
           margin-right:.55rem; }
@@ -1260,6 +1377,15 @@ CSS = """
              border-radius:10px; padding:.9rem 1rem; margin:0; overflow-x:auto; }
   .figures b { color:var(--ink); font-weight:600; }
   .why { margin:1.2rem 0; color:var(--ink-2); }
+  .entry-analysis-list { display:flex; flex-direction:column; gap:1rem; }
+  .entry-analysis h3 { font:650 .92rem/1.4 var(--ui); margin:0 0 .3rem; }
+  .entry-analysis p { margin:0; color:var(--ink-2); }
+  .entry-lenses { margin:0; padding:.9rem 1rem; border:1px solid var(--line);
+                  border-radius:10px; display:flex; flex-direction:column; gap:.6rem; }
+  .entry-lenses div { display:grid; grid-template-columns:8.5rem 1fr; gap:.7rem; }
+  .entry-lenses dt { font:650 .68rem/1.5 var(--ui); color:var(--ink-3);
+                     text-transform:uppercase; letter-spacing:.04em; }
+  .entry-lenses dd { margin:0; color:var(--ink-2); font-size:.9rem; }
   .explanation-title { font-family:var(--prose); font-size:1em; line-height:inherit;
     font-weight:650; text-transform:none; letter-spacing:normal; margin:0 0 .6rem; color:var(--ink); }
   .explanation-list { list-style:none; padding:0; margin:0; }
@@ -1541,6 +1667,8 @@ CSS = """
     .masthead { gap:1.2rem; padding-bottom:1.7rem; }
     .move { margin-left:0; width:100%; }
     article.entry { padding:1.15rem 1.1rem; border-radius:12px; }
+    .entry-lenses div { grid-template-columns:1fr; gap:.1rem; }
+    .market-item { padding:1rem; }
     .about .card { padding:1.4rem 1.2rem; border-radius:13px; }
     .topbar { padding:.6rem 1.15rem; }
     .tb-date { display:none; }
@@ -1733,7 +1861,7 @@ JS = """
     // only honoured when it is a plain http(s) URL.
     function safeHref(url) {
       if (typeof url !== 'string') return null;
-      if (!/^https?:\/\//i.test(url)) return null;
+      if (!/^https?:[/][/]/i.test(url)) return null;
       return url;
     }
 
@@ -1912,7 +2040,7 @@ PAGE = """<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>v2v.investing | Ticker Brief</title>
-<meta name="description" content="A daily pre-market brief on twelve tickers, written to explain why each number changes what a company is worth.">
+<meta name="description" content="A daily market report and researched brief on twelve stocks, with cross-asset and international context.">
 <meta name="color-scheme" content="light">
 <meta http-equiv="Content-Security-Policy" content="{csp}">
 <meta name="referrer" content="strict-origin-when-cross-origin">
@@ -1942,6 +2070,9 @@ PAGE = """<!doctype html>
   <div class="panel" id="brief" role="tabpanel" aria-labelledby="tab-brief">
     {body}
     {archive}
+  </div>
+  <div class="panel" id="market" role="tabpanel" aria-labelledby="tab-market">
+    {market}
   </div>
   <div class="panel" id="live" role="tabpanel" aria-labelledby="tab-live">
     {live}

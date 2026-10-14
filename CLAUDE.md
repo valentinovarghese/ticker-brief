@@ -89,9 +89,37 @@ publishing a chart that quietly omits a session.
   matters, say the filing could not be read directly and attribute the
   detail to the coverage.
 
+## Editorial depth and Market reports
+
+The site should read as a small, useful market publication. The daily
+`market/YYYY-MM-DD.json` report appears near the top under Market. It
+covers General market (equities, Treasuries and bonds, credit, currencies,
+crypto, commodities, housing and US policy) and Wider market (UK, euro area, China,
+Japan and other consequential regions). Publish one report every calendar
+day. Give each item a specific dated fact, enough detail to understand it,
+the mechanism by which it matters, a concrete next test and a direct source.
+Carry forward older policy or data only with its true observation date
+visible. Research current primary releases and reputable reporting afresh
+each day. Never invent a price move, policy decision, or release to fill a
+category. `market_gate.py` checks structure and minimum depth; the author
+must still check each fact against its source.
+
+The twelve-ticker edition should match the depth of the early editions and
+the user's long-form reference. For each ticker explain what happened,
+why it changes or does not change the investment case, at least two
+developed analytical points, what may already be priced in, what evidence
+would change the view, and the next dated catalyst or explicit unscheduled
+watch. Include concrete price and volume figures and visible source links.
+Separate measured market action from inference about its cause. A quiet
+company day deserves an honest, useful no-event analysis, not fabricated
+news or boilerplate. The new fields `analysis`, `priced_in`,
+`would_change` and `next_date` render in `build.py` and are required
+by `edition_gate.py` for new stock editions.
+
 ## Dating and publication
 
-The current publication runs on weekdays after 17:00 ET. The edition date
+The Market report runs every calendar day at 22:00 Europe/London. The
+stock edition runs only on eligible trading weekdays after 17:00 ET. Its date
 and the session it reports are the same completed trading day. Check the
 clock and the NYSE holiday calendar before drafting. Run
 `session_snapshot.py` to fetch Twelve Data `1day` bars, and copy that
@@ -99,9 +127,10 @@ snapshot's `tickers` block unchanged into the edition. The `/quote`
 endpoint has repeatedly returned a 09:30 ET timestamp after the close;
 do not use it as close evidence.
 
-The Codex post-close automation is the sole scheduled edition publisher.
+The Codex post-close automation is the sole scheduled publisher.
 The GitHub `daily-brief.yml` workflow is a manual source check. Before
-publishing, run `edition_gate.py` against the saved snapshot, then
+publishing, run `market_gate.py` and, when applicable, `edition_gate.py`
+against the saved snapshot, then
 `build.py --check`, then `build.py`. Preserve all prior editions and do not
 publish a price-only placeholder. See `PUBLICATION.md` for the full runbook.
 
