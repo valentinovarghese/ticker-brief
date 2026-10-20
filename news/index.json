@@ -1,9 +1,22 @@
 {
- "checked": "2026-10-19T22:53:18+00:00",
- "changed": "2026-10-19T22:53:18+00:00",
+ "checked": "2026-10-20T01:20:02+00:00",
+ "changed": "2026-10-20T01:20:02+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
+   {
+    "id": "c616214ebfea951e",
+    "title": "Form 4 Apple Inc: Ben Borders (Principal Accounting Officer) For: 15 October",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWERGQ29ybTJwSXdOMk1kaU40NlJnWXp2WW5YOGF1V0o4ak9rMHBZQTNJT1k1aTBKQTlCNzdPaHU3emhvZnpNb01hUUdMa3NtM2JWempLSDdaZlgwR0JNejVpWDhjWmpwdFJwVWpENUlqb3h2UEtlb21EV2dEWHFpdVdjVVZNSEV5U0tiNzBCUER6YzVvVUNQM0hrdm9qcjlwenJ2WWR5MTZkT0RNZFRSM3BhMGN1TUgxQWZJY2NrbDZ6Rm94N2JNY1J1bndHdw?oc=5",
+    "source": "Investing.com Canada",
+    "published": "2026-10-19T23:08+00:00",
+    "score": 6,
+    "tags": [
+     "filing"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "540587a584877daf",
     "title": "Tech Stocks Rebound From Heavy Losses Before Big Earnings Reports; Apple, Lilly Eye Buy Points",
@@ -16,6 +29,19 @@
      "ma"
     ],
     "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "6ebe885b0defd147",
+    "title": "Apple stays quiet on walk-in iPhone Duo stock as supply tightens",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaXJ0Y2FPVmtmVkVoMHRRdjNmV3ZkWHpJZjBuNkF1cjJwQVVDT1hQdnZoczM1VXRoUXhnNDB5WDU0Nk1FXzA3RldrdzJDZmF6UVhfOGpSMndRMm5VdC1oM1d3eTJXcVRSbmR5NXNna1JUV3R1N0NMZEp2VDUxZmpIcGI4N2U5TGdZVTdEVUtSZ2pWVDczNmxNcWsyRUhDSk9MSkxYN1hlNDI2N2s?oc=5",
+    "source": "CNBC",
+    "published": "2026-10-19T19:29+00:00",
+    "score": 5,
+    "tags": [
+     "contract"
+    ],
+    "direction": "neutral",
     "primary": false
    },
    {
@@ -55,19 +81,6 @@
      "ma"
     ],
     "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "b1db0a0d5c81e0de",
-    "title": "You won’t be able to walk into an Apple Store and get an iPhone Duo",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdk9TQXZTUjV0U0R1eDdibUtaMG5rV3pFZENYNTlDZUhhMXl3WDMzTkJ6TkJaYnhENlBtNWNnVnRnUngzUVRBaC1fVUkzOGtyRmxqR2ZSSTMtUFFOMnFJU2hQdldFVklmYWV4UWo5am5GcEJaRkJjc01KOFVkZ1pVcm5VZ1JFV3JHSEdwQ3pPOUpZaFdfNjFuU0RSQXgxWlRVTTM2Sg?oc=5",
-    "source": "Trusted Reviews",
-    "published": "2026-10-19T09:46+00:00",
-    "score": 5,
-    "tags": [
-     "contract"
-    ],
-    "direction": "positive",
     "primary": false
    },
    {
@@ -114,19 +127,6 @@
   ],
   "AMZN": [
    {
-    "id": "b464bce06da0bddb",
-    "title": "Top 20 in Trading Volume | Amazon surged 5% after launching the open-source tool TorchNeuron; Coreweave received a bullish outlook from Goldman Sachs, yet its stock still closed slightly lower; NVIDIA completed validation of quantum error-correction tech",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxON21zVC16WXN1TzR0dHBtQmlxN2dmQl8wclYtUnlZSG55S0JBSjJPWHJhaXRzUkllSFJFVVFLNGdiZC1PMDVnOW1VbXlTYVQ1RGMyWVowTmoyVnhSUlMwWVdmT0Z3R3U2eHcyWVRfVzd6REUzOVBUNVBxbHV3NXhIaVp3MWJobUZ2MmluZWRxN21RN1FPcDNyMjZUcnRleDRI?oc=5",
-    "source": "富途牛牛",
-    "published": "2026-10-19T21:43+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
     "id": "efa0d44adf5b5ff2",
     "title": "3M stock rises 3% on $6B Amazon data center deal",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNUxSTGg3TXNfZHZPS3VOU2swaWFPbF9Oa3ptX2FYdnV2dVJmeGdKWGlmV1VsZEF6RzJuZ0NlNU9xU2YtdzZEWUNiYlFmNkhrSmU0YzZYQms4RTZ4RU9QOGxkallUYzlDbmREZ0FrazE1bjh3b0RJX3M4WEtRX28zSXFHNGVNM2R1OW9EU2RfYUt5TVFjY3dERnNOckl4TEx3Sm5LSw?oc=5",
@@ -155,9 +155,9 @@
    {
     "id": "0d0b75626f14f737",
     "title": "Amazon (AMZN) Stock Costs $250 a Share. Here's Why I'd Still Buy It.",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeFZwb0JDNGYxbkVyVzVIc0xmUFVaZENzR3djd29NVlJ5UW80XzVURW1fUlFhMmhYYktpTl9oazdPRzhaM3ZaWGFiYlkyTS1ZYktqMTFGUnVxV2lRWmdLLS1kdnlzQzVMcGpBZklMN3RDcXFuY09qVnBETlhlWXFYN21vYUdaQXhpRDJJMEs5WXJuSHI0S1VJ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-19T19:25+00:00",
+    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNWFNLam5zSTF0SDVfNERvUTNEVzB6b1czcFBsVE8yaFUzdVVxUnN5X2I0MnFEOVJxZGQ5RzVxSVBkMzZWbXFlVkJocDhEcUxrNkVlbmhJSm0xb095T053bmdsZHpLMXNsUzViRVd2REZkWUs2d0xSYm16M255YkVXblBVeFZRNEV1UmthdEw5NUtrN09uZEdxVHY1UV9PcUU2alk4M2NuaGc3RGo2cURfQ2xrUGJsNXVzVWQxbU1XRUF4TVRZM2FrWlppYnkzQkRkd0RQRHRvRjFMcTNWNW92QmhZZTY?oc=5",
+    "source": "The Globe and Mail",
+    "published": "2026-10-19T20:12+00:00",
     "score": 8,
     "tags": [
      "ma"
@@ -179,19 +179,6 @@
     "primary": false
    },
    {
-    "id": "290d154f1042aae6",
-    "title": "Amazon Open-Sources TorchNeuron to Breach CUDA's Moat, Heating Up AI Chip Software Ecosystem Battle",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1PeE9KZC1HajlOc0R2RUJUYWMtblhRX0o4a3gwS0x3RGtSZFZ4Nk5SZjZwSDl5WEsyZGxhcnluM0hEZ1pvckV2X0ZlZ2dPbUpLYWk1MzlEaXRhc2RtWk1ZOTJTVXVpakRpcnVnR29kOElhX2JPMHc?oc=5",
-    "source": "BigGo Finance",
-    "published": "2026-10-19T17:38+00:00",
-    "score": 5,
-    "tags": [
-     "operations"
-    ],
-    "direction": "negative",
-    "primary": false
-   },
-   {
     "id": "63fb9374619667b2",
     "title": "Amazon to fund 12 small nuclear reactors at former Indiana coal plant",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObDA2alVNTVBoUXlUTS10VFBpem1lMG9Lc0NVV3BpQTBjSUFVR0xRTVE5Y1BSbXdMVkpMajBFMGNwQnp2M1R6TVlZQVB6TnljdkZwa0hCNkJNNS1BR0libTlFYjhPRU1TYkJ6bUg2YnpuQ3JaNHhzWmExTHZ4X1REdDNfNFRWSkx2Z096R3dR?oc=5",
@@ -206,6 +193,19 @@
    }
   ],
   "TSLA": [
+   {
+    "id": "87a1f6198a627c78",
+    "title": "RBC Model Puts SpaceX Takeover of Tesla at $480 a Share, $3.74 Trillion Combined",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45bVBoS2VSdGpnRjBMQVJPSTVfLXREZEdKczdxM3NsR3NnaWUxUnNTd3dkNHpWWWVzTldLeEFUQXpucURRa2NuZjU2NmpfWmtvUldTaVRLb2w2MVZWOG5lUnRWeHp4Mml4UkgyNlZjWDdUbzV3S0E?oc=5",
+    "source": "BigGo Finance",
+    "published": "2026-10-20T00:35+00:00",
+    "score": 8,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "feab7a256967adb3",
     "title": "Here’s How Much Tesla Stock Is Expected to Move After Earnings",
@@ -324,22 +324,35 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "efea455fb457fc2f",
-    "title": "This week's earnings calendar: CAC stocks, Meta, Tesla, SAP and Nestlé in the spotlight",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZ2NwMjRsWWtQZXJfdW9EQ2VPXzlxQVB2clB5aFhtZ1hSVHZMUzJTemFVdzR6TXZBMEtRaTdsaF9US1c2SHVlRVlGR3Zhck55MktpdWpUbGZHOVpJcVR0NmllN0NBZG5CQnJOYXZUamRTYVZZNjZlTEdrcEFmdEVESm0zY2Yxb0xsbWdGWlp6MHcwLXlYU1kwVzdudnhiZzh0Y2RiVkxxdm5ubnFvMVREdk5fRUQtTXRXLUcweFEtamFzOWdfamFzWW85NA?oc=5",
-    "source": "marketscreener.com",
-    "published": "2026-10-19T07:26+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "PLTR": [
+   {
+    "id": "f0cfc183a75befec",
+    "title": "Cathie Wood’s ARK sells Palantir and Shopify stock, buys CoreWeave",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbUhXbVRPTEVsbzJfa2NxTVB1Q3I2Z3VhT3dkNTBoYnFSUFRrY3NETl82VnpPNDUwQVhsdHptZjhkTDBfR2NmU0ltUUl2a3pnRTR3ZE9EaG5ZSVBxcThSbnhUNXAwNXlZbURQeEh4dEZCaGtJd0FaZW1uemstaFFuWHpQYU5LM0tXUjVpcGNGcDcyUy1SaHNTVGp0a1lnS2U2XzY4WDhFUjFqTy1XVUVzQkFlXzh0WVd1WmZ2YmVn?oc=5",
+    "source": "Investing.com",
+    "published": "2026-10-20T00:13+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "acd08fe4edfc5f1e",
+    "title": "PLTR: How Could Its New Partnership Support Government AI Expansion",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSUhtOExFUXU3NEhETDFOdWJTT25zanRhbnNmRkNVbWVMY1FIU3ZOeGNpUW1TZ1FKT3RlN2FDQmxzYjFOR181SnVHNWFWR3I0Ukk4SnBHTk8xTzZhZFotRVlsaFJET3Q4LXN2WnV4aW0zRG43Z2taMTdBcmMwNTNxMHc0Tmg2dmc3THNhQzBSdVpPSWZ5OVpPTUNINUs0UlM3?oc=5",
+    "source": "entARABI",
+    "published": "2026-10-19T19:10+00:00",
+    "score": 5,
+    "tags": [
+     "contract"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
    {
     "id": "f11cf93e20d3943a",
     "title": "Palantir Is Expanding Beyond Government Contracts. Here’s Why Investors Should Care",
@@ -375,6 +388,19 @@
     "score": 5,
     "tags": [
      "contract"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "e1c2aa5a2a314985",
+    "title": "Palantir Q2 2026: Revenue $1.935B (+93%), U.S. Commercial Surge 149%, Rule of 40 Reaches 155%, Stock Extends Breakout",
+    "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPWTc5YmZsSUtnQkZLNTYwNVFJSkh2R0tRMTRCanpxSXVaenQ2V1o4MTNRaXNtZkh3ZU9tMDA0STdzaEdXeHNHeThCZjNBckFrQzZ1R0RsWTJJd3l2Y05PYWRMUWZkU3FrdEdRLUc2Qi11Q19HeG5yeFl3bkJhZDB5TWRLbktZZFZxd2wya2s5Z1VOQWFrbjRpUWpRbHltVFlVODdYTGM1YnY5V0xHdHpISW16LUdNVnQxM2ZYRkd0TWUzaGtJMVFOX2gyMDlWaUZXdVdQSURubFpkY3RvYkhxcXd3UDh6VldRT2hZVHFpdTQ0a3lUdGVCV2t6UXI?oc=5",
+    "source": "TradingKey",
+    "published": "2026-10-19T07:16+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
     ],
     "direction": "positive",
     "primary": false
@@ -419,19 +445,6 @@
     "primary": false
    },
    {
-    "id": "193a511bef5071f2",
-    "title": "Palantir Q2 2026: Record 93% Revenue Growth, 155% Rule of 40, Stock Up 30% — Then Consolidates",
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQVNYN3B5QVdkM3dLS21MRXhGV2JQcFp4MnpuaGY0WXdiSTBfS09KeDRfeFBES0tDMkh1US1mTXZxMjZQUmJ6bzlPYlhwYmRjdXdPeW9UTVBfaWVCMUdEOUpnTGk1OTdlMF9sRFU0RGV6VDUtcTNVd3E5RXdXbVVhbDVJSHlkbzh1NWRsRzlaaHFQX0tXSlBSRl9KX2YzOEpmRlZWMzlnbHJNLWtCcjJ1WVNQSkM2cGxlS3ZIekI3VHFHYjBHVFlaOWNLS1c0d0ljRDJv?oc=5",
-    "source": "TradingKey",
-    "published": "2026-10-18T20:43+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
     "id": "48444726c60a71ee",
     "title": "Form 4 Palantir Technologies Inc For: 18 October By Investing.com",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWjMxTmJEbzgyMEVEQzV4LUR0ZHRFVWY2czNnZGtVQmo5UU9sNU43MkQ4SXJ5aWJWTzdXRmtFX3NieElHd2l6cjZSOGhIQi02ZmxzZElYMS14am15YXFCb3dVMTFQTEdEalRfTkxlLXRzXzdkN3ZaZ0pFZEwtZFd1bHlvOENzcVFqTkM2Y0E2VzlZWDZxNk1iLWctdnJnNFJodEVFMHRwVXNnbzVj?oc=5",
@@ -442,19 +455,6 @@
      "filing"
     ],
     "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "4d555e34f4cb312c",
-    "title": "Palantir (PLTR) Surges 15% After Blowout Q2: Revenue +93%, US Commercial +149%, Guidance Raised to $8.15B",
-    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPNW1SMVhJWDF4Z2FqUFlEQVNwZUxRWmpYc1NUWHpuRmZUZF9IWGxCbEFEazRvRnlGbHFZR0NmQVdiTmJzSm5PNFpyNGYzT0hRSkp6dzc5dUdVYXA1TTRFTUdOZFNUWDdLa1ZpTHgtRWFPZkVXYUtaUVgyY2ZNdk5qUUlKWEpWekFtaVBwX1NpaDRTR21ocXM0MXV1b2N5MWI1VzdBTVRSOGR3M1JkRlh1c3FiNHktazdSbmhpckgtTGYyQ2FZRHI1RlVfZlNpOFdIdnFYcFVQWm03dXBFdXhR?oc=5",
-    "source": "TradingKey",
-    "published": "2026-10-17T23:59+00:00",
-    "score": 9,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
     "primary": false
    }
   ],
@@ -657,19 +657,6 @@
     ],
     "direction": "negative",
     "primary": false
-   },
-   {
-    "id": "6ae21a85a42daa54",
-    "title": "Alphabet Stock Price Forecast: Can Expanding Access to Gemini 4 Argon Help Its Stock Recover?",
-    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNcG1EUWVvaFpxcDgwRzNNZzRRb2tJTlMzSWVmYjJEb0UwSUZYNy1Dc3pSZmRvdTF0UnRkZHZoNDlLSHFPWWhDVDRmeWUzV25HNWRmLUg3Q3h5Nkh5N3ZmY0ZDZldqZmVxdThnc3BKQmdGbVBENDhhelk0cXlEVlZWT19lNk01eTllOWRCTnRqRDI0TkJidEQyRkhIaUR2eE5kX2prYXdwWXFRaWpNQmF6NEZwODdhWjVJSnNqQ0xnSlVQV1pSWVN2OThxLW5SR2ZwOVVHZlNNWURrREgxQnVVVGpwcmI4VUJseDJLVA?oc=5",
-    "source": "TradingKey",
-    "published": "2026-10-18T00:03+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
    }
   ],
   "HOOD": [
@@ -732,10 +719,23 @@
     "title": "Dow Jones Futures: AMD, Nvidia Lead AI Trade Higher; Meta, Netflix, SpaceX, Tesla Earnings On Deck",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZ2gtZmlxbk85a0hhLTVERkNDU2xKTnI2bDd1aGthazZObV9mLTdYMXBUaUxxaDFZRzNNZEt5QXdzVDNNVnNDMWtObkNycTNLc2tmWGZFTWhNU2RpN3JTMTBmUlFlZ2xzb3NiSGFMVTZ3d21lRjVHbVdUYkMyOHViVGlYcFNlUlM0eTZIQ0M0OUhvSlNHTTRHbWgtdFpRVDBLbVE5VG9DV01md0pjdERyUVp1dw?oc=5",
     "source": "Investor's Business Daily",
-    "published": "2026-10-19T21:30+00:00",
+    "published": "2026-10-20T00:51+00:00",
     "score": 6,
     "tags": [
      "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "fdeb94492a1eae18",
+    "title": "NVIDIA Deal Highlights Value of Tiny's Early Poolside Investment",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSXViV3UwOXpZS0Z5SDI1eG90dUp2WXdsV0hGMFFjakhkaVlOUV9Bamd2YnBhT3VoN1d3SFhYMHk0ZVVLLVBjZjVQVTdRLXlITWk3VEdQZFJjNzV2b0Fzb3c2aGJJMHA0SnFrbmtJdWRFNUZnZ0pJckV6ZmxWQ19SNEg1blRIYm5hV2hmcGpvNGhQblN4SEVQZVFVZWFYbWM?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-19T21:19+00:00",
+    "score": 5,
+    "tags": [
+     "contract"
     ],
     "direction": "neutral",
     "primary": false
@@ -844,35 +844,9 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "8d6e63626c775917",
-    "title": "XLAB Stock Surges After $8.2M NVIDIA Server Deal Disclosure",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUjAxaW9LV3czNm11Y3BLUmkxX0s4b2xwcDAxOGRQT05xT3dMVXVPREdMRG5QeUFFWVotLXBrMkZkTkRsWjZrMU5QZk5mLUozb2FlT1RoSjZSMWk4WXJ1OWMyM0hNd3FJOUJXa21XTE5NWmZTcmpIcWtJVm1qdUpEOW9pSUpLVDNzMFE?oc=5",
-    "source": "Timothy Sykes",
-    "published": "2026-10-19T11:48+00:00",
-    "score": 8,
-    "tags": [
-     "contract"
-    ],
-    "direction": "positive",
-    "primary": false
    }
   ],
   "INTC": [
-   {
-    "id": "9a0312d9a947f11a",
-    "title": "Did Foundry Win Just Shift Intel (INTC) Investment Narrative?",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQmt2MXZ3aVRLRm5lbG1yQmhuTDZMaThKTDNVZkFwY0NrZkZXX29hYklOTnY2d1hvUGRvdFlqd3Y0MGFfYUJGWmx0LU40c1BMX2ZoSF80MV81TXFXT2JiTF96bEdyWTQ4elBHQndJclA1VDhsTjVEb2RLakwzU2FLRzQtQXFnY1Y3RUlYMlZsNDVsSmNkQWc?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-19T22:15+00:00",
-    "score": 5,
-    "tags": [
-     "contract"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
    {
     "id": "29ce4ef4fd999482",
     "title": "Nvidia, Intel, Micron, Monolithic Power Are Buys Ahead of Tech Earnings.",
@@ -953,16 +927,16 @@
     "primary": false
    },
    {
-    "id": "ef238fc4268ec8ec",
-    "title": "Intel upgraded at JPM as AI workloads support earnings (INTC:NASDAQ)",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTmlQaVNfRGpybGFpRm5reDFjN3kxZ1Q4Q0h1eE1ZOVBIMGJBSmJ4SFdUWlV2ZG1tUGNIZFFDSGc4UXV3SlE4Vk9XVVFwNG1uLXhaaU96WkE2T21SblI4dVU5LV9WaWdaVFhKNHFCaXF6OE1lb2tvUXNrRHlXc2ZIMWZUb19SRmtudnhKRmx4NnFtTE5TRVlB?oc=5",
-    "source": "Seeking Alpha",
-    "published": "2026-10-19T11:28+00:00",
-    "score": 6,
+    "id": "df3445ac5950910c",
+    "title": "Intel Stock Forecast: Kiryat Gat Blast and Foundry Doubts Push INTC Toward $81.64 Before Q3 Earnings",
+    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNVUZXeHZXVkhtb3BtNWRjaGlGcWszTDhYa21EYnJDcVB0aUZsQzNtdzA0NFZEY0RVR0Y3ZkdZUWUtejZBSVBLektJNzJYZzVEV1NQcWhiTWtUaV9xMUE1VVQzTVd4RVV6UHpZZllQNTFJRENJOUhLNmdRbktuWEpGZ0dRYnhvaTdZNDZLOFJzN1dldm1YTVRNX0ExdDE1TjB2WGFjRVAtQlJ2UWF0ci1fcEs5aTRTSHFmaG9YZk9SU3M4TGtmR3VtR3pldGhUZWxqQ2NfQzluX0RnMmxKazBJMG5MTVJrT00?oc=5",
+    "source": "TradingKey",
+    "published": "2026-10-19T11:03+00:00",
+    "score": 9,
     "tags": [
      "earnings"
     ],
-    "direction": "positive",
+    "direction": "neutral",
     "primary": false
    },
    {
@@ -974,20 +948,6 @@
     "score": 5,
     "tags": [
      "contract"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "ba98ed5cf962b679",
-    "title": "Intel Stock Forecast: $20 Billion Offering, AI Growth and Foundry Risks",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUmhMdmthODlUYVdDY0FsamxBS2N6MlVxR3MyZjIxX0Z1QWxLUnY3dFU3OEVuT1FZV3l6ZUlCdlllUVUwaHRmQ19laUFIeUhISnJ2d1VkWEZLenQzYlBlWWY4aVd0R19sbG5xWUhvVlJ3bTF6WFZZVGQzQUIyZ1FtNVN1ZnctNTZwa1ktM0tfZThaVWhpcERva19SMUFUUjZ1WGYtLVVWbHo?oc=5",
-    "source": "TradingKey",
-    "published": "2026-10-18T15:38+00:00",
-    "score": 14,
-    "tags": [
-     "earnings",
-     "capital"
     ],
     "direction": "positive",
     "primary": false
@@ -1005,6 +965,20 @@
      "ma"
     ],
     "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "8b1c4b7981a1ef26",
+    "title": "Nebius Group NBIS Jumps As AI Cloud Deals And Revenue Explode",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82LUp0ZlZoTDNHUUpvOFZMdXFYaVdmOUhKZVB0SjVDdGZVMUFqYm1yX2U3UGhxbldwTEhrTFo4dEN5Uks4VkVGQ2xzdUk3c2lnWV9oYzBtZjhPSTVnY3daTmNhbDczdHBKdFdHLWxuT0Q0Y0x5UjhRc2laU3JvQQ?oc=5",
+    "source": "Timothy Sykes",
+    "published": "2026-10-19T12:33+00:00",
+    "score": 11,
+    "tags": [
+     "earnings",
+     "contract"
+    ],
+    "direction": "positive",
     "primary": false
    },
    {
@@ -1234,19 +1208,6 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "0982acd8fe2db690",
-    "title": "Why Is Meta (META) Crashing After Earnings? EPS Missed 14%, FCF Hit $784M, Capex Raised Again",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUVBQQnREaHBhVnByYVlfMGZjWVFzOG1TMnFiT0V4cEpObHFId0s0UHdLdV9UMzVVUnowdG5XcU90cUFLdFBTN08xZUtMcHZNcDJvZjllMVFfemdxQlN3eGlBRVZ0eFZieS1Ka3VVTkhYY3o4ZndEM2JvQjZZYjEwM2VHSGRMUUFqTHZKQ045SjJ1cGNNdE9oZHlReFZQajl0MnkyMUVGOF9JVWN4SzdKMVdjQldabVpFLXJmQktwb1I0Z1dKUC16VUNqcw?oc=5",
-    "source": "TradingKey",
-    "published": "2026-10-18T00:40+00:00",
-    "score": 9,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ]
  },
@@ -1288,5 +1249,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 93
+ "count": 90
 }
