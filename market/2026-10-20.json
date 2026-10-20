@@ -1,0 +1,283 @@
+{
+  "date": "2026-10-20",
+  "as_of_utc": "2026-10-20T11:57:26Z",
+  "headline": "Tuesday market brief: oil, labour and sovereign risk before Wall Street opens",
+  "overview": "As of 13:00 Europe/London on Tuesday October 20, the regular US equity session is not complete and the NYSE is scheduled to open at 09:30 New York time. Monday October 19 is the latest completed US close: the S&P 500 rose 0.4%, Nasdaq 1.1% and Dow fell 0.1%. Today\u2019s evidence includes UK labour data, French sovereign stress, a strong Japanese bond auction, China\u2019s unchanged loan rates, high oil and uneven Asian equities. The next tests are the US cash open, Census housing data and the persistence of rate and energy pressure.",
+  "general": [
+    {
+      "id": "equities",
+      "label": "Equities",
+      "items": [
+        {
+          "headline": "Global shares cautious as AI rebound narrows breadth",
+          "detail": "AP reported Tuesday October 20 that Japan fell 1.3%, South Korea 3.7%, and early Europe was lower while US futures were modestly higher. The Monday US close was completed: S&P 500 +0.4%, Nasdaq +1.1%, Dow -0.1%. Today\u2019s cash session is not complete at the London cutoff.",
+          "why": "Breadth matters because a tech-led rebound can lift indexes without restoring confidence across cyclicals and smaller firms. The next cash session will test whether earnings demand broadens participation or leaves the move concentrated in AI names.",
+          "watch": "At the US open and close, compare equal-weight breadth and semiconductor performance with futures.",
+          "status": "new",
+          "as_of": "2026-10-20",
+          "sources": [
+            {
+              "title": "Dated source",
+              "url": "https://apnews.com/article/stock-markets-oil-ai-rates-inflation-b972b64127db5412a2b02c35ecf95c88",
+              "published": "2026-10-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "treasuries_bonds",
+      "label": "Treasuries and bonds",
+      "items": [
+        {
+          "headline": "French sovereign yields test a new political risk premium",
+          "detail": "Reuters said October 20 that French OAT yields reached 4.9937%, the highest since July 2002, after protests; the 10-year yield was 4.96%. The same report described Japan\u2019s 20-year auction demand as 5.84 times supply and its yield falling 6 basis points to 3.71%.",
+          "why": "A country-specific fiscal premium can raise financing costs even when global rates are unchanged, while strong JGB demand may show a haven rotation. The test is whether the France-Germany spread persists after Saturday\u2019s planned demonstrations and whether demand appears in the next auctions.",
+          "watch": "Track French-German ten-year spreads, the next JGB auction and US Treasury yields.",
+          "status": "carry_forward",
+          "as_of": "2026-10-20",
+          "sources": [
+            {
+              "title": "Dated source",
+              "url": "https://ca.marketscreener.com/news/french-bond-yields-near-24-year-high-as-new-protests-loom-ce785cd8d98fff22",
+              "published": "2026-10-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "credit",
+      "label": "Corporate credit",
+      "items": [
+        {
+          "headline": "Funding markets face rates, oil and AI capex tests",
+          "detail": "Monday\u2019s AP report said worldwide bond yields rose as European stocks fell and investors questioned the durability of the AI rebound. Reuters reported October 20 that Brent was above $111 a barrel, adding a cost shock to leveraged borrowers. No broad high-yield spread close is verified at this cutoff.",
+          "why": "Higher energy costs squeeze cash flow while higher yields raise refinancing costs; data-centre borrowers are especially sensitive to utilization and contracted revenue. The signal becomes systemic only if new issue concessions and broad spreads widen beyond isolated AI credits.",
+          "watch": "Check the next high-yield spread, primary issuance terms and AI infrastructure guidance.",
+          "status": "carry_forward",
+          "as_of": "2026-10-20",
+          "sources": [
+            {
+              "title": "Dated source",
+              "url": "https://apnews.com/article/stock-markets-oil-ai-rates-inflation-b972b64127db5412a2b02c35ecf95c88",
+              "published": "2026-10-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "currencies",
+      "label": "Currencies",
+      "items": [
+        {
+          "headline": "Sterling and yen gain while the dollar eases",
+          "detail": "Reuters reported October 20 that sterling rose 0.3% to $1.3343 after UK labour data, the yen strengthened 0.2% to 158.15 per dollar after a strong JGB auction, and the dollar index was down 0.2% at 101.77.",
+          "why": "Relative rate expectations explain part of the moves, but oil and European political risk can reverse them. Sterling\u2019s persistence depends on the Bank of England path; yen support depends on domestic yields and risk demand rather than one auction alone.",
+          "watch": "Compare GBP/USD, USD/JPY and rate futures after the next BoE and Fed communication.",
+          "status": "carry_forward",
+          "as_of": "2026-10-20",
+          "sources": [
+            {
+              "title": "Dated source",
+              "url": "https://uk.marketscreener.com/news/dollar-and-euro-drift-yen-slips-as-markets-seek-direction-ce785cdbde8bf524",
+              "published": "2026-10-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "headline": "Bitcoin slips as risk appetite remains selective",
+          "detail": "Reuters reported October 20 that bitcoin slipped 0.3% to $81,674.25 and ether 0.2% to $2,393.21 during Asian trading. The reading is intraday, not a US session close. The next test is whether risk appetite broadens across equities and liquidity-sensitive assets rather than remaining a narrow overnight move.",
+          "why": "Crypto\u2019s small move alongside weaker Asian equities suggests no verified broad risk-on impulse. The useful test is whether liquidity and equity breadth improve together, rather than assigning the move to one macro headline. The observation should be read with other indicators because one market print cannot establish a durable macro regime.",
+          "watch": "Check bitcoin volume and correlation with Nasdaq breadth after the US cash open.",
+          "status": "carry_forward",
+          "as_of": "2026-10-20",
+          "sources": [
+            {
+              "title": "Dated source",
+              "url": "https://uk.marketscreener.com/news/dollar-and-euro-drift-yen-slips-as-markets-seek-direction-ce785cdbde8bf524",
+              "published": "2026-10-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commodities",
+      "label": "Commodities and energy",
+      "items": [
+        {
+          "headline": "Brent stays above $111 with Middle East supply risk",
+          "detail": "Reuters reported October 20 that Brent was above $111 a barrel, its highest since May, with little progress toward ending the Middle East war. AP also reported US crude at $105.87 and Brent at $110.75 in Tuesday trading.",
+          "why": "The price level can feed transport and energy costs into inflation expectations and margins. A sustained move would require physical supply disruption or persistent risk premia; ceasefire progress and inventories are the next tests.",
+          "watch": "Watch Brent structure, shipping reports and the next inventory release.",
+          "status": "carry_forward",
+          "as_of": "2026-10-20",
+          "sources": [
+            {
+              "title": "Dated source",
+              "url": "https://ca.marketscreener.com/news/dollar-and-euro-drift-yen-slips-as-markets-seek-direction-ce785cdbde8bf524",
+              "published": "2026-10-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "housing",
+      "label": "Housing and property",
+      "items": [
+        {
+          "headline": "US housing starts data is scheduled before the cash open",
+          "detail": "The US Census release calendar schedules September 2026 New Residential Construction for October 20 at 8:30 a.m. ET. No result is treated as known at the 13:00 London cutoff because the release is after this report\u2019s as-of time.",
+          "why": "Starts and permits link mortgage rates to construction activity and future supply, but one monthly print is noisy. The result and revisions will show whether elevated financing costs are slowing builders or whether supply remains resilient.",
+          "watch": "Read the Census release at 8:30 ET and compare starts, permits and completions with mortgage rates.",
+          "status": "carry_forward",
+          "as_of": "2026-10-20",
+          "sources": [
+            {
+              "title": "Dated source",
+              "url": "https://www.census.gov/economic-indicators/calendar-listview.html?sec_ak_reference=18.52333b8.1542589455.5b7ef1e9",
+              "published": "2026-10-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us_policy",
+      "label": "US economy and government",
+      "items": [
+        {
+          "headline": "Upcoming releases put inflation-sensitive policy in focus",
+          "detail": "The Census schedule lists September housing construction for October 20, while NYSE trading runs 9:30 a.m. to 4:00 p.m. ET on a regular day. No new US policy decision is verified before this cutoff.",
+          "why": "Separating scheduled data from policy action avoids implying that an unfinished session or unreleased report has already changed the policy outlook. Housing and oil will feed the next inflation and rate discussion.",
+          "watch": "Check the Census result and subsequent official Treasury or Federal Reserve communications.",
+          "status": "carry_forward",
+          "as_of": "2026-10-20",
+          "sources": [
+            {
+              "title": "Dated source",
+              "url": "https://www.census.gov/construction/soc/schedule.html",
+              "published": "2026-10-20"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "international": [
+    {
+      "id": "uk",
+      "label": "United Kingdom",
+      "items": [
+        {
+          "headline": "UK labour data strengthens the November rate-hike case",
+          "detail": "ONS reported October 20 that unemployment fell to 4.7% in June-August, employment rose to 75.3%, regular pay grew 3.7%, and September payrolled employees were 30.3 million, a provisional 13,000 monthly rise.",
+          "why": "The combination supports a near-term BoE hike narrative, but falling vacancies and weak small-firm recruitment temper the signal. Wage persistence and vacancies will decide whether the move extends beyond November.",
+          "watch": "Watch the November 5 BoE decision, vacancies and energy-driven wage effects.",
+          "status": "new",
+          "as_of": "2026-10-20",
+          "sources": [
+            {
+              "title": "Dated source",
+              "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/october2026",
+              "published": "2026-10-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "euro_area",
+      "label": "Euro area",
+      "items": [
+        {
+          "headline": "French risk rises while euro inflation remains elevated",
+          "detail": "Reuters reported October 20 that French OAT yields reached 4.9937% amid planned protests. Eurostat\u2019s October 16 release put September euro-area inflation at 3.8%, up from 3.2% in August. The detail is longer-run inflation and sovereign context; the next test is whether the spread widens beyond France and changes ECB financial conditions.",
+          "why": "Fiscal risk and high inflation constrain the ECB\u2019s room to cushion growth. The next test is whether French-German spreads widen further without a broader euro funding shock. The observation should be read with other indicators because one market print cannot establish a durable macro regime.",
+          "watch": "Track the spread, ECB communication and the next euro-area inflation release.",
+          "status": "carry_forward",
+          "as_of": "2026-10-20",
+          "sources": [
+            {
+              "title": "Dated source",
+              "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-16102026-ap",
+              "published": "2026-10-16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "items": [
+        {
+          "headline": "China holds loan rates as growth reduces urgency for easing",
+          "detail": "Reuters reported October 20 that China held the one-year LPR at 3.00% and five-year LPR at 3.50% for a 17th straight month after third-quarter growth of 4.5%. The policy signal is incremental, so property activity and household credit will test whether unchanged rates are sufficient to stabilize domestic demand.",
+          "why": "The hold signals confidence in current support while policymakers consider shifting loan pricing toward an overnight repo benchmark. Property demand and household spending remain the tests of whether export-led growth is broadening. The observation should be read with other indicators because one market print cannot establish a durable macro regime.",
+          "watch": "Watch PBoC guidance, property prices and retail demand.",
+          "status": "new",
+          "as_of": "2026-10-20",
+          "sources": [
+            {
+              "title": "Dated source",
+              "url": "https://uk.marketscreener.com/news/china-leaves-loan-rates-steady-for-17th-consecutive-month-ce785cdbde8bf221",
+              "published": "2026-10-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "japan",
+      "label": "Japan",
+      "items": [
+        {
+          "headline": "Japan bonds attract demand as equities retreat",
+          "detail": "Reuters reported October 20 that a 20-year JGB auction drew bids worth 5.84 times supply, pushing its yield down 6 basis points to 3.71%; AP reported the Nikkei fell 1.3% to 64,075.42.",
+          "why": "Strong bond demand alongside weaker equities can indicate a defensive rotation, but it does not establish a lasting yen regime. The next auction and domestic policy signals will test whether demand is structural.",
+          "watch": "Compare JGB auction tails, USD/JPY and Nikkei breadth.",
+          "status": "new",
+          "as_of": "2026-10-20",
+          "sources": [
+            {
+              "title": "Dated source",
+              "url": "https://uk.marketscreener.com/news/dollar-and-euro-drift-yen-slips-as-markets-seek-direction-ce785cdbde8bf524",
+              "published": "2026-10-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other_world",
+      "label": "Wider world",
+      "items": [
+        {
+          "headline": "Asian risk appetite is uneven",
+          "detail": "AP reported October 20 that the Kospi fell 3.7%, Hang Seng 1.3%, Shanghai rose 0.1%, and Australia fell 0.3% as AI concerns weighed. The next test is whether weakness spreads beyond chip-heavy markets into broader regional breadth and credit conditions.",
+          "why": "The dispersion shows that regional equity sensitivity differs by valuation, chip exposure and local policy. A synchronized rebound would be stronger evidence of global risk appetite than one index move. The observation should be read with other indicators because one market print cannot establish a durable macro regime.",
+          "watch": "Check regional breadth, semiconductor earnings guidance and credit conditions after the US open.",
+          "status": "new",
+          "as_of": "2026-10-20",
+          "sources": [
+            {
+              "title": "Dated source",
+              "url": "https://apnews.com/article/stock-markets-oil-ai-rates-inflation-b972b64127db5412a2b02c35ecf95c88",
+              "published": "2026-10-20"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

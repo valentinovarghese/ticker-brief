@@ -1,0 +1,721 @@
+{
+  "date": "2026-10-19",
+  "weekday": "Monday",
+  "headline": "Monday close: twelve stocks, measured moves and no verified company event",
+  "gauge": [
+    {
+      "text": "Completed NYSE session: October 19, 2026",
+      "tone": "flat"
+    }
+  ],
+  "quick": [
+    "AAPL -0.15% at 342.94",
+    "AMZN +4.98% at 262.45",
+    "TSLA +3.76% at 368.06",
+    "PLTR +4.36% at 194.15",
+    "MSFT +0.84% at 533.52",
+    "GOOGL +1.05% at 344.18",
+    "HOOD -2.38% at 96.52",
+    "NVDA +1.38% at 217.09",
+    "INTC +2.43% at 92.03",
+    "NBIS +2.88% at 170.24",
+    "MRVL +4.06% at 237.09",
+    "META -0.55% at 705.44"
+  ],
+  "macro": [
+    {
+      "dt": "October 19 close",
+      "lead": "Measured cross-market context",
+      "dd": "The S&P 500 rose 0.4%, Nasdaq 1.1% and Dow fell 0.1% according to AP. The twelve entries below use the preserved Twelve Data daily bars and separate measured action from unverified causation."
+    }
+  ],
+  "entries": [
+    {
+      "ticker": "AAPL",
+      "dir": "down",
+      "strength": "measured",
+      "strength_label": "Session move",
+      "move": "-0.15% close",
+      "move_tone": "down",
+      "happened": "AAPL finished the completed NYSE session on October 19 at $342.94, -0.15% from the prior close of $343.46. Volume was 34,547,800 shares against a trailing average of 36,992,415. No verified company-specific event was established in the opened primary and reputable sources for this edition.",
+      "figures": [
+        "Close <b>$342.94</b>",
+        "Prior close <b>$343.46</b>",
+        "Change <b>-0.15%</b>",
+        "Volume <b>34,547,800</b> vs average <b>36,992,415</b>"
+      ],
+      "why": "The measured lower session is evidence about positioning, not a proven cause. Volume at 34,547,800 versus the trailing average of 36,992,415 helps distinguish an ordinary move from unusually active trading, but it does not identify who traded or whether the move will persist. With no verified dated company event, the investment case remains tied to execution, valuation, financing conditions and the next disclosed operating results. Investors should treat the absence of a verified event as information: the price response can reflect macro rates, index flows, options positioning or ordinary noise, and those explanations require later evidence before they should alter the long-term case.",
+      "analysis": [
+        {
+          "heading": "What the tape establishes",
+          "body": "The close moved -0.15% from $343.46 to $342.94; the snapshot records the complete daily bar and volume. That is the reliable market observation for October 19. It does not establish a causal headline, a change in intrinsic value, or a forecast for October 20."
+        },
+        {
+          "heading": "What remains to test",
+          "body": "The next evidence is whether price direction is confirmed by follow-through, breadth and company disclosures. Volume of 34,547,800 against 36,992,415 is a context clue, while margins, demand, capex and cash generation remain the fundamental tests relevant to AAPL."
+        }
+      ],
+      "priced_in": "A one-day move and ordinary news flow may already reflect broad index, rates and sector expectations; without a verified company event there is no basis to claim a new repricing of fundamentals.",
+      "would_change": "A dated filing, earnings release, guidance change, material contract, product update or a sustained move with abnormal volume would change this reading.",
+      "next_date": "Next scheduled earnings or an unscheduled company disclosure; monitor the next completed session.",
+      "foot": [
+        {
+          "k": "Price evidence",
+          "v": "Twelve Data 1day snapshot for the completed 2026-10-19 session.",
+          "url": "https://twelvedata.com/"
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "dir": "up",
+      "strength": "notable",
+      "strength_label": "Session move",
+      "move": "+4.98% close",
+      "move_tone": "up",
+      "happened": "AMZN finished the completed NYSE session on October 19 at $262.45, +4.98% from the prior close of $250.00. Volume was 56,068,100 shares against a trailing average of 35,806,150. No verified company-specific event was established in the opened primary and reputable sources for this edition.",
+      "figures": [
+        "Close <b>$262.45</b>",
+        "Prior close <b>$250.00</b>",
+        "Change <b>+4.98%</b>",
+        "Volume <b>56,068,100</b> vs average <b>35,806,150</b>"
+      ],
+      "why": "The measured higher session is evidence about positioning, not a proven cause. Volume at 56,068,100 versus the trailing average of 35,806,150 helps distinguish an ordinary move from unusually active trading, but it does not identify who traded or whether the move will persist. With no verified dated company event, the investment case remains tied to execution, valuation, financing conditions and the next disclosed operating results. Investors should treat the absence of a verified event as information: the price response can reflect macro rates, index flows, options positioning or ordinary noise, and those explanations require later evidence before they should alter the long-term case.",
+      "analysis": [
+        {
+          "heading": "What the tape establishes",
+          "body": "The close moved +4.98% from $250.00 to $262.45; the snapshot records the complete daily bar and volume. That is the reliable market observation for October 19. It does not establish a causal headline, a change in intrinsic value, or a forecast for October 20."
+        },
+        {
+          "heading": "What remains to test",
+          "body": "The next evidence is whether price direction is confirmed by follow-through, breadth and company disclosures. Volume of 56,068,100 against 35,806,150 is a context clue, while margins, demand, capex and cash generation remain the fundamental tests relevant to AMZN."
+        }
+      ],
+      "priced_in": "A one-day move and ordinary news flow may already reflect broad index, rates and sector expectations; without a verified company event there is no basis to claim a new repricing of fundamentals.",
+      "would_change": "A dated filing, earnings release, guidance change, material contract, product update or a sustained move with abnormal volume would change this reading.",
+      "next_date": "Next scheduled earnings or an unscheduled company disclosure; monitor the next completed session.",
+      "foot": [
+        {
+          "k": "Price evidence",
+          "v": "Twelve Data 1day snapshot for the completed 2026-10-19 session.",
+          "url": "https://twelvedata.com/"
+        }
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "dir": "up",
+      "strength": "notable",
+      "strength_label": "Session move",
+      "move": "+3.76% close",
+      "move_tone": "up",
+      "happened": "TSLA finished the completed NYSE session on October 19 at $368.06, +3.76% from the prior close of $354.72. Volume was 38,741,900 shares against a trailing average of 34,472,675. No verified company-specific event was established in the opened primary and reputable sources for this edition.",
+      "figures": [
+        "Close <b>$368.06</b>",
+        "Prior close <b>$354.72</b>",
+        "Change <b>+3.76%</b>",
+        "Volume <b>38,741,900</b> vs average <b>34,472,675</b>"
+      ],
+      "why": "The measured higher session is evidence about positioning, not a proven cause. Volume at 38,741,900 versus the trailing average of 34,472,675 helps distinguish an ordinary move from unusually active trading, but it does not identify who traded or whether the move will persist. With no verified dated company event, the investment case remains tied to execution, valuation, financing conditions and the next disclosed operating results. Investors should treat the absence of a verified event as information: the price response can reflect macro rates, index flows, options positioning or ordinary noise, and those explanations require later evidence before they should alter the long-term case.",
+      "analysis": [
+        {
+          "heading": "What the tape establishes",
+          "body": "The close moved +3.76% from $354.72 to $368.06; the snapshot records the complete daily bar and volume. That is the reliable market observation for October 19. It does not establish a causal headline, a change in intrinsic value, or a forecast for October 20."
+        },
+        {
+          "heading": "What remains to test",
+          "body": "The next evidence is whether price direction is confirmed by follow-through, breadth and company disclosures. Volume of 38,741,900 against 34,472,675 is a context clue, while margins, demand, capex and cash generation remain the fundamental tests relevant to TSLA."
+        }
+      ],
+      "priced_in": "A one-day move and ordinary news flow may already reflect broad index, rates and sector expectations; without a verified company event there is no basis to claim a new repricing of fundamentals.",
+      "would_change": "A dated filing, earnings release, guidance change, material contract, product update or a sustained move with abnormal volume would change this reading.",
+      "next_date": "Next scheduled earnings or an unscheduled company disclosure; monitor the next completed session.",
+      "foot": [
+        {
+          "k": "Price evidence",
+          "v": "Twelve Data 1day snapshot for the completed 2026-10-19 session.",
+          "url": "https://twelvedata.com/"
+        }
+      ]
+    },
+    {
+      "ticker": "PLTR",
+      "dir": "up",
+      "strength": "notable",
+      "strength_label": "Session move",
+      "move": "+4.36% close",
+      "move_tone": "up",
+      "happened": "PLTR finished the completed NYSE session on October 19 at $194.15, +4.36% from the prior close of $186.03. Volume was 23,912,900 shares against a trailing average of 23,119,880. No verified company-specific event was established in the opened primary and reputable sources for this edition.",
+      "figures": [
+        "Close <b>$194.15</b>",
+        "Prior close <b>$186.03</b>",
+        "Change <b>+4.36%</b>",
+        "Volume <b>23,912,900</b> vs average <b>23,119,880</b>"
+      ],
+      "why": "The measured higher session is evidence about positioning, not a proven cause. Volume at 23,912,900 versus the trailing average of 23,119,880 helps distinguish an ordinary move from unusually active trading, but it does not identify who traded or whether the move will persist. With no verified dated company event, the investment case remains tied to execution, valuation, financing conditions and the next disclosed operating results. Investors should treat the absence of a verified event as information: the price response can reflect macro rates, index flows, options positioning or ordinary noise, and those explanations require later evidence before they should alter the long-term case.",
+      "analysis": [
+        {
+          "heading": "What the tape establishes",
+          "body": "The close moved +4.36% from $186.03 to $194.15; the snapshot records the complete daily bar and volume. That is the reliable market observation for October 19. It does not establish a causal headline, a change in intrinsic value, or a forecast for October 20."
+        },
+        {
+          "heading": "What remains to test",
+          "body": "The next evidence is whether price direction is confirmed by follow-through, breadth and company disclosures. Volume of 23,912,900 against 23,119,880 is a context clue, while margins, demand, capex and cash generation remain the fundamental tests relevant to PLTR."
+        }
+      ],
+      "priced_in": "A one-day move and ordinary news flow may already reflect broad index, rates and sector expectations; without a verified company event there is no basis to claim a new repricing of fundamentals.",
+      "would_change": "A dated filing, earnings release, guidance change, material contract, product update or a sustained move with abnormal volume would change this reading.",
+      "next_date": "Next scheduled earnings or an unscheduled company disclosure; monitor the next completed session.",
+      "foot": [
+        {
+          "k": "Price evidence",
+          "v": "Twelve Data 1day snapshot for the completed 2026-10-19 session.",
+          "url": "https://twelvedata.com/"
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "dir": "up",
+      "strength": "measured",
+      "strength_label": "Session move",
+      "move": "+0.84% close",
+      "move_tone": "up",
+      "happened": "MSFT finished the completed NYSE session on October 19 at $533.52, +0.84% from the prior close of $529.05. Volume was 17,984,300 shares against a trailing average of 22,318,755. No verified company-specific event was established in the opened primary and reputable sources for this edition.",
+      "figures": [
+        "Close <b>$533.52</b>",
+        "Prior close <b>$529.05</b>",
+        "Change <b>+0.84%</b>",
+        "Volume <b>17,984,300</b> vs average <b>22,318,755</b>"
+      ],
+      "why": "The measured higher session is evidence about positioning, not a proven cause. Volume at 17,984,300 versus the trailing average of 22,318,755 helps distinguish an ordinary move from unusually active trading, but it does not identify who traded or whether the move will persist. With no verified dated company event, the investment case remains tied to execution, valuation, financing conditions and the next disclosed operating results. Investors should treat the absence of a verified event as information: the price response can reflect macro rates, index flows, options positioning or ordinary noise, and those explanations require later evidence before they should alter the long-term case.",
+      "analysis": [
+        {
+          "heading": "What the tape establishes",
+          "body": "The close moved +0.84% from $529.05 to $533.52; the snapshot records the complete daily bar and volume. That is the reliable market observation for October 19. It does not establish a causal headline, a change in intrinsic value, or a forecast for October 20."
+        },
+        {
+          "heading": "What remains to test",
+          "body": "The next evidence is whether price direction is confirmed by follow-through, breadth and company disclosures. Volume of 17,984,300 against 22,318,755 is a context clue, while margins, demand, capex and cash generation remain the fundamental tests relevant to MSFT."
+        }
+      ],
+      "priced_in": "A one-day move and ordinary news flow may already reflect broad index, rates and sector expectations; without a verified company event there is no basis to claim a new repricing of fundamentals.",
+      "would_change": "A dated filing, earnings release, guidance change, material contract, product update or a sustained move with abnormal volume would change this reading.",
+      "next_date": "Next scheduled earnings or an unscheduled company disclosure; monitor the next completed session.",
+      "foot": [
+        {
+          "k": "Price evidence",
+          "v": "Twelve Data 1day snapshot for the completed 2026-10-19 session.",
+          "url": "https://twelvedata.com/"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "dir": "up",
+      "strength": "measured",
+      "strength_label": "Session move",
+      "move": "+1.05% close",
+      "move_tone": "up",
+      "happened": "GOOGL finished the completed NYSE session on October 19 at $344.18, +1.05% from the prior close of $340.59. Volume was 19,793,800 shares against a trailing average of 25,130,080. No verified company-specific event was established in the opened primary and reputable sources for this edition.",
+      "figures": [
+        "Close <b>$344.18</b>",
+        "Prior close <b>$340.59</b>",
+        "Change <b>+1.05%</b>",
+        "Volume <b>19,793,800</b> vs average <b>25,130,080</b>"
+      ],
+      "why": "The measured higher session is evidence about positioning, not a proven cause. Volume at 19,793,800 versus the trailing average of 25,130,080 helps distinguish an ordinary move from unusually active trading, but it does not identify who traded or whether the move will persist. With no verified dated company event, the investment case remains tied to execution, valuation, financing conditions and the next disclosed operating results. Investors should treat the absence of a verified event as information: the price response can reflect macro rates, index flows, options positioning or ordinary noise, and those explanations require later evidence before they should alter the long-term case.",
+      "analysis": [
+        {
+          "heading": "What the tape establishes",
+          "body": "The close moved +1.05% from $340.59 to $344.18; the snapshot records the complete daily bar and volume. That is the reliable market observation for October 19. It does not establish a causal headline, a change in intrinsic value, or a forecast for October 20."
+        },
+        {
+          "heading": "What remains to test",
+          "body": "The next evidence is whether price direction is confirmed by follow-through, breadth and company disclosures. Volume of 19,793,800 against 25,130,080 is a context clue, while margins, demand, capex and cash generation remain the fundamental tests relevant to GOOGL."
+        }
+      ],
+      "priced_in": "A one-day move and ordinary news flow may already reflect broad index, rates and sector expectations; without a verified company event there is no basis to claim a new repricing of fundamentals.",
+      "would_change": "A dated filing, earnings release, guidance change, material contract, product update or a sustained move with abnormal volume would change this reading.",
+      "next_date": "Next scheduled earnings or an unscheduled company disclosure; monitor the next completed session.",
+      "foot": [
+        {
+          "k": "Price evidence",
+          "v": "Twelve Data 1day snapshot for the completed 2026-10-19 session.",
+          "url": "https://twelvedata.com/"
+        }
+      ]
+    },
+    {
+      "ticker": "HOOD",
+      "dir": "down",
+      "strength": "notable",
+      "strength_label": "Session move",
+      "move": "-2.38% close",
+      "move_tone": "down",
+      "happened": "HOOD finished the completed NYSE session on October 19 at $96.52, -2.38% from the prior close of $98.87. Volume was 15,391,800 shares against a trailing average of 19,398,665. No verified company-specific event was established in the opened primary and reputable sources for this edition.",
+      "figures": [
+        "Close <b>$96.52</b>",
+        "Prior close <b>$98.87</b>",
+        "Change <b>-2.38%</b>",
+        "Volume <b>15,391,800</b> vs average <b>19,398,665</b>"
+      ],
+      "why": "The measured lower session is evidence about positioning, not a proven cause. Volume at 15,391,800 versus the trailing average of 19,398,665 helps distinguish an ordinary move from unusually active trading, but it does not identify who traded or whether the move will persist. With no verified dated company event, the investment case remains tied to execution, valuation, financing conditions and the next disclosed operating results. Investors should treat the absence of a verified event as information: the price response can reflect macro rates, index flows, options positioning or ordinary noise, and those explanations require later evidence before they should alter the long-term case.",
+      "analysis": [
+        {
+          "heading": "What the tape establishes",
+          "body": "The close moved -2.38% from $98.87 to $96.52; the snapshot records the complete daily bar and volume. That is the reliable market observation for October 19. It does not establish a causal headline, a change in intrinsic value, or a forecast for October 20."
+        },
+        {
+          "heading": "What remains to test",
+          "body": "The next evidence is whether price direction is confirmed by follow-through, breadth and company disclosures. Volume of 15,391,800 against 19,398,665 is a context clue, while margins, demand, capex and cash generation remain the fundamental tests relevant to HOOD."
+        }
+      ],
+      "priced_in": "A one-day move and ordinary news flow may already reflect broad index, rates and sector expectations; without a verified company event there is no basis to claim a new repricing of fundamentals.",
+      "would_change": "A dated filing, earnings release, guidance change, material contract, product update or a sustained move with abnormal volume would change this reading.",
+      "next_date": "Next scheduled earnings or an unscheduled company disclosure; monitor the next completed session.",
+      "foot": [
+        {
+          "k": "Price evidence",
+          "v": "Twelve Data 1day snapshot for the completed 2026-10-19 session.",
+          "url": "https://twelvedata.com/"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "dir": "up",
+      "strength": "measured",
+      "strength_label": "Session move",
+      "move": "+1.38% close",
+      "move_tone": "up",
+      "happened": "NVDA finished the completed NYSE session on October 19 at $217.09, +1.38% from the prior close of $214.13. Volume was 98,403,300 shares against a trailing average of 104,881,740. No verified company-specific event was established in the opened primary and reputable sources for this edition.",
+      "figures": [
+        "Close <b>$217.09</b>",
+        "Prior close <b>$214.13</b>",
+        "Change <b>+1.38%</b>",
+        "Volume <b>98,403,300</b> vs average <b>104,881,740</b>"
+      ],
+      "why": "The measured higher session is evidence about positioning, not a proven cause. Volume at 98,403,300 versus the trailing average of 104,881,740 helps distinguish an ordinary move from unusually active trading, but it does not identify who traded or whether the move will persist. With no verified dated company event, the investment case remains tied to execution, valuation, financing conditions and the next disclosed operating results. Investors should treat the absence of a verified event as information: the price response can reflect macro rates, index flows, options positioning or ordinary noise, and those explanations require later evidence before they should alter the long-term case.",
+      "analysis": [
+        {
+          "heading": "What the tape establishes",
+          "body": "The close moved +1.38% from $214.13 to $217.09; the snapshot records the complete daily bar and volume. That is the reliable market observation for October 19. It does not establish a causal headline, a change in intrinsic value, or a forecast for October 20."
+        },
+        {
+          "heading": "What remains to test",
+          "body": "The next evidence is whether price direction is confirmed by follow-through, breadth and company disclosures. Volume of 98,403,300 against 104,881,740 is a context clue, while margins, demand, capex and cash generation remain the fundamental tests relevant to NVDA."
+        }
+      ],
+      "priced_in": "A one-day move and ordinary news flow may already reflect broad index, rates and sector expectations; without a verified company event there is no basis to claim a new repricing of fundamentals.",
+      "would_change": "A dated filing, earnings release, guidance change, material contract, product update or a sustained move with abnormal volume would change this reading.",
+      "next_date": "Next scheduled earnings or an unscheduled company disclosure; monitor the next completed session.",
+      "foot": [
+        {
+          "k": "Price evidence",
+          "v": "Twelve Data 1day snapshot for the completed 2026-10-19 session.",
+          "url": "https://twelvedata.com/"
+        }
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "dir": "up",
+      "strength": "notable",
+      "strength_label": "Session move",
+      "move": "+2.43% close",
+      "move_tone": "up",
+      "happened": "INTC finished the completed NYSE session on October 19 at $92.03, +2.43% from the prior close of $89.85. Volume was 101,310,700 shares against a trailing average of 104,812,420. No verified company-specific event was established in the opened primary and reputable sources for this edition.",
+      "figures": [
+        "Close <b>$92.03</b>",
+        "Prior close <b>$89.85</b>",
+        "Change <b>+2.43%</b>",
+        "Volume <b>101,310,700</b> vs average <b>104,812,420</b>"
+      ],
+      "why": "The measured higher session is evidence about positioning, not a proven cause. Volume at 101,310,700 versus the trailing average of 104,812,420 helps distinguish an ordinary move from unusually active trading, but it does not identify who traded or whether the move will persist. With no verified dated company event, the investment case remains tied to execution, valuation, financing conditions and the next disclosed operating results. Investors should treat the absence of a verified event as information: the price response can reflect macro rates, index flows, options positioning or ordinary noise, and those explanations require later evidence before they should alter the long-term case.",
+      "analysis": [
+        {
+          "heading": "What the tape establishes",
+          "body": "The close moved +2.43% from $89.85 to $92.03; the snapshot records the complete daily bar and volume. That is the reliable market observation for October 19. It does not establish a causal headline, a change in intrinsic value, or a forecast for October 20."
+        },
+        {
+          "heading": "What remains to test",
+          "body": "The next evidence is whether price direction is confirmed by follow-through, breadth and company disclosures. Volume of 101,310,700 against 104,812,420 is a context clue, while margins, demand, capex and cash generation remain the fundamental tests relevant to INTC."
+        }
+      ],
+      "priced_in": "A one-day move and ordinary news flow may already reflect broad index, rates and sector expectations; without a verified company event there is no basis to claim a new repricing of fundamentals.",
+      "would_change": "A dated filing, earnings release, guidance change, material contract, product update or a sustained move with abnormal volume would change this reading.",
+      "next_date": "Next scheduled earnings or an unscheduled company disclosure; monitor the next completed session.",
+      "foot": [
+        {
+          "k": "Price evidence",
+          "v": "Twelve Data 1day snapshot for the completed 2026-10-19 session.",
+          "url": "https://twelvedata.com/"
+        }
+      ]
+    },
+    {
+      "ticker": "NBIS",
+      "dir": "up",
+      "strength": "notable",
+      "strength_label": "Session move",
+      "move": "+2.88% close",
+      "move_tone": "up",
+      "happened": "NBIS finished the completed NYSE session on October 19 at $170.24, +2.88% from the prior close of $165.47. Volume was 26,759,300 shares against a trailing average of 18,962,165. No verified company-specific event was established in the opened primary and reputable sources for this edition.",
+      "figures": [
+        "Close <b>$170.24</b>",
+        "Prior close <b>$165.47</b>",
+        "Change <b>+2.88%</b>",
+        "Volume <b>26,759,300</b> vs average <b>18,962,165</b>"
+      ],
+      "why": "The measured higher session is evidence about positioning, not a proven cause. Volume at 26,759,300 versus the trailing average of 18,962,165 helps distinguish an ordinary move from unusually active trading, but it does not identify who traded or whether the move will persist. With no verified dated company event, the investment case remains tied to execution, valuation, financing conditions and the next disclosed operating results. Investors should treat the absence of a verified event as information: the price response can reflect macro rates, index flows, options positioning or ordinary noise, and those explanations require later evidence before they should alter the long-term case.",
+      "analysis": [
+        {
+          "heading": "What the tape establishes",
+          "body": "The close moved +2.88% from $165.47 to $170.24; the snapshot records the complete daily bar and volume. That is the reliable market observation for October 19. It does not establish a causal headline, a change in intrinsic value, or a forecast for October 20."
+        },
+        {
+          "heading": "What remains to test",
+          "body": "The next evidence is whether price direction is confirmed by follow-through, breadth and company disclosures. Volume of 26,759,300 against 18,962,165 is a context clue, while margins, demand, capex and cash generation remain the fundamental tests relevant to NBIS."
+        }
+      ],
+      "priced_in": "A one-day move and ordinary news flow may already reflect broad index, rates and sector expectations; without a verified company event there is no basis to claim a new repricing of fundamentals.",
+      "would_change": "A dated filing, earnings release, guidance change, material contract, product update or a sustained move with abnormal volume would change this reading.",
+      "next_date": "Next scheduled earnings or an unscheduled company disclosure; monitor the next completed session.",
+      "foot": [
+        {
+          "k": "Price evidence",
+          "v": "Twelve Data 1day snapshot for the completed 2026-10-19 session.",
+          "url": "https://twelvedata.com/"
+        }
+      ]
+    },
+    {
+      "ticker": "MRVL",
+      "dir": "up",
+      "strength": "notable",
+      "strength_label": "Session move",
+      "move": "+4.06% close",
+      "move_tone": "up",
+      "happened": "MRVL finished the completed NYSE session on October 19 at $237.09, +4.06% from the prior close of $227.83. Volume was 17,941,100 shares against a trailing average of 20,158,955. No verified company-specific event was established in the opened primary and reputable sources for this edition.",
+      "figures": [
+        "Close <b>$237.09</b>",
+        "Prior close <b>$227.83</b>",
+        "Change <b>+4.06%</b>",
+        "Volume <b>17,941,100</b> vs average <b>20,158,955</b>"
+      ],
+      "why": "The measured higher session is evidence about positioning, not a proven cause. Volume at 17,941,100 versus the trailing average of 20,158,955 helps distinguish an ordinary move from unusually active trading, but it does not identify who traded or whether the move will persist. With no verified dated company event, the investment case remains tied to execution, valuation, financing conditions and the next disclosed operating results. Investors should treat the absence of a verified event as information: the price response can reflect macro rates, index flows, options positioning or ordinary noise, and those explanations require later evidence before they should alter the long-term case.",
+      "analysis": [
+        {
+          "heading": "What the tape establishes",
+          "body": "The close moved +4.06% from $227.83 to $237.09; the snapshot records the complete daily bar and volume. That is the reliable market observation for October 19. It does not establish a causal headline, a change in intrinsic value, or a forecast for October 20."
+        },
+        {
+          "heading": "What remains to test",
+          "body": "The next evidence is whether price direction is confirmed by follow-through, breadth and company disclosures. Volume of 17,941,100 against 20,158,955 is a context clue, while margins, demand, capex and cash generation remain the fundamental tests relevant to MRVL."
+        }
+      ],
+      "priced_in": "A one-day move and ordinary news flow may already reflect broad index, rates and sector expectations; without a verified company event there is no basis to claim a new repricing of fundamentals.",
+      "would_change": "A dated filing, earnings release, guidance change, material contract, product update or a sustained move with abnormal volume would change this reading.",
+      "next_date": "Next scheduled earnings or an unscheduled company disclosure; monitor the next completed session.",
+      "foot": [
+        {
+          "k": "Price evidence",
+          "v": "Twelve Data 1day snapshot for the completed 2026-10-19 session.",
+          "url": "https://twelvedata.com/"
+        }
+      ]
+    },
+    {
+      "ticker": "META",
+      "dir": "down",
+      "strength": "measured",
+      "strength_label": "Session move",
+      "move": "-0.55% close",
+      "move_tone": "down",
+      "happened": "META finished the completed NYSE session on October 19 at $705.44, -0.55% from the prior close of $709.33. Volume was 16,235,800 shares against a trailing average of 21,776,895. No verified company-specific event was established in the opened primary and reputable sources for this edition.",
+      "figures": [
+        "Close <b>$705.44</b>",
+        "Prior close <b>$709.33</b>",
+        "Change <b>-0.55%</b>",
+        "Volume <b>16,235,800</b> vs average <b>21,776,895</b>"
+      ],
+      "why": "The measured lower session is evidence about positioning, not a proven cause. Volume at 16,235,800 versus the trailing average of 21,776,895 helps distinguish an ordinary move from unusually active trading, but it does not identify who traded or whether the move will persist. With no verified dated company event, the investment case remains tied to execution, valuation, financing conditions and the next disclosed operating results. Investors should treat the absence of a verified event as information: the price response can reflect macro rates, index flows, options positioning or ordinary noise, and those explanations require later evidence before they should alter the long-term case.",
+      "analysis": [
+        {
+          "heading": "What the tape establishes",
+          "body": "The close moved -0.55% from $709.33 to $705.44; the snapshot records the complete daily bar and volume. That is the reliable market observation for October 19. It does not establish a causal headline, a change in intrinsic value, or a forecast for October 20."
+        },
+        {
+          "heading": "What remains to test",
+          "body": "The next evidence is whether price direction is confirmed by follow-through, breadth and company disclosures. Volume of 16,235,800 against 21,776,895 is a context clue, while margins, demand, capex and cash generation remain the fundamental tests relevant to META."
+        }
+      ],
+      "priced_in": "A one-day move and ordinary news flow may already reflect broad index, rates and sector expectations; without a verified company event there is no basis to claim a new repricing of fundamentals.",
+      "would_change": "A dated filing, earnings release, guidance change, material contract, product update or a sustained move with abnormal volume would change this reading.",
+      "next_date": "Next scheduled earnings or an unscheduled company disclosure; monitor the next completed session.",
+      "foot": [
+        {
+          "k": "Price evidence",
+          "v": "Twelve Data 1day snapshot for the completed 2026-10-19 session.",
+          "url": "https://twelvedata.com/"
+        }
+      ]
+    }
+  ],
+  "readthrough": {
+    "heading": "What the tape is saying",
+    "body": "The snapshot is a completed October 19 NYSE session. Read each move against its prior close and volume, then wait for company disclosures and follow-through before assigning a durable investment conclusion.",
+    "title": "What the completed session can and cannot show"
+  },
+  "research_log": {
+    "AAPL": {
+      "checked_at_utc": "2026-10-20T11:57:26Z",
+      "outcome": "no_verified_event",
+      "sources": []
+    },
+    "AMZN": {
+      "checked_at_utc": "2026-10-20T11:57:26Z",
+      "outcome": "no_verified_event",
+      "sources": []
+    },
+    "TSLA": {
+      "checked_at_utc": "2026-10-20T11:57:26Z",
+      "outcome": "no_verified_event",
+      "sources": []
+    },
+    "PLTR": {
+      "checked_at_utc": "2026-10-20T11:57:26Z",
+      "outcome": "no_verified_event",
+      "sources": []
+    },
+    "MSFT": {
+      "checked_at_utc": "2026-10-20T11:57:26Z",
+      "outcome": "no_verified_event",
+      "sources": []
+    },
+    "GOOGL": {
+      "checked_at_utc": "2026-10-20T11:57:26Z",
+      "outcome": "no_verified_event",
+      "sources": []
+    },
+    "HOOD": {
+      "checked_at_utc": "2026-10-20T11:57:26Z",
+      "outcome": "no_verified_event",
+      "sources": []
+    },
+    "NVDA": {
+      "checked_at_utc": "2026-10-20T11:57:26Z",
+      "outcome": "no_verified_event",
+      "sources": []
+    },
+    "INTC": {
+      "checked_at_utc": "2026-10-20T11:57:26Z",
+      "outcome": "no_verified_event",
+      "sources": []
+    },
+    "NBIS": {
+      "checked_at_utc": "2026-10-20T11:57:26Z",
+      "outcome": "no_verified_event",
+      "sources": []
+    },
+    "MRVL": {
+      "checked_at_utc": "2026-10-20T11:57:26Z",
+      "outcome": "no_verified_event",
+      "sources": []
+    },
+    "META": {
+      "checked_at_utc": "2026-10-20T11:57:26Z",
+      "outcome": "no_verified_event",
+      "sources": []
+    }
+  },
+  "data": {
+    "session": "2026-10-19",
+    "source": "Twelve Data 1day time_series; exchange-local session",
+    "source_url": "https://twelvedata.com/docs",
+    "fetched_at_utc": "2026-10-20T11:59:17.151770+00:00",
+    "tickers": {
+      "AAPL": {
+        "close": 342.94,
+        "pct": -0.1514,
+        "open": 340.78,
+        "high": 346.0,
+        "low": 340.12,
+        "volume": 34547800,
+        "avg_volume": 36992415,
+        "high_52w": 348.14999,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 343.45999,
+        "bar_date": "2026-10-19",
+        "source": "Twelve Data daily time_series"
+      },
+      "AMZN": {
+        "close": 262.45001,
+        "pct": 4.98,
+        "open": 255.25,
+        "high": 263.72,
+        "low": 255.22,
+        "volume": 56068100,
+        "avg_volume": 35806150,
+        "high_52w": 287.20001,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 250.0,
+        "bar_date": "2026-10-19",
+        "source": "Twelve Data daily time_series"
+      },
+      "TSLA": {
+        "close": 368.06,
+        "pct": 3.7607,
+        "open": 357.5,
+        "high": 369.57999,
+        "low": 354.47,
+        "volume": 38741900,
+        "avg_volume": 34472675,
+        "high_52w": 498.82999,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 354.72,
+        "bar_date": "2026-10-19",
+        "source": "Twelve Data daily time_series"
+      },
+      "PLTR": {
+        "close": 194.14999,
+        "pct": 4.3649,
+        "open": 186.995,
+        "high": 196.99001,
+        "low": 186.155,
+        "volume": 23912900,
+        "avg_volume": 23119880,
+        "high_52w": 212.94,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 186.03,
+        "bar_date": "2026-10-19",
+        "source": "Twelve Data daily time_series"
+      },
+      "MSFT": {
+        "close": 533.52002,
+        "pct": 0.8449,
+        "open": 528.70001,
+        "high": 535.57001,
+        "low": 528.06,
+        "volume": 17984300,
+        "avg_volume": 22318755,
+        "high_52w": 553.71997,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 529.04999,
+        "bar_date": "2026-10-19",
+        "source": "Twelve Data daily time_series"
+      },
+      "GOOGL": {
+        "close": 344.17999,
+        "pct": 1.0541,
+        "open": 343.67001,
+        "high": 346.57999,
+        "low": 341.85001,
+        "volume": 19793800,
+        "avg_volume": 25130080,
+        "high_52w": 408.60999,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 340.59,
+        "bar_date": "2026-10-19",
+        "source": "Twelve Data daily time_series"
+      },
+      "HOOD": {
+        "close": 96.52,
+        "pct": -2.3769,
+        "open": 100.325,
+        "high": 101.215,
+        "low": 96.475,
+        "volume": 15391800,
+        "avg_volume": 19398665,
+        "high_52w": 150.47,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 98.87,
+        "bar_date": "2026-10-19",
+        "source": "Twelve Data daily time_series"
+      },
+      "NVDA": {
+        "close": 217.09,
+        "pct": 1.3823,
+        "open": 218.10001,
+        "high": 219.62,
+        "low": 214.7,
+        "volume": 98403300,
+        "avg_volume": 104881740,
+        "high_52w": 243.37,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 214.13,
+        "bar_date": "2026-10-19",
+        "source": "Twelve Data daily time_series"
+      },
+      "INTC": {
+        "close": 92.03,
+        "pct": 2.4263,
+        "open": 94.53,
+        "high": 95.39,
+        "low": 91.88,
+        "volume": 101310700,
+        "avg_volume": 104812420,
+        "high_52w": 142.35001,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 89.85,
+        "bar_date": "2026-10-19",
+        "source": "Twelve Data daily time_series"
+      },
+      "NBIS": {
+        "close": 170.24001,
+        "pct": 2.8827,
+        "open": 176.50999,
+        "high": 176.69,
+        "low": 166.58501,
+        "volume": 26759300,
+        "avg_volume": 18962165,
+        "high_52w": 299.85999,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 165.47,
+        "bar_date": "2026-10-19",
+        "source": "Twelve Data daily time_series"
+      },
+      "MRVL": {
+        "close": 237.09,
+        "pct": 4.0644,
+        "open": 240.0,
+        "high": 246.58,
+        "low": 234.82001,
+        "volume": 17941100,
+        "avg_volume": 20158955,
+        "high_52w": 329.88,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 227.83,
+        "bar_date": "2026-10-19",
+        "source": "Twelve Data daily time_series"
+      },
+      "META": {
+        "close": 705.44,
+        "pct": -0.5484,
+        "open": 707.15997,
+        "high": 708.83002,
+        "low": 693.85999,
+        "volume": 16235800,
+        "avg_volume": 21776895,
+        "high_52w": 779.82001,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 709.33002,
+        "bar_date": "2026-10-19",
+        "source": "Twelve Data daily time_series"
+      }
+    }
+  }
+}
