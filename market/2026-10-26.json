@@ -1,0 +1,283 @@
+{
+  "date": "2026-10-26",
+  "as_of_utc": "2026-10-26T15:28:52Z",
+  "headline": "Monday market brief: oil relief meets a hard financing and earnings test",
+  "overview": "As of this London afternoon cutoff, the regular US equity market is open and Monday's cash session is unfinished. Friday October 23 remains the latest completed NYSE close. AP reported the S&P 500 up 0.6% at 10:30 New York time, while Brent eased and the US ten-year Treasury yield slipped from Friday. Those are intraday observations, not a closing verdict. The central question is whether lower oil and yields can offset costly AI infrastructure financing and uneven global demand. This week's Fed, ECB and Bank of Japan meetings, large technology earnings, and fresh growth data will provide firmer tests.",
+  "general": [
+    {
+      "id": "equities",
+      "label": "Equities",
+      "items": [
+        {
+          "headline": "US shares recover intraday while AI breadth remains unsettled",
+          "detail": "At 10:30 a.m. New York time on October 26, AP reported the S&P 500 up 0.6%, the Dow up 356 points and Nasdaq up 0.6%. Nvidia rose 1.9%, while Meta fell 1.1%. These are intraday readings; the October 26 US cash close has not occurred.",
+          "why": "The split between chip demand and financing concerns makes index gains an incomplete signal of broad risk appetite. Large company earnings can confirm spending plans while also exposing pressure on free cash flow and equity dilution.",
+          "watch": "At the completed US close, compare breadth, AI shares and the index with the 10:30 a.m. reading.",
+          "status": "new",
+          "as_of": "2026-10-26",
+          "sources": [
+            {
+              "title": "AP US markets intraday report",
+              "url": "https://apnews.com/article/stocks-markets-oil-earnings-trump-be3a56f58a77c5be863f0289d280be92",
+              "published": "2026-10-26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "treasuries_bonds",
+      "label": "Treasuries and bonds",
+      "items": [
+        {
+          "headline": "Ten-year Treasury yield eases ahead of Fed decision",
+          "detail": "AP reported on October 26 that the US ten-year Treasury yield was 4.96%, down from 5.00% late Friday October 23. The two-year yield was 4.69%, unchanged from Friday. Both are intraday bond-market readings ahead of the Federal Reserve decision expected Wednesday.",
+          "why": "A fall in long yields can reduce discount-rate pressure on equities and borrowing costs, but a steady two-year yield suggests the near-term policy path has not moved in parallel. The Wednesday statement and subsequent bond reaction will distinguish temporary haven demand from a durable rate change.",
+          "watch": "Compare the two-year and ten-year yields after Wednesday’s Fed announcement and the next inflation release.",
+          "status": "new",
+          "as_of": "2026-10-26",
+          "sources": [
+            {
+              "title": "AP bond-market report",
+              "url": "https://apnews.com/article/stocks-markets-oil-earnings-trump-be3a56f58a77c5be863f0289d280be92",
+              "published": "2026-10-26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "credit",
+      "label": "Corporate credit",
+      "items": [
+        {
+          "headline": "Meta financing plan makes AI funding costs concrete",
+          "detail": "AP reported October 26 that Meta outlined a plan to raise $35 billion through stock sales for AI investment and said it could sell another $60 billion of a new nonvoting share class. The proposal arrives as investors question expensive borrowing for data centers; no broad credit-spread close is verified here.",
+          "why": "Equity financing can protect debt capacity but may dilute existing holders, while more commitments can pressure future returns if AI revenue trails capital spending. The signal for credit is whether lenders demand wider spreads from infrastructure borrowers, not one volatile share price.",
+          "watch": "Review Meta’s final offering terms, AI cash generation and the next high-yield spread observation.",
+          "status": "new",
+          "as_of": "2026-10-26",
+          "sources": [
+            {
+              "title": "AP Meta financing and credit context",
+              "url": "https://apnews.com/article/stocks-markets-oil-earnings-trump-be3a56f58a77c5be863f0289d280be92",
+              "published": "2026-10-26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "currencies",
+      "label": "Currencies",
+      "items": [
+        {
+          "headline": "Euro stabilizes against dollar as French pressure eases",
+          "detail": "Reuters reported October 26 that the euro was flat near $1.1201 and rose 0.37% against the yen to 176.15. French bonds strengthened after Moody’s left France’s rating unchanged the prior week; the currency reading is intraday and should not be treated as a closing level.",
+          "why": "Currency stability suggests less immediate sovereign contagion, but the euro remains exposed to high energy imports and the ECB decision. The yen cross also reflects relative monetary policy expectations ahead of the Bank of Japan meeting.",
+          "watch": "Compare EUR/USD and EUR/JPY after the ECB and Bank of Japan decisions this week.",
+          "status": "new",
+          "as_of": "2026-10-26",
+          "sources": [
+            {
+              "title": "Reuters FX report",
+              "url": "https://ca.marketscreener.com/news/euro-firms-against-yen-flat-vs-dollar-ahead-of-central-bank-meetings-ce785cdcda89f323",
+              "published": "2026-10-26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "headline": "Bitcoin hovers near $80,000 before central bank week",
+          "detail": "Fortune recorded bitcoin at $80,267.62 at 8:15 a.m. Eastern on October 26, only $38.41 above its prior-morning reading. That is a point-in-time quote, not a daily settlement; crypto trades continuously across weekends and the US equity session.",
+          "why": "The muted change despite an intraday equity rebound leaves the risk-appetite signal mixed. Rates and liquidity matter for speculative assets, but one spot quote cannot establish a cause or a trend.",
+          "watch": "Check bitcoin and ether through the Fed decision and compare spot moves with equity breadth and Treasury yields.",
+          "status": "new",
+          "as_of": "2026-10-26",
+          "sources": [
+            {
+              "title": "Fortune timed bitcoin quote",
+              "url": "https://fortune.com/article/price-of-bitcoin-10-26-2026/",
+              "published": "2026-10-26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commodities",
+      "label": "Commodities",
+      "items": [
+        {
+          "headline": "Brent retreats but oil supply risk stays elevated",
+          "detail": "AP reported Brent down 1.5% to $110 a barrel during the October 26 US morning. Reuters earlier put oil near $114.6 after an approximately 1.8% decline; the reports were taken at different times and are not a single close. Reuters said Brent rose 6.2% in the prior week amid supply concerns.",
+          "why": "Lower oil can ease inflation and fuel costs for transport, but a price still near recent highs leaves importers and central banks exposed. The key issue is whether de-escalation actually restores reliable supply, rather than one session of softer futures.",
+          "watch": "Check the next Brent settlement and confirmed supply developments before inferring a durable inflation reprieve.",
+          "status": "new",
+          "as_of": "2026-10-26",
+          "sources": [
+            {
+              "title": "AP intraday oil report",
+              "url": "https://apnews.com/article/stocks-markets-oil-earnings-trump-be3a56f58a77c5be863f0289d280be92",
+              "published": "2026-10-26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "housing",
+      "label": "Housing",
+      "items": [
+        {
+          "headline": "Mortgage rate relief is small against a steep annual rise",
+          "detail": "Freddie Mac’s October 22 survey put the US thirty-year fixed mortgage average at 7.32%, down from 7.40% on October 15 but above 6.19% a year earlier. The fifteen-year average was 6.68%. These are weekly application rates, not today’s mortgage quote.",
+          "why": "The weekly dip modestly improves affordability, yet the year-on-year increase still raises monthly payments and can suppress turnover and building. Long Treasury yields and lender spreads determine whether the relief reaches borrowers.",
+          "watch": "Compare Freddie Mac’s next Thursday survey with mortgage applications and the coming housing releases.",
+          "status": "carry_forward",
+          "as_of": "2026-10-22",
+          "sources": [
+            {
+              "title": "Freddie Mac PMMS October 22",
+              "url": "https://www.freddiemac.com/pmms",
+              "published": "2026-10-22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us_policy",
+      "label": "US policy",
+      "items": [
+        {
+          "headline": "Fed decision approaches after September rate increase",
+          "detail": "AP reported October 26 that investors broadly expected the Federal Reserve to hold its policy rate at Wednesday’s meeting, following a September increase intended to slow inflation. The central bank has not announced this week’s decision as of this report’s cutoff.",
+          "why": "A hold would leave borrowing costs restrictive while policymakers weigh oil-led inflation against growth. The statement’s inflation language and the two-year yield reaction matter more than an assumed decision before it is released.",
+          "watch": "Read Wednesday’s actual FOMC decision and compare the two-year Treasury response with the prior 4.69% reading.",
+          "status": "new",
+          "as_of": "2026-10-26",
+          "sources": [
+            {
+              "title": "AP Fed outlook",
+              "url": "https://apnews.com/article/stocks-markets-oil-earnings-trump-be3a56f58a77c5be863f0289d280be92",
+              "published": "2026-10-26"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "international": [
+    {
+      "id": "uk",
+      "label": "UK",
+      "items": [
+        {
+          "headline": "UK surveys and spending diverge before the budget",
+          "detail": "Reuters reported that the preliminary October UK composite PMI rose to 53.1 from September’s 52.0, while September retail sales weakened. Sterling reached a seventeen-month high against the euro on Friday October 23. The October 28 UK budget is still pending.",
+          "why": "Stronger business surveys and softer household spending give different signals for growth and tax capacity. The budget will test whether fiscal choices add support without reigniting gilt or inflation concerns under expensive energy.",
+          "watch": "Read the October 28 budget measures and compare sterling and gilt yields with Friday’s levels.",
+          "status": "carry_forward",
+          "as_of": "2026-10-23",
+          "sources": [
+            {
+              "title": "Reuters UK PMI and sterling report",
+              "url": "https://www.brecorder.com/news/40445904",
+              "published": "2026-10-26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "euro_area",
+      "label": "Euro area",
+      "items": [
+        {
+          "headline": "German confidence improves but current conditions weaken",
+          "detail": "The October 26 ifo survey showed Germany’s business climate at 90.2, up from 89.9 in September, according to Reuters. Expectations climbed to 91.6 from 90.4, while current conditions fell to 88.8 from 89.5. The ECB decision is due later this week.",
+          "why": "The divergence suggests firms see a better six-month outlook without a present demand rebound. Higher energy costs and French sovereign stress could still tighten financing conditions across the euro area.",
+          "watch": "Compare the October ifo split with flash inflation, GDP and Thursday’s ECB communication.",
+          "status": "new",
+          "as_of": "2026-10-26",
+          "sources": [
+            {
+              "title": "Reuters German ifo report",
+              "url": "https://www.marketscreener.com/news/german-business-sentiment-improves-in-october-ifo-survey-finds-ce785cdcd88df022",
+              "published": "2026-10-26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "items": [
+        {
+          "headline": "Chinese export-led growth masks weak domestic demand",
+          "detail": "China’s third-quarter GDP grew 4.5% from a year earlier, up from 4.3% in the second quarter, AP reported on October 19. The same report cited export strength and weak domestic demand, with property-sector pressure still present. This is an October 19 release carried forward, not new October 26 data.",
+          "why": "Export dependence supports industrial output but makes growth sensitive to foreign trade barriers and weak consumption at home. It matters to commodity demand and global pricing power, especially if domestic stimulus fails to broaden spending.",
+          "watch": "Watch the next official retail sales, property and trade readings for domestic-demand improvement.",
+          "status": "carry_forward",
+          "as_of": "2026-10-19",
+          "sources": [
+            {
+              "title": "AP China GDP report",
+              "url": "https://apnews.com/article/china-economy-71354a055a412ef13e4e2edad070b4a5",
+              "published": "2026-10-19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "japan",
+      "label": "Japan",
+      "items": [
+        {
+          "headline": "Oil import bill leaves Japan exposed before BoJ meeting",
+          "detail": "Japan’s finance ministry data released October 21 showed an April-to-September trade deficit of 2.81 trillion yen, AP reported. September alone was a 536.6 billion yen deficit, the fifth consecutive monthly shortfall, as oil imports became more expensive. This is dated carry-forward evidence.",
+          "why": "Higher import costs can weaken the yen and lift domestic prices even while export volumes grow. The Bank of Japan must judge whether inflation is persistent enough to justify further tightening without deepening pressure on activity.",
+          "watch": "Read this week’s Bank of Japan decision and the next trade and inflation releases.",
+          "status": "carry_forward",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "title": "AP Japan trade report",
+              "url": "https://apnews.com/article/japan-trade-oil-imports-exports-war-c2265fa62a4511229dd83693d94d32e2",
+              "published": "2026-10-21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other_world",
+      "label": "Other world",
+      "items": [
+        {
+          "headline": "Indian shares react to oil and higher funding costs",
+          "detail": "Reuters reported October 26 that India’s Nifty 50 was down 0.5% and Sensex down 0.46% at 9:47 a.m. India time, with twelve of sixteen major sectors lower. The report linked investor concern to elevated crude and this week’s US rate decision; the quoted levels are early intraday readings.",
+          "why": "India imports oil, so prolonged high crude can raise inflation and the external bill while global rate pressure raises financing costs. The distinction between early selling and a durable trend requires a closing confirmation.",
+          "watch": "Compare India’s completed cash close with oil settlement and the Fed decision later this week.",
+          "status": "new",
+          "as_of": "2026-10-26",
+          "sources": [
+            {
+              "title": "Reuters India equities report",
+              "url": "https://ae.marketscreener.com/news/indian-shares-fall-as-oil-concerns-persist-ce785cdfd08cf72d",
+              "published": "2026-10-26"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
