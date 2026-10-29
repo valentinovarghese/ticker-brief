@@ -1,0 +1,363 @@
+{
+  "date": "2026-10-29",
+  "as_of_utc": "2026-10-29T12:58:55Z",
+  "headline": "Thursday market brief: Fed hold meets GDP, PCE and ECB tests",
+  "overview": "As of the 12:58 UTC London cutoff, it is 08:58 in New York and the regular NYSE cash session is not yet open; October 28 is the latest completed US equity session. The Federal Reserve said on October 28 it would maintain a 3.75% to 4% target range while inflation remains elevated. Today brings the BEA Q3 GDP advance estimate and September personal income and PCE at 12:30 UTC, followed by the ECB decision. Intraday futures are not a completed US close.",
+  "general": [
+    {
+      "id": "equities",
+      "label": "Equities",
+      "items": [
+        {
+          "headline": "US cash market remains before the open",
+          "detail": "At the 12:58 UTC cutoff, New York is 08:58 ET and the NYSE core session will not begin until 09:30 ET. October 28 is therefore the latest completed cash session; overnight futures and after-hours earnings reactions cannot be written as today’s close.",
+          "why": "The distinction matters because Alphabet and Microsoft reported after the October 28 close and their extended-hours moves can reverse once regular liquidity arrives. A pre-open signal is a setup for a test, not a settled market outcome.",
+          "watch": "Check the 09:30 ET opening breadth and the October 29 close after the GDP, PCE and ECB events.",
+          "status": "new",
+          "as_of": "2026-10-29",
+          "sources": [
+            {
+              "title": "NYSE holidays and trading hours",
+              "url": "https://www.nyse.com/trade/hours-calendars",
+              "published": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "headline": "US futures are slightly higher before the NYSE open",
+          "detail": "AP reported on October 27 that US futures edged higher after an AI-led Wall Street rally, while global shares were mixed ahead of major earnings and central-bank decisions. At the 12:58 UTC cutoff New York was 08:58 ET, before the 09:30 ET NYSE open, so no October 27 cash move is available.",
+          "why": "The gap between futures and the eventual cash open matters because overnight prices can reverse once US liquidity and company-specific earnings arrive. Monday’s rally is a completed reference point, but it does not establish Tuesday breadth or a close.",
+          "watch": "Compare the 09:30 ET open, breadth and the October 27 close with the pre-open futures reading.",
+          "status": "carry_forward",
+          "as_of": "2026-10-27",
+          "sources": [
+            {
+              "title": "US futures are slightly higher before the NYSE open",
+              "url": "https://apnews.com/article/e11a2240fc3283c4507d44b9833f30a2",
+              "published": "2026-10-27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "treasuries_bonds",
+      "label": "Treasuries and bonds",
+      "items": [
+        {
+          "headline": "Rates remain tied to Wednesday’s Fed decision",
+          "detail": "AP reported October 27 that investors were awaiting major central-bank decisions after the Fed’s recent rate increase; the policy decision is scheduled for Wednesday. No new October 27 Treasury close exists at the London cutoff.",
+          "why": "The policy statement and press conference can move both the short end and the long end, with oil-driven inflation risk competing against growth concerns. A pre-open rates narrative must stay conditional until the decision and the cash-market reaction are observed.",
+          "watch": "Read the October 28 statement and compare two-year and ten-year yields after the decision.",
+          "status": "carry_forward",
+          "as_of": "2026-10-27",
+          "sources": [
+            {
+              "title": "Rates remain tied to Wednesday’s Fed decision",
+              "url": "https://apnews.com/article/991eeb23f8acd1e84b11de9b35278681",
+              "published": "2026-10-27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "credit",
+      "label": "Corporate credit",
+      "items": [
+        {
+          "headline": "Meta financing plan makes AI funding costs concrete",
+          "detail": "AP reported October 26 that Meta outlined a plan to raise $35 billion through stock sales for AI investment and said it could sell another $60 billion of a new nonvoting share class. The proposal arrives as investors question expensive borrowing for data centers; no broad credit-spread close is verified here.",
+          "why": "Equity financing can protect debt capacity but may dilute existing holders, while more commitments can pressure future returns if AI revenue trails capital spending. The signal for credit is whether lenders demand wider spreads from infrastructure borrowers, not one volatile share price.",
+          "watch": "Review Meta’s final offering terms, AI cash generation and the next high-yield spread observation.",
+          "status": "carry_forward",
+          "as_of": "2026-10-26",
+          "sources": [
+            {
+              "title": "AP Meta financing and credit context",
+              "url": "https://apnews.com/article/stocks-markets-oil-earnings-trump-be3a56f58a77c5be863f0289d280be92",
+              "published": "2026-10-26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "currencies",
+      "label": "Currencies",
+      "items": [
+        {
+          "headline": "Euro stabilizes against dollar as French pressure eases",
+          "detail": "Reuters reported October 26 that the euro was flat near $1.1201 and rose 0.37% against the yen to 176.15. French bonds strengthened after Moody’s left France’s rating unchanged the prior week; the currency reading is intraday and should not be treated as a closing level.",
+          "why": "Currency stability suggests less immediate sovereign contagion, but the euro remains exposed to high energy imports and the ECB decision. The yen cross also reflects relative monetary policy expectations ahead of the Bank of Japan meeting.",
+          "watch": "Compare EUR/USD and EUR/JPY after the ECB and Bank of Japan decisions this week.",
+          "status": "carry_forward",
+          "as_of": "2026-10-26",
+          "sources": [
+            {
+              "title": "Reuters FX report",
+              "url": "https://ca.marketscreener.com/news/euro-firms-against-yen-flat-vs-dollar-ahead-of-central-bank-meetings-ce785cdcda89f323",
+              "published": "2026-10-26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "headline": "Bitcoin hovers near $80,000 before central bank week",
+          "detail": "Fortune recorded bitcoin at $80,267.62 at 8:15 a.m. Eastern on October 26, only $38.41 above its prior-morning reading. That is a point-in-time quote, not a daily settlement; crypto trades continuously across weekends and the US equity session.",
+          "why": "The muted change despite an intraday equity rebound leaves the risk-appetite signal mixed. Rates and liquidity matter for speculative assets, but one spot quote cannot establish a cause or a trend.",
+          "watch": "Check bitcoin and ether through the Fed decision and compare spot moves with equity breadth and Treasury yields.",
+          "status": "carry_forward",
+          "as_of": "2026-10-26",
+          "sources": [
+            {
+              "title": "Fortune timed bitcoin quote",
+              "url": "https://fortune.com/article/price-of-bitcoin-10-26-2026/",
+              "published": "2026-10-26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commodities",
+      "label": "Commodities",
+      "items": [
+        {
+          "headline": "Brent stays elevated while Tuesday trading remains live",
+          "detail": "AP reported October 27 that Brent crude was up 0.7% at $111.54 a barrel. This is an intraday quote, not a settlement, and the current US equity session is still before its open.",
+          "why": "Oil near recent highs can keep inflation expectations and transport costs elevated even when a single session is softer. The investment implication depends on whether supply risk persists and whether the move reaches realised consumer prices.",
+          "watch": "Check the next Brent settlement and the next inflation release before calling this a durable disinflation signal.",
+          "status": "carry_forward",
+          "as_of": "2026-10-27",
+          "sources": [
+            {
+              "title": "Brent stays elevated while Tuesday trading remains live",
+              "url": "https://apnews.com/article/e11a2240fc3283c4507d44b9833f30a2",
+              "published": "2026-10-27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "housing",
+      "label": "Housing",
+      "items": [
+        {
+          "headline": "New-home sales are scheduled for the US morning",
+          "detail": "The Census Bureau calendar lists September new residential sales for October 27 at 10:00 a.m. Eastern, after the London cutoff. The release is upcoming, so no September sales figure is asserted here; Freddie Mac’s October 22 mortgage survey remains the latest cited housing rate evidence.",
+          "why": "A new-home sales result will test whether high mortgage rates are suppressing demand beyond the weekly rate sample. The release can change the housing growth narrative, but a scheduled publication is not itself an economic outcome.",
+          "watch": "Read the Census release at 10:00 ET and compare sales with mortgage rates and the next applications data.",
+          "status": "carry_forward",
+          "as_of": "2026-10-27",
+          "sources": [
+            {
+              "title": "US Census economic indicator calendar",
+              "url": "https://www.census.gov/economic-indicators/calendar-listview.html",
+              "published": "2026-10-27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us_policy",
+      "label": "US policy",
+      "items": [
+        {
+          "headline": "Fed holds rates while inflation remains elevated",
+          "detail": "The Federal Reserve statement released October 28 kept the federal funds target at 3.75% to 4% and said economic activity was expanding at a strong pace, while inflation remained elevated. The vote was 10-2, with two governors preferring a 25 basis point increase.",
+          "why": "A hold with explicit inflation concern leaves the next move data dependent. A hot GDP or PCE print can push the expected policy path higher, while weak activity with easing inflation would support cuts; the statement alone does not settle December pricing.",
+          "watch": "Compare the 12:30 UTC October 29 GDP and September PCE releases with Treasury yields and the next Fed communications.",
+          "status": "new",
+          "as_of": "2026-10-28",
+          "sources": [
+            {
+              "title": "Federal Reserve issues FOMC statement",
+              "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+              "published": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "headline": "The Fed decision is tomorrow, not today",
+          "detail": "AP’s October 27 preview says investors see almost no chance of an October hike after officials downplayed the likelihood, while the policy rate is about 3.9%. The October 28 decision and press conference remain future events at this report’s cutoff.",
+          "why": "The outcome is more than the rate itself: language on inflation, oil and longer-term yields can reset the path priced into equities and credit. Treating an expected hold as a delivered decision would overstate the evidence.",
+          "watch": "Compare the actual statement, press conference and two-year yield reaction on October 28.",
+          "status": "carry_forward",
+          "as_of": "2026-10-27",
+          "sources": [
+            {
+              "title": "The Fed decision is tomorrow, not today",
+              "url": "https://apnews.com/article/991eeb23f8acd1e84b11de9b35278681",
+              "published": "2026-10-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "international": [
+    {
+      "id": "uk",
+      "label": "UK",
+      "items": [
+        {
+          "headline": "UK releases money and credit data at 09:30",
+          "detail": "The Bank of England scheduled its September 2026 Money and Credit statistical release for October 29. The release is dated October 29 and covers household and business borrowing conditions. The release timing provides a dated checkpoint for investors monitoring regional demand, rates and financial conditions.",
+          "why": "Credit growth is a direct test of how restrictive rates are for households and firms. The release can refine the housing and consumption read, but its implications depend on loan flows, effective rates and arrears together. The result should be read alongside market pricing and subsequent official data rather than treated as a standalone forecast.",
+          "watch": "Read the September loan and deposit flows and compare them with the Bank’s next policy guidance.",
+          "status": "new",
+          "as_of": "2026-10-29",
+          "sources": [
+            {
+              "title": "Bank of England Money and Credit September 2026",
+              "url": "https://www.bankofengland.co.uk/statistics/money-and-credit/2026/september-2026",
+              "published": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "headline": "UK surveys and spending diverge before the budget",
+          "detail": "Reuters reported that the preliminary October UK composite PMI rose to 53.1 from September’s 52.0, while September retail sales weakened. Sterling reached a seventeen-month high against the euro on Friday October 23. The October 28 UK budget is still pending.",
+          "why": "Stronger business surveys and softer household spending give different signals for growth and tax capacity. The budget will test whether fiscal choices add support without reigniting gilt or inflation concerns under expensive energy.",
+          "watch": "Read the October 28 budget measures and compare sterling and gilt yields with Friday’s levels.",
+          "status": "carry_forward",
+          "as_of": "2026-10-23",
+          "sources": [
+            {
+              "title": "Reuters UK PMI and sterling report",
+              "url": "https://www.brecorder.com/news/40445904",
+              "published": "2026-10-26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "euro_area",
+      "label": "Euro area",
+      "items": [
+        {
+          "headline": "ECB decision and euro-area GDP are today’s tests",
+          "detail": "The ECB calendar schedules publication of the monetary policy decision on October 29 at 14:15 CET, followed by the press conference at 14:45 CET. Eurostat also schedules the preliminary Q3 GDP flash estimate and September unemployment for October 29.",
+          "why": "The decision and growth print jointly test whether resilient activity can coexist with policy restraint. A surprise in rates or GDP can move the euro, sovereign spreads and European equities, but the outcome is not known at the London cutoff.",
+          "watch": "Read the ECB statement and compare the GDP flash estimate with EUR/USD and core euro-area yields.",
+          "status": "new",
+          "as_of": "2026-10-29",
+          "sources": [
+            {
+              "title": "ECB weekly schedule",
+              "url": "https://www.ecb.europa.eu/press/calendars/weekly/html/index.pl.html",
+              "published": "2026-10-29"
+            },
+            {
+              "title": "Eurostat release calendar",
+              "url": "https://ec.europa.eu/eurostat/en/news/euro-indicators/release-calendar",
+              "published": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "headline": "German confidence improves but current conditions weaken",
+          "detail": "The October 26 ifo survey showed Germany’s business climate at 90.2, up from 89.9 in September, according to Reuters. Expectations climbed to 91.6 from 90.4, while current conditions fell to 88.8 from 89.5. The ECB decision is due later this week.",
+          "why": "The divergence suggests firms see a better six-month outlook without a present demand rebound. Higher energy costs and French sovereign stress could still tighten financing conditions across the euro area.",
+          "watch": "Compare the October ifo split with flash inflation, GDP and Thursday’s ECB communication.",
+          "status": "carry_forward",
+          "as_of": "2026-10-26",
+          "sources": [
+            {
+              "title": "Reuters German ifo report",
+              "url": "https://www.marketscreener.com/news/german-business-sentiment-improves-in-october-ifo-survey-finds-ce785cdcd88df022",
+              "published": "2026-10-26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "items": [
+        {
+          "headline": "Chinese export-led growth masks weak domestic demand",
+          "detail": "China’s third-quarter GDP grew 4.5% from a year earlier, up from 4.3% in the second quarter, AP reported on October 19. The same report cited export strength and weak domestic demand, with property-sector pressure still present. This is an October 19 release carried forward, not new October 26 data.",
+          "why": "Export dependence supports industrial output but makes growth sensitive to foreign trade barriers and weak consumption at home. It matters to commodity demand and global pricing power, especially if domestic stimulus fails to broaden spending.",
+          "watch": "Watch the next official retail sales, property and trade readings for domestic-demand improvement.",
+          "status": "carry_forward",
+          "as_of": "2026-10-19",
+          "sources": [
+            {
+              "title": "AP China GDP report",
+              "url": "https://apnews.com/article/china-economy-71354a055a412ef13e4e2edad070b4a5",
+              "published": "2026-10-19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "japan",
+      "label": "Japan",
+      "items": [
+        {
+          "headline": "Bank of Japan meeting begins October 29",
+          "detail": "The Bank of Japan schedule lists a monetary policy meeting on October 29-30, with the Outlook Report due on October 30. The current policy page shows the overnight call-rate guideline around 1.25%. The release timing provides a dated checkpoint for investors monitoring regional demand, rates and financial conditions.",
+          "why": "The timing matters for yen funding trades and Japanese bond yields, especially after the Fed held rates and as markets compare policy persistence across regions. No October 29 decision is available at this cutoff. The result should be read alongside market pricing and subsequent official data rather than treated as a standalone forecast.",
+          "watch": "Track the October 30 statement, Outlook Report and yen response against the 1.25% operating guideline.",
+          "status": "new",
+          "as_of": "2026-10-29",
+          "sources": [
+            {
+              "title": "Bank of Japan release schedule",
+              "url": "https://www.boj.or.jp/en/about/calendar/index.htm",
+              "published": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "headline": "Oil import bill leaves Japan exposed before BoJ meeting",
+          "detail": "Japan’s finance ministry data released October 21 showed an April-to-September trade deficit of 2.81 trillion yen, AP reported. September alone was a 536.6 billion yen deficit, the fifth consecutive monthly shortfall, as oil imports became more expensive. This is dated carry-forward evidence.",
+          "why": "Higher import costs can weaken the yen and lift domestic prices even while export volumes grow. The Bank of Japan must judge whether inflation is persistent enough to justify further tightening without deepening pressure on activity.",
+          "watch": "Read this week’s Bank of Japan decision and the next trade and inflation releases.",
+          "status": "carry_forward",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "title": "AP Japan trade report",
+              "url": "https://apnews.com/article/japan-trade-oil-imports-exports-war-c2265fa62a4511229dd83693d94d32e2",
+              "published": "2026-10-21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other_world",
+      "label": "Other world",
+      "items": [
+        {
+          "headline": "Global shares are mixed ahead of central-bank and earnings tests",
+          "detail": "AP reported October 27 that world stocks were mixed, with Asian markets mostly higher after the Wall Street rally; Brazil’s equities fell sharply after its presidential result. These are dated international observations before the US open.",
+          "why": "Cross-market dispersion shows that the AI rally and macro policy story are not uniform. Currency, commodity and country-specific risk can still dominate a global index move, particularly while oil remains high.",
+          "watch": "Compare European and US closes with the next central-bank decisions and oil settlement.",
+          "status": "carry_forward",
+          "as_of": "2026-10-27",
+          "sources": [
+            {
+              "title": "Global shares are mixed ahead of central-bank and earnings tests",
+              "url": "https://apnews.com/article/e11a2240fc3283c4507d44b9833f30a2",
+              "published": "2026-10-27"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
