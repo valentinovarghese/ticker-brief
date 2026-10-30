@@ -1,0 +1,795 @@
+{
+  "readthrough": {
+    "heading": "Measured tape, conditional narrative",
+    "title": "What the completed session can and cannot show",
+    "body": "Across these twelve companies, the daily bars establish price, range and volume for October 28. The research log records no verified company-specific event for this edition; GDP, PCE, ECB decisions and future filings will test the investment cases."
+  },
+  "data": {
+    "session": "2026-10-29",
+    "source": "Twelve Data 1day time_series; exchange-local session",
+    "source_url": "https://twelvedata.com/docs",
+    "tickers": {
+      "AAPL": {
+        "close": 348.91,
+        "pct": 1.4775,
+        "open": 348.0,
+        "high": 351.42999,
+        "low": 347.29999,
+        "volume": 42382900,
+        "avg_volume": 38368755,
+        "high_52w": 351.73001,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 343.82999,
+        "bar_date": "2026-10-29",
+        "source": "Twelve Data daily time_series"
+      },
+      "AMZN": {
+        "close": 243.78999,
+        "pct": -4.2459,
+        "open": 246.95,
+        "high": 249.14,
+        "low": 241.24001,
+        "volume": 83559600,
+        "avg_volume": 35510570,
+        "high_52w": 287.20001,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 254.60001,
+        "bar_date": "2026-10-29",
+        "source": "Twelve Data daily time_series"
+      },
+      "TSLA": {
+        "close": 403.29999,
+        "pct": -0.2276,
+        "open": 405.63,
+        "high": 406.98001,
+        "low": 400.5,
+        "volume": 22602100,
+        "avg_volume": 37398415,
+        "high_52w": 498.82999,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 404.22,
+        "bar_date": "2026-10-29",
+        "source": "Twelve Data daily time_series"
+      },
+      "PLTR": {
+        "close": 196.42,
+        "pct": -0.1982,
+        "open": 198.368,
+        "high": 198.50999,
+        "low": 190.36,
+        "volume": 19992800,
+        "avg_volume": 22489835,
+        "high_52w": 212.94,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 196.81,
+        "bar_date": "2026-10-29",
+        "source": "Twelve Data daily time_series"
+      },
+      "MSFT": {
+        "close": 530.14001,
+        "pct": -0.1638,
+        "open": 540.21997,
+        "high": 541.28998,
+        "low": 519.56,
+        "volume": 39213000,
+        "avg_volume": 20143535,
+        "high_52w": 551.15002,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 531.01001,
+        "bar_date": "2026-10-29",
+        "source": "Twelve Data daily time_series"
+      },
+      "GOOGL": {
+        "close": 283.82001,
+        "pct": -12.6412,
+        "open": 286.88,
+        "high": 288.32999,
+        "low": 280.35999,
+        "volume": 138898500,
+        "avg_volume": 25585340,
+        "high_52w": 408.60999,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 324.89001,
+        "bar_date": "2026-10-29",
+        "source": "Twelve Data daily time_series"
+      },
+      "HOOD": {
+        "close": 91.59,
+        "pct": 0.175,
+        "open": 89.82,
+        "high": 92.435,
+        "low": 88.95,
+        "volume": 16943400,
+        "avg_volume": 19628485,
+        "high_52w": 150.47,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 91.43,
+        "bar_date": "2026-10-29",
+        "source": "Twelve Data daily time_series"
+      },
+      "NVDA": {
+        "close": 213.66,
+        "pct": -0.7986,
+        "open": 214.36,
+        "high": 215.33,
+        "low": 212.08,
+        "volume": 76216000,
+        "avg_volume": 100459090,
+        "high_52w": 243.37,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 215.38,
+        "bar_date": "2026-10-29",
+        "source": "Twelve Data daily time_series"
+      },
+      "INTC": {
+        "close": 92.07,
+        "pct": -3.6219,
+        "open": 92.97,
+        "high": 93.5,
+        "low": 90.84,
+        "volume": 125467300,
+        "avg_volume": 96840085,
+        "high_52w": 142.35001,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 95.53,
+        "bar_date": "2026-10-29",
+        "source": "Twelve Data daily time_series"
+      },
+      "NBIS": {
+        "close": 171.99001,
+        "pct": -5.6762,
+        "open": 173.185,
+        "high": 178.33,
+        "low": 168.75999,
+        "volume": 17463300,
+        "avg_volume": 22230250,
+        "high_52w": 299.85999,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 182.34,
+        "bar_date": "2026-10-29",
+        "source": "Twelve Data daily time_series"
+      },
+      "MRVL": {
+        "close": 218.34,
+        "pct": -13.2366,
+        "open": 223.0,
+        "high": 225.67999,
+        "low": 214.56,
+        "volume": 41756000,
+        "avg_volume": 20487295,
+        "high_52w": 329.88,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 251.64999,
+        "bar_date": "2026-10-29",
+        "source": "Twelve Data daily time_series"
+      },
+      "META": {
+        "close": 624.52002,
+        "pct": 1.9641,
+        "open": 621.28998,
+        "high": 634.67999,
+        "low": 616.79999,
+        "volume": 31162500,
+        "avg_volume": 21581940,
+        "high_52w": 779.82001,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 612.48999,
+        "bar_date": "2026-10-29",
+        "source": "Twelve Data daily time_series"
+      }
+    }
+  },
+  "date": "2026-10-29",
+  "weekday": "Thursday",
+  "headline": "Thursday close: growth, inflation and AI spending reset the tape",
+  "gauge": [
+    {
+      "text": "Completed NYSE session: October 29, 2026",
+      "tone": "flat"
+    }
+  ],
+  "quick": [
+    "AAPL +1.48% at $348.91",
+    "AMZN -4.25% at $243.79",
+    "TSLA -0.23% at $403.30",
+    "PLTR -0.20% at $196.42",
+    "MSFT -0.16% at $530.14",
+    "GOOGL -12.64% at $283.82",
+    "HOOD +0.17% at $91.59",
+    "NVDA -0.80% at $213.66",
+    "INTC -3.62% at $92.07",
+    "NBIS -5.68% at $171.99",
+    "MRVL -13.24% at $218.34",
+    "META +1.96% at $624.52"
+  ],
+  "macro": [
+    {
+      "dt": "October 29 close",
+      "lead": "Measured market context",
+      "dd": "The twelve company moves below come solely from validated completed Twelve Data daily bars. Earnings and macro releases provide dated context, but a headline does not prove the cause of a measured move."
+    }
+  ],
+  "entries": [
+    {
+      "ticker": "AAPL",
+      "dir": "up",
+      "strength": "measured",
+      "strength_label": "Completed session",
+      "move": "+1.48% close",
+      "move_tone": "up",
+      "happened": "AAPL closed the completed October 29, 2026 NYSE session at $348.91, +1.48% versus the prior close of $343.83. The session ranged from $347.30 to $351.43, with volume of 42,382,900 shares versus a trailing average of 38,368,755. No verified company-specific event was found for AAPL in the dated sources checked for this edition.",
+      "figures": [
+        "Close <b>$348.91</b>",
+        "Prior close <b>$343.83</b>",
+        "Change <b>+1.48%</b>",
+        "Volume <b>42,382,900</b> vs average <b>38,368,755</b>"
+      ],
+      "why": "The measured up move is evidence about trading, not a diagnosis of the business. For AAPL, the next investment test is whether operating results, cash generation, competitive position and valuation support the share price as rates and AI capital spending evolve. Volume relative to its trailing average provides a participation check, but it cannot identify who traded or why. The dated context should be tested against subsequent filings, guidance and follow-through rather than treated as proof of causation.",
+      "analysis": [
+        {
+          "heading": "What the completed tape establishes",
+          "body": "The October 29 close of $348.91 was +1.48% versus $343.83; the day range was $347.30 to $351.43. Volume of 42,382,900 compares with a trailing average of 38,368,755. These are measured prices and activity, and they do not establish a causal company event."
+        },
+        {
+          "heading": "Operating evidence that matters next",
+          "body": "The next useful evidence for AAPL is a dated company release, filing or earnings disclosure that updates revenue, margins, cash generation, demand or capacity. Compare that evidence with management commitments and the valuation already reflected in the stock before treating one completed session as a lasting change in business value. If the dated event persists in guidance and later margins, the investment case changes; if not, the move may remain a positioning event."
+        }
+      ],
+      "priced_in": "The share price may already reflect expectations for AAPL's future growth, margins, capital needs and macro discount rates. The October 29 move alone cannot show how much of that expectation changed.",
+      "would_change": "A dated operating disclosure for AAPL that changes the outlook for demand, margins or cash generation would change this reading, especially if confirmed by follow-through in volume and subsequent sessions.",
+      "next_date": "Next dated earnings, filing or company release; otherwise watch the next completed session.",
+      "foot": [
+        {
+          "k": "Completed-session price evidence",
+          "v": "Twelve Data 1day bar for October 29, 2026",
+          "url": "https://twelvedata.com/"
+        },
+        {
+          "k": "Research status",
+          "v": "No verified company-specific event was found in the dated sources checked for this edition.",
+          "url": "https://www.nasdaq.com/"
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "dir": "down",
+      "strength": "measured",
+      "strength_label": "Completed session",
+      "move": "-4.25% close",
+      "move_tone": "down",
+      "happened": "AMZN closed the completed October 29, 2026 NYSE session at $243.79, -4.25% versus the prior close of $254.60. The session ranged from $241.24 to $249.14, with volume of 83,559,600 shares versus a trailing average of 35,510,570. Amazon reported fiscal third-quarter results on October 29 and offered a cautious fourth-quarter sales view while investors focused on heavy AI infrastructure spending.",
+      "figures": [
+        "Close <b>$243.79</b>",
+        "Prior close <b>$254.60</b>",
+        "Change <b>-4.25%</b>",
+        "Volume <b>83,559,600</b> vs average <b>35,510,570</b>"
+      ],
+      "why": "The measured down move is evidence about trading, not a diagnosis of the business. For AMZN, the next investment test is whether operating results, cash generation, competitive position and valuation support the share price as rates and AI capital spending evolve. Volume relative to its trailing average provides a participation check, but it cannot identify who traded or why. The dated context should be tested against subsequent filings, guidance and follow-through rather than treated as proof of causation.",
+      "analysis": [
+        {
+          "heading": "What the completed tape establishes",
+          "body": "The October 29 close of $243.79 was -4.25% versus $254.60; the day range was $241.24 to $249.14. Volume of 83,559,600 compares with a trailing average of 35,510,570. These are measured prices and activity, and they do not establish a causal company event."
+        },
+        {
+          "heading": "Operating evidence that matters next",
+          "body": "The next useful evidence for AMZN is a dated company release, filing or earnings disclosure that updates revenue, margins, cash generation, demand or capacity. Compare that evidence with management commitments and the valuation already reflected in the stock before treating one completed session as a lasting change in business value. If the dated event persists in guidance and later margins, the investment case changes; if not, the move may remain a positioning event."
+        }
+      ],
+      "priced_in": "The share price may already reflect expectations for AMZN's future growth, margins, capital needs and macro discount rates. The October 29 move alone cannot show how much of that expectation changed.",
+      "would_change": "A dated operating disclosure for AMZN that changes the outlook for demand, margins or cash generation would change this reading, especially if confirmed by follow-through in volume and subsequent sessions.",
+      "next_date": "Next dated earnings, filing or company release; otherwise watch the next completed session.",
+      "foot": [
+        {
+          "k": "Completed-session price evidence",
+          "v": "Twelve Data 1day bar for October 29, 2026",
+          "url": "https://twelvedata.com/"
+        },
+        {
+          "k": "Dated company context",
+          "v": "Opened dated source",
+          "url": "https://apnews.com/article/2de72b65d63006a7ce85eab441e2d6b7"
+        }
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "dir": "down",
+      "strength": "measured",
+      "strength_label": "Completed session",
+      "move": "-0.23% close",
+      "move_tone": "down",
+      "happened": "TSLA closed the completed October 29, 2026 NYSE session at $403.30, -0.23% versus the prior close of $404.22. The session ranged from $400.50 to $406.98, with volume of 22,602,100 shares versus a trailing average of 37,398,415. No verified company-specific event was found for TSLA in the dated sources checked for this edition.",
+      "figures": [
+        "Close <b>$403.30</b>",
+        "Prior close <b>$404.22</b>",
+        "Change <b>-0.23%</b>",
+        "Volume <b>22,602,100</b> vs average <b>37,398,415</b>"
+      ],
+      "why": "The measured down move is evidence about trading, not a diagnosis of the business. For TSLA, the next investment test is whether operating results, cash generation, competitive position and valuation support the share price as rates and AI capital spending evolve. Volume relative to its trailing average provides a participation check, but it cannot identify who traded or why. The dated context should be tested against subsequent filings, guidance and follow-through rather than treated as proof of causation.",
+      "analysis": [
+        {
+          "heading": "What the completed tape establishes",
+          "body": "The October 29 close of $403.30 was -0.23% versus $404.22; the day range was $400.50 to $406.98. Volume of 22,602,100 compares with a trailing average of 37,398,415. These are measured prices and activity, and they do not establish a causal company event."
+        },
+        {
+          "heading": "Operating evidence that matters next",
+          "body": "The next useful evidence for TSLA is a dated company release, filing or earnings disclosure that updates revenue, margins, cash generation, demand or capacity. Compare that evidence with management commitments and the valuation already reflected in the stock before treating one completed session as a lasting change in business value. If the dated event persists in guidance and later margins, the investment case changes; if not, the move may remain a positioning event."
+        }
+      ],
+      "priced_in": "The share price may already reflect expectations for TSLA's future growth, margins, capital needs and macro discount rates. The October 29 move alone cannot show how much of that expectation changed.",
+      "would_change": "A dated operating disclosure for TSLA that changes the outlook for demand, margins or cash generation would change this reading, especially if confirmed by follow-through in volume and subsequent sessions.",
+      "next_date": "Next dated earnings, filing or company release; otherwise watch the next completed session.",
+      "foot": [
+        {
+          "k": "Completed-session price evidence",
+          "v": "Twelve Data 1day bar for October 29, 2026",
+          "url": "https://twelvedata.com/"
+        },
+        {
+          "k": "Research status",
+          "v": "No verified company-specific event was found in the dated sources checked for this edition.",
+          "url": "https://www.nasdaq.com/"
+        }
+      ]
+    },
+    {
+      "ticker": "PLTR",
+      "dir": "down",
+      "strength": "measured",
+      "strength_label": "Completed session",
+      "move": "-0.20% close",
+      "move_tone": "down",
+      "happened": "PLTR closed the completed October 29, 2026 NYSE session at $196.42, -0.20% versus the prior close of $196.81. The session ranged from $190.36 to $198.51, with volume of 19,992,800 shares versus a trailing average of 22,489,835. No verified company-specific event was found for PLTR in the dated sources checked for this edition.",
+      "figures": [
+        "Close <b>$196.42</b>",
+        "Prior close <b>$196.81</b>",
+        "Change <b>-0.20%</b>",
+        "Volume <b>19,992,800</b> vs average <b>22,489,835</b>"
+      ],
+      "why": "The measured down move is evidence about trading, not a diagnosis of the business. For PLTR, the next investment test is whether operating results, cash generation, competitive position and valuation support the share price as rates and AI capital spending evolve. Volume relative to its trailing average provides a participation check, but it cannot identify who traded or why. The dated context should be tested against subsequent filings, guidance and follow-through rather than treated as proof of causation.",
+      "analysis": [
+        {
+          "heading": "What the completed tape establishes",
+          "body": "The October 29 close of $196.42 was -0.20% versus $196.81; the day range was $190.36 to $198.51. Volume of 19,992,800 compares with a trailing average of 22,489,835. These are measured prices and activity, and they do not establish a causal company event."
+        },
+        {
+          "heading": "Operating evidence that matters next",
+          "body": "The next useful evidence for PLTR is a dated company release, filing or earnings disclosure that updates revenue, margins, cash generation, demand or capacity. Compare that evidence with management commitments and the valuation already reflected in the stock before treating one completed session as a lasting change in business value. If the dated event persists in guidance and later margins, the investment case changes; if not, the move may remain a positioning event."
+        }
+      ],
+      "priced_in": "The share price may already reflect expectations for PLTR's future growth, margins, capital needs and macro discount rates. The October 29 move alone cannot show how much of that expectation changed.",
+      "would_change": "A dated operating disclosure for PLTR that changes the outlook for demand, margins or cash generation would change this reading, especially if confirmed by follow-through in volume and subsequent sessions.",
+      "next_date": "Next dated earnings, filing or company release; otherwise watch the next completed session.",
+      "foot": [
+        {
+          "k": "Completed-session price evidence",
+          "v": "Twelve Data 1day bar for October 29, 2026",
+          "url": "https://twelvedata.com/"
+        },
+        {
+          "k": "Research status",
+          "v": "No verified company-specific event was found in the dated sources checked for this edition.",
+          "url": "https://www.nasdaq.com/"
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "dir": "down",
+      "strength": "measured",
+      "strength_label": "Completed session",
+      "move": "-0.16% close",
+      "move_tone": "down",
+      "happened": "MSFT closed the completed October 29, 2026 NYSE session at $530.14, -0.16% versus the prior close of $531.01. The session ranged from $519.56 to $541.29, with volume of 39,213,000 shares versus a trailing average of 20,143,535. No verified company-specific event was found for MSFT in the dated sources checked for this edition.",
+      "figures": [
+        "Close <b>$530.14</b>",
+        "Prior close <b>$531.01</b>",
+        "Change <b>-0.16%</b>",
+        "Volume <b>39,213,000</b> vs average <b>20,143,535</b>"
+      ],
+      "why": "The measured down move is evidence about trading, not a diagnosis of the business. For MSFT, the next investment test is whether operating results, cash generation, competitive position and valuation support the share price as rates and AI capital spending evolve. Volume relative to its trailing average provides a participation check, but it cannot identify who traded or why. The dated context should be tested against subsequent filings, guidance and follow-through rather than treated as proof of causation.",
+      "analysis": [
+        {
+          "heading": "What the completed tape establishes",
+          "body": "The October 29 close of $530.14 was -0.16% versus $531.01; the day range was $519.56 to $541.29. Volume of 39,213,000 compares with a trailing average of 20,143,535. These are measured prices and activity, and they do not establish a causal company event."
+        },
+        {
+          "heading": "Operating evidence that matters next",
+          "body": "The next useful evidence for MSFT is a dated company release, filing or earnings disclosure that updates revenue, margins, cash generation, demand or capacity. Compare that evidence with management commitments and the valuation already reflected in the stock before treating one completed session as a lasting change in business value. If the dated event persists in guidance and later margins, the investment case changes; if not, the move may remain a positioning event."
+        }
+      ],
+      "priced_in": "The share price may already reflect expectations for MSFT's future growth, margins, capital needs and macro discount rates. The October 29 move alone cannot show how much of that expectation changed.",
+      "would_change": "A dated operating disclosure for MSFT that changes the outlook for demand, margins or cash generation would change this reading, especially if confirmed by follow-through in volume and subsequent sessions.",
+      "next_date": "Next dated earnings, filing or company release; otherwise watch the next completed session.",
+      "foot": [
+        {
+          "k": "Completed-session price evidence",
+          "v": "Twelve Data 1day bar for October 29, 2026",
+          "url": "https://twelvedata.com/"
+        },
+        {
+          "k": "Research status",
+          "v": "No verified company-specific event was found in the dated sources checked for this edition.",
+          "url": "https://www.nasdaq.com/"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "dir": "down",
+      "strength": "measured",
+      "strength_label": "Completed session",
+      "move": "-12.64% close",
+      "move_tone": "down",
+      "happened": "GOOGL closed the completed October 29, 2026 NYSE session at $283.82, -12.64% versus the prior close of $324.89. The session ranged from $280.36 to $288.33, with volume of 138,898,500 shares versus a trailing average of 25,585,340. AP reported on October 29 that Alphabet suffered a historic one-day decline after quarterly results and AI spending concerns.",
+      "figures": [
+        "Close <b>$283.82</b>",
+        "Prior close <b>$324.89</b>",
+        "Change <b>-12.64%</b>",
+        "Volume <b>138,898,500</b> vs average <b>25,585,340</b>"
+      ],
+      "why": "The measured down move is evidence about trading, not a diagnosis of the business. For GOOGL, the next investment test is whether operating results, cash generation, competitive position and valuation support the share price as rates and AI capital spending evolve. Volume relative to its trailing average provides a participation check, but it cannot identify who traded or why. The dated context should be tested against subsequent filings, guidance and follow-through rather than treated as proof of causation.",
+      "analysis": [
+        {
+          "heading": "What the completed tape establishes",
+          "body": "The October 29 close of $283.82 was -12.64% versus $324.89; the day range was $280.36 to $288.33. Volume of 138,898,500 compares with a trailing average of 25,585,340. These are measured prices and activity, and they do not establish a causal company event."
+        },
+        {
+          "heading": "Operating evidence that matters next",
+          "body": "The next useful evidence for GOOGL is a dated company release, filing or earnings disclosure that updates revenue, margins, cash generation, demand or capacity. Compare that evidence with management commitments and the valuation already reflected in the stock before treating one completed session as a lasting change in business value. If the dated event persists in guidance and later margins, the investment case changes; if not, the move may remain a positioning event."
+        }
+      ],
+      "priced_in": "The share price may already reflect expectations for GOOGL's future growth, margins, capital needs and macro discount rates. The October 29 move alone cannot show how much of that expectation changed.",
+      "would_change": "A dated operating disclosure for GOOGL that changes the outlook for demand, margins or cash generation would change this reading, especially if confirmed by follow-through in volume and subsequent sessions.",
+      "next_date": "Next dated earnings, filing or company release; otherwise watch the next completed session.",
+      "foot": [
+        {
+          "k": "Completed-session price evidence",
+          "v": "Twelve Data 1day bar for October 29, 2026",
+          "url": "https://twelvedata.com/"
+        },
+        {
+          "k": "Dated company context",
+          "v": "Opened dated source",
+          "url": "https://apnews.com/article/1b5c71d31b4ce1e46b0db47b33141f6b"
+        }
+      ]
+    },
+    {
+      "ticker": "HOOD",
+      "dir": "up",
+      "strength": "measured",
+      "strength_label": "Completed session",
+      "move": "+0.17% close",
+      "move_tone": "up",
+      "happened": "HOOD closed the completed October 29, 2026 NYSE session at $91.59, +0.17% versus the prior close of $91.43. The session ranged from $88.95 to $92.44, with volume of 16,943,400 shares versus a trailing average of 19,628,485. No verified company-specific event was found for HOOD in the dated sources checked for this edition.",
+      "figures": [
+        "Close <b>$91.59</b>",
+        "Prior close <b>$91.43</b>",
+        "Change <b>+0.17%</b>",
+        "Volume <b>16,943,400</b> vs average <b>19,628,485</b>"
+      ],
+      "why": "The measured up move is evidence about trading, not a diagnosis of the business. For HOOD, the next investment test is whether operating results, cash generation, competitive position and valuation support the share price as rates and AI capital spending evolve. Volume relative to its trailing average provides a participation check, but it cannot identify who traded or why. The dated context should be tested against subsequent filings, guidance and follow-through rather than treated as proof of causation.",
+      "analysis": [
+        {
+          "heading": "What the completed tape establishes",
+          "body": "The October 29 close of $91.59 was +0.17% versus $91.43; the day range was $88.95 to $92.44. Volume of 16,943,400 compares with a trailing average of 19,628,485. These are measured prices and activity, and they do not establish a causal company event."
+        },
+        {
+          "heading": "Operating evidence that matters next",
+          "body": "The next useful evidence for HOOD is a dated company release, filing or earnings disclosure that updates revenue, margins, cash generation, demand or capacity. Compare that evidence with management commitments and the valuation already reflected in the stock before treating one completed session as a lasting change in business value. If the dated event persists in guidance and later margins, the investment case changes; if not, the move may remain a positioning event."
+        }
+      ],
+      "priced_in": "The share price may already reflect expectations for HOOD's future growth, margins, capital needs and macro discount rates. The October 29 move alone cannot show how much of that expectation changed.",
+      "would_change": "A dated operating disclosure for HOOD that changes the outlook for demand, margins or cash generation would change this reading, especially if confirmed by follow-through in volume and subsequent sessions.",
+      "next_date": "Next dated earnings, filing or company release; otherwise watch the next completed session.",
+      "foot": [
+        {
+          "k": "Completed-session price evidence",
+          "v": "Twelve Data 1day bar for October 29, 2026",
+          "url": "https://twelvedata.com/"
+        },
+        {
+          "k": "Research status",
+          "v": "No verified company-specific event was found in the dated sources checked for this edition.",
+          "url": "https://www.nasdaq.com/"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "dir": "down",
+      "strength": "measured",
+      "strength_label": "Completed session",
+      "move": "-0.80% close",
+      "move_tone": "down",
+      "happened": "NVDA closed the completed October 29, 2026 NYSE session at $213.66, -0.80% versus the prior close of $215.38. The session ranged from $212.08 to $215.33, with volume of 76,216,000 shares versus a trailing average of 100,459,090. No verified company-specific event was found for NVDA in the dated sources checked for this edition.",
+      "figures": [
+        "Close <b>$213.66</b>",
+        "Prior close <b>$215.38</b>",
+        "Change <b>-0.80%</b>",
+        "Volume <b>76,216,000</b> vs average <b>100,459,090</b>"
+      ],
+      "why": "The measured down move is evidence about trading, not a diagnosis of the business. For NVDA, the next investment test is whether operating results, cash generation, competitive position and valuation support the share price as rates and AI capital spending evolve. Volume relative to its trailing average provides a participation check, but it cannot identify who traded or why. The dated context should be tested against subsequent filings, guidance and follow-through rather than treated as proof of causation.",
+      "analysis": [
+        {
+          "heading": "What the completed tape establishes",
+          "body": "The October 29 close of $213.66 was -0.80% versus $215.38; the day range was $212.08 to $215.33. Volume of 76,216,000 compares with a trailing average of 100,459,090. These are measured prices and activity, and they do not establish a causal company event."
+        },
+        {
+          "heading": "Operating evidence that matters next",
+          "body": "The next useful evidence for NVDA is a dated company release, filing or earnings disclosure that updates revenue, margins, cash generation, demand or capacity. Compare that evidence with management commitments and the valuation already reflected in the stock before treating one completed session as a lasting change in business value. If the dated event persists in guidance and later margins, the investment case changes; if not, the move may remain a positioning event."
+        }
+      ],
+      "priced_in": "The share price may already reflect expectations for NVDA's future growth, margins, capital needs and macro discount rates. The October 29 move alone cannot show how much of that expectation changed.",
+      "would_change": "A dated operating disclosure for NVDA that changes the outlook for demand, margins or cash generation would change this reading, especially if confirmed by follow-through in volume and subsequent sessions.",
+      "next_date": "Next dated earnings, filing or company release; otherwise watch the next completed session.",
+      "foot": [
+        {
+          "k": "Completed-session price evidence",
+          "v": "Twelve Data 1day bar for October 29, 2026",
+          "url": "https://twelvedata.com/"
+        },
+        {
+          "k": "Research status",
+          "v": "No verified company-specific event was found in the dated sources checked for this edition.",
+          "url": "https://www.nasdaq.com/"
+        }
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "dir": "down",
+      "strength": "measured",
+      "strength_label": "Completed session",
+      "move": "-3.62% close",
+      "move_tone": "down",
+      "happened": "INTC closed the completed October 29, 2026 NYSE session at $92.07, -3.62% versus the prior close of $95.53. The session ranged from $90.84 to $93.50, with volume of 125,467,300 shares versus a trailing average of 96,840,085. Reuters reported on October 29 that Intel shares fell after a softer fourth-quarter outlook and an Israel factory explosion that could reduce revenue.",
+      "figures": [
+        "Close <b>$92.07</b>",
+        "Prior close <b>$95.53</b>",
+        "Change <b>-3.62%</b>",
+        "Volume <b>125,467,300</b> vs average <b>96,840,085</b>"
+      ],
+      "why": "The measured down move is evidence about trading, not a diagnosis of the business. For INTC, the next investment test is whether operating results, cash generation, competitive position and valuation support the share price as rates and AI capital spending evolve. Volume relative to its trailing average provides a participation check, but it cannot identify who traded or why. The dated context should be tested against subsequent filings, guidance and follow-through rather than treated as proof of causation.",
+      "analysis": [
+        {
+          "heading": "What the completed tape establishes",
+          "body": "The October 29 close of $92.07 was -3.62% versus $95.53; the day range was $90.84 to $93.50. Volume of 125,467,300 compares with a trailing average of 96,840,085. These are measured prices and activity, and they do not establish a causal company event."
+        },
+        {
+          "heading": "Operating evidence that matters next",
+          "body": "The next useful evidence for INTC is a dated company release, filing or earnings disclosure that updates revenue, margins, cash generation, demand or capacity. Compare that evidence with management commitments and the valuation already reflected in the stock before treating one completed session as a lasting change in business value. If the dated event persists in guidance and later margins, the investment case changes; if not, the move may remain a positioning event."
+        }
+      ],
+      "priced_in": "The share price may already reflect expectations for INTC's future growth, margins, capital needs and macro discount rates. The October 29 move alone cannot show how much of that expectation changed.",
+      "would_change": "A dated operating disclosure for INTC that changes the outlook for demand, margins or cash generation would change this reading, especially if confirmed by follow-through in volume and subsequent sessions.",
+      "next_date": "Next dated earnings, filing or company release; otherwise watch the next completed session.",
+      "foot": [
+        {
+          "k": "Completed-session price evidence",
+          "v": "Twelve Data 1day bar for October 29, 2026",
+          "url": "https://twelvedata.com/"
+        },
+        {
+          "k": "Dated company context",
+          "v": "Opened dated source",
+          "url": "https://live.euronext.com/en/financial-news/intel-shares-drop-21-israel-factory-blast-pc-weakness"
+        }
+      ]
+    },
+    {
+      "ticker": "NBIS",
+      "dir": "down",
+      "strength": "measured",
+      "strength_label": "Completed session",
+      "move": "-5.68% close",
+      "move_tone": "down",
+      "happened": "NBIS closed the completed October 29, 2026 NYSE session at $171.99, -5.68% versus the prior close of $182.34. The session ranged from $168.76 to $178.33, with volume of 17,463,300 shares versus a trailing average of 22,230,250. No verified company-specific event was found for NBIS in the dated sources checked for this edition.",
+      "figures": [
+        "Close <b>$171.99</b>",
+        "Prior close <b>$182.34</b>",
+        "Change <b>-5.68%</b>",
+        "Volume <b>17,463,300</b> vs average <b>22,230,250</b>"
+      ],
+      "why": "The measured down move is evidence about trading, not a diagnosis of the business. For NBIS, the next investment test is whether operating results, cash generation, competitive position and valuation support the share price as rates and AI capital spending evolve. Volume relative to its trailing average provides a participation check, but it cannot identify who traded or why. The dated context should be tested against subsequent filings, guidance and follow-through rather than treated as proof of causation.",
+      "analysis": [
+        {
+          "heading": "What the completed tape establishes",
+          "body": "The October 29 close of $171.99 was -5.68% versus $182.34; the day range was $168.76 to $178.33. Volume of 17,463,300 compares with a trailing average of 22,230,250. These are measured prices and activity, and they do not establish a causal company event."
+        },
+        {
+          "heading": "Operating evidence that matters next",
+          "body": "The next useful evidence for NBIS is a dated company release, filing or earnings disclosure that updates revenue, margins, cash generation, demand or capacity. Compare that evidence with management commitments and the valuation already reflected in the stock before treating one completed session as a lasting change in business value. If the dated event persists in guidance and later margins, the investment case changes; if not, the move may remain a positioning event."
+        }
+      ],
+      "priced_in": "The share price may already reflect expectations for NBIS's future growth, margins, capital needs and macro discount rates. The October 29 move alone cannot show how much of that expectation changed.",
+      "would_change": "A dated operating disclosure for NBIS that changes the outlook for demand, margins or cash generation would change this reading, especially if confirmed by follow-through in volume and subsequent sessions.",
+      "next_date": "Next dated earnings, filing or company release; otherwise watch the next completed session.",
+      "foot": [
+        {
+          "k": "Completed-session price evidence",
+          "v": "Twelve Data 1day bar for October 29, 2026",
+          "url": "https://twelvedata.com/"
+        },
+        {
+          "k": "Research status",
+          "v": "No verified company-specific event was found in the dated sources checked for this edition.",
+          "url": "https://www.nasdaq.com/"
+        }
+      ]
+    },
+    {
+      "ticker": "MRVL",
+      "dir": "down",
+      "strength": "measured",
+      "strength_label": "Completed session",
+      "move": "-13.24% close",
+      "move_tone": "down",
+      "happened": "MRVL closed the completed October 29, 2026 NYSE session at $218.34, -13.24% versus the prior close of $251.65. The session ranged from $214.56 to $225.68, with volume of 41,756,000 shares versus a trailing average of 20,487,295. No verified company-specific event was found for MRVL in the dated sources checked for this edition.",
+      "figures": [
+        "Close <b>$218.34</b>",
+        "Prior close <b>$251.65</b>",
+        "Change <b>-13.24%</b>",
+        "Volume <b>41,756,000</b> vs average <b>20,487,295</b>"
+      ],
+      "why": "The measured down move is evidence about trading, not a diagnosis of the business. For MRVL, the next investment test is whether operating results, cash generation, competitive position and valuation support the share price as rates and AI capital spending evolve. Volume relative to its trailing average provides a participation check, but it cannot identify who traded or why. The dated context should be tested against subsequent filings, guidance and follow-through rather than treated as proof of causation.",
+      "analysis": [
+        {
+          "heading": "What the completed tape establishes",
+          "body": "The October 29 close of $218.34 was -13.24% versus $251.65; the day range was $214.56 to $225.68. Volume of 41,756,000 compares with a trailing average of 20,487,295. These are measured prices and activity, and they do not establish a causal company event."
+        },
+        {
+          "heading": "Operating evidence that matters next",
+          "body": "The next useful evidence for MRVL is a dated company release, filing or earnings disclosure that updates revenue, margins, cash generation, demand or capacity. Compare that evidence with management commitments and the valuation already reflected in the stock before treating one completed session as a lasting change in business value. If the dated event persists in guidance and later margins, the investment case changes; if not, the move may remain a positioning event."
+        }
+      ],
+      "priced_in": "The share price may already reflect expectations for MRVL's future growth, margins, capital needs and macro discount rates. The October 29 move alone cannot show how much of that expectation changed.",
+      "would_change": "A dated operating disclosure for MRVL that changes the outlook for demand, margins or cash generation would change this reading, especially if confirmed by follow-through in volume and subsequent sessions.",
+      "next_date": "Next dated earnings, filing or company release; otherwise watch the next completed session.",
+      "foot": [
+        {
+          "k": "Completed-session price evidence",
+          "v": "Twelve Data 1day bar for October 29, 2026",
+          "url": "https://twelvedata.com/"
+        },
+        {
+          "k": "Research status",
+          "v": "No verified company-specific event was found in the dated sources checked for this edition.",
+          "url": "https://www.nasdaq.com/"
+        }
+      ]
+    },
+    {
+      "ticker": "META",
+      "dir": "up",
+      "strength": "measured",
+      "strength_label": "Completed session",
+      "move": "+1.96% close",
+      "move_tone": "up",
+      "happened": "META closed the completed October 29, 2026 NYSE session at $624.52, +1.96% versus the prior close of $612.49. The session ranged from $616.80 to $634.68, with volume of 31,162,500 shares versus a trailing average of 21,581,940. No verified company-specific event was found for META in the dated sources checked for this edition.",
+      "figures": [
+        "Close <b>$624.52</b>",
+        "Prior close <b>$612.49</b>",
+        "Change <b>+1.96%</b>",
+        "Volume <b>31,162,500</b> vs average <b>21,581,940</b>"
+      ],
+      "why": "The measured up move is evidence about trading, not a diagnosis of the business. For META, the next investment test is whether operating results, cash generation, competitive position and valuation support the share price as rates and AI capital spending evolve. Volume relative to its trailing average provides a participation check, but it cannot identify who traded or why. The dated context should be tested against subsequent filings, guidance and follow-through rather than treated as proof of causation.",
+      "analysis": [
+        {
+          "heading": "What the completed tape establishes",
+          "body": "The October 29 close of $624.52 was +1.96% versus $612.49; the day range was $616.80 to $634.68. Volume of 31,162,500 compares with a trailing average of 21,581,940. These are measured prices and activity, and they do not establish a causal company event."
+        },
+        {
+          "heading": "Operating evidence that matters next",
+          "body": "The next useful evidence for META is a dated company release, filing or earnings disclosure that updates revenue, margins, cash generation, demand or capacity. Compare that evidence with management commitments and the valuation already reflected in the stock before treating one completed session as a lasting change in business value. If the dated event persists in guidance and later margins, the investment case changes; if not, the move may remain a positioning event."
+        }
+      ],
+      "priced_in": "The share price may already reflect expectations for META's future growth, margins, capital needs and macro discount rates. The October 29 move alone cannot show how much of that expectation changed.",
+      "would_change": "A dated operating disclosure for META that changes the outlook for demand, margins or cash generation would change this reading, especially if confirmed by follow-through in volume and subsequent sessions.",
+      "next_date": "Next dated earnings, filing or company release; otherwise watch the next completed session.",
+      "foot": [
+        {
+          "k": "Completed-session price evidence",
+          "v": "Twelve Data 1day bar for October 29, 2026",
+          "url": "https://twelvedata.com/"
+        },
+        {
+          "k": "Research status",
+          "v": "No verified company-specific event was found in the dated sources checked for this edition.",
+          "url": "https://www.nasdaq.com/"
+        }
+      ]
+    }
+  ],
+  "research_log": {
+    "AAPL": {
+      "checked_at_utc": "2026-10-30T13:02:04.617064+00:00",
+      "outcome": "no_verified_event",
+      "sources": []
+    },
+    "AMZN": {
+      "checked_at_utc": "2026-10-30T13:02:04.617064+00:00",
+      "outcome": "dated_event",
+      "sources": [
+        {
+          "url": "https://apnews.com/article/2de72b65d63006a7ce85eab441e2d6b7",
+          "event_date": "2026-10-29"
+        }
+      ]
+    },
+    "TSLA": {
+      "checked_at_utc": "2026-10-30T13:02:04.617064+00:00",
+      "outcome": "no_verified_event",
+      "sources": []
+    },
+    "PLTR": {
+      "checked_at_utc": "2026-10-30T13:02:04.617064+00:00",
+      "outcome": "no_verified_event",
+      "sources": []
+    },
+    "MSFT": {
+      "checked_at_utc": "2026-10-30T13:02:04.617064+00:00",
+      "outcome": "no_verified_event",
+      "sources": []
+    },
+    "GOOGL": {
+      "checked_at_utc": "2026-10-30T13:02:04.617064+00:00",
+      "outcome": "dated_event",
+      "sources": [
+        {
+          "url": "https://apnews.com/article/1b5c71d31b4ce1e46b0db47b33141f6b",
+          "event_date": "2026-10-29"
+        }
+      ]
+    },
+    "HOOD": {
+      "checked_at_utc": "2026-10-30T13:02:04.617064+00:00",
+      "outcome": "no_verified_event",
+      "sources": []
+    },
+    "NVDA": {
+      "checked_at_utc": "2026-10-30T13:02:04.617064+00:00",
+      "outcome": "no_verified_event",
+      "sources": []
+    },
+    "INTC": {
+      "checked_at_utc": "2026-10-30T13:02:04.617064+00:00",
+      "outcome": "dated_event",
+      "sources": [
+        {
+          "url": "https://live.euronext.com/en/financial-news/intel-shares-drop-21-israel-factory-blast-pc-weakness",
+          "event_date": "2026-10-29"
+        }
+      ]
+    },
+    "NBIS": {
+      "checked_at_utc": "2026-10-30T13:02:04.617064+00:00",
+      "outcome": "no_verified_event",
+      "sources": []
+    },
+    "MRVL": {
+      "checked_at_utc": "2026-10-30T13:02:04.617064+00:00",
+      "outcome": "no_verified_event",
+      "sources": []
+    },
+    "META": {
+      "checked_at_utc": "2026-10-30T13:02:04.617064+00:00",
+      "outcome": "no_verified_event",
+      "sources": []
+    }
+  }
+}
