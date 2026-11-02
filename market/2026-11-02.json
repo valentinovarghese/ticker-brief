@@ -1,0 +1,373 @@
+{
+  "date": "2026-11-02",
+  "as_of_utc": "2026-11-02T13:00:00Z",
+  "headline": "Monday market brief: Friday selloff meets a pre-open US session and fresh data tests",
+  "overview": "As of the 13:00 London cutoff on Monday, November 2, London is 13:00 GMT and New York is 08:00 EST; the NYSE core session is scheduled for 09:30–16:00 ET and has not opened, so no November 2 US equity close exists. Friday October 30 is the latest completed US equity session. The report carries forward dated evidence on the AI-led selloff, rates, inflation, commodities, housing and international activity, and sets concrete tests for the Monday open and this week’s releases.",
+  "general": [
+    {
+      "id": "equities",
+      "label": "Equities",
+      "items": [
+        {
+          "headline": "Friday US stocks closed lower as AI valuation worries deepened",
+          "detail": "AP reported on October 30 that technology shares led a broad US selloff as investors questioned whether AI spending and valuations had run too far. Friday was a completed NYSE session; Monday’s cash session is not yet open, so no November 1 close exists.",
+          "why": "The close is a measured risk repricing; it does not prove a durable change in AI demand. The next test is whether breadth and credit conditions stabilize when US trading resumes.",
+          "watch": "Compare Monday opening breadth and megacap earnings follow-through with Friday’s close.",
+          "status": "carry_forward",
+          "as_of": "2026-10-30",
+          "sources": [
+            {
+              "title": "US stocks closed lower as AI valuations were questioned",
+              "url": "https://apnews.com/article/a01d3551e794fed1a0c317c20bc3f0a2",
+              "published": "2026-10-30"
+            }
+          ]
+        },
+        {
+          "headline": "US futures are slightly higher before the NYSE open",
+          "detail": "AP reported on October 27 that US futures edged higher after an AI-led Wall Street rally, while global shares were mixed ahead of major earnings and central-bank decisions. At the 12:58 UTC cutoff New York was 08:58 ET, before the 09:30 ET NYSE open, so no October 27 cash move is available.",
+          "why": "The gap between futures and the eventual cash open matters because overnight prices can reverse once US liquidity and company-specific earnings arrive. Friday’s close is the completed reference point; Monday breadth and the close remain unavailable at this cutoff.",
+          "watch": "Compare the 09:30 ET open, breadth and the October 27 close with the pre-open futures reading.",
+          "status": "carry_forward",
+          "as_of": "2026-10-27",
+          "sources": [
+            {
+              "title": "US futures are slightly higher before the NYSE open",
+              "url": "https://apnews.com/article/e11a2240fc3283c4507d44b9833f30a2",
+              "published": "2026-10-27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "treasuries_bonds",
+      "label": "Treasuries and bonds",
+      "items": [
+        {
+          "headline": "Treasuries rallied as investors sought safety",
+          "detail": "AP reported October 30 that Treasury yields sank as investors sought safer assets during the technology selloff, while BLS reported compensation costs rose 0.8% in Q3. This dated observation should be read alongside the next release and subsequent market response, because one session cannot establish a lasting trend.",
+          "why": "Lower yields can ease duration pressure, but firm labor costs may keep inflation risk alive. The combination leaves the curve dependent on whether growth or inflation dominates the next data.",
+          "watch": "Check two-year and ten-year yields after the November jobs report and next inflation release.",
+          "status": "carry_forward",
+          "as_of": "2026-10-31",
+          "sources": [
+            {
+              "title": "Treasuries rallied as investors sought safety",
+              "url": "https://www.bls.gov/news.release/eci.htm",
+              "published": "2026-10-30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "credit",
+      "label": "Corporate credit",
+      "items": [
+        {
+          "headline": "AI funding costs remain a live credit test",
+          "detail": "Axios reported October 28 that bond investors were becoming more selective about leveraged AI infrastructure borrowers after CoreWeave-related volatility. This dated observation should be read alongside the next release and subsequent market response, because one session cannot establish a lasting trend.",
+          "why": "Wider spreads would raise the hurdle rate for data-center investment and test the cash economics behind AI expansion. Equity weakness alone is not proof of credit stress. The mechanism should be tested against later prices, volumes and official data before drawing a stronger conclusion.",
+          "watch": "Watch new issue concessions and high-yield spreads after the next large AI debt deal.",
+          "status": "carry_forward",
+          "as_of": "2026-10-31",
+          "sources": [
+            {
+              "title": "AI funding costs remain a live credit test",
+              "url": "https://www.axios.com/2026/10/28/ai-bonds-coreweave-oracle",
+              "published": "2026-10-30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "currencies",
+      "label": "Currencies",
+      "items": [
+        {
+          "headline": "Dollar moves with lower yields and safe-haven demand",
+          "detail": "Reuters reported October 30 that the yen briefly gained after the BOJ held rates while the dollar tracked Treasury yields lower amid AI selling. This dated observation should be read alongside the next release and subsequent market response, because one session cannot establish a lasting trend.",
+          "why": "FX reflects relative rate paths and risk appetite. A lasting dollar move requires confirmation from yields and central-bank communication. The mechanism should be tested against later prices, volumes and official data before drawing a stronger conclusion.",
+          "watch": "Check USD/JPY after the next BOJ guidance and EUR/USD after ECB follow-through.",
+          "status": "carry_forward",
+          "as_of": "2026-10-31",
+          "sources": [
+            {
+              "title": "Dollar moves with lower yields and safe-haven demand",
+              "url": "https://au.marketscreener.com/news/yen-gains-after-boj-ai-jitters-drive-treasury-rally-weigh-on-dollar-ce785fdad08ff725",
+              "published": "2026-10-30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "headline": "Binance security breach adds a crypto-specific risk test",
+          "detail": "AP reported October 30 that a hacking group allegedly stole an estimated $6.3 billion from Binance-linked customer assets; bitcoin fell during the episode. This dated observation should be read alongside the next release and subsequent market response, because one session cannot establish a lasting trend.",
+          "why": "Exchange and custody risk can overwhelm macro narratives and raise demands for proof of reserves and controls. The incident does not establish the solvency of every crypto venue. The mechanism should be tested against later prices, volumes and official data before drawing a stronger conclusion.",
+          "watch": "Track withdrawals, asset freezes and bitcoin liquidity when markets reopen Monday.",
+          "status": "carry_forward",
+          "as_of": "2026-10-31",
+          "sources": [
+            {
+              "title": "Binance security breach adds a crypto-specific risk test",
+              "url": "https://apnews.com/article/3255f83c8ca64131bd52ca9b4033c17c",
+              "published": "2026-10-30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commodities",
+      "label": "Commodities",
+      "items": [
+        {
+          "headline": "Oil rose while gold weakened during the risk-off session",
+          "detail": "AP reported October 30 that Treasury yields sank even as oil prices rose; market coverage also reported gold at a one-year low. This dated observation should be read alongside the next release and subsequent market response, because one session cannot establish a lasting trend.",
+          "why": "Energy strength can lift inflation expectations while weaker gold signals that real yields or liquidation dominated safe-haven demand. The mechanism should be tested against later prices, volumes and official data before drawing a stronger conclusion.",
+          "watch": "Compare oil, gold and breakeven inflation after Monday's cash open.",
+          "status": "carry_forward",
+          "as_of": "2026-10-31",
+          "sources": [
+            {
+              "title": "Oil rose while gold weakened during the risk-off session",
+              "url": "https://apnews.com/article/a01d3551e794fed1a0c317c20bc3f0a2",
+              "published": "2026-10-30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "housing",
+      "label": "Housing",
+      "items": [
+        {
+          "headline": "Mortgage rates remain restrictive for housing demand",
+          "detail": "Freddie Mac's October 29 survey put the 30-year fixed mortgage rate at 7.24%, down from 7.32% the prior week. This dated observation should be read alongside the next release and subsequent market response, because one session cannot establish a lasting trend.",
+          "why": "A small weekly decline helps affordability at the margin, but a rate above 7% keeps payment burdens high and can limit turnover. The mechanism should be tested against later prices, volumes and official data before drawing a stronger conclusion.",
+          "watch": "Watch the next Freddie Mac survey and September pending-sales data.",
+          "status": "carry_forward",
+          "as_of": "2026-10-31",
+          "sources": [
+            {
+              "title": "Mortgage rates remain restrictive for housing demand",
+              "url": "https://www.freddiemac.com/pmms",
+              "published": "2026-10-30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us_policy",
+      "label": "US policy",
+      "items": [
+        {
+          "headline": "Labor cost data keeps the Fed's tradeoff active",
+          "detail": "BLS reported October 30 that civilian compensation costs rose 0.8% in Q3, with wages up 0.7% and benefits up 0.9%; year-over-year compensation rose 3.4%. This dated observation should be read alongside the next release and subsequent market response, because one session cannot establish a lasting trend.",
+          "why": "Firm compensation can support consumption but complicate disinflation, leaving the Fed sensitive to labor and price evidence after its October hold. The mechanism should be tested against later prices, volumes and official data before drawing a stronger conclusion.",
+          "watch": "Compare the next jobs, inflation and productivity releases with the Fed's November communication.",
+          "status": "carry_forward",
+          "as_of": "2026-10-31",
+          "sources": [
+            {
+              "title": "Labor cost data keeps the Fed's tradeoff active",
+              "url": "https://www.bls.gov/news.release/eci.htm",
+              "published": "2026-10-30"
+            }
+          ]
+        },
+        {
+          "headline": "The Fed decision is tomorrow, not today",
+          "detail": "AP’s October 27 preview says investors see almost no chance of an October hike after officials downplayed the likelihood, while the policy rate is about 3.9%. The October 28 decision is now a dated reference point; the next test is the November policy and data sequence.",
+          "why": "The outcome is more than the rate itself: language on inflation, oil and longer-term yields can reset the path priced into equities and credit. Treating an expected hold as a delivered decision would overstate the evidence.",
+          "watch": "Compare the actual statement, press conference and two-year yield reaction on October 28.",
+          "status": "carry_forward",
+          "as_of": "2026-10-27",
+          "sources": [
+            {
+              "title": "The Fed decision is tomorrow, not today",
+              "url": "https://apnews.com/article/991eeb23f8acd1e84b11de9b35278681",
+              "published": "2026-10-27"
+            }
+          ]
+        },
+        {
+          "headline": "Next week’s US data calendar will test the soft landing narrative",
+          "detail": "The Bureau of Labor Statistics schedule lists Job Openings and Labor Turnover for September on November 3, productivity and costs for Q3 on November 5, and the October Employment Situation on November 6 at 08:30 ET. These are scheduled releases, not results; Monday’s US cash-market print is not yet available.",
+          "why": "A labor-demand reading followed by productivity and payroll data can change the balance between growth resilience and inflation pressure in rates and equities. The calendar gives investors a dated test without pretending the data is already known.",
+          "watch": "Read JOLTS on November 3, productivity on November 5 and payrolls on November 6 against Treasury yields and market breadth.",
+          "status": "new",
+          "as_of": "2026-11-01",
+          "sources": [
+            {
+              "title": "Schedule of Selected Releases for November 2026",
+              "url": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
+              "published": "2026-02-18"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "international": [
+    {
+      "id": "uk",
+      "label": "UK",
+      "items": [
+        {
+          "headline": "UK Budget leaves fiscal and inflation tests in view",
+          "detail": "HM Treasury published Budget 2026 on October 28, describing measures for energy costs, growth and fiscal repair; the Bank of England DMP on October 30 put year-ahead own-price expectations at 3.8%. This dated observation should be read alongside the next release and subsequent market response, because one session cannot establish a lasting trend.",
+          "why": "The package may cushion households while constrained fiscal space and sticky expectations keep gilt and rate sensitivity high. The mechanism should be tested against later prices, volumes and official data before drawing a stronger conclusion.",
+          "watch": "Watch gilt yields and the next DMP/ONS inflation releases.",
+          "status": "carry_forward",
+          "as_of": "2026-10-31",
+          "sources": [
+            {
+              "title": "UK Budget leaves fiscal and inflation tests in view",
+              "url": "https://www.gov.uk/government/publications/budget-2026-document/budget-2026-html",
+              "published": "2026-10-30"
+            }
+          ]
+        },
+        {
+          "headline": "UK surveys and spending diverge before the budget",
+          "detail": "Reuters reported that the preliminary October UK composite PMI rose to 53.1 from September’s 52.0, while September retail sales weakened. Sterling reached a seventeen-month high against the euro on Friday October 23. The October 28 UK budget is still pending.",
+          "why": "Stronger business surveys and softer household spending give different signals for growth and tax capacity. The budget will test whether fiscal choices add support without reigniting gilt or inflation concerns under expensive energy.",
+          "watch": "Read the October 28 budget measures and compare sterling and gilt yields with Friday’s levels.",
+          "status": "carry_forward",
+          "as_of": "2026-10-23",
+          "sources": [
+            {
+              "title": "Reuters UK PMI and sterling report",
+              "url": "https://www.brecorder.com/news/40445904",
+              "published": "2026-10-26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "euro_area",
+      "label": "Euro area",
+      "items": [
+        {
+          "headline": "Euro-area GDP grew 0.4% in Q3",
+          "detail": "Eurostat reported October 30 that seasonally adjusted euro-area GDP increased 0.4% quarter over quarter in Q3, with EU GDP up 0.5%. This dated observation should be read alongside the next release and subsequent market response, because one session cannot establish a lasting trend.",
+          "why": "Growth is firmer than stagnation but uneven; if inflation remains elevated, the ECB may have less room to ease. The mechanism should be tested against later prices, volumes and official data before drawing a stronger conclusion.",
+          "watch": "Compare the flash inflation release and December ECB guidance.",
+          "status": "carry_forward",
+          "as_of": "2026-10-31",
+          "sources": [
+            {
+              "title": "Euro-area GDP grew 0.4% in Q3",
+              "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-30102026-ap",
+              "published": "2026-10-30"
+            }
+          ]
+        },
+        {
+          "headline": "German confidence improves but current conditions weaken",
+          "detail": "The October 26 ifo survey showed Germany’s business climate at 90.2, up from 89.9 in September, according to Reuters. Expectations climbed to 91.6 from 90.4, while current conditions fell to 88.8 from 89.5. The ECB decision is due later this week.",
+          "why": "The divergence suggests firms see a better six-month outlook without a present demand rebound. Higher energy costs and French sovereign stress could still tighten financing conditions across the euro area.",
+          "watch": "Compare the October ifo split with flash inflation, GDP and Thursday’s ECB communication.",
+          "status": "carry_forward",
+          "as_of": "2026-10-26",
+          "sources": [
+            {
+              "title": "Reuters German ifo report",
+              "url": "https://www.marketscreener.com/news/german-business-sentiment-improves-in-october-ifo-survey-finds-ce785cdcd88df022",
+              "published": "2026-10-26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "items": [
+        {
+          "headline": "China factory activity contracts in October",
+          "detail": "China's National Bureau of Statistics reported October 31 that manufacturing PMI fell to 49.3 from 50.1 in September; new export orders were 46.5. This dated observation should be read alongside the next release and subsequent market response, because one session cannot establish a lasting trend.",
+          "why": "A sub-50 reading points to weaker factory momentum and can weigh on commodities, regional equities and global goods demand. The mechanism should be tested against later prices, volumes and official data before drawing a stronger conclusion.",
+          "watch": "Check November PMI, exports and targeted policy support.",
+          "status": "carry_forward",
+          "as_of": "2026-10-31",
+          "sources": [
+            {
+              "title": "China factory activity contracts in October",
+              "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261031_1965718.html",
+              "published": "2026-10-31"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "japan",
+      "label": "Japan",
+      "items": [
+        {
+          "headline": "BOJ holds 1.25% and signals a hawkish phase",
+          "detail": "Reuters reported October 30 that the BOJ held its main rate at 1.25% while revising its inflation outlook and signaling further hikes could come soon. This dated observation should be read alongside the next release and subsequent market response, because one session cannot establish a lasting trend.",
+          "why": "The policy shift supports yen sensitivity and raises questions for Japanese banks, exporters and global carry trades. The mechanism should be tested against later prices, volumes and official data before drawing a stronger conclusion.",
+          "watch": "Watch the December BOJ meeting and USD/JPY response.",
+          "status": "carry_forward",
+          "as_of": "2026-10-31",
+          "sources": [
+            {
+              "title": "BOJ holds 1.25% and signals a hawkish phase",
+              "url": "https://www.boj.or.jp/en/mopo/mpmdeci/state_2026/",
+              "published": "2026-10-30"
+            }
+          ]
+        },
+        {
+          "headline": "Oil import bill leaves Japan exposed before BoJ meeting",
+          "detail": "Japan’s finance ministry data released October 21 showed an April-to-September trade deficit of 2.81 trillion yen, AP reported. September alone was a 536.6 billion yen deficit, the fifth consecutive monthly shortfall, as oil imports became more expensive. This is dated carry-forward evidence.",
+          "why": "Higher import costs can weaken the yen and lift domestic prices even while export volumes grow. The Bank of Japan must judge whether inflation is persistent enough to justify further tightening without deepening pressure on activity.",
+          "watch": "Read this week’s Bank of Japan decision and the next trade and inflation releases.",
+          "status": "carry_forward",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "title": "AP Japan trade report",
+              "url": "https://apnews.com/article/japan-trade-oil-imports-exports-war-c2265fa62a4511229dd83693d94d32e2",
+              "published": "2026-10-21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other_world",
+      "label": "Other world",
+      "items": [
+        {
+          "headline": "Global risk appetite weakens as AI and crypto shocks combine",
+          "detail": "AP reported October 30 that technology selling pushed US indexes lower while yields fell and oil rose; AP also reported the Binance security incident. This dated observation should be read alongside the next release and subsequent market response, because one session cannot establish a lasting trend.",
+          "why": "The cross-asset mix shows distinct equity, credit and custody risks rather than one clean macro factor. The mechanism should be tested against later prices, volumes and official data before drawing a stronger conclusion.",
+          "watch": "Track whether Monday breadth, spreads and crypto liquidity confirm or reverse Friday's stress.",
+          "status": "carry_forward",
+          "as_of": "2026-10-31",
+          "sources": [
+            {
+              "title": "Global risk appetite weakens as AI and crypto shocks combine",
+              "url": "https://apnews.com/article/a01d3551e794fed1a0c317c20bc3f0a2",
+              "published": "2026-10-30"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
