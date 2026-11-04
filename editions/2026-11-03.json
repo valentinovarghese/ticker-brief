@@ -52,7 +52,12 @@
           "v": "Twelve Data daily time_series; exchange-local session.",
           "url": "https://twelvedata.com/docs"
         }
-      ]
+      ],
+      "dir": "down",
+      "strength": "notable",
+      "move": "-1.90% close",
+      "move_tone": "down",
+      "strength_label": "Session move"
     },
     {
       "ticker": "AMZN",
@@ -83,7 +88,12 @@
           "v": "Twelve Data daily time_series; exchange-local session.",
           "url": "https://twelvedata.com/docs"
         }
-      ]
+      ],
+      "dir": "up",
+      "strength": "notable",
+      "move": "+2.06% close",
+      "move_tone": "up",
+      "strength_label": "Session move"
     },
     {
       "ticker": "TSLA",
@@ -114,7 +124,12 @@
           "v": "Twelve Data daily time_series; exchange-local session.",
           "url": "https://twelvedata.com/docs"
         }
-      ]
+      ],
+      "dir": "down",
+      "strength": "notable",
+      "move": "-1.32% close",
+      "move_tone": "down",
+      "strength_label": "Session move"
     },
     {
       "ticker": "PLTR",
@@ -145,7 +160,12 @@
           "v": "Twelve Data daily time_series; exchange-local session.",
           "url": "https://twelvedata.com/docs"
         }
-      ]
+      ],
+      "dir": "down",
+      "strength": "notable",
+      "move": "-1.65% close",
+      "move_tone": "down",
+      "strength_label": "Session move"
     },
     {
       "ticker": "MSFT",
@@ -176,7 +196,12 @@
           "v": "Twelve Data daily time_series; exchange-local session.",
           "url": "https://twelvedata.com/docs"
         }
-      ]
+      ],
+      "dir": "up",
+      "strength": "notable",
+      "move": "+2.74% close",
+      "move_tone": "up",
+      "strength_label": "Session move"
     },
     {
       "ticker": "GOOGL",
@@ -207,7 +232,12 @@
           "v": "Twelve Data daily time_series; exchange-local session.",
           "url": "https://twelvedata.com/docs"
         }
-      ]
+      ],
+      "dir": "up",
+      "strength": "notable",
+      "move": "+0.37% close",
+      "move_tone": "up",
+      "strength_label": "Session move"
     },
     {
       "ticker": "HOOD",
@@ -238,7 +268,12 @@
           "v": "Twelve Data daily time_series; exchange-local session.",
           "url": "https://twelvedata.com/docs"
         }
-      ]
+      ],
+      "dir": "up",
+      "strength": "notable",
+      "move": "+2.19% close",
+      "move_tone": "up",
+      "strength_label": "Session move"
     },
     {
       "ticker": "NVDA",
@@ -269,7 +304,12 @@
           "v": "Twelve Data daily time_series; exchange-local session.",
           "url": "https://twelvedata.com/docs"
         }
-      ]
+      ],
+      "dir": "up",
+      "strength": "notable",
+      "move": "+2.29% close",
+      "move_tone": "up",
+      "strength_label": "Session move"
     },
     {
       "ticker": "INTC",
@@ -300,7 +340,12 @@
           "v": "Twelve Data daily time_series; exchange-local session.",
           "url": "https://twelvedata.com/docs"
         }
-      ]
+      ],
+      "dir": "up",
+      "strength": "notable",
+      "move": "+0.97% close",
+      "move_tone": "up",
+      "strength_label": "Session move"
     },
     {
       "ticker": "NBIS",
@@ -331,7 +376,12 @@
           "v": "Twelve Data daily time_series; exchange-local session.",
           "url": "https://twelvedata.com/docs"
         }
-      ]
+      ],
+      "dir": "up",
+      "strength": "notable",
+      "move": "+7.25% close",
+      "move_tone": "up",
+      "strength_label": "Session move"
     },
     {
       "ticker": "MRVL",
@@ -362,7 +412,12 @@
           "v": "Twelve Data daily time_series; exchange-local session.",
           "url": "https://twelvedata.com/docs"
         }
-      ]
+      ],
+      "dir": "up",
+      "strength": "notable",
+      "move": "+0.33% close",
+      "move_tone": "up",
+      "strength_label": "Session move"
     },
     {
       "ticker": "META",
@@ -393,7 +448,12 @@
           "v": "Twelve Data daily time_series; exchange-local session.",
           "url": "https://twelvedata.com/docs"
         }
-      ]
+      ],
+      "dir": "up",
+      "strength": "notable",
+      "move": "+2.36% close",
+      "move_tone": "up",
+      "strength_label": "Session move"
     }
   ],
   "macro": [
