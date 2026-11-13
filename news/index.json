@@ -1,15 +1,55 @@
 {
- "checked": "2026-11-13T08:09:28+00:00",
- "changed": "2026-11-13T08:09:28+00:00",
+ "checked": "2026-11-13T16:16:04+00:00",
+ "changed": "2026-11-13T16:16:04+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
    {
+    "id": "3498bdc2e707feee",
+    "title": "Apple stock: China Renaissance upgrades rating to Buy",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOaFBXbFNvckJLVGdTV0ZmX0xWbjFIbjc1RjM5Qkk5Y0NqMGpqc2VhS0RNQUlWcURrMjBhSnF1WFI4YTljSUVFZXdoU29IVTVHc2ktMFRmdG5xQjFWWXlrX0VCSjg5SndFdzdWU2FpRHFZZzRsWm96bHlBNjVFQzlRTk00UWd5TmcteDcwMG0yZXZpM2pzUERTdVoweDRKdE0zVG9kR2dzeUkxTXFpRUJxRjhhVUo4UQ?oc=5",
+    "source": "ad-hoc-news.de",
+    "published": "2026-11-13T14:51+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "e309d9e94cb0002f",
+    "title": "Binance pays Apple dividend to AAPLB holders in more AAPLB",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9NWEhidTI4ZURhbWtXUkJ2WW1EVVlWeE5fNElycVM0aVMweUN5LU1qNTVEbXRLNG92UW1QRnZHaGhKRkwwLUhDNmdicVNDZXh5eWp1OEdEVzJvZEo2VXdrbkpaYVl1MHdyZzNublJHZnlZc3VvU1J4Mg?oc=5",
+    "source": "Crypto Briefing",
+    "published": "2026-11-13T13:13+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "4705b379e9bbd299",
+    "title": "Apple stock follows record fiscal 2026 revenue and dividend date",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPa3VOYzdFcWVKNXdLZy1URTZZVnlSTTlvVHB3SVM5WTBHN3l6dTlqT0U0ZWptbG9sdVVqV245S0NTSnF0bXBTQlRuZDhwZ3BBWkdKV2ZHN0FWcWdCRTBvWlZ0cWYxTGNxZld2aDFpaDJPNndVMkJ2ZXdaMUVkSkRCbHV4UDg4SWttbmEyM3l4dERuM1pxZTNUSE1sY2F0c0x4ZXlidGZ1VGRhMXcySkY3X3lKUmZmb3hkRXZpbW1CTGdUcVNWRHc?oc=5",
+    "source": "ad-hoc-news.de",
+    "published": "2026-11-13T11:54+00:00",
+    "score": 11,
+    "tags": [
+     "earnings",
+     "capital"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
     "id": "65a9d0573c027927",
     "title": "Why Emerging-Market Investors Buy NVIDIA Before Apple",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNcUMxSnVhTkYxUDNLSWRhZTJrd201ZTN6dUU3OGJQT2JtMXdwdVplOHVGYUlPYlJMVXlka2tkZnMzWDlSREh3NmFCaUZUQzBSSndaeVAyd2RrckgwcHRVTUtXTGhCMlgzc0U3bklRdHc4QkFTMURvLXY0Rm5yRUs0MDdEcUt1Sl9ERkNSSTIzMXI5aGh3dUk5MUZ1allTM3JsczcxSkVVT2RHR085ZkF4akVmQVd4WGNobW9ic2RPVkFFOUNRLXJSWmln?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeDRlQTc3MzluQ1FhSDJRbkl0eE45b213eXNfb2FEeDhra2xXTS1DM0h2ZTJzQlotdXdmazVyU0JWWmZoQ0pfd2RZdUlRU1NRanV6Si1FbHNUOXZRbGhxNUJXZ0NUb25xOWNYd1JER3lWdUd6TGZDdGdzdC1xVlk5VHBtRW5ycXhYY1g0MUlLTHBKbHd3X0RPZjloaVRhRGVmMEl2dk0wY0x2VFVQZHpuZDBHeTVlamR4VW9udDB0UFB4WUJjSEFWT2hn?oc=5",
     "source": "Business Upturn",
-    "published": "2026-11-13T05:21+00:00",
+    "published": "2026-11-13T05:23+00:00",
     "score": 5,
     "tags": [
      "ma"
@@ -59,12 +99,38 @@
   ],
   "AMZN": [
    {
-    "id": "4711a9f276aa709d",
-    "title": "At 21x earnings, Amazon is cheaper than Walmart and surging",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZVNyaW1Yajlrd1M0ZEdpQUFURlJsLVVFTFNEeFNhLXhvZDVGLXlWcFltQlZmeEptVnp5TGktcHRVVkN5b0QzQnlUNTVnN0k3Z1BDd0RZaFlhN0h6Y0o1MUNlSmdsQTJJcUtFeFhsY0syc1VnUUY2UGpIVWEwSmViLUJaLVFpemZvVXZYSlZaSG9YS3d2VUNkS0x3blJDNzQzSlE?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-13T07:30+00:00",
-    "score": 6,
+    "id": "5903e44f3bdfe54a",
+    "title": "What's Wrong With Amazon.com (AMZN) Stock, and Is It a Buy in November?",
+    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOeFF4UFVYTnJCOWlNWUFEaV81SmZkNVUyNWdVRHRqUnJPU2k3VTBDRV9JY3pLVDdyblVBM2pmRXRyQXBBVFZiS083QUU4TkRJbzJSTktHbTNwMFNfanBQMU96enpZX3hhT0ZZWFlROXA3WElXUk1xeVg2V0kxTGliSTlaTGRpWlozRGt6Q0Z2Z2lHSXBNV1RNV2taMnp6Ny1OSnNqREJ1S0hwenlYV184dEpabEZFcmJiejRJOXJpVmFIUGtUSHd2T0JibmRCWGZGQ3IwbXZmaG5zYTNRZ2JhV3pkWVA?oc=5",
+    "source": "The Globe and Mail",
+    "published": "2026-11-13T13:17+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "45693c9f67a8979b",
+    "title": "Amazon Is the Only \"Magnificent Seven\" Stock I'd Buy With $1,000 Right Now",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQYWYwTldtNXZwLVZfVXJfRHZyOG1hb3BPbmFXVEF3N2k3NmdlMVBycUhoMTBBU21UamlGTjEzclM2Z2NnTUluRlVxRkpfODZ2N3Rzd2xwRkt5ZURPb1pQWm1TODNPejFXUTVaTHJJdVVhbndMVk9zRmMtWlYwa2EyeVczLVd3dw?oc=5",
+    "source": "AOL.com",
+    "published": "2026-11-13T10:34+00:00",
+    "score": 8,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "5385c110f2013aae",
+    "title": "Amazon Trades at 21x Earnings, a Discount to Walmart, as $578 Billion AWS Backlog Builds",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE40MHRnb29uNzNEZ1FqRnQxaEhWMTZ6M3J5VlZQSUFrMUNLb0R3MVd4ME9ZWk9IeTlDS1VTR2NHNXVySkRfMV9ndlA3VHFBQmpwZzhtNUEza0U4NTg2RVBKVVctTHN4Y1VwdTRocWJoTG5VZ2MydWc?oc=5",
+    "source": "BigGo Finance",
+    "published": "2026-11-13T07:25+00:00",
+    "score": 9,
     "tags": [
      "earnings"
     ],
@@ -90,19 +156,6 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTlZTbDFCZ2d4MWVodVBxWDc3TFU4OW4tcXF4NFhOX1o0a19ySnFVOFBxbndnMVFPbmVxQVdrNG1mYldEeFBaMnEyelN6WHRnYkNESC10MG8tMUpZXzZzRFlKdzdnajVtbk85NHdrdlJVbTNtSEVLYzlqZ0VtNmxQSDczb25ldXdDbkU3R0hMV0tOdnRRWlhxQTFyeGFEUQ?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-12T17:59+00:00",
-    "score": 8,
-    "tags": [
-     "capital"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "bf30977fa06ff763",
-    "title": "Amazon's Housing Bet, an Italian Customs Bill and a $411 Billion AI Stake",
-    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQmZVaTJrU25Qa01YSlRrdDhTalg3NkN3ZWVRWlJFdjB6T2Q0ZFhuTnhWQXRSMWhGZVJYU2tJRG1Zc3p2aHhUYkREVFVpcC1TeXZ5dGtZa2ZaNVV2SjZXY2RYUVIzOTNrRTJ4bmF4T2xPU29mY3VJeER4aGNJNTB0ZXhFazJndUhTS09XWmRYRGp2MFBjNFVKT25ubzFNbkh6MEJKbU1OaEJnRlBhVE9NV3VPazZsOURfUEExczhZUEVpMEo2NzY3QjB1UG1IWVVNZWl0ZFBUZDA2alU?oc=5",
-    "source": "ad-hoc-news.de",
-    "published": "2026-11-12T17:51+00:00",
     "score": 8,
     "tags": [
      "capital"
@@ -139,11 +192,25 @@
   ],
   "TSLA": [
    {
+    "id": "a92b50080fb29364",
+    "title": "Tesla stock forecast: Can buyers hold momentum amid merger speculation?",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUUhmOUt3N1RCMEJoZzlSQzFGTGxhMGQ4bjVrWFFfM0VkbmxEdXJGNFlBeks1dUVjdko2TXM3bFVwMXhlaUtvOUtwQjh4dks0SlMzZnhFaDlvTmhGSTlHaGVnMGh0ZXpyWU5BampJX3IxbXZhZkxPX2ZKR0VfaU1wdUllRnd0N0p1bVE?oc=5",
+    "source": "Traders Union",
+    "published": "2026-11-13T12:09+00:00",
+    "score": 11,
+    "tags": [
+     "earnings",
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "45bd437ce1cf51fb",
     "title": "Tesla Inc (TSLA) Stock Analysis & Forecast",
     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1YTzFEQ182aFVteHJ6bERSSjlILTdRSVJ4d2ozM0hEc0pwTGxMSEw5Rks4aUNGTkZISUVWZEZTeXM2bWxCazBJcXZyVE1aei1lMHcyb09zd2EtNmxpbkFyWFJSU2ROQQ?oc=5",
     "source": "TradingKey",
-    "published": "2026-11-13T02:08+00:00",
+    "published": "2026-11-13T10:59+00:00",
     "score": 6,
     "tags": [
      "earnings"
@@ -160,19 +227,6 @@
     "score": 6,
     "tags": [
      "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "9815e1b93fb51103",
-    "title": "JPMorgan’s Rivian Stake Hits Record as Tesla Holding Drops to 2024 Low",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdnkzVzhFcVdkbFQ1TEZVVUF4bl9hTHpKYTdzYTQ5RnVWSXNzT1ZmQURZZlljZkFBZUlDeVZ5RV9TQzlCbEdiUWQxMHllS3FBdUJSM05BUUxMU1VPLXhTRTVXeVN4dzg4RWFLeTlSVVlZdzdHRU1WdUVlOFNpdU43RTNXdnBnNnp5WExITU8xUkIzaG5mTmgxSlZCZF83UEljeHdseHFxNS1LZw?oc=5",
-    "source": "Electric Vehicles",
-    "published": "2026-11-12T22:40+00:00",
-    "score": 5,
-    "tags": [
-     "capital"
     ],
     "direction": "neutral",
     "primary": false
@@ -232,19 +286,6 @@
     "primary": false
    },
    {
-    "id": "3062f2d761e8fe9a",
-    "title": "Tesla to Wind Down Cybertruck: Can Cybercab Justify the Shift?",
-    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQbWtEUTQ5anBQR0JxZkZtNUZGSXBEa1ZwZEdtaHpWSGdHcDBncDhjbmhXdUhOajZKakRPTkxPdGJYQ3YxU0IzbGJsNHVHUWEwaFhwLW5wQUVVMlhENzBiTnpqU29fMDNaOXo4LXB6eGNIUG13NlZkMlJ4dGx5a19JWkFQaVpHa3ZCVFFWUzZJQXJnR1JUdG14M1c1aGFkeUxQV1ZPYjA4cE9KRGdpZ0dRUDkzT0lzVjFXYkdsNzFyWXdDakZrRm15em4wLVZ0dndaVHl1OU9zTmhkOEg3?oc=5",
-    "source": "The Globe and Mail",
-    "published": "2026-11-12T14:04+00:00",
-    "score": 5,
-    "tags": [
-     "operations"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "9bec24f32a725e53",
     "title": "TSLA Stock Extends Toward $400 as Musk Extends Tesla Cybertruck Production to 2027",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNFVkWnFjX1VfVzl2S0gtR19sYVdHQmY5cGhWLTdTSXQ5aEd1NHctankzQ2MzR1VtNnpJOG9pRkNvQ1R4UmZLQ3lyaHU5XzA0aFpuWnZlVkhrZHdkVkhXZzlyU0R6NkF1ZHFuMlJqNGpqMEYtQlctUTdRR0FHN0RfcldGZDNGYnVTdVBvOHJBMktMREpkRGVyS1RXelNzbUhCWi1Pa2tqallxYXREMW5ad3F2dkZ4eG1IVDFvb3phdjNqQQ?oc=5",
@@ -269,18 +310,123 @@
     ],
     "direction": "neutral",
     "primary": false
+   },
+   {
+    "id": "ad56dac57634a988",
+    "title": "Tesla Rises 4% as Finland Clears Its Driver-Assistance System Ahead of EU Vote; Lucid Slides 2% After Citi Cut, Rivian Dips",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbXZNNWpXT3RFNFFlMkMwU1pFMmRTd0E3djFGRU5sXzF5OUdKS19seDBRdVE5TnlNb3hxazJ6MHFQUWVsNjVyUXJULVpIa3plcFFtVnFhN0lxXzhINmtPZVlXQ2tpTUQ5dGgzWGNQT0dKS2NVUWdKVjk0R2FWWkM4c2tzaXBUcEpaSGEzN0xEdU5DVDhiMWREaw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-11T17:48+00:00",
+    "score": 5,
+    "tags": [
+     "operations"
+    ],
+    "direction": "negative",
+    "primary": false
    }
   ],
   "PLTR": [
    {
-    "id": "51e6c3a1e3809957",
-    "title": "Cathie Wood Buys the Dip in CoreWeave, Sells Palantir Stock: Ark Also Trades Archer Aviation, Rocket Lab, Amazon",
-    "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQRHZPbEJ2anQ2cE04N2Fkc1pMdTNacFd4My1JbzBRN0xWUWM2T3c2ZGVTQ2gtNHFkeGJEbzgyN0kwYXdSbU94TU1BMXl6VUx0ZWlUTi1LTUVUS3QzRzFMSlJ2b21CUmtyZ2pKZkV5UVlBQzJkcWl0NEJEU3VIM0hvU09xbUNyR1RreWlvUkVxSmpmazJpMV9Qa0d4TFBEQXhiM3ZSUHVNRGlyZ0dWNWJRVTAzeG00VThuYlEtWXZnX215QUtUeHY1SnNnU2lNYlc3Rm43RWQtbEhJNEMwQjZVUTJ4b3llMkJ6RXpoYm1kblFUbU5Dc3pQdGZvSQ?oc=5",
-    "source": "TradingView",
-    "published": "2026-11-13T02:08+00:00",
+    "id": "d4b941d1d1597cc0",
+    "title": "Palantir's Hospital Win Lands as NHS Quietly Deletes Its Own Case Study",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOakctYm9vOVBrNzNZT1VMdVY3SXRfbXNkZDhKdUY1QUtJR1JLT1Y4MGRMdE5ERVZZckN1OUl0akNUUERjYy1xbTF3b2VtZlNtc0ZOd0s3UDdMdGJsNVpZUDdOUzd0ZVNhVlh6Vmd1c2hBN0lvZnEtYVJ4WkFvRmJuMlpGZ3lOZG1PT1gtanVESTBSbEZlT1JYR3g2dWtEeXN5al9zb2ZlMVp4TGFvZXlIZkNPdWJuZDVhRExpLXdMUDh1SDJPVzRCUlA0NzctS3J0eEM5enM2c2NsRDA?oc=5",
+    "source": "ad-hoc-news.de",
+    "published": "2026-11-13T15:10+00:00",
     "score": 5,
     "tags": [
-     "ma"
+     "contract"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "dae097e9e3607209",
+    "title": "AI Stocks Bounce, but Leadership Rotates to AMD and Palantir as Nvidia Lags Into Earnings",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOUE0yODBfeFd0cXphcTc5cWFvTWNnWWRfSHkwazNKWkdhRm91YUxVRnJYazJKTmFpSWYxUWVILW8tdnBxN3g5cmdCZkh6TEdldTJkWUdWd3NGTFhaNjdyS0V4dTY5MDNleEJjb2FXTjV3d0NMakJFWXFkOUtHQmNxOGRNaWR1RURMQUtyWmlxbnNBRW43TF9nQjZaN2kwdjFyeGs0MzdmZE5PVVVaSDhYaTFCZHZqOXllSkg1UzZUQkJra1NoejgzNHNWT2hQT0s3M01DcjFRYw?oc=5",
+    "source": "ChartMill",
+    "published": "2026-11-13T13:36+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "e91db8800f221336",
+    "title": "Palantir (PLTR) Stock Price, News & Forecasts",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8xa1F2TExlNThkYXlMTDVTR0FodGM5OUFZdHlKVHVja1JqOVM0c3BCOFdVby03bldPZ0pYMTRqbGx5OVh0c3JJVVozOA?oc=5",
+    "source": "blockchain.news",
+    "published": "2026-11-13T11:49+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "481f87a75b4d9d77",
+    "title": "Cathie Wood's ARK Pours $16 Million Into CoreWeave While Cutting $10 Million Palantir Stake",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAwbDJUQVdMbWUwZ29RMjh5Ty1uLU9lQmFtTzBTVGZlUG1OOGx3NlY3amNrS1YxTi1aOVhvOUV6X3liTGY0QmlFaFdOejJndXV6SlJIVVhtaVFLR09qclhRWEM1QjdlTk81Tjg1dmxKX2RZVS1aZ1E?oc=5",
+    "source": "BigGo Finance",
+    "published": "2026-11-13T07:36+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "2b7c349287348229",
+    "title": "How Did US Commercial Demand Push PLTR (NASDAQ:PLTR) to Another Raised Annual Outlook?",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQN0FlaE8wTk1LY2FaQkVMZ1c0R1JDWm1aZFpIZkZNdFpCUTljMkdCYUhIVzlUWjJzRERNcy1WV0t4MW1MRkJRNTM0aFBybkg2SEZWRkg4a2hnWW1HQlV5TG5QbmZLWC1TZmdndTN0RTBqUUpNSGxTX0JtVDhnRHJmODRRSVpVaEVuVE5uV0hJSFFPaGpURWVORUxDcjZDREpqWnI3ZnZZeF9HSUtURVljMXBsX2tUbWZJR1Boek5JTGxsQQ?oc=5",
+    "source": "Kalkine Media",
+    "published": "2026-11-13T05:10+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "e1c2aa5a2a314985",
+    "title": "Palantir Q2 2026: Revenue $1.935B (+93%), U.S. Commercial Surge 149%, Rule of 40 Reaches 155%, Stock Extends Breakout",
+    "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPWTc5YmZsSUtnQkZLNTYwNVFJSkh2R0tRMTRCanpxSXVaenQ2V1o4MTNRaXNtZkh3ZU9tMDA0STdzaEdXeHNHeThCZjNBckFrQzZ1R0RsWTJJd3l2Y05PYWRMUWZkU3FrdEdRLUc2Qi11Q19HeG5yeFl3bkJhZDB5TWRLbktZZFZxd2wya2s5Z1VOQWFrbjRpUWpRbHltVFlVODdYTGM1YnY5V0xHdHpISW16LUdNVnQxM2ZYRkd0TWUzaGtJMVFOX2gyMDlWaUZXdVdQSURubFpkY3RvYkhxcXd3UDh6VldRT2hZVHFpdTQ0a3lUdGVCV2t6UXI?oc=5",
+    "source": "TradingKey",
+    "published": "2026-11-13T03:06+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "1a1412e7afb96fb1",
+    "title": "Palantir's Shoe-Factory Deal and a 97.5% Compute Saving Frame the Real Test of Its AI Story",
+    "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNRGhKMVQwVnpOOWdjRWZBMHd2WjNXanBOV3Y2ZzZLd0IwSEw5ZlZoVnV0Qm9jVmtfOVAzS2ZVQmJHMkF6VWU5dFhvZnNWQWNlWkdQblI1ZjdDZENjVXM4QW5xQU1BOVJQM1h6dDAxODBGc2EwZ0YtUkhobkFmRE8zN3ZOVklRd01iVVZiNkwtbUxON09KTV9rdGpITmJYUUxhOWlNcTZSaFZ3LWF1Y3k3SXJSQklZM29NX2pKMVlpTERBenlHRlFIMVRmRElLZ1pwVlE3UHlQQlo4MEhkWWRsTDJIb2hMOW5aa085VWpUVEs0Mkoz?oc=5",
+    "source": "ad-hoc-news.de",
+    "published": "2026-11-13T03:01+00:00",
+    "score": 10,
+    "tags": [
+     "contract",
+     "operations"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "655063d7ad1b76b3",
+    "title": "Palantir Grew Revenue 96%. Its Stock Fell 7% Because Bookings Rose Just 6%",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNaHpEY2VyRGdQelNWdjZKU0tEazF2TjkwX2oyUVZ6azVOVnhCNXg0eEhfUkVCcnFLVnF2UUtrdktXSXRWcl9mODhyaXkwSDFRU1RKczZndzdRelg3dmx0YnNSQmRybDltZ3FxZEpCVWFQbUhPUHZ5MWxHR0FXNkVLcUdZMl9RNmU4T1lUZVVlWHNFTkZhbXV4cWdhR00?oc=5",
+    "source": "TIKR.com",
+    "published": "2026-11-12T18:22+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -300,19 +446,6 @@
     "primary": false
    },
    {
-    "id": "655063d7ad1b76b3",
-    "title": "Palantir Grew Revenue 96%. Its Stock Fell 7% Because Bookings Rose Just 6%",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOGxzSFNIUGlNdm5zR2M3aEJzV3VydC1zTnBIbUhTQ2VPU2x6SC1LdXljNkZIeEFvV2k2ZzcxTHJKMU5FbnZTSk1iSmJPQ1kzcFJkZktSRjkyN29id0FsOW15dEJaMjBCQUozVUdmcDBLdHNxUHNmbVp6eHlYYmRkeVFpZUNJbm5vWVE3clAtdjJGZ0ZCTmozbTY1ZGxPQQ?oc=5",
-    "source": "TIKR.com",
-    "published": "2026-11-12T14:51+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "9933f281d325eeb9",
     "title": "Palantir Shares Close 19% Below Record as Revenue Climbs 96%",
     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE03amhUMXN6LUw1RDV0UENBUWFTWHpBV2hFaHMyeHVwSUxXUzBLSk5haTRxeHc3SzFSck5SbTZBend1ZTJ0aHpHYW1Ha2l3dUUtNUxPLWJ2MURRdw?oc=5",
@@ -324,55 +457,29 @@
     ],
     "direction": "positive",
     "primary": false
-   },
-   {
-    "id": "5c5c803b2f26c883",
-    "title": "Palantir's NHS Grip Tightens as Fubon Opens Coverage With a Buy",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcTc2UHlLSzB6emwxRGUyM0Y5bFhOcXdrWnJDeXoxM2xtM0hoREZyS05tUFN6QzV6VmZiRGo3bW5KdE9vWWYtYVZ5NnpBNFlXUjB2N09DZkxEWmlvZ0hWWmhQbDQtS09BOHpHaFZUeFJqZjdyNDNFSktvSmNVWFE2MmlncjZWeS1QWUU5NlVwRnhTYXpFUHYzdWEtR0l3Y0t5QU9YNF9UQ3hNUmJhQ0VJXzk3VXVrb2ZMQW9kOEc0ZEplX0pfYld3NFF0U2NtdkFY?oc=5",
-    "source": "ad-hoc-news.de",
-    "published": "2026-11-11T16:31+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "762c3c0d46f83152",
-    "title": "Palantir’s new AI deal could change how you buy insurance",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQc2M2UGVYRk5hU3FvX3dFbi1wZFU2SGNQLXZtYzZhczFlcWhGa3ZiU3ctQ08wVVNpMzJESTBGQ00zTk1WcGRZaFNzLVkwbW1JSnc2OGNkb0xMQVZwYTYwc2dkTWpYWGt0c09uNlVOWWVjWW1feFYxWkpkUFVERi0xXy1sSHluTC1naTFzQ1UzSFNZVXhvN3pMVldaV19JZXVD?oc=5",
-    "source": "TheStreet",
-    "published": "2026-11-11T14:47+00:00",
-    "score": 10,
-    "tags": [
-     "ma",
-     "contract"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "2d35daa966ca4662",
-    "title": "Cathie Wood Trims Palantir Stake. The Bigger Concern Is Slowing Business Growth",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWHM2X3MxRlJGaWw2N2NTZDRxQ0lSVktFTkFyOG8zS1duRTVNZ0U5WXNfaHdXWU0xc0lfQmk3RDFVS1FCdWxvRzRHTktiQ3hKcWFTNk42S3Bvc3RJckFPWHJqOTh4VlRfRWpHanpSQUljX3VkQ1hGbWs3M2tDOS16bU04RFBBcTR5ZktwVDVZc05iVTRnWDk0ZHAtTzJlQQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-11T11:13+00:00",
-    "score": 5,
-    "tags": [
-     "capital"
-    ],
-    "direction": "positive",
-    "primary": false
    }
   ],
   "MSFT": [
    {
-    "id": "805813249ca12055",
-    "title": "Microsoft Outage Gums Up Markets, Forces Traders to Use Phones",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTTRrc2phRjRxQzA1Q2h0QWMwZXNqT3VSd1hTWHVTT0w3alpOODhxM1FvYy1KYlhpUjE5V2N1aERhU2VNbkVLMktXcGgxeFVhempSYkdPWG9JbUdmNFBIYjVtWDBBY3h6eENWNVU0UjRjUWNnS3BpTks4TEQ5MFpVRzY3R2drTm1BeXJXMjQxVUxSUWZSbkZtUTRjSTRSZXkwX1hnMnkzd2hTVU5GZEVJSXV3?oc=5",
-    "source": "Bloomberg.com",
-    "published": "2026-11-13T07:00+00:00",
+    "id": "c01dc5e13561ec7e",
+    "title": "Microsoft announces Outlook improvements, but emails are still delayed",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYXB0SnNTcXRNOTZmeDNWMUIyZTAzejQza0dFa3UyWW91WEZIVGoya2NoVTd4WllwRnVRRTU0cW5DaU5KdlhaUzBHZTJBRFR0M1R0dkJKX1JPWHprUUFYY0xiajhDek10Y3JXODVUS09KUHJ3VTQ0TjdMbndPRmlGSFVraGNUR2Z5SUlpdmJDVkV1R28zX3ZfMERMOA?oc=5",
+    "source": "Pasquale Pillitteri",
+    "published": "2026-11-13T16:09+00:00",
+    "score": 11,
+    "tags": [
+     "earnings",
+     "operations"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "376faec7f9fecdcb",
+    "title": "Microsoft says it continues to make 'sustained improvements' in restoring outage",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTHdFS1ExTXFOT1BoZDJBQmx2VjZuTkI3SFhtN25TY25HcjRKY2oxeWRXWHU4eUxsbUMyMm92bEZRMENRdi1sWTRROUwxdWdJMlFsam5hdGVEZGpUQzNJTDY5SzNaV1c2YXFLRTFhdTlkRkU3dl9mLUx5bERDdm1aNDRjcVY5WEQ1eHRJNjVkWk1CN2NVTm1vSFhkVDliSjlHSkF0NDZZWHA4RkJsbnE0eUtnOGdrRm8?oc=5",
+    "source": "Seeking Alpha",
+    "published": "2026-11-13T15:43+00:00",
     "score": 5,
     "tags": [
      "operations"
@@ -381,11 +488,11 @@
     "primary": false
    },
    {
-    "id": "6fa842cd30d8dca6",
-    "title": "Microsoft Outage Is Disrupting Email. These CEOs Barely Use It Anyway.",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMHh6TWJrLWpxVEFBMGtBWVkzU2IxbE5WeGY1NWYzeGw4Y2djVXpLLXozWE1xY0dlYWRqU3lhbE93TGhEVUNYYXNSLUdBb0NCZDdheWZybGF4eVZXTVFSSl9xd1dIbXVQV3dIVnNJMjlscUJZQjBkMW4zUXQwdU1zWEdyejlxOXdkbnBIbFJhNHdodzhhNUt0TEpDbklOcWpuVk9mSk85YXFUQ0JI?oc=5",
-    "source": "Business Insider",
-    "published": "2026-11-13T06:07+00:00",
+    "id": "1bdbb2ab13f5d02a",
+    "title": "Video: LIVE: Microsoft stock price after hours-long outage",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWTVIVVc3LTJESmV6c2ptbXFJakNtNFRlUWVkUlpjLS1JVnNnWW4xdms0ZVRCZ0RqREpEcHV0VFk2cTdqU3lhaFp2MzRKUlcyMHBEVU9USXc1My1Yc2ctMjVTMGFvaEJYTGRxb1djZVd2LVlQZDJGdFJ3MFJUNzhuT2cwdndJLTMyM2pPZk1R?oc=5",
+    "source": "livetube.tv",
+    "published": "2026-11-13T15:07+00:00",
     "score": 5,
     "tags": [
      "operations"
@@ -394,67 +501,11 @@
     "primary": false
    },
    {
-    "id": "da8a4e0e58ecefc3",
-    "title": "Microsoft Offers Buyouts to 27% of Workforce Despite Strong Earnings, Shifting Costs Toward AI Investment",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBFTjdGRXd5UnpoZWJENER3b3ctYlJicTM0R2M4aGNsNEEyTk51ZVdxWXFFamVnZXNpNWpwbk5TbjJNaXFQUGE3R0E4OEFDQV9MU1ZDLUxTTW10TzhDdGFZMkE4Uy1hcWYyM1FJSFk5TEdhUFFoWXc?oc=5",
-    "source": "BigGo Finance",
-    "published": "2026-11-13T02:35+00:00",
-    "score": 11,
-    "tags": [
-     "earnings",
-     "operations"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "d4dbe15c9131c4a6",
-    "title": "Microsoft Global Outage Disrupts Outlook, Teams and Copilot 365 – And The Company Scrambles To Restore Servers",
-    "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQWlJVdGMzcHdoQTB6QUUwdGlGaWwySE1KMEk5ZkY3X05UemtxUC1KbktsdkVqNk1lVG5xX3pOQ3o5MWJERjc3bUdZdThIZFJ0X2lTOWR4Y0FHY3lVTU1DLU5JUklTdGxPM294cDFfeTVYMWNPOGFrY0ZLVUtQOWlBUEphbjgxcC1oR3lfY0haNjBvamFDNUU0OXA5QzRFZ2JWa3dNSXNDNWRQbFBKa21laGRpR2U2WWhfZmVaRXJ3Z2pfUTYxZ2wwUmM0N0hPTzFfSTREU0kwU2EwVG82cWxpUE5scGhmcnYtTGtQS19vd1hIajlCanQzZHRQeHM?oc=5",
-    "source": "TradingView",
-    "published": "2026-11-13T02:30+00:00",
-    "score": 11,
-    "tags": [
-     "earnings",
-     "operations"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "b59ec8bc9398616c",
-    "title": "Microsoft Outlook outage stretches on for hours - ABC News - Breaking News, Latest News and Videos",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcjZSX2hZVHVlY0d2clcySTg2UEhUcnc0MlkxQmdNOGhDcWJnMkpxOXY5UWJ3T2JUUGdrZDkyeTVTeFBZb3psd3Y1NEJiMU9nbWFBX2ZLSEduWlNmWnpuZkVfYlRNR0RiNDBraFpSV0lzOUFrX1FaNXdCNkFFTktFTkZNN01CYzJTakc2OVFB0gGTAUFVX3lxTFBya0ZHS3VKZzZLZFFRMzlBQVFfaW9kT2syZGZxVFh1UlBPdXhaUDdlODhVT1dRSlFoSXl0Q1ZzVFJnMXRmX0hDOHZYeEJBdUs2VEY1YW9oenU0dkduS0dkS1VzMnVUd1ltSExvMEV4cXZCa2NlXzdvZGdZbUV6c3RhekdQOGs0aFczV1l1X2xwMVJoWQ?oc=5",
-    "source": "ABC News - Breaking News, Latest News and Videos",
-    "published": "2026-11-13T00:00+00:00",
-    "score": 11,
-    "tags": [
-     "earnings",
-     "operations"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "c4fec10e7b1d3558",
-    "title": "Cerebras Stock: Earnings Beat and New Microsoft Partnership",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5GV3pHZXI5bHdjSjFjc2JBMEF0UGNGZTBYVUgzZzZ6Smd0dGhTdUdyYzd2QzVYbnBrUkRweWhSWW9OQ1ZWVWotWXlBbHFob05kWUtqSmVwOEhZXzh6azBFZ0haOTh3eXYzazZ3SFluUDRWRW5FYi1EY0FtOA?oc=5",
+    "id": "41429f518870f956",
+    "title": "Why Microsoft Outage Is the Worst Possible Timing for the Stock",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRUtKYTY3Q0wwdDR0WDQ0NlBVV0xsZVEzM0J5aDVUd1hrX2VBOXFTbks4Z2JFZFF6RG9TNjVIb3ZNRl9KRUJvNGxnYlgzQzBKbWVYWDFuU3F2X2VBdU5UWVo1OWVFOHpUX0E3RHNmNXBJQTE0dVU2R0dUS3pvVWhGNQ?oc=5",
     "source": "Barron's",
-    "published": "2026-11-12T23:02+00:00",
-    "score": 11,
-    "tags": [
-     "earnings",
-     "contract"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "e14cd2f6261f9a8f",
-    "title": "Microsoft services suffer outages affecting hundreds of thousands of users",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMEYyaE1ZUnBYaF9WMlkxbkVLcmJzTlhISm12TVBhX3p3ZmFibGZHaXhjdUVnZ2I0VGVuU3o0VkFKR1pnd0JXVHJkblRCY1JDa3JkYlRzTXpiQ2U0VHAzLXFVYmRtMWtMZzQyM2l1WkVKa0dVUURacE1mbVdHaldJZkc4NGs2ZnpLNGJFcGtldk1hcUpaNG44ekp3d2ZGZ0tnUkZWclR4TFdGaEhXM1lUT3B5ekFsSXhoTlp5LVRqTE1xRjBzWElmeDd6NA?oc=5",
-    "source": "Investing.com",
-    "published": "2026-11-12T21:59+00:00",
+    "published": "2026-11-13T15:04+00:00",
     "score": 5,
     "tags": [
      "operations"
@@ -463,48 +514,98 @@
     "primary": false
    },
    {
-    "id": "dbfdaaf44a704263",
-    "title": "Microsoft Beats Nvidia for the First Time Since 2025: So Why Is MSFT Stock Falling?",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE91eUs1YWhlZWFWaU1LSnhPN2hiLW05ZG42M256MXZLYUhqM2QwcWNyUUVpekxLRlN1MzMyS093UElEaEtQS29TZXpaRkxBYXBBUFd5WHhHclI5UEk3SFgzWUdRb3lEcm5BVkVqb3FfVEw?oc=5",
-    "source": "BeInCrypto",
-    "published": "2026-11-12T21:14+00:00",
-    "score": 6,
+    "id": "1f22f26ea5f051fc",
+    "title": "10 lessons from the 2026 Microsoft outage on dependence, security and backups",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBJNUNCUG1oZGN5Ti1OcU94cHlPTEJjVEF0TWh6NlNmMWdGbFpFZ00ybWw5cGZBOW1kSjZ6Yi12UnYwZ29ndlhwVkxSWnZMbU9vUDVpbE9tYw?oc=5",
+    "source": "qz.com",
+    "published": "2026-11-13T14:56+00:00",
+    "score": 5,
     "tags": [
-     "earnings"
+     "operations"
     ],
     "direction": "neutral",
     "primary": false
    },
    {
-    "id": "1bfb78a81268b395",
-    "title": "Cerebras surges 17% after beating on quarterly revenue and announcing Microsoft deal",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTDJyVUx6MkpJbEpzUUFYQlRacC1pMmRiYUt0ZTNMQ3k1Y2xXTUowQ3lHaVE2XzlkbVhRa25DSHRYdXlpQXA3NWlWU3lHRS10WVAyU2hkYWx2eWxOM01sM2s1blhQWmNBV2Q3VGZPaTZ3T0FHWURtdS1vM2ExNEJGYUJaX1VoMTkyeUHSAY8BQVVfeXFMT2tTZnh4UXd6a0dCTGVYcGxzODNjZktGT1Y5aUxoV0hnQ2lkZTFKVHBzeE1GNEx6ZHRvU210cUtjekJLS1lIQUdNTmVsclBJT3dBUmlIdk50T24tRHR2OXMwS0VDRFFic0N1dkhWQ0EzN0JlNW41eDRGWGpEd3cwZ2M2YngtVzZnSDNETF9ELWs?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-12T21:07+00:00",
-    "score": 11,
+    "id": "bcb1baa75cf6e7ac",
+    "title": "Microsoft Service Outage Give Software Giant Black Eye",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVERZREpDa055TVUzUktQNXhoTVE4LXQxTm0zMmFSdTR0cDBGeTFESHhETEl0c3UwbjNianF4ZEUtR2FvRXV1NktGMzJLOG83clczNXNfRm5MVE56emE0bjZLeC0xTmczRXdFVGcwN1lPdTB6S0VTUkd6M0VhaUJiZDZXWGFnNFh3MTFsODZHUFc?oc=5",
+    "source": "Investor's Business Daily",
+    "published": "2026-11-13T14:42+00:00",
+    "score": 5,
     "tags": [
-     "earnings",
-     "contract"
+     "operations"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "f863abd36bbd6d64",
+    "title": "Microsoft Stock Falls as Outage Tests Its Copilot Push",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUHQzU21EY3JMbW44NFU1eGRMUHNQOUhUVGlnN3ZUTzJXdThDTUlJT3V2dkY4YUxuQkpuTEg1RFJlQkN0LXUyLXZRcG1FaFNfNHRPQ2N2akZ2OXN1V2Q2OHBmWE1LQmxFbDY5alpDN0lfT3RYSUFsYjJTNDNIc1NkVno0dkNScDBHVEVoRWxqeV9CeFF3NnEzOFo0dGtOTnI5NkczQkFUZEExZG9xQVFnSFpfdWw?oc=5",
+    "source": "TradingView",
+    "published": "2026-11-13T14:11+00:00",
+    "score": 5,
+    "tags": [
+     "operations"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "ed242610fe8471ec",
+    "title": "Dividend Roundup: Southwest Airlines, Cisco, Microsoft, Chevron, and more",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZVJEdENNMExQYXFIamRxQThtb3BhempTZkNvX2tHXzhVQlp0NWxDeFc4UXRIal9iM0hHbEZjRm00dVpoVDIwTTFjT3FPalAtT1dKLTEyN1VGN3J1N2J3ZmdZZWhENTZZOXJQZ2R0UkhsTWg0WjVpTFVMYUI3U0xiN1JtcjBfOHh0dmRFRkZTUldLWEJOU3AySWJlRXRmNTNDUjBQLVVNWUdPZw?oc=5",
+    "source": "Seeking Alpha",
+    "published": "2026-11-13T14:00+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "9093c5750bd794cc",
+    "title": "MSFT Stock Price Faces Pressure as Microsoft Outage and $170 Billion AI Spending Raise Concerns",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObmNscm83bHdKekIzb1dHWFI1Z1lEQl9aaEdTcTJzeWM1Z0ZRMExGakl2ZW1seVhxV0RGY0ViMkhtUG5ORll3MlFIcEVwemNBeVlnYUlpbzVLSHEyVWkyRmsxSnVINkFBZjV4WHRZQ01Wd0xFZGF1NUxkVTRwY2s2VHZNWmZjNkZ1ZTFvZ3R1ZzFOZHpiRE51ZDJBXzZISVFQOWZZOUFTbVDSAa4BQVVfeXFMTV93bERmOENpdHdPVi1ybGRGbGhwRnlPOF9DUzU1UWhpajJZNWZPQWR2bFpfV2xSUF9meEFwMWlBaHBSaG9ZSzQ2SmZ2SUJFNVgwdFNiLUFwX0ZLb09DMXROY3FTcFExYldJOXNvVm9KeFdPUHhGZFZucXp6and2MWlLck5tQ2pYWFk0WnB5YnJlY0RsMlgwc2NmVF9jT1V5NnpyTmxnTEdpeUV",
+    "source": "Coinpedia",
+    "published": "2026-11-13T13:01+00:00",
+    "score": 8,
+    "tags": [
+     "operations"
     ],
     "direction": "positive",
     "primary": false
    },
    {
-    "id": "bd38176c36d5873f",
-    "title": "Is Microsoft stock down because of the Outlook outage? Shares were roughly flat Thursday",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQ1BzTWRqc2RfMFBlSUd6Zlg5amNyYXNFVTN5aXg4dU5DMlpoeEl3Z2swczlOUXcwYm5lSy1KVWlWXzhfNHdHQWlWRXY2MlpUd2xNVldtc1BSYmprcG1UOVhRQ1ZlLUZPV1luczBITFotMUZ5Q0I4RWFYdUM5NlI1c3Z6SEZ2V2drYTFDZ2VFT3I0c0xMdFNRcG42QzNUdmExZlE?oc=5",
-    "source": "Nacionale",
-    "published": "2026-11-12T20:15+00:00",
-    "score": 11,
+    "id": "3832f0bc98062602",
+    "title": "FTSE 100 rises at midday as Aviva and Wise rally despite Microsoft outage",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbkZxS29kQ3d3M0hTUjBmRUVWZTdobkhTNWlYS1ozNFJJOU5fR0R3bEtVbzRyZ2UwMkhBeTRMclFtOGszTkIzR0xjZlREbWU5dFVMWm45STdXekFiTVFHYjNwcm1qbUlhd2VQT3FmYjNSbnh2YkZkTTFTSy1vb2FJOVVxYTZ0MkFjWU05eFJ3WEVBbG9namhGbDVaQWdlcGptZXNN?oc=5",
+    "source": "Share Talk",
+    "published": "2026-11-13T12:37+00:00",
+    "score": 5,
     "tags": [
-     "earnings",
      "operations"
     ],
-    "direction": "neutral",
+    "direction": "positive",
     "primary": false
    }
   ],
   "GOOGL": [
+   {
+    "id": "e5313ebb8a2f459f",
+    "title": "Bank Nova Scotia Halifax Pfd 3 (BNS): Auto-callable notes tied to Alphabet, Nasdaq-100 and S&P 500 due 2030",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNld6dHgwVF9PbFgwR2djNHV6YUcwVGFoWFJSMFBXVVZWSEIwYWNWSzhuYkVDZ2VyTVhNWXhKRTBWS0lZYkduNlJfOWM3MnQyYlN3ZU02UmRpakVyMXlQRVVNRzg5djJYYVBEMk1TWTdsZjdZSnU2UnlRNlBfUDdCZUFCQTNpeXhQUjQzVWVOSjRfQVlPM1BLWA?oc=5",
+    "source": "Quantisnow",
+    "published": "2026-11-13T15:11+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
    {
     "id": "6a902813ed517ff2",
     "title": "Alphabet Draws $5 Billion in Orders as AI Frenzy Builds",
@@ -519,32 +620,6 @@
     "primary": false
    },
    {
-    "id": "012c9a7cc0e680ac",
-    "title": "HSBC says the time is right to buy Alphabet (GOOG:NASDAQ)",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUzhERjNSY1B6Y0FUMGFTemR6NTF3RFJmRmNZOXpWbWNKem9VTElvcmhmbVdvOFRwUGs1dHpDSHpLVk5IQjh6Z2dUbjlNUDhZYmdrSkY1WVpLd3Y0YzNDRnRYazZSQVMwYzJkd1BxYUNnYkRCRE9PeHF3d19Ib05mbHQ2UTljaktv?oc=5",
-    "source": "Seeking Alpha",
-    "published": "2026-11-12T19:31+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "3f05e49d1ffbae42",
-    "title": "GS Finance Launches Alphabet Inc. (GOOGL) Linked Auto-Callable Notes Maturing in 2029",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQm9Fb1h1ZkRtOFBqcVJjOUE0dlNuMkRTLTR2enN0djZ1ZG96SXhXQ2tlcEk1SHZhalNRVW5NUXJURjFCbEs0WVRxUmVLaFozeUEyWXBSS1hmU19KNVJKT2xJVVZoRW1KSkVVRWtMOWNacnlsV2VLV2R0V1o5TVlzUkktb1o2RXI2ajJDNXo2eWRaeTFXeEhLMHlpTzFlRTBoNHpCdmg1aWo2SlhqbTlDSVltNk8xY01mTzUydW90U2pBQ0J6ZHJOVQ?oc=5",
-    "source": "Kalkine Media",
-    "published": "2026-11-12T19:23+00:00",
-    "score": 5,
-    "tags": [
-     "capital"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
     "id": "8a9298ad8f0a6cc9",
     "title": "Form 4 Alphabet Inc Class A For: 12 November By Investing.com",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOEdMejlSaFZRSktZUnVfVFN0eExSaFFUcGRSMDlHYnFmVXZXNlFmQVhRNFFhX1ZzUXQ5NVJNZkZKTm5ZeHlXcjEyUkl4czlRZThLc0lLcm5yemU5dlA1bUlxeXhVLXg0XzNwazFGWXBVSDdlUExDVWtGQ1BfdmNuWGk0ajRib05QOWFlNUt6SDFibVpnaEhEV3B1dlFheF9sUGJGaUJ5OA?oc=5",
@@ -553,19 +628,6 @@
     "score": 6,
     "tags": [
      "filing"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "8e648eb259935629",
-    "title": "Alphabet Stock Forecast: AI Spending Weighs on GOOGL",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVWFpcjRlUFNnMklqdW1RaS1qT21DV2RCX1FrZDZFRUQ0TUM1MTVaLUlJT2xKSWQyeEV6TGZDNGtMb0l4R2t5SDRHRDhqdkZEYmY4dERKMnVyN3hiaS1BLUF5eWRUeDZuS3lWSm4yQUlkOHlhRktFZlVWS2ptcGw1ZklPVFFfM0hVS1hvUGVXVDRsQ2pvRnRTMG9UX3g?oc=5",
-    "source": "www.equiti.com",
-    "published": "2026-11-12T17:51+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -595,48 +657,22 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "7136c7dd4b787e09",
-    "title": "Alphabet reportedly pulls in $5B in orders for landmark Hong Kong and Singapore dollar bond sale",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRWlZMm82dFZyWGV2SHJKRkx3VF9Palc5eElHNXJGOGw4V3o5VWxCekV5RUdoQVZreTN5NzdrNnhVVlpKTndTR0pza1l4WXhNSEh4TklWSlhRSTd5RUtYNDZHS19sRlMwVkN2cHpBU3l5MlAtTlFBX0d3djlOa0lUR0wtdGtrc21XUEJMVFRfX0tQa0tvZjkxamlMR3A0d3FiWnlhN0tFT3V3N2k3dHJ1SlVrX3BqSkI3TEtXSC05a3JWT3hjcnJMUU1yclAxdw?oc=5",
-    "source": "Seeking Alpha",
-    "published": "2026-11-12T06:04+00:00",
-    "score": 8,
-    "tags": [
-     "contract"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "b5e98964f5b6d98c",
-    "title": "Quarterly Earnings: Alphabet Sold $62B in Stock. Microsoft Paid in Cash.",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ZN2RHdjdmeFVfWjVFSnNCRU9IZTBGNUo2RkRQTm9GU3lUWEVtQkNPU016MF9VYm1XcXh3eVdlZGdGX1NMVHExVW81ZlpHU3g4cXp2a3FEY2dfSEl1bzJ3V1NsNXJGbjFvaE1TUlJZOTdoX0xTMFAwSzBR?oc=5",
-    "source": "Global Data Center Hub",
-    "published": "2026-11-12T02:01+00:00",
-    "score": 9,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "841d589e182a6f2c",
-    "title": "Alphabet Doubled Cloud Revenue and Raised $62B Selling Its Own Stock",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcmZFVFNkTUx3SG45TU85Rks5MkJuS0gyZTdmSHR5UGk0VVhRdkRhQU1ZZE53ZjkxY3VVaEprWmFNeTJqbzR4Ym80bUpQOEI1QTl2eV9jZUpBUUViR05XM0JlOGhaOFhJRVdlMmsyMmFQMkppMGgydUxnOXNTRFp2bENyRm92Qy1ETm5wcFp3?oc=5",
-    "source": "Global Data Center Hub",
-    "published": "2026-11-12T01:01+00:00",
-    "score": 9,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
    }
   ],
   "HOOD": [
+   {
+    "id": "5e3c592bed9aa858",
+    "title": "HOOD's Securities Lending Revenues Slide 43% in October: Q4 at Risk?",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUkRvdEpZT3ZYeWQweTVPNWU1bFluRzdXc2xualZUaUxRdnYxUWpqT3Q4dGZleWIzWG5vNXpJbGlSbXd6WnhTeWxEWlZzUWZGbC1UVmltVjJHSU1aamNKVE1YYzhJdklrc2x3S25WN1hPeXBpamw2Z2g4UkhHamtqZ3JJZzg3M0JMVzVScVp0QmRQcjlVbGtkUWdYMW01LVJITVI5YUtrZUNlMlVrMFVKME9sc25ncV9mREZiQ3ln?oc=5",
+    "source": "TradingView",
+    "published": "2026-11-13T15:53+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
    {
     "id": "6c1d9fe7837091fc",
     "title": "HOOD Stock Drops Overnight Amid Bitcoin Weakness: Robinhood Reports 28.9M Funded Customers In October",
@@ -664,52 +700,26 @@
     "primary": false
    },
    {
-    "id": "6a8ae1f0871ac8a8",
-    "title": "HOOD's October Event Contract Trading Up: Can It Offset Crypto Woes?",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQWlqUW5oQVZMLVpER2dPaVpFX1NaYnE4TlpEeWNubU0yak9nR0JpR1B3Q0hWbExNLXlYRWtGLVJvWll5M1ZmekMtSHdXUU1WalZPNUhYZWRiVm1ZSl9CYmVzcFUzVFQ3RUFVMlN0aDRZRnFFb0FUMnpOZnRPUDRqYmRyMlc4dTc2czZmTjRLb01PRkhBeHkxYVhxVDJVMHp3LTFJR05nZmV5M1RJWFB4UGRjTDZUYkdGWktfUjd0Yw?oc=5",
-    "source": "TradingView",
-    "published": "2026-11-12T11:30+00:00",
+    "id": "dc0e5609473cd225",
+    "title": "Can Robinhood (NASDAQ:HOOD) Offset a Crypto Slump With Contracts?",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVF9ka0NqdzBBVnZLeVFOSS1jOFc5SXZMbkZWQjl3a2g4ZV9ySjBJWS02X3BDbXNBTEMwOXZuNXdleTFpLTFEZW1HdFVCVFdDMkJKbnAtNmhtNmRFdnZTNk5YaTRfSVdMdnAyejFmZDlCQS0wYWluZUFwblZXc3RJWFY0SlQ0NVczVm0xU2VfWXU0cEFZZ1YyQnUtY01lbnY4Y3NWXzNn?oc=5",
+    "source": "Kalkine Media",
+    "published": "2026-11-12T10:26+00:00",
     "score": 5,
     "tags": [
      "contract"
     ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "87f64e446fb99d49",
-    "title": "Robinhood stock outlook: Upward momentum supported by intraday gains and buyer bias",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTEZhVXU2Z24tTnFnRjdUVlQxTG5ZbzJLeUMtam5sUURncDBydElEUUxBc0Q2NkNOQ1Rvc1Q4TVlsVHQ5QUtqWWc3T2hfazlMaWlQdklYbUZsWEVqeVNGZDRhejRwdFFPVlZETGhXOVNxMW1rX2xuZi12aGd5R3JwLUNQa3FwWVd5VGJSSEhIRlU?oc=5",
-    "source": "Traders Union",
-    "published": "2026-11-11T16:10+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "1ed3d4d5eda3d8f2",
-    "title": "Robinhood: The Hidden Risk Behind Record Revenue (NASDAQ:HOOD)",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYzgwMUk5VXZ6VUxjRy1fbTNnOElhM3lpbjhCVTlDcVVtTXMyWDY1NnNvSTAtejVUanZvRXJyMGczbkc4NEg5QktlNnZXUUVaLTFVc1VjZUt3SlR4Y3VqRWN4dEI1emYzUW1FWklLbFRsdF9BaDRpa0p4Qk1Jdm84RUMxZXAyWU1KeU5YRXJSZWdsZw?oc=5",
-    "source": "Seeking Alpha",
-    "published": "2026-11-11T14:30+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
+    "direction": "negative",
     "primary": false
    }
   ],
   "NVDA": [
    {
-    "id": "b304be724582e797",
-    "title": "Billionaire KoGuan Vows Not to Buy Nvidia Stock as Huang Quits",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZElwNEd1WlNRNEI2V2ZacFU0NWtXNjRMSmNZeGEtb3pIV0h5TzFpSFkwc0JyUlNjOGw2VzR6REJfVUtrdk9iSHhSU2QtYjM0a2JmRmhsQzJhZmlNMGxXSFJTZ1lTaXhtVUVBVDRDUi1zV0FDb2Q0Q01PQkl1Q0lKMkpES3JNanc2Y1BfNlljYzhLREhxOUp4cERPWUM1bWVqd01rX1pEdExad25MYkxfRUZzaw?oc=5",
-    "source": "Bloomberg.com",
-    "published": "2026-11-13T06:42+00:00",
+    "id": "9daf9b8e8aa7fc82",
+    "title": "What investors should consider before hitting buy on Nvidia",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQm1zZzRWU1pfQlFkcFZzeUZZZ2RPY0tMaUR2eWttUWd5RHYyWFhCNnhyWFRZeGNTUVlCTnpfd19HX3ZZQWdmNmREdC1aYXZZT3laOHpnZmpMOHNaazRzaUhQeDFXRDNKNWY1WDRIakFFUmQ2am8xeUpJWEdQQldvVDZ5WTVJaU5BcGhJbQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T15:59+00:00",
     "score": 5,
     "tags": [
      "ma"
@@ -718,11 +728,50 @@
     "primary": false
    },
    {
-    "id": "8eef4f77072be019",
-    "title": "Stock Market Today, Nov. 12: Nvidia Shares Slide on Reports of CEO Jensen Huang's Resignation",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQ1dGUnpqLXJreGpnVTRKdDBRSlNDb0JBUEdBSm11amJpcXpkbzNOdy1td29VdEVneER0VFFqMWZWb29JVGJDMVo4bEExWXRwclVRSndVMlo5VEtRX1QxX3dqTm44ZW0zTkNkTVdIZGxsSFJxdHROYnYzbTBZa3dlMkdGZzFRN1ZEckZFQm1tc1hqSC1w?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-12T22:18+00:00",
+    "id": "c9ad88d796c739da",
+    "title": "Is Nvidia stock a falling knife or a rare buy-the-dip opportunity?",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUXJxZnVTNDdHMmRWWDhxeklzSlFLZGpWQWVubnV6ak5HVDlyRHNzYzVLbUk5UW5wTW5EWmVGNGpXVkFVT041V2Z6Zmx5SmluTWFPVUs3Z0FHMmV0M3dma1lSazljSFVLT1hzZXUtazZVSHBzRUJxWFViblBBUTVGTTlPUkRyc2c?oc=5",
+    "source": "Yahoo Finance Singapore",
+    "published": "2026-11-13T15:41+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "5aec74e19bad63d0",
+    "title": "Here are 5 new share price forecasts for Nvidia after the Huang scandal",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQak1vN2J5dnZwOFYtbDhkS1dOZFF5M0R1TGtkcWtLQVhjWDJRZXZyeWYzSGJpaVJjRlJaYUh4S1JwR1NuMnpxMS1oVnpCUDlxRjNuN0lOQ0RGUlB4dTNUOXRJNFotTU9oWi14VTNNNzByUlFrUzRQY3QxM3dTTHR3OTZJTzdmUQ?oc=5",
+    "source": "Yahoo Finance UK",
+    "published": "2026-11-13T13:38+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "b304be724582e797",
+    "title": "Billionaire KoGuan Vows Not to Buy Nvidia Stock as Huang Quits",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZElwNEd1WlNRNEI2V2ZacFU0NWtXNjRMSmNZeGEtb3pIV0h5TzFpSFkwc0JyUlNjOGw2VzR6REJfVUtrdk9iSHhSU2QtYjM0a2JmRmhsQzJhZmlNMGxXSFJTZ1lTaXhtVUVBVDRDUi1zV0FDb2Q0Q01PQkl1Q0lKMkpES3JNanc2Y1BfNlljYzhLREhxOUp4cERPWUM1bWVqd01rX1pEdExad25MYkxfRUZzaw?oc=5",
+    "source": "Bloomberg.com",
+    "published": "2026-11-13T13:27+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "7d488c00534870f7",
+    "title": "Nvidia Stock In Peril After Jensen Huang Resignation; Earnings Now In Focus",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYVhtMm81MkVaRFk5X1VuSmNUZGRDWFd4aTh5ajNpVUVod1I3Rm5qdUpEbHJENkVJNXNPb0xVRlZ4aE1lWWx2blM5QzZrOE1XS1JwMDgxbVM2dUgtTEctNDJ0VXoySE5zRXNBUFJzTlM3T005ZUprYnZ0cEEtWUJsa25qLVFvSnItdlQwNXdoeVJsZjVzNkhRSzhDYmhtVnlsYVc4VUlqTE5yYzY1SndVV1cteE5QYTA5ZUxRWUVnaw?oc=5",
+    "source": "Investor's Business Daily",
+    "published": "2026-11-13T13:00+00:00",
     "score": 11,
     "tags": [
      "earnings",
@@ -732,11 +781,50 @@
     "primary": false
    },
    {
+    "id": "91340cc4dd527f92",
+    "title": "Nvidia CEO steps down. And, Sen. Chris Van Hollen to run for majority leader",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcjJPMHE4SVVmSG0yLWVTdWtwb0M0eUJBbW15NldpRXdGRXhhdHVfQi01eW1YQ1NNRGs4TzhXdlpuVldGMElMTW96V0hXNkZaU2NHMVh2RkRtZ2Q2Y1BXSE9xNGZzdDFJcGRNUDBWNE1kZm5QdUxKVTZacjdNeDhfZnNtcDRCUVhnUXo3cko2djJLVHZEaWFtQ2FKVm56YVpjX2twc1Ffb2RrbEV2Q1YtUkV5MUNKT191ZlY0OUQ5OG4tR0lXZTVB?oc=5",
+    "source": "NPR",
+    "published": "2026-11-13T12:07+00:00",
+    "score": 5,
+    "tags": [
+     "leadership"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "deeff099e9d1b6e9",
+    "title": "CoreWeave Stocks Tumble 11.56% as NVIDIA Shake-Up Erases Post-Earnings Rally",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTTJHdFFiUHdFdzBUeW1EclEwOEJkY0ZOUnByTmZJemtYbmhtMnBpMjZMcUhLVHJJS2Z2Wk5BTjVPWm5Ed0o4WE9VZ1lINzVPdTBVa0d2Zi1jTGhidUhXSERxOHhlTWoybEI2UjQ1THMtelBZQ1RRWjFZcUlTRnYtYl8zd2RfLWNwamZIS0NiaGhaR2Uyc0ltdlZn?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T11:57+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "1d78641b90a1fdfe",
     "title": "Nvidia Stock Hammered As CEO Resigns In Disgrace",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPT0FTbElBSDh2UTVfWXd2cmhXRFBYVWhJVUN4N0JRYmtvMmdFdU1lX2JvcnVkdzl3VmNkVHNZTENUemY2RU5ZTF90aDVDYVc2QWI4MUJocE1aLXN4czFXRkNJWUJkWlVraUhBQnYyckxWY1ZPYTd3ZXcxaFpOc2JJbmYtc3NlS012bTRTY1NhR0YwVHIwZHZLejZVMGpYQQ?oc=5",
     "source": "Investor's Business Daily",
     "published": "2026-11-12T22:18+00:00",
+    "score": 5,
+    "tags": [
+     "leadership"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "5cb4cdd8e38a4442",
+    "title": "Nvidia stock falls after Huang resigns, weighing on broader market",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTVNwbUF0dnZ3TUV6OTl2cWE0clBuRE93ZEdlcjZxNjhlTWN6emg0ZlYwOUtIVmVMMlltc2dlbjhZOEstOXoxMDl5VDFON05QNFctSkw2TGI2VGdxT2d3eHZsSndTS054ZHZYZjZwM2RtNnFNN0k5a3pDR1luMUN4dl9aWUI?oc=5",
+    "source": "NBC News",
+    "published": "2026-11-12T21:13+00:00",
     "score": 5,
     "tags": [
      "leadership"
@@ -756,39 +844,15 @@
     ],
     "direction": "negative",
     "primary": false
-   },
+   }
+  ],
+  "INTC": [
    {
-    "id": "9e49108731d3b2fa",
-    "title": "What to Watch in Nvidia Earnings: Leadership, Data Center Concerns Take Center Stage",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbDhxQUxlWkU3SVVSNUZiZ0x2ZWo1WmZtRklVbWpZYThjVHBRZ28zS05kbGtNS2lzSHJsdXRRc09JcXU1clpOcWZ4VE9IT3BwMWIyNS1OS29vcEgyaVlfVnBjVUdudnJtOUdSZFFMWUFnTVpMTlc4UENmLWZwSTM2bnhoalpGME45ZGNqTFFUX2ExcXJ2WXlJMTVPVDY2d3JNZ3lucGRudVR3Y1pZLVhXeDROZEpDcEFxYnJtZ051Tk8?oc=5",
-    "source": "Morningstar",
-    "published": "2026-11-12T15:23+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "83522ecb0b6c898e",
-    "title": "Nvidia CEO Huang resigns amid affair scandals, board names CFO Colette Kress interim CEO",
-    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZzNYVy04Z1l4VlFPaDZDbW5wb0M2d1RTbFJVaWEwTGdSU0oxZkM5UG1aWlkzaVFIZGE5ZmpnaE5EOWZXdnl3Y3dYWmZrZ3l0Q2ItUU5EU1o4dHhYczFuRElaV2ZhcGNhVWlqTkdiWGIwUzNCVG5yRzR0VXJHMVlFT2xmX3ZzbU9SVEdrYzJBczh1eFZPYnduVXNCY21YOE9SMS1jRUtCdnRIckt4VkttOFRrZzNMLWhFUFRyc1k3dkhHMDJNbUFGLWtldmtOcENSbFpXYkNfSFFjRWFJdTFJVg?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-12T14:06+00:00",
-    "score": 5,
-    "tags": [
-     "leadership"
-    ],
-    "direction": "negative",
-    "primary": false
-   },
-   {
-    "id": "7948a316d818e871",
-    "title": "NVDA Stock Rout: Another Analyst Slashes Rating, Beijing Warns US Against Tech Curbs",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNVc4amE3bzV1cWF4SGlwOVd4UnNZVTZ6c09GZE42VDZiMGRkTXhiMDN6MS1lYzlfRzVHWlF2eVA4R0VlVlBBakREZ3hzSy1PVjBXWFdhSzEzbkVqdUtOc2tMUUN1eXJLNmhlNnJhSWE1Yk9PS2FhemlWalE2clE4aHB4T1NGcEJyeFVKNUdSbUY0UmMtMTh6aEIyR18?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-12T09:16+00:00",
+    "id": "a70fce23032b9f11",
+    "title": "Intel shares drop on Nvidia leadership change and price cut",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNmVsbTZZTjRxcXlZNGpiMnhBNmhVU29iSVJiaDVWTkZmX3REVVJMbU04RHZSaDM1UnpENHZVUzh4U0FFMldLd1JhUy1xWkVIMWZCYkR1T1BrNklNNTVVOHBjekhjeF9XdTdmZHM5dGdza1BRd3RSLUI5TGpYX0gtandjb3BVMnBwUFhYdFVWOWpMX3RfcW9iQ25qZzVZZUFYM2tBZFBOYnFCU0FFWm5KbDc3MA?oc=5",
+    "source": "StreetInsider",
+    "published": "2026-11-13T15:22+00:00",
     "score": 5,
     "tags": [
      "operations"
@@ -797,32 +861,29 @@
     "primary": false
    },
    {
-    "id": "406387f6d8ad825b",
-    "title": "Wall Street ends lower as Nvidia CEO resigns; US yields up",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA1ODl5LXpyQ0RZanVjSnZGS1NjS1ljMjZvdW9xY3ZSSUxvNkY2Z3dCMThiSjdKNHI1TFRCZnBIRHdYY0UxTGh0QjRZX3Y2S25sY0k4M0dKN3VZdGNMSGk5N0tPUmVJa3ozWXRCcmluOWxVVjVfblRLdmttMA?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-12T01:53+00:00",
-    "score": 5,
+    "id": "56c8b03998adbd09",
+    "title": "Intel Lost Nvidia’s Dealmaker Days After a $1.6 Billion Guidance Miss: Sell, or Load Up?",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYk9mUEp0TF9BU2xBQUNzOHFhLUNCa1g1bDdjMDluS3FtSDdSRGFlWWZ1QzV0cXZPckJuWWRCNnZZeEVhYXktWVhSaVdyVXNEMUtIQi1HMkw2Z1lVTWk2WV8zNG1COXRrWUdaeU5ucG1fc2VBOGxUdGlOZU5QRlZPdDFiSUhaYk1NaGxmZnlqMmQ4cS1SUTN0akROQ1VXcXk0STE1MnpUcmNYQnJ0VlZn?oc=5",
+    "source": "TIKR.com",
+    "published": "2026-11-13T14:28+00:00",
+    "score": 9,
     "tags": [
-     "leadership"
+     "earnings"
     ],
     "direction": "negative",
     "primary": false
-   }
-  ],
-  "INTC": [
+   },
    {
-    "id": "1a4b778e4a3c1299",
-    "title": "Intel's Insider Buy Meets Wall Street's Trimmed Target as Supply Becomes the Real Test",
-    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNbEFFaFpQOHpmRmE1Zlk4QjlsUVk2LWl2eWdHcWFQNmMtM2dRNlRrREUycVhJVVVPZ2RIVTNRWm5pcUJlM0huMEI3UEVPSE9ENFdXVHJySm5FMUhrY20weG1OdUZIY3lBU3RzOHZMejE2Q0xaeUpwbGd5MXFXNDZ4blgyT0duQUFGTFUtbGpvWldKX09mTktPUmJwbWY3ckFVWHlTOUdZNlBidlJlakZZdTA0OGp1MWVVc0thVGZwYzgyVy1aNk5OYklEUUYzZXJqNjEwS1hnTGZRRF9IUWlTX3ptM0ZKbWZsNEtzZW15Zw?oc=5",
-    "source": "ad-hoc-news.de",
-    "published": "2026-11-13T03:11+00:00",
-    "score": 10,
+    "id": "c3cfc42d4614c7a5",
+    "title": "Capital Group's 13Fs: Micron and Nvidia trimmed, Intel and Oracle bought, Applied Materials cut",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMEtwSlVXYVNqak9DT2l0YVdSYnUtMHJwUFMxNFhLX0RIRXBTT3JwaEJkNXRCNElmcExNYnJ4NU5KUnN6ODZUVXRxM3dfZjhzR3dhTTBmT1lsNm5kNFJKQkJBTnZudTZkZ3czRFhCWl9zNTY2NEFBRWthT0xEb1Bsd3JpbThNVHNOQ3J5ZGhIRExYakJ5czZUUHpqU2U0YmZGakVKX3RxU2sybFNaRUZJQkdR?oc=5",
+    "source": "MLQ.ai",
+    "published": "2026-11-13T11:22+00:00",
+    "score": 5,
     "tags": [
-     "ma",
-     "contract"
+     "operations"
     ],
-    "direction": "neutral",
+    "direction": "negative",
     "primary": false
    },
    {
@@ -906,19 +967,6 @@
     "primary": false
    },
    {
-    "id": "248b969fbc2536b8",
-    "title": "‘Show me’: Portfolio manager suggests that tech hype is fading and firms need to prove results, even as tech-giant Intel crashes 28.6% in a single day",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBzS1lSMXRsbU9SMWU2UUd0NVhUeWpydFF4dmttV3dsYjYxT0Joc0lNbUxCN1Y2cWhnWE9OM0pKSF90djAzRHhJXy1mTkF4SzZpMG9wNFhiZFRsYW5zalROc3hRYktGLXJIaFJXcHdhOW9JbDE0RW9XbTVvSDlBZ28?oc=5",
-    "source": "Money.ca",
-    "published": "2026-11-12T10:30+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
     "id": "7e1f6401c60aa5d7",
     "title": "Nvidia’s Board Is Reportedly Preparing to Oust Jensen Huang. When Intel and McDonald’s Pushed Out CEOs Over Workplace Relationships, Shareholders Got Opposite Results",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOM2w3ckhfTVpKeVQxOFQ3bzh3TmZ1WUtacUpya2EwVzMtc19JLVAzRnNkS0NYVmtOak9EdzVva3d2QjVCWWd5Q0NnNWpSUzNtbFNUNzFYZTR6aDdRdkJxODd2TERReGFKX08zY2xuZHpqY0xQMWcxTFNLSFVkU2VyaW11WXZZZk8xZlZGVU54emJid3pUYUlFSWlTcFNJUHVuVW9BRE1B?oc=5",
@@ -930,28 +978,15 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "ff629a188ce26a28",
-    "title": "Bill Baruch forecasts big moves for MU, AMD, INTC and tech stocks - watch CNBC Halftime",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOak9vZ1VsNGYtMEF4bkxhMFRuZEgtaEo5UTNmOWIwVng4cTFma0plM2psdU5EaUtQRFoyVHpqR2ItYVVvVmR5TzhUakpKTzFCYWI5OUJYY3R0c3JJNlR5OG11clhjdXVaVGY2QURTV1NubVJlUkVXVTdtcldySE8yNWNIMGtuT1BLWW5ZWWdidGdXZmk3bGxVbDhIdXpyc3JabGdDMU9PMkViNnBpZTBYOENjR3VtX1o1S2cwc1dPSGNIanAyaXc?oc=5",
-    "source": "Barchart.com",
-    "published": "2026-11-11T22:59+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "NBIS": [
    {
-    "id": "19453ec557c02d51",
-    "title": "Shares of AI cloud operator Nebius drop 16%+ despite strong earnings results",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTGNkRmtEQmhGMzE4Tl9NeDdiUnVMcU56aXlUT2dBbVdySWpLcHdSbUxnZlh1a2tsb3g1Y1FNY1dxUjZlakVyTGJqZUpNUE12Q2p5MmZrMjlSb2EzZWVGNS1MdzU4bmt5akVha3hWQWRRQ2NxdWNSZTJYUkxOS0k5UXczbnA5dEgzdnRrc2pVWVdRck1OblFxQnA4cjV3UDFqYldxd3RSdG1PbjNGdHVIV2xn?oc=5",
-    "source": "SiliconANGLE",
-    "published": "2026-11-12T21:16+00:00",
+    "id": "a0bdcc9e52e761db",
+    "title": "Nebius Earnings: Customers Prefund the Build of a Bill That Comes Due Later",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOHVSajZ0OTlhZGM4U1RYUlM5YmhMaTNYODEyU3M4ZE5WbjdwczdVVmlYMjlpdWJ0YVR2UWoxcEs4NmIyM0lPbGlQeTE5Y2NCRGgwYTZYTHFTM19odUVXS2s1SGd0RS1aUERaMnVjZ1U5ZTJZY0RiaWtCTFc4SzYwQ3BaZ1dVZ2p1cnNJVGg5OE5MckgtWnlBOUlsdDRTcGtjZGc?oc=5",
+    "source": "Morningstar",
+    "published": "2026-11-13T15:22+00:00",
     "score": 6,
     "tags": [
      "earnings"
@@ -960,132 +995,24 @@
     "primary": false
    },
    {
-    "id": "f03e7cd6d6773ef0",
-    "title": "Applied Digital Sinks 8% as Nebius Outlook and NVIDIA CEO Exit Hit AI Data Center Stocks; Cipher Digital Falls 4%, TeraWulf Slides 3%",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOT254a1lpTExnVFJoNVBOZ1pmR3BSSlEtbHd1SWJZS0k3bnh6eXQxQ0NPN2UtQ2hWRE9RTGlIb04wZ0JXSmE1M2VCeGJBb1hhb2V2dG9ocGhpbFhmeEhRQXdGNDdJcFVzc3dlVUhLZVhYMEh0c0FueVIzbzJyalk0THdMOUw3Mk00VkxOdThFUmZrTk9PdThMVHV3?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-12T16:10+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "negative",
-    "primary": false
-   },
-   {
-    "id": "9be4530a613e0199",
-    "title": "Nebius Options Traders Pay 151% Volatility After Outlook-Driven Sell-Off: Options Chatter",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSWJOMm1nUVB0aVFMZ2pqT2taSkZOSFhGOFkxczhTWXctVzRRQWhTTmNMX3B1U0NZcUU3c3p6eXdSNkQxbXFGU2JyRGdId3F4QklxdVlGLXI2SUxuSzZFWE02ZURSMkREY2VxdlpFdW1XYTlReGZWbnlUd1g0cnJCN2l0S1NfcHRSYXNiR09hMTMxM3ZSUkJQTGV0Q1dKWkNIMTV6bEx2M1o3N2ZzM29ZQTRXR3V0VHh6SjRn?oc=5",
-    "source": "Moomoo",
-    "published": "2026-11-12T16:07+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "da4e02505cf1b9b7",
-    "title": "Nebius shares fall as much as 16% after Q3 beat and a later ARR target",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVGlna1pMUmU4NkJuQ18xLTF5WEdXMVZCallBRmdiYWpPYWRJV2xKV213UkNuLXZZUFBxZWRQN3J6bHN6RXBKWDFEeFNyT3JUQkJ2ZEZjbkJuMi05NzdaTGZkZERPdV9EX05tNXJ0Z2tocHlZNmRWRFZDRkQ4eGgwc0duMW9hUERNdk1HdlkwV3YzNUoxM0pTV2FIZG5yZw?oc=5",
-    "source": "Startup Fortune",
-    "published": "2026-11-12T16:03+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "7378db6b7ee52dfe",
-    "title": "NBIS Stock Crashes 21% As Nebius Cuts 2026 Revenue Guidance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZ3QzT3BrRWxvSTdPWk1NWlJPTmRwbDVRc0p5SVd0VkhHUjhOa0pJQnpzMDZZSUVrdTQ2VW5FcmkxemRad3dhUjhQcFRHQTRXZkw3SFFzNjRoalhvN1p2ODRFNmNCdEtuWVExc3E5WjhXdzJmOVdUalpyWG9td1pCMEpUUWwzTm9Va0ZOOWlDRkpJcDJRVGR6M3MycXhUWGfSAdsBQVVfeXFMUFVzNFNmbUYteXNyTWdXU29lNUFNYldMT09UYmtyZlpoS2szcEw3M0RKRlZlWU9jU19RcVQ3SzFZLVRGWFVfSWRFM3N3Snk2T2Vnd01tYlNNeFhTRFdvUVRDenJmd2tfZWZxS1pZbzQ0LXFRUmRfOUZ5c096cDFmX2dqNEMxQlJsMEs1MklHSUtMT21WYkQ4ZzcxMzNTbmxmYV93ZUhpV0dzSmFpYmU5YmRhQWh",
-    "source": "Coinpedia",
-    "published": "2026-11-12T15:30+00:00",
-    "score": 11,
-    "tags": [
-     "earnings",
-     "operations"
-    ],
-    "direction": "negative",
-    "primary": false
-   },
-   {
-    "id": "b79fad4c8e572b5d",
-    "title": "Nebius Shares Drop on Neocloud’s Disappointing Sales Outlook",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMDIwdTFNM19abm9DQlBBOEVsNGY5RGV2Y0hqTkliNUFOVkNtU0ZjWkVkRkRpQW1mRTlxb2h5UFNsLUlrc0ZwZFJiWWRZRmpXMzRpUndXZHZJVlU2SElRc2RjNFV5b0hjNTRaSWltZVd6NE1UQzVMTzQtdEJvOUIxU0EzMldOWFhLV05LTnJDUkV0SVRQYVlMa056ZmdYS1Q3TE42VHljYW1qZ1FOcFlXQk5Tbw?oc=5",
-    "source": "Bloomberg.com",
-    "published": "2026-11-12T15:26+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "negative",
-    "primary": false
-   },
-   {
-    "id": "3763acb014b115ba",
-    "title": "Nebius (NBIS) Stock Sinks Despite a Q3 Beat. Here’s What Spooked Investors",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPX215MTVIQ09zSGQ1Q1NtQ1BIaWpBbXllU25GNnV1c1FVaG5WNDFCSjFDN2hQcDE1YVVyOTlKOFRQWXNLUUQ4NmJ5VldyQ09YQVlnWDJlcjdfLXJaMkRiT0ZheDUweGROcTVYcXRsLTJpSnVkclVRUTVoRzlTQ28zb2IxbGxOdTY5ekFZMTdnY25ONEdUX0FJWWZn?oc=5",
-    "source": "Blockonomi",
-    "published": "2026-11-12T15:01+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "e48f0573ad592258",
-    "title": "Nebius Earnings Top Estimates. Nvidia-Backed Neoclouds Sell Off.",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdThPYXEzTWRUR3RubFZ0enJHV1FtamVjS2p3OUpKMXAxOG5sZzBaeFJnUXZ0SXNGVU9uSWV4RnY5eV9kV3NWMXZjZmRQSUpLRGZCdURkNXN5UGZadE9fNWk0bmJrMXNxZjhNV2h1Z1JNQ3RLdHU1RFAzV1l0cVV0YTBjX3pPc2hOU0tBOA?oc=5",
-    "source": "Investor's Business Daily",
-    "published": "2026-11-12T14:45+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "3c08fc2afa893ad8",
-    "title": "Nebius shares tumble 22% as capacity delays hit revenue outlook and capex rises to $27 billion",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0xaFB1eWxDVC11SnRRRnc1Ny1KLXZCSzhTR3NoekFnaXAwaks0b3JQbUF6LUxZbW8tVFE1UWs5MjhoT1Fwdlp6LW9tLUQ3TThjMzhVS0owTVpyNDZhaGRzQUJSMVctMW5kaHR2SXFQVlpsM3JV?oc=5",
-    "source": "Blockspace Media",
-    "published": "2026-11-12T14:36+00:00",
-    "score": 14,
-    "tags": [
-     "earnings",
-     "operations"
-    ],
-    "direction": "negative",
-    "primary": false
-   },
-   {
-    "id": "778860d567761139",
-    "title": "Buy Nebius’ Bounce Even Though It’s Still Down 30% Over a Month? One Analyst Predicts 165% Returns So It Is Tempting",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNY3hFZHFzb1RQQ2p6eGxTMEYwMDhlSVcybXJIOUpmVnVvS3ozSG5TV1k3MkEtNzREcEpPV0h0cWxxOGYtTzR1M0J1NWFjWmd5RGp4UENOTEJPNE5aZ0pmS2ljcVJKRlQ2Vl9zT0czSWRMc2szQk5pc09BaWJGNFJKVUVUYVBsdnNFcEJxaHpQTWFZNk5rMV9XSnpR?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-12T13:45+00:00",
+    "id": "4f23afad0d737dc6",
+    "title": "NBIS Stock On Track For 6th Straight Weekly Loss — Analysts Flag Data Center, Capacity Activation Delays",
+    "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOXzdXamtjV2pvRWJFWkhsTGFmWG5vbTJTcWFfOXBYY3lOZDFjVDVlaDVtNGRVSlpQREY5c1ZLcnJDZ1NKMVNXRUo0ZEV4RG02NGIxc1R0M0Q0UWdvYzVQaG5kTGNBaUJKNnMwN3hYYW5Sd0dtdXlpb0FXR1Znd2d4Zkk1VGFiMXFWdDBMdHppYmxWdG1LalRfblVXc2EzUUhDTXZRUUxGcGd6UTNEbU1MbWxraUNfdTRRSXR2QTY4ejg0bURiREdiaVd5QWU0WHVTNTlyQVFoXzBnUC1QRUIyZ1BhblZxM3RSS190dUhDMFFGdlFM?oc=5",
+    "source": "TradingView",
+    "published": "2026-11-13T15:04+00:00",
     "score": 5,
     "tags": [
-     "ma"
+     "operations"
     ],
-    "direction": "neutral",
+    "direction": "negative",
     "primary": false
-   }
-  ],
-  "MRVL": [
+   },
    {
-    "id": "1e9b9b007e1d7636",
-    "title": "ALAB Benefits From Strong PCIe Demand: Can It Beat MRVL & CRDO?",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcWhGTjFCTDV2RkM2OVpoMVZkN2t1STlHLVcxV0NXeFRFY2pIak1wSFhKNzRBVWlWUjZ3Q2Qzc2ozNUxaVFJ5dEhkSGlBaGUwNFNRRUxPSmpMc1VuRk4xRjVsVVpRNDRWdVRJSXM3UFFDUW9fVWFsSVdXU3dZYVBxMWNEaEl6VmM5bDBqcFk1ZzR6dlJJOXF0RnBFc2RyME5lRU9MOWlVV1R5X1BFUlpxM2lfaFlvZw?oc=5",
+    "id": "5eda7c8c86499795",
+    "title": "Can Nebius Sustain 571% Revenue Growth Beyond Its Q3 AI Cloud Boom?",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNc3VUX3J2RWdfM190Q0E1NlhqcHpCRHdNVUQyVHRvWWZJU1VmOE5xN0FzTmJyTkJWdnZyYi03QU1rdVhBQVBEaUE1U2xLdWgwa2FhS1JrNTFEYmlEd3RsOWJlZHNkNmx1QzEzVnY3Y2x4U0s5TFd4QmtNLTQ2SGdMTUhjNjl0ZG9aUDJGZEI3Z1k3UmFWR2d0OXU4NVJkOUpQVndUTVpnT0VkaV9CcDRZYWNoTWNSWG5GaGVZZnNR?oc=5",
     "source": "TradingView",
-    "published": "2026-11-12T17:10+00:00",
+    "published": "2026-11-13T14:48+00:00",
     "score": 6,
     "tags": [
      "earnings"
@@ -1094,16 +1021,122 @@
     "primary": false
    },
    {
-    "id": "898c9efbb1a888c9",
-    "title": "Marvell Technology stock has December 1 results checkpoint",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNLXByc0ZXeFQ2N0JTNXowMnpNbVlpZGNJLTlxRzZsRkFGRUpCVWx3UGcyMW5TWnI0eUhJX1hKMkpuMFk1LXNBdWZkSXFNSFd3ZUIxV2F1SzgwXzRwMTZEcmJlcFV2Z0NrU1ltcFJvSGJ6ejhfYlBRSzBMVkJ5RS0zT0NabUFtNWNuNHRoMHZKZndlczF6b2NoUGtkZjNNdVNYN2d6cnJ3MmFpN0hmX1A2Xy1UUHRpTy1hRWxVNUpB?oc=5",
-    "source": "ad-hoc-news.de",
-    "published": "2026-11-12T15:44+00:00",
+    "id": "0b5bf406fc345455",
+    "title": "NBIS Q3 Earnings Call Highlights Expansion Plans and Funding",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbjJXczMwaHd6RnctamMzbjUzTndXdTNCc2htNThIcTdBckZjSVpkVlIxaHdGMlBJOUJjVVoyZG9JOHRKSjZWRENQV3RNWDJHRnBZY2x5SXh5d1QtLWwyX3p6Y193YWdNNTNhVERvV29fNFZfUzh2bnV5WGlydTJVWWNwZVo1WjRuamFXZEN3OWVEcTFlYnMxcE9UckU?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T14:00+00:00",
     "score": 6,
     "tags": [
      "earnings"
     ],
     "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "7baef8cf55d61b70",
+    "title": "Nebius Earnings Topped Estimates. Why Shares Sold Off.",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdThPYXEzTWRUR3RubFZ0enJHV1FtamVjS2p3OUpKMXAxOG5sZzBaeFJnUXZ0SXNGVU9uSWV4RnY5eV9kV3NWMXZjZmRQSUpLRGZCdURkNXN5UGZadE9fNWk0bmJrMXNxZjhNV2h1Z1JNQ3RLdHU1RFAzV1l0cVV0YTBjX3pPc2hOU0tBOA?oc=5",
+    "source": "Investor's Business Daily",
+    "published": "2026-11-13T13:11+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "088d56b426b8ec24",
+    "title": "Rosenblatt maintains Nebius stock rating on strong Q3 results By Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUGJwTDU1dElGWWcwS1lKZzFpdjFoRU1wemotd2NRRy1HWHBST1NBNWo3X2ZBUS1BVC1sWWdlMFA4akFWY1JMV0ZlOFlPbzN0dzBGSWRpUHlQaHVNTDhyTGY2SlB3M0lzc3k4MEhrUGZvQjU2aGdEa3Zkb3QwU1pLQ3p0TzFHbDdudmtlcWEzQnNoZlFXa0puSVJYSlpfb1YybEkxMlZZMXBmeC00ZVJHaE1qa3paUmJwTUd2VUNINA?oc=5",
+    "source": "Investing.com UK",
+    "published": "2026-11-13T12:04+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "4ac97a8eee8a2b7b",
+    "title": "NBIS Q3 Earnings Beat Estimates on AI Cloud Growth, Asset-Light Gains",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWjBsQ3JXeHlHUU1uQ3RVSlVJdmpMRDV6VmQyVHUxd2N6MHQ5Zk1QaEp1b280Z1NhQ3FRbWZMcmZ6SFRiLXRVamFRb2RRMkdsZzR6anNmZWJBN0U0Z1hjckt2SGttWUlsZklFaVpIT2FkNGpGQ0RWLTEzRG56NTBlTmx6LXZHUlUzVW1adHpIZndpYTVsTUdjMDY3N2cteTJ0YU5rSjlfby1SWEtqY0l5MUx6b0l2cEZCd0VkdHUzbjVlZw?oc=5",
+    "source": "TradingView",
+    "published": "2026-11-13T11:12+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "a21339f4dc5bfc1a",
+    "title": "Nebius Plunges 17% After Earnings and Breaks Below Dual Moving Averages, Loss of $120 Risks Another 17% Drop to $100",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQTlZ3SnBLRmNpREpKQkdic3R5eDFlaV9xNGZ3cVFablFZN2t4UWdxQmVSWDQ4bFh4YmVaS191ZWZsSGR1em5kZ2RsTmJmcVhlbVN1amZCRHRNeUp6ZXJuU3hhbUlRcmZjRWE3RHlrMU9IQWN5cTVZcmZwV3h0UlRwMjRncUhxNFU2cDV4c2Jsb3lkd3UxVUhlelc4WGo0M3k1SGpwQjVNY3F3NXFnclpCc1p0by0wR1FjNmQtbmItMHB3eEZIN0lCemNwUkpyZVFqdmxTVUx3?oc=5",
+    "source": "TradingKey",
+    "published": "2026-11-13T09:33+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "2a4de4ed524ed591",
+    "title": "Nebius Group earnings analysis: questions answered and next catalysts",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbG9ZdE9XSHRvWmx2czlPOFJ3QzdNOHAwM0I4M2lQTU1BU1VidU54bW1BUGNaUktwNEpEVWdGV0xQcDBMZ3ZGejJSZ0JtcEVaM3dfbkVLOHc1dmh5NkJYY3p6RDZiMUl6anBwZ3JNLXA4S1U4bm5WcnZaMHV1RFozRVQ3M0pCR1dLMFlfaGp5SnVrbmhrTlFUWFdjdEhDNWNjeTZZQVQwaXg0REJ6N2FraktPVUdyTjVCTzE2OE1hYWJwMlhxZVVkeTJn?oc=5",
+    "source": "Investing.com",
+    "published": "2026-11-13T03:13+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "48ac14f2e6a51114",
+    "title": "Nebius: Huge Earnings Beat, Even Bigger Price Slump (NASDAQ:NBIS)",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdl9fMnNKRVdNRWR0ZmtoRm1SRjZKN0ZXdDhnd1owcmdEb1FtbjRSblZBbUhlNDFxWnFYQTRUM200WlBjcHhaZjVaQnE0REpqVy1OMWdjNndIZGZkUmZfNHY5LWlfNi01YVRnUk1GOUVNMGFlUmtabFZuQ0tIenFxTC04MkZMRm9hT3JkUlZRaXVDSURp?oc=5",
+    "source": "Seeking Alpha",
+    "published": "2026-11-12T22:16+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   }
+  ],
+  "MRVL": [
+   {
+    "id": "204f82117ff184bf",
+    "title": "Lumentum Is Up 56% in 2026, but Marvell Now Sets Its Price. Take Profits, or Buy More?",
+    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQTVNuOXNUc3N3WlNOb1lGb3JNRGY4bHcwdzkxbHNJejk3Z1VELWJNc3ZzLWYtSVd2S0ZLS2J3blFkaUp0QTJPT2R2dW5XUk94eGhYX3VCZU15YVBsUXVZX0tMa0xrczgtTFdYLVNoazY4TmJVWU1tc1Q3VDlMUm9OTXlTdGtOalVUOGRldDk0R0Vhc29SbHJKUThzbGx6NXB0TnExTFJYTjVlNWF5U19YamUtRnpvY1ZQMVl6VC1GcWV0bV9xVXNiVVFTX0lkZTE4bzBhZlRpcXdFN1NDQ0I1ZE53?oc=5",
+    "source": "TIKR.com",
+    "published": "2026-11-13T15:59+00:00",
+    "score": 5,
+    "tags": [
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "1e9b9b007e1d7636",
+    "title": "ALAB Benefits From Strong PCIe Demand: Can It Beat MRVL & CRDO?",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRGtyd3JQXzI4a2dueWlIRGVhakVjejh4dEJKWDRjWkpEck5UZzBacGxCVFFVYXZOMlBCdFFVYXpNQlRHZEgyRUY3SkZEZ21samgzem9YSXFwcmFsVWFjNGdjRUpNUmV1WUZXNzV4Y3N5dEwtd3JDYUdVWDNQMTZROXR1c3k1NUdqc0lfenBsUEJXNUJhNXJqMQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-12T17:10+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
     "primary": false
    },
    {
@@ -1147,6 +1180,19 @@
     "primary": false
    },
    {
+    "id": "d6b8d739acffaa37",
+    "title": "Marvell Technology stock sets December 1 earnings checkpoint",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYUdmYW1OWGkzYVdzWXluY1MzMk1pZkVmdFdFdGJmekJWc09IZVlDUFQ2eXNsWjdvSjVYX0hXODM5YzA2X0NnejgxbUlHWTRHZ21neGJ3eXBpMDBTSzhWb1YzajdPRW1NRXJBbWs1Tzh6ZXZ2a1VuMVB2d25DMFFod1hWWEVfdzFXSHJhbGRBXy0yRHBILWhWcmtjU08yb1hvYkNTU1JzSVdhMjNKcWR4blYzbUNRM0UtMDA3MDE0ZzM?oc=5",
+    "source": "ad-hoc-news.de",
+    "published": "2026-11-12T13:17+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "b90bd205b2cd71a3",
     "title": "Marvell Acquires Lumentum in Blockbuster $80 Billion Deal",
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWDV4bGtXRE9yZGsyWkEtTGdDMUxObXlTT01fT3lIUUV3T2czVDRTNzNEUENLUjBoeHcxb0RqaFlLNXllM1VDallhaHFnX0dYREY3NFlLY3ZoS3JpMV9nSTg1VmpTd005c3hRNWtPTUVvaVp6YVBMeHNTOVFOZnl0T1c2X3hQX3VqRVJvcFJXWGY?oc=5",
@@ -1172,48 +1218,22 @@
     ],
     "direction": "positive",
     "primary": false
-   },
-   {
-    "id": "e8f0008d1ddc0e58",
-    "title": "Marvell and Intel Rally 7% as CoreWeave’s Results Reignite the AI Chip Trade; Taiwan Semiconductor Climbs 4%",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYkgxNWZhV21wSTd3Y1JhcENLT2NoNEROWmd0cHdtbTAxSlVSNC1tNE5LbzN2MWxZX1o4dDFMZkNnWDFmNmw3VVdMTk9EZS1NZ1ByMkhCYjN0c19LTFdwdjUwWDIzQm9HV3h5b2hKRmFSOEtKRlB2MTVmNHo3bWxxcUFMYTFiMDZWTXBWT05GeXpQT3RSXy1yQlVDZw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-11T14:48+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "positive",
-    "primary": false
-   },
-   {
-    "id": "13a2dbdeaa209481",
-    "title": "Marvell's $115 Billion Lumentum Wager Hinges on Laser Access and a December Earnings Test",
-    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQVW9tMFI3RUpYTU1CWjhHZmpJTUFpVkVlQ0pjNnpXZ0k2YWJZdmVTMGNhVzJaQjNZb2ZVRHdtMUY5U19qdW92WWFYbWp3MVM3TEVjUE9mZnhGYVJvNTJrX2cyaU1xZFFYYTI3ekpFZXEtT2NEYkR4QjdSaHR0dXkybHhXVWlLNmNHcDFPUmtuMXVsdnFwbzI5YnhGenhEWFpZa0VsbGtubmxJdFVrdWNiZnRaaWNPYnJseXFfdXZwM0RYdldlNWk0azVjVS00SE9EN1ppY0hnX3ZmYzl2WFc0TkYwLUpxVkg3SG5vbHBlYU53UQ?oc=5",
-    "source": "ad-hoc-news.de",
-    "published": "2026-11-11T13:41+00:00",
-    "score": 9,
-    "tags": [
-     "earnings"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "db19b84ebf9498c9",
-    "title": "Marvell's Lumentum Takeover: Shareholder Votes, a Fixed 4.5-for-1 Ratio, and a 2028 Finish Line",
-    "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOSmNkS3JUOU9iTFNTSVE1SVhSVTRFQUFRNGRqWENfcC0zTHBEZGRYUkttOHZkQXlhVGMxMjRVTUh6SzQ5cTdkUnpDOTg4QkljWE1KNGxUTmh2Tm15bW91Vnd5dU4zaVY0bWhMREQyei1OaGtOUXc5RHN3emhQellGOGdqYW95NjNBbEFtazBvSWxhdnFqWGI2QUU5VjBWZy1TU1pLYl9McTRMMU5pLS0yZVhoTTZ0YlpyVFVKR0ZkZFNqbmRIYkxxLVZBRnBqeHhTZVRHVERzX3BSNHdiZ3BjLTlFTF9UWkNON09QX3d0V3NiZ1FFcG5V?oc=5",
-    "source": "ad-hoc-news.de",
-    "published": "2026-11-11T13:41+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "META": [
+   {
+    "id": "165e816bf2799746",
+    "title": "As Meta Platforms Continues To Weaken, A Bearish Trade May Be In Order",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeXYtc0wwTWRuR29fdGRXZE83a0JHb3Y2Q2Y4b3NPOXVZSjM3TEc5VzJhTkFBN1dHekhaUm9XOWdrbWl2OUx5eWRraVVIWm02YjhQV2M3MWpLbk5ld1c5TG1rRGE5Sm1Td0dMWFQ0b2dMYVp2Wko5SmxEMGEtSDFJWldKXzFEV3hjOTNtQkVFeVRpSjEzOFE?oc=5",
+    "source": "Investor's Business Daily",
+    "published": "2026-11-13T14:34+00:00",
+    "score": 5,
+    "tags": [
+     "contract"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
    {
     "id": "b2dec4252d6f828d",
     "title": "UK regulator fines Meta £450,000 for inaccurate WhatsApp Business data (META:NASDAQ)",
@@ -1293,5 +1313,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 93
+ "count": 95
 }
