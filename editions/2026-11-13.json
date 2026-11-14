@@ -1,0 +1,903 @@
+{
+  "date": "2026-11-13",
+  "weekday": "Friday",
+  "headline": "Friday close: AI infrastructure risk remains the key cross-asset test",
+  "gauge": [
+    {
+      "text": "Completed NYSE session: November 9, 2026",
+      "tone": "flat"
+    }
+  ],
+  "quick": [
+    "<b>AAPL</b> +2.43% at 350.69",
+    "<b>AMZN</b> +2.94% at 266.93",
+    "<b>TSLA</b> +5.54% at 378.05",
+    "<b>PLTR</b> +5.50% at 169.20",
+    "<b>MSFT</b> +2.75% at 545.18",
+    "<b>GOOGL</b> +1.18% at 288.15",
+    "<b>HOOD</b> +2.98% at 83.32",
+    "<b>NVDA</b> -4.27% at 178.67",
+    "<b>INTC</b> +5.49% at 59.37",
+    "<b>NBIS</b> +9.24% at 141.45",
+    "<b>MRVL</b> +9.49% at 154.60",
+    "<b>META</b> +5.12% at 641.37"
+  ],
+  "entries": [
+    {
+      "ticker": "AAPL",
+      "happened": "No verified company-specific event was established for the 9 November session from the dated sources checked; the measured bar is the evidence.",
+      "why": "The daily bar measures the market outcome but does not identify its cause. The investment case still depends on revenue growth, margins, balance-sheet capacity and valuation. A one-session move can reflect sector positioning, macro rates or liquidity rather than a change in company fundamentals. This distinction is especially important because the November 3 index move was narrow and election-sensitive. Investors should therefore test the thesis against company-level evidence, not infer a durable change from the aggregate tape. The absence of a verified event is itself the honest result of the research window.",
+      "priced_in": "The price already incorporates the observed November 3 close and its session return. Any broad AI, rates or election narrative remains an inference until company disclosures and subsequent trading confirm that investors changed expected cash flows.",
+      "would_change": "A dated filing, earnings release, guidance change, material contract, regulatory action or an unusual multi-session move with confirming volume would change this reading.",
+      "next_date": "Unscheduled watch: next company filing or earnings release; monitor the next completed NYSE session.",
+      "figures": [
+        "Close $350.69",
+        "Session move +2.43%",
+        "Range $344.78-$352.33",
+        "Volume 48,691,200"
+      ],
+      "analysis": [
+        {
+          "body": "The close, range and volume are the reliable evidence for this edition. They describe what traded, not why it traded, so the move should be separated from any narrative about sector or macro causation.",
+          "heading": "Measured tape"
+        },
+        {
+          "body": "The next decision point is whether company fundamentals and valuation support the price after this session. Subsequent filings, guidance and multi-session price confirmation matter more than assigning a cause from a headline.",
+          "heading": "Investment test"
+        }
+      ],
+      "foot": [
+        {
+          "k": "Price source",
+          "v": "Twelve Data daily time_series; exchange-local session.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "down",
+      "strength": "notable",
+      "move": "-1.90% close",
+      "move_tone": "down",
+      "strength_label": "Session move",
+      "session_date": "2026-11-13",
+      "research_log": {
+        "outcome": "no_verified_event",
+        "sources": [
+          {
+            "url": "https://www.nyse.com/trade/hours-calendars",
+            "event_date": "2026-11-13"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "AMZN",
+      "happened": "No verified company-specific event was established for the 9 November session from the dated sources checked; the measured bar is the evidence.",
+      "why": "The daily bar measures the market outcome but does not identify its cause. The investment case still depends on revenue growth, margins, balance-sheet capacity and valuation. A one-session move can reflect sector positioning, macro rates or liquidity rather than a change in company fundamentals. This distinction is especially important because the November 3 index move was narrow and election-sensitive. Investors should therefore test the thesis against company-level evidence, not infer a durable change from the aggregate tape. The absence of a verified event is itself the honest result of the research window.",
+      "priced_in": "The price already incorporates the observed November 3 close and its session return. Any broad AI, rates or election narrative remains an inference until company disclosures and subsequent trading confirm that investors changed expected cash flows.",
+      "would_change": "A dated filing, earnings release, guidance change, material contract, regulatory action or an unusual multi-session move with confirming volume would change this reading.",
+      "next_date": "Unscheduled watch: next company filing or earnings release; monitor the next completed NYSE session.",
+      "figures": [
+        "Close $266.93",
+        "Session move +2.94%",
+        "Range $266.91-$275.34",
+        "Volume 51,419,400"
+      ],
+      "analysis": [
+        {
+          "body": "The close, range and volume are the reliable evidence for this edition. They describe what traded, not why it traded, so the move should be separated from any narrative about sector or macro causation.",
+          "heading": "Measured tape"
+        },
+        {
+          "body": "The next decision point is whether company fundamentals and valuation support the price after this session. Subsequent filings, guidance and multi-session price confirmation matter more than assigning a cause from a headline.",
+          "heading": "Investment test"
+        }
+      ],
+      "foot": [
+        {
+          "k": "Price source",
+          "v": "Twelve Data daily time_series; exchange-local session.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "up",
+      "strength": "notable",
+      "move": "+2.06% close",
+      "move_tone": "up",
+      "strength_label": "Session move",
+      "session_date": "2026-11-13",
+      "research_log": {
+        "outcome": "no_verified_event",
+        "sources": [
+          {
+            "url": "https://www.nyse.com/trade/hours-calendars",
+            "event_date": "2026-11-13"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "happened": "No verified company-specific event was established for the 9 November session from the dated sources checked; the measured bar is the evidence.",
+      "why": "The daily bar measures the market outcome but does not identify its cause. The investment case still depends on revenue growth, margins, balance-sheet capacity and valuation. A one-session move can reflect sector positioning, macro rates or liquidity rather than a change in company fundamentals. This distinction is especially important because the November 3 index move was narrow and election-sensitive. Investors should therefore test the thesis against company-level evidence, not infer a durable change from the aggregate tape. The absence of a verified event is itself the honest result of the research window.",
+      "priced_in": "The price already incorporates the observed November 3 close and its session return. Any broad AI, rates or election narrative remains an inference until company disclosures and subsequent trading confirm that investors changed expected cash flows.",
+      "would_change": "A dated filing, earnings release, guidance change, material contract, regulatory action or an unusual multi-session move with confirming volume would change this reading.",
+      "next_date": "Unscheduled watch: next company filing or earnings release; monitor the next completed NYSE session.",
+      "figures": [
+        "Close $378.05",
+        "Session move +5.54%",
+        "Range $360.02-$382.20",
+        "Volume 36,266,000"
+      ],
+      "analysis": [
+        {
+          "body": "The close, range and volume are the reliable evidence for this edition. They describe what traded, not why it traded, so the move should be separated from any narrative about sector or macro causation.",
+          "heading": "Measured tape"
+        },
+        {
+          "body": "The next decision point is whether company fundamentals and valuation support the price after this session. Subsequent filings, guidance and multi-session price confirmation matter more than assigning a cause from a headline.",
+          "heading": "Investment test"
+        }
+      ],
+      "foot": [
+        {
+          "k": "Price source",
+          "v": "Twelve Data daily time_series; exchange-local session.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "down",
+      "strength": "notable",
+      "move": "-1.32% close",
+      "move_tone": "down",
+      "strength_label": "Session move",
+      "session_date": "2026-11-13",
+      "research_log": {
+        "outcome": "no_verified_event",
+        "sources": [
+          {
+            "url": "https://www.nyse.com/trade/hours-calendars",
+            "event_date": "2026-11-13"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "PLTR",
+      "happened": "No verified company-specific event was established for the 9 November session from the dated sources checked; the measured bar is the evidence.",
+      "why": "The daily bar measures the market outcome but does not identify its cause. The investment case still depends on revenue growth, margins, balance-sheet capacity and valuation. A one-session move can reflect sector positioning, macro rates or liquidity rather than a change in company fundamentals. This distinction is especially important because the November 3 index move was narrow and election-sensitive. Investors should therefore test the thesis against company-level evidence, not infer a durable change from the aggregate tape. The absence of a verified event is itself the honest result of the research window.",
+      "priced_in": "The price already incorporates the observed November 3 close and its session return. Any broad AI, rates or election narrative remains an inference until company disclosures and subsequent trading confirm that investors changed expected cash flows.",
+      "would_change": "A dated filing, earnings release, guidance change, material contract, regulatory action or an unusual multi-session move with confirming volume would change this reading.",
+      "next_date": "Unscheduled watch: next company filing or earnings release; monitor the next completed NYSE session.",
+      "figures": [
+        "Close $169.20",
+        "Session move +5.50%",
+        "Range $161.00-$170.83",
+        "Volume 23,801,800"
+      ],
+      "analysis": [
+        {
+          "body": "The close, range and volume are the reliable evidence for this edition. They describe what traded, not why it traded, so the move should be separated from any narrative about sector or macro causation.",
+          "heading": "Measured tape"
+        },
+        {
+          "body": "The next decision point is whether company fundamentals and valuation support the price after this session. Subsequent filings, guidance and multi-session price confirmation matter more than assigning a cause from a headline.",
+          "heading": "Investment test"
+        }
+      ],
+      "foot": [
+        {
+          "k": "Price source",
+          "v": "Twelve Data daily time_series; exchange-local session.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "down",
+      "strength": "notable",
+      "move": "-1.65% close",
+      "move_tone": "down",
+      "strength_label": "Session move",
+      "session_date": "2026-11-13",
+      "research_log": {
+        "outcome": "no_verified_event",
+        "sources": [
+          {
+            "url": "https://www.nyse.com/trade/hours-calendars",
+            "event_date": "2026-11-13"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "happened": "No verified company-specific event was established for the 9 November session from the dated sources checked; the measured bar is the evidence.",
+      "why": "The daily bar measures the market outcome but does not identify its cause. The investment case still depends on revenue growth, margins, balance-sheet capacity and valuation. A one-session move can reflect sector positioning, macro rates or liquidity rather than a change in company fundamentals. This distinction is especially important because the November 3 index move was narrow and election-sensitive. Investors should therefore test the thesis against company-level evidence, not infer a durable change from the aggregate tape. The absence of a verified event is itself the honest result of the research window.",
+      "priced_in": "The price already incorporates the observed November 3 close and its session return. Any broad AI, rates or election narrative remains an inference until company disclosures and subsequent trading confirm that investors changed expected cash flows.",
+      "would_change": "A dated filing, earnings release, guidance change, material contract, regulatory action or an unusual multi-session move with confirming volume would change this reading.",
+      "next_date": "Unscheduled watch: next company filing or earnings release; monitor the next completed NYSE session.",
+      "figures": [
+        "Close $545.18",
+        "Session move +2.75%",
+        "Range $538.70-$548.28",
+        "Volume 25,295,600"
+      ],
+      "analysis": [
+        {
+          "body": "The close, range and volume are the reliable evidence for this edition. They describe what traded, not why it traded, so the move should be separated from any narrative about sector or macro causation.",
+          "heading": "Measured tape"
+        },
+        {
+          "body": "The next decision point is whether company fundamentals and valuation support the price after this session. Subsequent filings, guidance and multi-session price confirmation matter more than assigning a cause from a headline.",
+          "heading": "Investment test"
+        }
+      ],
+      "foot": [
+        {
+          "k": "Price source",
+          "v": "Twelve Data daily time_series; exchange-local session.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "up",
+      "strength": "notable",
+      "move": "+2.74% close",
+      "move_tone": "up",
+      "strength_label": "Session move",
+      "session_date": "2026-11-13",
+      "research_log": {
+        "outcome": "no_verified_event",
+        "sources": [
+          {
+            "url": "https://www.nyse.com/trade/hours-calendars",
+            "event_date": "2026-11-13"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "GOOGL",
+      "happened": "No verified company-specific event was established for the 9 November session from the dated sources checked; the measured bar is the evidence.",
+      "why": "The daily bar measures the market outcome but does not identify its cause. The investment case still depends on revenue growth, margins, balance-sheet capacity and valuation. A one-session move can reflect sector positioning, macro rates or liquidity rather than a change in company fundamentals. This distinction is especially important because the November 3 index move was narrow and election-sensitive. Investors should therefore test the thesis against company-level evidence, not infer a durable change from the aggregate tape. The absence of a verified event is itself the honest result of the research window.",
+      "priced_in": "The price already incorporates the observed November 3 close and its session return. Any broad AI, rates or election narrative remains an inference until company disclosures and subsequent trading confirm that investors changed expected cash flows.",
+      "would_change": "A dated filing, earnings release, guidance change, material contract, regulatory action or an unusual multi-session move with confirming volume would change this reading.",
+      "next_date": "Unscheduled watch: next company filing or earnings release; monitor the next completed NYSE session.",
+      "figures": [
+        "Close $288.15",
+        "Session move +1.18%",
+        "Range $288.01-$296.33",
+        "Volume 36,349,900"
+      ],
+      "analysis": [
+        {
+          "body": "The close, range and volume are the reliable evidence for this edition. They describe what traded, not why it traded, so the move should be separated from any narrative about sector or macro causation.",
+          "heading": "Measured tape"
+        },
+        {
+          "body": "The next decision point is whether company fundamentals and valuation support the price after this session. Subsequent filings, guidance and multi-session price confirmation matter more than assigning a cause from a headline.",
+          "heading": "Investment test"
+        }
+      ],
+      "foot": [
+        {
+          "k": "Price source",
+          "v": "Twelve Data daily time_series; exchange-local session.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "up",
+      "strength": "notable",
+      "move": "+0.37% close",
+      "move_tone": "up",
+      "strength_label": "Session move",
+      "session_date": "2026-11-13",
+      "research_log": {
+        "outcome": "no_verified_event",
+        "sources": [
+          {
+            "url": "https://www.nyse.com/trade/hours-calendars",
+            "event_date": "2026-11-13"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "HOOD",
+      "happened": "No verified company-specific event was established for the 9 November session from the dated sources checked; the measured bar is the evidence.",
+      "why": "The daily bar measures the market outcome but does not identify its cause. The investment case still depends on revenue growth, margins, balance-sheet capacity and valuation. A one-session move can reflect sector positioning, macro rates or liquidity rather than a change in company fundamentals. This distinction is especially important because the November 3 index move was narrow and election-sensitive. Investors should therefore test the thesis against company-level evidence, not infer a durable change from the aggregate tape. The absence of a verified event is itself the honest result of the research window.",
+      "priced_in": "The price already incorporates the observed November 3 close and its session return. Any broad AI, rates or election narrative remains an inference until company disclosures and subsequent trading confirm that investors changed expected cash flows.",
+      "would_change": "A dated filing, earnings release, guidance change, material contract, regulatory action or an unusual multi-session move with confirming volume would change this reading.",
+      "next_date": "Unscheduled watch: next company filing or earnings release; monitor the next completed NYSE session.",
+      "figures": [
+        "Close $83.32",
+        "Session move +2.98%",
+        "Range $80.55-$85.34",
+        "Volume 15,140,100"
+      ],
+      "analysis": [
+        {
+          "body": "The close, range and volume are the reliable evidence for this edition. They describe what traded, not why it traded, so the move should be separated from any narrative about sector or macro causation.",
+          "heading": "Measured tape"
+        },
+        {
+          "body": "The next decision point is whether company fundamentals and valuation support the price after this session. Subsequent filings, guidance and multi-session price confirmation matter more than assigning a cause from a headline.",
+          "heading": "Investment test"
+        }
+      ],
+      "foot": [
+        {
+          "k": "Price source",
+          "v": "Twelve Data daily time_series; exchange-local session.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "up",
+      "strength": "notable",
+      "move": "+2.19% close",
+      "move_tone": "up",
+      "strength_label": "Session move",
+      "session_date": "2026-11-13",
+      "research_log": {
+        "outcome": "no_verified_event",
+        "sources": [
+          {
+            "url": "https://www.nyse.com/trade/hours-calendars",
+            "event_date": "2026-11-13"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "happened": "No verified company-specific event was established for the 9 November session from the dated sources checked; the measured bar is the evidence.",
+      "why": "The daily bar measures the market outcome but does not identify its cause. The investment case still depends on revenue growth, margins, balance-sheet capacity and valuation. A one-session move can reflect sector positioning, macro rates or liquidity rather than a change in company fundamentals. This distinction is especially important because the November 3 index move was narrow and election-sensitive. Investors should therefore test the thesis against company-level evidence, not infer a durable change from the aggregate tape. The absence of a verified event is itself the honest result of the research window.",
+      "priced_in": "The price already incorporates the observed November 3 close and its session return. Any broad AI, rates or election narrative remains an inference until company disclosures and subsequent trading confirm that investors changed expected cash flows.",
+      "would_change": "A dated filing, earnings release, guidance change, material contract, regulatory action or an unusual multi-session move with confirming volume would change this reading.",
+      "next_date": "Unscheduled watch: next company filing or earnings release; monitor the next completed NYSE session.",
+      "figures": [
+        "Close $178.67",
+        "Session move -4.27%",
+        "Range $170.24-$179.92",
+        "Volume 459,116,500"
+      ],
+      "analysis": [
+        {
+          "body": "The close, range and volume are the reliable evidence for this edition. They describe what traded, not why it traded, so the move should be separated from any narrative about sector or macro causation.",
+          "heading": "Measured tape"
+        },
+        {
+          "body": "The next decision point is whether company fundamentals and valuation support the price after this session. Subsequent filings, guidance and multi-session price confirmation matter more than assigning a cause from a headline.",
+          "heading": "Investment test"
+        }
+      ],
+      "foot": [
+        {
+          "k": "Price source",
+          "v": "Twelve Data daily time_series; exchange-local session.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "up",
+      "strength": "notable",
+      "move": "+2.29% close",
+      "move_tone": "up",
+      "strength_label": "Session move",
+      "session_date": "2026-11-13",
+      "research_log": {
+        "outcome": "no_verified_event",
+        "sources": [
+          {
+            "url": "https://www.nyse.com/trade/hours-calendars",
+            "event_date": "2026-11-13"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "INTC",
+      "happened": "No verified company-specific event was established for the 9 November session from the dated sources checked; the measured bar is the evidence.",
+      "why": "The daily bar measures the market outcome but does not identify its cause. The investment case still depends on revenue growth, margins, balance-sheet capacity and valuation. A one-session move can reflect sector positioning, macro rates or liquidity rather than a change in company fundamentals. This distinction is especially important because the November 3 index move was narrow and election-sensitive. Investors should therefore test the thesis against company-level evidence, not infer a durable change from the aggregate tape. The absence of a verified event is itself the honest result of the research window.",
+      "priced_in": "The price already incorporates the observed November 3 close and its session return. Any broad AI, rates or election narrative remains an inference until company disclosures and subsequent trading confirm that investors changed expected cash flows.",
+      "would_change": "A dated filing, earnings release, guidance change, material contract, regulatory action or an unusual multi-session move with confirming volume would change this reading.",
+      "next_date": "Unscheduled watch: next company filing or earnings release; monitor the next completed NYSE session.",
+      "figures": [
+        "Close $59.37",
+        "Session move +5.49%",
+        "Range $55.83-$60.03",
+        "Volume 146,433,500"
+      ],
+      "analysis": [
+        {
+          "body": "The close, range and volume are the reliable evidence for this edition. They describe what traded, not why it traded, so the move should be separated from any narrative about sector or macro causation.",
+          "heading": "Measured tape"
+        },
+        {
+          "body": "The next decision point is whether company fundamentals and valuation support the price after this session. Subsequent filings, guidance and multi-session price confirmation matter more than assigning a cause from a headline.",
+          "heading": "Investment test"
+        }
+      ],
+      "foot": [
+        {
+          "k": "Price source",
+          "v": "Twelve Data daily time_series; exchange-local session.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "up",
+      "strength": "notable",
+      "move": "+0.97% close",
+      "move_tone": "up",
+      "strength_label": "Session move",
+      "session_date": "2026-11-13",
+      "research_log": {
+        "outcome": "no_verified_event",
+        "sources": [
+          {
+            "url": "https://www.nyse.com/trade/hours-calendars",
+            "event_date": "2026-11-13"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "NBIS",
+      "happened": "No verified company-specific event was established for the 9 November session from the dated sources checked; the measured bar is the evidence.",
+      "why": "The daily bar measures the market outcome but does not identify its cause. The investment case still depends on revenue growth, margins, balance-sheet capacity and valuation. A one-session move can reflect sector positioning, macro rates or liquidity rather than a change in company fundamentals. This distinction is especially important because the November 3 index move was narrow and election-sensitive. Investors should therefore test the thesis against company-level evidence, not infer a durable change from the aggregate tape. The absence of a verified event is itself the honest result of the research window.",
+      "priced_in": "The price already incorporates the observed November 3 close and its session return. Any broad AI, rates or election narrative remains an inference until company disclosures and subsequent trading confirm that investors changed expected cash flows.",
+      "would_change": "A dated filing, earnings release, guidance change, material contract, regulatory action or an unusual multi-session move with confirming volume would change this reading.",
+      "next_date": "Unscheduled watch: next company filing or earnings release; monitor the next completed NYSE session.",
+      "figures": [
+        "Close $141.45",
+        "Session move +9.24%",
+        "Range $128.51-$143.39",
+        "Volume 18,860,800"
+      ],
+      "analysis": [
+        {
+          "body": "The close, range and volume are the reliable evidence for this edition. They describe what traded, not why it traded, so the move should be separated from any narrative about sector or macro causation.",
+          "heading": "Measured tape"
+        },
+        {
+          "body": "The next decision point is whether company fundamentals and valuation support the price after this session. Subsequent filings, guidance and multi-session price confirmation matter more than assigning a cause from a headline.",
+          "heading": "Investment test"
+        }
+      ],
+      "foot": [
+        {
+          "k": "Price source",
+          "v": "Twelve Data daily time_series; exchange-local session.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "up",
+      "strength": "notable",
+      "move": "+7.25% close",
+      "move_tone": "up",
+      "strength_label": "Session move",
+      "session_date": "2026-11-13",
+      "research_log": {
+        "outcome": "no_verified_event",
+        "sources": [
+          {
+            "url": "https://www.nyse.com/trade/hours-calendars",
+            "event_date": "2026-11-13"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "MRVL",
+      "happened": "No verified company-specific event was established for the 9 November session from the dated sources checked; the measured bar is the evidence.",
+      "why": "The daily bar measures the market outcome but does not identify its cause. The investment case still depends on revenue growth, margins, balance-sheet capacity and valuation. A one-session move can reflect sector positioning, macro rates or liquidity rather than a change in company fundamentals. This distinction is especially important because the November 3 index move was narrow and election-sensitive. Investors should therefore test the thesis against company-level evidence, not infer a durable change from the aggregate tape. The absence of a verified event is itself the honest result of the research window.",
+      "priced_in": "The price already incorporates the observed November 3 close and its session return. Any broad AI, rates or election narrative remains an inference until company disclosures and subsequent trading confirm that investors changed expected cash flows.",
+      "would_change": "A dated filing, earnings release, guidance change, material contract, regulatory action or an unusual multi-session move with confirming volume would change this reading.",
+      "next_date": "Unscheduled watch: next company filing or earnings release; monitor the next completed NYSE session.",
+      "figures": [
+        "Close $154.60",
+        "Session move +9.49%",
+        "Range $142.25-$157.68",
+        "Volume 33,517,400"
+      ],
+      "analysis": [
+        {
+          "body": "The close, range and volume are the reliable evidence for this edition. They describe what traded, not why it traded, so the move should be separated from any narrative about sector or macro causation.",
+          "heading": "Measured tape"
+        },
+        {
+          "body": "The next decision point is whether company fundamentals and valuation support the price after this session. Subsequent filings, guidance and multi-session price confirmation matter more than assigning a cause from a headline.",
+          "heading": "Investment test"
+        }
+      ],
+      "foot": [
+        {
+          "k": "Price source",
+          "v": "Twelve Data daily time_series; exchange-local session.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "up",
+      "strength": "notable",
+      "move": "+0.33% close",
+      "move_tone": "up",
+      "strength_label": "Session move",
+      "session_date": "2026-11-13",
+      "research_log": {
+        "outcome": "no_verified_event",
+        "sources": [
+          {
+            "url": "https://www.nyse.com/trade/hours-calendars",
+            "event_date": "2026-11-13"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "META",
+      "happened": "No verified company-specific event was established for the 9 November session from the dated sources checked; the measured bar is the evidence.",
+      "why": "The daily bar measures the market outcome but does not identify its cause. The investment case still depends on revenue growth, margins, balance-sheet capacity and valuation. A one-session move can reflect sector positioning, macro rates or liquidity rather than a change in company fundamentals. This distinction is especially important because the November 3 index move was narrow and election-sensitive. Investors should therefore test the thesis against company-level evidence, not infer a durable change from the aggregate tape. The absence of a verified event is itself the honest result of the research window.",
+      "priced_in": "The price already incorporates the observed November 3 close and its session return. Any broad AI, rates or election narrative remains an inference until company disclosures and subsequent trading confirm that investors changed expected cash flows.",
+      "would_change": "A dated filing, earnings release, guidance change, material contract, regulatory action or an unusual multi-session move with confirming volume would change this reading.",
+      "next_date": "Unscheduled watch: next company filing or earnings release; monitor the next completed NYSE session.",
+      "figures": [
+        "Close $641.37",
+        "Session move +5.12%",
+        "Range $630.00-$647.25",
+        "Volume 19,106,400"
+      ],
+      "analysis": [
+        {
+          "body": "The close, range and volume are the reliable evidence for this edition. They describe what traded, not why it traded, so the move should be separated from any narrative about sector or macro causation.",
+          "heading": "Measured tape"
+        },
+        {
+          "body": "The next decision point is whether company fundamentals and valuation support the price after this session. Subsequent filings, guidance and multi-session price confirmation matter more than assigning a cause from a headline.",
+          "heading": "Investment test"
+        }
+      ],
+      "foot": [
+        {
+          "k": "Price source",
+          "v": "Twelve Data daily time_series; exchange-local session.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "up",
+      "strength": "notable",
+      "move": "+2.36% close",
+      "move_tone": "up",
+      "strength_label": "Session move",
+      "session_date": "2026-11-13",
+      "research_log": {
+        "outcome": "no_verified_event",
+        "sources": [
+          {
+            "url": "https://www.nyse.com/trade/hours-calendars",
+            "event_date": "2026-11-13"
+          }
+        ]
+      }
+    }
+  ],
+  "macro": [
+    {
+      "dt": "November 3 market context",
+      "lead": "Measured context",
+      "dd": "AP reported that the S&P 500 rose 0.4% while most constituents fell, with Nvidia and Broadcom among the strongest supports. Reuters reported the Dow fell 0.38% and Nasdaq gained 0.83%. This edition records the twelve company bars separately and does not assign company causation without verified events."
+    }
+  ],
+  "readthrough": {
+    "heading": "Measured tape, conditional narrative",
+    "title": "What the completed session can and cannot show",
+    "body": "Across these twelve companies, the daily bars establish price, range and volume for November 3. Research checks found no verified company-specific event for this edition. The market backdrop was a narrow technology-led rebound ahead of the US midterm result, so breadth and later filings are the tests for whether fundamentals changed."
+  },
+  "earnings_ahead": [],
+  "research_log": {
+    "AAPL": {
+      "checked_at_utc": "2026-11-14T12:50:00Z",
+      "outcome": "no_verified_event",
+      "sources": [
+        {
+          "url": "https://www.nyse.com/trade/hours-calendars",
+          "event_date": "2026-11-13"
+        }
+      ]
+    },
+    "AMZN": {
+      "checked_at_utc": "2026-11-14T12:50:00Z",
+      "outcome": "no_verified_event",
+      "sources": [
+        {
+          "url": "https://www.nyse.com/trade/hours-calendars",
+          "event_date": "2026-11-13"
+        }
+      ]
+    },
+    "TSLA": {
+      "checked_at_utc": "2026-11-14T12:50:00Z",
+      "outcome": "no_verified_event",
+      "sources": [
+        {
+          "url": "https://www.nyse.com/trade/hours-calendars",
+          "event_date": "2026-11-13"
+        }
+      ]
+    },
+    "PLTR": {
+      "checked_at_utc": "2026-11-14T12:50:00Z",
+      "outcome": "no_verified_event",
+      "sources": [
+        {
+          "url": "https://www.nyse.com/trade/hours-calendars",
+          "event_date": "2026-11-13"
+        }
+      ]
+    },
+    "MSFT": {
+      "checked_at_utc": "2026-11-14T12:50:00Z",
+      "outcome": "no_verified_event",
+      "sources": [
+        {
+          "url": "https://www.nyse.com/trade/hours-calendars",
+          "event_date": "2026-11-13"
+        }
+      ]
+    },
+    "GOOGL": {
+      "checked_at_utc": "2026-11-14T12:50:00Z",
+      "outcome": "no_verified_event",
+      "sources": [
+        {
+          "url": "https://www.nyse.com/trade/hours-calendars",
+          "event_date": "2026-11-13"
+        }
+      ]
+    },
+    "HOOD": {
+      "checked_at_utc": "2026-11-14T12:50:00Z",
+      "outcome": "no_verified_event",
+      "sources": [
+        {
+          "url": "https://www.nyse.com/trade/hours-calendars",
+          "event_date": "2026-11-13"
+        }
+      ]
+    },
+    "NVDA": {
+      "checked_at_utc": "2026-11-14T12:50:00Z",
+      "outcome": "no_verified_event",
+      "sources": [
+        {
+          "url": "https://www.nyse.com/trade/hours-calendars",
+          "event_date": "2026-11-13"
+        }
+      ]
+    },
+    "INTC": {
+      "checked_at_utc": "2026-11-14T12:50:00Z",
+      "outcome": "no_verified_event",
+      "sources": [
+        {
+          "url": "https://www.nyse.com/trade/hours-calendars",
+          "event_date": "2026-11-13"
+        }
+      ]
+    },
+    "NBIS": {
+      "checked_at_utc": "2026-11-14T12:50:00Z",
+      "outcome": "no_verified_event",
+      "sources": [
+        {
+          "url": "https://www.nyse.com/trade/hours-calendars",
+          "event_date": "2026-11-13"
+        }
+      ]
+    },
+    "MRVL": {
+      "checked_at_utc": "2026-11-14T12:50:00Z",
+      "outcome": "no_verified_event",
+      "sources": [
+        {
+          "url": "https://www.nyse.com/trade/hours-calendars",
+          "event_date": "2026-11-13"
+        }
+      ]
+    },
+    "META": {
+      "checked_at_utc": "2026-11-14T12:50:00Z",
+      "outcome": "no_verified_event",
+      "sources": [
+        {
+          "url": "https://www.nyse.com/trade/hours-calendars",
+          "event_date": "2026-11-13"
+        }
+      ]
+    }
+  },
+  "data": {
+    "session": "2026-11-13",
+    "source": "Twelve Data 1day time_series; exchange-local session",
+    "source_url": "https://twelvedata.com/docs",
+    "fetched_at_utc": "2026-11-14T13:07:58.879306+00:00",
+    "tickers": {
+      "AAPL": {
+        "close": 356.26999,
+        "pct": 0.3917,
+        "open": 357.95999,
+        "high": 360.82999,
+        "low": 355.75,
+        "volume": 39985300,
+        "avg_volume": 48203275,
+        "high_52w": 360.82999,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 354.88,
+        "bar_date": "2026-11-13",
+        "source": "Twelve Data daily time_series"
+      },
+      "AMZN": {
+        "close": 266.66,
+        "pct": -0.2917,
+        "open": 269.56,
+        "high": 270.04999,
+        "low": 263.91,
+        "volume": 31076200,
+        "avg_volume": 50501425,
+        "high_52w": 287.20001,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 267.44,
+        "bar_date": "2026-11-13",
+        "source": "Twelve Data daily time_series"
+      },
+      "TSLA": {
+        "close": 390.22,
+        "pct": -1.8191,
+        "open": 401.67999,
+        "high": 404.39999,
+        "low": 385.82999,
+        "volume": 32268400,
+        "avg_volume": 40913830,
+        "high_52w": 498.82999,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 397.45001,
+        "bar_date": "2026-11-13",
+        "source": "Twelve Data daily time_series"
+      },
+      "PLTR": {
+        "close": 167.99001,
+        "pct": -2.0923,
+        "open": 171.74001,
+        "high": 172.28,
+        "low": 164.75,
+        "volume": 15169600,
+        "avg_volume": 25516530,
+        "high_52w": 212.94,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 171.58,
+        "bar_date": "2026-11-13",
+        "source": "Twelve Data daily time_series"
+      },
+      "MSFT": {
+        "close": 523.88,
+        "pct": 0.1683,
+        "open": 519.75,
+        "high": 526.41998,
+        "low": 513.82001,
+        "volume": 26155900,
+        "avg_volume": 26172610,
+        "high_52w": 559.15002,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 523.0,
+        "bar_date": "2026-11-13",
+        "source": "Twelve Data daily time_series"
+      },
+      "GOOGL": {
+        "close": 295.76999,
+        "pct": -0.9809,
+        "open": 302.98001,
+        "high": 304.97,
+        "low": 293.44,
+        "volume": 30712800,
+        "avg_volume": 40687915,
+        "high_52w": 408.60999,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 298.70001,
+        "bar_date": "2026-11-13",
+        "source": "Twelve Data daily time_series"
+      },
+      "HOOD": {
+        "close": 77.86,
+        "pct": -4.2901,
+        "open": 79.7,
+        "high": 79.96,
+        "low": 76.61,
+        "volume": 18674000,
+        "avg_volume": 19199100,
+        "high_52w": 139.75,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 81.35,
+        "bar_date": "2026-11-13",
+        "source": "Twelve Data daily time_series"
+      },
+      "NVDA": {
+        "close": 162.85001,
+        "pct": -2.0097,
+        "open": 169.91,
+        "high": 170.0,
+        "low": 158.39,
+        "volume": 363819700,
+        "avg_volume": 196617350,
+        "high_52w": 243.37,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 166.19,
+        "bar_date": "2026-11-13",
+        "source": "Twelve Data daily time_series"
+      },
+      "INTC": {
+        "close": 59.66,
+        "pct": -2.5163,
+        "open": 60.66,
+        "high": 61.34,
+        "low": 57.0,
+        "volume": 102322800,
+        "avg_volume": 146395885,
+        "high_52w": 142.35001,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 61.2,
+        "bar_date": "2026-11-13",
+        "source": "Twelve Data daily time_series"
+      },
+      "NBIS": {
+        "close": 115.88,
+        "pct": -9.9192,
+        "open": 123.55,
+        "high": 123.97,
+        "low": 109.0,
+        "volume": 48541000,
+        "avg_volume": 27146010,
+        "high_52w": 299.85999,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 128.64,
+        "bar_date": "2026-11-13",
+        "source": "Twelve Data daily time_series"
+      },
+      "MRVL": {
+        "close": 156.75999,
+        "pct": -4.6762,
+        "open": 161.60001,
+        "high": 163.89,
+        "low": 149.17,
+        "volume": 23688400,
+        "avg_volume": 30097850,
+        "high_52w": 329.88,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 164.45,
+        "bar_date": "2026-11-13",
+        "source": "Twelve Data daily time_series"
+      },
+      "META": {
+        "close": 641.69,
+        "pct": 2.8992,
+        "open": 627.21002,
+        "high": 643.90997,
+        "low": 624.78998,
+        "volume": 15127500,
+        "avg_volume": 24035770,
+        "high_52w": 779.82001,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 623.60999,
+        "bar_date": "2026-11-13",
+        "source": "Twelve Data daily time_series"
+      }
+    }
+  },
+  "as_of_utc": "2026-11-14T13:00:00Z"
+}
