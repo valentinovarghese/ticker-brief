@@ -1,0 +1,283 @@
+{
+  "date": "2026-11-18",
+  "as_of_utc": "2026-11-18T13:00:00Z",
+  "headline": "Inflation pressures and uneven equity breadth frame Wednesday’s pre-open",
+  "overview": "At the 13:00 GMT editorial cutoff on Wednesday 18 November, New York was 08:00 EST: US cash equities were pre-open, so Tuesday 17 November remains the latest completed US stock session. The prior S&P 500 decline was broad, even as the overnight chip earnings backdrop improved. UK and euro-area October inflation releases, Japan’s trade figures, and US import prices supply dated cross-market evidence. Oil and currencies were still moving in their own live sessions. The next tests are US cash-market breadth, Federal Reserve minutes and whether incoming inflation readings confirm pressure beyond energy. No Wednesday US equity close is asserted.",
+  "general": [
+    {
+      "id": "equities",
+      "label": "Equities",
+      "items": [
+        {
+          "headline": "Broad US losses outlast Nvidia earnings",
+          "detail": "On 17 November the S&P 500 fell 1.0% to 7,341, and only 75 of its 502 constituents advanced, according to the 18 November Libella morning report. Software shares were particularly weak while semiconductor shares held up better. At the 13:00 London editorial cutoff on 18 November, New York was 08:00 EST and the US cash session had not opened; early futures were only a pre-open indication.",
+          "why": "The breadth gap matters because an earnings beat by one chip supplier does not establish that the wider market or software cash-flow expectations have recovered. Weak equal-weighted performance suggests the selloff extends beyond one heavily weighted stock. Subsequent breadth and closing prices, rather than a morning futures quote, will test whether investors broaden their risk appetite.",
+          "watch": "Compare the 18 November NYSE close and equal-weighted S&P 500 with the cap-weighted index; inspect sector breadth after the cash session.",
+          "status": "new",
+          "as_of": "2026-11-17",
+          "sources": [
+            {
+              "title": "Libella morning cross-asset report",
+              "url": "https://www.libella-group.com/morning/2026-11-18/",
+              "published": "2026-11-18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "treasuries_bonds",
+      "label": "Treasuries and bonds",
+      "items": [
+        {
+          "headline": "Treasury yields ease but remain elevated",
+          "detail": "Libella recorded the US two-year Treasury yield at 4.80% and ten-year at 5.10% for 17 November, down three and two basis points respectively on the day. Its 18 November morning note put the ten-year real yield at 2.92% for 16 November. These are completed dated observations, not a forecast for the unfinished 18 November US session.",
+          "why": "A small daily decline in yields does not erase elevated financing and discount rates. A high real yield makes long-duration growth expectations and new investment more demanding to justify. The relative movement of two-year and ten-year yields can help distinguish a policy repricing from a growth scare, but one day of changes is inconclusive.",
+          "watch": "Check the 18 November Treasury close and the Federal Reserve meeting minutes released later that day for changes in near-term policy pricing.",
+          "status": "new",
+          "as_of": "2026-11-17",
+          "sources": [
+            {
+              "title": "Libella morning cross-asset report",
+              "url": "https://www.libella-group.com/morning/2026-11-18/",
+              "published": "2026-11-18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "credit",
+      "label": "Corporate credit",
+      "items": [
+        {
+          "headline": "Weakest credit spreads diverge from broader calm",
+          "detail": "Libella estimated its CCC-to-B credit-spread ETF proxy at 9.87% on 17 November, 59 basis points wider over four weeks. It also reported that the broader OFR credit-stress measure was still negative at its latest 13 November reading. The proxy is a modelled market gauge, not a direct quote for every speculative-grade bond.",
+          "why": "The divergence is useful because it identifies where refinancing risk may emerge first if borrowing costs remain high. It does not establish a general credit seizure: broad stress and investment-grade funding have to corroborate that conclusion. Borrowers with weak cash flow are more sensitive to a sustained spread increase than large investment-grade issuers.",
+          "watch": "Compare the next high-yield spread and new-issue concessions with investment-grade spreads and the next OFR credit-stress update.",
+          "status": "new",
+          "as_of": "2026-11-17",
+          "sources": [
+            {
+              "title": "Libella morning cross-asset report",
+              "url": "https://www.libella-group.com/morning/2026-11-18/",
+              "published": "2026-11-18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "currencies",
+      "label": "Currencies",
+      "items": [
+        {
+          "headline": "Dollar strength meets imported inflation",
+          "detail": "Libella placed the dollar index at 103.70 at 07:02 London on 18 November, up 0.2% and near a one-year high in its series. It showed roughly $1.10 per euro, $1.32 per pound and 159.27 yen per dollar in the morning. The BLS separately reported on 17 November that October US import prices increased 1.1%, including a 0.8% rise excluding fuel.",
+          "why": "A firmer dollar changes the local-currency cost of traded goods and the dollar value of overseas earnings. Import prices can still rise despite dollar strength when other cost pressures dominate. These observations cannot isolate exchange-rate pass-through, but together they make the next inflation and central-bank readings more consequential.",
+          "watch": "Check the 18 November New York dollar close and the next import-price release before inferring a persistent currency trend.",
+          "status": "new",
+          "as_of": "2026-11-18",
+          "sources": [
+            {
+              "title": "Libella morning cross-asset report",
+              "url": "https://www.libella-group.com/morning/2026-11-18/",
+              "published": "2026-11-18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "headline": "Bitcoin remains below recent levels",
+          "detail": "Libella showed bitcoin near $64,606 in its 18 November morning cross-asset snapshot, down 0.39% over its stated one-day window and 12.65% over one week. Unlike US cash equities, bitcoin trades through the night and over weekends; this is a dated morning observation, not a fixed exchange close or a claim about the later 18 November price.",
+          "why": "The drawdown shows that a liquid risk asset has not been immune to tighter financing conditions and broader equity volatility. It does not prove the cause of the move, because crypto market structure, leverage and flows can matter independently. The useful test is whether spot demand and liquidity stabilize as other risk markets reopen.",
+          "watch": "Recheck a timestamped spot price and exchange volume after the US cash close, then compare it with equity breadth and dollar direction.",
+          "status": "new",
+          "as_of": "2026-11-18",
+          "sources": [
+            {
+              "title": "Libella morning cross-asset report",
+              "url": "https://www.libella-group.com/morning/2026-11-18/",
+              "published": "2026-11-18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commodities",
+      "label": "Commodities",
+      "items": [
+        {
+          "headline": "Oil and gold move in different risk channels",
+          "detail": "Libella reported January Brent around $91.94 a barrel at 07:00 London on 18 November, down 1.3% from its prior reference, after a $93.14 Tuesday settlement. Its morning snapshot put gold near $3,780 an ounce, down 2.2%. The BLS reported that October US import fuel prices had risen 3.6%, showing an earlier price-pressure channel rather than Wednesday’s later outcome.",
+          "why": "Oil volatility affects transport costs and inflation expectations, while gold can react to real yields and the dollar. The opposing timing of October import-price data and this morning’s futures move is a reminder that cost transmission lags spot prices. Neither observation establishes a finished 18 November commodity close.",
+          "watch": "Check the 18 November Brent settlement and subsequent fuel-import prices; compare gold with real yields and the dollar.",
+          "status": "new",
+          "as_of": "2026-11-18",
+          "sources": [
+            {
+              "title": "Libella morning cross-asset report",
+              "url": "https://www.libella-group.com/morning/2026-11-18/",
+              "published": "2026-11-18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "housing",
+      "label": "Housing",
+      "items": [
+        {
+          "headline": "Home improvement demand faces financing pressure",
+          "detail": "Home Depot reported on 17 November that fiscal third-quarter sales reached $43.4 billion, up 4.9% from a year earlier, and net earnings were $3.7 billion. The result measures one retailer’s activity, not national housing turnover. Libella’s latest completed US ten-year Treasury yield was still 5.10% on 17 November, a financing backdrop for mortgage rates.",
+          "why": "Housing turnover and major renovation spending can be sensitive to borrowing costs, but sales growth at a retailer may also reflect pricing, professional customers and acquisitions. Investors should avoid equating one company’s revenue increase with a broad housing recovery. Mortgage applications, transaction volumes and comparable-store sales are better cross-checks.",
+          "watch": "Compare the next mortgage application and existing-home-sales releases with Home Depot’s comparable-sales disclosure and management guidance.",
+          "status": "new",
+          "as_of": "2026-11-17",
+          "sources": [
+            {
+              "title": "Home Depot fiscal third-quarter results",
+              "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/press-release/q3-2026-earnings-release.pdf",
+              "published": "2026-11-17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us_policy",
+      "label": "US policy",
+      "items": [
+        {
+          "headline": "Import prices sharpen the Federal Reserve test",
+          "detail": "The US Bureau of Labor Statistics reported on 17 November that October import prices rose 1.1% month on month and export prices also rose 1.1%. Nonfuel imports were up 0.8%. BLS noted that some twelve-month comparisons are unavailable because survey data were not collected during the October 2025 federal funding lapse; those gaps must not be filled with invented annual rates.",
+          "why": "The release adds a trade-price input to the inflation debate, but it is not the consumer-price index and does not dictate a rate decision by itself. The Federal Reserve must weigh domestic demand, employment and the persistence of pass-through. The missing year-earlier comparisons also limit simple claims about acceleration.",
+          "watch": "Read the October Federal Reserve meeting minutes due later on 18 November, then compare the next CPI and import-price releases.",
+          "status": "new",
+          "as_of": "2026-11-17",
+          "sources": [
+            {
+              "title": "BLS October import and export prices",
+              "url": "https://www.bls.gov/news.release/ximpim.htm",
+              "published": "2026-11-17"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "international": [
+    {
+      "id": "uk",
+      "label": "UK",
+      "items": [
+        {
+          "headline": "UK consumer inflation edges higher",
+          "detail": "The Office for National Statistics reported at 07:00 London on 18 November that UK CPI inflation rose to 3.6% in October from 3.5% in September. CPIH reached 3.7% from 3.6%. Transport, especially motor fuel, was the largest upward contribution to the change in the annual rate, while core CPIH was 3.1% and little changed.",
+          "why": "The rise narrows the room for a quick easing in Bank of England policy if it persists, especially where fuel costs feed into wages and services. One month does not establish persistence: core measures and future energy prices can diverge from the headline. The release is a completed UK statistic available before the editorial cutoff.",
+          "watch": "Check the next UK retail-sales release and the December CPI report for evidence that headline pressure is spreading or fading.",
+          "status": "new",
+          "as_of": "2026-11-18",
+          "sources": [
+            {
+              "title": "ONS October UK consumer prices",
+              "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/october2026",
+              "published": "2026-11-18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "euro_area",
+      "label": "Euro area",
+      "items": [
+        {
+          "headline": "Euro-area inflation reaches four percent",
+          "detail": "Eurostat reported on 18 November that euro-area annual inflation was 4.0% in October, up from 3.8% in September and 2.1% a year earlier. It attributed 1.89 percentage points of the annual rate to energy and 1.55 points to services. The final release was available before the 13:00 London cutoff and should be distinguished from earlier flash estimates.",
+          "why": "Energy is a direct pressure on households and firms, while services inflation is relevant to persistence in domestic costs. The mix increases the importance of incoming wage and demand data for the European Central Bank. It does not prove a particular policy vote or the path of bond yields after the cutoff.",
+          "watch": "Compare the next euro-area wage and consumer-price releases with ECB communications and the December inflation update.",
+          "status": "new",
+          "as_of": "2026-11-18",
+          "sources": [
+            {
+              "title": "Eurostat October euro-area inflation",
+              "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-18112026-ap",
+              "published": "2026-11-18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "items": [
+        {
+          "headline": "Chinese retail demand remains subdued",
+          "detail": "China’s National Bureau of Statistics reported on 17 November that October retail sales grew 0.4% from a year earlier, while sales excluding automobiles rose 2.5%. For January through October, total sales were up 1.0%. Libella’s 18 November morning report showed the Shanghai Composite only 0.1% higher at its close and Hong Kong shares lower in early trading.",
+          "why": "Soft headline consumption makes the strength of domestic demand an important test for China-exposed companies. The stronger ex-auto figure shows the weakness is uneven, so a single aggregate should not be used to infer every retailer’s trend. Equity-market moves also reflect policy and global technology sentiment, not just the retail release.",
+          "watch": "Check China’s next monthly retail and property indicators and the outcome of the APEC discussions before treating a market rebound as demand recovery.",
+          "status": "new",
+          "as_of": "2026-11-17",
+          "sources": [
+            {
+              "title": "China National Bureau of Statistics October retail sales",
+              "url": "https://www.stats.gov.cn/english/PressRelease/202611/t20261117_1965878.html",
+              "published": "2026-11-17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "japan",
+      "label": "Japan",
+      "items": [
+        {
+          "headline": "Japan records October goods trade deficit",
+          "detail": "Japan’s Ministry of Finance released provisional October trade figures on 18 November. Exports were 11.77 trillion yen, up 20.5% from a year earlier; imports were 12.25 trillion yen, up 21.6%, leaving a 476.5 billion yen deficit on the unadjusted customs basis. Libella’s morning note separately recorded a 0.3% Nikkei rise to 59,024.",
+          "why": "The import bill can press on the trade balance even while exporters grow, and yen moves can change the local-currency value of both flows. These data alone cannot identify a lasting external-sector trend because energy prices, volumes and seasonal effects need separation. The Nikkei move is a distinct market observation, not a causal verdict.",
+          "watch": "Compare Japan’s next trade release and October inflation with Bank of Japan guidance, especially the split between import values and volumes.",
+          "status": "new",
+          "as_of": "2026-11-18",
+          "sources": [
+            {
+              "title": "Japan Ministry of Finance October trade statistics",
+              "url": "https://www.customs.go.jp/toukei/shinbun/trade-st_e/2026/2026104e.pdf",
+              "published": "2026-11-18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other_world",
+      "label": "Other world",
+      "items": [
+        {
+          "headline": "Korean chip shares lead Asian rebound",
+          "detail": "Libella’s 18 November morning report recorded the Kospi up 1.8% at its close, with SK hynix up 4.2% and Samsung Electronics up 2.3%. Taiwan’s Taiex closed up 0.3%, while its report showed the Hang Seng down 1.1% at an early-morning observation. These are market-specific timestamps and do not describe a uniform Asian trading day.",
+          "why": "The contrast helps distinguish enthusiasm for chip demand from a broad regional recovery. Korean memory suppliers can benefit from AI investment, but their earnings still depend on pricing, capacity and customer orders. Hong Kong weakness cautions against assuming that one US chipmaker’s results resolve every regional demand concern.",
+          "watch": "Check the next Korean and Taiwanese cash closes and memory-supplier guidance against Hong Kong and mainland breadth.",
+          "status": "new",
+          "as_of": "2026-11-18",
+          "sources": [
+            {
+              "title": "Libella morning cross-asset report",
+              "url": "https://www.libella-group.com/morning/2026-11-18/",
+              "published": "2026-11-18"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
