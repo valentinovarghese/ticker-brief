@@ -1,0 +1,1025 @@
+{
+  "date": "2026-11-18",
+  "weekday": "Wednesday",
+  "headline": "Wednesday close: Nvidia reaction and new cloud AI agreements",
+  "as_of_utc": "2026-11-19T13:08:30.875006Z",
+  "gauge": [
+    {
+      "text": "Completed NYSE session: November 18, 2026",
+      "tone": "flat"
+    }
+  ],
+  "quick": [
+    "Twelve Data validated all twelve November 18 completed 1day bars.",
+    "Nvidia’s first regular session after earnings fell; Microsoft and Intel announced an Azure infrastructure agreement."
+  ],
+  "entries": [
+    {
+      "ticker": "AAPL",
+      "happened": "AAPL closed at $352.45, +0.15% against the prior close, on 33,393,854 shares versus a trailing average of 48,071,085. The daily range was $351.47 to $356.42. Apple newsroom showed product and entertainment updates, but no material November 18 financial disclosure was verified. The small gain therefore has no established company catalyst.",
+      "why": "Device replacement and services attachment remain the operating mechanisms; a one-day gain gives no evidence that demand, pricing or margins improved. Higher rates can pressure the value of future ecosystem cash flows. Validate new device orders and service growth against gross margin and cash generation. The measured +0.15% return and volume comparison show participation but cannot identify investor motive; subsequent dated operating evidence must test the thesis. A single completed bar also cannot distinguish a change in expected demand from positioning, interest rates, or sector rotation. Compare the next company disclosure with this session’s price and volume before treating the move as evidence of a lasting change in intrinsic value. The source date matters because an older announcement can be relevant background without being a new catalyst.",
+      "priced_in": "At $352.45, the price reflects the completed November 18 trading session; it does not reveal which operating expectation changed. The dated source supplies context, not an identified driver.",
+      "would_change": "A dated release with measurable revenue, margin, customer or cash-flow evidence, followed by confirming completed-session trading, would change this reading.",
+      "next_date": "Watch the next dated company filing and device-demand disclosure.",
+      "figures": [
+        "Close $352.45",
+        "Session move +0.15%",
+        "Range $351.47-$356.42",
+        "Volume 33,393,854; average 48,071,085"
+      ],
+      "analysis": [
+        {
+          "heading": "Investment mechanism",
+          "body": "Device replacement and services attachment remain the operating mechanisms; a one-day gain gives no evidence that demand, pricing or margins improved. The next disclosure must demonstrate whether this mechanism creates profitable growth, with measurable customer demand and cash returns rather than product claims alone."
+        },
+        {
+          "heading": "Risk and confirmation",
+          "body": "Higher rates can pressure the value of future ecosystem cash flows. Validate new device orders and service growth against gross margin and cash generation. Later completed sessions can show persistence, while filings provide the operating evidence. The price move by itself does not identify the cause or resolve execution risk."
+        }
+      ],
+      "foot": [
+        {
+          "k": "Dated company source",
+          "v": "Company disclosure or source checked, 2026-11-18.",
+          "url": "https://www.apple.com/newsroom/archive/"
+        },
+        {
+          "k": "Market context",
+          "v": "Libella morning report, November 19.",
+          "url": "https://www.libella-group.com/morning/2026-11-19/"
+        },
+        {
+          "k": "Price source",
+          "v": "Twelve Data completed 1day bar.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "up",
+      "strength": "regular",
+      "move": "+0.15% close",
+      "move_tone": "up",
+      "strength_label": "Session move",
+      "session_date": "2026-11-18",
+      "research_log": {
+        "checked_at_utc": "2026-11-19T13:08:30.875006Z",
+        "outcome": "no_verified_event",
+        "sources": [
+          {
+            "url": "https://www.apple.com/newsroom/archive/",
+            "event_date": "2026-11-18"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "AMZN",
+      "happened": "AMZN closed at $267.74, +3.82% against the prior close, on 40,999,600 shares versus a trailing average of 49,818,655. The daily range was $259.51 to $268.29. No material November 18 Amazon financial event was verified in the company news checked. The 3.82% advance is a completed price observation, not evidence of a particular company catalyst.",
+      "why": "AWS demand and retail delivery economics drive the return case. A strong bar warrants attention but does not establish which segment changed expectations. Large infrastructure spending requires utilization and margins to justify returns. Grocery expansion can lift frequency while adding delivery and spoilage costs. The measured +3.82% return and volume comparison show participation but cannot identify investor motive; subsequent dated operating evidence must test the thesis. A single completed bar also cannot distinguish a change in expected demand from positioning, interest rates, or sector rotation. Compare the next company disclosure with this session’s price and volume before treating the move as evidence of a lasting change in intrinsic value. The source date matters because an older announcement can be relevant background without being a new catalyst.",
+      "priced_in": "At $267.74, the price reflects the completed November 18 trading session; it does not reveal which operating expectation changed. The dated source supplies context, not an identified driver.",
+      "would_change": "A dated release with measurable revenue, margin, customer or cash-flow evidence, followed by confirming completed-session trading, would change this reading.",
+      "next_date": "Watch AWS revenue, capital expenditure and retail operating margins.",
+      "figures": [
+        "Close $267.74",
+        "Session move +3.82%",
+        "Range $259.51-$268.29",
+        "Volume 40,999,600; average 49,818,655"
+      ],
+      "analysis": [
+        {
+          "heading": "Investment mechanism",
+          "body": "AWS demand and retail delivery economics drive the return case. A strong bar warrants attention but does not establish which segment changed expectations. The next disclosure must demonstrate whether this mechanism creates profitable growth, with measurable customer demand and cash returns rather than product claims alone."
+        },
+        {
+          "heading": "Risk and confirmation",
+          "body": "Large infrastructure spending requires utilization and margins to justify returns. Grocery expansion can lift frequency while adding delivery and spoilage costs. Later completed sessions can show persistence, while filings provide the operating evidence. The price move by itself does not identify the cause or resolve execution risk."
+        }
+      ],
+      "foot": [
+        {
+          "k": "Dated company source",
+          "v": "Company disclosure or source checked, 2026-11-18.",
+          "url": "https://www.aboutamazon.com/news/company-news"
+        },
+        {
+          "k": "Market context",
+          "v": "Libella morning report, November 19.",
+          "url": "https://www.libella-group.com/morning/2026-11-19/"
+        },
+        {
+          "k": "Price source",
+          "v": "Twelve Data completed 1day bar.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "up",
+      "strength": "notable",
+      "move": "+3.82% close",
+      "move_tone": "up",
+      "strength_label": "Session move",
+      "session_date": "2026-11-18",
+      "research_log": {
+        "checked_at_utc": "2026-11-19T13:08:30.875006Z",
+        "outcome": "no_verified_event",
+        "sources": [
+          {
+            "url": "https://www.aboutamazon.com/news/company-news",
+            "event_date": "2026-11-18"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "happened": "TSLA closed at $383.72, +0.95% against the prior close, on 26,666,127 shares versus a trailing average of 38,509,510. The daily range was $378.36 to $389.27. No material November 18 Tesla financial disclosure was verified in its SEC filing list. The November 17 proxy materials remain governance context, not proof of Wednesday’s gain.",
+      "why": "Vehicle pricing, deliveries and energy storage cash generation are nearer-term measurable drivers; autonomy expectations add long-dated option value. A modest price increase does not validate robotaxi unit economics. Margins, cash flow and governance vote results provide stronger tests. The measured +0.95% return and volume comparison show participation but cannot identify investor motive; subsequent dated operating evidence must test the thesis. A single completed bar also cannot distinguish a change in expected demand from positioning, interest rates, or sector rotation. Compare the next company disclosure with this session’s price and volume before treating the move as evidence of a lasting change in intrinsic value. The source date matters because an older announcement can be relevant background without being a new catalyst.",
+      "priced_in": "At $383.72, the price reflects the completed November 18 trading session; it does not reveal which operating expectation changed. The dated source supplies context, not an identified driver.",
+      "would_change": "A dated release with measurable revenue, margin, customer or cash-flow evidence, followed by confirming completed-session trading, would change this reading.",
+      "next_date": "December 3 annual meeting and the next operating update.",
+      "figures": [
+        "Close $383.72",
+        "Session move +0.95%",
+        "Range $378.36-$389.27",
+        "Volume 26,666,127; average 38,509,510"
+      ],
+      "analysis": [
+        {
+          "heading": "Investment mechanism",
+          "body": "Vehicle pricing, deliveries and energy storage cash generation are nearer-term measurable drivers; autonomy expectations add long-dated option value. The next disclosure must demonstrate whether this mechanism creates profitable growth, with measurable customer demand and cash returns rather than product claims alone."
+        },
+        {
+          "heading": "Risk and confirmation",
+          "body": "A modest price increase does not validate robotaxi unit economics. Margins, cash flow and governance vote results provide stronger tests. Later completed sessions can show persistence, while filings provide the operating evidence. The price move by itself does not identify the cause or resolve execution risk."
+        }
+      ],
+      "foot": [
+        {
+          "k": "Dated company source",
+          "v": "Company disclosure or source checked, 2026-11-18.",
+          "url": "https://ir.tesla.com/sec-filings"
+        },
+        {
+          "k": "Market context",
+          "v": "Libella morning report, November 19.",
+          "url": "https://www.libella-group.com/morning/2026-11-19/"
+        },
+        {
+          "k": "Price source",
+          "v": "Twelve Data completed 1day bar.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "up",
+      "strength": "regular",
+      "move": "+0.95% close",
+      "move_tone": "up",
+      "strength_label": "Session move",
+      "session_date": "2026-11-18",
+      "research_log": {
+        "checked_at_utc": "2026-11-19T13:08:30.875006Z",
+        "outcome": "no_verified_event",
+        "sources": [
+          {
+            "url": "https://ir.tesla.com/sec-filings",
+            "event_date": "2026-11-18"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "PLTR",
+      "happened": "PLTR closed at $156.67, +0.07% against the prior close, on 14,770,291 shares versus a trailing average of 24,424,915. The daily range was $153.50 to $158.44. No material November 18 Palantir company event was verified on its investor results page. Earlier third-quarter results provide context, but cannot be assigned as a new Wednesday catalyst.",
+      "why": "The investment mechanism is conversion of enterprise AI deployments and government contracts into sustained revenue and cash flow. A high growth valuation is sensitive to contract timing and discount rates. Check customer concentration and margins before extrapolating one near-flat session. The measured +0.07% return and volume comparison show participation but cannot identify investor motive; subsequent dated operating evidence must test the thesis. A single completed bar also cannot distinguish a change in expected demand from positioning, interest rates, or sector rotation. Compare the next company disclosure with this session’s price and volume before treating the move as evidence of a lasting change in intrinsic value. The source date matters because an older announcement can be relevant background without being a new catalyst.",
+      "priced_in": "At $156.67, the price reflects the completed November 18 trading session; it does not reveal which operating expectation changed. The dated source supplies context, not an identified driver.",
+      "would_change": "A dated release with measurable revenue, margin, customer or cash-flow evidence, followed by confirming completed-session trading, would change this reading.",
+      "next_date": "Watch new contract disclosures and next quarterly guidance.",
+      "figures": [
+        "Close $156.67",
+        "Session move +0.07%",
+        "Range $153.50-$158.44",
+        "Volume 14,770,291; average 24,424,915"
+      ],
+      "analysis": [
+        {
+          "heading": "Investment mechanism",
+          "body": "The investment mechanism is conversion of enterprise AI deployments and government contracts into sustained revenue and cash flow. The next disclosure must demonstrate whether this mechanism creates profitable growth, with measurable customer demand and cash returns rather than product claims alone."
+        },
+        {
+          "heading": "Risk and confirmation",
+          "body": "A high growth valuation is sensitive to contract timing and discount rates. Check customer concentration and margins before extrapolating one near-flat session. Later completed sessions can show persistence, while filings provide the operating evidence. The price move by itself does not identify the cause or resolve execution risk."
+        }
+      ],
+      "foot": [
+        {
+          "k": "Dated company source",
+          "v": "Company disclosure or source checked, 2026-11-18.",
+          "url": "https://investors.palantir.com/financials/quarterly-results"
+        },
+        {
+          "k": "Market context",
+          "v": "Libella morning report, November 19.",
+          "url": "https://www.libella-group.com/morning/2026-11-19/"
+        },
+        {
+          "k": "Price source",
+          "v": "Twelve Data completed 1day bar.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "up",
+      "strength": "regular",
+      "move": "+0.07% close",
+      "move_tone": "up",
+      "strength_label": "Session move",
+      "session_date": "2026-11-18",
+      "research_log": {
+        "checked_at_utc": "2026-11-19T13:08:30.875006Z",
+        "outcome": "no_verified_event",
+        "sources": [
+          {
+            "url": "https://investors.palantir.com/financials/quarterly-results",
+            "event_date": "2026-11-18"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "happened": "MSFT closed at $508.29, +0.41% against the prior close, on 21,964,800 shares versus a trailing average of 27,521,810. The daily range was $501.08 to $510.44. Microsoft published an expanded Intel partnership for Azure infrastructure on November 18. Its announcement describes Intel EMIB packaging and multi-year Xeon supply; it does not quantify financial returns or prove the cause of the share gain.",
+      "why": "Custom silicon packaging and server supply could improve Azure capacity, performance and availability as AI workloads grow. The commercial test is Azure growth and cash return after heavy data-centre investment. Performance examples are not a forecast of aggregate profit. The measured +0.41% return and volume comparison show participation but cannot identify investor motive; subsequent dated operating evidence must test the thesis. A single completed bar also cannot distinguish a change in expected demand from positioning, interest rates, or sector rotation. Compare the next company disclosure with this session’s price and volume before treating the move as evidence of a lasting change in intrinsic value. The source date matters because an older announcement can be relevant background without being a new catalyst.",
+      "priced_in": "At $508.29, the price reflects the completed November 18 trading session; it does not reveal which operating expectation changed. The dated source supplies context, not an identified driver.",
+      "would_change": "A dated release with measurable revenue, margin, customer or cash-flow evidence, followed by confirming completed-session trading, would change this reading.",
+      "next_date": "Watch Azure growth, supply deployment and capital spending at the next results.",
+      "figures": [
+        "Close $508.29",
+        "Session move +0.41%",
+        "Range $501.08-$510.44",
+        "Volume 21,964,800; average 27,521,810"
+      ],
+      "analysis": [
+        {
+          "heading": "Investment mechanism",
+          "body": "Custom silicon packaging and server supply could improve Azure capacity, performance and availability as AI workloads grow. The next disclosure must demonstrate whether this mechanism creates profitable growth, with measurable customer demand and cash returns rather than product claims alone."
+        },
+        {
+          "heading": "Risk and confirmation",
+          "body": "The commercial test is Azure growth and cash return after heavy data-centre investment. Performance examples are not a forecast of aggregate profit. Later completed sessions can show persistence, while filings provide the operating evidence. The price move by itself does not identify the cause or resolve execution risk."
+        }
+      ],
+      "foot": [
+        {
+          "k": "Dated company source",
+          "v": "Company disclosure or source checked, 2026-11-18.",
+          "url": "https://news.microsoft.com/source/2026/11/18/microsoft-and-intel-deepen-collaboration-to-deliver-differentiated-azure-infrastructure/"
+        },
+        {
+          "k": "Market context",
+          "v": "Libella morning report, November 19.",
+          "url": "https://www.libella-group.com/morning/2026-11-19/"
+        },
+        {
+          "k": "Price source",
+          "v": "Twelve Data completed 1day bar.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "up",
+      "strength": "regular",
+      "move": "+0.41% close",
+      "move_tone": "up",
+      "strength_label": "Session move",
+      "session_date": "2026-11-18",
+      "research_log": {
+        "checked_at_utc": "2026-11-19T13:08:30.875006Z",
+        "outcome": "dated_event",
+        "sources": [
+          {
+            "url": "https://news.microsoft.com/source/2026/11/18/microsoft-and-intel-deepen-collaboration-to-deliver-differentiated-azure-infrastructure/",
+            "event_date": "2026-11-18"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "GOOGL",
+      "happened": "GOOGL closed at $282.44, +0.80% against the prior close, on 27,190,700 shares versus a trailing average of 42,235,645. The daily range was $279.69 to $284.97. Google introduced Gemini 4 Neon on November 18, describing model capabilities for software, knowledge and science tasks. Benchmark claims and the 0.80% share gain do not establish adoption or profit.",
+      "why": "Model capability can support Cloud sales and defend Search engagement, provided inference cost and monetization scale together. Benchmarks do not measure production revenue or customer retention. Search traffic changes could also alter ad economics while infrastructure costs rise. The measured +0.80% return and volume comparison show participation but cannot identify investor motive; subsequent dated operating evidence must test the thesis. A single completed bar also cannot distinguish a change in expected demand from positioning, interest rates, or sector rotation. Compare the next company disclosure with this session’s price and volume before treating the move as evidence of a lasting change in intrinsic value. The source date matters because an older announcement can be relevant background without being a new catalyst.",
+      "priced_in": "At $282.44, the price reflects the completed November 18 trading session; it does not reveal which operating expectation changed. The dated source supplies context, not an identified driver.",
+      "would_change": "A dated release with measurable revenue, margin, customer or cash-flow evidence, followed by confirming completed-session trading, would change this reading.",
+      "next_date": "Watch model adoption, Cloud margin and Search ad pricing.",
+      "figures": [
+        "Close $282.44",
+        "Session move +0.80%",
+        "Range $279.69-$284.97",
+        "Volume 27,190,700; average 42,235,645"
+      ],
+      "analysis": [
+        {
+          "heading": "Investment mechanism",
+          "body": "Model capability can support Cloud sales and defend Search engagement, provided inference cost and monetization scale together. The next disclosure must demonstrate whether this mechanism creates profitable growth, with measurable customer demand and cash returns rather than product claims alone."
+        },
+        {
+          "heading": "Risk and confirmation",
+          "body": "Benchmarks do not measure production revenue or customer retention. Search traffic changes could also alter ad economics while infrastructure costs rise. Later completed sessions can show persistence, while filings provide the operating evidence. The price move by itself does not identify the cause or resolve execution risk."
+        }
+      ],
+      "foot": [
+        {
+          "k": "Dated company source",
+          "v": "Company disclosure or source checked, 2026-11-18.",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+        },
+        {
+          "k": "Market context",
+          "v": "Libella morning report, November 19.",
+          "url": "https://www.libella-group.com/morning/2026-11-19/"
+        },
+        {
+          "k": "Price source",
+          "v": "Twelve Data completed 1day bar.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "up",
+      "strength": "regular",
+      "move": "+0.80% close",
+      "move_tone": "up",
+      "strength_label": "Session move",
+      "session_date": "2026-11-18",
+      "research_log": {
+        "checked_at_utc": "2026-11-19T13:08:30.875006Z",
+        "outcome": "dated_event",
+        "sources": [
+          {
+            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+            "event_date": "2026-11-18"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "HOOD",
+      "happened": "HOOD closed at $69.17, -0.03% against the prior close, on 15,970,446 shares versus a trailing average of 20,192,590. The daily range was $67.56 to $69.95. No material November 18 Robinhood company disclosure was verified. Its November 12 October operating update is the latest dated activity baseline checked, not a cause of the near-flat Wednesday close.",
+      "why": "Trading revenue depends on options, crypto and equity activity, while net deposits and funded accounts shape the longer-term base. October crypto notional volume fell month on month, but November activity is still unreported. A flat bar cannot resolve the near-term revenue mix. The measured -0.03% return and volume comparison show participation but cannot identify investor motive; subsequent dated operating evidence must test the thesis. A single completed bar also cannot distinguish a change in expected demand from positioning, interest rates, or sector rotation. Compare the next company disclosure with this session’s price and volume before treating the move as evidence of a lasting change in intrinsic value. The source date matters because an older announcement can be relevant background without being a new catalyst.",
+      "priced_in": "At $69.17, the price reflects the completed November 18 trading session; it does not reveal which operating expectation changed. The dated source supplies context, not an identified driver.",
+      "would_change": "A dated release with measurable revenue, margin, customer or cash-flow evidence, followed by confirming completed-session trading, would change this reading.",
+      "next_date": "Watch next monthly operating metrics and crypto activity.",
+      "figures": [
+        "Close $69.17",
+        "Session move -0.03%",
+        "Range $67.56-$69.95",
+        "Volume 15,970,446; average 20,192,590"
+      ],
+      "analysis": [
+        {
+          "heading": "Investment mechanism",
+          "body": "Trading revenue depends on options, crypto and equity activity, while net deposits and funded accounts shape the longer-term base. The next disclosure must demonstrate whether this mechanism creates profitable growth, with measurable customer demand and cash returns rather than product claims alone."
+        },
+        {
+          "heading": "Risk and confirmation",
+          "body": "October crypto notional volume fell month on month, but November activity is still unreported. A flat bar cannot resolve the near-term revenue mix. Later completed sessions can show persistence, while filings provide the operating evidence. The price move by itself does not identify the cause or resolve execution risk."
+        }
+      ],
+      "foot": [
+        {
+          "k": "Dated company source",
+          "v": "Company disclosure or source checked, 2026-11-12.",
+          "url": "https://investors.robinhood.com/static-files/60041c13-fa62-4bc5-ae00-36b45fe8564c"
+        },
+        {
+          "k": "Market context",
+          "v": "Libella morning report, November 19.",
+          "url": "https://www.libella-group.com/morning/2026-11-19/"
+        },
+        {
+          "k": "Price source",
+          "v": "Twelve Data completed 1day bar.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "down",
+      "strength": "regular",
+      "move": "-0.03% close",
+      "move_tone": "down",
+      "strength_label": "Session move",
+      "session_date": "2026-11-18",
+      "research_log": {
+        "checked_at_utc": "2026-11-19T13:08:30.875006Z",
+        "outcome": "no_verified_event",
+        "sources": [
+          {
+            "url": "https://investors.robinhood.com/static-files/60041c13-fa62-4bc5-ae00-36b45fe8564c",
+            "event_date": "2026-11-12"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "happened": "NVDA closed at $150.96, -2.89% against the prior close, on 345,169,600 shares versus a trailing average of 236,970,225. The daily range was $150.40 to $159.70. Nvidia’s November 17 after-close fiscal third-quarter release preceded this first completed regular-session reaction. The November 18 bar fell 2.89% on elevated volume; the result and price are contemporaneous, not a proven single-cause explanation.",
+      "why": "Fiscal third-quarter revenue of $115.8 billion and next-quarter guidance of $130.0 billion show enormous current accelerator demand. The next quarter includes an extra week, and customer financing, export controls and capacity growth complicate extrapolation. Test margins and cash conversion as supply expands. The measured -2.89% return and volume comparison show participation but cannot identify investor motive; subsequent dated operating evidence must test the thesis. A single completed bar also cannot distinguish a change in expected demand from positioning, interest rates, or sector rotation. Compare the next company disclosure with this session’s price and volume before treating the move as evidence of a lasting change in intrinsic value. The source date matters because an older announcement can be relevant background without being a new catalyst.",
+      "priced_in": "At $150.96, the price reflects the completed November 18 trading session; it does not reveal which operating expectation changed. The dated source supplies context, not an identified driver.",
+      "would_change": "A dated release with measurable revenue, margin, customer or cash-flow evidence, followed by confirming completed-session trading, would change this reading.",
+      "next_date": "Watch the next filing, shipment mix and completed-session follow-through.",
+      "figures": [
+        "Close $150.96",
+        "Session move -2.89%",
+        "Range $150.40-$159.70",
+        "Volume 345,169,600; average 236,970,225"
+      ],
+      "analysis": [
+        {
+          "heading": "Investment mechanism",
+          "body": "Fiscal third-quarter revenue of $115.8 billion and next-quarter guidance of $130.0 billion show enormous current accelerator demand. The next disclosure must demonstrate whether this mechanism creates profitable growth, with measurable customer demand and cash returns rather than product claims alone."
+        },
+        {
+          "heading": "Risk and confirmation",
+          "body": "The next quarter includes an extra week, and customer financing, export controls and capacity growth complicate extrapolation. Test margins and cash conversion as supply expands. Later completed sessions can show persistence, while filings provide the operating evidence. The price move by itself does not identify the cause or resolve execution risk."
+        }
+      ],
+      "foot": [
+        {
+          "k": "Dated company source",
+          "v": "Company disclosure or source checked, 2026-11-17.",
+          "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/6afcc55b3d633299c104d103/"
+        },
+        {
+          "k": "Market context",
+          "v": "Libella morning report, November 19.",
+          "url": "https://www.libella-group.com/morning/2026-11-19/"
+        },
+        {
+          "k": "Price source",
+          "v": "Twelve Data completed 1day bar.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "down",
+      "strength": "notable",
+      "move": "-2.89% close",
+      "move_tone": "down",
+      "strength_label": "Session move",
+      "session_date": "2026-11-18",
+      "research_log": {
+        "checked_at_utc": "2026-11-19T13:08:30.875006Z",
+        "outcome": "dated_event",
+        "sources": [
+          {
+            "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/6afcc55b3d633299c104d103/",
+            "event_date": "2026-11-17"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "INTC",
+      "happened": "INTC closed at $54.67, -0.91% against the prior close, on 80,545,900 shares versus a trailing average of 146,620,100. The daily range was $53.44 to $56.00. Microsoft’s November 18 release confirms an expanded Intel Azure agreement including EMIB packaging and multi-year Xeon supply. It does not quantify foundry revenue or establish why Intel fell 0.91%.",
+      "why": "A named packaging customer and CPU supply can improve utilization and validate parts of Intel’s manufacturing strategy. The agreement needs delivered volumes, yield and margin evidence. High fabrication fixed costs and financing needs can offset strategic wins. The measured -0.91% return and volume comparison show participation but cannot identify investor motive; subsequent dated operating evidence must test the thesis. A single completed bar also cannot distinguish a change in expected demand from positioning, interest rates, or sector rotation. Compare the next company disclosure with this session’s price and volume before treating the move as evidence of a lasting change in intrinsic value. The source date matters because an older announcement can be relevant background without being a new catalyst.",
+      "priced_in": "At $54.67, the price reflects the completed November 18 trading session; it does not reveal which operating expectation changed. The dated source supplies context, not an identified driver.",
+      "would_change": "A dated release with measurable revenue, margin, customer or cash-flow evidence, followed by confirming completed-session trading, would change this reading.",
+      "next_date": "Watch EMIB deployment, Xeon shipments and foundry margin disclosures.",
+      "figures": [
+        "Close $54.67",
+        "Session move -0.91%",
+        "Range $53.44-$56.00",
+        "Volume 80,545,900; average 146,620,100"
+      ],
+      "analysis": [
+        {
+          "heading": "Investment mechanism",
+          "body": "A named packaging customer and CPU supply can improve utilization and validate parts of Intel’s manufacturing strategy. The next disclosure must demonstrate whether this mechanism creates profitable growth, with measurable customer demand and cash returns rather than product claims alone."
+        },
+        {
+          "heading": "Risk and confirmation",
+          "body": "The agreement needs delivered volumes, yield and margin evidence. High fabrication fixed costs and financing needs can offset strategic wins. Later completed sessions can show persistence, while filings provide the operating evidence. The price move by itself does not identify the cause or resolve execution risk."
+        }
+      ],
+      "foot": [
+        {
+          "k": "Dated company source",
+          "v": "Company disclosure or source checked, 2026-11-18.",
+          "url": "https://news.microsoft.com/source/2026/11/18/microsoft-and-intel-deepen-collaboration-to-deliver-differentiated-azure-infrastructure/"
+        },
+        {
+          "k": "Market context",
+          "v": "Libella morning report, November 19.",
+          "url": "https://www.libella-group.com/morning/2026-11-19/"
+        },
+        {
+          "k": "Price source",
+          "v": "Twelve Data completed 1day bar.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "down",
+      "strength": "regular",
+      "move": "-0.91% close",
+      "move_tone": "down",
+      "strength_label": "Session move",
+      "session_date": "2026-11-18",
+      "research_log": {
+        "checked_at_utc": "2026-11-19T13:08:30.875006Z",
+        "outcome": "dated_event",
+        "sources": [
+          {
+            "url": "https://news.microsoft.com/source/2026/11/18/microsoft-and-intel-deepen-collaboration-to-deliver-differentiated-azure-infrastructure/",
+            "event_date": "2026-11-18"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "NBIS",
+      "happened": "NBIS closed at $106.96, +0.87% against the prior close, on 25,988,040 shares versus a trailing average of 28,452,660. The daily range was $100.80 to $110.09. No material November 18 Nebius company disclosure was verified in its investor releases. The November 12 third-quarter report remains dated operating context rather than an identified cause of the gain.",
+      "why": "GPU cloud returns depend on contracted utilization, power availability and timely deployment of expensive compute capacity. Revenue growth can coexist with low free cash flow while data centres are being built. Validate customer commitments and financing before extrapolating a daily gain. The measured +0.87% return and volume comparison show participation but cannot identify investor motive; subsequent dated operating evidence must test the thesis. A single completed bar also cannot distinguish a change in expected demand from positioning, interest rates, or sector rotation. Compare the next company disclosure with this session’s price and volume before treating the move as evidence of a lasting change in intrinsic value. The source date matters because an older announcement can be relevant background without being a new catalyst.",
+      "priced_in": "At $106.96, the price reflects the completed November 18 trading session; it does not reveal which operating expectation changed. The dated source supplies context, not an identified driver.",
+      "would_change": "A dated release with measurable revenue, margin, customer or cash-flow evidence, followed by confirming completed-session trading, would change this reading.",
+      "next_date": "Watch new capacity, contracted utilization and cash-flow disclosures.",
+      "figures": [
+        "Close $106.96",
+        "Session move +0.87%",
+        "Range $100.80-$110.09",
+        "Volume 25,988,040; average 28,452,660"
+      ],
+      "analysis": [
+        {
+          "heading": "Investment mechanism",
+          "body": "GPU cloud returns depend on contracted utilization, power availability and timely deployment of expensive compute capacity. The next disclosure must demonstrate whether this mechanism creates profitable growth, with measurable customer demand and cash returns rather than product claims alone."
+        },
+        {
+          "heading": "Risk and confirmation",
+          "body": "Revenue growth can coexist with low free cash flow while data centres are being built. Validate customer commitments and financing before extrapolating a daily gain. Later completed sessions can show persistence, while filings provide the operating evidence. The price move by itself does not identify the cause or resolve execution risk."
+        }
+      ],
+      "foot": [
+        {
+          "k": "Dated company source",
+          "v": "Company disclosure or source checked, 2026-11-18.",
+          "url": "https://nebius.com/investors"
+        },
+        {
+          "k": "Market context",
+          "v": "Libella morning report, November 19.",
+          "url": "https://www.libella-group.com/morning/2026-11-19/"
+        },
+        {
+          "k": "Price source",
+          "v": "Twelve Data completed 1day bar.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "up",
+      "strength": "regular",
+      "move": "+0.87% close",
+      "move_tone": "up",
+      "strength_label": "Session move",
+      "session_date": "2026-11-18",
+      "research_log": {
+        "checked_at_utc": "2026-11-19T13:08:30.875006Z",
+        "outcome": "no_verified_event",
+        "sources": [
+          {
+            "url": "https://nebius.com/investors",
+            "event_date": "2026-11-18"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "MRVL",
+      "happened": "MRVL closed at $145.54, -2.15% against the prior close, on 19,313,100 shares versus a trailing average of 30,993,585. The daily range was $142.62 to $152.39. No distinct material November 18 Marvell financial event was verified. Its November 13 interconnect demonstration remains dated context, not evidence for Wednesday’s 2.15% decline.",
+      "why": "AI cluster connectivity and custom silicon can grow with accelerator deployments if designs become profitable shipments. Trade-show demonstrations are not booked revenue. Customer concentration and integration spending can affect returns even when industry demand expands. The measured -2.15% return and volume comparison show participation but cannot identify investor motive; subsequent dated operating evidence must test the thesis. A single completed bar also cannot distinguish a change in expected demand from positioning, interest rates, or sector rotation. Compare the next company disclosure with this session’s price and volume before treating the move as evidence of a lasting change in intrinsic value. The source date matters because an older announcement can be relevant background without being a new catalyst.",
+      "priced_in": "At $145.54, the price reflects the completed November 18 trading session; it does not reveal which operating expectation changed. The dated source supplies context, not an identified driver.",
+      "would_change": "A dated release with measurable revenue, margin, customer or cash-flow evidence, followed by confirming completed-session trading, would change this reading.",
+      "next_date": "Watch disclosed design wins, merger milestones and next quarterly guidance.",
+      "figures": [
+        "Close $145.54",
+        "Session move -2.15%",
+        "Range $142.62-$152.39",
+        "Volume 19,313,100; average 30,993,585"
+      ],
+      "analysis": [
+        {
+          "heading": "Investment mechanism",
+          "body": "AI cluster connectivity and custom silicon can grow with accelerator deployments if designs become profitable shipments. The next disclosure must demonstrate whether this mechanism creates profitable growth, with measurable customer demand and cash returns rather than product claims alone."
+        },
+        {
+          "heading": "Risk and confirmation",
+          "body": "Trade-show demonstrations are not booked revenue. Customer concentration and integration spending can affect returns even when industry demand expands. Later completed sessions can show persistence, while filings provide the operating evidence. The price move by itself does not identify the cause or resolve execution risk."
+        }
+      ],
+      "foot": [
+        {
+          "k": "Dated company source",
+          "v": "Company disclosure or source checked, 2026-11-18.",
+          "url": "https://investor.marvell.com/news-events/press-releases"
+        },
+        {
+          "k": "Market context",
+          "v": "Libella morning report, November 19.",
+          "url": "https://www.libella-group.com/morning/2026-11-19/"
+        },
+        {
+          "k": "Price source",
+          "v": "Twelve Data completed 1day bar.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "down",
+      "strength": "notable",
+      "move": "-2.15% close",
+      "move_tone": "down",
+      "strength_label": "Session move",
+      "session_date": "2026-11-18",
+      "research_log": {
+        "checked_at_utc": "2026-11-19T13:08:30.875006Z",
+        "outcome": "no_verified_event",
+        "sources": [
+          {
+            "url": "https://investor.marvell.com/news-events/press-releases",
+            "event_date": "2026-11-18"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "META",
+      "happened": "META closed at $616.38, -0.40% against the prior close, on 10,358,800 shares versus a trailing average of 23,323,115. The daily range was $610.30 to $620.81. Meta announced Loblaw as the first Canadian retailer connected to Muse on November 18, enabling shopping tasks through its AI agent. The partnership offers no disclosed revenue contribution and does not explain the 0.40% decline.",
+      "why": "Commerce connections could improve agent usage and advertising opportunities if users repeat transactions. A launch is not monetization evidence. AI infrastructure spending requires measurable engagement, ad yield and free cash flow to earn returns. The measured -0.40% return and volume comparison show participation but cannot identify investor motive; subsequent dated operating evidence must test the thesis. A single completed bar also cannot distinguish a change in expected demand from positioning, interest rates, or sector rotation. Compare the next company disclosure with this session’s price and volume before treating the move as evidence of a lasting change in intrinsic value. The source date matters because an older announcement can be relevant background without being a new catalyst.",
+      "priced_in": "At $616.38, the price reflects the completed November 18 trading session; it does not reveal which operating expectation changed. The dated source supplies context, not an identified driver.",
+      "would_change": "A dated release with measurable revenue, margin, customer or cash-flow evidence, followed by confirming completed-session trading, would change this reading.",
+      "next_date": "Watch Muse usage, commerce economics and next advertising-margin disclosure.",
+      "figures": [
+        "Close $616.38",
+        "Session move -0.40%",
+        "Range $610.30-$620.81",
+        "Volume 10,358,800; average 23,323,115"
+      ],
+      "analysis": [
+        {
+          "heading": "Investment mechanism",
+          "body": "Commerce connections could improve agent usage and advertising opportunities if users repeat transactions. The next disclosure must demonstrate whether this mechanism creates profitable growth, with measurable customer demand and cash returns rather than product claims alone."
+        },
+        {
+          "heading": "Risk and confirmation",
+          "body": "A launch is not monetization evidence. AI infrastructure spending requires measurable engagement, ad yield and free cash flow to earn returns. Later completed sessions can show persistence, while filings provide the operating evidence. The price move by itself does not identify the cause or resolve execution risk."
+        }
+      ],
+      "foot": [
+        {
+          "k": "Dated company source",
+          "v": "Company disclosure or source checked, 2026-11-18.",
+          "url": "https://about.fb.com/news/2026/11/meta-welcomes-loblaw-as-first-canadian-retail-partner-to-muse/"
+        },
+        {
+          "k": "Market context",
+          "v": "Libella morning report, November 19.",
+          "url": "https://www.libella-group.com/morning/2026-11-19/"
+        },
+        {
+          "k": "Price source",
+          "v": "Twelve Data completed 1day bar.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "down",
+      "strength": "regular",
+      "move": "-0.40% close",
+      "move_tone": "down",
+      "strength_label": "Session move",
+      "session_date": "2026-11-18",
+      "research_log": {
+        "checked_at_utc": "2026-11-19T13:08:30.875006Z",
+        "outcome": "dated_event",
+        "sources": [
+          {
+            "url": "https://about.fb.com/news/2026/11/meta-welcomes-loblaw-as-first-canadian-retail-partner-to-muse/",
+            "event_date": "2026-11-18"
+          }
+        ]
+      }
+    }
+  ],
+  "research_log": {
+    "AAPL": {
+      "checked_at_utc": "2026-11-19T13:08:30.875006Z",
+      "outcome": "no_verified_event",
+      "sources": [
+        {
+          "url": "https://www.apple.com/newsroom/archive/",
+          "event_date": "2026-11-18"
+        }
+      ]
+    },
+    "AMZN": {
+      "checked_at_utc": "2026-11-19T13:08:30.875006Z",
+      "outcome": "no_verified_event",
+      "sources": [
+        {
+          "url": "https://www.aboutamazon.com/news/company-news",
+          "event_date": "2026-11-18"
+        }
+      ]
+    },
+    "TSLA": {
+      "checked_at_utc": "2026-11-19T13:08:30.875006Z",
+      "outcome": "no_verified_event",
+      "sources": [
+        {
+          "url": "https://ir.tesla.com/sec-filings",
+          "event_date": "2026-11-18"
+        }
+      ]
+    },
+    "PLTR": {
+      "checked_at_utc": "2026-11-19T13:08:30.875006Z",
+      "outcome": "no_verified_event",
+      "sources": [
+        {
+          "url": "https://investors.palantir.com/financials/quarterly-results",
+          "event_date": "2026-11-18"
+        }
+      ]
+    },
+    "MSFT": {
+      "checked_at_utc": "2026-11-19T13:08:30.875006Z",
+      "outcome": "dated_event",
+      "sources": [
+        {
+          "url": "https://news.microsoft.com/source/2026/11/18/microsoft-and-intel-deepen-collaboration-to-deliver-differentiated-azure-infrastructure/",
+          "event_date": "2026-11-18"
+        }
+      ]
+    },
+    "GOOGL": {
+      "checked_at_utc": "2026-11-19T13:08:30.875006Z",
+      "outcome": "dated_event",
+      "sources": [
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+          "event_date": "2026-11-18"
+        }
+      ]
+    },
+    "HOOD": {
+      "checked_at_utc": "2026-11-19T13:08:30.875006Z",
+      "outcome": "no_verified_event",
+      "sources": [
+        {
+          "url": "https://investors.robinhood.com/static-files/60041c13-fa62-4bc5-ae00-36b45fe8564c",
+          "event_date": "2026-11-12"
+        }
+      ]
+    },
+    "NVDA": {
+      "checked_at_utc": "2026-11-19T13:08:30.875006Z",
+      "outcome": "dated_event",
+      "sources": [
+        {
+          "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/6afcc55b3d633299c104d103/",
+          "event_date": "2026-11-17"
+        }
+      ]
+    },
+    "INTC": {
+      "checked_at_utc": "2026-11-19T13:08:30.875006Z",
+      "outcome": "dated_event",
+      "sources": [
+        {
+          "url": "https://news.microsoft.com/source/2026/11/18/microsoft-and-intel-deepen-collaboration-to-deliver-differentiated-azure-infrastructure/",
+          "event_date": "2026-11-18"
+        }
+      ]
+    },
+    "NBIS": {
+      "checked_at_utc": "2026-11-19T13:08:30.875006Z",
+      "outcome": "no_verified_event",
+      "sources": [
+        {
+          "url": "https://nebius.com/investors",
+          "event_date": "2026-11-18"
+        }
+      ]
+    },
+    "MRVL": {
+      "checked_at_utc": "2026-11-19T13:08:30.875006Z",
+      "outcome": "no_verified_event",
+      "sources": [
+        {
+          "url": "https://investor.marvell.com/news-events/press-releases",
+          "event_date": "2026-11-18"
+        }
+      ]
+    },
+    "META": {
+      "checked_at_utc": "2026-11-19T13:08:30.875006Z",
+      "outcome": "dated_event",
+      "sources": [
+        {
+          "url": "https://about.fb.com/news/2026/11/meta-welcomes-loblaw-as-first-canadian-retail-partner-to-muse/",
+          "event_date": "2026-11-18"
+        }
+      ]
+    }
+  },
+  "data": {
+    "session": "2026-11-18",
+    "source": "Twelve Data 1day time_series; exchange-local session",
+    "source_url": "https://twelvedata.com/docs",
+    "fetched_at_utc": "2026-11-19T13:04:23.213491+00:00",
+    "tickers": {
+      "AAPL": {
+        "close": 352.45001,
+        "pct": 0.1535,
+        "open": 351.87,
+        "high": 356.42001,
+        "low": 351.47061,
+        "volume": 33393854,
+        "avg_volume": 48071085,
+        "high_52w": 360.82999,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 351.91,
+        "bar_date": "2026-11-18",
+        "source": "Twelve Data daily time_series"
+      },
+      "AMZN": {
+        "close": 267.73999,
+        "pct": 3.8195,
+        "open": 259.81,
+        "high": 268.29001,
+        "low": 259.51001,
+        "volume": 40999600,
+        "avg_volume": 49818655,
+        "high_52w": 287.20001,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 257.89001,
+        "bar_date": "2026-11-18",
+        "source": "Twelve Data daily time_series"
+      },
+      "TSLA": {
+        "close": 383.72,
+        "pct": 0.9497,
+        "open": 385.19,
+        "high": 389.26999,
+        "low": 378.35999,
+        "volume": 26666127,
+        "avg_volume": 38509510,
+        "high_52w": 498.82999,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 380.10999,
+        "bar_date": "2026-11-18",
+        "source": "Twelve Data daily time_series"
+      },
+      "PLTR": {
+        "close": 156.67,
+        "pct": 0.0703,
+        "open": 158.25,
+        "high": 158.44,
+        "low": 153.5,
+        "volume": 14770291,
+        "avg_volume": 24424915,
+        "high_52w": 212.94,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 156.56,
+        "bar_date": "2026-11-18",
+        "source": "Twelve Data daily time_series"
+      },
+      "MSFT": {
+        "close": 508.29001,
+        "pct": 0.405,
+        "open": 505.5,
+        "high": 510.44,
+        "low": 501.07999,
+        "volume": 21964800,
+        "avg_volume": 27521810,
+        "high_52w": 559.15002,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 506.23999,
+        "bar_date": "2026-11-18",
+        "source": "Twelve Data daily time_series"
+      },
+      "GOOGL": {
+        "close": 282.44,
+        "pct": 0.7994,
+        "open": 282.75,
+        "high": 284.97,
+        "low": 279.69,
+        "volume": 27190700,
+        "avg_volume": 42235645,
+        "high_52w": 408.60999,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 280.20001,
+        "bar_date": "2026-11-18",
+        "source": "Twelve Data daily time_series"
+      },
+      "HOOD": {
+        "close": 69.17,
+        "pct": -0.0289,
+        "open": 69.05,
+        "high": 69.95,
+        "low": 67.56,
+        "volume": 15970446,
+        "avg_volume": 20192590,
+        "high_52w": 139.75,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 69.19,
+        "bar_date": "2026-11-18",
+        "source": "Twelve Data daily time_series"
+      },
+      "NVDA": {
+        "close": 150.96001,
+        "pct": -2.8946,
+        "open": 159.19,
+        "high": 159.7,
+        "low": 150.39999,
+        "volume": 345169600,
+        "avg_volume": 236970225,
+        "high_52w": 243.37,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 155.46001,
+        "bar_date": "2026-11-18",
+        "source": "Twelve Data daily time_series"
+      },
+      "INTC": {
+        "close": 54.67,
+        "pct": -0.9063,
+        "open": 55.39,
+        "high": 56.0,
+        "low": 53.44,
+        "volume": 80545900,
+        "avg_volume": 146620100,
+        "high_52w": 142.35001,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 55.17,
+        "bar_date": "2026-11-18",
+        "source": "Twelve Data daily time_series"
+      },
+      "NBIS": {
+        "close": 106.96,
+        "pct": 0.8723,
+        "open": 109.79,
+        "high": 110.09,
+        "low": 100.8,
+        "volume": 25988040,
+        "avg_volume": 28452660,
+        "high_52w": 299.85999,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 106.035,
+        "bar_date": "2026-11-18",
+        "source": "Twelve Data daily time_series"
+      },
+      "MRVL": {
+        "close": 145.53999,
+        "pct": -2.1514,
+        "open": 151.91,
+        "high": 152.39,
+        "low": 142.62,
+        "volume": 19313100,
+        "avg_volume": 30993585,
+        "high_52w": 329.88,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 148.74001,
+        "bar_date": "2026-11-18",
+        "source": "Twelve Data daily time_series"
+      },
+      "META": {
+        "close": 616.38,
+        "pct": -0.4023,
+        "open": 620.10999,
+        "high": 620.81,
+        "low": 610.29999,
+        "volume": 10358800,
+        "avg_volume": 23323115,
+        "high_52w": 779.82001,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 618.87,
+        "bar_date": "2026-11-18",
+        "source": "Twelve Data daily time_series"
+      }
+    }
+  },
+  "macro": [
+    {
+      "dt": "18 November completed US session",
+      "lead": "Cross-asset context",
+      "dd": "The November 19 Libella morning report documents the completed US session and the next pre-open macro backdrop. Market breadth and rates are context; they do not identify the cause of any individual price move."
+    }
+  ],
+  "readthrough": {
+    "heading": "Cross-company interpretation",
+    "title": "Separate cash-market reaction from operating proof",
+    "body": "All twelve prices are completed November 18 daily bars. Nvidia’s earnings arrived after the prior close, so this is the first regular cash session that could reflect them. Microsoft and Intel described a long-term Azure agreement, Google a new model, and Meta a commerce connector. None disclosed the cash return from those specific announcements. A daily bar also cannot isolate a headline from rates, positioning and wider technology sentiment. The next filings and operating metrics must test whether demand becomes durable free cash flow."
+  },
+  "earnings_ahead": []
+}
