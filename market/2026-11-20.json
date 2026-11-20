@@ -1,0 +1,283 @@
+{
+  "date": "2026-11-20",
+  "as_of_utc": "2026-11-20T13:00:00Z",
+  "headline": "Broad stock selling, UK spending rebound and Japan inflation frame Friday pre-open",
+  "overview": "At the 13:00 GMT editorial cutoff Friday 20 November, New York was 08:00 EST and the regular US stock session was pre-open. Thursday 19 November is the latest completed US equity session: every S&P 500 sector fell and the broad index lost 2.0%. Treasury yields eased only slightly, while weaker credit and selling in gold and Asian chip markets argued for caution. The UK reported a rebound in October retail volumes and Japan reported 2.3% October headline inflation; both are dated releases, not Friday US closing data. Friday futures and currency quotes are labelled early observations. Next tests include completed US breadth, credit pricing and consumer inflation expectations.",
+  "general": [
+    {
+      "id": "equities",
+      "label": "Equities",
+      "items": [
+        {
+          "headline": "Broad US equity losses precede Friday pre-open",
+          "detail": "The S&P 500 closed Thursday 19 November down 2.0% at 7,176 and the Nasdaq 100 lost 2.2%, Libella reported Friday morning. Every S&P sector fell, and NYSE decliners outnumbered advancers five to one. Anthropic gained 17.1% over its offer price on its debut, yet that did not lift the broader AI complex. Friday US cash trading had not opened by the 13:00 GMT cutoff.",
+          "why": "The weakness reached consumer and defensive sectors as well as chips, suggesting a broad reduction in risk appetite rather than a narrow rotation. A successful IPO can coexist with falling listed technology shares because their earnings and valuations differ. The next completed session must test whether selling broadens further or stabilizes.",
+          "watch": "Compare Friday closing breadth, equal-weighted stocks and semiconductors with the S&P 500.",
+          "status": "carry_forward",
+          "as_of": "2026-11-19",
+          "sources": [
+            {
+              "title": "Libella morning cross-asset report",
+              "url": "https://www.libella-group.com/morning/",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "treasuries_bonds",
+      "label": "Treasuries and bonds",
+      "items": [
+        {
+          "headline": "Treasury yields ease only slightly amid equity selling",
+          "detail": "Libella reported the US ten-year Treasury yield closed Thursday down three basis points at 5.04%, with the two-year down four basis points at 4.76%. Its 07:02 London futures-implied ten-year estimate for Friday was 5.00%; this is a futures calculation, not a Friday cash-bond close. The October Fed minutes released Wednesday still described a baseline expectation of further tightening among most participants.",
+          "why": "Small yield declines offered limited relief to equities after a broad selloff. The front end remains tied to policy expectations, while the long end also reflects growth and inflation risk. A single safe-haven bid cannot show that the Fed path has reversed, especially with inflation expectations still to be updated.",
+          "watch": "Check Friday cash Treasury closes and the University of Michigan inflation-expectations release.",
+          "status": "carry_forward",
+          "as_of": "2026-11-19",
+          "sources": [
+            {
+              "title": "Libella morning cross-asset report",
+              "url": "https://www.libella-group.com/morning/",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "credit",
+      "label": "Corporate credit",
+      "items": [
+        {
+          "headline": "High-yield funding becomes the next stress test",
+          "detail": "Libella put the US high-yield spread at 3.47% on 18 November, near its one-year high of 3.48%, while its weaker CCC-to-B ETF spread proxy stood at 10.01%, 79 basis points wider over four weeks. Those gauges predate Thursday’s broad stock decline; Friday morning commentary said financing conditions deserve closer observation. The CCC proxy is modelled, not a complete bond index.",
+          "why": "Low-quality borrowers face a higher refinancing hurdle when spreads widen, even if Treasury yields edge lower. A spread near a past high is not proof of an imminent default wave, but it can restrain new investment and force more expensive debt issuance. The next actual bond transactions will show whether the pressure is reaching companies.",
+          "watch": "Watch Friday high-yield spread updates, new issuance yields and lower-rated refinancing terms.",
+          "status": "carry_forward",
+          "as_of": "2026-11-18",
+          "sources": [
+            {
+              "title": "Libella morning cross-asset report",
+              "url": "https://www.libella-group.com/morning/",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "currencies",
+      "label": "Currencies",
+      "items": [
+        {
+          "headline": "Dollar remains firm while sterling faces retail test",
+          "detail": "At 07:02 London Friday, Libella showed the dollar index at 103.73, down 0.2% from its prior close but still near the high end of its one-year range. EUR/USD was about 1.10 and GBP/USD about 1.31 in its morning table. These were early currency observations, not final Friday settlements. The ONS published stronger October UK retail volumes before the 13:00 GMT cutoff.",
+          "why": "A firm dollar raises the local-currency cost of dollar debt and changes overseas earnings translation. Sterling may respond to stronger spending, but one monthly retail print does not determine the Bank of England path. Risk aversion and rate expectations are competing drivers, so the intraday currency reading requires a later check.",
+          "watch": "Compare Friday currency levels with UK retail details and US inflation-expectation data.",
+          "status": "new",
+          "as_of": "2026-11-20",
+          "sources": [
+            {
+              "title": "Libella morning cross-asset report",
+              "url": "https://www.libella-group.com/morning/",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "headline": "Bitcoin remains weak in Friday morning trading",
+          "detail": "Libella’s 07:02 London snapshot put bitcoin at $61,922 on Friday 20 November, down 9.27% over the preceding week in its table. Bitcoin trades continuously, so this is a timestamped quote rather than a US cash-market close. Thursday gold and copper also fell while broad US equities declined, indicating simultaneous selling across several risk and hedge assets.",
+          "why": "Crypto weakness can reflect liquidity, leverage and sentiment, but cross-asset coincidence does not identify its cause. A seven-day decline matters for investors with leveraged positions because collateral can tighten quickly. Confirmation requires exchange volumes, liquidation data and flows after US equity trading begins.",
+          "watch": "Check timestamped spot prices, exchange volume and fund flows after Friday’s US session.",
+          "status": "new",
+          "as_of": "2026-11-20",
+          "sources": [
+            {
+              "title": "Libella morning cross-asset report",
+              "url": "https://www.libella-group.com/morning/",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commodities",
+      "label": "Commodities",
+      "items": [
+        {
+          "headline": "Gold slides even as equities sell off",
+          "detail": "Libella recorded gold down about 3.1% at $3,624 at Thursday’s close and copper lower too; its Friday 07:02 front-month gold quote was $3,560, while Brent was $89.87 a barrel. These are different observation times and contracts, and the Friday figures are not settlements. The firm dollar and weak equities form the cross-asset setting.",
+          "why": "Gold did not provide a simple haven during Thursday’s risk reduction, which may indicate investors were raising cash or adjusting positions. Oil’s level still matters for fuel inflation, while copper can reflect industrial demand expectations. One session cannot establish the underlying flow or the next inflation reading.",
+          "watch": "Compare Friday gold and oil settlements with dollar and real-yield moves.",
+          "status": "carry_forward",
+          "as_of": "2026-11-19",
+          "sources": [
+            {
+              "title": "Libella morning cross-asset report",
+              "url": "https://www.libella-group.com/morning/",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "housing",
+      "label": "Housing",
+      "items": [
+        {
+          "headline": "US housing rebound remains a dated carry-forward",
+          "detail": "The Census Bureau’s release on 18 November put October housing starts at a seasonally adjusted annual rate of 1.309 million, up 9.9% from September, while preliminary permits were 1.295 million. These are October observations released Wednesday, not fresh Friday construction activity. Thursday’s ten-year Treasury yield near 5.04% provides an additional financing context for prospective buyers.",
+          "why": "Starts are volatile, particularly where multifamily projects affect monthly totals; permits and sales can test whether builders will sustain the rise. High borrowing costs can limit the translation from new construction to completed sales. A stronger single starts figure therefore does not settle the housing outlook.",
+          "watch": "Check the next permit revision, home sales and mortgage-application data.",
+          "status": "carry_forward",
+          "as_of": "2026-11-18",
+          "sources": [
+            {
+              "title": "US Census October new residential construction",
+              "url": "https://www.census.gov/construction/nrc/pdf/newresconst.pdf",
+              "published": "2026-11-18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us_policy",
+      "label": "US policy",
+      "items": [
+        {
+          "headline": "Fed tightening debate meets weaker activity data",
+          "detail": "The October FOMC minutes released 18 November said most participants supported holding rates at 3.75% to 4.00% then, while almost all expected some further tightening under their baseline outlook. Libella’s 20 November report recorded the Philadelphia Fed factory index at 6.3 for November, below a reported 19.0 expectation, and initial jobless claims at 203,000. The minutes predate these later data.",
+          "why": "Policymakers must weigh sticky inflation against signs of slower activity; neither one regional survey nor a weekly claims reading decides the December vote. Rate expectations influence Treasury yields, the dollar and funding costs. The next consumer inflation-expectation measure can alter the balance, but is itself a survey.",
+          "watch": "Read the November Michigan sentiment and inflation-expectations release, then the next CPI and December FOMC decision.",
+          "status": "carry_forward",
+          "as_of": "2026-11-18",
+          "sources": [
+            {
+              "title": "Federal Reserve October meeting minutes",
+              "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm",
+              "published": "2026-11-18"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "international": [
+    {
+      "id": "uk",
+      "label": "UK",
+      "items": [
+        {
+          "headline": "UK retail volumes rebound in October",
+          "detail": "The ONS bulletin released Friday 20 November estimated UK retail sales volumes rose 0.7% in October after a revised 0.6% September decline, and rose 0.4% in the three months to October. Supermarkets cited purchases of long-life food following government advice, while non-food stores also improved. The ONS cautions that monthly growth is volatile and should be read with the three-month trend.",
+          "why": "Higher goods volume supports the near-term consumer spending picture, but stockpiling can pull purchases forward rather than show lasting demand. Stronger spending can also complicate the inflation outlook if businesses pass on costs. Retail sales exclude many services, so a complete consumer assessment needs broader data.",
+          "watch": "Check November retail volumes, services spending and the next inflation release.",
+          "status": "new",
+          "as_of": "2026-11-20",
+          "sources": [
+            {
+              "title": "ONS October retail sales bulletin",
+              "url": "https://backup.ons.gov.uk/wp-content/uploads/sites/3/2026/11/Retail-sales-Great-Britain-October-2026.pdf",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "euro_area",
+      "label": "Euro area",
+      "items": [
+        {
+          "headline": "ECB speech presses Europe to act on slow risks",
+          "detail": "In a 20 November speech, ECB President Christine Lagarde argued that Europe must address slow-moving capital-market and technology dependencies before crisis forces action. She described the digital euro, tokenised wholesale settlement and euro liquidity lines as areas where the ECB has moved early. Eurostat’s 18 November final October release had put annual euro-area inflation at 4.0%.",
+          "why": "The speech concerns structural finance and resilience rather than announcing an immediate interest-rate change. Better integrated capital markets could lower funding friction for European companies, while the current inflation level still constrains monetary choices. Investors should separate long-term institutional proposals from near-term pricing of ECB rates.",
+          "watch": "Watch ECB rate communication, euro-area wage data and the next inflation estimate.",
+          "status": "new",
+          "as_of": "2026-11-20",
+          "sources": [
+            {
+              "title": "ECB President Lagarde speech",
+              "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261120~e52bcc4db2.pl.html",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "items": [
+        {
+          "headline": "Chinese consumption remains subdued amid Asian declines",
+          "detail": "China’s statistics bureau reported on 17 November that October retail sales rose just 0.4% from a year earlier, compared with 2.5% excluding automobiles. Libella’s Friday morning report said the Shanghai Composite closed down 1.3% and Hong Kong was down 2.2% so far that morning; those equity readings have different completion times. No fresh November retail release was available by the cutoff.",
+          "why": "The weak total reflects an uneven consumer backdrop and limits a simple bullish reading from ex-auto sales. China-facing companies need evidence of improved domestic orders, while global risk selling can depress shares without changing local consumption immediately. The next monthly release will distinguish temporary softness from persistence.",
+          "watch": "Compare the next retail and property data with completed mainland and Hong Kong stock sessions.",
+          "status": "carry_forward",
+          "as_of": "2026-11-17",
+          "sources": [
+            {
+              "title": "China National Bureau of Statistics retail sales",
+              "url": "https://www.stats.gov.cn/english/PressRelease/202611/t20261117_1965878.html",
+              "published": "2026-11-17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "japan",
+      "label": "Japan",
+      "items": [
+        {
+          "headline": "Japan inflation and chip selling sharpen policy trade-off",
+          "detail": "Japan’s Statistics Bureau released October CPI on Friday 20 November: headline prices rose 2.3% from a year earlier, while the index excluding fresh food rose 2.2%. Libella reported the Nikkei 225 closed down 5.1% on Friday amid a chip-heavy Asian selloff. The inflation reading and the equity close are distinct observations; neither establishes that one caused the other.",
+          "why": "Inflation above two percent may keep Bank of Japan normalization under discussion even as a sharp stock decline points to risk aversion. Yen and import costs complicate the household picture. The next wage, demand and bond data will test whether price pressure is durable enough to shape policy.",
+          "watch": "Watch Bank of Japan communication, wage data and the next completed yen and bond-market readings.",
+          "status": "new",
+          "as_of": "2026-11-20",
+          "sources": [
+            {
+              "title": "Japan Statistics Bureau October CPI",
+              "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/index-z.html",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other_world",
+      "label": "Other world",
+      "items": [
+        {
+          "headline": "Chip-heavy Asian markets bear the brunt of selling",
+          "detail": "Libella reported Friday completed declines of 6.2% for Taiwan’s Taiex and 5.2% for South Korea’s Kospi, alongside Japan’s 5.1% Nikkei fall. Its Hong Kong observation was a 2.2% decline so far that morning, not necessarily a completed close. The losses followed a broad Thursday US equity retreat but the sequence alone cannot prove a single transmission mechanism.",
+          "why": "Taiwan and Korea have large semiconductor exposures, making global chip expectations especially relevant to their indices. Currency moves, local positioning and company orders can also matter, so regional declines should not be treated as identical evidence about the AI cycle. Subsequent guidance and local cash closes will be more informative.",
+          "watch": "Compare next Taiwan and Korea closes with chip order and export updates.",
+          "status": "new",
+          "as_of": "2026-11-20",
+          "sources": [
+            {
+              "title": "Libella morning cross-asset report",
+              "url": "https://www.libella-group.com/morning/",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
