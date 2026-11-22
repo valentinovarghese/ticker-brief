@@ -1,0 +1,308 @@
+{
+  "date": "2026-11-22",
+  "as_of_utc": "2026-11-22T13:00:00Z",
+  "headline": "Sunday brief: Friday AI-led selloff leaves Monday breadth as the test",
+  "overview": "At the Sunday 22 November 13:00 GMT editorial cutoff, New York was 07:00 EST and the NYSE, London and major Asian cash equity markets were closed. Friday 20 November is the latest completed US stock session: the S&P 500 fell 3.7% and entered correction territory. Treasury yields fell, credit risk remained a watch, and the latest UK retail, Japanese inflation and US sentiment releases were dated Friday. Bitcoin trades through the weekend, but no Sunday equity close is asserted. Monday breadth, credit spreads and the week's inflation and activity releases are the next tests.",
+  "general": [
+    {
+      "id": "equities",
+      "label": "Equities",
+      "items": [
+        {
+          "headline": "US indexes end week in correction territory",
+          "detail": "Reuters reported that the S&P 500 lost 3.7% on Friday 20 November and the Nasdaq Composite fell 5.28%. The S&P 500 and Dow were more than 10% below their record closing highs. These are completed Friday cash-market moves. At the Sunday 13:00 GMT cutoff, New York was 07:00 EST and US stock exchanges were closed for the weekend.",
+          "why": "The broad decline makes liquidity and funding conditions important tests for highly valued technology companies. A correction measures distance from a past high; it does not by itself forecast recession or a further fall. Monday’s breadth and company disclosures will distinguish a temporary liquidation from a lasting earnings reset.",
+          "watch": "Check Monday US closing breadth and sector participation against Friday’s broad decline.",
+          "status": "carry_forward",
+          "as_of": "2026-11-20",
+          "sources": [
+            {
+              "title": "Reuters Friday US closing report",
+              "url": "https://ca.marketscreener.com/news/wall-st-ends-sharply-lower-on-ai-selloff-s-p-500-dow-in-correction-ce785ed3dd80f527",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "treasuries_bonds",
+      "label": "Treasuries and bonds",
+      "items": [
+        {
+          "headline": "Treasury yields fall as stocks sell off",
+          "detail": "The US Treasury daily par curve recorded a ten-year yield of 4.92% on Friday 20 November, down from 5.04% on Thursday, and a two-year yield of 4.63%, down from 4.76%. These are official daily rates, not Saturday trading levels; the Treasury cash market is closed at the weekend cutoff. The drop coincided with a severe equity decline.",
+          "why": "Lower sovereign yields can cushion discount rates for future earnings, yet Friday’s stock selling shows that rate relief was insufficient to stabilize risk assets. The front-end decline may reflect changed policy expectations, but the yield figures alone cannot isolate the reason. Credit spreads and next week’s inflation data provide a separate financing check.",
+          "watch": "Compare Monday Treasury yields with new credit-spread and inflation data.",
+          "status": "carry_forward",
+          "as_of": "2026-11-20",
+          "sources": [
+            {
+              "title": "US Treasury daily par yield curve",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "credit",
+      "label": "Corporate credit",
+      "items": [
+        {
+          "headline": "Junk-bond funding pressure remains a concern",
+          "detail": "Libella’s Friday report put the US high-yield option-adjusted spread at 3.47% for the 18 November observation, up 17 basis points over the preceding week, and its weaker CCC-to-B ETF proxy at 10.01% for the same date. Those observations predate Friday’s stock rout and must not be presented as a Friday bond close. Friday credit commentary reported heightened risk premia for lower-quality borrowers.",
+          "why": "Companies with near-term refinancing needs can face higher borrowing costs even when Treasury yields fall. The weakest credits may diverge from investment-grade funding and realized defaults for some time. A dated spread series and new debt issues are necessary before concluding that equity selling has spread into a broad financing squeeze.",
+          "watch": "Inspect updated high-yield and investment-grade spreads plus the next primary bond issues.",
+          "status": "carry_forward",
+          "as_of": "2026-11-18",
+          "sources": [
+            {
+              "title": "Libella Friday cross-asset report",
+              "url": "https://www.libella-group.com/morning/",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "currencies",
+      "label": "Currencies",
+      "items": [
+        {
+          "headline": "Dollar holds near highs as yen gains",
+          "detail": "A Friday currency report put the dollar index at 103.81 around 21:40 GMT on 20 November, down about 0.1% on the day but near a 19-month high. It reported EUR/USD near 1.0961, GBP/USD near 1.3075 and a firmer yen near 158.60 per dollar. Saturday interbank markets were closed at the editorial cutoff, so these are Friday observations.",
+          "why": "The dollar can affect dollar-funded borrowers and translated earnings even if its one-day move is small. Yen strength alongside falling US Treasury yields is consistent with lower rate differentials, though positioning and Japanese inflation also matter. Next week’s policy and inflation data will test whether the currency move persists.",
+          "watch": "Compare Monday currency quotations with US yields and Bank of Japan communication.",
+          "status": "carry_forward",
+          "as_of": "2026-11-20",
+          "sources": [
+            {
+              "title": "Friday dollar market report",
+              "url": "https://uk.investing.com/news/forex-news/asia-fx-struggles-as-dollar-holds-near-19mth-high-aussie-hits-11month-low-4994920",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "headline": "Bitcoin remains under pressure through the weekend",
+          "detail": "Coinbase Exchange’s BTC-USD one-minute candle for 12:59 to 13:00 UTC on Sunday 22 November closed at $58,764.51 on about 16.87 BTC of reported volume. That is an exchange-specific, timestamped crypto trade aggregation below $60,000, not a Saturday US equity close or a claim about every trading venue. The observation was fetched from Coinbase’s historical candles endpoint.",
+          "why": "Bitcoin trading continues while equity and Treasury markets are shut, so weekend price discovery can reveal risk appetite but lacks confirmation from US cash markets. Leverage and exchange-specific flows could explain part of the move. The next liquid session and fund-flow data will test whether the weakness carries into listed assets.",
+          "watch": "Check timestamped exchange volume and fund flows, then Monday US cash-market reaction.",
+          "status": "new",
+          "as_of": "2026-11-22",
+          "sources": [
+            {
+              "title": "Coinbase Exchange BTC-USD 12:59 UTC one-minute candle",
+              "url": "https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=60&start=2026-11-22T12%3A59%3A00Z&end=2026-11-22T13%3A00%3A00Z",
+              "published": "2026-11-22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commodities",
+      "label": "Commodities",
+      "items": [
+        {
+          "headline": "Gold falls during wider de-risking",
+          "detail": "Reuters reporting on Friday 20 November described gold weakness during a week of dollar strength and expected US rate tightening. The earlier Libella snapshot had gold at $3,560 per ounce at 07:02 London Friday, after a sharp Thursday fall, and Brent crude near $89.87 a barrel then. Those are timed observations, not Friday closing settlements or Saturday live futures.",
+          "why": "Gold’s weakness alongside equities shows that a traditional hedge did not protect over this interval. Selling to raise cash and the opportunity cost of holding non-yielding bullion are plausible mechanisms, but price correlation cannot prove either. Oil remains important to fuel inflation, so next settlements should be read separately from gold’s move.",
+          "watch": "Check Monday gold and crude settlements and the dollar against real yields.",
+          "status": "carry_forward",
+          "as_of": "2026-11-20",
+          "sources": [
+            {
+              "title": "Friday gold market report",
+              "url": "https://ca.marketscreener.com/news/gold-set-for-worst-week-in-eight-months-as-firm-dollar-fed-hike-bets-weigh-ce785ed2de80f42d",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "housing",
+      "label": "Housing",
+      "items": [
+        {
+          "headline": "Housing starts rebound remains unconfirmed",
+          "detail": "The Census Bureau reported on 18 November that October housing starts ran at a seasonally adjusted annual rate of 1.309 million, up 9.9% from September, while preliminary permits were 1.295 million. The observation is October and the release date is Wednesday; there was no new completed housing report on Saturday. Friday’s Treasury curve put the ten-year rate at 4.92%, a lower financing benchmark than Thursday.",
+          "why": "Monthly starts are volatile, especially when multifamily construction shifts, while permits and actual home sales show different stages of demand. Lower Treasury yields may eventually ease mortgage costs, but a one-day yield move does not immediately translate into affordability. Revised permits and sales are needed before calling the starts rebound durable.",
+          "watch": "Review the next housing sales, mortgage applications and permit revisions.",
+          "status": "carry_forward",
+          "as_of": "2026-11-18",
+          "sources": [
+            {
+              "title": "US Census October residential construction",
+              "url": "https://www.census.gov/construction/nrc/pdf/newresconst.pdf",
+              "published": "2026-11-18"
+            },
+            {
+              "title": "US Treasury daily par yield curve",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us_policy",
+      "label": "US policy",
+      "items": [
+        {
+          "headline": "Consumer sentiment improves, but remains subdued",
+          "detail": "The University of Michigan release on 20 November put final November consumer sentiment at 51.5, up from 48.0 in October. It said year-ahead inflation expectations softened, though they remained above February, and noted that interviews ended on 16 November. The October Federal Reserve minutes had described a baseline expectation of further tightening among most participants; the newer survey does not predetermine December’s decision.",
+          "why": "Improved household expectations may support spending even while stock markets correct, but the index remains low and the change in headline sentiment was below the survey’s stated 4.8-point 95% significance threshold. The inflation-expectation direction may ease policy pressure if confirmed by price data. The Fed must weigh actual inflation and employment as well as survey views.",
+          "watch": "Read the next PCE inflation and payroll releases before the December FOMC decision.",
+          "status": "carry_forward",
+          "as_of": "2026-11-20",
+          "sources": [
+            {
+              "title": "University of Michigan November sentiment",
+              "url": "https://isr.umich.edu/news-events/news-releases/sentiment-ticks-up-as-election-expected-to-usher-in-changes-to-economic-policy/",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "international": [
+    {
+      "id": "uk",
+      "label": "UK",
+      "items": [
+        {
+          "headline": "Retail rebound meets a weaker London equity close",
+          "detail": "The ONS estimated October UK retail sales volumes rose 0.7% from September, after a revised 0.6% decline, in its Friday 20 November bulletin. It reported a 0.4% increase in the three months to October and linked some food-store demand to purchases of long-life goods. London equities subsequently fell in Friday trading, but Saturday the exchange was closed.",
+          "why": "The monthly rebound supports near-term goods demand, yet stockpiling can bring forward purchases rather than demonstrate sustained household strength. A weak stock index can reflect global technology selling even when local retail data improve. The next month’s service and goods spending will show whether the recovery lasts.",
+          "watch": "Compare November retail volumes and services spending with UK inflation and employment.",
+          "status": "carry_forward",
+          "as_of": "2026-11-20",
+          "sources": [
+            {
+              "title": "ONS October UK retail sales",
+              "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/october2026",
+              "published": "2026-11-20"
+            },
+            {
+              "title": "Friday UK market close",
+              "url": "https://www.lse.co.uk/news/london-market-close-ftse-100-tumbles-as-global-tech-rout-takes-hold-0z8jxie9zj6ec46.html",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "euro_area",
+      "label": "Euro area",
+      "items": [
+        {
+          "headline": "Euro-area inflation and market risk stay in focus",
+          "detail": "Eurostat’s final release on 18 November put October euro-area annual inflation at 4.0%, up from 3.8% in September. ECB President Christine Lagarde’s Friday 20 November speech emphasized Europe’s capital-market and technology dependencies but did not announce a new policy rate. European equities weakened in Friday trading. At Saturday’s cutoff their cash markets were closed.",
+          "why": "Persistently high inflation limits the room for monetary easing during an equity drawdown. The ECB speech addressed structural financing resilience rather than an immediate rate decision, so it should not be read as a policy pivot. Wage data and the next inflation estimate are better tests of whether price pressure will recede.",
+          "watch": "Check euro-area wages, the next inflation estimate and ECB rate guidance.",
+          "status": "carry_forward",
+          "as_of": "2026-11-18",
+          "sources": [
+            {
+              "title": "Eurostat October euro-area inflation",
+              "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-18112026-ap",
+              "published": "2026-11-18"
+            },
+            {
+              "title": "ECB Lagarde speech",
+              "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261120~e52bcc4db2.pl.html",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "items": [
+        {
+          "headline": "China and Hong Kong stocks finish Friday lower",
+          "detail": "RTHK reported the Shanghai Composite closed Friday 20 November down 1.22% at about 3,533 and Hong Kong’s Hang Seng fell about 1.9% to 22,410. China’s October retail sales had risen just 0.4% year on year in a 17 November statistical release. These are dated completed market and economic observations; there was no Saturday stock session.",
+          "why": "The market decline can reflect global technology risk while weak domestic consumption provides a separate earnings concern. Different sectors and currencies mean the mainland and Hong Kong benchmarks need not respond identically. The next property and spending data will show whether local fundamentals reinforce Friday’s risk-off move.",
+          "watch": "Compare Monday mainland and Hong Kong closes with the next retail and property indicators.",
+          "status": "carry_forward",
+          "as_of": "2026-11-20",
+          "sources": [
+            {
+              "title": "RTHK Friday China and Hong Kong close",
+              "url": "https://news.rthk.hk/rthk/en/component/k2/1878603-20261120.htm",
+              "published": "2026-11-20"
+            },
+            {
+              "title": "China October retail sales",
+              "url": "https://www.stats.gov.cn/english/PressRelease/202611/t20261117_1965878.html",
+              "published": "2026-11-17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "japan",
+      "label": "Japan",
+      "items": [
+        {
+          "headline": "Japan inflation holds above two percent as shares fall",
+          "detail": "Japan’s Statistics Bureau reported on 20 November that October headline CPI rose 2.3% year on year and CPI excluding fresh food rose 2.2%. Friday’s Nikkei 225 closed down about 5.1% amid a broader Asian chip selloff. The statistics measure October prices and the stock return belongs to Friday; Japanese cash equities were closed Saturday.",
+          "why": "Inflation above two percent keeps Bank of Japan normalization in view, while the equity drop highlights sensitivity to global chip sentiment. Yen appreciation can relieve import costs but pressure exporters. Wages, consumption and the next BOJ communication will help determine whether the inflation trend justifies a tighter policy path.",
+          "watch": "Watch wage data, the yen and the next Bank of Japan policy statement.",
+          "status": "carry_forward",
+          "as_of": "2026-11-20",
+          "sources": [
+            {
+              "title": "Japan Statistics Bureau October CPI",
+              "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/index-z.html",
+              "published": "2026-11-20"
+            },
+            {
+              "title": "Friday Asia closing report",
+              "url": "https://www.adrbny.com/market-analysis/daily-dr-market-summary/adrnews.2026-11-20-streetaccount-summary-asian-market-recap-nikkei-506-hang-seng-189-shanghai-composite-122-as-of-0310-et.html",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other_world",
+      "label": "Other world",
+      "items": [
+        {
+          "headline": "Taiwan and Korea absorb sharp chip-market losses",
+          "detail": "Friday Asian-market coverage recorded Taiwan’s Taiex down about 6.2% and South Korea’s Kospi down about 5.2%, while Japan’s Nikkei fell about 5.1%. Those were completed 20 November local sessions, not Saturday prices. The region’s chip-heavy benchmarks fell after US technology weakness, but the sequence alone does not identify each market’s selling catalyst.",
+          "why": "Semiconductor concentration can amplify changes in global demand and valuation expectations, yet local currency moves and investor positioning can differ by market. The next supplier orders and guidance will show whether the declines signal a real demand change. Monday local closes will also test whether contagion persists.",
+          "watch": "Compare Monday Taiwan and Korea cash closes with chip-order and export data.",
+          "status": "carry_forward",
+          "as_of": "2026-11-20",
+          "sources": [
+            {
+              "title": "Friday Asia closing report",
+              "url": "https://www.adrbny.com/market-analysis/daily-dr-market-summary/adrnews.2026-11-20-streetaccount-summary-asian-market-recap-nikkei-506-hang-seng-189-shanghai-composite-122-as-of-0310-et.html",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
