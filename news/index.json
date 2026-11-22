@@ -1,6 +1,6 @@
 {
- "checked": "2026-11-21T21:45:53+00:00",
- "changed": "2026-11-21T21:45:53+00:00",
+ "checked": "2026-11-22T01:39:35+00:00",
+ "changed": "2026-11-22T01:39:35+00:00",
  "window_hours": 48,
  "tickers": {
   "AAPL": [
@@ -121,22 +121,143 @@
     ],
     "direction": "positive",
     "primary": false
+   }
+  ],
+  "AMZN": [
+   {
+    "id": "b15c06b8cbd309d8",
+    "title": "Jim Cramer: Amazon Could Sell Its Anthropic Stake and Say “Our CapEx Is Paid For.” Does the Math Work?",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQaGxDMG9HcUZ3OGliOC0yYWJlc0tvdGpNWVNsemx4U2E1UmZFblVVN2o1dmVvVWlyYU80OEh1bkZCMjJBcVplemZvNUl1LXozOGdVTEdSMG5ZZGtJZXoyN29qSGhhNnhucmVjcFZTXzV2cEpkOHc0czJMZUdjY1Y0NEZWRGxrTTZMRkhRM28ycGFpTEFoTHV6djZZOEdUUk1saEUzVExGNnZpRW1jalZPdGpXQjhqX1A3T2xfaDBOWTc?oc=5",
+    "source": "TIKR.com",
+    "published": "2026-11-21T20:37+00:00",
+    "score": 10,
+    "tags": [
+     "capital",
+     "ma"
+    ],
+    "direction": "neutral",
+    "primary": false
    },
    {
-    "id": "33d341d83bc7d735",
-    "title": "UK Tribunal Forces Disclosure of Secret Apple Data Order",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYWdyMkhkU3VsVDdWZHZ1SjRHN0h2clpzVG1wZktIWUVFcU5pdUJBVzh5eVpPWHdxSFBfN1k4QkpIV0lsVjA0X1RoQ3RjaEVYT19CWTMtTVp0WDVRaXlsaEo5bF9LYXR0dldRQmxRVV90ZDByaEJlRzRBdXZPR01DMXpMYkx2aGUyNmUxdlZ6UzdLVGYt?oc=5",
-    "source": "Financial-News.co.uk",
-    "published": "2026-11-20T00:55+00:00",
-    "score": 5,
+    "id": "b9b62628d11d1a77",
+    "title": "Amazon closes in on $7.5bn deal to buy AI start-up Decart",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTEFvVDlwcmNmNEl1WGpwZ3A3TzF3ZkNLSDFrUHA3XzY3REJxa3Jyc3pjUnVLdXdydFp3eTBYR1E1elQzVllDV1JQVzJENFNhV3RjVWl1eFB3dWFZS1BQWlRpTC1WZWZ1OV9CZmdhQnNtdmUxb25DWS16SEVodXVlRnBFUFQ?oc=5",
+    "source": "Financial Times",
+    "published": "2026-11-21T17:21+00:00",
+    "score": 13,
+    "tags": [
+     "ma",
+     "contract"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "7ea063f2ec67318c",
+    "title": "Amazon stock: AWS signs $5 billion data-center deal",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdk1DcGJyN0NPNk94cmUxSTI4RjBreC0tY2J3QzgwOURndFR0NWdoTWl2YTJ4YTlXRzZpOGJoQXpqU3FmRUhKWno5WDNMZ2NsNEhsd0JtSWlnZXVkR1FxdDlGOC02bDhSNXVqcEdMTVJLYkcxZG1hTVNseTdkUW1NbVJOeVo1YmEyZmt3ekR3SkpMVG5GWjl4NG9EdDY5T1JzQlR5YVMwdU9xdVNiZjhEdjdR?oc=5",
+    "source": "ad-hoc-news.de",
+    "published": "2026-11-21T09:30+00:00",
+    "score": 8,
     "tags": [
      "contract"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "a80580444cd2270f",
+    "title": "Key facts: Amazon Anthropic stake $188B; $310 target; Wedbush pick",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNclM0SmtCdGM5Y1Vtd1o3alZudVcwR3ZKNnBNX2FWaURTZDAwUWt5QVR6N0taRVh1eG9NeGpjQ2JFX1B6YkdHNVhUNXREREc5RE9yaEpvOUhaT1Z5ZVBWb1NEd3B4b2FpazIzZGRUb19wYnphRkNWcEhuMVJ1V2JxR002bWRWTEhzTWMwQmhoZjBab2FTUTBVUFJ1Nm53MWV5ZEZrQ1lhb0VOaHZIUkpZRkwyTzhKdzl3UlVHQXlhQUE?oc=5",
+    "source": "TradingView",
+    "published": "2026-11-21T08:00+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "8c4d3b04a163c947",
+    "title": "Generac Stock In Focus After Earnings Beat And Amazon Supply Deal",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTjFIUlJxYUE5MlRvWXZ4bHdkSWpSVUtnODIwd3pyeE1OM1RZamtEbTZ5SFNtS1RzVnpQT1l0MUJqZ1Z1THgySDd0cExoZzRqUzBMSG8xVGhmWTJTdTlQWXMxcVNfNFpRU3o1eWdVZ3lCMFdJTmxmWWY1R3l3MUJxeFRXMlVpMnRuZUFBSjhIX0lwMTIySC1DNWxDNm92LUU?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-21T00:19+00:00",
+    "score": 11,
+    "tags": [
+     "earnings",
+     "contract"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "5ccb5adaea2e9486",
+    "title": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill | Amazon Web Services",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQX3h3dEMxajVfSHBOSDFvVDdMeGhBOXVtUU0wUzk0MUhHNjlBTVZzZ2ZqNDA2bm5xXy1OSEdqejNSV3kzLVU4dllOdmlwaTMyZmdnazVwd0dMdHVEamZRX1dYSXhwWXVFNV9uSFJoa001WUpKWWVfWFliN3I0Mm5FM2VRQWN4aVFBa1kyTlVDQTVHTGdPRC0xSWVQa3c5X2tOMXJXOXVyUUl1Y1VOQnV3VXNuRl9sLTBnN3VJWHd1TmNBWlM2cXc?oc=5",
+    "source": "Amazon Web Services (AWS)",
+    "published": "2026-11-21T00:14+00:00",
+    "score": 5,
+    "tags": [
+     "operations"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "15fd7fbbdb0f7d5b",
+    "title": "Billionaire Dan Loeb’s “Bear Math”: AI Needs $2-3 Trillion of New Yearly Revenue. He Sold Amazon",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNak91WG5CanJTX19tMEE3ejNLdE80bXhiZWdibkdfem9EUWJ6THRiSENMQ3FUTkZxWkJIMThrUTNNZHhCNXhvT3piNGNzTW52YnVRRndpREdsYjhhNXAxWGpLRXlZSHlndGVxVjJKcFg1dnNwVkFjeW5pdDloeE9rZXQzemppVmtRUGJHNTc5TkpXS2w0MmVPT0ItVjRDY2ltQjdqc09zck11dDZ1Yko4bTFPTmJCQmRf?oc=5",
+    "source": "TIKR.com",
+    "published": "2026-11-20T22:09+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
+    "id": "c7a4818798b0aa4b",
+    "title": "Amazon Stocks Fall 3.87% as Its $188 Billion Anthropic Stake Starts Trading Daily",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcDZ2bUlJODNWd25VNXJTM3QwVXFUdzB4RUdqLXhmNVRwbW9KeC01bjdOX2Z5emI3YmdGM2s4Vmw4cHBZMThrNTRyaWxnOXM4Z2sxSTVTMktuUUJxRWJlOERQQ0I1cExUY0czV1oycVhKSEllUDFVWjg5MzNJX1Qxb0pMUU0tcXB2Ym9IZlB0MjlJT1VNUmY5dFBmS1FiOVBqSjRmcHZaY3hycE5GZV9hcFo1dVRIemR3VS14My1CbGZ4LXMzN3pKQjNiUVVvSlkyM0sxdF9n?oc=5",
+    "source": "TradingView",
+    "published": "2026-11-20T21:41+00:00",
+    "score": 8,
+    "tags": [
+     "capital"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
+    "id": "68e22529708cec58",
+    "title": "Amazon Stock Forecast — AMZN ($248.31) $269 Upside Target on 39% AWS Growth",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRENVeEx6Q21ZOXFtQjU1cGpYbUMtZmZITU9IeVNaZW9PR0Zqb0hlVllOWjNlT2lSTG96YmVWdWd1WjRSVXZ3VzFWZ3lfV0stUzZZTDRSbHFOQjhSbnJGT2gtM2tCbUV6WmdvLVZnMURFblNnSE1ZMGRBMDhKMzJJYnNRakhWMEFFbDlQSXc2RVdfOVJSdW02M3VKZFdnQTFDOVRZNjBUZElWeWg1VFVSYzJWQ2Z0Y0JMNGlHLVhQN25KdXNHLXQzOEtXU2htWThLdjc4?oc=5",
+    "source": "TradingNEWS",
+    "published": "2026-11-20T21:14+00:00",
+    "score": 9,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "daeb2f5811ea1e35",
+    "title": "Amazon Stock: What Wall Street’s Latest Forecasts Say About Its Next Move",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPLUp5RTZTbEhNOGhOZjBLWnJRTEZaVE9ha2l0T1JndjFXSWhXRmUtQ0lQWUowa0hnREJiSm91TVplbURSeTJQYVRKZkJHMUZTMVhpU183QnIxQV9uSk9jclc5WDZXRHhPWlY1ZzZ3czhSZHVmY004Q3J4XzlZeFJYU0VPemFYeHhoYVhuV25IOUtYbVd4bEhYVkFXaVA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-20T17:03+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
     ],
     "direction": "neutral",
     "primary": false
    }
   ],
-  "AMZN": [],
   "TSLA": [
    {
     "id": "cf45ffb5a2925826",
@@ -205,6 +326,19 @@
     "primary": false
    },
    {
+    "id": "b95785e4b4dcf76d",
+    "title": "Tesla (TSLA) Down 0.1% Since Last Earnings Report: Can It Rebound?",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUVNYck9rekRqelBDWURIbHJJX2R4Y2E4Vl9ZRVBKR3BsYTAxQUpJNG05aTFVZWxCeno1ZjZlQ0pIWGM0My0zcldMSG50SXkzNzRfNzJjMEc4Ymx5QUpqV1BZZGh2YkM0U1QtLVV0bVF3TnhoZXY3TUk3MVBBS3NNdTJJa1U0eWYyTHhIbg?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-20T15:30+00:00",
+    "score": 6,
+    "tags": [
+     "earnings"
+    ],
+    "direction": "neutral",
+    "primary": false
+   },
+   {
     "id": "4f3bf9a2d5841d3b",
     "title": "Don’t Sell Tesla Stock. A Merger Is Coming.",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5tcWZUMmlkYmtfMXFMWVc5Q2FBYzlKUURFRzhBeGh1aHFhU09lZU1uVzktVUQwTks3N00xd3lIR3dVOHI1VXdyRU1lcE4wVEtHNmJ3MXJpQ3h5Mjhza1ZuZ0RULTZUNjJDeG1uT3VNTi00S04tbGc?oc=5",
@@ -239,19 +373,6 @@
     "score": 5,
     "tags": [
      "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
-   },
-   {
-    "id": "4c34e62981cf94a4",
-    "title": "Tesla (TSLA) Stock Price, News, Quotes, Financial Reports",
-    "link": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxPT3VZNnp2eGZrVy00cVRUY0FOTGFpMGdOekdVbFJhUjI2ZFk5dTNKWFF0WW43OHdCeTFwbGdjTGxJVzZ2MU9uRWg2cmdFbVZCLS1nZlExdVdiX3lWenF0U1dwaVZRWF8zempVYkxNNDlzNnZkRloxN1otMEJKYlBWdktYbmxoY2hjcjR5bHpzTmdRTTJPOGNaT0hTOGFUZldDVFpaQmtTRkp3Qk1taGFlUTNxMGRFVDdUQ3FPTEduZFloWHFTUlU5cDBYNjc5R2hEWmpmM0lrNGFjWFJWdXE2cmpSTGlqSXVLTUV1YWtSN2JDd2dhbXZEY2hJSGNmbU9WWHpucUh5dTNGaEpiR2xPY1VxdUwyUXhIT2pKRl9hYURUWGJzV3hBcm5sa09oUWpXbTJnM3RqWHVkSkRzMmhGNXYzYk9oajlLRURPOVBzUDVnRTNfR2l",
-    "source": "Moomoo",
-    "published": "2026-11-20T01:34+00:00",
-    "score": 6,
-    "tags": [
-     "earnings"
     ],
     "direction": "neutral",
     "primary": false
@@ -299,6 +420,20 @@
    }
   ],
   "MSFT": [
+   {
+    "id": "288b7517e9165b6d",
+    "title": "Microsoft Says Outlook Testing Missed Bug Behind Worldwide Outage",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMktjbmNDN0VrbFNBemJ1WnB1UE5LREJMaWs1bDdGY3NsM1hidGJ5WmQ2MUE3WUdiNDhmUE5SZVNZczZGUHhjMnNObTJkMWcxNVZYVk5ITThlS3N2bE9NbE5DUUUzdUg3amtxMW1TWjZVV0lRdTN5MVMzNjAxOWgzWGVHTDdDbWUyWVNuN2oydkl2bms?oc=5",
+    "source": "JournalArta",
+    "published": "2026-11-22T00:16+00:00",
+    "score": 11,
+    "tags": [
+     "earnings",
+     "operations"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
    {
     "id": "ac82d62a6d14cb85",
     "title": "Microsoft's AI Bill Comes Due: Azure Outpaces Guidance While Free Cash Flow Retreats 27%",
@@ -416,19 +551,6 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "8800198189fb7399",
-    "title": "New Buy Rating for Microsoft (MSFT), the Technology Giant",
-    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcllITFdRQy1wY0NxVWxIXzQxdUczaDdXeDdyU1NwcWQzdzB4LTlUajhjUS1HQVhZM29Dek1mVGlpczUwZXZYY1F2dVB4aFZMN0lHV2FoWERYRVdmakRWMlI1Q1VvV1BvTWJTODFzc3F2aHNzY0Y1U1Z1MjZfeE1LZlU2d3R6YVcxRXhoeFlLcEwtdzlQOTZUdzNjbHBKT1BiYy1mSzZBc2NtOUN0dzctQTkwYXoxTFk3UklOT1lKRkdWMTVIVDN5OVE4ZnlxN2ZvdmZXemV3?oc=5",
-    "source": "The Globe and Mail",
-    "published": "2026-11-20T13:40+00:00",
-    "score": 5,
-    "tags": [
-     "ma"
-    ],
-    "direction": "neutral",
-    "primary": false
    }
   ],
   "GOOGL": [
@@ -524,16 +646,29 @@
     "primary": false
    },
    {
-    "id": "af2d7dc249126a53",
-    "title": "Alphabet raises $6-billion in Canadian bond offering",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSXhtSjNVMXo5Vmd2X09VYUp4MWpDVUxpOERMVGF1cS13QTVTVklfQmQtbHZCWTRmaW1LWG4xZ2dFQnZSWjBPRUJCR3FaUk1KUEUxS2RNX2tRNnR2cjlwZ2FrTlR4TUl1QTIxSlNHTGhBdkVwSXpETU8wSjNZNVFnUjZ6ZWxmVkpZb250OVhDczhWaTBVaXhFVmJYSXlHM3FTZHNBb1l0UzlxTmh4?oc=5",
-    "source": "The Globe and Mail",
-    "published": "2026-11-20T11:40+00:00",
+    "id": "a76b45284b8d5c2a",
+    "title": "Alphabet raises $6 billion in Canadian bond offering",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZXItQ0lpQWY5UDVHTHJwWWdNaHRyTk52c0MyRVo5MnV1c05hQVdiZjh4c2RNTHZ2WVdDeW0wZmo3ZVhFRGVDMllDRW1BWFlkdzJPZkJScTVPLWl1OW1zRkp3WWZNSkVZNWxqNHdTQ1NhazF2WUxaWWoyX3lNdzRPbzRZSlJwM3NpcGpoTk1QMUhDWlNUM0VUOFVoeEJrQlBobU56cVo1MHB4Y0hyUVRlNVJfTQ?oc=5",
+    "source": "BNN Bloomberg",
+    "published": "2026-11-20T12:57+00:00",
     "score": 8,
     "tags": [
      "capital"
     ],
     "direction": "positive",
+    "primary": false
+   },
+   {
+    "id": "f0c885c072f76fbd",
+    "title": "TD Bank Launches Auto-Callable Notes Tied to AMAT, CAT, GOOGL, and SpaceX with 13.75%+ Coupon",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNE1pMjJXMThULVlfTTR5dzl1SmlzdnpycnF1TzZ6cXpUM0NEOUhJN0I5WVUycUhvWXdZWXhXaHBwWmRWMHo0a2h3WHJEajZiOWYwWGEtMWcxM1lYcHR3c2tuVWZpYVg3b1lDd3Jzb2EzLWFDc0lkSVI2ekZFZGIxRG1TYXE2QXJYWTFQbm9FdjAyeW9uSW9VWGhycEhjS05UV18xR0xQNFQ2UlNESkg0Y09oYS03MktHQWlVVTNieUJsZXcyVW9hQmJMdlVlODA?oc=5",
+    "source": "Kalkine Media",
+    "published": "2026-11-20T11:12+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
     "primary": false
    },
    {
@@ -548,22 +683,22 @@
     ],
     "direction": "neutral",
     "primary": false
-   },
-   {
-    "id": "db49edbdccd5ad5f",
-    "title": "Stock Market Today, Nov. 19: Stock Market Today, Nov. 19: Alphabet Shares Fall as Anthropic Nasdaq Debut Puts Fresh Value on Google's Stake",
-    "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxNblEzazRGRlVJc2IxRXQ3UVVwOFM3R3ZIX1BPZ1NrZ2J4cnBwMldEcTZXZm8wVjFRME1BbnlidTQ0SDlUcXpnTUZPNGkwQUVtbkNBMEl3TlBWNklUS3ZfQUh0cHpOQnF6YmM2M0Z2WnVLcW42M2EwTTdIMjZsdlVUOVladXFYV2ttd3dLSTZwWDRRUHU1R0VmZ1JzRmJnMUpxT3VRcWVvMmVMTHBVTzltT1ZQRG96cFdwbE9IcGE4alJ5bVh3MFJFTXJuU3ktMXpMWEJ5bU96dFpKM0JOcFBJOGJPdmZDc2xNMHFfX2hqajhWMGJnZWdPXzFtSGdCdUFFVTVzVUVNcGJnYVU3RkRXYVFVTEQyZE9oRVUwazhkX1Q2ZUFQSnNTNE1XeHFmSjdGRm1oTmdFbHl2VWVx?oc=5",
-    "source": "The Globe and Mail",
-    "published": "2026-11-19T23:22+00:00",
-    "score": 5,
-    "tags": [
-     "capital"
-    ],
-    "direction": "negative",
-    "primary": false
    }
   ],
   "HOOD": [
+   {
+    "id": "b235f7d006292e8b",
+    "title": "Coinbase, Robinhood, and Circle Could Win Big From SEC Tokenized Stock Move",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRmlGNXZ6ckQ0UEp1SmZ6ajE2dWg0XzlKem5uSnNpdFVOMWkyOG03TUFYRWpNZFI5cEw3LTA5dTUyQkk2Sm5wMkc2N040djBFc3hqVTFhbjlLZGdSbmJ6b3NQQllEb2JyOFVPUzlrU3ctUFRFMzFGUlFtRngxUk5LNmpER21yLXphM25zekhZbjJsWDhOMlJlU3daOFNhR2pHVlFwY1QtS25lMTB6WmcxSlN5WTdkNk0?oc=5",
+    "source": "CoinMarketCap",
+    "published": "2026-11-21T19:53+00:00",
+    "score": 5,
+    "tags": [
+     "contract"
+    ],
+    "direction": "positive",
+    "primary": false
+   },
    {
     "id": "35d8a0a2dab0cf90",
     "title": "Robinhood Markets stock: Evercore cuts target to USD 100",
@@ -591,33 +726,33 @@
     "primary": false
    },
    {
-    "id": "fc7f115dad0b79fc",
-    "title": "Robinhood faces shareholder challenge as SEC loosens proxy oversight",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN2JrTXczU1RkeFpxcy10d1RUbUJJNHh6TWU3aVJBMnRsSmdXNS11bjNrbE4yYXdva05nQ1RCZlBQdUY4Ry1xQUVrZHZqNFB4MklXVkZFejg4R3hCb2plcUZuNU9Sa1plWkFRbTBld0NNc01XQzdER3BTeE9XSUpmM2FWbzNLam5QQ3NLTmxocjBfd29R?oc=5",
-    "source": "Yahoo! Finance Canada",
-    "published": "2026-11-20T11:05+00:00",
+    "id": "67d1ef1f50e07730",
+    "title": "Robinhood Faces Shareholder Proposal Over Proxy Voting Options as SEC Eases Oversight",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbGRYdlJUU2RjSlVFX1lNNk02eTQwZ0E0dUQxdnNCTkRpRnkxRldhUVhxU05qVkw5NnRPcHU5RVRqMk93QmRJN1hSLWJ3UlNjSFE3NGRxWXZqQXB5QkdYVnJUeTZkOEFVZHFDUUw1ay1CQkVSTWpiNnZSLVYxVlVYRmxOYVkwbWhxMVhQX2k1aGZ3U2JrRWdlSW9zNE1pbndBOWl4UTg5aGt2Zw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-20T11:23+00:00",
     "score": 6,
     "tags": [
      "filing"
     ],
     "direction": "neutral",
     "primary": false
+   },
+   {
+    "id": "c8e2583abbe44785",
+    "title": "Robinhood Markets Stock | Price | Dividend | News (A3CVQC, US7707001027)",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE83Z1NDMFpmcW42R0Fkbkthc0U2aUpLR1FMbEZvR2pQQ0VodzBoVHFFNnN6TC16eWJvTFNnU1dmQldrdmhWRjdFMmV0dEtQN0hfSFVzSGI1d3lBMWE0YU5V?oc=5",
+    "source": "extraETF",
+    "published": "2026-11-20T08:00+00:00",
+    "score": 5,
+    "tags": [
+     "capital"
+    ],
+    "direction": "neutral",
+    "primary": false
    }
   ],
   "NVDA": [
-   {
-    "id": "29d3769500a8faab",
-    "title": "Nvidia probe in California extends to potential criminal violations: Bloomberg",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVFpsa3M3TE9HZHhwdkJvZ01lZmNrSll3Tm5lcHpmMjdNZDRPZXFLblRkd0NHUG9CZDhDWDREZy1uUmtjZ2lUeVhRMGlaM2g4cDNGYWhJQVFsYlNqVllpcElQNlJJYWtwd3E1ZFJEVjZmSm1jUnRzU3hOVWs5UkZkYkIwUDFQV0NkcnZqdGp3NFc?oc=5",
-    "source": "Seeking Alpha",
-    "published": "2026-11-21T19:46+00:00",
-    "score": 5,
-    "tags": [
-     "legal"
-    ],
-    "direction": "negative",
-    "primary": false
-   },
    {
     "id": "cdfcb7c868d338e4",
     "title": "A $150 Billion Reason to Buy the Nvidia Stock Dip",
@@ -632,40 +767,27 @@
     "primary": false
    },
    {
-    "id": "09f5f4a4f6646bdf",
-    "title": "Nvidia Stock Falls to $150 Per Share. Is It a Buy Now?",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbE53UV9iaFh5emVKcTg5WUlXbm1lWXhKcTNGNFZnaWVCbDg4V3dkMVVzWXN1eHRBTkNKVF83M0kwWERGeWl0WFBKaGJpOURjczFIOGQtLWdvM0FJb1ptVjVtbXRmOTlBb21HREdrV19NZVRzSmh6dEIwcGdfVHk0TTBYeFpELW9FdkF1SEQ0czhlOGhSM25JU21TTHIwR2l6SnNXVFg4RExZQ3hnUUxscllEZXBPMldoeVVHWUxHS2JGQTlERER5SmNR?oc=5",
-    "source": "The Globe and Mail",
-    "published": "2026-11-21T14:27+00:00",
-    "score": 8,
-    "tags": [
-     "ma"
-    ],
-    "direction": "negative",
-    "primary": false
-   },
-   {
-    "id": "1e942562c0a3de21",
-    "title": "‘Near Zero Chance’: Gary Black Explains Why Nvidia Board Won’t Reconsider Jensen Huang, Crypto Bettors See This Outcome",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTkRJaVVHR1BpcDJreVJrVkRtVVlLRXdqejRKOHNTQ0g3Nm9LTFVfaXpwOTZWdEFuTXVqWG8xcnozOVZma2x4ek5lQk5KLUs0Nk1qWi1PTHlfNEVDQjAzNERfXzFCM2oxSVNObThxRTBZdHJrWm9NeEtLZGsxclFUcnV2LVcxdzlRcE55WGE3REl2eDg2X1l3?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-21T11:26+00:00",
+    "id": "ef18e36db3d0f552",
+    "title": "The Danger of Jensen Huang’s Handshake Deals at Nvidia",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1fdkZ5R1J5S3R5UjEzbTdiVW1OTl9RRkFkcFdyYTJNVHpOMVR0TTlQM0YxUUI3VFZwdVEzSFdKMmdCTDVla3VBY3dtOGVxTnEwWFdyeFJneFEwTkZTb3FQQkZveUdGNUI2allxaUNZcVI?oc=5",
+    "source": "WSJ",
+    "published": "2026-11-21T10:30+00:00",
     "score": 5,
     "tags": [
      "contract"
     ],
-    "direction": "positive",
+    "direction": "neutral",
     "primary": false
    },
    {
-    "id": "26b33e7d1e6071d1",
-    "title": "Michael Burry warns AI stocks mirror 1929 and 2000 crashes — and singles out Nvidia's risky deals",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOUppLWR4d2dnRV9rVHBJVTRhWlpVSjBWUWM2T2ZfeFZOeGVHYk13LUY0T1ZNX1M1VTMxUWlkV0s3ZGhScHhJZ2ZaTUVCSm9kZEd2Qm9Bb3BxczJmVW5mQng2eGZOUll6T0xQb2VVQlhDdTRqT3Z2SzlRR3R2R0lUdFFIVDVFR0kzSnhoaWxQMEZobERjN3JiZzVR?oc=5",
+    "id": "ec3b820ba4e08f59",
+    "title": "After Its Worst Week in 18 Years, Nvidia Now Faces an SEC Investigation. What It Means for Investors",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNckxocjV6RlV0dTl2MHdGalAyZ0lrLXlrNVlnSFRUcjFKRG1tZUIxVlpBS0M5ajdQWThDZ0ZzQ01jXzBES3RaWHFkNkZNWEJ1ZTVtOGxjR3hsLXE5eVAwaWU1aEdnUTNvZzFpOVpwVTJLaVhjcGU2LW1iV3ltMnRmdDdRM2VyZVpKbWVqTTZEYlhEemhNd1E?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-20T22:30+00:00",
+    "published": "2026-11-21T06:30+00:00",
     "score": 5,
     "tags": [
-     "contract"
+     "legal"
     ],
     "direction": "negative",
     "primary": false
@@ -993,6 +1115,20 @@
   ],
   "MRVL": [
    {
+    "id": "b747f4aaf10cfff7",
+    "title": "Lumentum stock: B. Riley cuts target as Marvell deal shapes valuation",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQb2FFbHNBUGNkcUxnLWJsOG92ejZqeUlkMDVoRUQ4MTMwMGV1RFM2MEQzMGNCX3g4endVN25OcjFOekhnTEtka1BVakEyUG4wU25oc3pZWG1sQ3NhMTZrQ21YclBIc1RPb0RudjB6RzBtWW5FTHllSkZ1YnNJenlOUU91U25lcGxNd3hWRHBCekNNYVFPeWE2UWxWMlM5OFRpQ1o2WXZ5V2xyZjdfUUczNmJxSXZRNWxNbU41UXp3TXhlREQtY1UtWHV3?oc=5",
+    "source": "ad-hoc-news.de",
+    "published": "2026-11-21T09:46+00:00",
+    "score": 10,
+    "tags": [
+     "contract",
+     "operations"
+    ],
+    "direction": "negative",
+    "primary": false
+   },
+   {
     "id": "6d4f7ae8d82257af",
     "title": "Marvell's Dec. 1 Earnings Report Is a Referendum on Its Post-Lumentum Growth Story",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5oQkY5LU5TaUluQmcwZUM5bTZwLUpJdnpHblVMcUdISXNoTFVGUnBNTmIwbTZMNzI0V3RpNnFfY2h2aUJEbklVOVpSSjBjcy0tWmd2VnRrQi1qU0ViUWtNUGFUcXBzR0o3WFFSWjd6RG9MMmRJMEE?oc=5",
@@ -1032,17 +1168,17 @@
     "primary": false
    },
    {
-    "id": "e7de4feadf64deb5",
-    "title": "Lumentum defends planned Marvell merger as $115 billion deal faces investor backlash",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQN3pwOHRFMEhRdmhhc3NRZmcwZFNuQlVXbnVvdm9WZ05Bam9XajI4UXEtVVpVNk1Kb24tdF9oVGZxaHNxbTZER0dLdGhtZlhvZXltZFpzVzh2LWNoWVBVU0VKQVlLNDkzWWdZdm95WTdwWEZHd2s0Vy1iTXdLcmhkSWE5a044T2xBM0pJbkpLdW1TWkxFcnZRRGdkWQ?oc=5",
-    "source": "Traders Union",
-    "published": "2026-11-20T00:10+00:00",
-    "score": 13,
+    "id": "b411872289341a83",
+    "title": "Marvell Drops 45% and Lumentum Falls 42% After Merger Announcement; CEO Says \"Results Will Prove It\"",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE85X3diMUtRR1dDR2VrYkczSlBmT0VvTUJETXRHZmdMd0N5TWxPd1FqQlBmYUs3N1R3dGdkbWI2S1YyQ2ZZREVZVzZoZFBMN3FOT1YzWU5jb3BwVGJlblQyQU5B?oc=5",
+    "source": "재경일보",
+    "published": "2026-11-20T02:25+00:00",
+    "score": 11,
     "tags": [
-     "ma",
-     "contract"
+     "earnings",
+     "ma"
     ],
-    "direction": "neutral",
+    "direction": "negative",
     "primary": false
    }
   ],
@@ -1094,8 +1230,7 @@
    "sec: HTTP 403"
   ],
   "AMZN": [
-   "sec: HTTP 403",
-   "news: HTTP 429"
+   "sec: HTTP 403"
   ],
   "TSLA": [
    "sec: HTTP 403"
@@ -1128,5 +1263,5 @@
    "sec: HTTP 403"
   ]
  },
- "count": 81
+ "count": 91
 }
