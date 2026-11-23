@@ -1,0 +1,313 @@
+{
+  "date": "2026-11-23",
+  "as_of_utc": "2026-11-23T13:00:00Z",
+  "headline": "Monday pre-open: US futures recover while European PMIs and Asian closes diverge",
+  "overview": "At the Monday 23 November 13:00 GMT editorial cutoff, New York was 08:00 EST: the NYSE regular session had not opened, London and European cash markets were open, and most Asian sessions had closed. Friday 20 November remained the latest completed US stock session. An early US futures rebound followed Friday’s sharp AI-led selloff, while November flash surveys showed slower UK growth and a steady euro-area composite. China finished mixed and Korea fell; Japan was shut for a holiday. These are separately timed observations, not a Monday US close. US flash PMIs and later cash-market breadth are the next tests.",
+  "general": [
+    {
+      "id": "equities",
+      "label": "Equities",
+      "items": [
+        {
+          "headline": "US futures recover before regular opening",
+          "detail": "AP reported an early Monday 23 November rise in US stock-index futures and premarket AI shares following Friday’s completed session, when the S&P 500 lost 3.7%. At the 13:00 GMT cutoff New York was 08:00 EST, before the 09:30 ET NYSE regular open. The futures indication is not a Monday cash close.",
+          "why": "A futures rebound tests immediate risk appetite but may reverse after the cash open when more participants trade. Friday’s correction and broad technology selling leave the quality of any recovery important. Breadth across sectors, rather than a few large AI stocks, would be stronger evidence of stabilization.",
+          "watch": "Compare Monday cash-market breadth, sector participation and the completed close with the pre-open futures indication.",
+          "status": "new",
+          "as_of": "2026-11-23",
+          "sources": [
+            {
+              "title": "AP Monday pre-open market report",
+              "url": "https://apnews.com/article/stocks-markets-rates-technology-ai-anthropic-49ba1beba78fa4ed2bd5898029f79c91",
+              "published": "2026-11-23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "treasuries_bonds",
+      "label": "Treasuries and bonds",
+      "items": [
+        {
+          "headline": "Treasury yields fall as stocks sell off",
+          "detail": "The US Treasury daily par curve recorded a ten-year yield of 4.92% on Friday 20 November, down from 5.04% on Thursday, and a two-year yield of 4.63%, down from 4.76%. These are official daily rates, not Monday trading levels; the official Monday daily curve had not yet been published at the 13:00 GMT cutoff. The drop coincided with a severe equity decline.",
+          "why": "Lower sovereign yields can cushion discount rates for future earnings, yet Friday’s stock selling shows that rate relief was insufficient to stabilize risk assets. The front-end decline may reflect changed policy expectations, but the yield figures alone cannot isolate the reason. Credit spreads and next week’s inflation data provide a separate financing check.",
+          "watch": "Compare Monday Treasury yields with new credit-spread and inflation data.",
+          "status": "carry_forward",
+          "as_of": "2026-11-20",
+          "sources": [
+            {
+              "title": "US Treasury daily par yield curve",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "credit",
+      "label": "Corporate credit",
+      "items": [
+        {
+          "headline": "Junk-bond funding pressure remains a concern",
+          "detail": "Libella’s Friday report put the US high-yield option-adjusted spread at 3.47% for the 18 November observation, up 17 basis points over the preceding week, and its weaker CCC-to-B ETF proxy at 10.01% for the same date. Those observations predate Friday’s stock rout and must not be presented as a Friday bond close. Friday credit commentary reported heightened risk premia for lower-quality borrowers.",
+          "why": "Companies with near-term refinancing needs can face higher borrowing costs even when Treasury yields fall. The weakest credits may diverge from investment-grade funding and realized defaults for some time. A dated spread series and new debt issues are necessary before concluding that equity selling has spread into a broad financing squeeze.",
+          "watch": "Inspect updated high-yield and investment-grade spreads plus the next primary bond issues.",
+          "status": "carry_forward",
+          "as_of": "2026-11-18",
+          "sources": [
+            {
+              "title": "Libella Friday cross-asset report",
+              "url": "https://www.libella-group.com/morning/",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "currencies",
+      "label": "Currencies",
+      "items": [
+        {
+          "headline": "Dollar and sterling respond to Monday data",
+          "detail": "Libella’s 07:02 London Monday 23 November cross-asset snapshot put the dollar index at 103.62, down 0.2% on its convention, while an FXStreet report after the 09:30 GMT UK flash PMI release put sterling near $1.3118. Those are timed intraday observations, not full-day closes. The UK composite survey eased to 52.3 from 52.9.",
+          "why": "Currency prices translate foreign revenue and affect dollar-funded borrowers, but a single morning quote cannot isolate whether survey data, rates or positioning drove the move. Sterling’s resilience despite slower UK activity is a reminder to test interest-rate expectations separately.",
+          "watch": "Compare end-of-day sterling and dollar prices with yield moves after the US PMI and central-bank remarks.",
+          "status": "new",
+          "as_of": "2026-11-23",
+          "sources": [
+            {
+              "title": "Libella Monday cross-asset snapshot",
+              "url": "https://www.libella-group.com/morning/",
+              "published": "2026-11-23"
+            },
+            {
+              "title": "FXStreet UK PMI and sterling report",
+              "url": "https://www.fxstreet.com/news/united-kingdom-flash-sp-global-services-pmi-unexpectedly-drops-to-52-in-november-202611230933",
+              "published": "2026-11-23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "headline": "Bitcoin trades above $61,000 at the cutoff",
+          "detail": "Coinbase Exchange’s BTC-USD one-minute candle for 12:59 to 13:00 UTC on Monday 23 November closed at $61,253.47 on 54.69 BTC of reported volume. This is an exchange-specific minute aggregation fetched after its interval ended, not a universal crypto price or a Monday US equity close. It follows the prior weekend’s sub-$60,000 prints.",
+          "why": "Crypto trades continuously while US stock-index futures and cash equities have different hours. The rebound may signal improved risk appetite, but a single venue and minute do not reveal durable demand or leverage conditions. Confirm with wider exchange volume and the later US cash session.",
+          "watch": "Check multi-venue volumes and fund flows, then compare the completed Monday US stock session.",
+          "status": "new",
+          "as_of": "2026-11-23",
+          "sources": [
+            {
+              "title": "Coinbase Exchange BTC-USD one-minute candle",
+              "url": "https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=60&start=2026-11-23T12%3A59%3A00Z&end=2026-11-23T13%3A00%3A00Z",
+              "published": "2026-11-23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commodities",
+      "label": "Commodities",
+      "items": [
+        {
+          "headline": "Gold rebounds in an early Monday snapshot",
+          "detail": "Libella’s 07:02 London Monday 23 November snapshot put gold at $3,622 an ounce, up 3.0% on its reference, and January Brent at $89.72 a barrel, down 0.3%. AP later reported Brent near $90.83 during the European morning. Both are timed intraday prices, not settlements or a shared timestamp. Friday’s gold weakness had accompanied the global equity selloff.",
+          "why": "Gold’s early rebound may indicate renewed hedging or repositioning, but the earlier decline shows its behavior is not stable across stress episodes. Oil still transmits to fuel inflation and central-bank expectations, so the two commodities need separate demand and supply tests.",
+          "watch": "Check Monday gold and Brent settlements, real yields and the dollar before inferring a persistent reversal.",
+          "status": "new",
+          "as_of": "2026-11-23",
+          "sources": [
+            {
+              "title": "Libella Monday cross-asset snapshot",
+              "url": "https://www.libella-group.com/morning/",
+              "published": "2026-11-23"
+            },
+            {
+              "title": "AP Monday global markets report",
+              "url": "https://apnews.com/article/stocks-markets-rates-technology-ai-anthropic-49ba1beba78fa4ed2bd5898029f79c91",
+              "published": "2026-11-23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "housing",
+      "label": "Housing",
+      "items": [
+        {
+          "headline": "Housing starts rebound remains unconfirmed",
+          "detail": "The Census Bureau reported on 18 November that October housing starts ran at a seasonally adjusted annual rate of 1.309 million, up 9.9% from September, while preliminary permits were 1.295 million. The observation is October and the release date is Wednesday; there was no newer Census residential-construction release by Monday 13:00 GMT. Friday’s Treasury curve put the ten-year rate at 4.92%, a lower financing benchmark than Thursday.",
+          "why": "Monthly starts are volatile, especially when multifamily construction shifts, while permits and actual home sales show different stages of demand. Lower Treasury yields may eventually ease mortgage costs, but a one-day yield move does not immediately translate into affordability. Revised permits and sales are needed before calling the starts rebound durable.",
+          "watch": "Review the next housing sales, mortgage applications and permit revisions.",
+          "status": "carry_forward",
+          "as_of": "2026-11-18",
+          "sources": [
+            {
+              "title": "US Census October residential construction",
+              "url": "https://www.census.gov/construction/nrc/pdf/newresconst.pdf",
+              "published": "2026-11-18"
+            },
+            {
+              "title": "US Treasury daily par yield curve",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us_policy",
+      "label": "US policy",
+      "items": [
+        {
+          "headline": "Consumer sentiment improves, but remains subdued",
+          "detail": "The University of Michigan release on 20 November put final November consumer sentiment at 51.5, up from 48.0 in October. It said year-ahead inflation expectations softened, though they remained above February, and noted that interviews ended on 16 November. The October Federal Reserve minutes had described a baseline expectation of further tightening among most participants; the newer survey does not predetermine December’s decision.",
+          "why": "Improved household expectations may support spending even while stock markets correct, but the index remains low and the change in headline sentiment was below the survey’s stated 4.8-point 95% significance threshold. The inflation-expectation direction may ease policy pressure if confirmed by price data. The Fed must weigh actual inflation and employment as well as survey views.",
+          "watch": "Read the next PCE inflation and payroll releases before the December FOMC decision.",
+          "status": "carry_forward",
+          "as_of": "2026-11-20",
+          "sources": [
+            {
+              "title": "University of Michigan November sentiment",
+              "url": "https://isr.umich.edu/news-events/news-releases/sentiment-ticks-up-as-election-expected-to-usher-in-changes-to-economic-policy/",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "international": [
+    {
+      "id": "uk",
+      "label": "UK",
+      "items": [
+        {
+          "headline": "UK flash business growth slows while remaining positive",
+          "detail": "The preliminary S&P Global UK composite PMI was 52.3 for November, down from October’s final 52.9, according to FXStreet’s report at 09:33 GMT Monday 23 November. Services eased to 52.0 from 52.8 and manufacturing to 52.7 from 52.8. At the 13:00 GMT cutoff London cash equities were open, so no UK close is asserted.",
+          "why": "Readings above 50 indicate expanding activity, but the slower composite and services figures complicate the interpretation of Friday’s stronger October retail release. Employment and output prices will matter for the Bank of England’s growth-inflation balance. A flash survey is preliminary and can be revised.",
+          "watch": "Check the final November PMI, employment and price details against December Bank of England communication.",
+          "status": "new",
+          "as_of": "2026-11-23",
+          "sources": [
+            {
+              "title": "FXStreet report of S&P Global UK flash PMI",
+              "url": "https://www.fxstreet.com/news/united-kingdom-flash-sp-global-services-pmi-unexpectedly-drops-to-52-in-november-202611230933",
+              "published": "2026-11-23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "euro_area",
+      "label": "Euro area",
+      "items": [
+        {
+          "headline": "Euro-area November PMI steady with national divergence",
+          "detail": "Reuters reported Monday 23 November that the S&P Global flash euro-area composite PMI held at 51.7 in November, a fifth consecutive month above 50. Germany’s reading climbed to 55.0 while France remained in contraction; the services index eased to 51.2 from 51.4 and manufacturing rose to 52.9 from 52.7. European cash markets were still open at the 13:00 GMT cutoff.",
+          "why": "The stable aggregate masks different national demand conditions and keeps the ECB’s growth-inflation trade-off uncertain. Manufacturing and services employment, new orders and output prices can diverge even with a flat composite. A preliminary survey is a current activity signal, not realized quarterly GDP.",
+          "watch": "Compare final PMIs, national orders and wage/price data before the next ECB decision.",
+          "status": "new",
+          "as_of": "2026-11-23",
+          "sources": [
+            {
+              "title": "Reuters euro-area flash PMI report",
+              "url": "https://d2233.cms.socastsrm.com/2026/11/23/euro-zone-growth-holds-steady-but-frances-deepening-downturn-clouds-outlook-pmi-shows/",
+              "published": "2026-11-23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "items": [
+        {
+          "headline": "Shanghai rises while Hong Kong slips at Monday close",
+          "detail": "RTHK reported the completed Monday 23 November Shanghai Composite close up 0.15% at 3,538, the Shenzhen Component up 1.93%, and Hong Kong’s Hang Seng down 0.1% at 22,383. The report was published at 17:19 HKT, or 09:19 GMT, before the editorial cutoff. China’s October retail sales had increased only 0.4% year on year in the 17 November statistics release.",
+          "why": "The split between mainland and Hong Kong markets shows that a single “China risk” label obscures different sector weights and investor bases. A rebound in mainland shares does not establish stronger household demand or earnings. The next spending and property indicators are needed to test the underlying economy.",
+          "watch": "Compare Tuesday mainland and Hong Kong closes with forthcoming retail, property and industrial-profit data.",
+          "status": "new",
+          "as_of": "2026-11-23",
+          "sources": [
+            {
+              "title": "RTHK Monday China and Hong Kong closes",
+              "url": "https://news.rthk.hk/rthk/en/component/k2/1878944-20261123.htm",
+              "published": "2026-11-23"
+            },
+            {
+              "title": "China NBS October activity release",
+              "url": "https://www.stats.gov.cn/english/PressRelease/202611/t20261117_1965878.html",
+              "published": "2026-11-17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "japan",
+      "label": "Japan",
+      "items": [
+        {
+          "headline": "Tokyo closes for holiday after Friday inflation release",
+          "detail": "Japanese cash equities were closed Monday 23 November for Labour Thanksgiving Day, as reported in AP’s Monday regional market review. The latest Japanese national CPI release remains October data published Friday 20 November: headline inflation was 2.3% year on year and the index excluding fresh food rose 2.2%. Friday’s equity loss cannot be extended into a fictional Monday Tokyo price.",
+          "why": "The holiday delays Japan’s direct equity response to Monday’s global futures and Asian divergence. Inflation above two percent keeps Bank of Japan policy in focus, but wages and household consumption are necessary to judge persistence. Yen changes while Tokyo is closed need confirmation when local cash trading resumes.",
+          "watch": "Check Tuesday Tokyo cash-market breadth, wages and the next Bank of Japan communication.",
+          "status": "new",
+          "as_of": "2026-11-23",
+          "sources": [
+            {
+              "title": "Japan Statistics Bureau October CPI",
+              "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/index-z.html",
+              "published": "2026-11-20"
+            },
+            {
+              "title": "AP Monday Asian holiday and markets report",
+              "url": "https://apnews.com/article/stocks-markets-rates-technology-ai-anthropic-49ba1beba78fa4ed2bd5898029f79c91",
+              "published": "2026-11-23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other_world",
+      "label": "Other world",
+      "items": [
+        {
+          "headline": "Korea extends losses while Taiwan rebounds",
+          "detail": "RTHK reported South Korea’s Kospi closed Monday 23 November down 3.31% at 4,708, with Samsung Electronics and SK Hynix also lower. Libella’s Monday morning report put Taiwan’s Taiex up 2.2% at its completed local close, led by technology shares. These are separately completed Asian sessions; Japan was closed. The divergence came after last week’s region-wide chip selloff.",
+          "why": "Semiconductor supply chains share exposure to AI spending but differ in valuation, currency and local policy. Korea’s continued decline alongside Taiwan’s rebound argues against treating all chip markets as one trade. Supplier orders, export demand and funding conditions will test whether the split persists.",
+          "watch": "Compare Tuesday Korea and Taiwan closes and the next chip-order and export releases.",
+          "status": "new",
+          "as_of": "2026-11-23",
+          "sources": [
+            {
+              "title": "RTHK Monday Korea market close",
+              "url": "https://news.rthk.hk/rthk/en/component/k2/1878944-20261123.htm",
+              "published": "2026-11-23"
+            },
+            {
+              "title": "Libella Monday Taiwan market close",
+              "url": "https://www.libella-group.com/morning/",
+              "published": "2026-11-23"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
