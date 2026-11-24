@@ -1,0 +1,313 @@
+{
+  "date": "2026-11-24",
+  "as_of_utc": "2026-11-24T13:00:00Z",
+  "headline": "Tuesday pre-open: AI rebound meets higher-rate and valuation tests",
+  "overview": "At the Tuesday 24 November 13:00 GMT editorial cutoff, New York was 08:00 EST and the NYSE regular session had not opened. London and European cash markets were open; Asian markets had mostly closed. Monday’s completed US session saw a broad AI-led rebound, while Tuesday premarket technology shares softened and Treasury yields remained high. Korea, Taiwan and Japan rebounded after the prior selloff. Today’s US consumer confidence, housing data and cash-market breadth are the tests; no Tuesday US equity close is asserted.",
+  "general": [
+    {
+      "id": "equities",
+      "label": "Equities",
+      "items": [
+        {
+          "headline": "AI rebound faces a second-session test",
+          "detail": "AP reported Tuesday 24 November that S&P 500 futures were down 1.03% before the US open after Monday’s strong technology rebound; Nvidia was about 5% lower premarket. Monday’s completed Nasdaq gain was 6.5%. At 13:00 GMT New York was 08:00 EST, before the NYSE 09:30 ET open.",
+          "why": "A violent rebound followed by weaker futures tests whether Monday was short covering or a durable change in AI cash-flow expectations. Breadth, volume and non-technology participation matter more than one index future. The pre-open indication is not a cash close.",
+          "watch": "Compare Tuesday cash breadth and the equal-weight response with Monday’s rally and Friday’s correction.",
+          "status": "new",
+          "as_of": "2026-11-24",
+          "sources": [
+            {
+              "title": "AP Tuesday pre-open markets report",
+              "url": "https://apnews.com/article/feec0e25b9994b1c86b16329cf770192",
+              "published": "2026-11-24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "treasuries_bonds",
+      "label": "Treasuries and bonds",
+      "items": [
+        {
+          "headline": "Treasury yields remain elevated into the US data slate",
+          "detail": "Libella’s Tuesday 07:30 London report put the futures-implied US 10-year yield at 4.94%, up 2 basis points on the day. The latest official Treasury daily curve remains Friday 20 November at 4.92% because Tuesday’s official daily rates were not available by the cutoff. These are distinct futures and cash observations.",
+          "why": "High long yields can offset relief from a stock rebound by keeping discount rates and refinancing costs high. Futures-implied yields can move before the official daily curve, so the cash benchmark must be checked later.",
+          "watch": "Compare Tuesday’s official Treasury curve and auction demand with cash-equity breadth.",
+          "status": "new",
+          "as_of": "2026-11-24",
+          "sources": [
+            {
+              "title": "Libella Tuesday morning markets",
+              "url": "https://www.libella-group.com/morning/2026-11-24/",
+              "published": "2026-11-24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "credit",
+      "label": "Corporate credit",
+      "items": [
+        {
+          "headline": "Credit remains a confirmation test after the equity rebound",
+          "detail": "The latest opened Libella credit observation available by Tuesday was the 18 November US high-yield OAS of 3.47%, with weaker CCC-B risk at 10.01%. Those are dated spread observations, not Tuesday closes. The Friday equity rout and Monday rebound do not by themselves establish a credit-market turn.",
+          "why": "If equity optimism is durable, lower-quality spreads and new issuance should stabilize; if financing stress persists, credit will lag or reject the stock rebound. A dated spread series is required before claiming a broad funding improvement.",
+          "watch": "Inspect updated high-yield and investment-grade spreads and Tuesday primary issuance.",
+          "status": "new",
+          "as_of": "2026-11-24",
+          "sources": [
+            {
+              "title": "Libella cross-asset report",
+              "url": "https://www.libella-group.com/morning/2026-11-24/",
+              "published": "2026-11-24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "currencies",
+      "label": "Currencies",
+      "items": [
+        {
+          "headline": "Dollar stays firm as rates and AI risk rotate",
+          "detail": "AP reported the dollar at 159.08 yen and the euro at $1.0963 in Monday’s market update; Tuesday’s Libella report kept the dollar and higher US-rate channel in focus. These are dated Monday observations and Tuesday morning context, not a Tuesday close.",
+          "why": "A firm dollar can pressure overseas earnings translation and dollar-funded borrowers while higher yields support it. The AI rebound does not remove the rate differential or intervention risk around the yen.",
+          "watch": "Check Tuesday closing FX with Treasury yields and the US confidence release.",
+          "status": "new",
+          "as_of": "2026-11-24",
+          "sources": [
+            {
+              "title": "AP Monday global markets report",
+              "url": "https://apnews.com/article/stocks-markets-rates-technology-ai-anthropic-49ba1beba78fa4ed2bd5898029f79c91",
+              "published": "2026-11-23"
+            },
+            {
+              "title": "Libella Tuesday morning markets",
+              "url": "https://www.libella-group.com/morning/2026-11-24/",
+              "published": "2026-11-24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "headline": "Bitcoin holds above $60,000 at the cutoff",
+          "detail": "Coinbase Exchange’s BTC-USD one-minute candle for 12:59 to 13:00 UTC Tuesday 24 November closed at $60,412.79 on 13.93 BTC of reported volume. This is an exchange-specific minute aggregation, not a universal crypto price or a US equity close.",
+          "why": "Crypto trades through the day while US cash markets are pre-open. The price is higher than the prior weekend’s sub-$60,000 observation but one venue and one minute cannot establish durable risk appetite or leverage conditions.",
+          "watch": "Check multi-venue volume and fund flows and compare the later US cash-market response.",
+          "status": "new",
+          "as_of": "2026-11-24",
+          "sources": [
+            {
+              "title": "Coinbase Exchange BTC-USD one-minute candle",
+              "url": "https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=60&start=2026-11-24T12%3A59%3A00Z&end=2026-11-24T13%3A00%3A00Z",
+              "published": "2026-11-24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commodities",
+      "label": "Commodities",
+      "items": [
+        {
+          "headline": "Oil remains lower while gold holds the rebound",
+          "detail": "Libella’s Tuesday morning report said Brent was below $89 a barrel after Monday’s sharp fall, while its futures-implied 10-year yield was higher. Its Monday report had gold at $3,622 and Brent at $89.72 at 07:02 London. These are timed observations, not Tuesday settlements.",
+          "why": "Lower oil can ease headline inflation while higher yields and a firm dollar challenge gold. The separate commodity moves should be tested against supply news, real yields and the later settlement rather than grouped as a single risk signal.",
+          "watch": "Check Tuesday Brent and gold settlements, real yields and the dollar.",
+          "status": "new",
+          "as_of": "2026-11-24",
+          "sources": [
+            {
+              "title": "Libella Tuesday morning markets",
+              "url": "https://www.libella-group.com/morning/2026-11-24/",
+              "published": "2026-11-24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "housing",
+      "label": "Housing",
+      "items": [
+        {
+          "headline": "Housing data remains a rate-sensitive test",
+          "detail": "The latest Census residential-construction release available by Tuesday was the 18 November October report: starts ran at a 1.309 million seasonally adjusted annual rate and permits at 1.295 million. No newer Census housing release was available by the 13:00 GMT cutoff.",
+          "why": "Housing activity responds with a lag to mortgage and Treasury rates. A single strong starts reading can be driven by volatile multifamily work, so permits, sales and mortgage applications are the better confirmation of demand.",
+          "watch": "Read the next Case-Shiller, confidence and housing releases against mortgage rates.",
+          "status": "new",
+          "as_of": "2026-11-24",
+          "sources": [
+            {
+              "title": "US Census October residential construction",
+              "url": "https://www.census.gov/construction/nrc/pdf/newresconst.pdf",
+              "published": "2026-11-18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us_policy",
+      "label": "US policy",
+      "items": [
+        {
+          "headline": "Consumer confidence is the next US policy-market test",
+          "detail": "Tuesday’s US calendar included the Conference Board November consumer-confidence release later in the day, while the latest opened University of Michigan final November sentiment release dated 20 November was 51.5, up from 48.0. No Tuesday confidence result is asserted at the 13:00 GMT cutoff.",
+          "why": "Household confidence can support spending, but a survey does not settle the inflation and labor questions driving December rate pricing. The contrast between confidence, actual spending and PCE inflation will matter more than a one-number surprise.",
+          "watch": "Check the released confidence details and Wednesday PCE and spending data.",
+          "status": "new",
+          "as_of": "2026-11-24",
+          "sources": [
+            {
+              "title": "University of Michigan November sentiment",
+              "url": "https://isr.umich.edu/news-events/news-releases/sentiment-ticks-up-as-election-expected-to-usher-in-changes-to-economic-policy/",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "international": [
+    {
+      "id": "uk",
+      "label": "UK",
+      "items": [
+        {
+          "headline": "UK borrowing costs stay high after softer PMI",
+          "detail": "Libella’s Tuesday 07:30 London report put the 10-year gilt yield at 5.21% and noted that the UK flash composite PMI was 52.3 for November, down from 52.9. The ONS’s latest retail bulletin, released 20 November, showed retail volumes up 0.4% over the three months to October. London cash markets were open at the cutoff.",
+          "why": "The combination of positive but slower business activity and high gilt yields leaves the Bank of England balancing growth against inflation and funding costs. Retail strength does not erase weaker services momentum.",
+          "watch": "Compare gilt yields, final PMI employment and the next UK inflation and retail releases.",
+          "status": "new",
+          "as_of": "2026-11-24",
+          "sources": [
+            {
+              "title": "Libella Tuesday morning markets",
+              "url": "https://www.libella-group.com/morning/2026-11-24/",
+              "published": "2026-11-24"
+            },
+            {
+              "title": "ONS October retail sales",
+              "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/october2026",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "euro_area",
+      "label": "Euro area",
+      "items": [
+        {
+          "headline": "European rebound meets a split PMI picture",
+          "detail": "Libella’s Tuesday report carried Monday’s Euro Stoxx 50 close up 2.2% and the euro-area composite PMI at 51.7, with Germany at 55.0 and France at 46.2. Reuters described the same November flash survey as a fifth month of expansion but with French contraction and softer services. European cash markets were open at 13:00 GMT Tuesday.",
+          "why": "The index rebound can coexist with uneven real activity. Germany’s strength and France’s contraction imply that a euro-area aggregate may hide very different demand, labor and fiscal conditions.",
+          "watch": "Check final national PMIs, wages and ECB guidance before extending Monday’s equity rebound.",
+          "status": "new",
+          "as_of": "2026-11-24",
+          "sources": [
+            {
+              "title": "Reuters euro-area flash PMI report",
+              "url": "https://d2233.cms.socastsrm.com/2026/11/23/euro-zone-growth-holds-steady-but-frances-deepening-downturn-clouds-outlook-pmi-shows/",
+              "published": "2026-11-23"
+            },
+            {
+              "title": "Libella Tuesday morning markets",
+              "url": "https://www.libella-group.com/morning/2026-11-24/",
+              "published": "2026-11-24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "items": [
+        {
+          "headline": "China lags the regional AI rebound",
+          "detail": "Libella’s Tuesday report said China lagged the broader Asian technology rebound despite record state buying, while RTHK’s Monday close showed Shanghai up 0.15% and Hong Kong down 0.1%. These are dated completed observations; no Tuesday mainland close is asserted at the London cutoff.",
+          "why": "Policy support can stabilize prices without immediately repairing household demand or technology valuations. The divergence from Taiwan, Korea and Japan makes local sector and funding conditions important. The market response must be separated from domestic activity because policy purchases can support liquidity while leaving private demand and corporate profits unchanged.",
+          "watch": "Compare Tuesday China closes with industrial-profit, property and spending data.",
+          "status": "new",
+          "as_of": "2026-11-24",
+          "sources": [
+            {
+              "title": "Libella Tuesday morning markets",
+              "url": "https://www.libella-group.com/morning/2026-11-24/",
+              "published": "2026-11-24"
+            },
+            {
+              "title": "RTHK Monday China and Hong Kong close",
+              "url": "https://news.rthk.hk/rthk/en/component/k2/1878944-20261123.htm",
+              "published": "2026-11-23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "japan",
+      "label": "Japan",
+      "items": [
+        {
+          "headline": "Japan rebounds after the holiday closure",
+          "detail": "InvestingLive’s Tuesday Asia report said Japan’s Nikkei gained nearly 4% after reopening from Monday’s Labour Thanksgiving holiday; the latest October CPI remained 2.3% year on year in the Statistics Bureau release dated 20 November. The Nikkei move is a completed local session, not a US close.",
+          "why": "A reopening rebound can reflect catch-up to Monday’s global rally rather than a new domestic earnings signal. Inflation above two percent keeps the Bank of Japan relevant, while wages and consumption determine persistence.",
+          "watch": "Compare the next Tokyo close, yen and wage data with Bank of Japan guidance.",
+          "status": "new",
+          "as_of": "2026-11-24",
+          "sources": [
+            {
+              "title": "InvestingLive Asia-Pacific Tuesday market report",
+              "url": "https://images.investinglive.com/news/investinglive-asia-pacific-market-news-huangs-return-powers-asia-rebound/",
+              "published": "2026-11-24"
+            },
+            {
+              "title": "Japan Statistics Bureau October CPI",
+              "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/index-z.html",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other_world",
+      "label": "Other world",
+      "items": [
+        {
+          "headline": "Asian chip markets rebound unevenly",
+          "detail": "InvestingLive reported Tuesday that South Korea’s Kospi rose about 7% and Japan’s Nikkei nearly 4% as Nvidia leadership news revived the AI trade, while China lagged. Libella reported Taiwan’s Taiex had recovered 2.2% on Monday and Korea had extended losses then. These are completed local observations, not Tuesday US prices.",
+          "why": "The rebound shows how quickly semiconductor valuations can reverse, but its concentration in AI-linked markets raises a durability question. Orders, export data and subsequent US cash breadth will test whether this is a reset or short covering.",
+          "watch": "Compare next local closes with chip orders, export data and US technology breadth.",
+          "status": "new",
+          "as_of": "2026-11-24",
+          "sources": [
+            {
+              "title": "InvestingLive Asia-Pacific Tuesday market report",
+              "url": "https://images.investing.com/news/investinglive-asia-pacific-market-news-huangs-return-powers-asia-rebound/",
+              "published": "2026-11-24"
+            },
+            {
+              "title": "Libella Tuesday morning markets",
+              "url": "https://www.libella-group.com/morning/2026-11-24/",
+              "published": "2026-11-24"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

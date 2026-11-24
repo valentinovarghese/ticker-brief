@@ -1,0 +1,1024 @@
+{
+  "date": "2026-11-23",
+  "weekday": "Monday",
+  "headline": "Every tracked name rallied as AI stocks rebounded from Friday's correction",
+  "as_of_utc": "2026-11-24T13:00:00Z",
+  "gauge": [
+    {
+      "text": "All twelve tracked names finished higher in the completed Monday session.",
+      "tone": "up"
+    }
+  ],
+  "quick": [
+    "Twelve Data validated all twelve completed November 23 1day bars.",
+    "All twelve tracked names rose; this comparison was computed from the saved snapshot.",
+    "Monday was a completed NYSE session; Tuesday is pre-open at the editorial cutoff."
+  ],
+  "entries": [
+    {
+      "ticker": "AAPL",
+      "happened": "AAPL closed at $349.08, +1.90% against the prior close, on 58,538,400 shares versus a trailing average of 49,758,915. Its range was $345.44 to $352.60. Company sources and Monday coverage were checked; no new material company disclosure was verified for this ticker that establishes the cause of the bar. The measured gain therefore remains separate from inference about why it moved.",
+      "why": "The completed +1.90% return and volume comparison establish participation in Monday’s broad risk-on reversal but not investor intent. The company-specific investment case still turns on revenue growth, margins, balance-sheet capacity and execution rather than one session. A market rebound can move this stock at the same time as a dated disclosure without proving that the disclosure drove the bar. The next operating release and subsequent sessions are needed to distinguish short covering from a durable change in fundamentals.",
+      "priced_in": "At $349.08, the market has incorporated Monday’s completed-session move, but the price does not reveal which future cash-flow or discount-rate assumption changed. The broad rebound is observable; a durable company-specific reset remains unproven.",
+      "would_change": "A dated filing, guidance update, customer or utilization metric, or subsequent trading pattern that changes expected revenue, margins, funding or cash flow would change this reading.",
+      "next_date": "Watch the next dated company filing, earnings or operating update; no unscheduled catalyst is assumed.",
+      "figures": [
+        "Close $349.08",
+        "Session move +1.90%",
+        "Range $345.44-$352.60",
+        "Volume 58,538,400; average 49,758,915"
+      ],
+      "analysis": [
+        {
+          "heading": "Investment mechanism",
+          "body": "Monday’s +1.90% move tests how much valuation and financing sensitivity the market assigns to AAPL, but it does not measure future demand. Use the next disclosed operating metric to test whether the business can convert its strategic position into profitable cash flow."
+        },
+        {
+          "heading": "Risk and confirmation",
+          "body": "The principal risk is treating a correlated market move as company evidence. Compare the next dated disclosure with margins, liquidity, customer demand and later completed-session breadth before making a durable investment conclusion."
+        }
+      ],
+      "foot": [
+        {
+          "k": "Dated company source",
+          "v": "Company disclosure or source checked, 2026-11-19.",
+          "url": "https://www.apple.com/newsroom/2026/11/apple-tv-becomes-the-new-us-home-of-f1-academy-the-all-female-racing-series/"
+        },
+        {
+          "k": "Market context",
+          "v": "Libella morning report, November 20.",
+          "url": "https://www.libella-group.com/morning/"
+        },
+        {
+          "k": "Price source",
+          "v": "Twelve Data completed 1day bar, session 2026-11-23.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "up",
+      "strength": "regular",
+      "move": "+1.90% close",
+      "move_tone": "up",
+      "strength_label": "Session move",
+      "session_date": "2026-11-23",
+      "research_log": {
+        "checked_at_utc": "2026-11-24T13:00:00Z",
+        "outcome": "no_verified_event",
+        "sources": [
+          {
+            "url": "https://www.apple.com/newsroom/2026/11/apple-tv-becomes-the-new-us-home-of-f1-academy-the-all-female-racing-series/",
+            "event_date": "2026-11-19"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "AMZN",
+      "happened": "AMZN closed at $255.39, +3.47% against the prior close, on 53,166,700 shares versus a trailing average of 52,977,270. Its range was $251.25 to $262.48. Company sources and Monday coverage were checked; no new material company disclosure was verified for this ticker that establishes the cause of the bar. The measured gain therefore remains separate from inference about why it moved.",
+      "why": "The completed +3.47% return and volume comparison establish participation in Monday’s broad risk-on reversal but not investor intent. The company-specific investment case still turns on revenue growth, margins, balance-sheet capacity and execution rather than one session. A market rebound can move this stock at the same time as a dated disclosure without proving that the disclosure drove the bar. The next operating release and subsequent sessions are needed to distinguish short covering from a durable change in fundamentals.",
+      "priced_in": "At $255.39, the market has incorporated Monday’s completed-session move, but the price does not reveal which future cash-flow or discount-rate assumption changed. The broad rebound is observable; a durable company-specific reset remains unproven.",
+      "would_change": "A dated filing, guidance update, customer or utilization metric, or subsequent trading pattern that changes expected revenue, margins, funding or cash flow would change this reading.",
+      "next_date": "Watch the next dated company filing, earnings or operating update; no unscheduled catalyst is assumed.",
+      "figures": [
+        "Close $255.39",
+        "Session move +3.47%",
+        "Range $251.25-$262.48",
+        "Volume 53,166,700; average 52,977,270"
+      ],
+      "analysis": [
+        {
+          "heading": "Investment mechanism",
+          "body": "Monday’s +3.47% move tests how much valuation and financing sensitivity the market assigns to AMZN, but it does not measure future demand. Use the next disclosed operating metric to test whether the business can convert its strategic position into profitable cash flow."
+        },
+        {
+          "heading": "Risk and confirmation",
+          "body": "The principal risk is treating a correlated market move as company evidence. Compare the next dated disclosure with margins, liquidity, customer demand and later completed-session breadth before making a durable investment conclusion."
+        }
+      ],
+      "foot": [
+        {
+          "k": "Dated company source",
+          "v": "Company disclosure or source checked, 2026-11-19.",
+          "url": "https://www.aboutamazon.com/news/aws/aws-1-billion-forward-deployed-ai-engineers"
+        },
+        {
+          "k": "Market context",
+          "v": "Libella morning report, November 20.",
+          "url": "https://www.libella-group.com/morning/"
+        },
+        {
+          "k": "Price source",
+          "v": "Twelve Data completed 1day bar, session 2026-11-23.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "up",
+      "strength": "regular",
+      "move": "+3.47% close",
+      "move_tone": "up",
+      "strength_label": "Session move",
+      "session_date": "2026-11-23",
+      "research_log": {
+        "checked_at_utc": "2026-11-24T13:00:00Z",
+        "outcome": "no_verified_event",
+        "sources": [
+          {
+            "url": "https://www.aboutamazon.com/news/aws/aws-1-billion-forward-deployed-ai-engineers",
+            "event_date": "2026-11-19"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "happened": "TSLA closed at $385.46, +11.46% against the prior close, on 46,970,000 shares versus a trailing average of 36,730,530. Its range was $371.95 to $393.83. Company sources and Monday coverage were checked; no new material company disclosure was verified for this ticker that establishes the cause of the bar. The measured gain therefore remains separate from inference about why it moved.",
+      "why": "The completed +11.46% return and volume comparison establish participation in Monday’s broad risk-on reversal but not investor intent. The company-specific investment case still turns on revenue growth, margins, balance-sheet capacity and execution rather than one session. A market rebound can move this stock at the same time as a dated disclosure without proving that the disclosure drove the bar. The next operating release and subsequent sessions are needed to distinguish short covering from a durable change in fundamentals.",
+      "priced_in": "At $385.46, the market has incorporated Monday’s completed-session move, but the price does not reveal which future cash-flow or discount-rate assumption changed. The broad rebound is observable; a durable company-specific reset remains unproven.",
+      "would_change": "A dated filing, guidance update, customer or utilization metric, or subsequent trading pattern that changes expected revenue, margins, funding or cash flow would change this reading.",
+      "next_date": "Watch the next dated company filing, earnings or operating update; no unscheduled catalyst is assumed.",
+      "figures": [
+        "Close $385.46",
+        "Session move +11.46%",
+        "Range $371.95-$393.83",
+        "Volume 46,970,000; average 36,730,530"
+      ],
+      "analysis": [
+        {
+          "heading": "Investment mechanism",
+          "body": "Monday’s +11.46% move tests how much valuation and financing sensitivity the market assigns to TSLA, but it does not measure future demand. Use the next disclosed operating metric to test whether the business can convert its strategic position into profitable cash flow."
+        },
+        {
+          "heading": "Risk and confirmation",
+          "body": "The principal risk is treating a correlated market move as company evidence. Compare the next dated disclosure with margins, liquidity, customer demand and later completed-session breadth before making a durable investment conclusion."
+        }
+      ],
+      "foot": [
+        {
+          "k": "Dated company source",
+          "v": "Company disclosure or source checked, 2026-11-19.",
+          "url": "https://ir.tesla.com/_flysystem/s3/sec/000110465926130227/tm267596d15_defa14a-gen.pdf"
+        },
+        {
+          "k": "Market context",
+          "v": "Libella morning report, November 20.",
+          "url": "https://www.libella-group.com/morning/"
+        },
+        {
+          "k": "Price source",
+          "v": "Twelve Data completed 1day bar, session 2026-11-23.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "up",
+      "strength": "sharp",
+      "move": "+11.46% close",
+      "move_tone": "up",
+      "strength_label": "Session move",
+      "session_date": "2026-11-23",
+      "research_log": {
+        "checked_at_utc": "2026-11-24T13:00:00Z",
+        "outcome": "no_verified_event",
+        "sources": [
+          {
+            "url": "https://ir.tesla.com/_flysystem/s3/sec/000110465926130227/tm267596d15_defa14a-gen.pdf",
+            "event_date": "2026-11-19"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "PLTR",
+      "happened": "PLTR closed at $159.36, +11.06% against the prior close, on 32,010,800 shares versus a trailing average of 24,971,635. Its range was $154.57 to $161.19. Company sources and Monday coverage were checked; no new material company disclosure was verified for this ticker that establishes the cause of the bar. The measured gain therefore remains separate from inference about why it moved.",
+      "why": "The completed +11.06% return and volume comparison establish participation in Monday’s broad risk-on reversal but not investor intent. The company-specific investment case still turns on revenue growth, margins, balance-sheet capacity and execution rather than one session. A market rebound can move this stock at the same time as a dated disclosure without proving that the disclosure drove the bar. The next operating release and subsequent sessions are needed to distinguish short covering from a durable change in fundamentals.",
+      "priced_in": "At $159.36, the market has incorporated Monday’s completed-session move, but the price does not reveal which future cash-flow or discount-rate assumption changed. The broad rebound is observable; a durable company-specific reset remains unproven.",
+      "would_change": "A dated filing, guidance update, customer or utilization metric, or subsequent trading pattern that changes expected revenue, margins, funding or cash flow would change this reading.",
+      "next_date": "Watch the next dated company filing, earnings or operating update; no unscheduled catalyst is assumed.",
+      "figures": [
+        "Close $159.36",
+        "Session move +11.06%",
+        "Range $154.57-$161.19",
+        "Volume 32,010,800; average 24,971,635"
+      ],
+      "analysis": [
+        {
+          "heading": "Investment mechanism",
+          "body": "Monday’s +11.06% move tests how much valuation and financing sensitivity the market assigns to PLTR, but it does not measure future demand. Use the next disclosed operating metric to test whether the business can convert its strategic position into profitable cash flow."
+        },
+        {
+          "heading": "Risk and confirmation",
+          "body": "The principal risk is treating a correlated market move as company evidence. Compare the next dated disclosure with margins, liquidity, customer demand and later completed-session breadth before making a durable investment conclusion."
+        }
+      ],
+      "foot": [
+        {
+          "k": "Dated company source",
+          "v": "Company disclosure or source checked, 2026-11-19.",
+          "url": "https://investors.palantir.com/financials/quarterly-results"
+        },
+        {
+          "k": "Market context",
+          "v": "Libella morning report, November 20.",
+          "url": "https://www.libella-group.com/morning/"
+        },
+        {
+          "k": "Price source",
+          "v": "Twelve Data completed 1day bar, session 2026-11-23.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "up",
+      "strength": "sharp",
+      "move": "+11.06% close",
+      "move_tone": "up",
+      "strength_label": "Session move",
+      "session_date": "2026-11-23",
+      "research_log": {
+        "checked_at_utc": "2026-11-24T13:00:00Z",
+        "outcome": "no_verified_event",
+        "sources": [
+          {
+            "url": "https://investors.palantir.com/financials/quarterly-results",
+            "event_date": "2026-11-19"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "happened": "MSFT closed at $492.50, +1.65% against the prior close, on 30,347,400 shares versus a trailing average of 30,007,935. Its range was $492.02 to $509.15. Company sources and Monday coverage were checked; no new material company disclosure was verified for this ticker that establishes the cause of the bar. The measured gain therefore remains separate from inference about why it moved.",
+      "why": "The completed +1.65% return and volume comparison establish participation in Monday’s broad risk-on reversal but not investor intent. The company-specific investment case still turns on revenue growth, margins, balance-sheet capacity and execution rather than one session. A market rebound can move this stock at the same time as a dated disclosure without proving that the disclosure drove the bar. The next operating release and subsequent sessions are needed to distinguish short covering from a durable change in fundamentals.",
+      "priced_in": "At $492.50, the market has incorporated Monday’s completed-session move, but the price does not reveal which future cash-flow or discount-rate assumption changed. The broad rebound is observable; a durable company-specific reset remains unproven.",
+      "would_change": "A dated filing, guidance update, customer or utilization metric, or subsequent trading pattern that changes expected revenue, margins, funding or cash flow would change this reading.",
+      "next_date": "Watch the next dated company filing, earnings or operating update; no unscheduled catalyst is assumed.",
+      "figures": [
+        "Close $492.50",
+        "Session move +1.65%",
+        "Range $492.02-$509.15",
+        "Volume 30,347,400; average 30,007,935"
+      ],
+      "analysis": [
+        {
+          "heading": "Investment mechanism",
+          "body": "Monday’s +1.65% move tests how much valuation and financing sensitivity the market assigns to MSFT, but it does not measure future demand. Use the next disclosed operating metric to test whether the business can convert its strategic position into profitable cash flow."
+        },
+        {
+          "heading": "Risk and confirmation",
+          "body": "The principal risk is treating a correlated market move as company evidence. Compare the next dated disclosure with margins, liquidity, customer demand and later completed-session breadth before making a durable investment conclusion."
+        }
+      ],
+      "foot": [
+        {
+          "k": "Dated company source",
+          "v": "Company disclosure or source checked, 2026-11-19.",
+          "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/"
+        },
+        {
+          "k": "Market context",
+          "v": "Libella morning report, November 20.",
+          "url": "https://www.libella-group.com/morning/"
+        },
+        {
+          "k": "Price source",
+          "v": "Twelve Data completed 1day bar, session 2026-11-23.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "up",
+      "strength": "regular",
+      "move": "+1.65% close",
+      "move_tone": "up",
+      "strength_label": "Session move",
+      "session_date": "2026-11-23",
+      "research_log": {
+        "checked_at_utc": "2026-11-24T13:00:00Z",
+        "outcome": "no_verified_event",
+        "sources": [
+          {
+            "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+            "event_date": "2026-11-19"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "GOOGL",
+      "happened": "GOOGL closed at $282.10, +6.34% against the prior close, on 44,255,200 shares versus a trailing average of 45,284,030. Its range was $275.36 to $285.14. Company sources and Monday coverage were checked; no new material company disclosure was verified for this ticker that establishes the cause of the bar. The measured gain therefore remains separate from inference about why it moved.",
+      "why": "The completed +6.34% return and volume comparison establish participation in Monday’s broad risk-on reversal but not investor intent. The company-specific investment case still turns on revenue growth, margins, balance-sheet capacity and execution rather than one session. A market rebound can move this stock at the same time as a dated disclosure without proving that the disclosure drove the bar. The next operating release and subsequent sessions are needed to distinguish short covering from a durable change in fundamentals.",
+      "priced_in": "At $282.10, the market has incorporated Monday’s completed-session move, but the price does not reveal which future cash-flow or discount-rate assumption changed. The broad rebound is observable; a durable company-specific reset remains unproven.",
+      "would_change": "A dated filing, guidance update, customer or utilization metric, or subsequent trading pattern that changes expected revenue, margins, funding or cash flow would change this reading.",
+      "next_date": "Watch the next dated company filing, earnings or operating update; no unscheduled catalyst is assumed.",
+      "figures": [
+        "Close $282.10",
+        "Session move +6.34%",
+        "Range $275.36-$285.14",
+        "Volume 44,255,200; average 45,284,030"
+      ],
+      "analysis": [
+        {
+          "heading": "Investment mechanism",
+          "body": "Monday’s +6.34% move tests how much valuation and financing sensitivity the market assigns to GOOGL, but it does not measure future demand. Use the next disclosed operating metric to test whether the business can convert its strategic position into profitable cash flow."
+        },
+        {
+          "heading": "Risk and confirmation",
+          "body": "The principal risk is treating a correlated market move as company evidence. Compare the next dated disclosure with margins, liquidity, customer demand and later completed-session breadth before making a durable investment conclusion."
+        }
+      ],
+      "foot": [
+        {
+          "k": "Dated company source",
+          "v": "Company disclosure or source checked, 2026-11-19.",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/blue-origin-project-suncatcher-partnership/"
+        },
+        {
+          "k": "Market context",
+          "v": "Libella morning report, November 20.",
+          "url": "https://www.libella-group.com/morning/"
+        },
+        {
+          "k": "Price source",
+          "v": "Twelve Data completed 1day bar, session 2026-11-23.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "up",
+      "strength": "regular",
+      "move": "+6.34% close",
+      "move_tone": "up",
+      "strength_label": "Session move",
+      "session_date": "2026-11-23",
+      "research_log": {
+        "checked_at_utc": "2026-11-24T13:00:00Z",
+        "outcome": "no_verified_event",
+        "sources": [
+          {
+            "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/blue-origin-project-suncatcher-partnership/",
+            "event_date": "2026-11-19"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "HOOD",
+      "happened": "HOOD closed at $67.37, +8.36% against the prior close, on 20,440,600 shares versus a trailing average of 21,331,085. Its range was $66.97 to $70.24. Company sources and Monday coverage were checked; no new material company disclosure was verified for this ticker that establishes the cause of the bar. The measured gain therefore remains separate from inference about why it moved.",
+      "why": "The completed +8.36% return and volume comparison establish participation in Monday’s broad risk-on reversal but not investor intent. The company-specific investment case still turns on revenue growth, margins, balance-sheet capacity and execution rather than one session. A market rebound can move this stock at the same time as a dated disclosure without proving that the disclosure drove the bar. The next operating release and subsequent sessions are needed to distinguish short covering from a durable change in fundamentals.",
+      "priced_in": "At $67.37, the market has incorporated Monday’s completed-session move, but the price does not reveal which future cash-flow or discount-rate assumption changed. The broad rebound is observable; a durable company-specific reset remains unproven.",
+      "would_change": "A dated filing, guidance update, customer or utilization metric, or subsequent trading pattern that changes expected revenue, margins, funding or cash flow would change this reading.",
+      "next_date": "Watch the next dated company filing, earnings or operating update; no unscheduled catalyst is assumed.",
+      "figures": [
+        "Close $67.37",
+        "Session move +8.36%",
+        "Range $66.97-$70.24",
+        "Volume 20,440,600; average 21,331,085"
+      ],
+      "analysis": [
+        {
+          "heading": "Investment mechanism",
+          "body": "Monday’s +8.36% move tests how much valuation and financing sensitivity the market assigns to HOOD, but it does not measure future demand. Use the next disclosed operating metric to test whether the business can convert its strategic position into profitable cash flow."
+        },
+        {
+          "heading": "Risk and confirmation",
+          "body": "The principal risk is treating a correlated market move as company evidence. Compare the next dated disclosure with margins, liquidity, customer demand and later completed-session breadth before making a durable investment conclusion."
+        }
+      ],
+      "foot": [
+        {
+          "k": "Dated company source",
+          "v": "Company disclosure or source checked, 2026-11-12.",
+          "url": "https://investors.robinhood.com/press-releases"
+        },
+        {
+          "k": "Market context",
+          "v": "Libella morning report, November 20.",
+          "url": "https://www.libella-group.com/morning/"
+        },
+        {
+          "k": "Price source",
+          "v": "Twelve Data completed 1day bar, session 2026-11-23.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "up",
+      "strength": "sharp",
+      "move": "+8.36% close",
+      "move_tone": "up",
+      "strength_label": "Session move",
+      "session_date": "2026-11-23",
+      "research_log": {
+        "checked_at_utc": "2026-11-24T13:00:00Z",
+        "outcome": "no_verified_event",
+        "sources": [
+          {
+            "url": "https://investors.robinhood.com/press-releases",
+            "event_date": "2026-11-12"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "happened": "NVDA closed at $165.05, +31.48% against the prior close, on 779,184,200 shares versus a trailing average of 287,643,565. Its range was $156.93 to $171.50. Company sources and Monday coverage were checked; no new material company disclosure was verified for this ticker that establishes the cause of the bar. The measured gain therefore remains separate from inference about why it moved.",
+      "why": "The completed +31.48% return and volume comparison establish participation in Monday’s broad risk-on reversal but not investor intent. The company-specific investment case still turns on revenue growth, margins, balance-sheet capacity and execution rather than one session. A market rebound can move this stock at the same time as a dated disclosure without proving that the disclosure drove the bar. The next operating release and subsequent sessions are needed to distinguish short covering from a durable change in fundamentals.",
+      "priced_in": "At $165.05, the market has incorporated Monday’s completed-session move, but the price does not reveal which future cash-flow or discount-rate assumption changed. The broad rebound is observable; a durable company-specific reset remains unproven.",
+      "would_change": "A dated filing, guidance update, customer or utilization metric, or subsequent trading pattern that changes expected revenue, margins, funding or cash flow would change this reading.",
+      "next_date": "Watch the next dated company filing, earnings or operating update; no unscheduled catalyst is assumed.",
+      "figures": [
+        "Close $165.05",
+        "Session move +31.48%",
+        "Range $156.93-$171.50",
+        "Volume 779,184,200; average 287,643,565"
+      ],
+      "analysis": [
+        {
+          "heading": "Investment mechanism",
+          "body": "Monday’s +31.48% move tests how much valuation and financing sensitivity the market assigns to NVDA, but it does not measure future demand. Use the next disclosed operating metric to test whether the business can convert its strategic position into profitable cash flow."
+        },
+        {
+          "heading": "Risk and confirmation",
+          "body": "The principal risk is treating a correlated market move as company evidence. Compare the next dated disclosure with margins, liquidity, customer demand and later completed-session breadth before making a durable investment conclusion."
+        }
+      ],
+      "foot": [
+        {
+          "k": "Dated company source",
+          "v": "Company disclosure or source checked, 2026-11-19.",
+          "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/"
+        },
+        {
+          "k": "Market context",
+          "v": "Libella morning report, November 20.",
+          "url": "https://www.libella-group.com/morning/"
+        },
+        {
+          "k": "Price source",
+          "v": "Twelve Data completed 1day bar, session 2026-11-23.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "up",
+      "strength": "sharp",
+      "move": "+31.48% close",
+      "move_tone": "up",
+      "strength_label": "Session move",
+      "session_date": "2026-11-23",
+      "research_log": {
+        "checked_at_utc": "2026-11-24T13:00:00Z",
+        "outcome": "no_verified_event",
+        "sources": [
+          {
+            "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+            "event_date": "2026-11-19"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "INTC",
+      "happened": "INTC closed at $59.66, +16.34% against the prior close, on 164,525,500 shares versus a trailing average of 153,732,950. Its range was $56.66 to $59.77. Company sources and Monday coverage were checked; no new material company disclosure was verified for this ticker that establishes the cause of the bar. The measured gain therefore remains separate from inference about why it moved.",
+      "why": "The completed +16.34% return and volume comparison establish participation in Monday’s broad risk-on reversal but not investor intent. The company-specific investment case still turns on revenue growth, margins, balance-sheet capacity and execution rather than one session. A market rebound can move this stock at the same time as a dated disclosure without proving that the disclosure drove the bar. The next operating release and subsequent sessions are needed to distinguish short covering from a durable change in fundamentals.",
+      "priced_in": "At $59.66, the market has incorporated Monday’s completed-session move, but the price does not reveal which future cash-flow or discount-rate assumption changed. The broad rebound is observable; a durable company-specific reset remains unproven.",
+      "would_change": "A dated filing, guidance update, customer or utilization metric, or subsequent trading pattern that changes expected revenue, margins, funding or cash flow would change this reading.",
+      "next_date": "Watch the next dated company filing, earnings or operating update; no unscheduled catalyst is assumed.",
+      "figures": [
+        "Close $59.66",
+        "Session move +16.34%",
+        "Range $56.66-$59.77",
+        "Volume 164,525,500; average 153,732,950"
+      ],
+      "analysis": [
+        {
+          "heading": "Investment mechanism",
+          "body": "Monday’s +16.34% move tests how much valuation and financing sensitivity the market assigns to INTC, but it does not measure future demand. Use the next disclosed operating metric to test whether the business can convert its strategic position into profitable cash flow."
+        },
+        {
+          "heading": "Risk and confirmation",
+          "body": "The principal risk is treating a correlated market move as company evidence. Compare the next dated disclosure with margins, liquidity, customer demand and later completed-session breadth before making a durable investment conclusion."
+        }
+      ],
+      "foot": [
+        {
+          "k": "Dated company source",
+          "v": "Company disclosure or source checked, 2026-11-19.",
+          "url": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/microsoft-ai-pc-security.html"
+        },
+        {
+          "k": "Market context",
+          "v": "Libella morning report, November 20.",
+          "url": "https://www.libella-group.com/morning/"
+        },
+        {
+          "k": "Price source",
+          "v": "Twelve Data completed 1day bar, session 2026-11-23.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "up",
+      "strength": "sharp",
+      "move": "+16.34% close",
+      "move_tone": "up",
+      "strength_label": "Session move",
+      "session_date": "2026-11-23",
+      "research_log": {
+        "checked_at_utc": "2026-11-24T13:00:00Z",
+        "outcome": "no_verified_event",
+        "sources": [
+          {
+            "url": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/microsoft-ai-pc-security.html",
+            "event_date": "2026-11-19"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "NBIS",
+      "happened": "NBIS closed at $97.80, +20.28% against the prior close, on 51,687,500 shares versus a trailing average of 31,212,945. Its range was $95.73 to $110.05. Company sources and Monday coverage were checked; no new material company disclosure was verified for this ticker that establishes the cause of the bar. The measured gain therefore remains separate from inference about why it moved.",
+      "why": "The completed +20.28% return and volume comparison establish participation in Monday’s broad risk-on reversal but not investor intent. The company-specific investment case still turns on revenue growth, margins, balance-sheet capacity and execution rather than one session. A market rebound can move this stock at the same time as a dated disclosure without proving that the disclosure drove the bar. The next operating release and subsequent sessions are needed to distinguish short covering from a durable change in fundamentals.",
+      "priced_in": "At $97.80, the market has incorporated Monday’s completed-session move, but the price does not reveal which future cash-flow or discount-rate assumption changed. The broad rebound is observable; a durable company-specific reset remains unproven.",
+      "would_change": "A dated filing, guidance update, customer or utilization metric, or subsequent trading pattern that changes expected revenue, margins, funding or cash flow would change this reading.",
+      "next_date": "Watch the next dated company filing, earnings or operating update; no unscheduled catalyst is assumed.",
+      "figures": [
+        "Close $97.80",
+        "Session move +20.28%",
+        "Range $95.73-$110.05",
+        "Volume 51,687,500; average 31,212,945"
+      ],
+      "analysis": [
+        {
+          "heading": "Investment mechanism",
+          "body": "Monday’s +20.28% move tests how much valuation and financing sensitivity the market assigns to NBIS, but it does not measure future demand. Use the next disclosed operating metric to test whether the business can convert its strategic position into profitable cash flow."
+        },
+        {
+          "heading": "Risk and confirmation",
+          "body": "The principal risk is treating a correlated market move as company evidence. Compare the next dated disclosure with margins, liquidity, customer demand and later completed-session breadth before making a durable investment conclusion."
+        }
+      ],
+      "foot": [
+        {
+          "k": "Dated company source",
+          "v": "Company disclosure or source checked, 2026-11-19.",
+          "url": "https://nebius.com/newsroom"
+        },
+        {
+          "k": "Market context",
+          "v": "Libella morning report, November 20.",
+          "url": "https://www.libella-group.com/morning/"
+        },
+        {
+          "k": "Price source",
+          "v": "Twelve Data completed 1day bar, session 2026-11-23.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "up",
+      "strength": "sharp",
+      "move": "+20.28% close",
+      "move_tone": "up",
+      "strength_label": "Session move",
+      "session_date": "2026-11-23",
+      "research_log": {
+        "checked_at_utc": "2026-11-24T13:00:00Z",
+        "outcome": "no_verified_event",
+        "sources": [
+          {
+            "url": "https://nebius.com/newsroom",
+            "event_date": "2026-11-19"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "MRVL",
+      "happened": "MRVL closed at $144.74, +18.37% against the prior close, on 36,775,000 shares versus a trailing average of 32,877,165. Its range was $139.26 to $149.98. Company sources and Monday coverage were checked; no new material company disclosure was verified for this ticker that establishes the cause of the bar. The measured gain therefore remains separate from inference about why it moved.",
+      "why": "The completed +18.37% return and volume comparison establish participation in Monday’s broad risk-on reversal but not investor intent. The company-specific investment case still turns on revenue growth, margins, balance-sheet capacity and execution rather than one session. A market rebound can move this stock at the same time as a dated disclosure without proving that the disclosure drove the bar. The next operating release and subsequent sessions are needed to distinguish short covering from a durable change in fundamentals.",
+      "priced_in": "At $144.74, the market has incorporated Monday’s completed-session move, but the price does not reveal which future cash-flow or discount-rate assumption changed. The broad rebound is observable; a durable company-specific reset remains unproven.",
+      "would_change": "A dated filing, guidance update, customer or utilization metric, or subsequent trading pattern that changes expected revenue, margins, funding or cash flow would change this reading.",
+      "next_date": "Watch the next dated company filing, earnings or operating update; no unscheduled catalyst is assumed.",
+      "figures": [
+        "Close $144.74",
+        "Session move +18.37%",
+        "Range $139.26-$149.98",
+        "Volume 36,775,000; average 32,877,165"
+      ],
+      "analysis": [
+        {
+          "heading": "Investment mechanism",
+          "body": "Monday’s +18.37% move tests how much valuation and financing sensitivity the market assigns to MRVL, but it does not measure future demand. Use the next disclosed operating metric to test whether the business can convert its strategic position into profitable cash flow."
+        },
+        {
+          "heading": "Risk and confirmation",
+          "body": "The principal risk is treating a correlated market move as company evidence. Compare the next dated disclosure with margins, liquidity, customer demand and later completed-session breadth before making a durable investment conclusion."
+        }
+      ],
+      "foot": [
+        {
+          "k": "Dated company source",
+          "v": "Company disclosure or source checked, 2026-11-16.",
+          "url": "https://investor.marvell.com/news-events/press-releases"
+        },
+        {
+          "k": "Market context",
+          "v": "Libella morning report, November 20.",
+          "url": "https://www.libella-group.com/morning/"
+        },
+        {
+          "k": "Price source",
+          "v": "Twelve Data completed 1day bar, session 2026-11-23.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "up",
+      "strength": "sharp",
+      "move": "+18.37% close",
+      "move_tone": "up",
+      "strength_label": "Session move",
+      "session_date": "2026-11-23",
+      "research_log": {
+        "checked_at_utc": "2026-11-24T13:00:00Z",
+        "outcome": "no_verified_event",
+        "sources": [
+          {
+            "url": "https://investor.marvell.com/news-events/press-releases",
+            "event_date": "2026-11-16"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "META",
+      "happened": "META closed at $597.60, +6.55% against the prior close, on 19,051,700 shares versus a trailing average of 21,668,510. Its range was $579.78 to $602.46. Company sources and Monday coverage were checked; no new material company disclosure was verified for this ticker that establishes the cause of the bar. The measured gain therefore remains separate from inference about why it moved.",
+      "why": "The completed +6.55% return and volume comparison establish participation in Monday’s broad risk-on reversal but not investor intent. The company-specific investment case still turns on revenue growth, margins, balance-sheet capacity and execution rather than one session. A market rebound can move this stock at the same time as a dated disclosure without proving that the disclosure drove the bar. The next operating release and subsequent sessions are needed to distinguish short covering from a durable change in fundamentals.",
+      "priced_in": "At $597.60, the market has incorporated Monday’s completed-session move, but the price does not reveal which future cash-flow or discount-rate assumption changed. The broad rebound is observable; a durable company-specific reset remains unproven.",
+      "would_change": "A dated filing, guidance update, customer or utilization metric, or subsequent trading pattern that changes expected revenue, margins, funding or cash flow would change this reading.",
+      "next_date": "Watch the next dated company filing, earnings or operating update; no unscheduled catalyst is assumed.",
+      "figures": [
+        "Close $597.60",
+        "Session move +6.55%",
+        "Range $579.78-$602.46",
+        "Volume 19,051,700; average 21,668,510"
+      ],
+      "analysis": [
+        {
+          "heading": "Investment mechanism",
+          "body": "Monday’s +6.55% move tests how much valuation and financing sensitivity the market assigns to META, but it does not measure future demand. Use the next disclosed operating metric to test whether the business can convert its strategic position into profitable cash flow."
+        },
+        {
+          "heading": "Risk and confirmation",
+          "body": "The principal risk is treating a correlated market move as company evidence. Compare the next dated disclosure with margins, liquidity, customer demand and later completed-session breadth before making a durable investment conclusion."
+        }
+      ],
+      "foot": [
+        {
+          "k": "Dated company source",
+          "v": "Company disclosure or source checked, 2026-11-19.",
+          "url": "https://about.fb.com/news/2026/11/meta-premieres-indias-first-government-led-microdrama-series-on-scams-awareness/"
+        },
+        {
+          "k": "Market context",
+          "v": "Libella morning report, November 20.",
+          "url": "https://www.libella-group.com/morning/"
+        },
+        {
+          "k": "Price source",
+          "v": "Twelve Data completed 1day bar, session 2026-11-23.",
+          "url": "https://twelvedata.com/docs"
+        }
+      ],
+      "dir": "up",
+      "strength": "regular",
+      "move": "+6.55% close",
+      "move_tone": "up",
+      "strength_label": "Session move",
+      "session_date": "2026-11-23",
+      "research_log": {
+        "checked_at_utc": "2026-11-24T13:00:00Z",
+        "outcome": "no_verified_event",
+        "sources": [
+          {
+            "url": "https://about.fb.com/news/2026/11/meta-premieres-indias-first-government-led-microdrama-series-on-scams-awareness/",
+            "event_date": "2026-11-19"
+          }
+        ]
+      }
+    }
+  ],
+  "research_log": {
+    "AAPL": {
+      "checked_at_utc": "2026-11-24T13:00:00Z",
+      "outcome": "no_verified_event",
+      "sources": [
+        {
+          "url": "https://www.apple.com/newsroom/2026/11/apple-tv-becomes-the-new-us-home-of-f1-academy-the-all-female-racing-series/",
+          "event_date": "2026-11-19"
+        }
+      ]
+    },
+    "AMZN": {
+      "checked_at_utc": "2026-11-24T13:00:00Z",
+      "outcome": "no_verified_event",
+      "sources": [
+        {
+          "url": "https://www.aboutamazon.com/news/aws/aws-1-billion-forward-deployed-ai-engineers",
+          "event_date": "2026-11-19"
+        }
+      ]
+    },
+    "TSLA": {
+      "checked_at_utc": "2026-11-24T13:00:00Z",
+      "outcome": "no_verified_event",
+      "sources": [
+        {
+          "url": "https://ir.tesla.com/_flysystem/s3/sec/000110465926130227/tm267596d15_defa14a-gen.pdf",
+          "event_date": "2026-11-19"
+        }
+      ]
+    },
+    "PLTR": {
+      "checked_at_utc": "2026-11-24T13:00:00Z",
+      "outcome": "no_verified_event",
+      "sources": [
+        {
+          "url": "https://investors.palantir.com/financials/quarterly-results",
+          "event_date": "2026-11-19"
+        }
+      ]
+    },
+    "MSFT": {
+      "checked_at_utc": "2026-11-24T13:00:00Z",
+      "outcome": "no_verified_event",
+      "sources": [
+        {
+          "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+          "event_date": "2026-11-19"
+        }
+      ]
+    },
+    "GOOGL": {
+      "checked_at_utc": "2026-11-24T13:00:00Z",
+      "outcome": "no_verified_event",
+      "sources": [
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/blue-origin-project-suncatcher-partnership/",
+          "event_date": "2026-11-19"
+        }
+      ]
+    },
+    "HOOD": {
+      "checked_at_utc": "2026-11-24T13:00:00Z",
+      "outcome": "no_verified_event",
+      "sources": [
+        {
+          "url": "https://investors.robinhood.com/press-releases",
+          "event_date": "2026-11-12"
+        }
+      ]
+    },
+    "NVDA": {
+      "checked_at_utc": "2026-11-24T13:00:00Z",
+      "outcome": "no_verified_event",
+      "sources": [
+        {
+          "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+          "event_date": "2026-11-19"
+        }
+      ]
+    },
+    "INTC": {
+      "checked_at_utc": "2026-11-24T13:00:00Z",
+      "outcome": "no_verified_event",
+      "sources": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/microsoft-ai-pc-security.html",
+          "event_date": "2026-11-19"
+        }
+      ]
+    },
+    "NBIS": {
+      "checked_at_utc": "2026-11-24T13:00:00Z",
+      "outcome": "no_verified_event",
+      "sources": [
+        {
+          "url": "https://nebius.com/newsroom",
+          "event_date": "2026-11-19"
+        }
+      ]
+    },
+    "MRVL": {
+      "checked_at_utc": "2026-11-24T13:00:00Z",
+      "outcome": "no_verified_event",
+      "sources": [
+        {
+          "url": "https://investor.marvell.com/news-events/press-releases",
+          "event_date": "2026-11-16"
+        }
+      ]
+    },
+    "META": {
+      "checked_at_utc": "2026-11-24T13:00:00Z",
+      "outcome": "no_verified_event",
+      "sources": [
+        {
+          "url": "https://about.fb.com/news/2026/11/meta-premieres-indias-first-government-led-microdrama-series-on-scams-awareness/",
+          "event_date": "2026-11-19"
+        }
+      ]
+    }
+  },
+  "data": {
+    "session": "2026-11-23",
+    "source": "Twelve Data 1day time_series; exchange-local session",
+    "tickers": {
+      "AAPL": {
+        "close": 349.07999,
+        "pct": 1.9033,
+        "open": 347.87,
+        "high": 352.60001,
+        "low": 345.44,
+        "volume": 58538400,
+        "avg_volume": 49758915,
+        "high_52w": 360.82999,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 342.56,
+        "bar_date": "2026-11-23",
+        "source": "Twelve Data daily time_series"
+      },
+      "AMZN": {
+        "close": 255.39,
+        "pct": 3.4722,
+        "open": 260.26001,
+        "high": 262.48001,
+        "low": 251.25,
+        "volume": 53166700,
+        "avg_volume": 52977270,
+        "high_52w": 287.20001,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 246.82001,
+        "bar_date": "2026-11-23",
+        "source": "Twelve Data daily time_series"
+      },
+      "TSLA": {
+        "close": 385.45999,
+        "pct": 11.4626,
+        "open": 374.73999,
+        "high": 393.82999,
+        "low": 371.95001,
+        "volume": 46970000,
+        "avg_volume": 36730530,
+        "high_52w": 498.82999,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 345.82001,
+        "bar_date": "2026-11-23",
+        "source": "Twelve Data daily time_series"
+      },
+      "PLTR": {
+        "close": 159.36,
+        "pct": 11.06,
+        "open": 157.315,
+        "high": 161.19,
+        "low": 154.57001,
+        "volume": 32010800,
+        "avg_volume": 24971635,
+        "high_52w": 212.94,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 143.49001,
+        "bar_date": "2026-11-23",
+        "source": "Twelve Data daily time_series"
+      },
+      "MSFT": {
+        "close": 492.5,
+        "pct": 1.647,
+        "open": 506.06,
+        "high": 509.14999,
+        "low": 492.01999,
+        "volume": 30347400,
+        "avg_volume": 30007935,
+        "high_52w": 559.15002,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 484.51999,
+        "bar_date": "2026-11-23",
+        "source": "Twelve Data daily time_series"
+      },
+      "GOOGL": {
+        "close": 282.10001,
+        "pct": 6.3365,
+        "open": 284.28,
+        "high": 285.14001,
+        "low": 275.35999,
+        "volume": 44255200,
+        "avg_volume": 45284030,
+        "high_52w": 408.60999,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 265.29001,
+        "bar_date": "2026-11-23",
+        "source": "Twelve Data daily time_series"
+      },
+      "HOOD": {
+        "close": 67.37,
+        "pct": 8.3642,
+        "open": 70.2,
+        "high": 70.238,
+        "low": 66.97,
+        "volume": 20440600,
+        "avg_volume": 21331085,
+        "high_52w": 139.75,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 62.17,
+        "bar_date": "2026-11-23",
+        "source": "Twelve Data daily time_series"
+      },
+      "NVDA": {
+        "close": 165.05,
+        "pct": 31.4825,
+        "open": 167.03999,
+        "high": 171.5,
+        "low": 156.92999,
+        "volume": 779184200,
+        "avg_volume": 287643565,
+        "high_52w": 243.37,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 125.53,
+        "bar_date": "2026-11-23",
+        "source": "Twelve Data daily time_series"
+      },
+      "INTC": {
+        "close": 59.66,
+        "pct": 16.3417,
+        "open": 59.07,
+        "high": 59.77,
+        "low": 56.66,
+        "volume": 164525500,
+        "avg_volume": 153732950,
+        "high_52w": 142.35001,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 51.28,
+        "bar_date": "2026-11-23",
+        "source": "Twelve Data daily time_series"
+      },
+      "NBIS": {
+        "close": 97.8,
+        "pct": 20.2804,
+        "open": 110.0,
+        "high": 110.05,
+        "low": 95.73,
+        "volume": 51687500,
+        "avg_volume": 31212945,
+        "high_52w": 299.85999,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 81.31,
+        "bar_date": "2026-11-23",
+        "source": "Twelve Data daily time_series"
+      },
+      "MRVL": {
+        "close": 144.74001,
+        "pct": 18.3677,
+        "open": 145.97,
+        "high": 149.98,
+        "low": 139.25999,
+        "volume": 36775000,
+        "avg_volume": 32877165,
+        "high_52w": 329.88,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 122.28,
+        "bar_date": "2026-11-23",
+        "source": "Twelve Data daily time_series"
+      },
+      "META": {
+        "close": 597.59998,
+        "pct": 6.5544,
+        "open": 591.71997,
+        "high": 602.46002,
+        "low": 579.78003,
+        "volume": 19051700,
+        "avg_volume": 21668510,
+        "high_52w": 779.82001,
+        "premarket_pct": null,
+        "afterhours_pct": null,
+        "previous_close": 560.84003,
+        "bar_date": "2026-11-23",
+        "source": "Twelve Data daily time_series"
+      }
+    }
+  },
+  "macro": [
+    {
+      "dt": "23 November completed US session",
+      "lead": "Broad AI rebound",
+      "dd": "AP reported the Nasdaq composite rose 6.5% on Monday as beaten-down AI stocks rallied. The move followed Friday’s correction and is market context, not proof of a company-specific cause for any one bar."
+    }
+  ],
+  "readthrough": {
+    "heading": "Cross-company interpretation",
+    "title": "A rebound is evidence of positioning before it is evidence of earnings",
+    "body": "The twelve validated completed bars were all positive, with especially large gains in Tesla, Palantir, Nebius, Marvell and Nvidia. Monday’s AI-led market rebound was associated with Nvidia leadership news and a broad risk reversal, but a correlated price move cannot prove causation for each company. The next guidance, demand, financing and cash-flow disclosures should test whether expectations changed durably."
+  },
+  "earnings_ahead": []
+}
