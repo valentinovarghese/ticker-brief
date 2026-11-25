@@ -1,0 +1,318 @@
+{
+  "date": "2026-11-25",
+  "as_of_utc": "2026-11-25T13:00:00Z",
+  "headline": "Wednesday pre-open: AI selloff returns as inflation data approaches",
+  "overview": "At the Wednesday 25 November 13:00 GMT editorial cutoff, New York was 08:00 EST and the NYSE was pre-open. London and European markets were open and most Asian sessions had closed. Tuesday’s AI rebound faded into another technology selloff, while Wednesday futures were lower ahead of PCE inflation, the second GDP estimate and the Federal Reserve Beige Book. Thursday is Thanksgiving and US markets will be closed; Friday is shortened. No Wednesday US equity close is asserted.",
+  "general": [
+    {
+      "id": "equities",
+      "label": "Equities",
+      "items": [
+        {
+          "headline": "AI selloff resumes before US data",
+          "detail": "AP reported Wednesday 25 November that US futures slipped after AI shares tumbled Tuesday, when the sector gave back much of Monday’s rebound. Reuters reporting put Nasdaq futures more than 2% lower amid renewed profitability concerns and tariff reports. At 13:00 GMT New York was 08:00 EST, before the 09:30 ET open.",
+          "why": "A second selloff after a rebound is a stronger test of whether investors are reducing AI exposure rather than simply covering shorts. The cash open, breadth and volume matter more than futures alone, especially before a holiday-shortened session.",
+          "watch": "Compare Wednesday cash breadth with Tuesday’s sector rotation and the PCE/GDP releases.",
+          "status": "new",
+          "as_of": "2026-11-25",
+          "sources": [
+            {
+              "title": "AP Wednesday global markets report",
+              "url": "https://apnews.com/article/10044b4fb55d3ff20fde9ba9e9acaab1",
+              "published": "2026-11-25"
+            },
+            {
+              "title": "Reuters report on Nasdaq futures",
+              "url": "https://new.streetinsider.com/Reuters/Nasdaq%2Bfutures%2Bslide%2Bover%2B2%25%2Bas%2BAI%2Blosses%2Bdeepen%3B%2Binflation%2Bdata%2Bin%2Bfocus/27397793.html",
+              "published": "2026-11-25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "treasuries_bonds",
+      "label": "Treasuries and bonds",
+      "items": [
+        {
+          "headline": "Rates remain the market’s second test",
+          "detail": "The latest official Treasury daily curve available at Wednesday’s cutoff was Tuesday 24 November; the Wednesday release had not yet posted. Market commentary kept higher rates and the December Fed decision in focus ahead of Wednesday’s PCE and GDP data. No Wednesday cash yield is asserted.",
+          "why": "A high-rate environment can pressure long-duration technology valuations even when the immediate catalyst is an AI spending debate. The PCE data and the next official curve will show whether the rate channel reinforces or offsets the equity move.",
+          "watch": "Read Wednesday PCE, GDP and the official Treasury curve before interpreting the stock selloff.",
+          "status": "new",
+          "as_of": "2026-11-25",
+          "sources": [
+            {
+              "title": "US Treasury daily par yield curve",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve",
+              "published": "2026-11-24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "credit",
+      "label": "Corporate credit",
+      "items": [
+        {
+          "headline": "Credit has not yet confirmed a broad funding break",
+          "detail": "The latest opened credit observation remains Libella’s 18 November US high-yield OAS at 3.47% and weaker CCC-B risk at 10.01%; these predate the Tuesday technology decline. No updated Wednesday spread was available by the cutoff.",
+          "why": "Equity volatility can rise before credit reprices, so the absence of a current spread is a data limitation rather than evidence of calm. Refinancing costs and new issuance will show whether AI financing concerns are becoming a wider funding problem.",
+          "watch": "Inspect Wednesday high-yield and investment-grade spreads and primary issuance.",
+          "status": "new",
+          "as_of": "2026-11-25",
+          "sources": [
+            {
+              "title": "Libella cross-asset report",
+              "url": "https://www.libella-group.com/morning/2026-11-25/",
+              "published": "2026-11-25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "currencies",
+      "label": "Currencies",
+      "items": [
+        {
+          "headline": "Dollar stays firm ahead of inflation data",
+          "detail": "AP reported the dollar at 159.42 yen on Wednesday, up from 159.26, while market commentary described the currency near high levels as investors waited for PCE. These are early Wednesday observations, not a full-day close.",
+          "why": "A firm dollar tightens financial conditions for dollar borrowers and can reduce translated overseas earnings. Its interaction with Treasury yields and the PCE surprise will matter more than the isolated yen quote.",
+          "watch": "Compare Wednesday closing FX with PCE, Treasury yields and December Fed pricing.",
+          "status": "new",
+          "as_of": "2026-11-25",
+          "sources": [
+            {
+              "title": "AP Wednesday global markets report",
+              "url": "https://apnews.com/article/10044b4fb55d3ff20fde9ba9e9acaab1",
+              "published": "2026-11-25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "headline": "Bitcoin trades below $59,000 at the cutoff",
+          "detail": "Coinbase Exchange’s BTC-USD one-minute candle for 12:59 to 13:00 UTC Wednesday 25 November closed at $58,580.61 on 5.49 BTC of reported volume. This exchange-specific minute is not a universal market price or a US equity close.",
+          "why": "Crypto remains open while US equities are pre-open. The lower print keeps risk appetite fragile, but one venue and one minute cannot establish leverage or fund flows. This is a dated observation rather than a completed market close, so the next release and later cash prices are required for confirmation.",
+          "watch": "Check multi-venue volume and compare the later US cash session with the crypto move.",
+          "status": "new",
+          "as_of": "2026-11-25",
+          "sources": [
+            {
+              "title": "Coinbase Exchange BTC-USD one-minute candle",
+              "url": "https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=60&start=2026-11-25T12%3A59%3A00Z&end=2026-11-25T13%3A00%3A00Z",
+              "published": "2026-11-25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commodities",
+      "label": "Commodities",
+      "items": [
+        {
+          "headline": "Oil falls while the data slate dominates",
+          "detail": "AP reported early Wednesday that oil prices fell alongside mixed global stocks. The latest opened market report described oil weakness as supply concerns outweighed demand optimism; no Wednesday settlement was available by the 13:00 GMT cutoff.",
+          "why": "Lower oil can reduce headline inflation pressure, but the effect depends on whether the move reflects supply or weaker demand. PCE and the dollar will help determine whether commodity weakness eases policy pressure.",
+          "watch": "Check Wednesday oil and gold settlements against real yields, the dollar and PCE.",
+          "status": "new",
+          "as_of": "2026-11-25",
+          "sources": [
+            {
+              "title": "AP Wednesday global markets report",
+              "url": "https://apnews.com/article/10044b4fb55d3ff20fde9ba9e9acaab1",
+              "published": "2026-11-25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "housing",
+      "label": "Housing",
+      "items": [
+        {
+          "headline": "Housing and GDP arrive before Thanksgiving",
+          "detail": "The Wednesday US calendar included October new-home sales and the second estimate of third-quarter GDP alongside PCE. The latest completed Census housing release available by the cutoff was October starts and permits dated 18 November.",
+          "why": "Housing is sensitive to mortgage rates, while GDP and consumption test whether growth can absorb high financing costs. Neither release is a completed Wednesday stock-market close. This is a dated observation rather than a completed market close, so the next release and later cash prices are required for confirmation.",
+          "watch": "Compare new-home sales, GDP and PCE with mortgage rates and the next Treasury curve.",
+          "status": "new",
+          "as_of": "2026-11-25",
+          "sources": [
+            {
+              "title": "US Census October residential construction",
+              "url": "https://www.census.gov/construction/nrc/pdf/newresconst.pdf",
+              "published": "2026-11-18"
+            },
+            {
+              "title": "US economic calendar for PCE and GDP",
+              "url": "https://www.usbank.com/content/dam/usbank/en/documents/pdfs/corporate-and-commercial-banking/econ-weekly-pdf-11-20-26.pdf",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us_policy",
+      "label": "US policy",
+      "items": [
+        {
+          "headline": "PCE and the Beige Book frame the December decision",
+          "detail": "The October PCE price index, second Q3 GDP estimate and Federal Reserve Beige Book were scheduled for Wednesday 25 November before Thanksgiving. The latest opened Michigan survey dated 20 November put final November sentiment at 51.5. No Wednesday PCE result is asserted at the 13:00 GMT cutoff.",
+          "why": "PCE is the inflation measure most directly tied to Fed policy, while the Beige Book supplies regional activity and pricing evidence. A survey and a market move cannot substitute for the realized data.",
+          "watch": "Read PCE, income/spending, GDP and the Beige Book before December rate expectations.",
+          "status": "new",
+          "as_of": "2026-11-25",
+          "sources": [
+            {
+              "title": "US economic calendar for PCE and GDP",
+              "url": "https://www.usbank.com/content/dam/usbank/en/documents/pdfs/corporate-and-commercial-banking/econ-weekly-pdf-11-20-26.pdf",
+              "published": "2026-11-20"
+            },
+            {
+              "title": "University of Michigan November sentiment",
+              "url": "https://isr.umich.edu/news-events/news-releases/sentiment-ticks-up-as-election-expected-to-usher-in-changes-to-economic-policy/",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "international": [
+    {
+      "id": "uk",
+      "label": "UK",
+      "items": [
+        {
+          "headline": "UK markets open into global technology weakness",
+          "detail": "AP reported early Wednesday that European shares were mixed while US-linked technology weakness weighed on global risk. The latest UK flash composite PMI was 52.3 in the 23 November release and October retail volumes rose 0.4% over three months. London markets were open at 13:00 GMT, so no Wednesday close is asserted.",
+          "why": "UK domestic activity remains positive but slower, while global technology exposure can move the index independently of local retail. Gilt yields and sterling will reveal whether the US data shifts UK rate expectations.",
+          "watch": "Check the UK close, gilt yields and the next inflation and labor releases.",
+          "status": "new",
+          "as_of": "2026-11-25",
+          "sources": [
+            {
+              "title": "AP Wednesday global markets report",
+              "url": "https://apnews.com/article/10044b4fb55d3ff20fde9ba9e9acaab1",
+              "published": "2026-11-25"
+            },
+            {
+              "title": "ONS October retail sales",
+              "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/october2026",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "euro_area",
+      "label": "Euro area",
+      "items": [
+        {
+          "headline": "Europe is mixed as the AI trade weakens",
+          "detail": "AP reported early Wednesday that Germany’s DAX was up 0.1% while global technology weakness pressured risk appetite. The latest euro-area flash composite PMI was 51.7 on 23 November, with Germany strong and France contracting. European cash markets were open at the cutoff.",
+          "why": "A mixed European session shows that local activity and global valuation shocks can pull in different directions. The PMI split and the day’s market response should be compared with the next inflation and ECB guidance.",
+          "watch": "Compare Wednesday European closes with yields, final PMIs and ECB communication.",
+          "status": "new",
+          "as_of": "2026-11-25",
+          "sources": [
+            {
+              "title": "AP Wednesday global markets report",
+              "url": "https://apnews.com/article/10044b4fb55d3ff20fde9ba9e9acaab1",
+              "published": "2026-11-25"
+            },
+            {
+              "title": "Reuters euro-area flash PMI report",
+              "url": "https://d2233.cms.socastsrm.com/2026/11/23/euro-zone-growth-holds-steady-but-frances-deepening-downturn-clouds-outlook-pmi-shows/",
+              "published": "2026-11-23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "items": [
+        {
+          "headline": "China faces tariff and technology pressure",
+          "detail": "Reuters reporting Wednesday said Asian stocks fell as fresh US tariff threats pressured sentiment, with chip-heavy markets bearing the brunt. RTHK’s latest completed Monday mainland close had Shanghai up 0.15% while Hong Kong slipped 0.1%; no Wednesday China close is asserted at the London cutoff.",
+          "why": "Tariff risk can affect export demand and supply chains separately from domestic stimulus. China’s market response and trade data should be read alongside technology restrictions rather than attributed to the AI selloff alone.",
+          "watch": "Check Wednesday China closes and the next trade, industrial-profit and policy releases.",
+          "status": "new",
+          "as_of": "2026-11-25",
+          "sources": [
+            {
+              "title": "Reuters report on Asian stocks and tariffs",
+              "url": "https://za.investing.com/news/economy-news/stocks-retreat-as-ai-rebound-stumbles-tariff-threats-loom-4595716",
+              "published": "2026-11-25"
+            },
+            {
+              "title": "RTHK Monday China and Hong Kong close",
+              "url": "https://news.rthk.hk/rthk/en/component/k2/1878944-20261123.htm",
+              "published": "2026-11-23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "japan",
+      "label": "Japan",
+      "items": [
+        {
+          "headline": "Japanese chip shares lead the regional decline",
+          "detail": "AP reported mixed global stocks and a stronger dollar on Wednesday; Tuesday’s regional rebound had already lifted Japan after its holiday. The latest October Japanese CPI was 2.3% year on year in the 20 November release. Tokyo’s Wednesday close was not available at the 13:00 GMT cutoff.",
+          "why": "Japan’s semiconductor exposure makes it sensitive to the AI valuation cycle, while inflation keeps domestic policy relevant. The index move needs to be separated from the yen and wage outlook.",
+          "watch": "Check the Tokyo close, yen, wages and the next Bank of Japan communication.",
+          "status": "new",
+          "as_of": "2026-11-25",
+          "sources": [
+            {
+              "title": "AP Wednesday global markets report",
+              "url": "https://apnews.com/article/10044b4fb55d3ff20fde9ba9e9acaab1",
+              "published": "2026-11-25"
+            },
+            {
+              "title": "Japan Statistics Bureau October CPI",
+              "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/index-z.html",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other_world",
+      "label": "Other world",
+      "items": [
+        {
+          "headline": "Asian chip markets retreat with US AI shares",
+          "detail": "Reuters reported early Wednesday that Asian stocks tumbled as the US AI rebound fizzled, with chip-heavy markets bearing the brunt. The report is a morning observation; local Wednesday closes were not all available at the London cutoff.",
+          "why": "Semiconductor concentration magnifies changes in AI spending expectations, but tariffs and local policy create separate channels. Completed local closes and export orders are needed before calling the move a demand shock.",
+          "watch": "Compare local closes with chip orders, exports and US cash-market breadth.",
+          "status": "new",
+          "as_of": "2026-11-25",
+          "sources": [
+            {
+              "title": "Reuters report on Asian stocks and tariffs",
+              "url": "https://za.investing.com/news/economy-news/stocks-retreat-as-ai-rebound-stumbles-tariff-threats-loom-4595716",
+              "published": "2026-11-25"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
