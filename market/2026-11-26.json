@@ -1,0 +1,303 @@
+{
+  "date": "2026-11-26",
+  "as_of_utc": "2026-11-26T13:00:00Z",
+  "headline": "Thanksgiving closure shifts the equity test to Europe and Asia",
+  "overview": "At the Thursday 26 November 13:00 GMT editorial cutoff, New York was 08:00 EST and the NYSE was closed all day for Thanksgiving. Wednesday 25 November is the latest completed US equity session; the S&P 500 fell 0.3%, the Nasdaq 0.6%, and the Dow rose 0.3% after a sharp intraday reversal. European cash trading was open and Asian markets had mostly closed, with AI-linked shares recovering. Friday brings a shortened NYSE session ending at 13:00 EST. Thursday futures and global quotes are observations, not a US cash close.",
+  "general": [
+    {
+      "id": "equities",
+      "label": "Equities",
+      "items": [
+        {
+          "headline": "US holiday, global AI shares rebound",
+          "detail": "The NYSE was closed for Thanksgiving on Thursday 26 November. AP reported early European gains of 1.9% for the DAX and 1.8% for the CAC 40, while Japan’s Nikkei closed 0.9% higher; Wednesday’s US S&P 500 had fallen 0.3% after losing as much as 3.2% intraday. Thursday US futures did not constitute a cash session.",
+          "why": "The rebound outside America tests whether Wednesday’s late US recovery changed risk appetite, but lighter holiday liquidity can exaggerate moves. Investors still need Friday’s shortened US cash breadth and volume to decide whether the AI correction is stabilising.",
+          "watch": "Compare Friday NYSE opening breadth and volume with Wednesday’s completed close, allowing for the 13:00 EST early close.",
+          "status": "new",
+          "as_of": "2026-11-26",
+          "sources": [
+            {
+              "title": "AP Thursday global markets",
+              "url": "https://apnews.com/article/stocks-markets-ai-oil-bonds-320cd8c9c286a7773797bf2f478ef314",
+              "published": "2026-11-26"
+            },
+            {
+              "title": "AP Wednesday US close",
+              "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-94fdb0ecb060ec65c0b02879ce0d2d09",
+              "published": "2026-11-25"
+            },
+            {
+              "title": "NYSE holiday and early close calendar",
+              "url": "https://www.nyse.com/trade/hours-calendars",
+              "published": "2026-11-26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "treasuries_bonds",
+      "label": "Treasuries and bonds",
+      "items": [
+        {
+          "headline": "US cash Treasuries shut for Thanksgiving",
+          "detail": "The NYSE calendar marked Thursday 26 November as Thanksgiving, and US stock and cash Treasury markets were closed for the holiday. Wednesday was the last completed US trading day. European government bond markets remained open, but their price action cannot be presented as a Thursday US Treasury close.",
+          "why": "The closure removes a major daily check on whether equity weakness is being offset by lower discount rates. European bond trading may hint at global direction, but the next US cash session is the valid comparison for US duration-sensitive shares.",
+          "watch": "Check Friday’s resumed Treasury yields against Wednesday’s curve and the shortened equity session.",
+          "status": "new",
+          "as_of": "2026-11-26",
+          "sources": [
+            {
+              "title": "NYSE Thanksgiving calendar",
+              "url": "https://www.nyse.com/trade/hours-calendars",
+              "published": "2026-11-26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "credit",
+      "label": "Corporate credit",
+      "items": [
+        {
+          "headline": "Credit has not yet confirmed a broad funding break",
+          "detail": "The latest opened credit observation remains Libella’s 18 November US high-yield OAS at 3.47% and weaker CCC-B risk at 10.01%; these predate the Tuesday technology decline. No updated Wednesday spread was available by the cutoff.",
+          "why": "Equity volatility can rise before credit reprices, so the absence of a current spread is a data limitation rather than evidence of calm. Refinancing costs and new issuance will show whether AI financing concerns are becoming a wider funding problem.",
+          "watch": "Inspect Wednesday high-yield and investment-grade spreads and primary issuance.",
+          "status": "carry_forward",
+          "as_of": "2026-11-25",
+          "sources": [
+            {
+              "title": "Libella cross-asset report",
+              "url": "https://www.libella-group.com/morning/2026-11-25/",
+              "published": "2026-11-25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "currencies",
+      "label": "Currencies",
+      "items": [
+        {
+          "headline": "Dollar edges up against yen while US cash closes",
+          "detail": "AP reported an early Thursday 26 November dollar quote of 159.30 yen, up from 159.16, while the euro was $1.0968 versus $1.0974. These are intraday foreign-exchange observations in an open global market, unlike the closed US cash equity and Treasury sessions.",
+          "why": "The currency move can affect imported inflation and overseas earnings translation, but a small holiday quote alone cannot establish a durable policy repricing. It needs to be read alongside Friday Treasury yields and the next central-bank signals.",
+          "watch": "Compare Friday dollar-yen and euro-dollar levels with reopened Treasury yields and any Fed commentary.",
+          "status": "new",
+          "as_of": "2026-11-26",
+          "sources": [
+            {
+              "title": "AP Thursday currency observations",
+              "url": "https://apnews.com/article/stocks-markets-ai-oil-bonds-320cd8c9c286a7773797bf2f478ef314",
+              "published": "2026-11-26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "headline": "Bitcoin trades below $59,000 at the cutoff",
+          "detail": "Coinbase Exchange’s BTC-USD one-minute candle for 12:59 to 13:00 UTC Wednesday 25 November closed at $58,580.61 on 5.49 BTC of reported volume. This exchange-specific minute is not a universal market price or a US equity close.",
+          "why": "Crypto remains open while US equities are pre-open. The lower print keeps risk appetite fragile, but one venue and one minute cannot establish leverage or fund flows. This is a dated observation rather than a completed market close, so the next release and later cash prices are required for confirmation.",
+          "watch": "Check multi-venue volume and compare the later US cash session with the crypto move.",
+          "status": "carry_forward",
+          "as_of": "2026-11-25",
+          "sources": [
+            {
+              "title": "Coinbase Exchange BTC-USD one-minute candle",
+              "url": "https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=60&start=2026-11-25T12%3A59%3A00Z&end=2026-11-25T13%3A00%3A00Z",
+              "published": "2026-11-25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commodities",
+      "label": "Commodities",
+      "items": [
+        {
+          "headline": "Oil rises as shipping risk returns",
+          "detail": "AP reported Brent crude up 0.5% to $91.09 a barrel and US crude up 1% to $84.51 in early Thursday trading. It cited renewed concern about vessels targeted near the Strait of Hormuz even as global oil supply continued to recover. These are intraday quotes, not settlement prices.",
+          "why": "A sustained oil rise would raise transport and production costs and could complicate the inflation outlook. The shipping risk and improving supply pull in opposite directions, so one holiday quote cannot settle the balance.",
+          "watch": "Check Thursday settlement prices, shipping incidents and Friday oil futures before attributing an inflation change.",
+          "status": "new",
+          "as_of": "2026-11-26",
+          "sources": [
+            {
+              "title": "AP Thursday oil and shipping report",
+              "url": "https://apnews.com/article/stocks-markets-ai-oil-bonds-320cd8c9c286a7773797bf2f478ef314",
+              "published": "2026-11-26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "housing",
+      "label": "Housing",
+      "items": [
+        {
+          "headline": "October new-home sales rise, with uncertainty around the estimate",
+          "detail": "The Census Bureau reported on Wednesday 25 November that October new single-family home sales ran at a seasonally adjusted annual rate of 701,000, 14.2% above September’s 614,000 estimate. The stated uncertainty interval was ±22.6 percentage points; inventory was 470,000 and 8.0 months of supply.",
+          "why": "The point estimate suggests stronger buying than September, but the wide sampling interval means a firm month-on-month increase is not established. The eight-month supply and higher mortgage rates remain relevant to builders’ pricing power and construction plans.",
+          "watch": "Compare the next monthly sales revision with mortgage applications, builder orders and the December 23 Census release.",
+          "status": "carry_forward",
+          "as_of": "2026-11-25",
+          "sources": [
+            {
+              "title": "US Census October new residential sales",
+              "url": "https://www.census.gov/construction/nrs/current/index.html",
+              "published": "2026-11-25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us_policy",
+      "label": "US policy",
+      "items": [
+        {
+          "headline": "Stronger GDP and sticky PCE complicate the Fed path",
+          "detail": "BEA’s Wednesday 25 November second estimate revised third-quarter real GDP growth to 4.3% annualised from 3.4%, led by investment and consumption revisions. Its separate October report put headline PCE inflation at 3.8% year on year and core PCE at 3.3%; the Fed Beige Book said eight districts grew slightly to moderately and price pressure remained moderate.",
+          "why": "Stronger output alongside inflation above target gives the Federal Reserve less room to ease in response to stock volatility alone. The Beige Book also described price-sensitive consumers, so the macro picture is stronger but uneven. These releases predate both Thanksgiving and Friday’s shortened stock session.",
+          "watch": "Track the next Fed decision, incoming inflation releases and the December 23 BEA revisions to test whether growth and price pressure persist.",
+          "status": "carry_forward",
+          "as_of": "2026-11-25",
+          "sources": [
+            {
+              "title": "BEA third-quarter GDP second estimate",
+              "url": "https://bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026",
+              "published": "2026-11-25"
+            },
+            {
+              "title": "BEA October personal income and PCE",
+              "url": "https://bea.gov/news/2026/personal-income-and-outlays-october-2026",
+              "published": "2026-11-25"
+            },
+            {
+              "title": "Federal Reserve November Beige Book",
+              "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202611-summary.htm",
+              "published": "2026-11-25"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "international": [
+    {
+      "id": "uk",
+      "label": "UK",
+      "items": [
+        {
+          "headline": "UK shares rise while US market is closed",
+          "detail": "AP reported Britain’s FTSE 100 up 1.6% to 10,591.83 in early Thursday 26 November trading, alongside stronger continental shares. The London cash market was open at the 13:00 GMT cutoff, so this was an intraday reading rather than a completed UK close.",
+          "why": "The gain shows the global AI recovery was not confined to technology-heavy Asian markets, though UK sector composition differs from the Nasdaq. A full-session UK close and Friday US follow-through are needed to test persistence.",
+          "watch": "Compare Thursday FTSE closing breadth with Friday’s shortened US cash session and sterling moves.",
+          "status": "new",
+          "as_of": "2026-11-26",
+          "sources": [
+            {
+              "title": "AP Thursday European markets",
+              "url": "https://apnews.com/article/stocks-markets-ai-oil-bonds-320cd8c9c286a7773797bf2f478ef314",
+              "published": "2026-11-26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "euro_area",
+      "label": "Euro area",
+      "items": [
+        {
+          "headline": "Euro-area shares join the global rebound",
+          "detail": "AP reported Germany’s DAX up 1.9% and France’s CAC 40 up 1.8% in early Thursday 26 November trading. Both exchanges remained open while US stocks were closed for Thanksgiving, and the readings preceded the European cash close.",
+          "why": "The rebound may ease pressure on European technology and industrial valuations, but it does not erase tariff risk or prove a sustained rotation. Friday’s closing levels and bond yields can distinguish a thin holiday rally from broader repricing.",
+          "watch": "Check Thursday and Friday European closing breadth, bund yields and tariff developments.",
+          "status": "new",
+          "as_of": "2026-11-26",
+          "sources": [
+            {
+              "title": "AP Thursday European markets",
+              "url": "https://apnews.com/article/stocks-markets-ai-oil-bonds-320cd8c9c286a7773797bf2f478ef314",
+              "published": "2026-11-26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "items": [
+        {
+          "headline": "Hong Kong rises while Shanghai barely changes",
+          "detail": "AP recorded Thursday 26 November’s Hang Seng up 1.2% to 22,226.88 while the Shanghai Composite added less than 0.1% to 3,476.88. The divergent closes came as investors watched US tariff plans affecting China and other trading partners.",
+          "why": "The difference between Hong Kong and mainland benchmarks warns against treating regional relief as a uniform China demand signal. Policy detail and onshore participation are needed to judge whether tariff concerns are being absorbed.",
+          "watch": "Watch Friday onshore and Hong Kong breadth plus any dated tariff or market-support announcement.",
+          "status": "new",
+          "as_of": "2026-11-26",
+          "sources": [
+            {
+              "title": "AP Thursday Asian markets",
+              "url": "https://apnews.com/article/stocks-markets-ai-oil-bonds-320cd8c9c286a7773797bf2f478ef314",
+              "published": "2026-11-26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "japan",
+      "label": "Japan",
+      "items": [
+        {
+          "headline": "Nikkei rebounds as chip names recover",
+          "detail": "AP reported Japan’s Nikkei 225 closed 0.9% higher at 57,499.16 on Thursday 26 November. SoftBank rose 7.3%, Kioxia 12.6% and Tokyo Electron 0.6% in the same session as Asian AI-linked shares recovered from prior weakness.",
+          "why": "The move is a cross-market test of AI risk appetite while US cash equities are shut, but the spread between individual chip names shows the rally is not a single fundamental signal. Friday’s US reopening and yen level matter.",
+          "watch": "Compare Friday Nikkei and semiconductor breadth with the reopened US technology session and dollar-yen.",
+          "status": "new",
+          "as_of": "2026-11-26",
+          "sources": [
+            {
+              "title": "AP Thursday Japan close",
+              "url": "https://apnews.com/article/stocks-markets-ai-oil-bonds-320cd8c9c286a7773797bf2f478ef314",
+              "published": "2026-11-26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other_world",
+      "label": "Other world",
+      "items": [
+        {
+          "headline": "Korea and Taiwan recover after AI selloff",
+          "detail": "AP said South Korea’s Kospi closed 0.3% higher on Thursday after a 6.2% drop Wednesday, and Taiwan’s Taiex gained 2.5% while TSMC edged 0.2% lower. Australia’s ASX 200 rose 0.8% and India’s Sensex 0.5%.",
+          "why": "The mixed semiconductor participation matters because index relief may hide continuing pressure in individual suppliers. A second day of breadth and orders would be better evidence of restored AI investment confidence.",
+          "watch": "Check Friday Korean and Taiwanese chip breadth and the US semiconductor response.",
+          "status": "new",
+          "as_of": "2026-11-26",
+          "sources": [
+            {
+              "title": "AP Thursday global markets",
+              "url": "https://apnews.com/article/stocks-markets-ai-oil-bonds-320cd8c9c286a7773797bf2f478ef314",
+              "published": "2026-11-26"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

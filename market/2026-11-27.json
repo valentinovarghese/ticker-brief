@@ -1,0 +1,348 @@
+{
+  "date": "2026-11-27",
+  "as_of_utc": "2026-11-27T13:00:00Z",
+  "headline": "Global AI rebound faces a shortened New York test",
+  "overview": "At the Friday 27 November 13:00 GMT editorial cutoff, New York was 08:00 EST and the NYSE was pre-open after Thursday’s Thanksgiving closure. Friday’s US cash session will end early at 13:00 EST, or 18:00 GMT. The latest completed US equity session remains Wednesday 25 November, when the Nasdaq fell 0.6% despite a late recovery. Friday Asian closes and early European gains show a broad AI-linked rebound; Nasdaq futures were also higher, but no Friday US cash close exists. Higher Treasury yields and oil prices create separate tests for the rally.",
+  "general": [
+    {
+      "id": "equities",
+      "label": "Equities",
+      "items": [
+        {
+          "headline": "AI rebound runs ahead of shortened US opening",
+          "detail": "Reuters reported Friday 27 November Nasdaq futures up 2.8% and S&P 500 futures up 2% while European stocks gained about 1%; AP reported Japan’s Nikkei closed 2.1% higher and China’s Shanghai Composite 3.7% higher. New York was still pre-open at 13:00 GMT after Thursday’s holiday.",
+          "why": "The cross-region breadth gives the rebound more substance than one futures quote, but holiday-shortened US volume may make price discovery uneven. Wednesday’s completed Nasdaq fell 0.6%; the US cash open, not futures, will test whether investors re-enter AI shares.",
+          "watch": "Compare Friday NYSE cash breadth, semiconductor leadership and volume before its 13:00 EST early close.",
+          "status": "new",
+          "as_of": "2026-11-27",
+          "sources": [
+            {
+              "title": "Reuters Friday global markets",
+              "url": "https://www.lse.co.uk/news/global-markets-global-stocks-rally-on-ai-rebound-after-bruising-month-while-treasuries-dip-lxwy30nwxras5by.html",
+              "published": "2026-11-27"
+            },
+            {
+              "title": "AP Friday global markets",
+              "url": "https://apnews.com/article/stock-markets-tariffs-ai-profits-energy-c7ef10c1dbc5fa09668bd4fe0729c613",
+              "published": "2026-11-27"
+            },
+            {
+              "title": "NYSE early close calendar",
+              "url": "https://www.nyse.com/trade/hours-calendars",
+              "published": "2026-11-27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "treasuries_bonds",
+      "label": "Treasuries and bonds",
+      "items": [
+        {
+          "headline": "Ten-year yield rises as safe-haven demand fades",
+          "detail": "Reuters reported the US 10-year Treasury yield up 7 basis points to 4.92% on Friday 27 November, as bonds gave back gains made during the equity selloff. US cash Treasury markets were shut Thursday for Thanksgiving, making Friday the first active comparison after Wednesday.",
+          "why": "A rising discount rate can restrain high-duration AI valuations even as equities recover. The yield move also complicates a simple risk-on reading: stronger growth and renewed inflation expectations can each raise yields for different reasons.",
+          "watch": "Compare Friday Treasury closing yields with the shortened equity session and the next inflation data.",
+          "status": "new",
+          "as_of": "2026-11-27",
+          "sources": [
+            {
+              "title": "Reuters Friday Treasury report",
+              "url": "https://www.lse.co.uk/news/global-markets-global-stocks-rally-on-ai-rebound-after-bruising-month-while-treasuries-dip-lxwy30nwxras5by.html",
+              "published": "2026-11-27"
+            },
+            {
+              "title": "HSBC Thanksgiving market review",
+              "url": "https://www.hsbc.co.uk/wealth/insights/asset-class-views/investment-daily/id/",
+              "published": "2026-11-27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "credit",
+      "label": "Corporate credit",
+      "items": [
+        {
+          "headline": "Nvidia rating watch sharpens the credit test",
+          "detail": "Reuters reported Friday that S&P had put Nvidia’s credit rating on watch for a possible downgrade, while the company’s shares remained volatile. The last opened broad high-yield spread observation in this publication predates the latest AI selloff; no fresh market-wide spread is asserted here.",
+          "why": "A rating watch is a company-specific funding signal and cannot be treated as a general credit-market break. It does, however, make bond pricing and spread breadth important tests of whether AI governance and spending concerns are crossing from equity into debt.",
+          "watch": "Read the dated S&P rating notice and Friday investment-grade and high-yield spreads before concluding credit contagion.",
+          "status": "new",
+          "as_of": "2026-11-27",
+          "sources": [
+            {
+              "title": "Reuters Friday cross-asset and Nvidia report",
+              "url": "https://www.lse.co.uk/news/global-markets-global-stocks-rally-on-ai-rebound-after-bruising-month-while-treasuries-dip-lxwy30nwxras5by.html",
+              "published": "2026-11-27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "currencies",
+      "label": "Currencies",
+      "items": [
+        {
+          "headline": "Dollar steadies near recent highs",
+          "detail": "Reuters reported the US dollar broadly flat on Friday 27 November but heading for a third monthly gain, while AP quoted 159.43 yen per dollar and $1.0967 per euro in early trading. These are intraday readings, not a completed FX close.",
+          "why": "The dollar’s firmness can tighten conditions for foreign dollar borrowers and pressure translated US earnings. Friday’s higher Treasury yield and near-term Fed expectations are plausible channels, but the currency quote alone cannot establish causality.",
+          "watch": "Compare Friday final dollar-yen and euro-dollar readings with Treasury yields and the December Fed path.",
+          "status": "new",
+          "as_of": "2026-11-27",
+          "sources": [
+            {
+              "title": "Reuters Friday dollar report",
+              "url": "https://www.lse.co.uk/news/global-markets-global-stocks-rally-on-ai-rebound-after-bruising-month-while-treasuries-dip-lxwy30nwxras5by.html",
+              "published": "2026-11-27"
+            },
+            {
+              "title": "AP Friday FX quotes",
+              "url": "https://apnews.com/article/stock-markets-tariffs-ai-profits-energy-c7ef10c1dbc5fa09668bd4fe0729c613",
+              "published": "2026-11-27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "headline": "Bitcoin recovers amid the wider risk rebound",
+          "detail": "LGT’s Friday 27 November market note reported bitcoin up about 2% near $61,800 while gold and equities also recovered. The publication’s previous Coinbase one-minute observation was $58,580.61 at 13:00 GMT on Wednesday 25 November; the two prices are from different sources and times.",
+          "why": "The improvement is consistent with a broader risk rebound but does not identify leverage, fund flows or a company catalyst. Crypto trades continuously through the US holiday, so its move is an early signal that still needs multi-venue confirmation.",
+          "watch": "Check Friday multi-venue BTC prices and volume alongside the shortened US equity session.",
+          "status": "new",
+          "as_of": "2026-11-27",
+          "sources": [
+            {
+              "title": "LGT Friday cross-asset note",
+              "url": "https://www.lgt.com/li-en/market-view/china-s-support-plans-lift-asian-stocks-388920",
+              "published": "2026-11-27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commodities",
+      "label": "Commodities",
+      "items": [
+        {
+          "headline": "Oil and gold climb together",
+          "detail": "Reuters reported Brent crude near a two-week high around $98 a barrel Friday 27 November on renewed supply concern. LGT reported spot gold up 2.3% to $3,649.25, while AP quoted US crude at $86.05 and Brent at $97.62 in early trading. These are intraday reports, not settlement prices.",
+          "why": "Oil strength may lift inflation expectations even as equity sentiment improves, and gold’s rebound shows demand for hedges has not vanished. The two assets can rise for different reasons, so follow-up settlement and shipping evidence matter.",
+          "watch": "Check Friday oil settlements, shipping developments and gold’s next session against Treasury yields.",
+          "status": "new",
+          "as_of": "2026-11-27",
+          "sources": [
+            {
+              "title": "Reuters Friday oil report",
+              "url": "https://www.lse.co.uk/news/global-markets-global-stocks-rally-on-ai-rebound-after-bruising-month-while-treasuries-dip-lxwy30nwxras5by.html",
+              "published": "2026-11-27"
+            },
+            {
+              "title": "LGT Friday gold report",
+              "url": "https://www.lgt.com/li-en/market-view/china-s-support-plans-lift-asian-stocks-388920",
+              "published": "2026-11-27"
+            },
+            {
+              "title": "AP Friday oil quotes",
+              "url": "https://apnews.com/article/stock-markets-tariffs-ai-profits-energy-c7ef10c1dbc5fa09668bd4fe0729c613",
+              "published": "2026-11-27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "housing",
+      "label": "Housing",
+      "items": [
+        {
+          "headline": "October new-home sales rise, with uncertainty around the estimate",
+          "detail": "The Census Bureau reported on Wednesday 25 November that October new single-family home sales ran at a seasonally adjusted annual rate of 701,000, 14.2% above September’s 614,000 estimate. The stated uncertainty interval was ±22.6 percentage points; inventory was 470,000 and 8.0 months of supply.",
+          "why": "The point estimate suggests stronger buying than September, but the wide sampling interval means a firm month-on-month increase is not established. The eight-month supply and higher mortgage rates remain relevant to builders’ pricing power and construction plans.",
+          "watch": "Compare the next monthly sales revision with mortgage applications, builder orders and the December 23 Census release.",
+          "status": "carry_forward",
+          "as_of": "2026-11-25",
+          "sources": [
+            {
+              "title": "US Census October new residential sales",
+              "url": "https://www.census.gov/construction/nrs/current/index.html",
+              "published": "2026-11-25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us_policy",
+      "label": "US policy",
+      "items": [
+        {
+          "headline": "Stronger GDP and sticky PCE complicate the Fed path",
+          "detail": "BEA’s Wednesday 25 November second estimate revised third-quarter real GDP growth to 4.3% annualised from 3.4%, led by investment and consumption revisions. Its separate October report put headline PCE inflation at 3.8% year on year and core PCE at 3.3%; the Fed Beige Book said eight districts grew slightly to moderately and price pressure remained moderate.",
+          "why": "Stronger output alongside inflation above target gives the Federal Reserve less room to ease in response to stock volatility alone. The Beige Book also described price-sensitive consumers, so the macro picture is stronger but uneven. These releases predate both Thanksgiving and Friday’s shortened stock session.",
+          "watch": "Track the next Fed decision, incoming inflation releases and the December 23 BEA revisions to test whether growth and price pressure persist.",
+          "status": "carry_forward",
+          "as_of": "2026-11-25",
+          "sources": [
+            {
+              "title": "BEA third-quarter GDP second estimate",
+              "url": "https://bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026",
+              "published": "2026-11-25"
+            },
+            {
+              "title": "BEA October personal income and PCE",
+              "url": "https://bea.gov/news/2026/personal-income-and-outlays-october-2026",
+              "published": "2026-11-25"
+            },
+            {
+              "title": "Federal Reserve November Beige Book",
+              "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202611-summary.htm",
+              "published": "2026-11-25"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "international": [
+    {
+      "id": "uk",
+      "label": "UK",
+      "items": [
+        {
+          "headline": "London advances with miners leading",
+          "detail": "Alliance News reported Friday 27 November the FTSE 100 up 0.7% to 10,680.26 in morning trading, with the FTSE 250 also up 0.7%. Gold and base-metal miners participated as precious metals rose. These readings preceded the London cash close.",
+          "why": "UK mining strength links the equity rally to commodity prices as well as global AI sentiment. That mix can help the index while adding inflation pressure elsewhere, so sector breadth and the completed UK close matter.",
+          "watch": "Compare Friday FTSE closing breadth and miner performance with gold, oil and sterling.",
+          "status": "new",
+          "as_of": "2026-11-27",
+          "sources": [
+            {
+              "title": "Alliance News Friday London open",
+              "url": "https://www.lse.co.uk/news/london-market-open-europe-asia-power-higher-before-new-york-test-97y2ishyw3biaje.html",
+              "published": "2026-11-27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "euro_area",
+      "label": "Euro area",
+      "items": [
+        {
+          "headline": "Continental stocks rise as rates and tariffs loom",
+          "detail": "AP reported early Friday 27 November Germany’s DAX up 0.7% and France’s CAC 40 up 0.3%, while Reuters described European stocks about 1% higher after a strong Thursday. France and Spain reported softer consumer inflation readings, according to Alliance News.",
+          "why": "The rebound offers relief after technology weakness, but higher bond yields and planned US tariffs remain valuation and demand risks. Intraday index gains do not show whether exporters or domestic sectors are driving the move.",
+          "watch": "Check Friday European closes, bund yields and tariff details before calling the rebound durable.",
+          "status": "new",
+          "as_of": "2026-11-27",
+          "sources": [
+            {
+              "title": "AP Friday Europe report",
+              "url": "https://apnews.com/article/stock-markets-tariffs-ai-profits-energy-c7ef10c1dbc5fa09668bd4fe0729c613",
+              "published": "2026-11-27"
+            },
+            {
+              "title": "Reuters Friday Europe report",
+              "url": "https://www.lse.co.uk/news/global-markets-global-stocks-rally-on-ai-rebound-after-bruising-month-while-treasuries-dip-lxwy30nwxras5by.html",
+              "published": "2026-11-27"
+            },
+            {
+              "title": "Alliance News Friday inflation and markets",
+              "url": "https://www.lse.co.uk/news/london-market-open-europe-asia-power-higher-before-new-york-test-97y2ishyw3biaje.html",
+              "published": "2026-11-27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "items": [
+        {
+          "headline": "Shanghai jumps on market-support pledge",
+          "detail": "AP reported Friday 27 November Shanghai’s Composite closed 3.7% higher at 3,606.49 after Chinese officials signalled stronger stock-market support, including state-backed funds. LGT said the CSI 300 gained 3.9% after reaching a 17-month low in the prior session, but noted no timetable or scale for the measures.",
+          "why": "A policy pledge can reverse risk aversion quickly, yet its durable effect depends on actual deployment and whether earnings improve. The absence of a timetable makes follow-through and funding details more useful than the first-day index jump.",
+          "watch": "Watch the next official market-support announcement, onshore volume and Monday equity follow-through.",
+          "status": "new",
+          "as_of": "2026-11-27",
+          "sources": [
+            {
+              "title": "AP Friday China markets",
+              "url": "https://apnews.com/article/stock-markets-tariffs-ai-profits-energy-c7ef10c1dbc5fa09668bd4fe0729c613",
+              "published": "2026-11-27"
+            },
+            {
+              "title": "LGT Friday China policy note",
+              "url": "https://www.lgt.com/li-en/market-view/china-s-support-plans-lift-asian-stocks-388920",
+              "published": "2026-11-27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "japan",
+      "label": "Japan",
+      "items": [
+        {
+          "headline": "Nikkei climbs as Tokyo inflation firms",
+          "detail": "AP reported Japan’s Nikkei 225 closed 2.1% higher at 58,711.11 Friday 27 November. LGT said Tokyo core consumer inflation rose to 2.9% year on year in November from 2.6% in October, keeping Bank of Japan tightening expectations in view.",
+          "why": "Chip demand optimism is helping Japanese shares even as firmer inflation could lift domestic rates and alter the yen. That tension makes the next BOJ signal and sector breadth more informative than the headline index alone.",
+          "watch": "Compare Monday Japanese chip breadth and yen moves with the next BOJ communication and national inflation data.",
+          "status": "new",
+          "as_of": "2026-11-27",
+          "sources": [
+            {
+              "title": "AP Friday Japan close",
+              "url": "https://apnews.com/article/stock-markets-tariffs-ai-profits-energy-c7ef10c1dbc5fa09668bd4fe0729c613",
+              "published": "2026-11-27"
+            },
+            {
+              "title": "LGT Friday Tokyo CPI report",
+              "url": "https://www.lgt.com/li-en/market-view/china-s-support-plans-lift-asian-stocks-388920",
+              "published": "2026-11-27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other_world",
+      "label": "Other world",
+      "items": [
+        {
+          "headline": "Korean chips drive the wider Asian rally",
+          "detail": "AP reported South Korea’s Kospi up 4.3% to 4,915.68 Friday 27 November and Australia’s ASX 200 up 0.8%; Hong Kong’s Hang Seng climbed 2.1%. Reuters put its Asia ex-Japan benchmark up 1.9%, indicating a rebound beyond one local market.",
+          "why": "Korea’s outsized gain makes semiconductor exposure central to the regional move, while Australia and Hong Kong show broader participation. Whether chip orders and US cash trading confirm the rally remains unresolved at the London cutoff.",
+          "watch": "Compare the next Korean and Taiwanese sessions with Friday US semiconductor breadth and any dated orders data.",
+          "status": "new",
+          "as_of": "2026-11-27",
+          "sources": [
+            {
+              "title": "AP Friday Asia closes",
+              "url": "https://apnews.com/article/stock-markets-tariffs-ai-profits-energy-c7ef10c1dbc5fa09668bd4fe0729c613",
+              "published": "2026-11-27"
+            },
+            {
+              "title": "Reuters Friday Asia markets",
+              "url": "https://www.lse.co.uk/news/global-markets-global-stocks-rally-on-ai-rebound-after-bruising-month-while-treasuries-dip-lxwy30nwxras5by.html",
+              "published": "2026-11-27"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
